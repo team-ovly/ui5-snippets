@@ -1,0 +1,60 @@
+{
+    "sap.m.Input": {
+        "prefix": "!5-input",
+        "body": [
+            "<Input ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.Input"
+    },
+    "sap.m.Input-properties": {
+        "prefix": "!5-input-properties",
+        "body": [
+            "$1autocomplete=\"true\"",
+            "dateFormat=\"YYYY-MM-dd\"",
+            "description=\"\"",
+            "enableSuggestionsHighlighting=\"true\"",
+            "fieldWidth=\"50%\"",
+            "filterSuggests=\"true\"",
+            "maxLength=\"0\"",
+            "maxSuggestionWidth=\"\"",
+            "selectedKey=\"\"",
+            "showSuggestion=\"false\"",
+            "showTableSuggestionValueHelp=\"true\"",
+            "showValueHelp=\"false\"",
+            "startSuggestion=\"1\"",
+            "suggestionRowValidator=\"\"",
+            "textFormatMode=\"Value\"",
+            "textFormatter=\"\"",
+            "type=\"Text\"",
+            "valueHelpIconSrc=\"sap-icon://value-help\"",
+            "valueHelpOnly=\"false\"",
+            "valueLiveUpdate=\"false\"$2",
+        ],
+        "description": "sap.m.Input with non-inherited properties"
+    },
+    "sap.m.Input-aggregations": {
+        "prefix": "!5-input-aggregations",
+        "body": [
+            "$1<suggestionColumns>",
+            "\t<!-- <sap.m.Column /> -->",
+            "</suggestionColumns>",
+            "<suggestionItems>",
+            "\t<!-- <core:Item /> -->",
+            "</suggestionItems>",
+            "<suggestionRows>",
+            "\t<!-- <ColumnListItem /> -->",
+            "</suggestionRows>$2"
+        ],
+        "description": "sap.m.Input non-inherited aggreagations"
+    },
+    "sap.m.Input-events": {
+        "prefix": "!5-input-events",
+        "body": [
+            "$1selectedItem=\".on${3:SelectedItem}\"",
+            "selectedRow=\".on${4:SelectedRow}\"$2",
+        ],
+        "description": "sap.m.Input non-inherited events"
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "name": "ovly-ui5-snippets",
+    "displayName": "ovly-ui5-snippets",
+    "description": "SAPUI5 snippets by OVLY",
+    "repository": {
+        "url": "https://github.com/team-ovly/ui5-snippets"
+    },
+    "publisher": "OVLY",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.52.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "json",
+                "path": "./snippets/descriptor/app-manifest-1.71.code-snippets"
+            },
+            {
+                "language": "xml",
+                "path": "./snippets/sap.m/Input.code-snippets"
+            }
+        ]
+    }
+}

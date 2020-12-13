@@ -1,0 +1,43 @@
+{
+    "App-manifest-version-1.71": {
+        "prefix": "!5-manifest-app-version-1.71",
+        "body": [
+            "{",
+            "\t\"_version\": \"1.17.0\",",
+            "\t\"start_url\": \"\",$1",
+            "}"
+        ],
+        "description": "App manifest - 1.71 - version"
+    },
+    "App-manifest-sap.app-1.71": {
+        "prefix": "!5-manifest-app-version-1.71",
+        "body": [
+            "\"sap.app\": {",
+            "\t\"id\": \"$1\",",
+            "\t\"type\": \"application\",",
+            "\t\"i18n\": \"i18n/i18n.properties\",",
+            "\t\"applicationVersion\": \"1.0.0\",",
+            "\t\"embeds\":[],",
+            "\t\"embeddedBy\":\"\",",
+            "\t\"title\": \"{{appTitle}}\",",
+            "\t\"subTitle\": \"{{appSubTitle}}\",",
+            "\t\"shortTitle\": \"{{appShortTitle}}\",",
+            "\t\"info\": \"{{appInfo}}\",",
+            "\t\"description\": \"{{appDescription}}\",",
+            "\t\"tags\": \"[{{appKeyword1}},{{appKeyword2}}\",",
+            "\t\"ach\": \"SAP-COMPONENT\",",
+            "\t\"dataSources\": {",
+            "\t\t\"uri\": \"/sap/opu/odata/sap/ZGATEWAY_SRV\",",
+            "\t\t\"type\": \"OData\",",
+            "\t\t\"settings\": {",
+            "\t\t\t\"odataVersion\": \"2.0\",",
+            "\t\t\t\"localUri\": \"localService/metadata.xml\",",
+            "\t\t\t\"annotations\": [\"annotationDataSource\"]",
+            "\t\t}",
+            "\t},",
+            "\t\"offline\": false",
+            "\t}"
+        ],
+        "description": "App manifest - 1.71 - sap.app"
+    },
+}
