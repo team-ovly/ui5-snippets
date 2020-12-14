@@ -1,0 +1,162 @@
+{
+    "bootstrap-src-local": {
+        "prefix": "!5-bootstrap-src-local",
+        "body": [
+            "resources/sap-ui-core.js"
+        ],
+        "description": "bootstrap source: local"
+    },
+    "bootstrap-src-cdn-ui5": {
+        "prefix": "!5-bootstrap-src-cdn-ui5",
+        "body": [
+            "https://ui5.sap.com/resources/sap-ui-core.js"
+        ],
+        "description": "bootstrap source: SAPUI5 CDN - latest version"
+    },
+    "bootstrap-src-cdn-ui5-version": {
+        "prefix": "!5-bootstrap-src-cdn-ui5-specific-version",
+        "body": [
+            "https://ui5.sap.com/${1:1.71.24/}resources/sap-ui-core.js"
+        ],
+        "description": "bootstrap source: UI5 CDN on specific version"
+    },
+    "bootstrap-src-cdn-sapui5": {
+        "prefix": "!5-bootstrap-src-cdn-sapui5",
+        "body": [
+            "https://sapui5.netweaver.ondemand.com/resources/sap-ui-core.js"
+        ],
+        "description": "bootstrap source: SAPUI5 CDN - latest version"
+    },
+    "bootstrap-src-cdn-openui5": {
+        "prefix": "!5-bootstrap-src-cdn-openui5",
+        "body": [
+            "https://openui5.hana.ondemand.com/resources/sap-ui-core.js"
+        ],
+        "description": "bootstrap source: OpenUI5 CDN - latest version"
+    },
+    "bootstrap-src-cdn-openui5-nigthly": {
+        "prefix": "!5-bootstrap-src-cdn-openui5-nightly",
+        "body": [
+            "https://openui5nightly.hana.ondemand.com/resources/sap-ui-core.js"
+        ],
+        "description": "bootstrap source: OpenUI5 Nightly CDN - latest version"
+    },
+    "bootstrap-theme-fiori3-dark": {
+        "prefix": "!5-bootstrap-theme-fiori3-dark",
+        "body": [
+            "sap_fiori_3_dark"
+        ],
+        "description": "bootstrap theme: Fiori 3 - Dark"
+    },
+    "bootstrap-theme-fiori3": {
+        "prefix": "!5-bootstrap-theme-fiori3",
+        "body": [
+            "sap_fiori_3"
+        ],
+        "description": "bootstrap theme: Fiori 3"
+    },
+    "bootstrap-theme-fiori3-high-contrast-black": {
+        "prefix": "!5-bootstrap-theme-fiori3-high-contrast-black",
+        "body": [
+            "sap_fiori_3_hcb"
+        ],
+        "description": "bootstrap theme: Fiori 3 - High contrast black"
+    },
+    "bootstrap-theme-fiori3-high-contrast-white": {
+        "prefix": "!5-bootstrap-theme-fiori3-high-contrast-white",
+        "body": [
+            "sap_fiori_3_hcw"
+        ],
+        "description": "bootstrap theme: Fiori 3 - High contrast white"
+    },
+    "bootstrap-theme-fiori2-belize": {
+        "prefix": "!5-bootstrap-theme-fiori2-belize",
+        "body": [
+            "sap_belize"
+        ],
+        "description": "bootstrap theme: Fiori 2 - Belize"
+    },
+    "bootstrap-theme-fiori2-belize-plus": {
+        "prefix": "!5-bootstrap-theme-fiori2-belize",
+        "body": [
+            "sap_belize_plus"
+        ],
+        "description": "bootstrap theme: Fiori 2 - Belize Plus (dark)"
+    },
+    "bootstrap-theme-fiori2-belize-high-contrast-black": {
+        "prefix": "!5-bootstrap-theme-fiori2-belize-high-contrast-black",
+        "body": [
+            "sap_belize_hcb"
+        ],
+        "description": "bootstrap theme: Fiori 2 - Belize high contrast black"
+    },
+    "bootstrap-theme-fiori2-high-contrast-white": {
+        "prefix": "!5-bootstrap-theme-fiori2-belize-high-contrast-white",
+        "body": [
+            "sap_belize_hcw"
+        ],
+        "description": "bootstrap theme: Fiori 2 - Belize high contrast white"
+    },
+    "bootstrap-theme-fiori1-bluecrystal": {
+        "prefix": "!5-bootstrap-theme-fiori1-bluecrystal",
+        "body": [
+            "sap_bluecrystal"
+        ],
+        "description": "bootstrap theme: Fiori 1 - Bluecrystal"
+    },
+    "bootstrap-theme-fiori1-high-contrast-black": {
+        "prefix": "!5-bootstrap-theme-fiori1-belize",
+        "body": [
+            "sap_hcb"
+        ],
+        "description": "bootstrap theme: Fiori 1 - High contrast black"
+    },
+    "bootstrap-local": {
+        "prefix": "!5-bootstrap-local",
+        "body": [
+            "<script id=\"sap-ui-bootstrap\" ",
+            "     type=\"text/javascript\"",
+            "     src=\"resources/sap-ui-core.js\"",
+            "     data-sap-ui-theme=\"${1|sap_fiori_3,sap_belize}\"",
+            "     data-sap-ui-libs=\"sap.m\"",
+            "     data-sap-ui-compatVersion=\"edge\"",
+            "     data-sap-ui-onInit=\"module:${2:my/app/}\"",
+            "     data-sap-ui-resourceRoots='{\"${3:my.app}\": \"./\"}'",
+            "</script>"
+        ],
+        "description": "bootstrap - local UI5"
+    },
+    "index-bootstrap-with-component": {
+        "prefix": "!5-index-bootstrap-component",
+        "body": [
+            "<!DOCTYPE html>",
+            "<html>",
+            "<head>",
+            "\t<meta charset=\"utf-8\">",
+            "\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
+            "\t<title>${1:!5-bootstrap-src-}<\/title>",
+            "\t<script",
+            "\t\tid=\"sap-ui-bootstrap\"",
+            "\t\tsrc=\"${1:resources\/sap-ui-core.js}\"",
+            "\t\tdata-sap-ui-theme=\"sap_belize\"",
+            "\t\tdata-sap-ui-resourceroots='{",
+            "\t\t\t\"${2:my.app}\": \".\/\"",
+            "\t\t}'",
+            "\t\tdata-sap-ui-oninit=\"module:${3:my\/app}\"",
+            "\t\tdata-sap-ui-compatVersion=\"edge\"",
+            "\t\tdata-sap-ui-async=\"true\">",
+            "\t<\/script>",
+            "<\/head>",
+            "<body class=\"sapUiBody\" id=\"content\">",
+            "\t<div ",
+            "\t\tdata-sap-ui-component ",
+            "\t\tdata-name=\"${2:my.app}\" ",
+            "\t\tdata-id=\"container\" ",
+            "\t\tdata-settings='{\"id\" : \"${4:app}\"}'>",
+            "\t<\/div>",
+            "<\/body>",
+            "<\/html>"
+        ],
+        "description": "index with bootstrap and component load"
+    }
+}
