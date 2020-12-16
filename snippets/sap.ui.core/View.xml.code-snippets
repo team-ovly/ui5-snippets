@@ -1,0 +1,14 @@
+{
+    "Emtpy": {
+        "prefix": "!5-view-empty",
+        "body": [
+            "<mvc:View ",
+            "\tcontrollerName=\"\"",
+            "\tdisplayBlock=\"true\"",
+            "\txmlns:mvc=\"sap.ui.core.mvc\"",
+            "\txmlns=\"sap.m\">",
+            "</mvc:View>"
+        ],
+        "description": "Empty XML View"
+    }
+}

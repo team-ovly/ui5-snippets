@@ -1,0 +1,51 @@
+{
+    "CreateKey": {
+        "prefix": "!5-odata-createkey",
+        "body": [
+            "var oDataModel = this.getModel();",
+            "oDataModel.metadataLoaded().then(function(){",
+            "    var sKey = \"/\" + oDataModel.createKey(\"EntitySet\", {",
+            "        Id: \"\"",
+            "    });",
+            "",
+            "}.bind(this));",
+        ],
+        "description": "Create key"
+    },
+    "create": {
+        "prefix": "!5-odata-create",
+        "body": [
+            "onCreate: function(oEvent){",
+            "\tvar oSource = oEvent.getSource();",
+            "\tvar oEventParameters = oEvent.getParameters();",
+            "\n",
+            "\tvar oDataModel = this.getModel();",
+            "\tvar sPath = \"EntitySet\";",
+            "\tvar oData = {",
+            "\n",
+            "\t};",
+            "\n",
+            "\t//this._setBusy(true);",
+            "\n",
+            "\tvar fnSuccess = function(oCreated, oResponse){",
+            "\t\t// this._setBusy(false);",
+            "\t\tvar sMessage = this.getText(\"success\");",
+            "\t\tMessageToast.show(sMessage);",
+            "\t}.bind(this);",
+            "\n",
+            "\tvar fnError = function(oError){",
+            "\t\t// this._setBusy(false);",
+            "\t\tvar sMessage = \"\";",
+            "\t\tMessageBox.error(sMessage);",
+            "\t}.bind(this);",
+            "\n",
+            "\tvar mParameters = {",
+            "\t\tsuccess: fnSuccess,",
+            "\t\terror: fnError",
+            "\t};",
+            "\toDataModel.create(sPath, oData, mParameters);",
+            "}"
+        ],
+        "description": "POST /EntitySet with callbacks"
+    },
+}

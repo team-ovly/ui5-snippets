@@ -6,7 +6,7 @@
         "url": "https://github.com/team-ovly/ui5-snippets"
     },
     "publisher": "OVLY",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "engines": {
         "vscode": "^1.52.0"
     },
@@ -16,16 +16,28 @@
     "contributes": {
         "snippets": [
             {
+                "language": "js",
+                "path": "./snippets/component/app-component.code-snippets"
+            },
+            {
                 "language": "json",
                 "path": "./snippets/descriptor/app-manifest-1.71.code-snippets"
+            },
+            {
+                "language": "html",
+                "path": "./snippets/index/bootstrap.code-snippets"
             },
             {
                 "language": "xml",
                 "path": "./snippets/sap.m/Input.code-snippets"
             },
             {
-                "language": "html",
-                "path": "./snippets/index/bootstrap.code-snippets"
+                "language": "xml",
+                "path": "./snippets/sap.ui.core/View.xml.code-snippets"
+            },
+            {
+                "language": "js",
+                "path": "./snippets/sap.ui.model.odata.v2/ODataModel.code-snippets"
             }
         ]
     }

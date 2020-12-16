@@ -1,0 +1,28 @@
+{
+    "Emtpy": {
+        "prefix": "!5-view-empty",
+        "body": [
+            "sap.ui.define([",
+            "\t\"sap/ui/core/UIComponent\"",
+            "], function (",
+            "\tUIComponent",
+            ") {",
+            "\t\"use strict\";",
+            "\n",
+            "\treturn UIComponent.extend(\".Component\", {",
+            "\n",
+            "\t\tmetadata: {",
+            "\t\t\tmanifest: \"json\"",
+            "\t\t},",
+            "\t",
+            "\t\tinit: function () {",
+            "\t\t\tUIComponent.prototype.init.apply(this, arguments);",
+            "\n",
+            "    \t\t//this.getRouter().initialize();",
+            "\t\t}",
+            "\t});",
+            "});",
+        ],
+        "description": "Empty XML View"
+    }
+}
