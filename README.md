@@ -30,8 +30,14 @@ Then fork and pull requets
 
 ## Release Notes
 
+### 0.0.3
+- oDataModel: createKey, create
+- View: empty view
+- Component: simple Component
+
 ### 0.0.2
 - Bootstrap parameters
+- App descriptor (manifest.json): sap.app
 
 ### 0.0.1
 

@@ -6,7 +6,7 @@
         "url": "https://github.com/team-ovly/ui5-snippets"
     },
     "publisher": "OVLY",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "engines": {
         "vscode": "^1.52.0"
     },
