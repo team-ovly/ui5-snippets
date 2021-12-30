@@ -16,7 +16,7 @@
     "contributes": {
         "snippets": [
             {
-                "language": "js",
+                "language": "javascript",
                 "path": "./snippets/component/app-component.code-snippets"
             },
             {
@@ -36,8 +36,16 @@
                 "path": "./snippets/sap.ui.core/View.xml.code-snippets"
             },
             {
-                "language": "js",
+                "language": "javascript",
                 "path": "./snippets/sap.ui.model.odata.v2/ODataModel.code-snippets"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/controller/controller.code-snippets"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/controller/controller-dependency.code-snippets"
             }
         ]
     }

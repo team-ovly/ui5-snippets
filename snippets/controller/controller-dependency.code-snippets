@@ -1,0 +1,109 @@
+{
+    "JSONModel (Controller dependency)": {
+        "prefix": "!5-dep-jsonmodel",
+        "body": [
+            "\"sap/ui/model/json/JSONModel\""
+        ],
+        "description": "JSONModel (Controller dependency)"
+    },
+    "UIComponent (Controller dependency)": {
+        "prefix": "!5-dep-uicomponent",
+        "body": [
+            "\"sap/ui/core/UIComponent\""
+        ],
+        "description": "UIComponent (Controller dependency)"
+    },
+    "History (Controller dependency)": {
+        "prefix": "!5-dep-history",
+        "body": [
+            "\"sap/ui/core/routing/History\""
+        ],
+        "description": "History (Controller dependency)"
+    },
+    "BaseController (Controller dependency)": {
+        "prefix": "!5-dep-basecontroller",
+        "body": [
+            "\"./BaseController\""
+        ],
+        "description": "BaseController (Controller dependency)"
+    },
+    "Device (Controller dependency)": {
+        "prefix": "!5-dep-device",
+        "body": [
+            "\"sap/ui/Device\""
+        ],
+        "description": "Device (Controller dependency)"
+    },
+    "formatter (Controller dependency)": {
+        "prefix": "!5-dep-formatter",
+        "body": [
+            "\"../model/formatter\""
+        ],
+        "description": "formatter (Controller dependency)"
+    },
+    "MessageBox (Controller dependency)": {
+        "prefix": "!5-dep-messagebox",
+        "body": [
+            "\"sap/m/MessageBox\""
+        ],
+        "description": "MessageBox (Controller dependency)"
+    },
+    "MessageToast (Controller dependency)": {
+        "prefix": "!5-dep-messagetoast",
+        "body": [
+            "\"sap/m/MessageToast\""
+        ],
+        "description": "MessageToast (Controller dependency)"
+    },
+    "MessageBox AND MessageToast (Controller dependencies)": {
+        "prefix": "!5-dep-msg",
+        "body": [
+            "\"sap/m/MessageBox\",",
+            "\"sap/m/MessageToast\""
+        ],
+        "description": "MessageBox AND MessageToast (Controller dependency)"
+    },
+    "Filter (Controller dependency)": {
+        "prefix": "!5-dep-filter",
+        "body": [
+            "\"sap/ui/model/Filter\",",
+            "\"sap/ui/model/FilterOperator\""
+        ],
+        "description": "Filter (Controller dependency)"
+    },
+    "Sorter (Controller dependency)": {
+        "prefix": "!5-dep-sorter",
+        "body": [
+            "\"sap/ui/model/Sorter\""
+        ],
+        "description": "Sorter (Controller dependency)"
+    },
+    "Fragment (Controller dependency)": {
+        "prefix": "!5-dep-fragment",
+        "body": [
+            "\"sap/ui/core/Fragment\""
+        ],
+        "description": "Fragment (Controller dependency)"
+    },
+    "Log (Controller dependency)": {
+        "prefix": "!5-dep-log",
+        "body": [
+            "\"sap/base/Log\""
+        ],
+        "description": "Log (Controller dependency)"
+    },
+    "Object (Controller dependency)": {
+        "prefix": "!5-dep-object",
+        "body": [
+            "\"sap/ui/base/Object\""
+        ],
+        "description": "Object (Controller dependency)"
+    },
+    "DateFormat (Controller dependency)": {
+        "prefix": "!5-dep-dateformat",
+        "body": [
+            "\"sap/ui/core/format/DateFormat\""
+        ],
+        "description": "DateFormat (Controller dependency)"
+    }
+}
