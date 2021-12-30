@@ -30,6 +30,10 @@ Then fork and pull requets
 
 ## Release Notes
 
+
+### 0.0.4
+- Controller snippets
+- Controller dependencies
 ### 0.0.3
 - oDataModel: createKey, create
 - View: empty view
