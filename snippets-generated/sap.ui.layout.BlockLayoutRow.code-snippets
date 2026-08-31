@@ -1,0 +1,48 @@
+{
+    "sap.ui.layout.BlockLayoutRow": {
+        "prefix": "!5-block-layout-row",
+        "body": [
+            "<BlockLayoutRow ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.layout.BlockLayoutRow"
+    },
+    "sap.ui.layout.BlockLayoutRow-properties": {
+        "prefix": "!5-block-layout-row-properties",
+        "body": [
+            "$1scrollable=\"false\"",
+            "rowColorSet=\"\"$2"
+        ],
+        "description": "sap.ui.layout.BlockLayoutRow with non-inherited properties"
+    },
+    "sap.ui.layout.BlockLayoutRow-aggregations": {
+        "prefix": "!5-block-layout-row-aggregations",
+        "body": [
+            "$1<content>",
+            "\t<!-- <sap.ui.layout.BlockLayoutCell /> -->",
+            "</content>",
+            "$2"
+        ],
+        "description": "sap.ui.layout.BlockLayoutRow with non-inherited aggregations"
+    },
+    "sap.ui.layout.BlockLayoutRow-events": {
+        "prefix": "!5-block-layout-row-events",
+        "body": [
+            "$1accentCells=\".on${3:AccentCells}\"$2"
+        ],
+        "description": "sap.ui.layout.BlockLayoutRow with non-inherited events"
+    },
+    "sap.ui.layout.BlockLayoutRow-all": {
+        "prefix": "!5-block-layout-row-all",
+        "body": [
+            "$1scrollable=\"false\"",
+            "rowColorSet=\"\"",
+            "<content>",
+            "\t<!-- <sap.ui.layout.BlockLayoutCell /> -->",
+            "</content>",
+            "accentCells=\".on${3:AccentCells}\"$2"
+        ],
+        "description": "sap.ui.layout.BlockLayoutRow with non-inherited properties, aggregations and events"
+    }
+}

@@ -1,0 +1,58 @@
+{
+    "sap.ui.webc.fiori.MediaGallery": {
+        "prefix": "!5-media-gallery",
+        "body": [
+            "<MediaGallery ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.webc.fiori.MediaGallery"
+    },
+    "sap.ui.webc.fiori.MediaGallery-properties": {
+        "prefix": "!5-media-gallery-properties",
+        "body": [
+            "$1interactiveDisplayArea=\"false\"",
+            "layout=\"Auto\"",
+            "menuHorizontalAlign=\"Left\"",
+            "menuVerticalAlign=\"Bottom\"",
+            "showAllThumbnails=\"false\"$2"
+        ],
+        "description": "sap.ui.webc.fiori.MediaGallery with non-inherited properties"
+    },
+    "sap.ui.webc.fiori.MediaGallery-aggregations": {
+        "prefix": "!5-media-gallery-aggregations",
+        "body": [
+            "$1<items>",
+            "\t<!-- <sap.ui.webc.fiori.IMediaGalleryItem /> -->",
+            "</items>",
+            "$2"
+        ],
+        "description": "sap.ui.webc.fiori.MediaGallery with non-inherited aggregations"
+    },
+    "sap.ui.webc.fiori.MediaGallery-events": {
+        "prefix": "!5-media-gallery-events",
+        "body": [
+            "$1displayAreaClick=\".on${3:DisplayAreaClick}\"",
+            "overflowClick=\".on${4:OverflowClick}\"",
+            "selectionChange=\".on${5:SelectionChange}\"$2"
+        ],
+        "description": "sap.ui.webc.fiori.MediaGallery with non-inherited events"
+    },
+    "sap.ui.webc.fiori.MediaGallery-all": {
+        "prefix": "!5-media-gallery-all",
+        "body": [
+            "$1interactiveDisplayArea=\"false\"",
+            "layout=\"Auto\"",
+            "menuHorizontalAlign=\"Left\"",
+            "menuVerticalAlign=\"Bottom\"",
+            "showAllThumbnails=\"false\"",
+            "<items>",
+            "\t<!-- <sap.ui.webc.fiori.IMediaGalleryItem /> -->",
+            "</items>",
+            "displayAreaClick=\".on${3:DisplayAreaClick}\"",
+            "overflowClick=\".on${4:OverflowClick}\"",
+            "selectionChange=\".on${5:SelectionChange}\"$2"
+        ],
+        "description": "sap.ui.webc.fiori.MediaGallery with non-inherited properties, aggregations and events"
+    }
+}

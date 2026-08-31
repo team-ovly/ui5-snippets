@@ -1,0 +1,58 @@
+{
+    "sap.ui.webc.main.Icon": {
+        "prefix": "!5-icon",
+        "body": [
+            "<Icon ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.webc.main.Icon"
+    },
+    "sap.ui.webc.main.Icon-properties": {
+        "prefix": "!5-icon-properties",
+        "body": [
+            "$1accessibleName=\"\"",
+            "accessibleRole=\"\"",
+            "backgroundColor=\"\"",
+            "color=\"\"",
+            "design=\"Default\"",
+            "height=\"\"",
+            "interactive=\"false\"",
+            "name=\"\"",
+            "showTooltip=\"false\"",
+            "width=\"\"$2"
+        ],
+        "description": "sap.ui.webc.main.Icon with non-inherited properties"
+    },
+    "sap.ui.webc.main.Icon-aggregations": {
+        "prefix": "!5-icon-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.webc.main.Icon with non-inherited aggregations"
+    },
+    "sap.ui.webc.main.Icon-events": {
+        "prefix": "!5-icon-events",
+        "body": [
+            "$1click=\".on${3:Click}\"$2"
+        ],
+        "description": "sap.ui.webc.main.Icon with non-inherited events"
+    },
+    "sap.ui.webc.main.Icon-all": {
+        "prefix": "!5-icon-all",
+        "body": [
+            "$1accessibleName=\"\"",
+            "accessibleRole=\"\"",
+            "backgroundColor=\"\"",
+            "color=\"\"",
+            "design=\"Default\"",
+            "height=\"\"",
+            "interactive=\"false\"",
+            "name=\"\"",
+            "showTooltip=\"false\"",
+            "width=\"\"",
+            "click=\".on${3:Click}\"$2"
+        ],
+        "description": "sap.ui.webc.main.Icon with non-inherited properties, aggregations and events"
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "sap.ui.webc.fiori.ProductSwitchItem": {
+        "prefix": "!5-product-switch-item",
+        "body": [
+            "<ProductSwitchItem ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.webc.fiori.ProductSwitchItem"
+    },
+    "sap.ui.webc.fiori.ProductSwitchItem-properties": {
+        "prefix": "!5-product-switch-item-properties",
+        "body": [
+            "$1icon=\"\"",
+            "subtitleText=\"\"",
+            "target=\"\"",
+            "targetSrc=\"\"",
+            "titleText=\"\"$2"
+        ],
+        "description": "sap.ui.webc.fiori.ProductSwitchItem with non-inherited properties"
+    },
+    "sap.ui.webc.fiori.ProductSwitchItem-aggregations": {
+        "prefix": "!5-product-switch-item-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.webc.fiori.ProductSwitchItem with non-inherited aggregations"
+    },
+    "sap.ui.webc.fiori.ProductSwitchItem-events": {
+        "prefix": "!5-product-switch-item-events",
+        "body": [
+            "$1click=\".on${3:Click}\"$2"
+        ],
+        "description": "sap.ui.webc.fiori.ProductSwitchItem with non-inherited events"
+    },
+    "sap.ui.webc.fiori.ProductSwitchItem-all": {
+        "prefix": "!5-product-switch-item-all",
+        "body": [
+            "$1icon=\"\"",
+            "subtitleText=\"\"",
+            "target=\"\"",
+            "targetSrc=\"\"",
+            "titleText=\"\"",
+            "click=\".on${3:Click}\"$2"
+        ],
+        "description": "sap.ui.webc.fiori.ProductSwitchItem with non-inherited properties, aggregations and events"
+    }
+}

@@ -1,0 +1,55 @@
+{
+    "sap.ui.webc.main.BusyIndicator": {
+        "prefix": "!5-busy-indicator",
+        "body": [
+            "<BusyIndicator ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.webc.main.BusyIndicator"
+    },
+    "sap.ui.webc.main.BusyIndicator-properties": {
+        "prefix": "!5-busy-indicator-properties",
+        "body": [
+            "$1active=\"false\"",
+            "delay=\"1000\"",
+            "display=\"inline-block\"",
+            "size=\"Medium\"",
+            "text=\"\"",
+            "width=\"\"$2"
+        ],
+        "description": "sap.ui.webc.main.BusyIndicator with non-inherited properties"
+    },
+    "sap.ui.webc.main.BusyIndicator-aggregations": {
+        "prefix": "!5-busy-indicator-aggregations",
+        "body": [
+            "$1<content>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</content>",
+            "$2"
+        ],
+        "description": "sap.ui.webc.main.BusyIndicator with non-inherited aggregations"
+    },
+    "sap.ui.webc.main.BusyIndicator-events": {
+        "prefix": "!5-busy-indicator-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.webc.main.BusyIndicator with non-inherited events"
+    },
+    "sap.ui.webc.main.BusyIndicator-all": {
+        "prefix": "!5-busy-indicator-all",
+        "body": [
+            "$1active=\"false\"",
+            "delay=\"1000\"",
+            "display=\"inline-block\"",
+            "size=\"Medium\"",
+            "text=\"\"",
+            "width=\"\"",
+            "<content>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</content>$2"
+        ],
+        "description": "sap.ui.webc.main.BusyIndicator with non-inherited properties, aggregations and events"
+    }
+}

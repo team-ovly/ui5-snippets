@@ -1,0 +1,39 @@
+{
+    "sap.ui.mdc.Control": {
+        "prefix": "!5-control",
+        "body": [
+            "<Control ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.mdc.Control"
+    },
+    "sap.ui.mdc.Control-properties": {
+        "prefix": "!5-control-properties",
+        "body": [
+            "$1delegate=\"\"$2"
+        ],
+        "description": "sap.ui.mdc.Control with non-inherited properties"
+    },
+    "sap.ui.mdc.Control-aggregations": {
+        "prefix": "!5-control-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.mdc.Control with non-inherited aggregations"
+    },
+    "sap.ui.mdc.Control-events": {
+        "prefix": "!5-control-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.mdc.Control with non-inherited events"
+    },
+    "sap.ui.mdc.Control-all": {
+        "prefix": "!5-control-all",
+        "body": [
+            "$1delegate=\"\"$2"
+        ],
+        "description": "sap.ui.mdc.Control with non-inherited properties, aggregations and events"
+    }
+}

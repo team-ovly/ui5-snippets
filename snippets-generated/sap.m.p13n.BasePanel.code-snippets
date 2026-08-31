@@ -1,0 +1,62 @@
+{
+    "sap.m.p13n.BasePanel": {
+        "prefix": "!5-base-panel",
+        "body": [
+            "<BasePanel ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.p13n.BasePanel"
+    },
+    "sap.m.p13n.BasePanel-properties": {
+        "prefix": "!5-base-panel-properties",
+        "body": [
+            "$1title=\"\"",
+            "enableReorder=\"true\"",
+            "_useFixedWidth=\"false\"$2"
+        ],
+        "description": "sap.m.p13n.BasePanel with non-inherited properties"
+    },
+    "sap.m.p13n.BasePanel-aggregations": {
+        "prefix": "!5-base-panel-aggregations",
+        "body": [
+            "$1<messageStrip>",
+            "\t<!-- <sap.m.MessageStrip /> -->",
+            "</messageStrip>",
+            "<_content>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</_content>",
+            "<_template>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</_template>",
+            "$2"
+        ],
+        "description": "sap.m.p13n.BasePanel with non-inherited aggregations"
+    },
+    "sap.m.p13n.BasePanel-events": {
+        "prefix": "!5-base-panel-events",
+        "body": [
+            "$1change=\".on${3:Change}\"$2"
+        ],
+        "description": "sap.m.p13n.BasePanel with non-inherited events"
+    },
+    "sap.m.p13n.BasePanel-all": {
+        "prefix": "!5-base-panel-all",
+        "body": [
+            "$1title=\"\"",
+            "enableReorder=\"true\"",
+            "_useFixedWidth=\"false\"",
+            "<messageStrip>",
+            "\t<!-- <sap.m.MessageStrip /> -->",
+            "</messageStrip>",
+            "<_content>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</_content>",
+            "<_template>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</_template>",
+            "change=\".on${3:Change}\"$2"
+        ],
+        "description": "sap.m.p13n.BasePanel with non-inherited properties, aggregations and events"
+    }
+}

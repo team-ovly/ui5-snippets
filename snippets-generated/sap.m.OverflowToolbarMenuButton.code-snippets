@@ -1,0 +1,39 @@
+{
+    "sap.m.OverflowToolbarMenuButton": {
+        "prefix": "!5-overflow-toolbar-menu-button",
+        "body": [
+            "<OverflowToolbarMenuButton ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.OverflowToolbarMenuButton"
+    },
+    "sap.m.OverflowToolbarMenuButton-properties": {
+        "prefix": "!5-overflow-toolbar-menu-button-properties",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.m.OverflowToolbarMenuButton with non-inherited properties"
+    },
+    "sap.m.OverflowToolbarMenuButton-aggregations": {
+        "prefix": "!5-overflow-toolbar-menu-button-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.m.OverflowToolbarMenuButton with non-inherited aggregations"
+    },
+    "sap.m.OverflowToolbarMenuButton-events": {
+        "prefix": "!5-overflow-toolbar-menu-button-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.m.OverflowToolbarMenuButton with non-inherited events"
+    },
+    "sap.m.OverflowToolbarMenuButton-all": {
+        "prefix": "!5-overflow-toolbar-menu-button-all",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.m.OverflowToolbarMenuButton with non-inherited properties, aggregations and events"
+    }
+}

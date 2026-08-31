@@ -1,0 +1,45 @@
+{
+    "sap.ui.unified.calendar.DatesRow": {
+        "prefix": "!5-dates-row",
+        "body": [
+            "<DatesRow ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.unified.calendar.DatesRow"
+    },
+    "sap.ui.unified.calendar.DatesRow-properties": {
+        "prefix": "!5-dates-row-properties",
+        "body": [
+            "$1startDate=\"\"",
+            "days=\"7\"",
+            "showDayNamesLine=\"true\"",
+            "calendarWeekNumbering=\"\"$2"
+        ],
+        "description": "sap.ui.unified.calendar.DatesRow with non-inherited properties"
+    },
+    "sap.ui.unified.calendar.DatesRow-aggregations": {
+        "prefix": "!5-dates-row-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.unified.calendar.DatesRow with non-inherited aggregations"
+    },
+    "sap.ui.unified.calendar.DatesRow-events": {
+        "prefix": "!5-dates-row-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.unified.calendar.DatesRow with non-inherited events"
+    },
+    "sap.ui.unified.calendar.DatesRow-all": {
+        "prefix": "!5-dates-row-all",
+        "body": [
+            "$1startDate=\"\"",
+            "days=\"7\"",
+            "showDayNamesLine=\"true\"",
+            "calendarWeekNumbering=\"\"$2"
+        ],
+        "description": "sap.ui.unified.calendar.DatesRow with non-inherited properties, aggregations and events"
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "sap.f.GridListItem": {
+        "prefix": "!5-grid-list-item",
+        "body": [
+            "<GridListItem ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.f.GridListItem"
+    },
+    "sap.f.GridListItem-properties": {
+        "prefix": "!5-grid-list-item-properties",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.f.GridListItem with non-inherited properties"
+    },
+    "sap.f.GridListItem-aggregations": {
+        "prefix": "!5-grid-list-item-aggregations",
+        "body": [
+            "$1<content>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</content>",
+            "$2"
+        ],
+        "description": "sap.f.GridListItem with non-inherited aggregations"
+    },
+    "sap.f.GridListItem-events": {
+        "prefix": "!5-grid-list-item-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.f.GridListItem with non-inherited events"
+    },
+    "sap.f.GridListItem-all": {
+        "prefix": "!5-grid-list-item-all",
+        "body": [
+            "$1<content>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</content>$2"
+        ],
+        "description": "sap.f.GridListItem with non-inherited properties, aggregations and events"
+    }
+}

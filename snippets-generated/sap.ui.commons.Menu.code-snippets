@@ -1,0 +1,39 @@
+{
+    "sap.ui.commons.Menu": {
+        "prefix": "!5-menu",
+        "body": [
+            "<Menu ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.commons.Menu"
+    },
+    "sap.ui.commons.Menu-properties": {
+        "prefix": "!5-menu-properties",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.commons.Menu with non-inherited properties"
+    },
+    "sap.ui.commons.Menu-aggregations": {
+        "prefix": "!5-menu-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.commons.Menu with non-inherited aggregations"
+    },
+    "sap.ui.commons.Menu-events": {
+        "prefix": "!5-menu-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.commons.Menu with non-inherited events"
+    },
+    "sap.ui.commons.Menu-all": {
+        "prefix": "!5-menu-all",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.commons.Menu with non-inherited properties, aggregations and events"
+    }
+}

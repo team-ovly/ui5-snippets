@@ -1,0 +1,41 @@
+{
+    "sap.ui.mdc.chart.ChartSelectionDetails": {
+        "prefix": "!5-chart-selection-details",
+        "body": [
+            "<ChartSelectionDetails ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.mdc.chart.ChartSelectionDetails"
+    },
+    "sap.ui.mdc.chart.ChartSelectionDetails-properties": {
+        "prefix": "!5-chart-selection-details-properties",
+        "body": [
+            "$1enableNavCallback=\"\"",
+            "fetchFieldInfosCallback=\"\"$2"
+        ],
+        "description": "sap.ui.mdc.chart.ChartSelectionDetails with non-inherited properties"
+    },
+    "sap.ui.mdc.chart.ChartSelectionDetails-aggregations": {
+        "prefix": "!5-chart-selection-details-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.mdc.chart.ChartSelectionDetails with non-inherited aggregations"
+    },
+    "sap.ui.mdc.chart.ChartSelectionDetails-events": {
+        "prefix": "!5-chart-selection-details-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.mdc.chart.ChartSelectionDetails with non-inherited events"
+    },
+    "sap.ui.mdc.chart.ChartSelectionDetails-all": {
+        "prefix": "!5-chart-selection-details-all",
+        "body": [
+            "$1enableNavCallback=\"\"",
+            "fetchFieldInfosCallback=\"\"$2"
+        ],
+        "description": "sap.ui.mdc.chart.ChartSelectionDetails with non-inherited properties, aggregations and events"
+    }
+}

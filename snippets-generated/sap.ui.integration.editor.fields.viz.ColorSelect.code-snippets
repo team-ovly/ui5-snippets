@@ -1,0 +1,53 @@
+{
+    "sap.ui.integration.editor.fields.viz.ColorSelect": {
+        "prefix": "!5-color-select",
+        "body": [
+            "<ColorSelect ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.integration.editor.fields.viz.ColorSelect"
+    },
+    "sap.ui.integration.editor.fields.viz.ColorSelect-properties": {
+        "prefix": "!5-color-select-properties",
+        "body": [
+            "$1enumValue=\"\"",
+            "colorValue=\"\"",
+            "colorEnum=\"sap.m.AvatarColor\"",
+            "background=\"true\"",
+            "allowCustomColors=\"false\"$2"
+        ],
+        "description": "sap.ui.integration.editor.fields.viz.ColorSelect with non-inherited properties"
+    },
+    "sap.ui.integration.editor.fields.viz.ColorSelect-aggregations": {
+        "prefix": "!5-color-select-aggregations",
+        "body": [
+            "$1<_colorpalette>",
+            "\t<!-- <sap.m.ColorPalettePopover /> -->",
+            "</_colorpalette>",
+            "$2"
+        ],
+        "description": "sap.ui.integration.editor.fields.viz.ColorSelect with non-inherited aggregations"
+    },
+    "sap.ui.integration.editor.fields.viz.ColorSelect-events": {
+        "prefix": "!5-color-select-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.integration.editor.fields.viz.ColorSelect with non-inherited events"
+    },
+    "sap.ui.integration.editor.fields.viz.ColorSelect-all": {
+        "prefix": "!5-color-select-all",
+        "body": [
+            "$1enumValue=\"\"",
+            "colorValue=\"\"",
+            "colorEnum=\"sap.m.AvatarColor\"",
+            "background=\"true\"",
+            "allowCustomColors=\"false\"",
+            "<_colorpalette>",
+            "\t<!-- <sap.m.ColorPalettePopover /> -->",
+            "</_colorpalette>$2"
+        ],
+        "description": "sap.ui.integration.editor.fields.viz.ColorSelect with non-inherited properties, aggregations and events"
+    }
+}

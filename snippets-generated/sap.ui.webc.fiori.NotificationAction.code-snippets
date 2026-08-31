@@ -1,0 +1,46 @@
+{
+    "sap.ui.webc.fiori.NotificationAction": {
+        "prefix": "!5-notification-action",
+        "body": [
+            "<NotificationAction ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.webc.fiori.NotificationAction"
+    },
+    "sap.ui.webc.fiori.NotificationAction-properties": {
+        "prefix": "!5-notification-action-properties",
+        "body": [
+            "$1design=\"Transparent\"",
+            "enabled=\"true\"",
+            "icon=\"\"",
+            "text=\"\"$2"
+        ],
+        "description": "sap.ui.webc.fiori.NotificationAction with non-inherited properties"
+    },
+    "sap.ui.webc.fiori.NotificationAction-aggregations": {
+        "prefix": "!5-notification-action-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.webc.fiori.NotificationAction with non-inherited aggregations"
+    },
+    "sap.ui.webc.fiori.NotificationAction-events": {
+        "prefix": "!5-notification-action-events",
+        "body": [
+            "$1click=\".on${3:Click}\"$2"
+        ],
+        "description": "sap.ui.webc.fiori.NotificationAction with non-inherited events"
+    },
+    "sap.ui.webc.fiori.NotificationAction-all": {
+        "prefix": "!5-notification-action-all",
+        "body": [
+            "$1design=\"Transparent\"",
+            "enabled=\"true\"",
+            "icon=\"\"",
+            "text=\"\"",
+            "click=\".on${3:Click}\"$2"
+        ],
+        "description": "sap.ui.webc.fiori.NotificationAction with non-inherited properties, aggregations and events"
+    }
+}

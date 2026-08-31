@@ -1,0 +1,48 @@
+{
+    "sap.ui.table.TreeTable": {
+        "prefix": "!5-tree-table",
+        "body": [
+            "<TreeTable ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.table.TreeTable"
+    },
+    "sap.ui.table.TreeTable-properties": {
+        "prefix": "!5-tree-table-properties",
+        "body": [
+            "$1expandFirstLevel=\"false\"",
+            "useGroupMode=\"false\"",
+            "groupHeaderProperty=\"\"",
+            "collapseRecursive=\"true\"",
+            "rootLevel=\"0\"$2"
+        ],
+        "description": "sap.ui.table.TreeTable with non-inherited properties"
+    },
+    "sap.ui.table.TreeTable-aggregations": {
+        "prefix": "!5-tree-table-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.table.TreeTable with non-inherited aggregations"
+    },
+    "sap.ui.table.TreeTable-events": {
+        "prefix": "!5-tree-table-events",
+        "body": [
+            "$1toggleOpenState=\".on${3:ToggleOpenState}\"$2"
+        ],
+        "description": "sap.ui.table.TreeTable with non-inherited events"
+    },
+    "sap.ui.table.TreeTable-all": {
+        "prefix": "!5-tree-table-all",
+        "body": [
+            "$1expandFirstLevel=\"false\"",
+            "useGroupMode=\"false\"",
+            "groupHeaderProperty=\"\"",
+            "collapseRecursive=\"true\"",
+            "rootLevel=\"0\"",
+            "toggleOpenState=\".on${3:ToggleOpenState}\"$2"
+        ],
+        "description": "sap.ui.table.TreeTable with non-inherited properties, aggregations and events"
+    }
+}

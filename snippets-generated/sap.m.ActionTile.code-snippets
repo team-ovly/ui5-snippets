@@ -1,0 +1,49 @@
+{
+    "sap.m.ActionTile": {
+        "prefix": "!5-action-tile",
+        "body": [
+            "<ActionTile ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.ActionTile"
+    },
+    "sap.m.ActionTile-properties": {
+        "prefix": "!5-action-tile-properties",
+        "body": [
+            "$1enableDynamicHeight=\"false\"",
+            "enableIconFrame=\"false\"",
+            "priority=\"None\"",
+            "priorityText=\"\"",
+            "badgeIcon=\"\"",
+            "badgeValueState=\"None\"$2"
+        ],
+        "description": "sap.m.ActionTile with non-inherited properties"
+    },
+    "sap.m.ActionTile-aggregations": {
+        "prefix": "!5-action-tile-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.m.ActionTile with non-inherited aggregations"
+    },
+    "sap.m.ActionTile-events": {
+        "prefix": "!5-action-tile-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.m.ActionTile with non-inherited events"
+    },
+    "sap.m.ActionTile-all": {
+        "prefix": "!5-action-tile-all",
+        "body": [
+            "$1enableDynamicHeight=\"false\"",
+            "enableIconFrame=\"false\"",
+            "priority=\"None\"",
+            "priorityText=\"\"",
+            "badgeIcon=\"\"",
+            "badgeValueState=\"None\"$2"
+        ],
+        "description": "sap.m.ActionTile with non-inherited properties, aggregations and events"
+    }
+}

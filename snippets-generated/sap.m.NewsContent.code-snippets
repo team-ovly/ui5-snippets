@@ -1,0 +1,56 @@
+{
+    "sap.m.NewsContent": {
+        "prefix": "!5-news-content",
+        "body": [
+            "<NewsContent ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.NewsContent"
+    },
+    "sap.m.NewsContent-properties": {
+        "prefix": "!5-news-content-properties",
+        "body": [
+            "$1size=\"Auto\"",
+            "contentText=\"\"",
+            "subheader=\"\"$2"
+        ],
+        "description": "sap.m.NewsContent with non-inherited properties"
+    },
+    "sap.m.NewsContent-aggregations": {
+        "prefix": "!5-news-content-aggregations",
+        "body": [
+            "$1<_contentText>",
+            "\t<!-- <sap.m.FormattedText /> -->",
+            "</_contentText>",
+            "<_subHeaderText>",
+            "\t<!-- <sap.m.FormattedText /> -->",
+            "</_subHeaderText>",
+            "$2"
+        ],
+        "description": "sap.m.NewsContent with non-inherited aggregations"
+    },
+    "sap.m.NewsContent-events": {
+        "prefix": "!5-news-content-events",
+        "body": [
+            "$1press=\".on${3:Press}\"$2"
+        ],
+        "description": "sap.m.NewsContent with non-inherited events"
+    },
+    "sap.m.NewsContent-all": {
+        "prefix": "!5-news-content-all",
+        "body": [
+            "$1size=\"Auto\"",
+            "contentText=\"\"",
+            "subheader=\"\"",
+            "<_contentText>",
+            "\t<!-- <sap.m.FormattedText /> -->",
+            "</_contentText>",
+            "<_subHeaderText>",
+            "\t<!-- <sap.m.FormattedText /> -->",
+            "</_subHeaderText>",
+            "press=\".on${3:Press}\"$2"
+        ],
+        "description": "sap.m.NewsContent with non-inherited properties, aggregations and events"
+    }
+}

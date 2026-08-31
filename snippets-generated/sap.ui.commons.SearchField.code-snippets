@@ -1,0 +1,86 @@
+{
+    "sap.ui.commons.SearchField": {
+        "prefix": "!5-search-field",
+        "body": [
+            "<SearchField ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.commons.SearchField"
+    },
+    "sap.ui.commons.SearchField-properties": {
+        "prefix": "!5-search-field-properties",
+        "body": [
+            "$1enableListSuggest=\"true\"",
+            "showListExpander=\"true\"",
+            "enableClear=\"false\"",
+            "showExternalButton=\"false\"",
+            "enableCache=\"true\"",
+            "enableFilterMode=\"false\"",
+            "value=\"\"",
+            "enabled=\"true\"",
+            "editable=\"true\"",
+            "width=\"\"",
+            "maxLength=\"0\"",
+            "valueState=\"None\"",
+            "placeholder=\"\"",
+            "textAlign=\"Begin\"",
+            "visibleItemCount=\"20\"",
+            "startSuggestion=\"3\"",
+            "maxSuggestionItems=\"10\"",
+            "maxHistoryItems=\"0\"$2"
+        ],
+        "description": "sap.ui.commons.SearchField with non-inherited properties"
+    },
+    "sap.ui.commons.SearchField-aggregations": {
+        "prefix": "!5-search-field-aggregations",
+        "body": [
+            "$1<searchProvider>",
+            "\t<!-- <sap.ui.core.search.SearchProvider /> -->",
+            "</searchProvider>",
+            "$2"
+        ],
+        "description": "sap.ui.commons.SearchField with non-inherited aggregations"
+    },
+    "sap.ui.commons.SearchField-events": {
+        "prefix": "!5-search-field-events",
+        "body": [
+            "$1search=\".on${3:Search}\"",
+            "suggest=\".on${4:Suggest}\"",
+            "ariaDescribedBy=\".on${5:AriaDescribedBy}\"",
+            "ariaLabelledBy=\".on${6:AriaLabelledBy}\"$2"
+        ],
+        "description": "sap.ui.commons.SearchField with non-inherited events"
+    },
+    "sap.ui.commons.SearchField-all": {
+        "prefix": "!5-search-field-all",
+        "body": [
+            "$1enableListSuggest=\"true\"",
+            "showListExpander=\"true\"",
+            "enableClear=\"false\"",
+            "showExternalButton=\"false\"",
+            "enableCache=\"true\"",
+            "enableFilterMode=\"false\"",
+            "value=\"\"",
+            "enabled=\"true\"",
+            "editable=\"true\"",
+            "width=\"\"",
+            "maxLength=\"0\"",
+            "valueState=\"None\"",
+            "placeholder=\"\"",
+            "textAlign=\"Begin\"",
+            "visibleItemCount=\"20\"",
+            "startSuggestion=\"3\"",
+            "maxSuggestionItems=\"10\"",
+            "maxHistoryItems=\"0\"",
+            "<searchProvider>",
+            "\t<!-- <sap.ui.core.search.SearchProvider /> -->",
+            "</searchProvider>",
+            "search=\".on${3:Search}\"",
+            "suggest=\".on${4:Suggest}\"",
+            "ariaDescribedBy=\".on${5:AriaDescribedBy}\"",
+            "ariaLabelledBy=\".on${6:AriaLabelledBy}\"$2"
+        ],
+        "description": "sap.ui.commons.SearchField with non-inherited properties, aggregations and events"
+    }
+}

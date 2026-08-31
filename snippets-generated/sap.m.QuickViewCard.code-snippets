@@ -1,0 +1,39 @@
+{
+    "sap.m.QuickViewCard": {
+        "prefix": "!5-quick-view-card",
+        "body": [
+            "<QuickViewCard ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.QuickViewCard"
+    },
+    "sap.m.QuickViewCard-properties": {
+        "prefix": "!5-quick-view-card-properties",
+        "body": [
+            "$1showVerticalScrollBar=\"true\"$2"
+        ],
+        "description": "sap.m.QuickViewCard with non-inherited properties"
+    },
+    "sap.m.QuickViewCard-aggregations": {
+        "prefix": "!5-quick-view-card-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.m.QuickViewCard with non-inherited aggregations"
+    },
+    "sap.m.QuickViewCard-events": {
+        "prefix": "!5-quick-view-card-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.m.QuickViewCard with non-inherited events"
+    },
+    "sap.m.QuickViewCard-all": {
+        "prefix": "!5-quick-view-card-all",
+        "body": [
+            "$1showVerticalScrollBar=\"true\"$2"
+        ],
+        "description": "sap.m.QuickViewCard with non-inherited properties, aggregations and events"
+    }
+}

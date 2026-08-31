@@ -1,0 +1,48 @@
+{
+    "sap.m.ImageContent": {
+        "prefix": "!5-image-content",
+        "body": [
+            "<ImageContent ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.ImageContent"
+    },
+    "sap.m.ImageContent-properties": {
+        "prefix": "!5-image-content-properties",
+        "body": [
+            "$1src=\"\"",
+            "description=\"\"$2"
+        ],
+        "description": "sap.m.ImageContent with non-inherited properties"
+    },
+    "sap.m.ImageContent-aggregations": {
+        "prefix": "!5-image-content-aggregations",
+        "body": [
+            "$1<_content>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</_content>",
+            "$2"
+        ],
+        "description": "sap.m.ImageContent with non-inherited aggregations"
+    },
+    "sap.m.ImageContent-events": {
+        "prefix": "!5-image-content-events",
+        "body": [
+            "$1press=\".on${3:Press}\"$2"
+        ],
+        "description": "sap.m.ImageContent with non-inherited events"
+    },
+    "sap.m.ImageContent-all": {
+        "prefix": "!5-image-content-all",
+        "body": [
+            "$1src=\"\"",
+            "description=\"\"",
+            "<_content>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</_content>",
+            "press=\".on${3:Press}\"$2"
+        ],
+        "description": "sap.m.ImageContent with non-inherited properties, aggregations and events"
+    }
+}

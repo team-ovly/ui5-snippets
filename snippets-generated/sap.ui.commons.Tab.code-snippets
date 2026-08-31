@@ -1,0 +1,45 @@
+{
+    "sap.ui.commons.Tab": {
+        "prefix": "!5-tab",
+        "body": [
+            "<Tab ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.commons.Tab"
+    },
+    "sap.ui.commons.Tab-properties": {
+        "prefix": "!5-tab-properties",
+        "body": [
+            "$1verticalScrolling=\"None\"",
+            "horizontalScrolling=\"None\"",
+            "closable=\"false\"",
+            "selected=\"false\"$2"
+        ],
+        "description": "sap.ui.commons.Tab with non-inherited properties"
+    },
+    "sap.ui.commons.Tab-aggregations": {
+        "prefix": "!5-tab-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.commons.Tab with non-inherited aggregations"
+    },
+    "sap.ui.commons.Tab-events": {
+        "prefix": "!5-tab-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.commons.Tab with non-inherited events"
+    },
+    "sap.ui.commons.Tab-all": {
+        "prefix": "!5-tab-all",
+        "body": [
+            "$1verticalScrolling=\"None\"",
+            "horizontalScrolling=\"None\"",
+            "closable=\"false\"",
+            "selected=\"false\"$2"
+        ],
+        "description": "sap.ui.commons.Tab with non-inherited properties, aggregations and events"
+    }
+}

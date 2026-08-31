@@ -1,0 +1,62 @@
+{
+    "sap.m.ObjectAttribute": {
+        "prefix": "!5-object-attribute",
+        "body": [
+            "<ObjectAttribute ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.ObjectAttribute"
+    },
+    "sap.m.ObjectAttribute-properties": {
+        "prefix": "!5-object-attribute-properties",
+        "body": [
+            "$1title=\"\"",
+            "text=\"\"",
+            "active=\"\"",
+            "reactiveAreaMode=\"Inline\"",
+            "textDirection=\"Inherit\"",
+            "ariaHasPopup=\"None\"$2"
+        ],
+        "description": "sap.m.ObjectAttribute with non-inherited properties"
+    },
+    "sap.m.ObjectAttribute-aggregations": {
+        "prefix": "!5-object-attribute-aggregations",
+        "body": [
+            "$1<customContent>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</customContent>",
+            "<_textControl>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</_textControl>",
+            "$2"
+        ],
+        "description": "sap.m.ObjectAttribute with non-inherited aggregations"
+    },
+    "sap.m.ObjectAttribute-events": {
+        "prefix": "!5-object-attribute-events",
+        "body": [
+            "$1press=\".on${3:Press}\"$2"
+        ],
+        "description": "sap.m.ObjectAttribute with non-inherited events"
+    },
+    "sap.m.ObjectAttribute-all": {
+        "prefix": "!5-object-attribute-all",
+        "body": [
+            "$1title=\"\"",
+            "text=\"\"",
+            "active=\"\"",
+            "reactiveAreaMode=\"Inline\"",
+            "textDirection=\"Inherit\"",
+            "ariaHasPopup=\"None\"",
+            "<customContent>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</customContent>",
+            "<_textControl>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</_textControl>",
+            "press=\".on${3:Press}\"$2"
+        ],
+        "description": "sap.m.ObjectAttribute with non-inherited properties, aggregations and events"
+    }
+}

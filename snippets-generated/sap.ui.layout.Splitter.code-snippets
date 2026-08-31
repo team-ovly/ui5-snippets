@@ -1,0 +1,50 @@
+{
+    "sap.ui.layout.Splitter": {
+        "prefix": "!5-splitter",
+        "body": [
+            "<Splitter ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.layout.Splitter"
+    },
+    "sap.ui.layout.Splitter-properties": {
+        "prefix": "!5-splitter-properties",
+        "body": [
+            "$1orientation=\"Horizontal\"",
+            "width=\"100%\"",
+            "height=\"100%\"$2"
+        ],
+        "description": "sap.ui.layout.Splitter with non-inherited properties"
+    },
+    "sap.ui.layout.Splitter-aggregations": {
+        "prefix": "!5-splitter-aggregations",
+        "body": [
+            "$1<contentAreas>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</contentAreas>",
+            "$2"
+        ],
+        "description": "sap.ui.layout.Splitter with non-inherited aggregations"
+    },
+    "sap.ui.layout.Splitter-events": {
+        "prefix": "!5-splitter-events",
+        "body": [
+            "$1resize=\".on${3:Resize}\"$2"
+        ],
+        "description": "sap.ui.layout.Splitter with non-inherited events"
+    },
+    "sap.ui.layout.Splitter-all": {
+        "prefix": "!5-splitter-all",
+        "body": [
+            "$1orientation=\"Horizontal\"",
+            "width=\"100%\"",
+            "height=\"100%\"",
+            "<contentAreas>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</contentAreas>",
+            "resize=\".on${3:Resize}\"$2"
+        ],
+        "description": "sap.ui.layout.Splitter with non-inherited properties, aggregations and events"
+    }
+}

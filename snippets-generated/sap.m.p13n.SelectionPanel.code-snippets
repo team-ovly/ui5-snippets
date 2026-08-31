@@ -1,0 +1,51 @@
+{
+    "sap.m.p13n.SelectionPanel": {
+        "prefix": "!5-selection-panel",
+        "body": [
+            "<SelectionPanel ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.p13n.SelectionPanel"
+    },
+    "sap.m.p13n.SelectionPanel-properties": {
+        "prefix": "!5-selection-panel-properties",
+        "body": [
+            "$1title=\"...see text or source\"",
+            "showHeader=\"false\"",
+            "enableCount=\"false\"",
+            "fieldColumn=\"\"",
+            "activeColumn=\"\"",
+            "itemFactory=\"\"",
+            "multiSelectMode=\"ClearAll\"$2"
+        ],
+        "description": "sap.m.p13n.SelectionPanel with non-inherited properties"
+    },
+    "sap.m.p13n.SelectionPanel-aggregations": {
+        "prefix": "!5-selection-panel-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.m.p13n.SelectionPanel with non-inherited aggregations"
+    },
+    "sap.m.p13n.SelectionPanel-events": {
+        "prefix": "!5-selection-panel-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.m.p13n.SelectionPanel with non-inherited events"
+    },
+    "sap.m.p13n.SelectionPanel-all": {
+        "prefix": "!5-selection-panel-all",
+        "body": [
+            "$1title=\"...see text or source\"",
+            "showHeader=\"false\"",
+            "enableCount=\"false\"",
+            "fieldColumn=\"\"",
+            "activeColumn=\"\"",
+            "itemFactory=\"\"",
+            "multiSelectMode=\"ClearAll\"$2"
+        ],
+        "description": "sap.m.p13n.SelectionPanel with non-inherited properties, aggregations and events"
+    }
+}

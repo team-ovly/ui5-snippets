@@ -1,0 +1,44 @@
+{
+    "sap.ui.commons.Callout": {
+        "prefix": "!5-callout",
+        "body": [
+            "<Callout ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.commons.Callout"
+    },
+    "sap.ui.commons.Callout-properties": {
+        "prefix": "!5-callout-properties",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.commons.Callout with non-inherited properties"
+    },
+    "sap.ui.commons.Callout-aggregations": {
+        "prefix": "!5-callout-aggregations",
+        "body": [
+            "$1<content>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</content>",
+            "$2"
+        ],
+        "description": "sap.ui.commons.Callout with non-inherited aggregations"
+    },
+    "sap.ui.commons.Callout-events": {
+        "prefix": "!5-callout-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.commons.Callout with non-inherited events"
+    },
+    "sap.ui.commons.Callout-all": {
+        "prefix": "!5-callout-all",
+        "body": [
+            "$1<content>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</content>$2"
+        ],
+        "description": "sap.ui.commons.Callout with non-inherited properties, aggregations and events"
+    }
+}

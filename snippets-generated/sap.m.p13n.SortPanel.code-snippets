@@ -1,0 +1,39 @@
+{
+    "sap.m.p13n.SortPanel": {
+        "prefix": "!5-sort-panel",
+        "body": [
+            "<SortPanel ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.p13n.SortPanel"
+    },
+    "sap.m.p13n.SortPanel-properties": {
+        "prefix": "!5-sort-panel-properties",
+        "body": [
+            "$1title=\"...see text or source\"$2"
+        ],
+        "description": "sap.m.p13n.SortPanel with non-inherited properties"
+    },
+    "sap.m.p13n.SortPanel-aggregations": {
+        "prefix": "!5-sort-panel-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.m.p13n.SortPanel with non-inherited aggregations"
+    },
+    "sap.m.p13n.SortPanel-events": {
+        "prefix": "!5-sort-panel-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.m.p13n.SortPanel with non-inherited events"
+    },
+    "sap.m.p13n.SortPanel-all": {
+        "prefix": "!5-sort-panel-all",
+        "body": [
+            "$1title=\"...see text or source\"$2"
+        ],
+        "description": "sap.m.p13n.SortPanel with non-inherited properties, aggregations and events"
+    }
+}

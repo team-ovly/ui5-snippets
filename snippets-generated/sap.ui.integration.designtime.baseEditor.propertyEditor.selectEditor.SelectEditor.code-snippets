@@ -1,0 +1,39 @@
+{
+    "sap.ui.integration.designtime.baseEditor.propertyEditor.selectEditor.SelectEditor": {
+        "prefix": "!5-select-editor",
+        "body": [
+            "<SelectEditor ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.integration.designtime.baseEditor.propertyEditor.selectEditor.SelectEditor"
+    },
+    "sap.ui.integration.designtime.baseEditor.propertyEditor.selectEditor.SelectEditor-properties": {
+        "prefix": "!5-select-editor-properties",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.integration.designtime.baseEditor.propertyEditor.selectEditor.SelectEditor with non-inherited properties"
+    },
+    "sap.ui.integration.designtime.baseEditor.propertyEditor.selectEditor.SelectEditor-aggregations": {
+        "prefix": "!5-select-editor-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.integration.designtime.baseEditor.propertyEditor.selectEditor.SelectEditor with non-inherited aggregations"
+    },
+    "sap.ui.integration.designtime.baseEditor.propertyEditor.selectEditor.SelectEditor-events": {
+        "prefix": "!5-select-editor-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.integration.designtime.baseEditor.propertyEditor.selectEditor.SelectEditor with non-inherited events"
+    },
+    "sap.ui.integration.designtime.baseEditor.propertyEditor.selectEditor.SelectEditor-all": {
+        "prefix": "!5-select-editor-all",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.integration.designtime.baseEditor.propertyEditor.selectEditor.SelectEditor with non-inherited properties, aggregations and events"
+    }
+}

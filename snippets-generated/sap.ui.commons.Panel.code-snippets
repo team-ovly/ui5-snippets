@@ -1,0 +1,77 @@
+{
+    "sap.ui.commons.Panel": {
+        "prefix": "!5-panel",
+        "body": [
+            "<Panel ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.commons.Panel"
+    },
+    "sap.ui.commons.Panel-properties": {
+        "prefix": "!5-panel-properties",
+        "body": [
+            "$1width=\"100%\"",
+            "height=\"\"",
+            "enabled=\"true\"",
+            "scrollLeft=\"0\"",
+            "scrollTop=\"0\"",
+            "applyContentPadding=\"true\"",
+            "collapsed=\"false\"",
+            "areaDesign=\"Fill\"",
+            "borderDesign=\"Box\"",
+            "showCollapseIcon=\"true\"",
+            "text=\"\"$2"
+        ],
+        "description": "sap.ui.commons.Panel with non-inherited properties"
+    },
+    "sap.ui.commons.Panel-aggregations": {
+        "prefix": "!5-panel-aggregations",
+        "body": [
+            "$1<content>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</content>",
+            "<title>",
+            "\t<!-- <sap.ui.core.Title /> -->",
+            "</title>",
+            "<buttons>",
+            "\t<!-- <sap.ui.commons.Button /> -->",
+            "</buttons>",
+            "$2"
+        ],
+        "description": "sap.ui.commons.Panel with non-inherited aggregations"
+    },
+    "sap.ui.commons.Panel-events": {
+        "prefix": "!5-panel-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.commons.Panel with non-inherited events"
+    },
+    "sap.ui.commons.Panel-all": {
+        "prefix": "!5-panel-all",
+        "body": [
+            "$1width=\"100%\"",
+            "height=\"\"",
+            "enabled=\"true\"",
+            "scrollLeft=\"0\"",
+            "scrollTop=\"0\"",
+            "applyContentPadding=\"true\"",
+            "collapsed=\"false\"",
+            "areaDesign=\"Fill\"",
+            "borderDesign=\"Box\"",
+            "showCollapseIcon=\"true\"",
+            "text=\"\"",
+            "<content>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</content>",
+            "<title>",
+            "\t<!-- <sap.ui.core.Title /> -->",
+            "</title>",
+            "<buttons>",
+            "\t<!-- <sap.ui.commons.Button /> -->",
+            "</buttons>$2"
+        ],
+        "description": "sap.ui.commons.Panel with non-inherited properties, aggregations and events"
+    }
+}

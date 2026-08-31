@@ -1,0 +1,52 @@
+{
+    "sap.ui.mdc.chart.ChartImplementationContainer": {
+        "prefix": "!5-chart-implementation-container",
+        "body": [
+            "<ChartImplementationContainer ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.mdc.chart.ChartImplementationContainer"
+    },
+    "sap.ui.mdc.chart.ChartImplementationContainer-properties": {
+        "prefix": "!5-chart-implementation-container-properties",
+        "body": [
+            "$1showNoDataStruct=\"true\"$2"
+        ],
+        "description": "sap.ui.mdc.chart.ChartImplementationContainer with non-inherited properties"
+    },
+    "sap.ui.mdc.chart.ChartImplementationContainer-aggregations": {
+        "prefix": "!5-chart-implementation-container-aggregations",
+        "body": [
+            "$1<content>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</content>",
+            "<noDataContent>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</noDataContent>",
+            "$2"
+        ],
+        "description": "sap.ui.mdc.chart.ChartImplementationContainer with non-inherited aggregations"
+    },
+    "sap.ui.mdc.chart.ChartImplementationContainer-events": {
+        "prefix": "!5-chart-implementation-container-events",
+        "body": [
+            "$1chartNoDataContent=\".on${3:ChartNoDataContent}\"$2"
+        ],
+        "description": "sap.ui.mdc.chart.ChartImplementationContainer with non-inherited events"
+    },
+    "sap.ui.mdc.chart.ChartImplementationContainer-all": {
+        "prefix": "!5-chart-implementation-container-all",
+        "body": [
+            "$1showNoDataStruct=\"true\"",
+            "<content>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</content>",
+            "<noDataContent>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</noDataContent>",
+            "chartNoDataContent=\".on${3:ChartNoDataContent}\"$2"
+        ],
+        "description": "sap.ui.mdc.chart.ChartImplementationContainer with non-inherited properties, aggregations and events"
+    }
+}

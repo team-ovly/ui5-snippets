@@ -1,0 +1,47 @@
+{
+    "sap.m.TileAttribute": {
+        "prefix": "!5-tile-attribute",
+        "body": [
+            "<TileAttribute ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.TileAttribute"
+    },
+    "sap.m.TileAttribute-properties": {
+        "prefix": "!5-tile-attribute-properties",
+        "body": [
+            "$1key=\"0\"",
+            "label=\"\"$2"
+        ],
+        "description": "sap.m.TileAttribute with non-inherited properties"
+    },
+    "sap.m.TileAttribute-aggregations": {
+        "prefix": "!5-tile-attribute-aggregations",
+        "body": [
+            "$1<contentConfig>",
+            "\t<!-- <sap.m.ContentConfig /> -->",
+            "</contentConfig>",
+            "$2"
+        ],
+        "description": "sap.m.TileAttribute with non-inherited aggregations"
+    },
+    "sap.m.TileAttribute-events": {
+        "prefix": "!5-tile-attribute-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.m.TileAttribute with non-inherited events"
+    },
+    "sap.m.TileAttribute-all": {
+        "prefix": "!5-tile-attribute-all",
+        "body": [
+            "$1key=\"0\"",
+            "label=\"\"",
+            "<contentConfig>",
+            "\t<!-- <sap.m.ContentConfig /> -->",
+            "</contentConfig>$2"
+        ],
+        "description": "sap.m.TileAttribute with non-inherited properties, aggregations and events"
+    }
+}

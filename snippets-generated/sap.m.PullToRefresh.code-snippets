@@ -1,0 +1,46 @@
+{
+    "sap.m.PullToRefresh": {
+        "prefix": "!5-pull-to-refresh",
+        "body": [
+            "<PullToRefresh ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.PullToRefresh"
+    },
+    "sap.m.PullToRefresh-properties": {
+        "prefix": "!5-pull-to-refresh-properties",
+        "body": [
+            "$1description=\"\"",
+            "showIcon=\"false\"",
+            "customIcon=\"\"",
+            "iconDensityAware=\"true\"$2"
+        ],
+        "description": "sap.m.PullToRefresh with non-inherited properties"
+    },
+    "sap.m.PullToRefresh-aggregations": {
+        "prefix": "!5-pull-to-refresh-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.m.PullToRefresh with non-inherited aggregations"
+    },
+    "sap.m.PullToRefresh-events": {
+        "prefix": "!5-pull-to-refresh-events",
+        "body": [
+            "$1refresh=\".on${3:Refresh}\"$2"
+        ],
+        "description": "sap.m.PullToRefresh with non-inherited events"
+    },
+    "sap.m.PullToRefresh-all": {
+        "prefix": "!5-pull-to-refresh-all",
+        "body": [
+            "$1description=\"\"",
+            "showIcon=\"false\"",
+            "customIcon=\"\"",
+            "iconDensityAware=\"true\"",
+            "refresh=\".on${3:Refresh}\"$2"
+        ],
+        "description": "sap.m.PullToRefresh with non-inherited properties, aggregations and events"
+    }
+}

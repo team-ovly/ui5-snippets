@@ -1,0 +1,39 @@
+{
+    "sap.ui.webc.common.WebComponent": {
+        "prefix": "!5-web-component",
+        "body": [
+            "<WebComponent ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.webc.common.WebComponent"
+    },
+    "sap.ui.webc.common.WebComponent-properties": {
+        "prefix": "!5-web-component-properties",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.webc.common.WebComponent with non-inherited properties"
+    },
+    "sap.ui.webc.common.WebComponent-aggregations": {
+        "prefix": "!5-web-component-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.webc.common.WebComponent with non-inherited aggregations"
+    },
+    "sap.ui.webc.common.WebComponent-events": {
+        "prefix": "!5-web-component-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.webc.common.WebComponent with non-inherited events"
+    },
+    "sap.ui.webc.common.WebComponent-all": {
+        "prefix": "!5-web-component-all",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.webc.common.WebComponent with non-inherited properties, aggregations and events"
+    }
+}

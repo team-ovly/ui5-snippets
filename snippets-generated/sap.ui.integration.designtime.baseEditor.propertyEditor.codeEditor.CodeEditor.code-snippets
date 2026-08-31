@@ -1,0 +1,39 @@
+{
+    "sap.ui.integration.designtime.baseEditor.propertyEditor.codeEditor.CodeEditor": {
+        "prefix": "!5-code-editor",
+        "body": [
+            "<CodeEditor ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.integration.designtime.baseEditor.propertyEditor.codeEditor.CodeEditor"
+    },
+    "sap.ui.integration.designtime.baseEditor.propertyEditor.codeEditor.CodeEditor-properties": {
+        "prefix": "!5-code-editor-properties",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.integration.designtime.baseEditor.propertyEditor.codeEditor.CodeEditor with non-inherited properties"
+    },
+    "sap.ui.integration.designtime.baseEditor.propertyEditor.codeEditor.CodeEditor-aggregations": {
+        "prefix": "!5-code-editor-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.integration.designtime.baseEditor.propertyEditor.codeEditor.CodeEditor with non-inherited aggregations"
+    },
+    "sap.ui.integration.designtime.baseEditor.propertyEditor.codeEditor.CodeEditor-events": {
+        "prefix": "!5-code-editor-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.integration.designtime.baseEditor.propertyEditor.codeEditor.CodeEditor with non-inherited events"
+    },
+    "sap.ui.integration.designtime.baseEditor.propertyEditor.codeEditor.CodeEditor-all": {
+        "prefix": "!5-code-editor-all",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.integration.designtime.baseEditor.propertyEditor.codeEditor.CodeEditor with non-inherited properties, aggregations and events"
+    }
+}

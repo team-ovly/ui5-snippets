@@ -1,0 +1,104 @@
+{
+    "sap.ui.ux3.ThingInspector": {
+        "prefix": "!5-thing-inspector",
+        "body": [
+            "<ThingInspector ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.ux3.ThingInspector"
+    },
+    "sap.ui.ux3.ThingInspector-properties": {
+        "prefix": "!5-thing-inspector-properties",
+        "body": [
+            "$1firstTitle=\"\"",
+            "type=\"\"",
+            "icon=\"\"",
+            "secondTitle=\"\"",
+            "followState=\"Default\"",
+            "flagState=\"false\"",
+            "favoriteState=\"false\"",
+            "favoriteActionEnabled=\"true\"",
+            "updateActionEnabled=\"true\"",
+            "followActionEnabled=\"true\"",
+            "flagActionEnabled=\"true\"",
+            "headerType=\"Standard\"$2"
+        ],
+        "description": "sap.ui.ux3.ThingInspector with non-inherited properties"
+    },
+    "sap.ui.ux3.ThingInspector-aggregations": {
+        "prefix": "!5-thing-inspector-aggregations",
+        "body": [
+            "$1<actions>",
+            "\t<!-- <sap.ui.ux3.ThingAction /> -->",
+            "</actions>",
+            "<headerContent>",
+            "\t<!-- <sap.ui.ux3.ThingGroup /> -->",
+            "</headerContent>",
+            "<facets>",
+            "\t<!-- <sap.ui.ux3.NavigationItem /> -->",
+            "</facets>",
+            "<facetContent>",
+            "\t<!-- <sap.ui.ux3.ThingGroup /> -->",
+            "</facetContent>",
+            "<actionBar>",
+            "\t<!-- <sap.ui.ux3.ActionBar /> -->",
+            "</actionBar>",
+            "<thingViewer>",
+            "\t<!-- <sap.ui.ux3.ThingViewer /> -->",
+            "</thingViewer>",
+            "$2"
+        ],
+        "description": "sap.ui.ux3.ThingInspector with non-inherited aggregations"
+    },
+    "sap.ui.ux3.ThingInspector-events": {
+        "prefix": "!5-thing-inspector-events",
+        "body": [
+            "$1actionSelected=\".on${3:ActionSelected}\"",
+            "facetSelected=\".on${4:FacetSelected}\"",
+            "feedSubmit=\".on${5:FeedSubmit}\"",
+            "selectedFacet=\".on${6:SelectedFacet}\"$2"
+        ],
+        "description": "sap.ui.ux3.ThingInspector with non-inherited events"
+    },
+    "sap.ui.ux3.ThingInspector-all": {
+        "prefix": "!5-thing-inspector-all",
+        "body": [
+            "$1firstTitle=\"\"",
+            "type=\"\"",
+            "icon=\"\"",
+            "secondTitle=\"\"",
+            "followState=\"Default\"",
+            "flagState=\"false\"",
+            "favoriteState=\"false\"",
+            "favoriteActionEnabled=\"true\"",
+            "updateActionEnabled=\"true\"",
+            "followActionEnabled=\"true\"",
+            "flagActionEnabled=\"true\"",
+            "headerType=\"Standard\"",
+            "<actions>",
+            "\t<!-- <sap.ui.ux3.ThingAction /> -->",
+            "</actions>",
+            "<headerContent>",
+            "\t<!-- <sap.ui.ux3.ThingGroup /> -->",
+            "</headerContent>",
+            "<facets>",
+            "\t<!-- <sap.ui.ux3.NavigationItem /> -->",
+            "</facets>",
+            "<facetContent>",
+            "\t<!-- <sap.ui.ux3.ThingGroup /> -->",
+            "</facetContent>",
+            "<actionBar>",
+            "\t<!-- <sap.ui.ux3.ActionBar /> -->",
+            "</actionBar>",
+            "<thingViewer>",
+            "\t<!-- <sap.ui.ux3.ThingViewer /> -->",
+            "</thingViewer>",
+            "actionSelected=\".on${3:ActionSelected}\"",
+            "facetSelected=\".on${4:FacetSelected}\"",
+            "feedSubmit=\".on${5:FeedSubmit}\"",
+            "selectedFacet=\".on${6:SelectedFacet}\"$2"
+        ],
+        "description": "sap.ui.ux3.ThingInspector with non-inherited properties, aggregations and events"
+    }
+}

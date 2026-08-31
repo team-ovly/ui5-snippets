@@ -1,0 +1,106 @@
+{
+    "sap.m.SplitContainer": {
+        "prefix": "!5-split-container",
+        "body": [
+            "<SplitContainer ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.SplitContainer"
+    },
+    "sap.m.SplitContainer-properties": {
+        "prefix": "!5-split-container-properties",
+        "body": [
+            "$1defaultTransitionNameDetail=\"slide\"",
+            "defaultTransitionNameMaster=\"slide\"",
+            "mode=\"ShowHideMode\"",
+            "masterButtonText=\"\"",
+            "masterButtonTooltip=\"\"",
+            "backgroundColor=\"\"",
+            "backgroundImage=\"\"",
+            "backgroundRepeat=\"false\"",
+            "backgroundOpacity=\"1\"$2"
+        ],
+        "description": "sap.m.SplitContainer with non-inherited properties"
+    },
+    "sap.m.SplitContainer-aggregations": {
+        "prefix": "!5-split-container-aggregations",
+        "body": [
+            "$1<masterPages>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</masterPages>",
+            "<detailPages>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</detailPages>",
+            "<_navMaster>",
+            "\t<!-- <sap.m.NavContainer /> -->",
+            "</_navMaster>",
+            "<_navDetail>",
+            "\t<!-- <sap.m.NavContainer /> -->",
+            "</_navDetail>",
+            "<_navPopover>",
+            "\t<!-- <sap.m.Popover /> -->",
+            "</_navPopover>",
+            "$2"
+        ],
+        "description": "sap.m.SplitContainer with non-inherited aggregations"
+    },
+    "sap.m.SplitContainer-events": {
+        "prefix": "!5-split-container-events",
+        "body": [
+            "$1masterNavigate=\".on${3:MasterNavigate}\"",
+            "afterMasterNavigate=\".on${4:AfterMasterNavigate}\"",
+            "masterButton=\".on${5:MasterButton}\"",
+            "beforeMasterOpen=\".on${6:BeforeMasterOpen}\"",
+            "afterMasterOpen=\".on${7:AfterMasterOpen}\"",
+            "beforeMasterClose=\".on${8:BeforeMasterClose}\"",
+            "afterMasterClose=\".on${9:AfterMasterClose}\"",
+            "detailNavigate=\".on${10:DetailNavigate}\"",
+            "afterDetailNavigate=\".on${11:AfterDetailNavigate}\"",
+            "initialDetail=\".on${12:InitialDetail}\"",
+            "initialMaster=\".on${13:InitialMaster}\"$2"
+        ],
+        "description": "sap.m.SplitContainer with non-inherited events"
+    },
+    "sap.m.SplitContainer-all": {
+        "prefix": "!5-split-container-all",
+        "body": [
+            "$1defaultTransitionNameDetail=\"slide\"",
+            "defaultTransitionNameMaster=\"slide\"",
+            "mode=\"ShowHideMode\"",
+            "masterButtonText=\"\"",
+            "masterButtonTooltip=\"\"",
+            "backgroundColor=\"\"",
+            "backgroundImage=\"\"",
+            "backgroundRepeat=\"false\"",
+            "backgroundOpacity=\"1\"",
+            "<masterPages>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</masterPages>",
+            "<detailPages>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</detailPages>",
+            "<_navMaster>",
+            "\t<!-- <sap.m.NavContainer /> -->",
+            "</_navMaster>",
+            "<_navDetail>",
+            "\t<!-- <sap.m.NavContainer /> -->",
+            "</_navDetail>",
+            "<_navPopover>",
+            "\t<!-- <sap.m.Popover /> -->",
+            "</_navPopover>",
+            "masterNavigate=\".on${3:MasterNavigate}\"",
+            "afterMasterNavigate=\".on${4:AfterMasterNavigate}\"",
+            "masterButton=\".on${5:MasterButton}\"",
+            "beforeMasterOpen=\".on${6:BeforeMasterOpen}\"",
+            "afterMasterOpen=\".on${7:AfterMasterOpen}\"",
+            "beforeMasterClose=\".on${8:BeforeMasterClose}\"",
+            "afterMasterClose=\".on${9:AfterMasterClose}\"",
+            "detailNavigate=\".on${10:DetailNavigate}\"",
+            "afterDetailNavigate=\".on${11:AfterDetailNavigate}\"",
+            "initialDetail=\".on${12:InitialDetail}\"",
+            "initialMaster=\".on${13:InitialMaster}\"$2"
+        ],
+        "description": "sap.m.SplitContainer with non-inherited properties, aggregations and events"
+    }
+}

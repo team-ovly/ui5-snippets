@@ -1,0 +1,42 @@
+{
+    "sap.ui.mdc.filterbar.p13n.AdaptationFilterBar": {
+        "prefix": "!5-adaptation-filter-bar",
+        "body": [
+            "<AdaptationFilterBar ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.mdc.filterbar.p13n.AdaptationFilterBar"
+    },
+    "sap.ui.mdc.filterbar.p13n.AdaptationFilterBar-properties": {
+        "prefix": "!5-adaptation-filter-bar-properties",
+        "body": [
+            "$1_useFixedWidth=\"false\"$2"
+        ],
+        "description": "sap.ui.mdc.filterbar.p13n.AdaptationFilterBar with non-inherited properties"
+    },
+    "sap.ui.mdc.filterbar.p13n.AdaptationFilterBar-aggregations": {
+        "prefix": "!5-adaptation-filter-bar-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.mdc.filterbar.p13n.AdaptationFilterBar with non-inherited aggregations"
+    },
+    "sap.ui.mdc.filterbar.p13n.AdaptationFilterBar-events": {
+        "prefix": "!5-adaptation-filter-bar-events",
+        "body": [
+            "$1change=\".on${3:Change}\"",
+            "adaptationControl=\".on${4:AdaptationControl}\"$2"
+        ],
+        "description": "sap.ui.mdc.filterbar.p13n.AdaptationFilterBar with non-inherited events"
+    },
+    "sap.ui.mdc.filterbar.p13n.AdaptationFilterBar-all": {
+        "prefix": "!5-adaptation-filter-bar-all",
+        "body": [
+            "$1_useFixedWidth=\"false\"",
+            "change=\".on${3:Change}\"",
+            "adaptationControl=\".on${4:AdaptationControl}\"$2"
+        ],
+        "description": "sap.ui.mdc.filterbar.p13n.AdaptationFilterBar with non-inherited properties, aggregations and events"
+    }
+}

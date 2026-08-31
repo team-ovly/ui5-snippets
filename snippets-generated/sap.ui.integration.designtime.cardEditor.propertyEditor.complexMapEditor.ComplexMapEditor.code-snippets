@@ -1,0 +1,39 @@
+{
+    "sap.ui.integration.designtime.cardEditor.propertyEditor.complexMapEditor.ComplexMapEditor": {
+        "prefix": "!5-complex-map-editor",
+        "body": [
+            "<ComplexMapEditor ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.integration.designtime.cardEditor.propertyEditor.complexMapEditor.ComplexMapEditor"
+    },
+    "sap.ui.integration.designtime.cardEditor.propertyEditor.complexMapEditor.ComplexMapEditor-properties": {
+        "prefix": "!5-complex-map-editor-properties",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.integration.designtime.cardEditor.propertyEditor.complexMapEditor.ComplexMapEditor with non-inherited properties"
+    },
+    "sap.ui.integration.designtime.cardEditor.propertyEditor.complexMapEditor.ComplexMapEditor-aggregations": {
+        "prefix": "!5-complex-map-editor-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.integration.designtime.cardEditor.propertyEditor.complexMapEditor.ComplexMapEditor with non-inherited aggregations"
+    },
+    "sap.ui.integration.designtime.cardEditor.propertyEditor.complexMapEditor.ComplexMapEditor-events": {
+        "prefix": "!5-complex-map-editor-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.integration.designtime.cardEditor.propertyEditor.complexMapEditor.ComplexMapEditor with non-inherited events"
+    },
+    "sap.ui.integration.designtime.cardEditor.propertyEditor.complexMapEditor.ComplexMapEditor-all": {
+        "prefix": "!5-complex-map-editor-all",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.integration.designtime.cardEditor.propertyEditor.complexMapEditor.ComplexMapEditor with non-inherited properties, aggregations and events"
+    }
+}

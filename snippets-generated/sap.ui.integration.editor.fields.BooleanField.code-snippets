@@ -1,0 +1,39 @@
+{
+    "sap.ui.integration.editor.fields.BooleanField": {
+        "prefix": "!5-boolean-field",
+        "body": [
+            "<BooleanField ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.integration.editor.fields.BooleanField"
+    },
+    "sap.ui.integration.editor.fields.BooleanField-properties": {
+        "prefix": "!5-boolean-field-properties",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.integration.editor.fields.BooleanField with non-inherited properties"
+    },
+    "sap.ui.integration.editor.fields.BooleanField-aggregations": {
+        "prefix": "!5-boolean-field-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.integration.editor.fields.BooleanField with non-inherited aggregations"
+    },
+    "sap.ui.integration.editor.fields.BooleanField-events": {
+        "prefix": "!5-boolean-field-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.integration.editor.fields.BooleanField with non-inherited events"
+    },
+    "sap.ui.integration.editor.fields.BooleanField-all": {
+        "prefix": "!5-boolean-field-all",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.integration.editor.fields.BooleanField with non-inherited properties, aggregations and events"
+    }
+}

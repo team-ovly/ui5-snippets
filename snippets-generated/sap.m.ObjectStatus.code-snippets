@@ -1,0 +1,64 @@
+{
+    "sap.m.ObjectStatus": {
+        "prefix": "!5-object-status",
+        "body": [
+            "<ObjectStatus ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.ObjectStatus"
+    },
+    "sap.m.ObjectStatus-properties": {
+        "prefix": "!5-object-status-properties",
+        "body": [
+            "$1title=\"\"",
+            "text=\"\"",
+            "active=\"false\"",
+            "reactiveAreaMode=\"Inline\"",
+            "state=\"sap.ui.core.ValueState.None\"",
+            "inverted=\"false\"",
+            "icon=\"\"",
+            "iconDensityAware=\"true\"",
+            "textDirection=\"Inherit\"",
+            "emptyIndicatorMode=\"Off\"",
+            "stateAnnouncementText=\"\"$2"
+        ],
+        "description": "sap.m.ObjectStatus with non-inherited properties"
+    },
+    "sap.m.ObjectStatus-aggregations": {
+        "prefix": "!5-object-status-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.m.ObjectStatus with non-inherited aggregations"
+    },
+    "sap.m.ObjectStatus-events": {
+        "prefix": "!5-object-status-events",
+        "body": [
+            "$1press=\".on${3:Press}\"",
+            "ariaDescribedBy=\".on${4:AriaDescribedBy}\"",
+            "ariaLabelledBy=\".on${5:AriaLabelledBy}\"$2"
+        ],
+        "description": "sap.m.ObjectStatus with non-inherited events"
+    },
+    "sap.m.ObjectStatus-all": {
+        "prefix": "!5-object-status-all",
+        "body": [
+            "$1title=\"\"",
+            "text=\"\"",
+            "active=\"false\"",
+            "reactiveAreaMode=\"Inline\"",
+            "state=\"sap.ui.core.ValueState.None\"",
+            "inverted=\"false\"",
+            "icon=\"\"",
+            "iconDensityAware=\"true\"",
+            "textDirection=\"Inherit\"",
+            "emptyIndicatorMode=\"Off\"",
+            "stateAnnouncementText=\"\"",
+            "press=\".on${3:Press}\"",
+            "ariaDescribedBy=\".on${4:AriaDescribedBy}\"",
+            "ariaLabelledBy=\".on${5:AriaLabelledBy}\"$2"
+        ],
+        "description": "sap.m.ObjectStatus with non-inherited properties, aggregations and events"
+    }
+}

@@ -1,0 +1,66 @@
+{
+    "sap.m.NotificationListGroup": {
+        "prefix": "!5-notification-list-group",
+        "body": [
+            "<NotificationListGroup ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.NotificationListGroup"
+    },
+    "sap.m.NotificationListGroup-properties": {
+        "prefix": "!5-notification-list-group-properties",
+        "body": [
+            "$1collapsed=\"false\"",
+            "autoPriority=\"true\"",
+            "showEmptyGroup=\"false\"",
+            "enableCollapseButtonWhenEmpty=\"false\"",
+            "showItemsCounter=\"true\"",
+            "authorName=\"\"",
+            "authorPicture=\"\"",
+            "datetime=\"\"$2"
+        ],
+        "description": "sap.m.NotificationListGroup with non-inherited properties"
+    },
+    "sap.m.NotificationListGroup-aggregations": {
+        "prefix": "!5-notification-list-group-aggregations",
+        "body": [
+            "$1<items>",
+            "\t<!-- <sap.m.NotificationListItem /> -->",
+            "</items>",
+            "<_collapseButton>",
+            "\t<!-- <sap.m.Button /> -->",
+            "</_collapseButton>",
+            "$2"
+        ],
+        "description": "sap.m.NotificationListGroup with non-inherited aggregations"
+    },
+    "sap.m.NotificationListGroup-events": {
+        "prefix": "!5-notification-list-group-events",
+        "body": [
+            "$1onCollapse=\".on${3:OnCollapse}\"$2"
+        ],
+        "description": "sap.m.NotificationListGroup with non-inherited events"
+    },
+    "sap.m.NotificationListGroup-all": {
+        "prefix": "!5-notification-list-group-all",
+        "body": [
+            "$1collapsed=\"false\"",
+            "autoPriority=\"true\"",
+            "showEmptyGroup=\"false\"",
+            "enableCollapseButtonWhenEmpty=\"false\"",
+            "showItemsCounter=\"true\"",
+            "authorName=\"\"",
+            "authorPicture=\"\"",
+            "datetime=\"\"",
+            "<items>",
+            "\t<!-- <sap.m.NotificationListItem /> -->",
+            "</items>",
+            "<_collapseButton>",
+            "\t<!-- <sap.m.Button /> -->",
+            "</_collapseButton>",
+            "onCollapse=\".on${3:OnCollapse}\"$2"
+        ],
+        "description": "sap.m.NotificationListGroup with non-inherited properties, aggregations and events"
+    }
+}

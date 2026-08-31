@@ -1,0 +1,78 @@
+{
+    "sap.ui.unified.calendar.Header": {
+        "prefix": "!5-header",
+        "body": [
+            "<Header ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.unified.calendar.Header"
+    },
+    "sap.ui.unified.calendar.Header-properties": {
+        "prefix": "!5-header-properties",
+        "body": [
+            "$1textButton0=\"\"",
+            "additionalTextButton0=\"\"",
+            "ariaLabelButton0=\"\"",
+            "visibleButton0=\"false\"",
+            "textButton1=\"\"",
+            "additionalTextButton1=\"\"",
+            "ariaLabelButton1=\"\"",
+            "visibleButton1=\"true\"",
+            "textButton2=\"\"",
+            "additionalTextButton2=\"\"",
+            "ariaLabelButton2=\"\"",
+            "visibleButton2=\"true\"",
+            "enabledPrevious=\"true\"",
+            "enabledNext=\"true\"",
+            "visibleCurrentDateButton=\"false\"$2"
+        ],
+        "description": "sap.ui.unified.calendar.Header with non-inherited properties"
+    },
+    "sap.ui.unified.calendar.Header-aggregations": {
+        "prefix": "!5-header-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.unified.calendar.Header with non-inherited aggregations"
+    },
+    "sap.ui.unified.calendar.Header-events": {
+        "prefix": "!5-header-events",
+        "body": [
+            "$1pressPrevious=\".on${3:PressPrevious}\"",
+            "pressNext=\".on${4:PressNext}\"",
+            "pressCurrentDate=\".on${5:PressCurrentDate}\"",
+            "pressButton0=\".on${6:PressButton0}\"",
+            "pressButton1=\".on${7:PressButton1}\"",
+            "pressButton2=\".on${8:PressButton2}\"$2"
+        ],
+        "description": "sap.ui.unified.calendar.Header with non-inherited events"
+    },
+    "sap.ui.unified.calendar.Header-all": {
+        "prefix": "!5-header-all",
+        "body": [
+            "$1textButton0=\"\"",
+            "additionalTextButton0=\"\"",
+            "ariaLabelButton0=\"\"",
+            "visibleButton0=\"false\"",
+            "textButton1=\"\"",
+            "additionalTextButton1=\"\"",
+            "ariaLabelButton1=\"\"",
+            "visibleButton1=\"true\"",
+            "textButton2=\"\"",
+            "additionalTextButton2=\"\"",
+            "ariaLabelButton2=\"\"",
+            "visibleButton2=\"true\"",
+            "enabledPrevious=\"true\"",
+            "enabledNext=\"true\"",
+            "visibleCurrentDateButton=\"false\"",
+            "pressPrevious=\".on${3:PressPrevious}\"",
+            "pressNext=\".on${4:PressNext}\"",
+            "pressCurrentDate=\".on${5:PressCurrentDate}\"",
+            "pressButton0=\".on${6:PressButton0}\"",
+            "pressButton1=\".on${7:PressButton1}\"",
+            "pressButton2=\".on${8:PressButton2}\"$2"
+        ],
+        "description": "sap.ui.unified.calendar.Header with non-inherited properties, aggregations and events"
+    }
+}

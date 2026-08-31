@@ -1,0 +1,92 @@
+{
+    "sap.m.VariantManagement": {
+        "prefix": "!5-variant-management",
+        "body": [
+            "<VariantManagement ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.VariantManagement"
+    },
+    "sap.m.VariantManagement-properties": {
+        "prefix": "!5-variant-management-properties",
+        "body": [
+            "$1supportDefault=\"true\"",
+            "supportFavorites=\"true\"",
+            "supportApplyAutomatically=\"true\"",
+            "supportPublic=\"true\"",
+            "supportContexts=\"false\"",
+            "selectedKey=\"\"",
+            "defaultKey=\"\"",
+            "showSaveAs=\"true\"",
+            "creationAllowed=\"true\"",
+            "showFooter=\"true\"",
+            "modified=\"false\"",
+            "popoverTitle=\"\"",
+            "inErrorState=\"false\"",
+            "level=\"Auto\"",
+            "titleStyle=\"Auto\"",
+            "maxWidth=\"100%\"",
+            "_displayTextForExecuteOnSelectionForStandardVariant=\"\"",
+            "_showAsText=\"false\"",
+            "_selectStategyForSameItem=\"true\"",
+            "_standardKey=\"\"$2"
+        ],
+        "description": "sap.m.VariantManagement with non-inherited properties"
+    },
+    "sap.m.VariantManagement-aggregations": {
+        "prefix": "!5-variant-management-aggregations",
+        "body": [
+            "$1<items>",
+            "\t<!-- <sap.m.VariantItem /> -->",
+            "</items>",
+            "$2"
+        ],
+        "description": "sap.m.VariantManagement with non-inherited aggregations"
+    },
+    "sap.m.VariantManagement-events": {
+        "prefix": "!5-variant-management-events",
+        "body": [
+            "$1save=\".on${3:Save}\"",
+            "cancel=\".on${4:Cancel}\"",
+            "manageCancel=\".on${5:ManageCancel}\"",
+            "manage=\".on${6:Manage}\"",
+            "select=\".on${7:Select}\"$2"
+        ],
+        "description": "sap.m.VariantManagement with non-inherited events"
+    },
+    "sap.m.VariantManagement-all": {
+        "prefix": "!5-variant-management-all",
+        "body": [
+            "$1supportDefault=\"true\"",
+            "supportFavorites=\"true\"",
+            "supportApplyAutomatically=\"true\"",
+            "supportPublic=\"true\"",
+            "supportContexts=\"false\"",
+            "selectedKey=\"\"",
+            "defaultKey=\"\"",
+            "showSaveAs=\"true\"",
+            "creationAllowed=\"true\"",
+            "showFooter=\"true\"",
+            "modified=\"false\"",
+            "popoverTitle=\"\"",
+            "inErrorState=\"false\"",
+            "level=\"Auto\"",
+            "titleStyle=\"Auto\"",
+            "maxWidth=\"100%\"",
+            "_displayTextForExecuteOnSelectionForStandardVariant=\"\"",
+            "_showAsText=\"false\"",
+            "_selectStategyForSameItem=\"true\"",
+            "_standardKey=\"\"",
+            "<items>",
+            "\t<!-- <sap.m.VariantItem /> -->",
+            "</items>",
+            "save=\".on${3:Save}\"",
+            "cancel=\".on${4:Cancel}\"",
+            "manageCancel=\".on${5:ManageCancel}\"",
+            "manage=\".on${6:Manage}\"",
+            "select=\".on${7:Select}\"$2"
+        ],
+        "description": "sap.m.VariantManagement with non-inherited properties, aggregations and events"
+    }
+}

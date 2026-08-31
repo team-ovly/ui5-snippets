@@ -1,0 +1,63 @@
+{
+    "sap.uxap.BreadCrumbs": {
+        "prefix": "!5-bread-crumbs",
+        "body": [
+            "<BreadCrumbs ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.uxap.BreadCrumbs"
+    },
+    "sap.uxap.BreadCrumbs-properties": {
+        "prefix": "!5-bread-crumbs-properties",
+        "body": [
+            "$1showCurrentLocation=\"true\"$2"
+        ],
+        "description": "sap.uxap.BreadCrumbs with non-inherited properties"
+    },
+    "sap.uxap.BreadCrumbs-aggregations": {
+        "prefix": "!5-bread-crumbs-aggregations",
+        "body": [
+            "$1<links>",
+            "\t<!-- <sap.m.Link /> -->",
+            "</links>",
+            "<currentLocation>",
+            "\t<!-- <sap.m.Text /> -->",
+            "</currentLocation>",
+            "<_tubeIcon>",
+            "\t<!-- <sap.ui.core.Icon /> -->",
+            "</_tubeIcon>",
+            "<_overflowSelect>",
+            "\t<!-- <sap.m.Select /> -->",
+            "</_overflowSelect>",
+            "$2"
+        ],
+        "description": "sap.uxap.BreadCrumbs with non-inherited aggregations"
+    },
+    "sap.uxap.BreadCrumbs-events": {
+        "prefix": "!5-bread-crumbs-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.uxap.BreadCrumbs with non-inherited events"
+    },
+    "sap.uxap.BreadCrumbs-all": {
+        "prefix": "!5-bread-crumbs-all",
+        "body": [
+            "$1showCurrentLocation=\"true\"",
+            "<links>",
+            "\t<!-- <sap.m.Link /> -->",
+            "</links>",
+            "<currentLocation>",
+            "\t<!-- <sap.m.Text /> -->",
+            "</currentLocation>",
+            "<_tubeIcon>",
+            "\t<!-- <sap.ui.core.Icon /> -->",
+            "</_tubeIcon>",
+            "<_overflowSelect>",
+            "\t<!-- <sap.m.Select /> -->",
+            "</_overflowSelect>$2"
+        ],
+        "description": "sap.uxap.BreadCrumbs with non-inherited properties, aggregations and events"
+    }
+}

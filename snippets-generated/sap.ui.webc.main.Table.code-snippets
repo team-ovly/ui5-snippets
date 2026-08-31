@@ -1,0 +1,82 @@
+{
+    "sap.ui.webc.main.Table": {
+        "prefix": "!5-table",
+        "body": [
+            "<Table ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.webc.main.Table"
+    },
+    "sap.ui.webc.main.Table-properties": {
+        "prefix": "!5-table-properties",
+        "body": [
+            "$1accessibleName=\"\"",
+            "busy=\"false\"",
+            "busyDelay=\"1000\"",
+            "growing=\"None\"",
+            "growingButtonSubtext=\"\"",
+            "growingButtonText=\"\"",
+            "height=\"\"",
+            "hideNoData=\"false\"",
+            "mode=\"None\"",
+            "noDataText=\"\"",
+            "stickyColumnHeader=\"false\"",
+            "width=\"\"$2"
+        ],
+        "description": "sap.ui.webc.main.Table with non-inherited properties"
+    },
+    "sap.ui.webc.main.Table-aggregations": {
+        "prefix": "!5-table-aggregations",
+        "body": [
+            "$1<columns>",
+            "\t<!-- <sap.ui.webc.main.ITableColumn /> -->",
+            "</columns>",
+            "<rows>",
+            "\t<!-- <sap.ui.webc.main.ITableRow /> -->",
+            "</rows>",
+            "$2"
+        ],
+        "description": "sap.ui.webc.main.Table with non-inherited aggregations"
+    },
+    "sap.ui.webc.main.Table-events": {
+        "prefix": "!5-table-events",
+        "body": [
+            "$1loadMore=\".on${3:LoadMore}\"",
+            "popinChange=\".on${4:PopinChange}\"",
+            "rowClick=\".on${5:RowClick}\"",
+            "selectionChange=\".on${6:SelectionChange}\"",
+            "ariaLabelledBy=\".on${7:AriaLabelledBy}\"$2"
+        ],
+        "description": "sap.ui.webc.main.Table with non-inherited events"
+    },
+    "sap.ui.webc.main.Table-all": {
+        "prefix": "!5-table-all",
+        "body": [
+            "$1accessibleName=\"\"",
+            "busy=\"false\"",
+            "busyDelay=\"1000\"",
+            "growing=\"None\"",
+            "growingButtonSubtext=\"\"",
+            "growingButtonText=\"\"",
+            "height=\"\"",
+            "hideNoData=\"false\"",
+            "mode=\"None\"",
+            "noDataText=\"\"",
+            "stickyColumnHeader=\"false\"",
+            "width=\"\"",
+            "<columns>",
+            "\t<!-- <sap.ui.webc.main.ITableColumn /> -->",
+            "</columns>",
+            "<rows>",
+            "\t<!-- <sap.ui.webc.main.ITableRow /> -->",
+            "</rows>",
+            "loadMore=\".on${3:LoadMore}\"",
+            "popinChange=\".on${4:PopinChange}\"",
+            "rowClick=\".on${5:RowClick}\"",
+            "selectionChange=\".on${6:SelectionChange}\"",
+            "ariaLabelledBy=\".on${7:AriaLabelledBy}\"$2"
+        ],
+        "description": "sap.ui.webc.main.Table with non-inherited properties, aggregations and events"
+    }
+}

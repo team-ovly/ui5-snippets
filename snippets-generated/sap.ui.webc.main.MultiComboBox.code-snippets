@@ -1,0 +1,82 @@
+{
+    "sap.ui.webc.main.MultiComboBox": {
+        "prefix": "!5-multi-combo-box",
+        "body": [
+            "<MultiComboBox ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.webc.main.MultiComboBox"
+    },
+    "sap.ui.webc.main.MultiComboBox-properties": {
+        "prefix": "!5-multi-combo-box-properties",
+        "body": [
+            "$1accessibleName=\"\"",
+            "allowCustomValues=\"false\"",
+            "enabled=\"true\"",
+            "filter=\"StartsWithPerTerm\"",
+            "noTypeahead=\"false\"",
+            "placeholder=\"\"",
+            "readonly=\"false\"",
+            "required=\"false\"",
+            "value=\"\"",
+            "valueState=\"None\"",
+            "valueStateMessage=\"\"",
+            "width=\"\"$2"
+        ],
+        "description": "sap.ui.webc.main.MultiComboBox with non-inherited properties"
+    },
+    "sap.ui.webc.main.MultiComboBox-aggregations": {
+        "prefix": "!5-multi-combo-box-aggregations",
+        "body": [
+            "$1<icon>",
+            "\t<!-- <sap.ui.webc.main.IIcon /> -->",
+            "</icon>",
+            "<items>",
+            "\t<!-- <sap.ui.webc.main.IMultiComboBoxItem /> -->",
+            "</items>",
+            "$2"
+        ],
+        "description": "sap.ui.webc.main.MultiComboBox with non-inherited aggregations"
+    },
+    "sap.ui.webc.main.MultiComboBox-events": {
+        "prefix": "!5-multi-combo-box-events",
+        "body": [
+            "$1change=\".on${3:Change}\"",
+            "input=\".on${4:Input}\"",
+            "openChange=\".on${5:OpenChange}\"",
+            "selectionChange=\".on${6:SelectionChange}\"",
+            "ariaLabelledBy=\".on${7:AriaLabelledBy}\"$2"
+        ],
+        "description": "sap.ui.webc.main.MultiComboBox with non-inherited events"
+    },
+    "sap.ui.webc.main.MultiComboBox-all": {
+        "prefix": "!5-multi-combo-box-all",
+        "body": [
+            "$1accessibleName=\"\"",
+            "allowCustomValues=\"false\"",
+            "enabled=\"true\"",
+            "filter=\"StartsWithPerTerm\"",
+            "noTypeahead=\"false\"",
+            "placeholder=\"\"",
+            "readonly=\"false\"",
+            "required=\"false\"",
+            "value=\"\"",
+            "valueState=\"None\"",
+            "valueStateMessage=\"\"",
+            "width=\"\"",
+            "<icon>",
+            "\t<!-- <sap.ui.webc.main.IIcon /> -->",
+            "</icon>",
+            "<items>",
+            "\t<!-- <sap.ui.webc.main.IMultiComboBoxItem /> -->",
+            "</items>",
+            "change=\".on${3:Change}\"",
+            "input=\".on${4:Input}\"",
+            "openChange=\".on${5:OpenChange}\"",
+            "selectionChange=\".on${6:SelectionChange}\"",
+            "ariaLabelledBy=\".on${7:AriaLabelledBy}\"$2"
+        ],
+        "description": "sap.ui.webc.main.MultiComboBox with non-inherited properties, aggregations and events"
+    }
+}

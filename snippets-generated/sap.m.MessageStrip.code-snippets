@@ -1,0 +1,80 @@
+{
+    "sap.m.MessageStrip": {
+        "prefix": "!5-message-strip",
+        "body": [
+            "<MessageStrip ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.MessageStrip"
+    },
+    "sap.m.MessageStrip-properties": {
+        "prefix": "!5-message-strip-properties",
+        "body": [
+            "$1text=\"\"",
+            "type=\"Information\"",
+            "customIcon=\"\"",
+            "showIcon=\"false\"",
+            "showCloseButton=\"false\"",
+            "enableFormattedText=\"false\"$2"
+        ],
+        "description": "sap.m.MessageStrip with non-inherited properties"
+    },
+    "sap.m.MessageStrip-aggregations": {
+        "prefix": "!5-message-strip-aggregations",
+        "body": [
+            "$1<link>",
+            "\t<!-- <sap.m.Link /> -->",
+            "</link>",
+            "<controls>",
+            "\t<!-- <sap.m.Link /> -->",
+            "</controls>",
+            "<_formattedText>",
+            "\t<!-- <sap.m.FormattedText /> -->",
+            "</_formattedText>",
+            "<_text>",
+            "\t<!-- <sap.m.Text /> -->",
+            "</_text>",
+            "<_closeButton>",
+            "\t<!-- <sap.m.Button /> -->",
+            "</_closeButton>",
+            "$2"
+        ],
+        "description": "sap.m.MessageStrip with non-inherited aggregations"
+    },
+    "sap.m.MessageStrip-events": {
+        "prefix": "!5-message-strip-events",
+        "body": [
+            "$1close=\".on${3:Close}\"$2"
+        ],
+        "description": "sap.m.MessageStrip with non-inherited events"
+    },
+    "sap.m.MessageStrip-all": {
+        "prefix": "!5-message-strip-all",
+        "body": [
+            "$1text=\"\"",
+            "type=\"Information\"",
+            "customIcon=\"\"",
+            "showIcon=\"false\"",
+            "showCloseButton=\"false\"",
+            "enableFormattedText=\"false\"",
+            "<link>",
+            "\t<!-- <sap.m.Link /> -->",
+            "</link>",
+            "<controls>",
+            "\t<!-- <sap.m.Link /> -->",
+            "</controls>",
+            "<_formattedText>",
+            "\t<!-- <sap.m.FormattedText /> -->",
+            "</_formattedText>",
+            "<_text>",
+            "\t<!-- <sap.m.Text /> -->",
+            "</_text>",
+            "<_closeButton>",
+            "\t<!-- <sap.m.Button /> -->",
+            "</_closeButton>",
+            "close=\".on${3:Close}\"$2"
+        ],
+        "description": "sap.m.MessageStrip with non-inherited properties, aggregations and events"
+    }
+}

@@ -1,0 +1,46 @@
+{
+    "sap.ui.unified.ColorPickerPopover": {
+        "prefix": "!5-color-picker-popover",
+        "body": [
+            "<ColorPickerPopover ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.unified.ColorPickerPopover"
+    },
+    "sap.ui.unified.ColorPickerPopover-properties": {
+        "prefix": "!5-color-picker-popover-properties",
+        "body": [
+            "$1colorString=\"\"",
+            "mode=\"HSV\"",
+            "displayMode=\"Default\"$2"
+        ],
+        "description": "sap.ui.unified.ColorPickerPopover with non-inherited properties"
+    },
+    "sap.ui.unified.ColorPickerPopover-aggregations": {
+        "prefix": "!5-color-picker-popover-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.unified.ColorPickerPopover with non-inherited aggregations"
+    },
+    "sap.ui.unified.ColorPickerPopover-events": {
+        "prefix": "!5-color-picker-popover-events",
+        "body": [
+            "$1change=\".on${3:Change}\"",
+            "liveChange=\".on${4:LiveChange}\"$2"
+        ],
+        "description": "sap.ui.unified.ColorPickerPopover with non-inherited events"
+    },
+    "sap.ui.unified.ColorPickerPopover-all": {
+        "prefix": "!5-color-picker-popover-all",
+        "body": [
+            "$1colorString=\"\"",
+            "mode=\"HSV\"",
+            "displayMode=\"Default\"",
+            "change=\".on${3:Change}\"",
+            "liveChange=\".on${4:LiveChange}\"$2"
+        ],
+        "description": "sap.ui.unified.ColorPickerPopover with non-inherited properties, aggregations and events"
+    }
+}

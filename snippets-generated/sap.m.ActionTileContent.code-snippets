@@ -1,0 +1,51 @@
+{
+    "sap.m.ActionTileContent": {
+        "prefix": "!5-action-tile-content",
+        "body": [
+            "<ActionTileContent ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.ActionTileContent"
+    },
+    "sap.m.ActionTileContent-properties": {
+        "prefix": "!5-action-tile-content-properties",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.m.ActionTileContent with non-inherited properties"
+    },
+    "sap.m.ActionTileContent-aggregations": {
+        "prefix": "!5-action-tile-content-aggregations",
+        "body": [
+            "$1<headerLink>",
+            "\t<!-- <sap.m.Link /> -->",
+            "</headerLink>",
+            "<attributes>",
+            "\t<!-- <sap.m.TileAttribute /> -->",
+            "</attributes>",
+            "$2"
+        ],
+        "description": "sap.m.ActionTileContent with non-inherited aggregations"
+    },
+    "sap.m.ActionTileContent-events": {
+        "prefix": "!5-action-tile-content-events",
+        "body": [
+            "$1linkPress=\".on${3:LinkPress}\"$2"
+        ],
+        "description": "sap.m.ActionTileContent with non-inherited events"
+    },
+    "sap.m.ActionTileContent-all": {
+        "prefix": "!5-action-tile-content-all",
+        "body": [
+            "$1<headerLink>",
+            "\t<!-- <sap.m.Link /> -->",
+            "</headerLink>",
+            "<attributes>",
+            "\t<!-- <sap.m.TileAttribute /> -->",
+            "</attributes>",
+            "linkPress=\".on${3:LinkPress}\"$2"
+        ],
+        "description": "sap.m.ActionTileContent with non-inherited properties, aggregations and events"
+    }
+}

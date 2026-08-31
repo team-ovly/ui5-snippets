@@ -1,0 +1,39 @@
+{
+    "sap.uxap.ObjectPageDynamicHeaderTitle": {
+        "prefix": "!5-object-page-dynamic-header-title",
+        "body": [
+            "<ObjectPageDynamicHeaderTitle ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.uxap.ObjectPageDynamicHeaderTitle"
+    },
+    "sap.uxap.ObjectPageDynamicHeaderTitle-properties": {
+        "prefix": "!5-object-page-dynamic-header-title-properties",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.uxap.ObjectPageDynamicHeaderTitle with non-inherited properties"
+    },
+    "sap.uxap.ObjectPageDynamicHeaderTitle-aggregations": {
+        "prefix": "!5-object-page-dynamic-header-title-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.uxap.ObjectPageDynamicHeaderTitle with non-inherited aggregations"
+    },
+    "sap.uxap.ObjectPageDynamicHeaderTitle-events": {
+        "prefix": "!5-object-page-dynamic-header-title-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.uxap.ObjectPageDynamicHeaderTitle with non-inherited events"
+    },
+    "sap.uxap.ObjectPageDynamicHeaderTitle-all": {
+        "prefix": "!5-object-page-dynamic-header-title-all",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.uxap.ObjectPageDynamicHeaderTitle with non-inherited properties, aggregations and events"
+    }
+}

@@ -1,0 +1,41 @@
+{
+    "sap.ui.core.LocalBusyIndicator": {
+        "prefix": "!5-local-busy-indicator",
+        "body": [
+            "<LocalBusyIndicator ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.core.LocalBusyIndicator"
+    },
+    "sap.ui.core.LocalBusyIndicator-properties": {
+        "prefix": "!5-local-busy-indicator-properties",
+        "body": [
+            "$1width=\"100px\"",
+            "height=\"100px\"$2"
+        ],
+        "description": "sap.ui.core.LocalBusyIndicator with non-inherited properties"
+    },
+    "sap.ui.core.LocalBusyIndicator-aggregations": {
+        "prefix": "!5-local-busy-indicator-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.core.LocalBusyIndicator with non-inherited aggregations"
+    },
+    "sap.ui.core.LocalBusyIndicator-events": {
+        "prefix": "!5-local-busy-indicator-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.core.LocalBusyIndicator with non-inherited events"
+    },
+    "sap.ui.core.LocalBusyIndicator-all": {
+        "prefix": "!5-local-busy-indicator-all",
+        "body": [
+            "$1width=\"100px\"",
+            "height=\"100px\"$2"
+        ],
+        "description": "sap.ui.core.LocalBusyIndicator with non-inherited properties, aggregations and events"
+    }
+}

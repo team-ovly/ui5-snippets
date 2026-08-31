@@ -1,0 +1,73 @@
+{
+    "sap.ui.commons.layout.BorderLayout": {
+        "prefix": "!5-border-layout",
+        "body": [
+            "<BorderLayout ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.commons.layout.BorderLayout"
+    },
+    "sap.ui.commons.layout.BorderLayout-properties": {
+        "prefix": "!5-border-layout-properties",
+        "body": [
+            "$1rtl=\"false\"",
+            "width=\"100%\"",
+            "height=\"100%\"$2"
+        ],
+        "description": "sap.ui.commons.layout.BorderLayout with non-inherited properties"
+    },
+    "sap.ui.commons.layout.BorderLayout-aggregations": {
+        "prefix": "!5-border-layout-aggregations",
+        "body": [
+            "$1<top>",
+            "\t<!-- <sap.ui.commons.layout.BorderLayoutArea /> -->",
+            "</top>",
+            "<begin>",
+            "\t<!-- <sap.ui.commons.layout.BorderLayoutArea /> -->",
+            "</begin>",
+            "<center>",
+            "\t<!-- <sap.ui.commons.layout.BorderLayoutArea /> -->",
+            "</center>",
+            "<end>",
+            "\t<!-- <sap.ui.commons.layout.BorderLayoutArea /> -->",
+            "</end>",
+            "<bottom>",
+            "\t<!-- <sap.ui.commons.layout.BorderLayoutArea /> -->",
+            "</bottom>",
+            "$2"
+        ],
+        "description": "sap.ui.commons.layout.BorderLayout with non-inherited aggregations"
+    },
+    "sap.ui.commons.layout.BorderLayout-events": {
+        "prefix": "!5-border-layout-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.commons.layout.BorderLayout with non-inherited events"
+    },
+    "sap.ui.commons.layout.BorderLayout-all": {
+        "prefix": "!5-border-layout-all",
+        "body": [
+            "$1rtl=\"false\"",
+            "width=\"100%\"",
+            "height=\"100%\"",
+            "<top>",
+            "\t<!-- <sap.ui.commons.layout.BorderLayoutArea /> -->",
+            "</top>",
+            "<begin>",
+            "\t<!-- <sap.ui.commons.layout.BorderLayoutArea /> -->",
+            "</begin>",
+            "<center>",
+            "\t<!-- <sap.ui.commons.layout.BorderLayoutArea /> -->",
+            "</center>",
+            "<end>",
+            "\t<!-- <sap.ui.commons.layout.BorderLayoutArea /> -->",
+            "</end>",
+            "<bottom>",
+            "\t<!-- <sap.ui.commons.layout.BorderLayoutArea /> -->",
+            "</bottom>$2"
+        ],
+        "description": "sap.ui.commons.layout.BorderLayout with non-inherited properties, aggregations and events"
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "sap.ui.webc.main.Token": {
+        "prefix": "!5-token",
+        "body": [
+            "<Token ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.webc.main.Token"
+    },
+    "sap.ui.webc.main.Token-properties": {
+        "prefix": "!5-token-properties",
+        "body": [
+            "$1readonly=\"false\"",
+            "selected=\"false\"",
+            "text=\"\"$2"
+        ],
+        "description": "sap.ui.webc.main.Token with non-inherited properties"
+    },
+    "sap.ui.webc.main.Token-aggregations": {
+        "prefix": "!5-token-aggregations",
+        "body": [
+            "$1<closeIcon>",
+            "\t<!-- <sap.ui.webc.main.IIcon /> -->",
+            "</closeIcon>",
+            "$2"
+        ],
+        "description": "sap.ui.webc.main.Token with non-inherited aggregations"
+    },
+    "sap.ui.webc.main.Token-events": {
+        "prefix": "!5-token-events",
+        "body": [
+            "$1select=\".on${3:Select}\"$2"
+        ],
+        "description": "sap.ui.webc.main.Token with non-inherited events"
+    },
+    "sap.ui.webc.main.Token-all": {
+        "prefix": "!5-token-all",
+        "body": [
+            "$1readonly=\"false\"",
+            "selected=\"false\"",
+            "text=\"\"",
+            "<closeIcon>",
+            "\t<!-- <sap.ui.webc.main.IIcon /> -->",
+            "</closeIcon>",
+            "select=\".on${3:Select}\"$2"
+        ],
+        "description": "sap.ui.webc.main.Token with non-inherited properties, aggregations and events"
+    }
+}

@@ -1,0 +1,86 @@
+{
+    "sap.m.StepInput": {
+        "prefix": "!5-step-input",
+        "body": [
+            "<StepInput ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.StepInput"
+    },
+    "sap.m.StepInput-properties": {
+        "prefix": "!5-step-input-properties",
+        "body": [
+            "$1min=\"\"",
+            "max=\"\"",
+            "step=\"1\"",
+            "stepMode=\"AdditionAndSubtraction\"",
+            "largerStep=\"2\"",
+            "value=\"0\"",
+            "name=\"\"",
+            "placeholder=\"\"",
+            "required=\"false\"",
+            "width=\"\"",
+            "valueState=\"None\"",
+            "valueStateText=\"\"",
+            "editable=\"true\"",
+            "enabled=\"true\"",
+            "displayValuePrecision=\"0\"",
+            "description=\"\"",
+            "fieldWidth=\"50%\"",
+            "textAlign=\"End\"",
+            "validationMode=\"FocusOut\"$2"
+        ],
+        "description": "sap.m.StepInput with non-inherited properties"
+    },
+    "sap.m.StepInput-aggregations": {
+        "prefix": "!5-step-input-aggregations",
+        "body": [
+            "$1<_input>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</_input>",
+            "$2"
+        ],
+        "description": "sap.m.StepInput with non-inherited aggregations"
+    },
+    "sap.m.StepInput-events": {
+        "prefix": "!5-step-input-events",
+        "body": [
+            "$1change=\".on${3:Change}\"",
+            "ariaLabelledBy=\".on${4:AriaLabelledBy}\"",
+            "ariaDescribedBy=\".on${5:AriaDescribedBy}\"$2"
+        ],
+        "description": "sap.m.StepInput with non-inherited events"
+    },
+    "sap.m.StepInput-all": {
+        "prefix": "!5-step-input-all",
+        "body": [
+            "$1min=\"\"",
+            "max=\"\"",
+            "step=\"1\"",
+            "stepMode=\"AdditionAndSubtraction\"",
+            "largerStep=\"2\"",
+            "value=\"0\"",
+            "name=\"\"",
+            "placeholder=\"\"",
+            "required=\"false\"",
+            "width=\"\"",
+            "valueState=\"None\"",
+            "valueStateText=\"\"",
+            "editable=\"true\"",
+            "enabled=\"true\"",
+            "displayValuePrecision=\"0\"",
+            "description=\"\"",
+            "fieldWidth=\"50%\"",
+            "textAlign=\"End\"",
+            "validationMode=\"FocusOut\"",
+            "<_input>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</_input>",
+            "change=\".on${3:Change}\"",
+            "ariaLabelledBy=\".on${4:AriaLabelledBy}\"",
+            "ariaDescribedBy=\".on${5:AriaDescribedBy}\"$2"
+        ],
+        "description": "sap.m.StepInput with non-inherited properties, aggregations and events"
+    }
+}

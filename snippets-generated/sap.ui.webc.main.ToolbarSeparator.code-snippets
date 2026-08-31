@@ -1,0 +1,39 @@
+{
+    "sap.ui.webc.main.ToolbarSeparator": {
+        "prefix": "!5-toolbar-separator",
+        "body": [
+            "<ToolbarSeparator ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.webc.main.ToolbarSeparator"
+    },
+    "sap.ui.webc.main.ToolbarSeparator-properties": {
+        "prefix": "!5-toolbar-separator-properties",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.webc.main.ToolbarSeparator with non-inherited properties"
+    },
+    "sap.ui.webc.main.ToolbarSeparator-aggregations": {
+        "prefix": "!5-toolbar-separator-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.webc.main.ToolbarSeparator with non-inherited aggregations"
+    },
+    "sap.ui.webc.main.ToolbarSeparator-events": {
+        "prefix": "!5-toolbar-separator-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.webc.main.ToolbarSeparator with non-inherited events"
+    },
+    "sap.ui.webc.main.ToolbarSeparator-all": {
+        "prefix": "!5-toolbar-separator-all",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.webc.main.ToolbarSeparator with non-inherited properties, aggregations and events"
+    }
+}

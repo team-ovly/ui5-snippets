@@ -1,0 +1,39 @@
+{
+    "sap.uxap.HierarchicalSelect": {
+        "prefix": "!5-hierarchical-select",
+        "body": [
+            "<HierarchicalSelect ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.uxap.HierarchicalSelect"
+    },
+    "sap.uxap.HierarchicalSelect-properties": {
+        "prefix": "!5-hierarchical-select-properties",
+        "body": [
+            "$1upperCase=\"false\"$2"
+        ],
+        "description": "sap.uxap.HierarchicalSelect with non-inherited properties"
+    },
+    "sap.uxap.HierarchicalSelect-aggregations": {
+        "prefix": "!5-hierarchical-select-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.uxap.HierarchicalSelect with non-inherited aggregations"
+    },
+    "sap.uxap.HierarchicalSelect-events": {
+        "prefix": "!5-hierarchical-select-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.uxap.HierarchicalSelect with non-inherited events"
+    },
+    "sap.uxap.HierarchicalSelect-all": {
+        "prefix": "!5-hierarchical-select-all",
+        "body": [
+            "$1upperCase=\"false\"$2"
+        ],
+        "description": "sap.uxap.HierarchicalSelect with non-inherited properties, aggregations and events"
+    }
+}

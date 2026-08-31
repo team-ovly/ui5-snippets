@@ -1,0 +1,58 @@
+{
+    "sap.ui.commons.CheckBox": {
+        "prefix": "!5-check-box",
+        "body": [
+            "<CheckBox ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.commons.CheckBox"
+    },
+    "sap.ui.commons.CheckBox-properties": {
+        "prefix": "!5-check-box-properties",
+        "body": [
+            "$1checked=\"false\"",
+            "text=\"\"",
+            "enabled=\"true\"",
+            "editable=\"true\"",
+            "valueState=\"None\"",
+            "width=\"\"",
+            "textDirection=\"Inherit\"",
+            "name=\"\"$2"
+        ],
+        "description": "sap.ui.commons.CheckBox with non-inherited properties"
+    },
+    "sap.ui.commons.CheckBox-aggregations": {
+        "prefix": "!5-check-box-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.commons.CheckBox with non-inherited aggregations"
+    },
+    "sap.ui.commons.CheckBox-events": {
+        "prefix": "!5-check-box-events",
+        "body": [
+            "$1change=\".on${3:Change}\"",
+            "ariaDescribedBy=\".on${4:AriaDescribedBy}\"",
+            "ariaLabelledBy=\".on${5:AriaLabelledBy}\"$2"
+        ],
+        "description": "sap.ui.commons.CheckBox with non-inherited events"
+    },
+    "sap.ui.commons.CheckBox-all": {
+        "prefix": "!5-check-box-all",
+        "body": [
+            "$1checked=\"false\"",
+            "text=\"\"",
+            "enabled=\"true\"",
+            "editable=\"true\"",
+            "valueState=\"None\"",
+            "width=\"\"",
+            "textDirection=\"Inherit\"",
+            "name=\"\"",
+            "change=\".on${3:Change}\"",
+            "ariaDescribedBy=\".on${4:AriaDescribedBy}\"",
+            "ariaLabelledBy=\".on${5:AriaLabelledBy}\"$2"
+        ],
+        "description": "sap.ui.commons.CheckBox with non-inherited properties, aggregations and events"
+    }
+}

@@ -1,0 +1,52 @@
+{
+    "sap.ui.commons.Accordion": {
+        "prefix": "!5-accordion",
+        "body": [
+            "<Accordion ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.commons.Accordion"
+    },
+    "sap.ui.commons.Accordion-properties": {
+        "prefix": "!5-accordion-properties",
+        "body": [
+            "$1width=\"200px\"",
+            "openedSectionsId=\"\"$2"
+        ],
+        "description": "sap.ui.commons.Accordion with non-inherited properties"
+    },
+    "sap.ui.commons.Accordion-aggregations": {
+        "prefix": "!5-accordion-aggregations",
+        "body": [
+            "$1<sections>",
+            "\t<!-- <sap.ui.commons.AccordionSection /> -->",
+            "</sections>",
+            "$2"
+        ],
+        "description": "sap.ui.commons.Accordion with non-inherited aggregations"
+    },
+    "sap.ui.commons.Accordion-events": {
+        "prefix": "!5-accordion-events",
+        "body": [
+            "$1sectionOpen=\".on${3:SectionOpen}\"",
+            "sectionClose=\".on${4:SectionClose}\"",
+            "sectionsReorder=\".on${5:SectionsReorder}\"$2"
+        ],
+        "description": "sap.ui.commons.Accordion with non-inherited events"
+    },
+    "sap.ui.commons.Accordion-all": {
+        "prefix": "!5-accordion-all",
+        "body": [
+            "$1width=\"200px\"",
+            "openedSectionsId=\"\"",
+            "<sections>",
+            "\t<!-- <sap.ui.commons.AccordionSection /> -->",
+            "</sections>",
+            "sectionOpen=\".on${3:SectionOpen}\"",
+            "sectionClose=\".on${4:SectionClose}\"",
+            "sectionsReorder=\".on${5:SectionsReorder}\"$2"
+        ],
+        "description": "sap.ui.commons.Accordion with non-inherited properties, aggregations and events"
+    }
+}

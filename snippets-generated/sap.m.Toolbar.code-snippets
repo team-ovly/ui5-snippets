@@ -1,0 +1,66 @@
+{
+    "sap.m.Toolbar": {
+        "prefix": "!5-toolbar",
+        "body": [
+            "<Toolbar ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.Toolbar"
+    },
+    "sap.m.Toolbar-properties": {
+        "prefix": "!5-toolbar-properties",
+        "body": [
+            "$1width=\"\"",
+            "active=\"false\"",
+            "enabled=\"true\"",
+            "height=\"\"",
+            "design=\"Auto\"",
+            "style=\"Standard\"",
+            "ariaHasPopup=\"\"$2"
+        ],
+        "description": "sap.m.Toolbar with non-inherited properties"
+    },
+    "sap.m.Toolbar-aggregations": {
+        "prefix": "!5-toolbar-aggregations",
+        "body": [
+            "$1<content>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</content>",
+            "<_activeButton>",
+            "\t<!-- <sap.m.Button /> -->",
+            "</_activeButton>",
+            "$2"
+        ],
+        "description": "sap.m.Toolbar with non-inherited aggregations"
+    },
+    "sap.m.Toolbar-events": {
+        "prefix": "!5-toolbar-events",
+        "body": [
+            "$1press=\".on${3:Press}\"",
+            "ariaLabelledBy=\".on${4:AriaLabelledBy}\"$2"
+        ],
+        "description": "sap.m.Toolbar with non-inherited events"
+    },
+    "sap.m.Toolbar-all": {
+        "prefix": "!5-toolbar-all",
+        "body": [
+            "$1width=\"\"",
+            "active=\"false\"",
+            "enabled=\"true\"",
+            "height=\"\"",
+            "design=\"Auto\"",
+            "style=\"Standard\"",
+            "ariaHasPopup=\"\"",
+            "<content>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</content>",
+            "<_activeButton>",
+            "\t<!-- <sap.m.Button /> -->",
+            "</_activeButton>",
+            "press=\".on${3:Press}\"",
+            "ariaLabelledBy=\".on${4:AriaLabelledBy}\"$2"
+        ],
+        "description": "sap.m.Toolbar with non-inherited properties, aggregations and events"
+    }
+}

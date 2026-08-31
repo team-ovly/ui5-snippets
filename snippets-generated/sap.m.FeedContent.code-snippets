@@ -1,0 +1,56 @@
+{
+    "sap.m.FeedContent": {
+        "prefix": "!5-feed-content",
+        "body": [
+            "<FeedContent ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.FeedContent"
+    },
+    "sap.m.FeedContent-properties": {
+        "prefix": "!5-feed-content-properties",
+        "body": [
+            "$1size=\"Auto\"",
+            "contentText=\"\"",
+            "subheader=\"\"",
+            "value=\"\"",
+            "valueColor=\"\"",
+            "truncateValueTo=\"4\"$2"
+        ],
+        "description": "sap.m.FeedContent with non-inherited properties"
+    },
+    "sap.m.FeedContent-aggregations": {
+        "prefix": "!5-feed-content-aggregations",
+        "body": [
+            "$1<_contentTextAgr>",
+            "\t<!-- <sap.m.Text /> -->",
+            "</_contentTextAgr>",
+            "$2"
+        ],
+        "description": "sap.m.FeedContent with non-inherited aggregations"
+    },
+    "sap.m.FeedContent-events": {
+        "prefix": "!5-feed-content-events",
+        "body": [
+            "$1press=\".on${3:Press}\"$2"
+        ],
+        "description": "sap.m.FeedContent with non-inherited events"
+    },
+    "sap.m.FeedContent-all": {
+        "prefix": "!5-feed-content-all",
+        "body": [
+            "$1size=\"Auto\"",
+            "contentText=\"\"",
+            "subheader=\"\"",
+            "value=\"\"",
+            "valueColor=\"\"",
+            "truncateValueTo=\"4\"",
+            "<_contentTextAgr>",
+            "\t<!-- <sap.m.Text /> -->",
+            "</_contentTextAgr>",
+            "press=\".on${3:Press}\"$2"
+        ],
+        "description": "sap.m.FeedContent with non-inherited properties, aggregations and events"
+    }
+}

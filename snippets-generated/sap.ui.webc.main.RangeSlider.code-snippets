@@ -1,0 +1,62 @@
+{
+    "sap.ui.webc.main.RangeSlider": {
+        "prefix": "!5-range-slider",
+        "body": [
+            "<RangeSlider ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.webc.main.RangeSlider"
+    },
+    "sap.ui.webc.main.RangeSlider-properties": {
+        "prefix": "!5-range-slider-properties",
+        "body": [
+            "$1accessibleName=\"\"",
+            "enabled=\"true\"",
+            "endValue=\"100\"",
+            "labelInterval=\"0\"",
+            "max=\"100\"",
+            "min=\"0\"",
+            "showTickmarks=\"false\"",
+            "showTooltip=\"false\"",
+            "startValue=\"0\"",
+            "step=\"1\"",
+            "width=\"\"$2"
+        ],
+        "description": "sap.ui.webc.main.RangeSlider with non-inherited properties"
+    },
+    "sap.ui.webc.main.RangeSlider-aggregations": {
+        "prefix": "!5-range-slider-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.webc.main.RangeSlider with non-inherited aggregations"
+    },
+    "sap.ui.webc.main.RangeSlider-events": {
+        "prefix": "!5-range-slider-events",
+        "body": [
+            "$1change=\".on${3:Change}\"",
+            "input=\".on${4:Input}\"$2"
+        ],
+        "description": "sap.ui.webc.main.RangeSlider with non-inherited events"
+    },
+    "sap.ui.webc.main.RangeSlider-all": {
+        "prefix": "!5-range-slider-all",
+        "body": [
+            "$1accessibleName=\"\"",
+            "enabled=\"true\"",
+            "endValue=\"100\"",
+            "labelInterval=\"0\"",
+            "max=\"100\"",
+            "min=\"0\"",
+            "showTickmarks=\"false\"",
+            "showTooltip=\"false\"",
+            "startValue=\"0\"",
+            "step=\"1\"",
+            "width=\"\"",
+            "change=\".on${3:Change}\"",
+            "input=\".on${4:Input}\"$2"
+        ],
+        "description": "sap.ui.webc.main.RangeSlider with non-inherited properties, aggregations and events"
+    }
+}

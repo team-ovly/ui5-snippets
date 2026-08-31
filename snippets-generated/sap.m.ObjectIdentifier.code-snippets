@@ -1,0 +1,72 @@
+{
+    "sap.m.ObjectIdentifier": {
+        "prefix": "!5-object-identifier",
+        "body": [
+            "<ObjectIdentifier ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.ObjectIdentifier"
+    },
+    "sap.m.ObjectIdentifier-properties": {
+        "prefix": "!5-object-identifier-properties",
+        "body": [
+            "$1title=\"\"",
+            "text=\"\"",
+            "badgeNotes=\"\"",
+            "badgePeople=\"\"",
+            "badgeAttachments=\"\"",
+            "visible=\"true\"",
+            "titleActive=\"false\"",
+            "reactiveAreaMode=\"Inline\"",
+            "textDirection=\"Inherit\"",
+            "emptyIndicatorMode=\"Off\"$2"
+        ],
+        "description": "sap.m.ObjectIdentifier with non-inherited properties"
+    },
+    "sap.m.ObjectIdentifier-aggregations": {
+        "prefix": "!5-object-identifier-aggregations",
+        "body": [
+            "$1<_titleControl>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</_titleControl>",
+            "<_textControl>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</_textControl>",
+            "$2"
+        ],
+        "description": "sap.m.ObjectIdentifier with non-inherited aggregations"
+    },
+    "sap.m.ObjectIdentifier-events": {
+        "prefix": "!5-object-identifier-events",
+        "body": [
+            "$1titlePress=\".on${3:TitlePress}\"",
+            "ariaLabelledBy=\".on${4:AriaLabelledBy}\"$2"
+        ],
+        "description": "sap.m.ObjectIdentifier with non-inherited events"
+    },
+    "sap.m.ObjectIdentifier-all": {
+        "prefix": "!5-object-identifier-all",
+        "body": [
+            "$1title=\"\"",
+            "text=\"\"",
+            "badgeNotes=\"\"",
+            "badgePeople=\"\"",
+            "badgeAttachments=\"\"",
+            "visible=\"true\"",
+            "titleActive=\"false\"",
+            "reactiveAreaMode=\"Inline\"",
+            "textDirection=\"Inherit\"",
+            "emptyIndicatorMode=\"Off\"",
+            "<_titleControl>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</_titleControl>",
+            "<_textControl>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</_textControl>",
+            "titlePress=\".on${3:TitlePress}\"",
+            "ariaLabelledBy=\".on${4:AriaLabelledBy}\"$2"
+        ],
+        "description": "sap.m.ObjectIdentifier with non-inherited properties, aggregations and events"
+    }
+}

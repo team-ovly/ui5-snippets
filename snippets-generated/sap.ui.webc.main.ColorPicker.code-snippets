@@ -1,0 +1,40 @@
+{
+    "sap.ui.webc.main.ColorPicker": {
+        "prefix": "!5-color-picker",
+        "body": [
+            "<ColorPicker ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.webc.main.ColorPicker"
+    },
+    "sap.ui.webc.main.ColorPicker-properties": {
+        "prefix": "!5-color-picker-properties",
+        "body": [
+            "$1color=\"\"$2"
+        ],
+        "description": "sap.ui.webc.main.ColorPicker with non-inherited properties"
+    },
+    "sap.ui.webc.main.ColorPicker-aggregations": {
+        "prefix": "!5-color-picker-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.webc.main.ColorPicker with non-inherited aggregations"
+    },
+    "sap.ui.webc.main.ColorPicker-events": {
+        "prefix": "!5-color-picker-events",
+        "body": [
+            "$1change=\".on${3:Change}\"$2"
+        ],
+        "description": "sap.ui.webc.main.ColorPicker with non-inherited events"
+    },
+    "sap.ui.webc.main.ColorPicker-all": {
+        "prefix": "!5-color-picker-all",
+        "body": [
+            "$1color=\"\"",
+            "change=\".on${3:Change}\"$2"
+        ],
+        "description": "sap.ui.webc.main.ColorPicker with non-inherited properties, aggregations and events"
+    }
+}

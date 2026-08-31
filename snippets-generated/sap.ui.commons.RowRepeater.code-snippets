@@ -1,0 +1,116 @@
+{
+    "sap.ui.commons.RowRepeater": {
+        "prefix": "!5-row-repeater",
+        "body": [
+            "<RowRepeater ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.commons.RowRepeater"
+    },
+    "sap.ui.commons.RowRepeater-properties": {
+        "prefix": "!5-row-repeater-properties",
+        "body": [
+            "$1numberOfRows=\"5\"",
+            "currentPage=\"1\"",
+            "showMoreSteps=\"0\"",
+            "fixedRowHeight=\"\"",
+            "design=\"Standard\"",
+            "threshold=\"\"$2"
+        ],
+        "description": "sap.ui.commons.RowRepeater with non-inherited properties"
+    },
+    "sap.ui.commons.RowRepeater-aggregations": {
+        "prefix": "!5-row-repeater-aggregations",
+        "body": [
+            "$1<rows>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</rows>",
+            "<title>",
+            "\t<!-- <sap.ui.core.Title /> -->",
+            "</title>",
+            "<filters>",
+            "\t<!-- <sap.ui.commons.RowRepeaterFilter /> -->",
+            "</filters>",
+            "<sorters>",
+            "\t<!-- <sap.ui.commons.RowRepeaterSorter /> -->",
+            "</sorters>",
+            "<noData>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</noData>",
+            "<filterToolbar>",
+            "\t<!-- <sap.ui.commons.Toolbar /> -->",
+            "</filterToolbar>",
+            "<sorterToolbar>",
+            "\t<!-- <sap.ui.commons.Toolbar /> -->",
+            "</sorterToolbar>",
+            "<headerShowMoreButton>",
+            "\t<!-- <sap.ui.commons.Button /> -->",
+            "</headerShowMoreButton>",
+            "<footerShowMoreButton>",
+            "\t<!-- <sap.ui.commons.Button /> -->",
+            "</footerShowMoreButton>",
+            "<footerPager>",
+            "\t<!-- <sap.ui.commons.Paginator /> -->",
+            "</footerPager>",
+            "$2"
+        ],
+        "description": "sap.ui.commons.RowRepeater with non-inherited aggregations"
+    },
+    "sap.ui.commons.RowRepeater-events": {
+        "prefix": "!5-row-repeater-events",
+        "body": [
+            "$1filter=\".on${3:Filter}\"",
+            "sort=\".on${4:Sort}\"",
+            "page=\".on${5:Page}\"",
+            "resize=\".on${6:Resize}\"$2"
+        ],
+        "description": "sap.ui.commons.RowRepeater with non-inherited events"
+    },
+    "sap.ui.commons.RowRepeater-all": {
+        "prefix": "!5-row-repeater-all",
+        "body": [
+            "$1numberOfRows=\"5\"",
+            "currentPage=\"1\"",
+            "showMoreSteps=\"0\"",
+            "fixedRowHeight=\"\"",
+            "design=\"Standard\"",
+            "threshold=\"\"",
+            "<rows>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</rows>",
+            "<title>",
+            "\t<!-- <sap.ui.core.Title /> -->",
+            "</title>",
+            "<filters>",
+            "\t<!-- <sap.ui.commons.RowRepeaterFilter /> -->",
+            "</filters>",
+            "<sorters>",
+            "\t<!-- <sap.ui.commons.RowRepeaterSorter /> -->",
+            "</sorters>",
+            "<noData>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</noData>",
+            "<filterToolbar>",
+            "\t<!-- <sap.ui.commons.Toolbar /> -->",
+            "</filterToolbar>",
+            "<sorterToolbar>",
+            "\t<!-- <sap.ui.commons.Toolbar /> -->",
+            "</sorterToolbar>",
+            "<headerShowMoreButton>",
+            "\t<!-- <sap.ui.commons.Button /> -->",
+            "</headerShowMoreButton>",
+            "<footerShowMoreButton>",
+            "\t<!-- <sap.ui.commons.Button /> -->",
+            "</footerShowMoreButton>",
+            "<footerPager>",
+            "\t<!-- <sap.ui.commons.Paginator /> -->",
+            "</footerPager>",
+            "filter=\".on${3:Filter}\"",
+            "sort=\".on${4:Sort}\"",
+            "page=\".on${5:Page}\"",
+            "resize=\".on${6:Resize}\"$2"
+        ],
+        "description": "sap.ui.commons.RowRepeater with non-inherited properties, aggregations and events"
+    }
+}

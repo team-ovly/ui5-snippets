@@ -1,0 +1,39 @@
+{
+    "sap.ui.layout.form.FormLayout": {
+        "prefix": "!5-form-layout",
+        "body": [
+            "<FormLayout ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.layout.form.FormLayout"
+    },
+    "sap.ui.layout.form.FormLayout-properties": {
+        "prefix": "!5-form-layout-properties",
+        "body": [
+            "$1backgroundDesign=\"Translucent\"$2"
+        ],
+        "description": "sap.ui.layout.form.FormLayout with non-inherited properties"
+    },
+    "sap.ui.layout.form.FormLayout-aggregations": {
+        "prefix": "!5-form-layout-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.layout.form.FormLayout with non-inherited aggregations"
+    },
+    "sap.ui.layout.form.FormLayout-events": {
+        "prefix": "!5-form-layout-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.layout.form.FormLayout with non-inherited events"
+    },
+    "sap.ui.layout.form.FormLayout-all": {
+        "prefix": "!5-form-layout-all",
+        "body": [
+            "$1backgroundDesign=\"Translucent\"$2"
+        ],
+        "description": "sap.ui.layout.form.FormLayout with non-inherited properties, aggregations and events"
+    }
+}

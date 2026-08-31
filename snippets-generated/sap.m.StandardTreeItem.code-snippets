@@ -1,0 +1,41 @@
+{
+    "sap.m.StandardTreeItem": {
+        "prefix": "!5-standard-tree-item",
+        "body": [
+            "<StandardTreeItem ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.StandardTreeItem"
+    },
+    "sap.m.StandardTreeItem-properties": {
+        "prefix": "!5-standard-tree-item-properties",
+        "body": [
+            "$1title=\"\"",
+            "icon=\"\"$2"
+        ],
+        "description": "sap.m.StandardTreeItem with non-inherited properties"
+    },
+    "sap.m.StandardTreeItem-aggregations": {
+        "prefix": "!5-standard-tree-item-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.m.StandardTreeItem with non-inherited aggregations"
+    },
+    "sap.m.StandardTreeItem-events": {
+        "prefix": "!5-standard-tree-item-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.m.StandardTreeItem with non-inherited events"
+    },
+    "sap.m.StandardTreeItem-all": {
+        "prefix": "!5-standard-tree-item-all",
+        "body": [
+            "$1title=\"\"",
+            "icon=\"\"$2"
+        ],
+        "description": "sap.m.StandardTreeItem with non-inherited properties, aggregations and events"
+    }
+}

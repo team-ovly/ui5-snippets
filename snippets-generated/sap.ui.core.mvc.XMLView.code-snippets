@@ -1,0 +1,39 @@
+{
+    "sap.ui.core.mvc.XMLView": {
+        "prefix": "!5-xmlview",
+        "body": [
+            "<XMLView ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.core.mvc.XMLView"
+    },
+    "sap.ui.core.mvc.XMLView-properties": {
+        "prefix": "!5-xmlview-properties",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.core.mvc.XMLView with non-inherited properties"
+    },
+    "sap.ui.core.mvc.XMLView-aggregations": {
+        "prefix": "!5-xmlview-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.core.mvc.XMLView with non-inherited aggregations"
+    },
+    "sap.ui.core.mvc.XMLView-events": {
+        "prefix": "!5-xmlview-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.core.mvc.XMLView with non-inherited events"
+    },
+    "sap.ui.core.mvc.XMLView-all": {
+        "prefix": "!5-xmlview-all",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.core.mvc.XMLView with non-inherited properties, aggregations and events"
+    }
+}

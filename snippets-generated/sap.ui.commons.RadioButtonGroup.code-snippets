@@ -1,0 +1,60 @@
+{
+    "sap.ui.commons.RadioButtonGroup": {
+        "prefix": "!5-radio-button-group",
+        "body": [
+            "<RadioButtonGroup ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.commons.RadioButtonGroup"
+    },
+    "sap.ui.commons.RadioButtonGroup-properties": {
+        "prefix": "!5-radio-button-group-properties",
+        "body": [
+            "$1width=\"\"",
+            "columns=\"1\"",
+            "editable=\"true\"",
+            "valueState=\"None\"",
+            "selectedIndex=\"0\"",
+            "enabled=\"true\"$2"
+        ],
+        "description": "sap.ui.commons.RadioButtonGroup with non-inherited properties"
+    },
+    "sap.ui.commons.RadioButtonGroup-aggregations": {
+        "prefix": "!5-radio-button-group-aggregations",
+        "body": [
+            "$1<items>",
+            "\t<!-- <sap.ui.core.Item /> -->",
+            "</items>",
+            "$2"
+        ],
+        "description": "sap.ui.commons.RadioButtonGroup with non-inherited aggregations"
+    },
+    "sap.ui.commons.RadioButtonGroup-events": {
+        "prefix": "!5-radio-button-group-events",
+        "body": [
+            "$1select=\".on${3:Select}\"",
+            "ariaDescribedBy=\".on${4:AriaDescribedBy}\"",
+            "ariaLabelledBy=\".on${5:AriaLabelledBy}\"$2"
+        ],
+        "description": "sap.ui.commons.RadioButtonGroup with non-inherited events"
+    },
+    "sap.ui.commons.RadioButtonGroup-all": {
+        "prefix": "!5-radio-button-group-all",
+        "body": [
+            "$1width=\"\"",
+            "columns=\"1\"",
+            "editable=\"true\"",
+            "valueState=\"None\"",
+            "selectedIndex=\"0\"",
+            "enabled=\"true\"",
+            "<items>",
+            "\t<!-- <sap.ui.core.Item /> -->",
+            "</items>",
+            "select=\".on${3:Select}\"",
+            "ariaDescribedBy=\".on${4:AriaDescribedBy}\"",
+            "ariaLabelledBy=\".on${5:AriaLabelledBy}\"$2"
+        ],
+        "description": "sap.ui.commons.RadioButtonGroup with non-inherited properties, aggregations and events"
+    }
+}

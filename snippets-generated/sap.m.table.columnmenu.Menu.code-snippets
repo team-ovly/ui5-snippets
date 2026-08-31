@@ -1,0 +1,64 @@
+{
+    "sap.m.table.columnmenu.Menu": {
+        "prefix": "!5-menu",
+        "body": [
+            "<Menu ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.table.columnmenu.Menu"
+    },
+    "sap.m.table.columnmenu.Menu-properties": {
+        "prefix": "!5-menu-properties",
+        "body": [
+            "$1showTableSettingsButton=\"false\"$2"
+        ],
+        "description": "sap.m.table.columnmenu.Menu with non-inherited properties"
+    },
+    "sap.m.table.columnmenu.Menu-aggregations": {
+        "prefix": "!5-menu-aggregations",
+        "body": [
+            "$1<quickActions>",
+            "\t<!-- <sap.m.table.columnmenu.QuickActionBase /> -->",
+            "</quickActions>",
+            "<items>",
+            "\t<!-- <sap.m.table.columnmenu.ItemBase /> -->",
+            "</items>",
+            "<_quickActions>",
+            "\t<!-- <sap.m.table.columnmenu.QuickActionBase /> -->",
+            "</_quickActions>",
+            "<_items>",
+            "\t<!-- <sap.m.table.columnmenu.ItemBase /> -->",
+            "</_items>",
+            "$2"
+        ],
+        "description": "sap.m.table.columnmenu.Menu with non-inherited aggregations"
+    },
+    "sap.m.table.columnmenu.Menu-events": {
+        "prefix": "!5-menu-events",
+        "body": [
+            "$1tableSettingsPressed=\".on${3:TableSettingsPressed}\"$2"
+        ],
+        "description": "sap.m.table.columnmenu.Menu with non-inherited events"
+    },
+    "sap.m.table.columnmenu.Menu-all": {
+        "prefix": "!5-menu-all",
+        "body": [
+            "$1showTableSettingsButton=\"false\"",
+            "<quickActions>",
+            "\t<!-- <sap.m.table.columnmenu.QuickActionBase /> -->",
+            "</quickActions>",
+            "<items>",
+            "\t<!-- <sap.m.table.columnmenu.ItemBase /> -->",
+            "</items>",
+            "<_quickActions>",
+            "\t<!-- <sap.m.table.columnmenu.QuickActionBase /> -->",
+            "</_quickActions>",
+            "<_items>",
+            "\t<!-- <sap.m.table.columnmenu.ItemBase /> -->",
+            "</_items>",
+            "tableSettingsPressed=\".on${3:TableSettingsPressed}\"$2"
+        ],
+        "description": "sap.m.table.columnmenu.Menu with non-inherited properties, aggregations and events"
+    }
+}

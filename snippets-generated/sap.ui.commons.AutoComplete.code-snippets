@@ -1,0 +1,40 @@
+{
+    "sap.ui.commons.AutoComplete": {
+        "prefix": "!5-auto-complete",
+        "body": [
+            "<AutoComplete ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.commons.AutoComplete"
+    },
+    "sap.ui.commons.AutoComplete-properties": {
+        "prefix": "!5-auto-complete-properties",
+        "body": [
+            "$1enableScrolling=\"true\"$2"
+        ],
+        "description": "sap.ui.commons.AutoComplete with non-inherited properties"
+    },
+    "sap.ui.commons.AutoComplete-aggregations": {
+        "prefix": "!5-auto-complete-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.commons.AutoComplete with non-inherited aggregations"
+    },
+    "sap.ui.commons.AutoComplete-events": {
+        "prefix": "!5-auto-complete-events",
+        "body": [
+            "$1suggest=\".on${3:Suggest}\"$2"
+        ],
+        "description": "sap.ui.commons.AutoComplete with non-inherited events"
+    },
+    "sap.ui.commons.AutoComplete-all": {
+        "prefix": "!5-auto-complete-all",
+        "body": [
+            "$1enableScrolling=\"true\"",
+            "suggest=\".on${3:Suggest}\"$2"
+        ],
+        "description": "sap.ui.commons.AutoComplete with non-inherited properties, aggregations and events"
+    }
+}

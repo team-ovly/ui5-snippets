@@ -1,0 +1,47 @@
+{
+    "sap.ui.integration.editor.fields.viz.VizBase": {
+        "prefix": "!5-viz-base",
+        "body": [
+            "<VizBase ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.integration.editor.fields.viz.VizBase"
+    },
+    "sap.ui.integration.editor.fields.viz.VizBase-properties": {
+        "prefix": "!5-viz-base-properties",
+        "body": [
+            "$1value=\"\"",
+            "editable=\"true\"$2"
+        ],
+        "description": "sap.ui.integration.editor.fields.viz.VizBase with non-inherited properties"
+    },
+    "sap.ui.integration.editor.fields.viz.VizBase-aggregations": {
+        "prefix": "!5-viz-base-aggregations",
+        "body": [
+            "$1<_control>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</_control>",
+            "$2"
+        ],
+        "description": "sap.ui.integration.editor.fields.viz.VizBase with non-inherited aggregations"
+    },
+    "sap.ui.integration.editor.fields.viz.VizBase-events": {
+        "prefix": "!5-viz-base-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.integration.editor.fields.viz.VizBase with non-inherited events"
+    },
+    "sap.ui.integration.editor.fields.viz.VizBase-all": {
+        "prefix": "!5-viz-base-all",
+        "body": [
+            "$1value=\"\"",
+            "editable=\"true\"",
+            "<_control>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</_control>$2"
+        ],
+        "description": "sap.ui.integration.editor.fields.viz.VizBase with non-inherited properties, aggregations and events"
+    }
+}

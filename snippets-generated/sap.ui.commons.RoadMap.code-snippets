@@ -1,0 +1,54 @@
+{
+    "sap.ui.commons.RoadMap": {
+        "prefix": "!5-road-map",
+        "body": [
+            "<RoadMap ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.commons.RoadMap"
+    },
+    "sap.ui.commons.RoadMap-properties": {
+        "prefix": "!5-road-map-properties",
+        "body": [
+            "$1numberOfVisibleSteps=\"\"",
+            "firstVisibleStep=\"\"",
+            "selectedStep=\"\"",
+            "width=\"100%\"$2"
+        ],
+        "description": "sap.ui.commons.RoadMap with non-inherited properties"
+    },
+    "sap.ui.commons.RoadMap-aggregations": {
+        "prefix": "!5-road-map-aggregations",
+        "body": [
+            "$1<steps>",
+            "\t<!-- <sap.ui.commons.RoadMapStep /> -->",
+            "</steps>",
+            "$2"
+        ],
+        "description": "sap.ui.commons.RoadMap with non-inherited aggregations"
+    },
+    "sap.ui.commons.RoadMap-events": {
+        "prefix": "!5-road-map-events",
+        "body": [
+            "$1stepSelected=\".on${3:StepSelected}\"",
+            "stepExpanded=\".on${4:StepExpanded}\"$2"
+        ],
+        "description": "sap.ui.commons.RoadMap with non-inherited events"
+    },
+    "sap.ui.commons.RoadMap-all": {
+        "prefix": "!5-road-map-all",
+        "body": [
+            "$1numberOfVisibleSteps=\"\"",
+            "firstVisibleStep=\"\"",
+            "selectedStep=\"\"",
+            "width=\"100%\"",
+            "<steps>",
+            "\t<!-- <sap.ui.commons.RoadMapStep /> -->",
+            "</steps>",
+            "stepSelected=\".on${3:StepSelected}\"",
+            "stepExpanded=\".on${4:StepExpanded}\"$2"
+        ],
+        "description": "sap.ui.commons.RoadMap with non-inherited properties, aggregations and events"
+    }
+}

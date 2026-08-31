@@ -1,0 +1,61 @@
+{
+    "sap.m.TileContent": {
+        "prefix": "!5-tile-content",
+        "body": [
+            "<TileContent ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.TileContent"
+    },
+    "sap.m.TileContent-properties": {
+        "prefix": "!5-tile-content-properties",
+        "body": [
+            "$1footer=\"\"",
+            "footerColor=\"Neutral\"",
+            "size=\"Auto\"",
+            "unit=\"\"",
+            "disabled=\"false\"",
+            "frameType=\"Auto\"",
+            "priority=\"None\"",
+            "priorityText=\"\"",
+            "state=\"Loaded\"$2"
+        ],
+        "description": "sap.m.TileContent with non-inherited properties"
+    },
+    "sap.m.TileContent-aggregations": {
+        "prefix": "!5-tile-content-aggregations",
+        "body": [
+            "$1<content>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</content>",
+            "$2"
+        ],
+        "description": "sap.m.TileContent with non-inherited aggregations"
+    },
+    "sap.m.TileContent-events": {
+        "prefix": "!5-tile-content-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.m.TileContent with non-inherited events"
+    },
+    "sap.m.TileContent-all": {
+        "prefix": "!5-tile-content-all",
+        "body": [
+            "$1footer=\"\"",
+            "footerColor=\"Neutral\"",
+            "size=\"Auto\"",
+            "unit=\"\"",
+            "disabled=\"false\"",
+            "frameType=\"Auto\"",
+            "priority=\"None\"",
+            "priorityText=\"\"",
+            "state=\"Loaded\"",
+            "<content>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</content>$2"
+        ],
+        "description": "sap.m.TileContent with non-inherited properties, aggregations and events"
+    }
+}

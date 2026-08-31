@@ -1,0 +1,86 @@
+{
+    "sap.m.PDFViewer": {
+        "prefix": "!5-pdfviewer",
+        "body": [
+            "<PDFViewer ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.PDFViewer"
+    },
+    "sap.m.PDFViewer-properties": {
+        "prefix": "!5-pdfviewer-properties",
+        "body": [
+            "$1height=\"100%\"",
+            "width=\"100%\"",
+            "source=\"\"",
+            "errorMessage=\"\"",
+            "errorPlaceholderMessage=\"\"",
+            "popupHeaderTitle=\"\"",
+            "title=\"\"",
+            "showDownloadButton=\"true\"",
+            "displayType=\"Auto\"",
+            "isTrustedSource=\"false\"$2"
+        ],
+        "description": "sap.m.PDFViewer with non-inherited properties"
+    },
+    "sap.m.PDFViewer-aggregations": {
+        "prefix": "!5-pdfviewer-aggregations",
+        "body": [
+            "$1<errorPlaceholder>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</errorPlaceholder>",
+            "<popupButtons>",
+            "\t<!-- <sap.m.Button /> -->",
+            "</popupButtons>",
+            "<_illustratedMessage>",
+            "\t<!-- <sap.m.IllustratedMessage /> -->",
+            "</_illustratedMessage>",
+            "<_nonTrustedIllustratedMessage>",
+            "\t<!-- <sap.m.IllustratedMessage /> -->",
+            "</_nonTrustedIllustratedMessage>",
+            "$2"
+        ],
+        "description": "sap.m.PDFViewer with non-inherited aggregations"
+    },
+    "sap.m.PDFViewer-events": {
+        "prefix": "!5-pdfviewer-events",
+        "body": [
+            "$1loaded=\".on${3:Loaded}\"",
+            "error=\".on${4:Error}\"",
+            "sourceValidationFailed=\".on${5:SourceValidationFailed}\"$2"
+        ],
+        "description": "sap.m.PDFViewer with non-inherited events"
+    },
+    "sap.m.PDFViewer-all": {
+        "prefix": "!5-pdfviewer-all",
+        "body": [
+            "$1height=\"100%\"",
+            "width=\"100%\"",
+            "source=\"\"",
+            "errorMessage=\"\"",
+            "errorPlaceholderMessage=\"\"",
+            "popupHeaderTitle=\"\"",
+            "title=\"\"",
+            "showDownloadButton=\"true\"",
+            "displayType=\"Auto\"",
+            "isTrustedSource=\"false\"",
+            "<errorPlaceholder>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</errorPlaceholder>",
+            "<popupButtons>",
+            "\t<!-- <sap.m.Button /> -->",
+            "</popupButtons>",
+            "<_illustratedMessage>",
+            "\t<!-- <sap.m.IllustratedMessage /> -->",
+            "</_illustratedMessage>",
+            "<_nonTrustedIllustratedMessage>",
+            "\t<!-- <sap.m.IllustratedMessage /> -->",
+            "</_nonTrustedIllustratedMessage>",
+            "loaded=\".on${3:Loaded}\"",
+            "error=\".on${4:Error}\"",
+            "sourceValidationFailed=\".on${5:SourceValidationFailed}\"$2"
+        ],
+        "description": "sap.m.PDFViewer with non-inherited properties, aggregations and events"
+    }
+}

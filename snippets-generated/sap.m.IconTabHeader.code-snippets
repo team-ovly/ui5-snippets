@@ -1,0 +1,78 @@
+{
+    "sap.m.IconTabHeader": {
+        "prefix": "!5-icon-tab-header",
+        "body": [
+            "<IconTabHeader ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.IconTabHeader"
+    },
+    "sap.m.IconTabHeader-properties": {
+        "prefix": "!5-icon-tab-header-properties",
+        "body": [
+            "$1showSelection=\"true\"",
+            "selectedKey=\"\"",
+            "visible=\"true\"",
+            "mode=\"Standard\"",
+            "showOverflowSelectList=\"false\"",
+            "backgroundDesign=\"Solid\"",
+            "enableTabReordering=\"false\"",
+            "maxNestingLevel=\"0\"",
+            "tabDensityMode=\"Cozy\"",
+            "ariaTexts=\"\"",
+            "tabsOverflowMode=\"End\"$2"
+        ],
+        "description": "sap.m.IconTabHeader with non-inherited properties"
+    },
+    "sap.m.IconTabHeader-aggregations": {
+        "prefix": "!5-icon-tab-header-aggregations",
+        "body": [
+            "$1<items>",
+            "\t<!-- <sap.m.IconTab /> -->",
+            "</items>",
+            "<_overflow>",
+            "\t<!-- <sap.m.IconTabFilter /> -->",
+            "</_overflow>",
+            "<_startOverflow>",
+            "\t<!-- <sap.m.IconTabFilter /> -->",
+            "</_startOverflow>",
+            "$2"
+        ],
+        "description": "sap.m.IconTabHeader with non-inherited aggregations"
+    },
+    "sap.m.IconTabHeader-events": {
+        "prefix": "!5-icon-tab-header-events",
+        "body": [
+            "$1select=\".on${3:Select}\"$2"
+        ],
+        "description": "sap.m.IconTabHeader with non-inherited events"
+    },
+    "sap.m.IconTabHeader-all": {
+        "prefix": "!5-icon-tab-header-all",
+        "body": [
+            "$1showSelection=\"true\"",
+            "selectedKey=\"\"",
+            "visible=\"true\"",
+            "mode=\"Standard\"",
+            "showOverflowSelectList=\"false\"",
+            "backgroundDesign=\"Solid\"",
+            "enableTabReordering=\"false\"",
+            "maxNestingLevel=\"0\"",
+            "tabDensityMode=\"Cozy\"",
+            "ariaTexts=\"\"",
+            "tabsOverflowMode=\"End\"",
+            "<items>",
+            "\t<!-- <sap.m.IconTab /> -->",
+            "</items>",
+            "<_overflow>",
+            "\t<!-- <sap.m.IconTabFilter /> -->",
+            "</_overflow>",
+            "<_startOverflow>",
+            "\t<!-- <sap.m.IconTabFilter /> -->",
+            "</_startOverflow>",
+            "select=\".on${3:Select}\"$2"
+        ],
+        "description": "sap.m.IconTabHeader with non-inherited properties, aggregations and events"
+    }
+}

@@ -1,0 +1,68 @@
+{
+    "sap.m.WheelSlider": {
+        "prefix": "!5-wheel-slider",
+        "body": [
+            "<WheelSlider ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.WheelSlider"
+    },
+    "sap.m.WheelSlider-properties": {
+        "prefix": "!5-wheel-slider-properties",
+        "body": [
+            "$1selectedKey=\"\"",
+            "isCyclic=\"true\"",
+            "label=\"\"",
+            "isExpanded=\"false\"$2"
+        ],
+        "description": "sap.m.WheelSlider with non-inherited properties"
+    },
+    "sap.m.WheelSlider-aggregations": {
+        "prefix": "!5-wheel-slider-aggregations",
+        "body": [
+            "$1<items>",
+            "\t<!-- <sap.ui.core.Item /> -->",
+            "</items>",
+            "<_arrowUp>",
+            "\t<!-- <sap.m.Button /> -->",
+            "</_arrowUp>",
+            "<_arrowDown>",
+            "\t<!-- <sap.m.Button /> -->",
+            "</_arrowDown>",
+            "$2"
+        ],
+        "description": "sap.m.WheelSlider with non-inherited aggregations"
+    },
+    "sap.m.WheelSlider-events": {
+        "prefix": "!5-wheel-slider-events",
+        "body": [
+            "$1expanded=\".on${3:Expanded}\"",
+            "collapsed=\".on${4:Collapsed}\"",
+            "selectedKeyChange=\".on${5:SelectedKeyChange}\"$2"
+        ],
+        "description": "sap.m.WheelSlider with non-inherited events"
+    },
+    "sap.m.WheelSlider-all": {
+        "prefix": "!5-wheel-slider-all",
+        "body": [
+            "$1selectedKey=\"\"",
+            "isCyclic=\"true\"",
+            "label=\"\"",
+            "isExpanded=\"false\"",
+            "<items>",
+            "\t<!-- <sap.ui.core.Item /> -->",
+            "</items>",
+            "<_arrowUp>",
+            "\t<!-- <sap.m.Button /> -->",
+            "</_arrowUp>",
+            "<_arrowDown>",
+            "\t<!-- <sap.m.Button /> -->",
+            "</_arrowDown>",
+            "expanded=\".on${3:Expanded}\"",
+            "collapsed=\".on${4:Collapsed}\"",
+            "selectedKeyChange=\".on${5:SelectedKeyChange}\"$2"
+        ],
+        "description": "sap.m.WheelSlider with non-inherited properties, aggregations and events"
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "sap.m.upload.ActionsPlaceholder": {
+        "prefix": "!5-actions-placeholder",
+        "body": [
+            "<ActionsPlaceholder ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.upload.ActionsPlaceholder"
+    },
+    "sap.m.upload.ActionsPlaceholder-properties": {
+        "prefix": "!5-actions-placeholder-properties",
+        "body": [
+            "$1placeholderFor=\"\"$2"
+        ],
+        "description": "sap.m.upload.ActionsPlaceholder with non-inherited properties"
+    },
+    "sap.m.upload.ActionsPlaceholder-aggregations": {
+        "prefix": "!5-actions-placeholder-aggregations",
+        "body": [
+            "$1<_actionButton>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</_actionButton>",
+            "$2"
+        ],
+        "description": "sap.m.upload.ActionsPlaceholder with non-inherited aggregations"
+    },
+    "sap.m.upload.ActionsPlaceholder-events": {
+        "prefix": "!5-actions-placeholder-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.m.upload.ActionsPlaceholder with non-inherited events"
+    },
+    "sap.m.upload.ActionsPlaceholder-all": {
+        "prefix": "!5-actions-placeholder-all",
+        "body": [
+            "$1placeholderFor=\"\"",
+            "<_actionButton>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</_actionButton>$2"
+        ],
+        "description": "sap.m.upload.ActionsPlaceholder with non-inherited properties, aggregations and events"
+    }
+}

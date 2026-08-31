@@ -1,0 +1,66 @@
+{
+    "sap.m.Breadcrumbs": {
+        "prefix": "!5-breadcrumbs",
+        "body": [
+            "<Breadcrumbs ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.Breadcrumbs"
+    },
+    "sap.m.Breadcrumbs-properties": {
+        "prefix": "!5-breadcrumbs-properties",
+        "body": [
+            "$1currentLocationText=\"\"",
+            "separatorStyle=\"Slash\"$2"
+        ],
+        "description": "sap.m.Breadcrumbs with non-inherited properties"
+    },
+    "sap.m.Breadcrumbs-aggregations": {
+        "prefix": "!5-breadcrumbs-aggregations",
+        "body": [
+            "$1<currentLocation>",
+            "\t<!-- <sap.m.Link /> -->",
+            "</currentLocation>",
+            "<links>",
+            "\t<!-- <sap.m.Link /> -->",
+            "</links>",
+            "<_currentLocation>",
+            "\t<!-- <sap.m.Text /> -->",
+            "</_currentLocation>",
+            "<_select>",
+            "\t<!-- <sap.m.Select /> -->",
+            "</_select>",
+            "$2"
+        ],
+        "description": "sap.m.Breadcrumbs with non-inherited aggregations"
+    },
+    "sap.m.Breadcrumbs-events": {
+        "prefix": "!5-breadcrumbs-events",
+        "body": [
+            "$1ariaLabelledBy=\".on${3:AriaLabelledBy}\"$2"
+        ],
+        "description": "sap.m.Breadcrumbs with non-inherited events"
+    },
+    "sap.m.Breadcrumbs-all": {
+        "prefix": "!5-breadcrumbs-all",
+        "body": [
+            "$1currentLocationText=\"\"",
+            "separatorStyle=\"Slash\"",
+            "<currentLocation>",
+            "\t<!-- <sap.m.Link /> -->",
+            "</currentLocation>",
+            "<links>",
+            "\t<!-- <sap.m.Link /> -->",
+            "</links>",
+            "<_currentLocation>",
+            "\t<!-- <sap.m.Text /> -->",
+            "</_currentLocation>",
+            "<_select>",
+            "\t<!-- <sap.m.Select /> -->",
+            "</_select>",
+            "ariaLabelledBy=\".on${3:AriaLabelledBy}\"$2"
+        ],
+        "description": "sap.m.Breadcrumbs with non-inherited properties, aggregations and events"
+    }
+}

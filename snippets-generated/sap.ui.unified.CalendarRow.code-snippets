@@ -1,0 +1,110 @@
+{
+    "sap.ui.unified.CalendarRow": {
+        "prefix": "!5-calendar-row",
+        "body": [
+            "<CalendarRow ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.unified.CalendarRow"
+    },
+    "sap.ui.unified.CalendarRow-properties": {
+        "prefix": "!5-calendar-row-properties",
+        "body": [
+            "$1startDate=\"\"",
+            "intervals=\"12\"",
+            "intervalSize=\"1\"",
+            "intervalType=\"Hour\"",
+            "showSubIntervals=\"false\"",
+            "showIntervalHeaders=\"true\"",
+            "showEmptyIntervalHeaders=\"true\"",
+            "nonWorkingDays=\"\"",
+            "nonWorkingHours=\"\"",
+            "width=\"\"",
+            "height=\"\"",
+            "checkResize=\"true\"",
+            "updateCurrentTime=\"true\"",
+            "groupAppointmentsMode=\"Collapsed\"",
+            "appointmentsReducedHeight=\"false\"",
+            "appointmentsVisualization=\"Standard\"",
+            "appointmentHeight=\"Regular\"",
+            "appointmentRoundWidth=\"None\"",
+            "multipleAppointmentsSelection=\"false\"$2"
+        ],
+        "description": "sap.ui.unified.CalendarRow with non-inherited properties"
+    },
+    "sap.ui.unified.CalendarRow-aggregations": {
+        "prefix": "!5-calendar-row-aggregations",
+        "body": [
+            "$1<appointments>",
+            "\t<!-- <sap.ui.unified.CalendarAppointment /> -->",
+            "</appointments>",
+            "<nonWorkingPeriods>",
+            "\t<!-- <sap.ui.unified.NonWorkingPeriod /> -->",
+            "</nonWorkingPeriods>",
+            "<intervalHeaders>",
+            "\t<!-- <sap.ui.unified.CalendarAppointment /> -->",
+            "</intervalHeaders>",
+            "<groupAppointments>",
+            "\t<!-- <sap.ui.unified.CalendarAppointment /> -->",
+            "</groupAppointments>",
+            "$2"
+        ],
+        "description": "sap.ui.unified.CalendarRow with non-inherited aggregations"
+    },
+    "sap.ui.unified.CalendarRow-events": {
+        "prefix": "!5-calendar-row-events",
+        "body": [
+            "$1select=\".on${3:Select}\"",
+            "startDateChange=\".on${4:StartDateChange}\"",
+            "leaveRow=\".on${5:LeaveRow}\"",
+            "intervalSelect=\".on${6:IntervalSelect}\"",
+            "ariaLabelledBy=\".on${7:AriaLabelledBy}\"",
+            "legend=\".on${8:Legend}\"$2"
+        ],
+        "description": "sap.ui.unified.CalendarRow with non-inherited events"
+    },
+    "sap.ui.unified.CalendarRow-all": {
+        "prefix": "!5-calendar-row-all",
+        "body": [
+            "$1startDate=\"\"",
+            "intervals=\"12\"",
+            "intervalSize=\"1\"",
+            "intervalType=\"Hour\"",
+            "showSubIntervals=\"false\"",
+            "showIntervalHeaders=\"true\"",
+            "showEmptyIntervalHeaders=\"true\"",
+            "nonWorkingDays=\"\"",
+            "nonWorkingHours=\"\"",
+            "width=\"\"",
+            "height=\"\"",
+            "checkResize=\"true\"",
+            "updateCurrentTime=\"true\"",
+            "groupAppointmentsMode=\"Collapsed\"",
+            "appointmentsReducedHeight=\"false\"",
+            "appointmentsVisualization=\"Standard\"",
+            "appointmentHeight=\"Regular\"",
+            "appointmentRoundWidth=\"None\"",
+            "multipleAppointmentsSelection=\"false\"",
+            "<appointments>",
+            "\t<!-- <sap.ui.unified.CalendarAppointment /> -->",
+            "</appointments>",
+            "<nonWorkingPeriods>",
+            "\t<!-- <sap.ui.unified.NonWorkingPeriod /> -->",
+            "</nonWorkingPeriods>",
+            "<intervalHeaders>",
+            "\t<!-- <sap.ui.unified.CalendarAppointment /> -->",
+            "</intervalHeaders>",
+            "<groupAppointments>",
+            "\t<!-- <sap.ui.unified.CalendarAppointment /> -->",
+            "</groupAppointments>",
+            "select=\".on${3:Select}\"",
+            "startDateChange=\".on${4:StartDateChange}\"",
+            "leaveRow=\".on${5:LeaveRow}\"",
+            "intervalSelect=\".on${6:IntervalSelect}\"",
+            "ariaLabelledBy=\".on${7:AriaLabelledBy}\"",
+            "legend=\".on${8:Legend}\"$2"
+        ],
+        "description": "sap.ui.unified.CalendarRow with non-inherited properties, aggregations and events"
+    }
+}

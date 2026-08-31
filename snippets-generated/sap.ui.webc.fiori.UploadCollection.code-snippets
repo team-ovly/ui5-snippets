@@ -1,0 +1,68 @@
+{
+    "sap.ui.webc.fiori.UploadCollection": {
+        "prefix": "!5-upload-collection",
+        "body": [
+            "<UploadCollection ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.webc.fiori.UploadCollection"
+    },
+    "sap.ui.webc.fiori.UploadCollection-properties": {
+        "prefix": "!5-upload-collection-properties",
+        "body": [
+            "$1accessibleName=\"\"",
+            "height=\"\"",
+            "hideDragOverlay=\"false\"",
+            "mode=\"None\"",
+            "noDataDescription=\"\"",
+            "noDataText=\"\"",
+            "width=\"\"$2"
+        ],
+        "description": "sap.ui.webc.fiori.UploadCollection with non-inherited properties"
+    },
+    "sap.ui.webc.fiori.UploadCollection-aggregations": {
+        "prefix": "!5-upload-collection-aggregations",
+        "body": [
+            "$1<header>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</header>",
+            "<items>",
+            "\t<!-- <sap.ui.webc.fiori.IUploadCollectionItem /> -->",
+            "</items>",
+            "$2"
+        ],
+        "description": "sap.ui.webc.fiori.UploadCollection with non-inherited aggregations"
+    },
+    "sap.ui.webc.fiori.UploadCollection-events": {
+        "prefix": "!5-upload-collection-events",
+        "body": [
+            "$1drop=\".on${3:Drop}\"",
+            "itemDelete=\".on${4:ItemDelete}\"",
+            "selectionChange=\".on${5:SelectionChange}\"$2"
+        ],
+        "description": "sap.ui.webc.fiori.UploadCollection with non-inherited events"
+    },
+    "sap.ui.webc.fiori.UploadCollection-all": {
+        "prefix": "!5-upload-collection-all",
+        "body": [
+            "$1accessibleName=\"\"",
+            "height=\"\"",
+            "hideDragOverlay=\"false\"",
+            "mode=\"None\"",
+            "noDataDescription=\"\"",
+            "noDataText=\"\"",
+            "width=\"\"",
+            "<header>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</header>",
+            "<items>",
+            "\t<!-- <sap.ui.webc.fiori.IUploadCollectionItem /> -->",
+            "</items>",
+            "drop=\".on${3:Drop}\"",
+            "itemDelete=\".on${4:ItemDelete}\"",
+            "selectionChange=\".on${5:SelectionChange}\"$2"
+        ],
+        "description": "sap.ui.webc.fiori.UploadCollection with non-inherited properties, aggregations and events"
+    }
+}

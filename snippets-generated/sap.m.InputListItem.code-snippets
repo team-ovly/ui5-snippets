@@ -1,0 +1,49 @@
+{
+    "sap.m.InputListItem": {
+        "prefix": "!5-input-list-item",
+        "body": [
+            "<InputListItem ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.InputListItem"
+    },
+    "sap.m.InputListItem-properties": {
+        "prefix": "!5-input-list-item-properties",
+        "body": [
+            "$1label=\"\"",
+            "labelTextDirection=\"Inherit\"",
+            "contentSize=\"L\"$2"
+        ],
+        "description": "sap.m.InputListItem with non-inherited properties"
+    },
+    "sap.m.InputListItem-aggregations": {
+        "prefix": "!5-input-list-item-aggregations",
+        "body": [
+            "$1<content>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</content>",
+            "$2"
+        ],
+        "description": "sap.m.InputListItem with non-inherited aggregations"
+    },
+    "sap.m.InputListItem-events": {
+        "prefix": "!5-input-list-item-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.m.InputListItem with non-inherited events"
+    },
+    "sap.m.InputListItem-all": {
+        "prefix": "!5-input-list-item-all",
+        "body": [
+            "$1label=\"\"",
+            "labelTextDirection=\"Inherit\"",
+            "contentSize=\"L\"",
+            "<content>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</content>$2"
+        ],
+        "description": "sap.m.InputListItem with non-inherited properties, aggregations and events"
+    }
+}

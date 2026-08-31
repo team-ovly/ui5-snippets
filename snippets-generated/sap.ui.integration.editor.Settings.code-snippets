@@ -1,0 +1,39 @@
+{
+    "sap.ui.integration.editor.Settings": {
+        "prefix": "!5-settings",
+        "body": [
+            "<Settings ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.integration.editor.Settings"
+    },
+    "sap.ui.integration.editor.Settings-properties": {
+        "prefix": "!5-settings-properties",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.integration.editor.Settings with non-inherited properties"
+    },
+    "sap.ui.integration.editor.Settings-aggregations": {
+        "prefix": "!5-settings-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.integration.editor.Settings with non-inherited aggregations"
+    },
+    "sap.ui.integration.editor.Settings-events": {
+        "prefix": "!5-settings-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.integration.editor.Settings with non-inherited events"
+    },
+    "sap.ui.integration.editor.Settings-all": {
+        "prefix": "!5-settings-all",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.integration.editor.Settings with non-inherited properties, aggregations and events"
+    }
+}

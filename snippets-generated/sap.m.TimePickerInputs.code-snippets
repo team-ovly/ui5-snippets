@@ -1,0 +1,50 @@
+{
+    "sap.m.TimePickerInputs": {
+        "prefix": "!5-time-picker-inputs",
+        "body": [
+            "<TimePickerInputs ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.TimePickerInputs"
+    },
+    "sap.m.TimePickerInputs-properties": {
+        "prefix": "!5-time-picker-inputs-properties",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.m.TimePickerInputs with non-inherited properties"
+    },
+    "sap.m.TimePickerInputs-aggregations": {
+        "prefix": "!5-time-picker-inputs-aggregations",
+        "body": [
+            "$1<_inputs>",
+            "\t<!-- <sap.m.Input /> -->",
+            "</_inputs>",
+            "<_texts>",
+            "\t<!-- <sap.ui.core.InvisibleText /> -->",
+            "</_texts>",
+            "$2"
+        ],
+        "description": "sap.m.TimePickerInputs with non-inherited aggregations"
+    },
+    "sap.m.TimePickerInputs-events": {
+        "prefix": "!5-time-picker-inputs-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.m.TimePickerInputs with non-inherited events"
+    },
+    "sap.m.TimePickerInputs-all": {
+        "prefix": "!5-time-picker-inputs-all",
+        "body": [
+            "$1<_inputs>",
+            "\t<!-- <sap.m.Input /> -->",
+            "</_inputs>",
+            "<_texts>",
+            "\t<!-- <sap.ui.core.InvisibleText /> -->",
+            "</_texts>$2"
+        ],
+        "description": "sap.m.TimePickerInputs with non-inherited properties, aggregations and events"
+    }
+}

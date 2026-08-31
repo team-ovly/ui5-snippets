@@ -1,0 +1,39 @@
+{
+    "sap.ui.mdc.field.TokenDisplay": {
+        "prefix": "!5-token-display",
+        "body": [
+            "<TokenDisplay ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.mdc.field.TokenDisplay"
+    },
+    "sap.ui.mdc.field.TokenDisplay-properties": {
+        "prefix": "!5-token-display-properties",
+        "body": [
+            "$1_delimiter=\"·\"$2"
+        ],
+        "description": "sap.ui.mdc.field.TokenDisplay with non-inherited properties"
+    },
+    "sap.ui.mdc.field.TokenDisplay-aggregations": {
+        "prefix": "!5-token-display-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.mdc.field.TokenDisplay with non-inherited aggregations"
+    },
+    "sap.ui.mdc.field.TokenDisplay-events": {
+        "prefix": "!5-token-display-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.mdc.field.TokenDisplay with non-inherited events"
+    },
+    "sap.ui.mdc.field.TokenDisplay-all": {
+        "prefix": "!5-token-display-all",
+        "body": [
+            "$1_delimiter=\"·\"$2"
+        ],
+        "description": "sap.ui.mdc.field.TokenDisplay with non-inherited properties, aggregations and events"
+    }
+}

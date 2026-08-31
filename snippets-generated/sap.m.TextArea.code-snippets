@@ -1,0 +1,62 @@
+{
+    "sap.m.TextArea": {
+        "prefix": "!5-text-area",
+        "body": [
+            "<TextArea ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.TextArea"
+    },
+    "sap.m.TextArea-properties": {
+        "prefix": "!5-text-area-properties",
+        "body": [
+            "$1rows=\"2\"",
+            "cols=\"20\"",
+            "height=\"\"",
+            "maxLength=\"0\"",
+            "showExceededText=\"false\"",
+            "wrapping=\"None\"",
+            "valueLiveUpdate=\"false\"",
+            "growing=\"false\"",
+            "growingMaxLines=\"0\"$2"
+        ],
+        "description": "sap.m.TextArea with non-inherited properties"
+    },
+    "sap.m.TextArea-aggregations": {
+        "prefix": "!5-text-area-aggregations",
+        "body": [
+            "$1<_counter>",
+            "\t<!-- <sap.m.Text /> -->",
+            "</_counter>",
+            "$2"
+        ],
+        "description": "sap.m.TextArea with non-inherited aggregations"
+    },
+    "sap.m.TextArea-events": {
+        "prefix": "!5-text-area-events",
+        "body": [
+            "$1liveChange=\".on${3:LiveChange}\"$2"
+        ],
+        "description": "sap.m.TextArea with non-inherited events"
+    },
+    "sap.m.TextArea-all": {
+        "prefix": "!5-text-area-all",
+        "body": [
+            "$1rows=\"2\"",
+            "cols=\"20\"",
+            "height=\"\"",
+            "maxLength=\"0\"",
+            "showExceededText=\"false\"",
+            "wrapping=\"None\"",
+            "valueLiveUpdate=\"false\"",
+            "growing=\"false\"",
+            "growingMaxLines=\"0\"",
+            "<_counter>",
+            "\t<!-- <sap.m.Text /> -->",
+            "</_counter>",
+            "liveChange=\".on${3:LiveChange}\"$2"
+        ],
+        "description": "sap.m.TextArea with non-inherited properties, aggregations and events"
+    }
+}

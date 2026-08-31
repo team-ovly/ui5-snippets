@@ -1,0 +1,41 @@
+{
+    "sap.ui.webc.fiori.SortItem": {
+        "prefix": "!5-sort-item",
+        "body": [
+            "<SortItem ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.webc.fiori.SortItem"
+    },
+    "sap.ui.webc.fiori.SortItem-properties": {
+        "prefix": "!5-sort-item-properties",
+        "body": [
+            "$1selected=\"false\"",
+            "text=\"\"$2"
+        ],
+        "description": "sap.ui.webc.fiori.SortItem with non-inherited properties"
+    },
+    "sap.ui.webc.fiori.SortItem-aggregations": {
+        "prefix": "!5-sort-item-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.webc.fiori.SortItem with non-inherited aggregations"
+    },
+    "sap.ui.webc.fiori.SortItem-events": {
+        "prefix": "!5-sort-item-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.webc.fiori.SortItem with non-inherited events"
+    },
+    "sap.ui.webc.fiori.SortItem-all": {
+        "prefix": "!5-sort-item-all",
+        "body": [
+            "$1selected=\"false\"",
+            "text=\"\"$2"
+        ],
+        "description": "sap.ui.webc.fiori.SortItem with non-inherited properties, aggregations and events"
+    }
+}

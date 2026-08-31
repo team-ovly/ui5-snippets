@@ -1,0 +1,56 @@
+{
+    "sap.m.P13nColumnsPanel": {
+        "prefix": "!5-p13n-columns-panel",
+        "body": [
+            "<P13nColumnsPanel ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.P13nColumnsPanel"
+    },
+    "sap.m.P13nColumnsPanel-properties": {
+        "prefix": "!5-p13n-columns-panel-properties",
+        "body": [
+            "$1visibleItemsThreshold=\"-1\"$2"
+        ],
+        "description": "sap.m.P13nColumnsPanel with non-inherited properties"
+    },
+    "sap.m.P13nColumnsPanel-aggregations": {
+        "prefix": "!5-p13n-columns-panel-aggregations",
+        "body": [
+            "$1<columnsItems>",
+            "\t<!-- <sap.m.P13nColumnsItem /> -->",
+            "</columnsItems>",
+            "<content>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</content>",
+            "$2"
+        ],
+        "description": "sap.m.P13nColumnsPanel with non-inherited aggregations"
+    },
+    "sap.m.P13nColumnsPanel-events": {
+        "prefix": "!5-p13n-columns-panel-events",
+        "body": [
+            "$1addColumnsItem=\".on${3:AddColumnsItem}\"",
+            "changeColumnsItems=\".on${4:ChangeColumnsItems}\"",
+            "setData=\".on${5:SetData}\"$2"
+        ],
+        "description": "sap.m.P13nColumnsPanel with non-inherited events"
+    },
+    "sap.m.P13nColumnsPanel-all": {
+        "prefix": "!5-p13n-columns-panel-all",
+        "body": [
+            "$1visibleItemsThreshold=\"-1\"",
+            "<columnsItems>",
+            "\t<!-- <sap.m.P13nColumnsItem /> -->",
+            "</columnsItems>",
+            "<content>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</content>",
+            "addColumnsItem=\".on${3:AddColumnsItem}\"",
+            "changeColumnsItems=\".on${4:ChangeColumnsItems}\"",
+            "setData=\".on${5:SetData}\"$2"
+        ],
+        "description": "sap.m.P13nColumnsPanel with non-inherited properties, aggregations and events"
+    }
+}

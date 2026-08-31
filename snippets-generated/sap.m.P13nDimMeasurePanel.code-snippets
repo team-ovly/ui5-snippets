@@ -1,0 +1,60 @@
+{
+    "sap.m.P13nDimMeasurePanel": {
+        "prefix": "!5-p13n-dim-measure-panel",
+        "body": [
+            "<P13nDimMeasurePanel ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.P13nDimMeasurePanel"
+    },
+    "sap.m.P13nDimMeasurePanel-properties": {
+        "prefix": "!5-p13n-dim-measure-panel-properties",
+        "body": [
+            "$1chartTypeKey=\"\"$2"
+        ],
+        "description": "sap.m.P13nDimMeasurePanel with non-inherited properties"
+    },
+    "sap.m.P13nDimMeasurePanel-aggregations": {
+        "prefix": "!5-p13n-dim-measure-panel-aggregations",
+        "body": [
+            "$1<dimMeasureItems>",
+            "\t<!-- <sap.m.P13nDimMeasureItem /> -->",
+            "</dimMeasureItems>",
+            "<content>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</content>",
+            "<availableChartTypes>",
+            "\t<!-- <sap.ui.core.Item /> -->",
+            "</availableChartTypes>",
+            "$2"
+        ],
+        "description": "sap.m.P13nDimMeasurePanel with non-inherited aggregations"
+    },
+    "sap.m.P13nDimMeasurePanel-events": {
+        "prefix": "!5-p13n-dim-measure-panel-events",
+        "body": [
+            "$1changeDimMeasureItems=\".on${3:ChangeDimMeasureItems}\"",
+            "changeChartType=\".on${4:ChangeChartType}\"$2"
+        ],
+        "description": "sap.m.P13nDimMeasurePanel with non-inherited events"
+    },
+    "sap.m.P13nDimMeasurePanel-all": {
+        "prefix": "!5-p13n-dim-measure-panel-all",
+        "body": [
+            "$1chartTypeKey=\"\"",
+            "<dimMeasureItems>",
+            "\t<!-- <sap.m.P13nDimMeasureItem /> -->",
+            "</dimMeasureItems>",
+            "<content>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</content>",
+            "<availableChartTypes>",
+            "\t<!-- <sap.ui.core.Item /> -->",
+            "</availableChartTypes>",
+            "changeDimMeasureItems=\".on${3:ChangeDimMeasureItems}\"",
+            "changeChartType=\".on${4:ChangeChartType}\"$2"
+        ],
+        "description": "sap.m.P13nDimMeasurePanel with non-inherited properties, aggregations and events"
+    }
+}

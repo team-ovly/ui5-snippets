@@ -1,0 +1,60 @@
+{
+    "sap.m.NavContainer": {
+        "prefix": "!5-nav-container",
+        "body": [
+            "<NavContainer ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.NavContainer"
+    },
+    "sap.m.NavContainer-properties": {
+        "prefix": "!5-nav-container-properties",
+        "body": [
+            "$1autoFocus=\"true\"",
+            "height=\"100%\"",
+            "width=\"100%\"",
+            "visible=\"true\"",
+            "defaultTransitionName=\"slide\"$2"
+        ],
+        "description": "sap.m.NavContainer with non-inherited properties"
+    },
+    "sap.m.NavContainer-aggregations": {
+        "prefix": "!5-nav-container-aggregations",
+        "body": [
+            "$1<pages>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</pages>",
+            "$2"
+        ],
+        "description": "sap.m.NavContainer with non-inherited aggregations"
+    },
+    "sap.m.NavContainer-events": {
+        "prefix": "!5-nav-container-events",
+        "body": [
+            "$1navigate=\".on${3:Navigate}\"",
+            "afterNavigate=\".on${4:AfterNavigate}\"",
+            "navigationFinished=\".on${5:NavigationFinished}\"",
+            "initialPage=\".on${6:InitialPage}\"$2"
+        ],
+        "description": "sap.m.NavContainer with non-inherited events"
+    },
+    "sap.m.NavContainer-all": {
+        "prefix": "!5-nav-container-all",
+        "body": [
+            "$1autoFocus=\"true\"",
+            "height=\"100%\"",
+            "width=\"100%\"",
+            "visible=\"true\"",
+            "defaultTransitionName=\"slide\"",
+            "<pages>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</pages>",
+            "navigate=\".on${3:Navigate}\"",
+            "afterNavigate=\".on${4:AfterNavigate}\"",
+            "navigationFinished=\".on${5:NavigationFinished}\"",
+            "initialPage=\".on${6:InitialPage}\"$2"
+        ],
+        "description": "sap.m.NavContainer with non-inherited properties, aggregations and events"
+    }
+}

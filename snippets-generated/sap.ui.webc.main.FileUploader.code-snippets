@@ -1,0 +1,64 @@
+{
+    "sap.ui.webc.main.FileUploader": {
+        "prefix": "!5-file-uploader",
+        "body": [
+            "<FileUploader ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.webc.main.FileUploader"
+    },
+    "sap.ui.webc.main.FileUploader-properties": {
+        "prefix": "!5-file-uploader-properties",
+        "body": [
+            "$1accept=\"\"",
+            "enabled=\"true\"",
+            "hideInput=\"false\"",
+            "multiple=\"false\"",
+            "name=\"\"",
+            "placeholder=\"\"",
+            "value=\"\"",
+            "valueState=\"None\"",
+            "valueStateMessage=\"\"",
+            "width=\"\"$2"
+        ],
+        "description": "sap.ui.webc.main.FileUploader with non-inherited properties"
+    },
+    "sap.ui.webc.main.FileUploader-aggregations": {
+        "prefix": "!5-file-uploader-aggregations",
+        "body": [
+            "$1<content>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</content>",
+            "$2"
+        ],
+        "description": "sap.ui.webc.main.FileUploader with non-inherited aggregations"
+    },
+    "sap.ui.webc.main.FileUploader-events": {
+        "prefix": "!5-file-uploader-events",
+        "body": [
+            "$1change=\".on${3:Change}\"$2"
+        ],
+        "description": "sap.ui.webc.main.FileUploader with non-inherited events"
+    },
+    "sap.ui.webc.main.FileUploader-all": {
+        "prefix": "!5-file-uploader-all",
+        "body": [
+            "$1accept=\"\"",
+            "enabled=\"true\"",
+            "hideInput=\"false\"",
+            "multiple=\"false\"",
+            "name=\"\"",
+            "placeholder=\"\"",
+            "value=\"\"",
+            "valueState=\"None\"",
+            "valueStateMessage=\"\"",
+            "width=\"\"",
+            "<content>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</content>",
+            "change=\".on${3:Change}\"$2"
+        ],
+        "description": "sap.ui.webc.main.FileUploader with non-inherited properties, aggregations and events"
+    }
+}

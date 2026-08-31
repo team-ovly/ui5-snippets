@@ -1,0 +1,39 @@
+{
+    "sap.ui.webc.main.ToolbarSpacer": {
+        "prefix": "!5-toolbar-spacer",
+        "body": [
+            "<ToolbarSpacer ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.webc.main.ToolbarSpacer"
+    },
+    "sap.ui.webc.main.ToolbarSpacer-properties": {
+        "prefix": "!5-toolbar-spacer-properties",
+        "body": [
+            "$1width=\"undefined\"$2"
+        ],
+        "description": "sap.ui.webc.main.ToolbarSpacer with non-inherited properties"
+    },
+    "sap.ui.webc.main.ToolbarSpacer-aggregations": {
+        "prefix": "!5-toolbar-spacer-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.webc.main.ToolbarSpacer with non-inherited aggregations"
+    },
+    "sap.ui.webc.main.ToolbarSpacer-events": {
+        "prefix": "!5-toolbar-spacer-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.webc.main.ToolbarSpacer with non-inherited events"
+    },
+    "sap.ui.webc.main.ToolbarSpacer-all": {
+        "prefix": "!5-toolbar-spacer-all",
+        "body": [
+            "$1width=\"undefined\"$2"
+        ],
+        "description": "sap.ui.webc.main.ToolbarSpacer with non-inherited properties, aggregations and events"
+    }
+}

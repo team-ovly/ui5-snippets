@@ -1,0 +1,71 @@
+{
+    "sap.uxap.ObjectPageSectionBase": {
+        "prefix": "!5-object-page-section-base",
+        "body": [
+            "<ObjectPageSectionBase ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.uxap.ObjectPageSectionBase"
+    },
+    "sap.uxap.ObjectPageSectionBase-properties": {
+        "prefix": "!5-object-page-section-base-properties",
+        "body": [
+            "$1title=\"\"",
+            "titleLevel=\"Auto\"",
+            "visible=\"true\"",
+            "titleVisible=\"true\"",
+            "importance=\"High\"$2"
+        ],
+        "description": "sap.uxap.ObjectPageSectionBase with non-inherited properties"
+    },
+    "sap.uxap.ObjectPageSectionBase-aggregations": {
+        "prefix": "!5-object-page-section-base-aggregations",
+        "body": [
+            "$1<ariaLabelledBy>",
+            "\t<!-- <sap.ui.core.InvisibleText /> -->",
+            "</ariaLabelledBy>",
+            "<customAnchorBarButton>",
+            "\t<!-- <sap.m.Button /> -->",
+            "</customAnchorBarButton>",
+            "<_grid>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</_grid>",
+            "<_showHideButton>",
+            "\t<!-- <sap.m.Button /> -->",
+            "</_showHideButton>",
+            "$2"
+        ],
+        "description": "sap.uxap.ObjectPageSectionBase with non-inherited aggregations"
+    },
+    "sap.uxap.ObjectPageSectionBase-events": {
+        "prefix": "!5-object-page-section-base-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.uxap.ObjectPageSectionBase with non-inherited events"
+    },
+    "sap.uxap.ObjectPageSectionBase-all": {
+        "prefix": "!5-object-page-section-base-all",
+        "body": [
+            "$1title=\"\"",
+            "titleLevel=\"Auto\"",
+            "visible=\"true\"",
+            "titleVisible=\"true\"",
+            "importance=\"High\"",
+            "<ariaLabelledBy>",
+            "\t<!-- <sap.ui.core.InvisibleText /> -->",
+            "</ariaLabelledBy>",
+            "<customAnchorBarButton>",
+            "\t<!-- <sap.m.Button /> -->",
+            "</customAnchorBarButton>",
+            "<_grid>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</_grid>",
+            "<_showHideButton>",
+            "\t<!-- <sap.m.Button /> -->",
+            "</_showHideButton>$2"
+        ],
+        "description": "sap.uxap.ObjectPageSectionBase with non-inherited properties, aggregations and events"
+    }
+}

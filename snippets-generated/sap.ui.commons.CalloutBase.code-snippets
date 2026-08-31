@@ -1,0 +1,45 @@
+{
+    "sap.ui.commons.CalloutBase": {
+        "prefix": "!5-callout-base",
+        "body": [
+            "<CalloutBase ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.commons.CalloutBase"
+    },
+    "sap.ui.commons.CalloutBase-properties": {
+        "prefix": "!5-callout-base-properties",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.commons.CalloutBase with non-inherited properties"
+    },
+    "sap.ui.commons.CalloutBase-aggregations": {
+        "prefix": "!5-callout-base-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.commons.CalloutBase with non-inherited aggregations"
+    },
+    "sap.ui.commons.CalloutBase-events": {
+        "prefix": "!5-callout-base-events",
+        "body": [
+            "$1open=\".on${3:Open}\"",
+            "close=\".on${4:Close}\"",
+            "beforeOpen=\".on${5:BeforeOpen}\"",
+            "opened=\".on${6:Opened}\"$2"
+        ],
+        "description": "sap.ui.commons.CalloutBase with non-inherited events"
+    },
+    "sap.ui.commons.CalloutBase-all": {
+        "prefix": "!5-callout-base-all",
+        "body": [
+            "$1open=\".on${3:Open}\"",
+            "close=\".on${4:Close}\"",
+            "beforeOpen=\".on${5:BeforeOpen}\"",
+            "opened=\".on${6:Opened}\"$2"
+        ],
+        "description": "sap.ui.commons.CalloutBase with non-inherited properties, aggregations and events"
+    }
+}

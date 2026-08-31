@@ -1,0 +1,86 @@
+{
+    "sap.ui.ux3.ExactBrowser": {
+        "prefix": "!5-exact-browser",
+        "body": [
+            "<ExactBrowser ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.ux3.ExactBrowser"
+    },
+    "sap.ui.ux3.ExactBrowser-properties": {
+        "prefix": "!5-exact-browser-properties",
+        "body": [
+            "$1title=\"\"",
+            "headerTitle=\"\"",
+            "topListOrder=\"Select\"",
+            "enableListClose=\"false\"",
+            "listHeight=\"290\"",
+            "showHeader=\"false\"",
+            "showTopList=\"true\"",
+            "enableReset=\"true\"",
+            "enableSave=\"false\"",
+            "topListWidth=\"168\"$2"
+        ],
+        "description": "sap.ui.ux3.ExactBrowser with non-inherited properties"
+    },
+    "sap.ui.ux3.ExactBrowser-aggregations": {
+        "prefix": "!5-exact-browser-aggregations",
+        "body": [
+            "$1<attributes>",
+            "\t<!-- <sap.ui.ux3.ExactAttribute /> -->",
+            "</attributes>",
+            "<optionsMenu>",
+            "\t<!-- <sap.ui.commons.Menu /> -->",
+            "</optionsMenu>",
+            "<controls>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</controls>",
+            "<rootAttribute>",
+            "\t<!-- <sap.ui.core.Element /> -->",
+            "</rootAttribute>",
+            "$2"
+        ],
+        "description": "sap.ui.ux3.ExactBrowser with non-inherited aggregations"
+    },
+    "sap.ui.ux3.ExactBrowser-events": {
+        "prefix": "!5-exact-browser-events",
+        "body": [
+            "$1attributeSelected=\".on${3:AttributeSelected}\"",
+            "save=\".on${4:Save}\"",
+            "followUpControl=\".on${5:FollowUpControl}\"$2"
+        ],
+        "description": "sap.ui.ux3.ExactBrowser with non-inherited events"
+    },
+    "sap.ui.ux3.ExactBrowser-all": {
+        "prefix": "!5-exact-browser-all",
+        "body": [
+            "$1title=\"\"",
+            "headerTitle=\"\"",
+            "topListOrder=\"Select\"",
+            "enableListClose=\"false\"",
+            "listHeight=\"290\"",
+            "showHeader=\"false\"",
+            "showTopList=\"true\"",
+            "enableReset=\"true\"",
+            "enableSave=\"false\"",
+            "topListWidth=\"168\"",
+            "<attributes>",
+            "\t<!-- <sap.ui.ux3.ExactAttribute /> -->",
+            "</attributes>",
+            "<optionsMenu>",
+            "\t<!-- <sap.ui.commons.Menu /> -->",
+            "</optionsMenu>",
+            "<controls>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</controls>",
+            "<rootAttribute>",
+            "\t<!-- <sap.ui.core.Element /> -->",
+            "</rootAttribute>",
+            "attributeSelected=\".on${3:AttributeSelected}\"",
+            "save=\".on${4:Save}\"",
+            "followUpControl=\".on${5:FollowUpControl}\"$2"
+        ],
+        "description": "sap.ui.ux3.ExactBrowser with non-inherited properties, aggregations and events"
+    }
+}

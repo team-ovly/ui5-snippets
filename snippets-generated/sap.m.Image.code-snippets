@@ -1,0 +1,84 @@
+{
+    "sap.m.Image": {
+        "prefix": "!5-image",
+        "body": [
+            "<Image ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.Image"
+    },
+    "sap.m.Image-properties": {
+        "prefix": "!5-image-properties",
+        "body": [
+            "$1src=\"\"",
+            "width=\"\"",
+            "height=\"\"",
+            "decorative=\"true\"",
+            "alt=\"\"",
+            "useMap=\"\"",
+            "densityAware=\"false\"",
+            "activeSrc=\"\"",
+            "mode=\"Image\"",
+            "backgroundSize=\"cover\"",
+            "backgroundPosition=\"initial\"",
+            "backgroundRepeat=\"no-repeat\"",
+            "lazyLoading=\"false\"",
+            "ariaHasPopup=\"None\"$2"
+        ],
+        "description": "sap.m.Image with non-inherited properties"
+    },
+    "sap.m.Image-aggregations": {
+        "prefix": "!5-image-aggregations",
+        "body": [
+            "$1<detailBox>",
+            "\t<!-- <sap.m.LightBox /> -->",
+            "</detailBox>",
+            "$2"
+        ],
+        "description": "sap.m.Image with non-inherited aggregations"
+    },
+    "sap.m.Image-events": {
+        "prefix": "!5-image-events",
+        "body": [
+            "$1tap=\".on${3:Tap}\"",
+            "press=\".on${4:Press}\"",
+            "load=\".on${5:Load}\"",
+            "error=\".on${6:Error}\"",
+            "ariaDescribedBy=\".on${7:AriaDescribedBy}\"",
+            "ariaLabelledBy=\".on${8:AriaLabelledBy}\"",
+            "ariaDetails=\".on${9:AriaDetails}\"$2"
+        ],
+        "description": "sap.m.Image with non-inherited events"
+    },
+    "sap.m.Image-all": {
+        "prefix": "!5-image-all",
+        "body": [
+            "$1src=\"\"",
+            "width=\"\"",
+            "height=\"\"",
+            "decorative=\"true\"",
+            "alt=\"\"",
+            "useMap=\"\"",
+            "densityAware=\"false\"",
+            "activeSrc=\"\"",
+            "mode=\"Image\"",
+            "backgroundSize=\"cover\"",
+            "backgroundPosition=\"initial\"",
+            "backgroundRepeat=\"no-repeat\"",
+            "lazyLoading=\"false\"",
+            "ariaHasPopup=\"None\"",
+            "<detailBox>",
+            "\t<!-- <sap.m.LightBox /> -->",
+            "</detailBox>",
+            "tap=\".on${3:Tap}\"",
+            "press=\".on${4:Press}\"",
+            "load=\".on${5:Load}\"",
+            "error=\".on${6:Error}\"",
+            "ariaDescribedBy=\".on${7:AriaDescribedBy}\"",
+            "ariaLabelledBy=\".on${8:AriaLabelledBy}\"",
+            "ariaDetails=\".on${9:AriaDetails}\"$2"
+        ],
+        "description": "sap.m.Image with non-inherited properties, aggregations and events"
+    }
+}

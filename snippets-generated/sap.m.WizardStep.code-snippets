@@ -1,0 +1,66 @@
+{
+    "sap.m.WizardStep": {
+        "prefix": "!5-wizard-step",
+        "body": [
+            "<WizardStep ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.WizardStep"
+    },
+    "sap.m.WizardStep-properties": {
+        "prefix": "!5-wizard-step-properties",
+        "body": [
+            "$1title=\"\"",
+            "icon=\"\"",
+            "validated=\"true\"",
+            "optional=\"false\"",
+            "_titleLevel=\"H3\"$2"
+        ],
+        "description": "sap.m.WizardStep with non-inherited properties"
+    },
+    "sap.m.WizardStep-aggregations": {
+        "prefix": "!5-wizard-step-aggregations",
+        "body": [
+            "$1<content>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</content>",
+            "<_nextButton>",
+            "\t<!-- <sap.m.Button /> -->",
+            "</_nextButton>",
+            "$2"
+        ],
+        "description": "sap.m.WizardStep with non-inherited aggregations"
+    },
+    "sap.m.WizardStep-events": {
+        "prefix": "!5-wizard-step-events",
+        "body": [
+            "$1complete=\".on${3:Complete}\"",
+            "activate=\".on${4:Activate}\"",
+            "subsequentSteps=\".on${5:SubsequentSteps}\"",
+            "nextStep=\".on${6:NextStep}\"$2"
+        ],
+        "description": "sap.m.WizardStep with non-inherited events"
+    },
+    "sap.m.WizardStep-all": {
+        "prefix": "!5-wizard-step-all",
+        "body": [
+            "$1title=\"\"",
+            "icon=\"\"",
+            "validated=\"true\"",
+            "optional=\"false\"",
+            "_titleLevel=\"H3\"",
+            "<content>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</content>",
+            "<_nextButton>",
+            "\t<!-- <sap.m.Button /> -->",
+            "</_nextButton>",
+            "complete=\".on${3:Complete}\"",
+            "activate=\".on${4:Activate}\"",
+            "subsequentSteps=\".on${5:SubsequentSteps}\"",
+            "nextStep=\".on${6:NextStep}\"$2"
+        ],
+        "description": "sap.m.WizardStep with non-inherited properties, aggregations and events"
+    }
+}

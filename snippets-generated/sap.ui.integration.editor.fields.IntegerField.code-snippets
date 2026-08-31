@@ -1,0 +1,39 @@
+{
+    "sap.ui.integration.editor.fields.IntegerField": {
+        "prefix": "!5-integer-field",
+        "body": [
+            "<IntegerField ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.integration.editor.fields.IntegerField"
+    },
+    "sap.ui.integration.editor.fields.IntegerField-properties": {
+        "prefix": "!5-integer-field-properties",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.integration.editor.fields.IntegerField with non-inherited properties"
+    },
+    "sap.ui.integration.editor.fields.IntegerField-aggregations": {
+        "prefix": "!5-integer-field-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.integration.editor.fields.IntegerField with non-inherited aggregations"
+    },
+    "sap.ui.integration.editor.fields.IntegerField-events": {
+        "prefix": "!5-integer-field-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.integration.editor.fields.IntegerField with non-inherited events"
+    },
+    "sap.ui.integration.editor.fields.IntegerField-all": {
+        "prefix": "!5-integer-field-all",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.integration.editor.fields.IntegerField with non-inherited properties, aggregations and events"
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "sap.m.CustomListItem": {
+        "prefix": "!5-custom-list-item",
+        "body": [
+            "<CustomListItem ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.CustomListItem"
+    },
+    "sap.m.CustomListItem-properties": {
+        "prefix": "!5-custom-list-item-properties",
+        "body": [
+            "$1accDescription=\"\"$2"
+        ],
+        "description": "sap.m.CustomListItem with non-inherited properties"
+    },
+    "sap.m.CustomListItem-aggregations": {
+        "prefix": "!5-custom-list-item-aggregations",
+        "body": [
+            "$1<content>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</content>",
+            "$2"
+        ],
+        "description": "sap.m.CustomListItem with non-inherited aggregations"
+    },
+    "sap.m.CustomListItem-events": {
+        "prefix": "!5-custom-list-item-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.m.CustomListItem with non-inherited events"
+    },
+    "sap.m.CustomListItem-all": {
+        "prefix": "!5-custom-list-item-all",
+        "body": [
+            "$1accDescription=\"\"",
+            "<content>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</content>$2"
+        ],
+        "description": "sap.m.CustomListItem with non-inherited properties, aggregations and events"
+    }
+}

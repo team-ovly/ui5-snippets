@@ -1,0 +1,58 @@
+{
+    "sap.ui.unified.Menu": {
+        "prefix": "!5-menu",
+        "body": [
+            "<Menu ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.unified.Menu"
+    },
+    "sap.ui.unified.Menu-properties": {
+        "prefix": "!5-menu-properties",
+        "body": [
+            "$1enabled=\"true\"",
+            "ariaDescription=\"\"",
+            "maxVisibleItems=\"0\"",
+            "pageSize=\"5\"$2"
+        ],
+        "description": "sap.ui.unified.Menu with non-inherited properties"
+    },
+    "sap.ui.unified.Menu-aggregations": {
+        "prefix": "!5-menu-aggregations",
+        "body": [
+            "$1<items>",
+            "\t<!-- <sap.ui.unified.IMenuItem /> -->",
+            "</items>",
+            "$2"
+        ],
+        "description": "sap.ui.unified.Menu with non-inherited aggregations"
+    },
+    "sap.ui.unified.Menu-events": {
+        "prefix": "!5-menu-events",
+        "body": [
+            "$1itemSelect=\".on${3:ItemSelect}\"",
+            "closed=\".on${4:Closed}\"",
+            "beforeClose=\".on${5:BeforeClose}\"",
+            "ariaLabelledBy=\".on${6:AriaLabelledBy}\"$2"
+        ],
+        "description": "sap.ui.unified.Menu with non-inherited events"
+    },
+    "sap.ui.unified.Menu-all": {
+        "prefix": "!5-menu-all",
+        "body": [
+            "$1enabled=\"true\"",
+            "ariaDescription=\"\"",
+            "maxVisibleItems=\"0\"",
+            "pageSize=\"5\"",
+            "<items>",
+            "\t<!-- <sap.ui.unified.IMenuItem /> -->",
+            "</items>",
+            "itemSelect=\".on${3:ItemSelect}\"",
+            "closed=\".on${4:Closed}\"",
+            "beforeClose=\".on${5:BeforeClose}\"",
+            "ariaLabelledBy=\".on${6:AriaLabelledBy}\"$2"
+        ],
+        "description": "sap.ui.unified.Menu with non-inherited properties, aggregations and events"
+    }
+}

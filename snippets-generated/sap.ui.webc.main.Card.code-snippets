@@ -1,0 +1,56 @@
+{
+    "sap.ui.webc.main.Card": {
+        "prefix": "!5-card",
+        "body": [
+            "<Card ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.webc.main.Card"
+    },
+    "sap.ui.webc.main.Card-properties": {
+        "prefix": "!5-card-properties",
+        "body": [
+            "$1accessibleName=\"\"",
+            "height=\"\"",
+            "width=\"\"$2"
+        ],
+        "description": "sap.ui.webc.main.Card with non-inherited properties"
+    },
+    "sap.ui.webc.main.Card-aggregations": {
+        "prefix": "!5-card-aggregations",
+        "body": [
+            "$1<content>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</content>",
+            "<header>",
+            "\t<!-- <sap.ui.webc.main.ICardHeader /> -->",
+            "</header>",
+            "$2"
+        ],
+        "description": "sap.ui.webc.main.Card with non-inherited aggregations"
+    },
+    "sap.ui.webc.main.Card-events": {
+        "prefix": "!5-card-events",
+        "body": [
+            "$1ariaLabelledBy=\".on${3:AriaLabelledBy}\"$2"
+        ],
+        "description": "sap.ui.webc.main.Card with non-inherited events"
+    },
+    "sap.ui.webc.main.Card-all": {
+        "prefix": "!5-card-all",
+        "body": [
+            "$1accessibleName=\"\"",
+            "height=\"\"",
+            "width=\"\"",
+            "<content>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</content>",
+            "<header>",
+            "\t<!-- <sap.ui.webc.main.ICardHeader /> -->",
+            "</header>",
+            "ariaLabelledBy=\".on${3:AriaLabelledBy}\"$2"
+        ],
+        "description": "sap.ui.webc.main.Card with non-inherited properties, aggregations and events"
+    }
+}

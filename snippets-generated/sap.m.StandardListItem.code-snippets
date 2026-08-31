@@ -1,0 +1,71 @@
+{
+    "sap.m.StandardListItem": {
+        "prefix": "!5-standard-list-item",
+        "body": [
+            "<StandardListItem ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.StandardListItem"
+    },
+    "sap.m.StandardListItem-properties": {
+        "prefix": "!5-standard-list-item-properties",
+        "body": [
+            "$1title=\"\"",
+            "description=\"\"",
+            "icon=\"\"",
+            "iconInset=\"true\"",
+            "iconDensityAware=\"true\"",
+            "activeIcon=\"\"",
+            "info=\"\"",
+            "infoState=\"None\"",
+            "adaptTitleSize=\"true\"",
+            "titleTextDirection=\"Inherit\"",
+            "infoTextDirection=\"Inherit\"",
+            "wrapping=\"false\"",
+            "infoStateInverted=\"false\"",
+            "wrapCharLimit=\"0\"$2"
+        ],
+        "description": "sap.m.StandardListItem with non-inherited properties"
+    },
+    "sap.m.StandardListItem-aggregations": {
+        "prefix": "!5-standard-list-item-aggregations",
+        "body": [
+            "$1<avatar>",
+            "\t<!-- <sap.m.Avatar /> -->",
+            "</avatar>",
+            "$2"
+        ],
+        "description": "sap.m.StandardListItem with non-inherited aggregations"
+    },
+    "sap.m.StandardListItem-events": {
+        "prefix": "!5-standard-list-item-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.m.StandardListItem with non-inherited events"
+    },
+    "sap.m.StandardListItem-all": {
+        "prefix": "!5-standard-list-item-all",
+        "body": [
+            "$1title=\"\"",
+            "description=\"\"",
+            "icon=\"\"",
+            "iconInset=\"true\"",
+            "iconDensityAware=\"true\"",
+            "activeIcon=\"\"",
+            "info=\"\"",
+            "infoState=\"None\"",
+            "adaptTitleSize=\"true\"",
+            "titleTextDirection=\"Inherit\"",
+            "infoTextDirection=\"Inherit\"",
+            "wrapping=\"false\"",
+            "infoStateInverted=\"false\"",
+            "wrapCharLimit=\"0\"",
+            "<avatar>",
+            "\t<!-- <sap.m.Avatar /> -->",
+            "</avatar>$2"
+        ],
+        "description": "sap.m.StandardListItem with non-inherited properties, aggregations and events"
+    }
+}

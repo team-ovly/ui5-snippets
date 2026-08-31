@@ -1,0 +1,39 @@
+{
+    "sap.ui.webc.main.CalendarDate": {
+        "prefix": "!5-calendar-date",
+        "body": [
+            "<CalendarDate ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.webc.main.CalendarDate"
+    },
+    "sap.ui.webc.main.CalendarDate-properties": {
+        "prefix": "!5-calendar-date-properties",
+        "body": [
+            "$1value=\"\"$2"
+        ],
+        "description": "sap.ui.webc.main.CalendarDate with non-inherited properties"
+    },
+    "sap.ui.webc.main.CalendarDate-aggregations": {
+        "prefix": "!5-calendar-date-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.webc.main.CalendarDate with non-inherited aggregations"
+    },
+    "sap.ui.webc.main.CalendarDate-events": {
+        "prefix": "!5-calendar-date-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.webc.main.CalendarDate with non-inherited events"
+    },
+    "sap.ui.webc.main.CalendarDate-all": {
+        "prefix": "!5-calendar-date-all",
+        "body": [
+            "$1value=\"\"$2"
+        ],
+        "description": "sap.ui.webc.main.CalendarDate with non-inherited properties, aggregations and events"
+    }
+}

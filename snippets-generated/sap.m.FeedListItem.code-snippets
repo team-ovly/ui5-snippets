@@ -1,0 +1,108 @@
+{
+    "sap.m.FeedListItem": {
+        "prefix": "!5-feed-list-item",
+        "body": [
+            "<FeedListItem ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.FeedListItem"
+    },
+    "sap.m.FeedListItem-properties": {
+        "prefix": "!5-feed-list-item-properties",
+        "body": [
+            "$1icon=\"\"",
+            "iconDisplayShape=\"Circle\"",
+            "iconInitials=\"\"",
+            "iconSize=\"S\"",
+            "activeIcon=\"\"",
+            "sender=\"\"",
+            "text=\"\"",
+            "moreLabel=\"\"",
+            "lessLabel=\"\"",
+            "info=\"\"",
+            "timestamp=\"\"",
+            "senderActive=\"true\"",
+            "iconActive=\"true\"",
+            "iconDensityAware=\"true\"",
+            "showIcon=\"true\"",
+            "convertLinksToAnchorTags=\"None\"",
+            "convertedLinksDefaultTarget=\"_blank\"",
+            "maxCharacters=\"\"",
+            "disableStyleAttribute=\"false\"$2"
+        ],
+        "description": "sap.m.FeedListItem with non-inherited properties"
+    },
+    "sap.m.FeedListItem-aggregations": {
+        "prefix": "!5-feed-list-item-aggregations",
+        "body": [
+            "$1<actions>",
+            "\t<!-- <sap.m.FeedListItemAction /> -->",
+            "</actions>",
+            "<_text>",
+            "\t<!-- <sap.m.FormattedText /> -->",
+            "</_text>",
+            "<_actionSheet>",
+            "\t<!-- <sap.m.ActionSheet /> -->",
+            "</_actionSheet>",
+            "<_actionButton>",
+            "\t<!-- <sap.m.Button /> -->",
+            "</_actionButton>",
+            "<_avatar>",
+            "\t<!-- <sap.m.Avatar /> -->",
+            "</_avatar>",
+            "$2"
+        ],
+        "description": "sap.m.FeedListItem with non-inherited aggregations"
+    },
+    "sap.m.FeedListItem-events": {
+        "prefix": "!5-feed-list-item-events",
+        "body": [
+            "$1senderPress=\".on${3:SenderPress}\"",
+            "iconPress=\".on${4:IconPress}\"$2"
+        ],
+        "description": "sap.m.FeedListItem with non-inherited events"
+    },
+    "sap.m.FeedListItem-all": {
+        "prefix": "!5-feed-list-item-all",
+        "body": [
+            "$1icon=\"\"",
+            "iconDisplayShape=\"Circle\"",
+            "iconInitials=\"\"",
+            "iconSize=\"S\"",
+            "activeIcon=\"\"",
+            "sender=\"\"",
+            "text=\"\"",
+            "moreLabel=\"\"",
+            "lessLabel=\"\"",
+            "info=\"\"",
+            "timestamp=\"\"",
+            "senderActive=\"true\"",
+            "iconActive=\"true\"",
+            "iconDensityAware=\"true\"",
+            "showIcon=\"true\"",
+            "convertLinksToAnchorTags=\"None\"",
+            "convertedLinksDefaultTarget=\"_blank\"",
+            "maxCharacters=\"\"",
+            "disableStyleAttribute=\"false\"",
+            "<actions>",
+            "\t<!-- <sap.m.FeedListItemAction /> -->",
+            "</actions>",
+            "<_text>",
+            "\t<!-- <sap.m.FormattedText /> -->",
+            "</_text>",
+            "<_actionSheet>",
+            "\t<!-- <sap.m.ActionSheet /> -->",
+            "</_actionSheet>",
+            "<_actionButton>",
+            "\t<!-- <sap.m.Button /> -->",
+            "</_actionButton>",
+            "<_avatar>",
+            "\t<!-- <sap.m.Avatar /> -->",
+            "</_avatar>",
+            "senderPress=\".on${3:SenderPress}\"",
+            "iconPress=\".on${4:IconPress}\"$2"
+        ],
+        "description": "sap.m.FeedListItem with non-inherited properties, aggregations and events"
+    }
+}

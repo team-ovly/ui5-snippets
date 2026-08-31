@@ -1,0 +1,55 @@
+{
+    "sap.ui.commons.Toolbar": {
+        "prefix": "!5-toolbar",
+        "body": [
+            "<Toolbar ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.commons.Toolbar"
+    },
+    "sap.ui.commons.Toolbar-properties": {
+        "prefix": "!5-toolbar-properties",
+        "body": [
+            "$1width=\"auto\"",
+            "design=\"Flat\"",
+            "standalone=\"true\"$2"
+        ],
+        "description": "sap.ui.commons.Toolbar with non-inherited properties"
+    },
+    "sap.ui.commons.Toolbar-aggregations": {
+        "prefix": "!5-toolbar-aggregations",
+        "body": [
+            "$1<items>",
+            "\t<!-- <sap.ui.commons.ToolbarItem /> -->",
+            "</items>",
+            "<rightItems>",
+            "\t<!-- <sap.ui.commons.ToolbarItem /> -->",
+            "</rightItems>",
+            "$2"
+        ],
+        "description": "sap.ui.commons.Toolbar with non-inherited aggregations"
+    },
+    "sap.ui.commons.Toolbar-events": {
+        "prefix": "!5-toolbar-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.commons.Toolbar with non-inherited events"
+    },
+    "sap.ui.commons.Toolbar-all": {
+        "prefix": "!5-toolbar-all",
+        "body": [
+            "$1width=\"auto\"",
+            "design=\"Flat\"",
+            "standalone=\"true\"",
+            "<items>",
+            "\t<!-- <sap.ui.commons.ToolbarItem /> -->",
+            "</items>",
+            "<rightItems>",
+            "\t<!-- <sap.ui.commons.ToolbarItem /> -->",
+            "</rightItems>$2"
+        ],
+        "description": "sap.ui.commons.Toolbar with non-inherited properties, aggregations and events"
+    }
+}

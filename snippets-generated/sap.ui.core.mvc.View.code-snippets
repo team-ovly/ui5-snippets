@@ -1,0 +1,58 @@
+{
+    "sap.ui.core.mvc.View": {
+        "prefix": "!5-view",
+        "body": [
+            "<View ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.core.mvc.View"
+    },
+    "sap.ui.core.mvc.View-properties": {
+        "prefix": "!5-view-properties",
+        "body": [
+            "$1width=\"100%\"",
+            "height=\"\"",
+            "viewName=\"\"",
+            "displayBlock=\"false\"$2"
+        ],
+        "description": "sap.ui.core.mvc.View with non-inherited properties"
+    },
+    "sap.ui.core.mvc.View-aggregations": {
+        "prefix": "!5-view-aggregations",
+        "body": [
+            "$1<content>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</content>",
+            "$2"
+        ],
+        "description": "sap.ui.core.mvc.View with non-inherited aggregations"
+    },
+    "sap.ui.core.mvc.View-events": {
+        "prefix": "!5-view-events",
+        "body": [
+            "$1afterInit=\".on${3:AfterInit}\"",
+            "beforeExit=\".on${4:BeforeExit}\"",
+            "afterRendering=\".on${5:AfterRendering}\"",
+            "beforeRendering=\".on${6:BeforeRendering}\"$2"
+        ],
+        "description": "sap.ui.core.mvc.View with non-inherited events"
+    },
+    "sap.ui.core.mvc.View-all": {
+        "prefix": "!5-view-all",
+        "body": [
+            "$1width=\"100%\"",
+            "height=\"\"",
+            "viewName=\"\"",
+            "displayBlock=\"false\"",
+            "<content>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</content>",
+            "afterInit=\".on${3:AfterInit}\"",
+            "beforeExit=\".on${4:BeforeExit}\"",
+            "afterRendering=\".on${5:AfterRendering}\"",
+            "beforeRendering=\".on${6:BeforeRendering}\"$2"
+        ],
+        "description": "sap.ui.core.mvc.View with non-inherited properties, aggregations and events"
+    }
+}

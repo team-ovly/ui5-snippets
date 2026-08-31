@@ -1,0 +1,48 @@
+{
+    "sap.ui.webc.fiori.Wizard": {
+        "prefix": "!5-wizard",
+        "body": [
+            "<Wizard ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.webc.fiori.Wizard"
+    },
+    "sap.ui.webc.fiori.Wizard-properties": {
+        "prefix": "!5-wizard-properties",
+        "body": [
+            "$1contentLayout=\"MultipleSteps\"",
+            "height=\"\"$2"
+        ],
+        "description": "sap.ui.webc.fiori.Wizard with non-inherited properties"
+    },
+    "sap.ui.webc.fiori.Wizard-aggregations": {
+        "prefix": "!5-wizard-aggregations",
+        "body": [
+            "$1<steps>",
+            "\t<!-- <sap.ui.webc.fiori.IWizardStep /> -->",
+            "</steps>",
+            "$2"
+        ],
+        "description": "sap.ui.webc.fiori.Wizard with non-inherited aggregations"
+    },
+    "sap.ui.webc.fiori.Wizard-events": {
+        "prefix": "!5-wizard-events",
+        "body": [
+            "$1stepChange=\".on${3:StepChange}\"$2"
+        ],
+        "description": "sap.ui.webc.fiori.Wizard with non-inherited events"
+    },
+    "sap.ui.webc.fiori.Wizard-all": {
+        "prefix": "!5-wizard-all",
+        "body": [
+            "$1contentLayout=\"MultipleSteps\"",
+            "height=\"\"",
+            "<steps>",
+            "\t<!-- <sap.ui.webc.fiori.IWizardStep /> -->",
+            "</steps>",
+            "stepChange=\".on${3:StepChange}\"$2"
+        ],
+        "description": "sap.ui.webc.fiori.Wizard with non-inherited properties, aggregations and events"
+    }
+}

@@ -1,0 +1,122 @@
+{
+    "sap.m.semantic.MasterPage": {
+        "prefix": "!5-master-page",
+        "body": [
+            "<MasterPage ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.semantic.MasterPage"
+    },
+    "sap.m.semantic.MasterPage-properties": {
+        "prefix": "!5-master-page-properties",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.m.semantic.MasterPage with non-inherited properties"
+    },
+    "sap.m.semantic.MasterPage-aggregations": {
+        "prefix": "!5-master-page-aggregations",
+        "body": [
+            "$1<addAction>",
+            "\t<!-- <sap.m.semantic.AddAction /> -->",
+            "</addAction>",
+            "<mainAction>",
+            "\t<!-- <sap.m.semantic.MainAction /> -->",
+            "</mainAction>",
+            "<positiveAction>",
+            "\t<!-- <sap.m.semantic.PositiveAction /> -->",
+            "</positiveAction>",
+            "<negativeAction>",
+            "\t<!-- <sap.m.semantic.NegativeAction /> -->",
+            "</negativeAction>",
+            "<multiSelectAction>",
+            "\t<!-- <sap.m.semantic.MultiSelectAction /> -->",
+            "</multiSelectAction>",
+            "<forwardAction>",
+            "\t<!-- <sap.m.semantic.ForwardAction /> -->",
+            "</forwardAction>",
+            "<editAction>",
+            "\t<!-- <sap.m.semantic.EditAction /> -->",
+            "</editAction>",
+            "<saveAction>",
+            "\t<!-- <sap.m.semantic.SaveAction /> -->",
+            "</saveAction>",
+            "<deleteAction>",
+            "\t<!-- <sap.m.semantic.DeleteAction /> -->",
+            "</deleteAction>",
+            "<cancelAction>",
+            "\t<!-- <sap.m.semantic.CancelAction /> -->",
+            "</cancelAction>",
+            "<sort>",
+            "\t<!-- <sap.m.semantic.ISort /> -->",
+            "</sort>",
+            "<filter>",
+            "\t<!-- <sap.m.semantic.IFilter /> -->",
+            "</filter>",
+            "<group>",
+            "\t<!-- <sap.m.semantic.IGroup /> -->",
+            "</group>",
+            "<messagesIndicator>",
+            "\t<!-- <sap.m.semantic.MessagesIndicator /> -->",
+            "</messagesIndicator>",
+            "$2"
+        ],
+        "description": "sap.m.semantic.MasterPage with non-inherited aggregations"
+    },
+    "sap.m.semantic.MasterPage-events": {
+        "prefix": "!5-master-page-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.m.semantic.MasterPage with non-inherited events"
+    },
+    "sap.m.semantic.MasterPage-all": {
+        "prefix": "!5-master-page-all",
+        "body": [
+            "$1<addAction>",
+            "\t<!-- <sap.m.semantic.AddAction /> -->",
+            "</addAction>",
+            "<mainAction>",
+            "\t<!-- <sap.m.semantic.MainAction /> -->",
+            "</mainAction>",
+            "<positiveAction>",
+            "\t<!-- <sap.m.semantic.PositiveAction /> -->",
+            "</positiveAction>",
+            "<negativeAction>",
+            "\t<!-- <sap.m.semantic.NegativeAction /> -->",
+            "</negativeAction>",
+            "<multiSelectAction>",
+            "\t<!-- <sap.m.semantic.MultiSelectAction /> -->",
+            "</multiSelectAction>",
+            "<forwardAction>",
+            "\t<!-- <sap.m.semantic.ForwardAction /> -->",
+            "</forwardAction>",
+            "<editAction>",
+            "\t<!-- <sap.m.semantic.EditAction /> -->",
+            "</editAction>",
+            "<saveAction>",
+            "\t<!-- <sap.m.semantic.SaveAction /> -->",
+            "</saveAction>",
+            "<deleteAction>",
+            "\t<!-- <sap.m.semantic.DeleteAction /> -->",
+            "</deleteAction>",
+            "<cancelAction>",
+            "\t<!-- <sap.m.semantic.CancelAction /> -->",
+            "</cancelAction>",
+            "<sort>",
+            "\t<!-- <sap.m.semantic.ISort /> -->",
+            "</sort>",
+            "<filter>",
+            "\t<!-- <sap.m.semantic.IFilter /> -->",
+            "</filter>",
+            "<group>",
+            "\t<!-- <sap.m.semantic.IGroup /> -->",
+            "</group>",
+            "<messagesIndicator>",
+            "\t<!-- <sap.m.semantic.MessagesIndicator /> -->",
+            "</messagesIndicator>$2"
+        ],
+        "description": "sap.m.semantic.MasterPage with non-inherited properties, aggregations and events"
+    }
+}

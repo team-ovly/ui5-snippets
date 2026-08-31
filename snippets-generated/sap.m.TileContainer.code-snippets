@@ -1,0 +1,56 @@
+{
+    "sap.m.TileContainer": {
+        "prefix": "!5-tile-container",
+        "body": [
+            "<TileContainer ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.TileContainer"
+    },
+    "sap.m.TileContainer-properties": {
+        "prefix": "!5-tile-container-properties",
+        "body": [
+            "$1width=\"100%\"",
+            "height=\"100%\"",
+            "editable=\"\"",
+            "allowAdd=\"\"$2"
+        ],
+        "description": "sap.m.TileContainer with non-inherited properties"
+    },
+    "sap.m.TileContainer-aggregations": {
+        "prefix": "!5-tile-container-aggregations",
+        "body": [
+            "$1<tiles>",
+            "\t<!-- <sap.m.Tile /> -->",
+            "</tiles>",
+            "$2"
+        ],
+        "description": "sap.m.TileContainer with non-inherited aggregations"
+    },
+    "sap.m.TileContainer-events": {
+        "prefix": "!5-tile-container-events",
+        "body": [
+            "$1tileMove=\".on${3:TileMove}\"",
+            "tileDelete=\".on${4:TileDelete}\"",
+            "tileAdd=\".on${5:TileAdd}\"$2"
+        ],
+        "description": "sap.m.TileContainer with non-inherited events"
+    },
+    "sap.m.TileContainer-all": {
+        "prefix": "!5-tile-container-all",
+        "body": [
+            "$1width=\"100%\"",
+            "height=\"100%\"",
+            "editable=\"\"",
+            "allowAdd=\"\"",
+            "<tiles>",
+            "\t<!-- <sap.m.Tile /> -->",
+            "</tiles>",
+            "tileMove=\".on${3:TileMove}\"",
+            "tileDelete=\".on${4:TileDelete}\"",
+            "tileAdd=\".on${5:TileAdd}\"$2"
+        ],
+        "description": "sap.m.TileContainer with non-inherited properties, aggregations and events"
+    }
+}

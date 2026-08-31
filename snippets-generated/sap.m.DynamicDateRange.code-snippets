@@ -1,0 +1,90 @@
+{
+    "sap.m.DynamicDateRange": {
+        "prefix": "!5-dynamic-date-range",
+        "body": [
+            "<DynamicDateRange ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.DynamicDateRange"
+    },
+    "sap.m.DynamicDateRange-properties": {
+        "prefix": "!5-dynamic-date-range-properties",
+        "body": [
+            "$1value=\"\"",
+            "width=\"\"",
+            "enabled=\"true\"",
+            "valueState=\"None\"",
+            "name=\"\"",
+            "placeholder=\"\"",
+            "editable=\"true\"",
+            "valueStateText=\"\"",
+            "required=\"false\"",
+            "enableGroupHeaders=\"true\"",
+            "formatter=\"\"",
+            "standardOptions=\"DATE,TODAY,YESTERDAY,TOMORROW,FIRSTDAYWEEK,LASTDAYWEEK,FIRSTDAYMONTH,LASTDAYMONTH,FIRSTDAYQUARTER,LASTDAYQUARTER,FIRSTDAYYEAR,LASTDAYYEAR,DATERANGE,DATETIMERANGE,FROM,TO,FROMDATETIME,TODATETIME,YEARTODATE,DATETOYEAR,LASTMINUTES,LASTHOURS,LASTDAYS,LASTWEEKS,LASTMONTHS,LASTQUARTERS,LASTYEARS,LASTMINUTESINCLUDED,LASTHOURSINCLUDED,LASTDAYSINCLUDED,LASTWEEKSINCLUDED,LASTMONTHSINCLUDED,LASTQUARTERSINCLUDED,LASTYEARSINCLUDED,NEXTMINUTES,NEXTHOURS,NEXTDAYS,NEXTWEEKS,NEXTMONTHS,NEXTQUARTERS,NEXTYEARS,NEXTMINUTESINCLUDED,NEXTHOURSINCLUDED,NEXTDAYSINCLUDED,NEXTWEEKSINCLUDED,NEXTMONTHSINCLUDED,NEXTQUARTERSINCLUDED,NEXTYEARSINCLUDED,TODAYFROMTO,THISWEEK,LASTWEEK,NEXTWEEK,SPECIFICMONTH,SPECIFICMONTHINYEAR,THISMONTH,LASTMONTH,NEXTMONTH,THISQUARTER,LASTQUARTER,NEXTQUARTER,QUARTER1,QUARTER2,QUARTER3,QUARTER4,THISYEAR,LASTYEAR,NEXTYEAR,DATETIME\"",
+            "hideInput=\"false\"",
+            "calendarWeekNumbering=\"\"",
+            "showClearIcon=\"false\"$2"
+        ],
+        "description": "sap.m.DynamicDateRange with non-inherited properties"
+    },
+    "sap.m.DynamicDateRange-aggregations": {
+        "prefix": "!5-dynamic-date-range-aggregations",
+        "body": [
+            "$1<customOptions>",
+            "\t<!-- <sap.m.DynamicDateOption /> -->",
+            "</customOptions>",
+            "<_input>",
+            "\t<!-- <sap.m.Input /> -->",
+            "</_input>",
+            "<_popup>",
+            "\t<!-- <sap.m.ResponsivePopover /> -->",
+            "</_popup>",
+            "$2"
+        ],
+        "description": "sap.m.DynamicDateRange with non-inherited aggregations"
+    },
+    "sap.m.DynamicDateRange-events": {
+        "prefix": "!5-dynamic-date-range-events",
+        "body": [
+            "$1change=\".on${3:Change}\"",
+            "ariaLabelledBy=\".on${4:AriaLabelledBy}\"",
+            "ariaDescribedBy=\".on${5:AriaDescribedBy}\"$2"
+        ],
+        "description": "sap.m.DynamicDateRange with non-inherited events"
+    },
+    "sap.m.DynamicDateRange-all": {
+        "prefix": "!5-dynamic-date-range-all",
+        "body": [
+            "$1value=\"\"",
+            "width=\"\"",
+            "enabled=\"true\"",
+            "valueState=\"None\"",
+            "name=\"\"",
+            "placeholder=\"\"",
+            "editable=\"true\"",
+            "valueStateText=\"\"",
+            "required=\"false\"",
+            "enableGroupHeaders=\"true\"",
+            "formatter=\"\"",
+            "standardOptions=\"DATE,TODAY,YESTERDAY,TOMORROW,FIRSTDAYWEEK,LASTDAYWEEK,FIRSTDAYMONTH,LASTDAYMONTH,FIRSTDAYQUARTER,LASTDAYQUARTER,FIRSTDAYYEAR,LASTDAYYEAR,DATERANGE,DATETIMERANGE,FROM,TO,FROMDATETIME,TODATETIME,YEARTODATE,DATETOYEAR,LASTMINUTES,LASTHOURS,LASTDAYS,LASTWEEKS,LASTMONTHS,LASTQUARTERS,LASTYEARS,LASTMINUTESINCLUDED,LASTHOURSINCLUDED,LASTDAYSINCLUDED,LASTWEEKSINCLUDED,LASTMONTHSINCLUDED,LASTQUARTERSINCLUDED,LASTYEARSINCLUDED,NEXTMINUTES,NEXTHOURS,NEXTDAYS,NEXTWEEKS,NEXTMONTHS,NEXTQUARTERS,NEXTYEARS,NEXTMINUTESINCLUDED,NEXTHOURSINCLUDED,NEXTDAYSINCLUDED,NEXTWEEKSINCLUDED,NEXTMONTHSINCLUDED,NEXTQUARTERSINCLUDED,NEXTYEARSINCLUDED,TODAYFROMTO,THISWEEK,LASTWEEK,NEXTWEEK,SPECIFICMONTH,SPECIFICMONTHINYEAR,THISMONTH,LASTMONTH,NEXTMONTH,THISQUARTER,LASTQUARTER,NEXTQUARTER,QUARTER1,QUARTER2,QUARTER3,QUARTER4,THISYEAR,LASTYEAR,NEXTYEAR,DATETIME\"",
+            "hideInput=\"false\"",
+            "calendarWeekNumbering=\"\"",
+            "showClearIcon=\"false\"",
+            "<customOptions>",
+            "\t<!-- <sap.m.DynamicDateOption /> -->",
+            "</customOptions>",
+            "<_input>",
+            "\t<!-- <sap.m.Input /> -->",
+            "</_input>",
+            "<_popup>",
+            "\t<!-- <sap.m.ResponsivePopover /> -->",
+            "</_popup>",
+            "change=\".on${3:Change}\"",
+            "ariaLabelledBy=\".on${4:AriaLabelledBy}\"",
+            "ariaDescribedBy=\".on${5:AriaDescribedBy}\"$2"
+        ],
+        "description": "sap.m.DynamicDateRange with non-inherited properties, aggregations and events"
+    }
+}

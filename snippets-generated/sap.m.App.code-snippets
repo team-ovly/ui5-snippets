@@ -1,0 +1,52 @@
+{
+    "sap.m.App": {
+        "prefix": "!5-app",
+        "body": [
+            "<App ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.App"
+    },
+    "sap.m.App-properties": {
+        "prefix": "!5-app-properties",
+        "body": [
+            "$1homeIcon=\"\"",
+            "backgroundColor=\"\"",
+            "backgroundImage=\"\"",
+            "backgroundRepeat=\"false\"",
+            "backgroundOpacity=\"1\"",
+            "mobileWebAppCapable=\"true\"",
+            "isTopLevel=\"true\"$2"
+        ],
+        "description": "sap.m.App with non-inherited properties"
+    },
+    "sap.m.App-aggregations": {
+        "prefix": "!5-app-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.m.App with non-inherited aggregations"
+    },
+    "sap.m.App-events": {
+        "prefix": "!5-app-events",
+        "body": [
+            "$1orientationChange=\".on${3:OrientationChange}\"$2"
+        ],
+        "description": "sap.m.App with non-inherited events"
+    },
+    "sap.m.App-all": {
+        "prefix": "!5-app-all",
+        "body": [
+            "$1homeIcon=\"\"",
+            "backgroundColor=\"\"",
+            "backgroundImage=\"\"",
+            "backgroundRepeat=\"false\"",
+            "backgroundOpacity=\"1\"",
+            "mobileWebAppCapable=\"true\"",
+            "isTopLevel=\"true\"",
+            "orientationChange=\".on${3:OrientationChange}\"$2"
+        ],
+        "description": "sap.m.App with non-inherited properties, aggregations and events"
+    }
+}

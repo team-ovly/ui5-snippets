@@ -1,0 +1,51 @@
+{
+    "sap.m.OverflowToolbar": {
+        "prefix": "!5-overflow-toolbar",
+        "body": [
+            "<OverflowToolbar ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.OverflowToolbar"
+    },
+    "sap.m.OverflowToolbar-properties": {
+        "prefix": "!5-overflow-toolbar-properties",
+        "body": [
+            "$1asyncMode=\"false\"$2"
+        ],
+        "description": "sap.m.OverflowToolbar with non-inherited properties"
+    },
+    "sap.m.OverflowToolbar-aggregations": {
+        "prefix": "!5-overflow-toolbar-aggregations",
+        "body": [
+            "$1<_overflowButton>",
+            "\t<!-- <sap.m.ToggleButton /> -->",
+            "</_overflowButton>",
+            "<_popover>",
+            "\t<!-- <sap.m.Popover /> -->",
+            "</_popover>",
+            "$2"
+        ],
+        "description": "sap.m.OverflowToolbar with non-inherited aggregations"
+    },
+    "sap.m.OverflowToolbar-events": {
+        "prefix": "!5-overflow-toolbar-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.m.OverflowToolbar with non-inherited events"
+    },
+    "sap.m.OverflowToolbar-all": {
+        "prefix": "!5-overflow-toolbar-all",
+        "body": [
+            "$1asyncMode=\"false\"",
+            "<_overflowButton>",
+            "\t<!-- <sap.m.ToggleButton /> -->",
+            "</_overflowButton>",
+            "<_popover>",
+            "\t<!-- <sap.m.Popover /> -->",
+            "</_popover>$2"
+        ],
+        "description": "sap.m.OverflowToolbar with non-inherited properties, aggregations and events"
+    }
+}

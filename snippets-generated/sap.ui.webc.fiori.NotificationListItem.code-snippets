@@ -1,0 +1,74 @@
+{
+    "sap.ui.webc.fiori.NotificationListItem": {
+        "prefix": "!5-notification-list-item",
+        "body": [
+            "<NotificationListItem ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.webc.fiori.NotificationListItem"
+    },
+    "sap.ui.webc.fiori.NotificationListItem-properties": {
+        "prefix": "!5-notification-list-item-properties",
+        "body": [
+            "$1busy=\"false\"",
+            "busyDelay=\"1000\"",
+            "description=\"\"",
+            "priority=\"None\"",
+            "read=\"false\"",
+            "selected=\"false\"",
+            "showClose=\"false\"",
+            "titleText=\"\"",
+            "wrappingType=\"None\"$2"
+        ],
+        "description": "sap.ui.webc.fiori.NotificationListItem with non-inherited properties"
+    },
+    "sap.ui.webc.fiori.NotificationListItem-aggregations": {
+        "prefix": "!5-notification-list-item-aggregations",
+        "body": [
+            "$1<actions>",
+            "\t<!-- <sap.ui.webc.fiori.INotificationAction /> -->",
+            "</actions>",
+            "<avatar>",
+            "\t<!-- <sap.ui.webc.main.IAvatar /> -->",
+            "</avatar>",
+            "<footnotes>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</footnotes>",
+            "$2"
+        ],
+        "description": "sap.ui.webc.fiori.NotificationListItem with non-inherited aggregations"
+    },
+    "sap.ui.webc.fiori.NotificationListItem-events": {
+        "prefix": "!5-notification-list-item-events",
+        "body": [
+            "$1close=\".on${3:Close}\"$2"
+        ],
+        "description": "sap.ui.webc.fiori.NotificationListItem with non-inherited events"
+    },
+    "sap.ui.webc.fiori.NotificationListItem-all": {
+        "prefix": "!5-notification-list-item-all",
+        "body": [
+            "$1busy=\"false\"",
+            "busyDelay=\"1000\"",
+            "description=\"\"",
+            "priority=\"None\"",
+            "read=\"false\"",
+            "selected=\"false\"",
+            "showClose=\"false\"",
+            "titleText=\"\"",
+            "wrappingType=\"None\"",
+            "<actions>",
+            "\t<!-- <sap.ui.webc.fiori.INotificationAction /> -->",
+            "</actions>",
+            "<avatar>",
+            "\t<!-- <sap.ui.webc.main.IAvatar /> -->",
+            "</avatar>",
+            "<footnotes>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</footnotes>",
+            "close=\".on${3:Close}\"$2"
+        ],
+        "description": "sap.ui.webc.fiori.NotificationListItem with non-inherited properties, aggregations and events"
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "sap.ui.unified.ContentSwitcher": {
+        "prefix": "!5-content-switcher",
+        "body": [
+            "<ContentSwitcher ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.unified.ContentSwitcher"
+    },
+    "sap.ui.unified.ContentSwitcher-properties": {
+        "prefix": "!5-content-switcher-properties",
+        "body": [
+            "$1animation=\"None\"",
+            "activeContent=\"1\"$2"
+        ],
+        "description": "sap.ui.unified.ContentSwitcher with non-inherited properties"
+    },
+    "sap.ui.unified.ContentSwitcher-aggregations": {
+        "prefix": "!5-content-switcher-aggregations",
+        "body": [
+            "$1<content1>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</content1>",
+            "<content2>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</content2>",
+            "$2"
+        ],
+        "description": "sap.ui.unified.ContentSwitcher with non-inherited aggregations"
+    },
+    "sap.ui.unified.ContentSwitcher-events": {
+        "prefix": "!5-content-switcher-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.unified.ContentSwitcher with non-inherited events"
+    },
+    "sap.ui.unified.ContentSwitcher-all": {
+        "prefix": "!5-content-switcher-all",
+        "body": [
+            "$1animation=\"None\"",
+            "activeContent=\"1\"",
+            "<content1>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</content1>",
+            "<content2>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</content2>$2"
+        ],
+        "description": "sap.ui.unified.ContentSwitcher with non-inherited properties, aggregations and events"
+    }
+}

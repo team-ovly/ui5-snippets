@@ -1,0 +1,56 @@
+{
+    "sap.ui.core.TooltipBase": {
+        "prefix": "!5-tooltip-base",
+        "body": [
+            "<TooltipBase ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.core.TooltipBase"
+    },
+    "sap.ui.core.TooltipBase-properties": {
+        "prefix": "!5-tooltip-base-properties",
+        "body": [
+            "$1text=\"\"",
+            "openDuration=\"200\"",
+            "closeDuration=\"200\"",
+            "myPosition=\"begin top\"",
+            "atPosition=\"begin bottom\"",
+            "offset=\"10 3\"",
+            "collision=\"flip\"",
+            "openDelay=\"500\"",
+            "closeDelay=\"100\"$2"
+        ],
+        "description": "sap.ui.core.TooltipBase with non-inherited properties"
+    },
+    "sap.ui.core.TooltipBase-aggregations": {
+        "prefix": "!5-tooltip-base-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.core.TooltipBase with non-inherited aggregations"
+    },
+    "sap.ui.core.TooltipBase-events": {
+        "prefix": "!5-tooltip-base-events",
+        "body": [
+            "$1closed=\".on${3:Closed}\"$2"
+        ],
+        "description": "sap.ui.core.TooltipBase with non-inherited events"
+    },
+    "sap.ui.core.TooltipBase-all": {
+        "prefix": "!5-tooltip-base-all",
+        "body": [
+            "$1text=\"\"",
+            "openDuration=\"200\"",
+            "closeDuration=\"200\"",
+            "myPosition=\"begin top\"",
+            "atPosition=\"begin bottom\"",
+            "offset=\"10 3\"",
+            "collision=\"flip\"",
+            "openDelay=\"500\"",
+            "closeDelay=\"100\"",
+            "closed=\".on${3:Closed}\"$2"
+        ],
+        "description": "sap.ui.core.TooltipBase with non-inherited properties, aggregations and events"
+    }
+}

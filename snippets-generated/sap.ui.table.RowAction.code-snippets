@@ -1,0 +1,57 @@
+{
+    "sap.ui.table.RowAction": {
+        "prefix": "!5-row-action",
+        "body": [
+            "<RowAction ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.table.RowAction"
+    },
+    "sap.ui.table.RowAction-properties": {
+        "prefix": "!5-row-action-properties",
+        "body": [
+            "$1visible=\"true\"$2"
+        ],
+        "description": "sap.ui.table.RowAction with non-inherited properties"
+    },
+    "sap.ui.table.RowAction-aggregations": {
+        "prefix": "!5-row-action-aggregations",
+        "body": [
+            "$1<items>",
+            "\t<!-- <sap.ui.table.RowActionItem /> -->",
+            "</items>",
+            "<_icons>",
+            "\t<!-- <sap.ui.core.Icon /> -->",
+            "</_icons>",
+            "<_menu>",
+            "\t<!-- <sap.ui.unified.Menu /> -->",
+            "</_menu>",
+            "$2"
+        ],
+        "description": "sap.ui.table.RowAction with non-inherited aggregations"
+    },
+    "sap.ui.table.RowAction-events": {
+        "prefix": "!5-row-action-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.table.RowAction with non-inherited events"
+    },
+    "sap.ui.table.RowAction-all": {
+        "prefix": "!5-row-action-all",
+        "body": [
+            "$1visible=\"true\"",
+            "<items>",
+            "\t<!-- <sap.ui.table.RowActionItem /> -->",
+            "</items>",
+            "<_icons>",
+            "\t<!-- <sap.ui.core.Icon /> -->",
+            "</_icons>",
+            "<_menu>",
+            "\t<!-- <sap.ui.unified.Menu /> -->",
+            "</_menu>$2"
+        ],
+        "description": "sap.ui.table.RowAction with non-inherited properties, aggregations and events"
+    }
+}

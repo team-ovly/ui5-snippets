@@ -1,0 +1,52 @@
+{
+    "sap.ui.webc.main.ColorPalettePopover": {
+        "prefix": "!5-color-palette-popover",
+        "body": [
+            "<ColorPalettePopover ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.webc.main.ColorPalettePopover"
+    },
+    "sap.ui.webc.main.ColorPalettePopover-properties": {
+        "prefix": "!5-color-palette-popover-properties",
+        "body": [
+            "$1defaultColor=\"\"",
+            "showDefaultColor=\"false\"",
+            "showMoreColors=\"false\"",
+            "showRecentColors=\"false\"$2"
+        ],
+        "description": "sap.ui.webc.main.ColorPalettePopover with non-inherited properties"
+    },
+    "sap.ui.webc.main.ColorPalettePopover-aggregations": {
+        "prefix": "!5-color-palette-popover-aggregations",
+        "body": [
+            "$1<colors>",
+            "\t<!-- <sap.ui.webc.main.IColorPaletteItem /> -->",
+            "</colors>",
+            "$2"
+        ],
+        "description": "sap.ui.webc.main.ColorPalettePopover with non-inherited aggregations"
+    },
+    "sap.ui.webc.main.ColorPalettePopover-events": {
+        "prefix": "!5-color-palette-popover-events",
+        "body": [
+            "$1itemClick=\".on${3:ItemClick}\"$2"
+        ],
+        "description": "sap.ui.webc.main.ColorPalettePopover with non-inherited events"
+    },
+    "sap.ui.webc.main.ColorPalettePopover-all": {
+        "prefix": "!5-color-palette-popover-all",
+        "body": [
+            "$1defaultColor=\"\"",
+            "showDefaultColor=\"false\"",
+            "showMoreColors=\"false\"",
+            "showRecentColors=\"false\"",
+            "<colors>",
+            "\t<!-- <sap.ui.webc.main.IColorPaletteItem /> -->",
+            "</colors>",
+            "itemClick=\".on${3:ItemClick}\"$2"
+        ],
+        "description": "sap.ui.webc.main.ColorPalettePopover with non-inherited properties, aggregations and events"
+    }
+}

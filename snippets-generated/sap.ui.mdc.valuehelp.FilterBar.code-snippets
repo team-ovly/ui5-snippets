@@ -1,0 +1,43 @@
+{
+    "sap.ui.mdc.valuehelp.FilterBar": {
+        "prefix": "!5-filter-bar",
+        "body": [
+            "<FilterBar ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.mdc.valuehelp.FilterBar"
+    },
+    "sap.ui.mdc.valuehelp.FilterBar-properties": {
+        "prefix": "!5-filter-bar-properties",
+        "body": [
+            "$1delegate=\"...see text or source\"",
+            "expandFilterFields=\"true\"",
+            "filterFieldThreshold=\"8\"$2"
+        ],
+        "description": "sap.ui.mdc.valuehelp.FilterBar with non-inherited properties"
+    },
+    "sap.ui.mdc.valuehelp.FilterBar-aggregations": {
+        "prefix": "!5-filter-bar-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.mdc.valuehelp.FilterBar with non-inherited aggregations"
+    },
+    "sap.ui.mdc.valuehelp.FilterBar-events": {
+        "prefix": "!5-filter-bar-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.mdc.valuehelp.FilterBar with non-inherited events"
+    },
+    "sap.ui.mdc.valuehelp.FilterBar-all": {
+        "prefix": "!5-filter-bar-all",
+        "body": [
+            "$1delegate=\"...see text or source\"",
+            "expandFilterFields=\"true\"",
+            "filterFieldThreshold=\"8\"$2"
+        ],
+        "description": "sap.ui.mdc.valuehelp.FilterBar with non-inherited properties, aggregations and events"
+    }
+}

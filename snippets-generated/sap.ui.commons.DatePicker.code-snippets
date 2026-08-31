@@ -1,0 +1,41 @@
+{
+    "sap.ui.commons.DatePicker": {
+        "prefix": "!5-date-picker",
+        "body": [
+            "<DatePicker ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.commons.DatePicker"
+    },
+    "sap.ui.commons.DatePicker-properties": {
+        "prefix": "!5-date-picker-properties",
+        "body": [
+            "$1locale=\"\"",
+            "yyyymmdd=\"\"$2"
+        ],
+        "description": "sap.ui.commons.DatePicker with non-inherited properties"
+    },
+    "sap.ui.commons.DatePicker-aggregations": {
+        "prefix": "!5-date-picker-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.commons.DatePicker with non-inherited aggregations"
+    },
+    "sap.ui.commons.DatePicker-events": {
+        "prefix": "!5-date-picker-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.commons.DatePicker with non-inherited events"
+    },
+    "sap.ui.commons.DatePicker-all": {
+        "prefix": "!5-date-picker-all",
+        "body": [
+            "$1locale=\"\"",
+            "yyyymmdd=\"\"$2"
+        ],
+        "description": "sap.ui.commons.DatePicker with non-inherited properties, aggregations and events"
+    }
+}

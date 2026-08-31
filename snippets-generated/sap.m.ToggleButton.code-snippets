@@ -1,0 +1,40 @@
+{
+    "sap.m.ToggleButton": {
+        "prefix": "!5-toggle-button",
+        "body": [
+            "<ToggleButton ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.ToggleButton"
+    },
+    "sap.m.ToggleButton-properties": {
+        "prefix": "!5-toggle-button-properties",
+        "body": [
+            "$1pressed=\"false\"$2"
+        ],
+        "description": "sap.m.ToggleButton with non-inherited properties"
+    },
+    "sap.m.ToggleButton-aggregations": {
+        "prefix": "!5-toggle-button-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.m.ToggleButton with non-inherited aggregations"
+    },
+    "sap.m.ToggleButton-events": {
+        "prefix": "!5-toggle-button-events",
+        "body": [
+            "$1press=\".on${3:Press}\"$2"
+        ],
+        "description": "sap.m.ToggleButton with non-inherited events"
+    },
+    "sap.m.ToggleButton-all": {
+        "prefix": "!5-toggle-button-all",
+        "body": [
+            "$1pressed=\"false\"",
+            "press=\".on${3:Press}\"$2"
+        ],
+        "description": "sap.m.ToggleButton with non-inherited properties, aggregations and events"
+    }
+}

@@ -1,0 +1,58 @@
+{
+    "sap.ui.webc.main.Switch": {
+        "prefix": "!5-switch",
+        "body": [
+            "<Switch ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.webc.main.Switch"
+    },
+    "sap.ui.webc.main.Switch-properties": {
+        "prefix": "!5-switch-properties",
+        "body": [
+            "$1accessibleName=\"\"",
+            "checked=\"false\"",
+            "design=\"Textual\"",
+            "enabled=\"true\"",
+            "name=\"\"",
+            "required=\"false\"",
+            "textOff=\"\"",
+            "textOn=\"\"",
+            "width=\"\"$2"
+        ],
+        "description": "sap.ui.webc.main.Switch with non-inherited properties"
+    },
+    "sap.ui.webc.main.Switch-aggregations": {
+        "prefix": "!5-switch-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.webc.main.Switch with non-inherited aggregations"
+    },
+    "sap.ui.webc.main.Switch-events": {
+        "prefix": "!5-switch-events",
+        "body": [
+            "$1change=\".on${3:Change}\"",
+            "ariaLabelledBy=\".on${4:AriaLabelledBy}\"$2"
+        ],
+        "description": "sap.ui.webc.main.Switch with non-inherited events"
+    },
+    "sap.ui.webc.main.Switch-all": {
+        "prefix": "!5-switch-all",
+        "body": [
+            "$1accessibleName=\"\"",
+            "checked=\"false\"",
+            "design=\"Textual\"",
+            "enabled=\"true\"",
+            "name=\"\"",
+            "required=\"false\"",
+            "textOff=\"\"",
+            "textOn=\"\"",
+            "width=\"\"",
+            "change=\".on${3:Change}\"",
+            "ariaLabelledBy=\".on${4:AriaLabelledBy}\"$2"
+        ],
+        "description": "sap.ui.webc.main.Switch with non-inherited properties, aggregations and events"
+    }
+}

@@ -1,0 +1,52 @@
+{
+    "sap.ui.table.AnalyticalTable": {
+        "prefix": "!5-analytical-table",
+        "body": [
+            "<AnalyticalTable ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.table.AnalyticalTable"
+    },
+    "sap.ui.table.AnalyticalTable-properties": {
+        "prefix": "!5-analytical-table-properties",
+        "body": [
+            "$1sumOnTop=\"false\"",
+            "numberOfExpandedLevels=\"0\"",
+            "autoExpandMode=\"Bundled\"",
+            "columnVisibilityMenuSorter=\"\"",
+            "collapseRecursive=\"true\"",
+            "dirty=\"\"",
+            "extendedGroupHeaderMenu=\"true\"$2"
+        ],
+        "description": "sap.ui.table.AnalyticalTable with non-inherited properties"
+    },
+    "sap.ui.table.AnalyticalTable-aggregations": {
+        "prefix": "!5-analytical-table-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.table.AnalyticalTable with non-inherited aggregations"
+    },
+    "sap.ui.table.AnalyticalTable-events": {
+        "prefix": "!5-analytical-table-events",
+        "body": [
+            "$1group=\".on${3:Group}\"$2"
+        ],
+        "description": "sap.ui.table.AnalyticalTable with non-inherited events"
+    },
+    "sap.ui.table.AnalyticalTable-all": {
+        "prefix": "!5-analytical-table-all",
+        "body": [
+            "$1sumOnTop=\"false\"",
+            "numberOfExpandedLevels=\"0\"",
+            "autoExpandMode=\"Bundled\"",
+            "columnVisibilityMenuSorter=\"\"",
+            "collapseRecursive=\"true\"",
+            "dirty=\"\"",
+            "extendedGroupHeaderMenu=\"true\"",
+            "group=\".on${3:Group}\"$2"
+        ],
+        "description": "sap.ui.table.AnalyticalTable with non-inherited properties, aggregations and events"
+    }
+}

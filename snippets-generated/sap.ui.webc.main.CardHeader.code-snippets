@@ -1,0 +1,58 @@
+{
+    "sap.ui.webc.main.CardHeader": {
+        "prefix": "!5-card-header",
+        "body": [
+            "<CardHeader ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.webc.main.CardHeader"
+    },
+    "sap.ui.webc.main.CardHeader-properties": {
+        "prefix": "!5-card-header-properties",
+        "body": [
+            "$1interactive=\"false\"",
+            "status=\"\"",
+            "subtitleText=\"\"",
+            "titleText=\"\"$2"
+        ],
+        "description": "sap.ui.webc.main.CardHeader with non-inherited properties"
+    },
+    "sap.ui.webc.main.CardHeader-aggregations": {
+        "prefix": "!5-card-header-aggregations",
+        "body": [
+            "$1<action>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</action>",
+            "<avatar>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</avatar>",
+            "$2"
+        ],
+        "description": "sap.ui.webc.main.CardHeader with non-inherited aggregations"
+    },
+    "sap.ui.webc.main.CardHeader-events": {
+        "prefix": "!5-card-header-events",
+        "body": [
+            "$1click=\".on${3:Click}\"$2"
+        ],
+        "description": "sap.ui.webc.main.CardHeader with non-inherited events"
+    },
+    "sap.ui.webc.main.CardHeader-all": {
+        "prefix": "!5-card-header-all",
+        "body": [
+            "$1interactive=\"false\"",
+            "status=\"\"",
+            "subtitleText=\"\"",
+            "titleText=\"\"",
+            "<action>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</action>",
+            "<avatar>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</avatar>",
+            "click=\".on${3:Click}\"$2"
+        ],
+        "description": "sap.ui.webc.main.CardHeader with non-inherited properties, aggregations and events"
+    }
+}

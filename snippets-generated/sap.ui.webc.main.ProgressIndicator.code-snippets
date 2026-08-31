@@ -1,0 +1,51 @@
+{
+    "sap.ui.webc.main.ProgressIndicator": {
+        "prefix": "!5-progress-indicator",
+        "body": [
+            "<ProgressIndicator ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.webc.main.ProgressIndicator"
+    },
+    "sap.ui.webc.main.ProgressIndicator-properties": {
+        "prefix": "!5-progress-indicator-properties",
+        "body": [
+            "$1accessibleName=\"\"",
+            "displayValue=\"\"",
+            "enabled=\"true\"",
+            "hideValue=\"false\"",
+            "value=\"0\"",
+            "valueState=\"None\"",
+            "width=\"\"$2"
+        ],
+        "description": "sap.ui.webc.main.ProgressIndicator with non-inherited properties"
+    },
+    "sap.ui.webc.main.ProgressIndicator-aggregations": {
+        "prefix": "!5-progress-indicator-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.webc.main.ProgressIndicator with non-inherited aggregations"
+    },
+    "sap.ui.webc.main.ProgressIndicator-events": {
+        "prefix": "!5-progress-indicator-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.webc.main.ProgressIndicator with non-inherited events"
+    },
+    "sap.ui.webc.main.ProgressIndicator-all": {
+        "prefix": "!5-progress-indicator-all",
+        "body": [
+            "$1accessibleName=\"\"",
+            "displayValue=\"\"",
+            "enabled=\"true\"",
+            "hideValue=\"false\"",
+            "value=\"0\"",
+            "valueState=\"None\"",
+            "width=\"\"$2"
+        ],
+        "description": "sap.ui.webc.main.ProgressIndicator with non-inherited properties, aggregations and events"
+    }
+}

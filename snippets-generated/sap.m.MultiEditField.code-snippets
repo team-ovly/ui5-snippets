@@ -1,0 +1,54 @@
+{
+    "sap.m.MultiEditField": {
+        "prefix": "!5-multi-edit-field",
+        "body": [
+            "<MultiEditField ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.MultiEditField"
+    },
+    "sap.m.MultiEditField-properties": {
+        "prefix": "!5-multi-edit-field-properties",
+        "body": [
+            "$1selectedItem=\"\"",
+            "showValueHelp=\"true\"",
+            "nullable=\"true\"",
+            "required=\"false\"$2"
+        ],
+        "description": "sap.m.MultiEditField with non-inherited properties"
+    },
+    "sap.m.MultiEditField-aggregations": {
+        "prefix": "!5-multi-edit-field-aggregations",
+        "body": [
+            "$1<items>",
+            "\t<!-- <sap.ui.core.Item /> -->",
+            "</items>",
+            "$2"
+        ],
+        "description": "sap.m.MultiEditField with non-inherited aggregations"
+    },
+    "sap.m.MultiEditField-events": {
+        "prefix": "!5-multi-edit-field-events",
+        "body": [
+            "$1change=\".on${3:Change}\"",
+            "ariaLabelledBy=\".on${4:AriaLabelledBy}\"$2"
+        ],
+        "description": "sap.m.MultiEditField with non-inherited events"
+    },
+    "sap.m.MultiEditField-all": {
+        "prefix": "!5-multi-edit-field-all",
+        "body": [
+            "$1selectedItem=\"\"",
+            "showValueHelp=\"true\"",
+            "nullable=\"true\"",
+            "required=\"false\"",
+            "<items>",
+            "\t<!-- <sap.ui.core.Item /> -->",
+            "</items>",
+            "change=\".on${3:Change}\"",
+            "ariaLabelledBy=\".on${4:AriaLabelledBy}\"$2"
+        ],
+        "description": "sap.m.MultiEditField with non-inherited properties, aggregations and events"
+    }
+}

@@ -1,0 +1,49 @@
+{
+    "sap.ui.webc.main.Option": {
+        "prefix": "!5-option",
+        "body": [
+            "<Option ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.webc.main.Option"
+    },
+    "sap.ui.webc.main.Option-properties": {
+        "prefix": "!5-option-properties",
+        "body": [
+            "$1additionalText=\"\"",
+            "enabled=\"true\"",
+            "icon=\"\"",
+            "selected=\"false\"",
+            "text=\"\"",
+            "value=\"\"$2"
+        ],
+        "description": "sap.ui.webc.main.Option with non-inherited properties"
+    },
+    "sap.ui.webc.main.Option-aggregations": {
+        "prefix": "!5-option-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.webc.main.Option with non-inherited aggregations"
+    },
+    "sap.ui.webc.main.Option-events": {
+        "prefix": "!5-option-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.webc.main.Option with non-inherited events"
+    },
+    "sap.ui.webc.main.Option-all": {
+        "prefix": "!5-option-all",
+        "body": [
+            "$1additionalText=\"\"",
+            "enabled=\"true\"",
+            "icon=\"\"",
+            "selected=\"false\"",
+            "text=\"\"",
+            "value=\"\"$2"
+        ],
+        "description": "sap.ui.webc.main.Option with non-inherited properties, aggregations and events"
+    }
+}

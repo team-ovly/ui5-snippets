@@ -1,0 +1,48 @@
+{
+    "sap.ui.commons.ApplicationHeader": {
+        "prefix": "!5-application-header",
+        "body": [
+            "<ApplicationHeader ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.commons.ApplicationHeader"
+    },
+    "sap.ui.commons.ApplicationHeader-properties": {
+        "prefix": "!5-application-header-properties",
+        "body": [
+            "$1logoSrc=\"\"",
+            "logoText=\"\"",
+            "displayLogoff=\"true\"",
+            "userName=\"\"",
+            "displayWelcome=\"true\"$2"
+        ],
+        "description": "sap.ui.commons.ApplicationHeader with non-inherited properties"
+    },
+    "sap.ui.commons.ApplicationHeader-aggregations": {
+        "prefix": "!5-application-header-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.commons.ApplicationHeader with non-inherited aggregations"
+    },
+    "sap.ui.commons.ApplicationHeader-events": {
+        "prefix": "!5-application-header-events",
+        "body": [
+            "$1logoff=\".on${3:Logoff}\"$2"
+        ],
+        "description": "sap.ui.commons.ApplicationHeader with non-inherited events"
+    },
+    "sap.ui.commons.ApplicationHeader-all": {
+        "prefix": "!5-application-header-all",
+        "body": [
+            "$1logoSrc=\"\"",
+            "logoText=\"\"",
+            "displayLogoff=\"true\"",
+            "userName=\"\"",
+            "displayWelcome=\"true\"",
+            "logoff=\".on${3:Logoff}\"$2"
+        ],
+        "description": "sap.ui.commons.ApplicationHeader with non-inherited properties, aggregations and events"
+    }
+}

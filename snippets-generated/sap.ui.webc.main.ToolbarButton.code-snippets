@@ -1,0 +1,56 @@
+{
+    "sap.ui.webc.main.ToolbarButton": {
+        "prefix": "!5-toolbar-button",
+        "body": [
+            "<ToolbarButton ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.webc.main.ToolbarButton"
+    },
+    "sap.ui.webc.main.ToolbarButton-properties": {
+        "prefix": "!5-toolbar-button-properties",
+        "body": [
+            "$1accessibilityAttributes=\"[object Object]\"",
+            "accessibleName=\"undefined\"",
+            "design=\"Default\"",
+            "enabled=\"true\"",
+            "icon=\"\"",
+            "iconEnd=\"false\"",
+            "text=\"\"",
+            "width=\"undefined\"$2"
+        ],
+        "description": "sap.ui.webc.main.ToolbarButton with non-inherited properties"
+    },
+    "sap.ui.webc.main.ToolbarButton-aggregations": {
+        "prefix": "!5-toolbar-button-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.webc.main.ToolbarButton with non-inherited aggregations"
+    },
+    "sap.ui.webc.main.ToolbarButton-events": {
+        "prefix": "!5-toolbar-button-events",
+        "body": [
+            "$1click=\".on${3:Click}\"",
+            "ariaLabelledBy=\".on${4:AriaLabelledBy}\"$2"
+        ],
+        "description": "sap.ui.webc.main.ToolbarButton with non-inherited events"
+    },
+    "sap.ui.webc.main.ToolbarButton-all": {
+        "prefix": "!5-toolbar-button-all",
+        "body": [
+            "$1accessibilityAttributes=\"[object Object]\"",
+            "accessibleName=\"undefined\"",
+            "design=\"Default\"",
+            "enabled=\"true\"",
+            "icon=\"\"",
+            "iconEnd=\"false\"",
+            "text=\"\"",
+            "width=\"undefined\"",
+            "click=\".on${3:Click}\"",
+            "ariaLabelledBy=\".on${4:AriaLabelledBy}\"$2"
+        ],
+        "description": "sap.ui.webc.main.ToolbarButton with non-inherited properties, aggregations and events"
+    }
+}

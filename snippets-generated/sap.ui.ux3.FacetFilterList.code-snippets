@@ -1,0 +1,60 @@
+{
+    "sap.ui.ux3.FacetFilterList": {
+        "prefix": "!5-facet-filter-list",
+        "body": [
+            "<FacetFilterList ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.ux3.FacetFilterList"
+    },
+    "sap.ui.ux3.FacetFilterList-properties": {
+        "prefix": "!5-facet-filter-list-properties",
+        "body": [
+            "$1title=\"\"",
+            "multiSelect=\"true\"",
+            "displaySecondaryValues=\"false\"",
+            "selectedKeys=\"\"",
+            "showCounter=\"true\"$2"
+        ],
+        "description": "sap.ui.ux3.FacetFilterList with non-inherited properties"
+    },
+    "sap.ui.ux3.FacetFilterList-aggregations": {
+        "prefix": "!5-facet-filter-list-aggregations",
+        "body": [
+            "$1<items>",
+            "\t<!-- <sap.ui.core.ListItem /> -->",
+            "</items>",
+            "<controls>",
+            "\t<!-- <sap.ui.commons.ListBox /> -->",
+            "</controls>",
+            "$2"
+        ],
+        "description": "sap.ui.ux3.FacetFilterList with non-inherited aggregations"
+    },
+    "sap.ui.ux3.FacetFilterList-events": {
+        "prefix": "!5-facet-filter-list-events",
+        "body": [
+            "$1select=\".on${3:Select}\"$2"
+        ],
+        "description": "sap.ui.ux3.FacetFilterList with non-inherited events"
+    },
+    "sap.ui.ux3.FacetFilterList-all": {
+        "prefix": "!5-facet-filter-list-all",
+        "body": [
+            "$1title=\"\"",
+            "multiSelect=\"true\"",
+            "displaySecondaryValues=\"false\"",
+            "selectedKeys=\"\"",
+            "showCounter=\"true\"",
+            "<items>",
+            "\t<!-- <sap.ui.core.ListItem /> -->",
+            "</items>",
+            "<controls>",
+            "\t<!-- <sap.ui.commons.ListBox /> -->",
+            "</controls>",
+            "select=\".on${3:Select}\"$2"
+        ],
+        "description": "sap.ui.ux3.FacetFilterList with non-inherited properties, aggregations and events"
+    }
+}

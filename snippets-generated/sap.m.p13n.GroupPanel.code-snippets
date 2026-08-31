@@ -1,0 +1,41 @@
+{
+    "sap.m.p13n.GroupPanel": {
+        "prefix": "!5-group-panel",
+        "body": [
+            "<GroupPanel ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.p13n.GroupPanel"
+    },
+    "sap.m.p13n.GroupPanel-properties": {
+        "prefix": "!5-group-panel-properties",
+        "body": [
+            "$1title=\"...see text or source\"",
+            "enableShowField=\"false\"$2"
+        ],
+        "description": "sap.m.p13n.GroupPanel with non-inherited properties"
+    },
+    "sap.m.p13n.GroupPanel-aggregations": {
+        "prefix": "!5-group-panel-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.m.p13n.GroupPanel with non-inherited aggregations"
+    },
+    "sap.m.p13n.GroupPanel-events": {
+        "prefix": "!5-group-panel-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.m.p13n.GroupPanel with non-inherited events"
+    },
+    "sap.m.p13n.GroupPanel-all": {
+        "prefix": "!5-group-panel-all",
+        "body": [
+            "$1title=\"...see text or source\"",
+            "enableShowField=\"false\"$2"
+        ],
+        "description": "sap.m.p13n.GroupPanel with non-inherited properties, aggregations and events"
+    }
+}

@@ -1,0 +1,74 @@
+{
+    "sap.ui.layout.DynamicSideContent": {
+        "prefix": "!5-dynamic-side-content",
+        "body": [
+            "<DynamicSideContent ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.layout.DynamicSideContent"
+    },
+    "sap.ui.layout.DynamicSideContent-properties": {
+        "prefix": "!5-dynamic-side-content-properties",
+        "body": [
+            "$1showSideContent=\"true\"",
+            "showMainContent=\"true\"",
+            "sideContentVisibility=\"ShowAboveS\"",
+            "sideContentFallDown=\"OnMinimumWidth\"",
+            "sideContentWidthM=\"\"",
+            "sideContentWidthL=\"\"",
+            "sideContentWidthXL=\"\"",
+            "equalSplit=\"false\"",
+            "containerQuery=\"false\"",
+            "sideContentPosition=\"End\"",
+            "mcSpan=\"0\"",
+            "scSpan=\"0\"$2"
+        ],
+        "description": "sap.ui.layout.DynamicSideContent with non-inherited properties"
+    },
+    "sap.ui.layout.DynamicSideContent-aggregations": {
+        "prefix": "!5-dynamic-side-content-aggregations",
+        "body": [
+            "$1<mainContent>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</mainContent>",
+            "<sideContent>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</sideContent>",
+            "$2"
+        ],
+        "description": "sap.ui.layout.DynamicSideContent with non-inherited aggregations"
+    },
+    "sap.ui.layout.DynamicSideContent-events": {
+        "prefix": "!5-dynamic-side-content-events",
+        "body": [
+            "$1breakpointChanged=\".on${3:BreakpointChanged}\"$2"
+        ],
+        "description": "sap.ui.layout.DynamicSideContent with non-inherited events"
+    },
+    "sap.ui.layout.DynamicSideContent-all": {
+        "prefix": "!5-dynamic-side-content-all",
+        "body": [
+            "$1showSideContent=\"true\"",
+            "showMainContent=\"true\"",
+            "sideContentVisibility=\"ShowAboveS\"",
+            "sideContentFallDown=\"OnMinimumWidth\"",
+            "sideContentWidthM=\"\"",
+            "sideContentWidthL=\"\"",
+            "sideContentWidthXL=\"\"",
+            "equalSplit=\"false\"",
+            "containerQuery=\"false\"",
+            "sideContentPosition=\"End\"",
+            "mcSpan=\"0\"",
+            "scSpan=\"0\"",
+            "<mainContent>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</mainContent>",
+            "<sideContent>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</sideContent>",
+            "breakpointChanged=\".on${3:BreakpointChanged}\"$2"
+        ],
+        "description": "sap.ui.layout.DynamicSideContent with non-inherited properties, aggregations and events"
+    }
+}

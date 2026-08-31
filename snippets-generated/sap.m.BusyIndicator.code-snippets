@@ -1,0 +1,56 @@
+{
+    "sap.m.BusyIndicator": {
+        "prefix": "!5-busy-indicator",
+        "body": [
+            "<BusyIndicator ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.BusyIndicator"
+    },
+    "sap.m.BusyIndicator-properties": {
+        "prefix": "!5-busy-indicator-properties",
+        "body": [
+            "$1text=\"\"",
+            "textDirection=\"Inherit\"",
+            "customIcon=\"\"",
+            "customIconRotationSpeed=\"1000\"",
+            "customIconDensityAware=\"true\"",
+            "customIconWidth=\"44px\"",
+            "customIconHeight=\"44px\"",
+            "size=\"1rem\"",
+            "design=\"auto\"$2"
+        ],
+        "description": "sap.m.BusyIndicator with non-inherited properties"
+    },
+    "sap.m.BusyIndicator-aggregations": {
+        "prefix": "!5-busy-indicator-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.m.BusyIndicator with non-inherited aggregations"
+    },
+    "sap.m.BusyIndicator-events": {
+        "prefix": "!5-busy-indicator-events",
+        "body": [
+            "$1ariaLabelledBy=\".on${3:AriaLabelledBy}\"$2"
+        ],
+        "description": "sap.m.BusyIndicator with non-inherited events"
+    },
+    "sap.m.BusyIndicator-all": {
+        "prefix": "!5-busy-indicator-all",
+        "body": [
+            "$1text=\"\"",
+            "textDirection=\"Inherit\"",
+            "customIcon=\"\"",
+            "customIconRotationSpeed=\"1000\"",
+            "customIconDensityAware=\"true\"",
+            "customIconWidth=\"44px\"",
+            "customIconHeight=\"44px\"",
+            "size=\"1rem\"",
+            "design=\"auto\"",
+            "ariaLabelledBy=\".on${3:AriaLabelledBy}\"$2"
+        ],
+        "description": "sap.m.BusyIndicator with non-inherited properties, aggregations and events"
+    }
+}

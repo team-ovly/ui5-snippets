@@ -1,0 +1,39 @@
+{
+    "sap.ui.layout.form.GridLayout": {
+        "prefix": "!5-grid-layout",
+        "body": [
+            "<GridLayout ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.layout.form.GridLayout"
+    },
+    "sap.ui.layout.form.GridLayout-properties": {
+        "prefix": "!5-grid-layout-properties",
+        "body": [
+            "$1singleColumn=\"false\"$2"
+        ],
+        "description": "sap.ui.layout.form.GridLayout with non-inherited properties"
+    },
+    "sap.ui.layout.form.GridLayout-aggregations": {
+        "prefix": "!5-grid-layout-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.layout.form.GridLayout with non-inherited aggregations"
+    },
+    "sap.ui.layout.form.GridLayout-events": {
+        "prefix": "!5-grid-layout-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.layout.form.GridLayout with non-inherited events"
+    },
+    "sap.ui.layout.form.GridLayout-all": {
+        "prefix": "!5-grid-layout-all",
+        "body": [
+            "$1singleColumn=\"false\"$2"
+        ],
+        "description": "sap.ui.layout.form.GridLayout with non-inherited properties, aggregations and events"
+    }
+}

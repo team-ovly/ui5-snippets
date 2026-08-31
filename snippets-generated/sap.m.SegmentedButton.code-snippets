@@ -1,0 +1,72 @@
+{
+    "sap.m.SegmentedButton": {
+        "prefix": "!5-segmented-button",
+        "body": [
+            "<SegmentedButton ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.SegmentedButton"
+    },
+    "sap.m.SegmentedButton-properties": {
+        "prefix": "!5-segmented-button-properties",
+        "body": [
+            "$1width=\"\"",
+            "enabled=\"true\"",
+            "selectedKey=\"\"$2"
+        ],
+        "description": "sap.m.SegmentedButton with non-inherited properties"
+    },
+    "sap.m.SegmentedButton-aggregations": {
+        "prefix": "!5-segmented-button-aggregations",
+        "body": [
+            "$1<buttons>",
+            "\t<!-- <sap.m.Button /> -->",
+            "</buttons>",
+            "<items>",
+            "\t<!-- <sap.m.SegmentedButtonItem /> -->",
+            "</items>",
+            "<_select>",
+            "\t<!-- <sap.m.Select /> -->",
+            "</_select>",
+            "$2"
+        ],
+        "description": "sap.m.SegmentedButton with non-inherited aggregations"
+    },
+    "sap.m.SegmentedButton-events": {
+        "prefix": "!5-segmented-button-events",
+        "body": [
+            "$1select=\".on${3:Select}\"",
+            "selectionChange=\".on${4:SelectionChange}\"",
+            "selectedButton=\".on${5:SelectedButton}\"",
+            "selectedItem=\".on${6:SelectedItem}\"",
+            "ariaDescribedBy=\".on${7:AriaDescribedBy}\"",
+            "ariaLabelledBy=\".on${8:AriaLabelledBy}\"$2"
+        ],
+        "description": "sap.m.SegmentedButton with non-inherited events"
+    },
+    "sap.m.SegmentedButton-all": {
+        "prefix": "!5-segmented-button-all",
+        "body": [
+            "$1width=\"\"",
+            "enabled=\"true\"",
+            "selectedKey=\"\"",
+            "<buttons>",
+            "\t<!-- <sap.m.Button /> -->",
+            "</buttons>",
+            "<items>",
+            "\t<!-- <sap.m.SegmentedButtonItem /> -->",
+            "</items>",
+            "<_select>",
+            "\t<!-- <sap.m.Select /> -->",
+            "</_select>",
+            "select=\".on${3:Select}\"",
+            "selectionChange=\".on${4:SelectionChange}\"",
+            "selectedButton=\".on${5:SelectedButton}\"",
+            "selectedItem=\".on${6:SelectedItem}\"",
+            "ariaDescribedBy=\".on${7:AriaDescribedBy}\"",
+            "ariaLabelledBy=\".on${8:AriaLabelledBy}\"$2"
+        ],
+        "description": "sap.m.SegmentedButton with non-inherited properties, aggregations and events"
+    }
+}

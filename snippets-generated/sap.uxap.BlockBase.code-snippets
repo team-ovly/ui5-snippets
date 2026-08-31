@@ -1,0 +1,62 @@
+{
+    "sap.uxap.BlockBase": {
+        "prefix": "!5-block-base",
+        "body": [
+            "<BlockBase ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.uxap.BlockBase"
+    },
+    "sap.uxap.BlockBase-properties": {
+        "prefix": "!5-block-base-properties",
+        "body": [
+            "$1mode=\"\"",
+            "visible=\"true\"",
+            "columnLayout=\"auto\"",
+            "formAdjustment=\"BlockColumns\"",
+            "showSubSectionMore=\"false\"$2"
+        ],
+        "description": "sap.uxap.BlockBase with non-inherited properties"
+    },
+    "sap.uxap.BlockBase-aggregations": {
+        "prefix": "!5-block-base-aggregations",
+        "body": [
+            "$1<mappings>",
+            "\t<!-- <sap.uxap.ModelMapping /> -->",
+            "</mappings>",
+            "<_views>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</_views>",
+            "$2"
+        ],
+        "description": "sap.uxap.BlockBase with non-inherited aggregations"
+    },
+    "sap.uxap.BlockBase-events": {
+        "prefix": "!5-block-base-events",
+        "body": [
+            "$1viewInit=\".on${3:ViewInit}\"",
+            "selectedView=\".on${4:SelectedView}\"$2"
+        ],
+        "description": "sap.uxap.BlockBase with non-inherited events"
+    },
+    "sap.uxap.BlockBase-all": {
+        "prefix": "!5-block-base-all",
+        "body": [
+            "$1mode=\"\"",
+            "visible=\"true\"",
+            "columnLayout=\"auto\"",
+            "formAdjustment=\"BlockColumns\"",
+            "showSubSectionMore=\"false\"",
+            "<mappings>",
+            "\t<!-- <sap.uxap.ModelMapping /> -->",
+            "</mappings>",
+            "<_views>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</_views>",
+            "viewInit=\".on${3:ViewInit}\"",
+            "selectedView=\".on${4:SelectedView}\"$2"
+        ],
+        "description": "sap.uxap.BlockBase with non-inherited properties, aggregations and events"
+    }
+}

@@ -1,0 +1,52 @@
+{
+    "sap.ui.webc.main.SplitButton": {
+        "prefix": "!5-split-button",
+        "body": [
+            "<SplitButton ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.webc.main.SplitButton"
+    },
+    "sap.ui.webc.main.SplitButton-properties": {
+        "prefix": "!5-split-button-properties",
+        "body": [
+            "$1accessibleName=\"\"",
+            "activeIcon=\"\"",
+            "design=\"Default\"",
+            "enabled=\"true\"",
+            "icon=\"\"",
+            "text=\"\"$2"
+        ],
+        "description": "sap.ui.webc.main.SplitButton with non-inherited properties"
+    },
+    "sap.ui.webc.main.SplitButton-aggregations": {
+        "prefix": "!5-split-button-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.webc.main.SplitButton with non-inherited aggregations"
+    },
+    "sap.ui.webc.main.SplitButton-events": {
+        "prefix": "!5-split-button-events",
+        "body": [
+            "$1arrowClick=\".on${3:ArrowClick}\"",
+            "click=\".on${4:Click}\"$2"
+        ],
+        "description": "sap.ui.webc.main.SplitButton with non-inherited events"
+    },
+    "sap.ui.webc.main.SplitButton-all": {
+        "prefix": "!5-split-button-all",
+        "body": [
+            "$1accessibleName=\"\"",
+            "activeIcon=\"\"",
+            "design=\"Default\"",
+            "enabled=\"true\"",
+            "icon=\"\"",
+            "text=\"\"",
+            "arrowClick=\".on${3:ArrowClick}\"",
+            "click=\".on${4:Click}\"$2"
+        ],
+        "description": "sap.ui.webc.main.SplitButton with non-inherited properties, aggregations and events"
+    }
+}

@@ -1,0 +1,63 @@
+{
+    "sap.uxap.ObjectPageHeaderContent": {
+        "prefix": "!5-object-page-header-content",
+        "body": [
+            "<ObjectPageHeaderContent ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.uxap.ObjectPageHeaderContent"
+    },
+    "sap.uxap.ObjectPageHeaderContent-properties": {
+        "prefix": "!5-object-page-header-content-properties",
+        "body": [
+            "$1contentDesign=\"Light\"$2"
+        ],
+        "description": "sap.uxap.ObjectPageHeaderContent with non-inherited properties"
+    },
+    "sap.uxap.ObjectPageHeaderContent-aggregations": {
+        "prefix": "!5-object-page-header-content-aggregations",
+        "body": [
+            "$1<content>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</content>",
+            "<_editHeaderButton>",
+            "\t<!-- <sap.m.Button /> -->",
+            "</_editHeaderButton>",
+            "<_objectImage>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</_objectImage>",
+            "<_placeholder>",
+            "\t<!-- <sap.m.Avatar /> -->",
+            "</_placeholder>",
+            "$2"
+        ],
+        "description": "sap.uxap.ObjectPageHeaderContent with non-inherited aggregations"
+    },
+    "sap.uxap.ObjectPageHeaderContent-events": {
+        "prefix": "!5-object-page-header-content-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.uxap.ObjectPageHeaderContent with non-inherited events"
+    },
+    "sap.uxap.ObjectPageHeaderContent-all": {
+        "prefix": "!5-object-page-header-content-all",
+        "body": [
+            "$1contentDesign=\"Light\"",
+            "<content>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</content>",
+            "<_editHeaderButton>",
+            "\t<!-- <sap.m.Button /> -->",
+            "</_editHeaderButton>",
+            "<_objectImage>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</_objectImage>",
+            "<_placeholder>",
+            "\t<!-- <sap.m.Avatar /> -->",
+            "</_placeholder>$2"
+        ],
+        "description": "sap.uxap.ObjectPageHeaderContent with non-inherited properties, aggregations and events"
+    }
+}

@@ -1,0 +1,76 @@
+{
+    "sap.m.MessagePopover": {
+        "prefix": "!5-message-popover",
+        "body": [
+            "<MessagePopover ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.MessagePopover"
+    },
+    "sap.m.MessagePopover-properties": {
+        "prefix": "!5-message-popover-properties",
+        "body": [
+            "$1asyncDescriptionHandler=\"\"",
+            "asyncURLHandler=\"\"",
+            "placement=\"Vertical\"",
+            "initiallyExpanded=\"true\"",
+            "groupItems=\"false\"$2"
+        ],
+        "description": "sap.m.MessagePopover with non-inherited properties"
+    },
+    "sap.m.MessagePopover-aggregations": {
+        "prefix": "!5-message-popover-aggregations",
+        "body": [
+            "$1<items>",
+            "\t<!-- <sap.m.MessageItem /> -->",
+            "</items>",
+            "<headerButton>",
+            "\t<!-- <sap.m.Button /> -->",
+            "</headerButton>",
+            "$2"
+        ],
+        "description": "sap.m.MessagePopover with non-inherited aggregations"
+    },
+    "sap.m.MessagePopover-events": {
+        "prefix": "!5-message-popover-events",
+        "body": [
+            "$1afterOpen=\".on${3:AfterOpen}\"",
+            "afterClose=\".on${4:AfterClose}\"",
+            "beforeOpen=\".on${5:BeforeOpen}\"",
+            "beforeClose=\".on${6:BeforeClose}\"",
+            "itemSelect=\".on${7:ItemSelect}\"",
+            "listSelect=\".on${8:ListSelect}\"",
+            "longtextLoaded=\".on${9:LongtextLoaded}\"",
+            "urlValidated=\".on${10:UrlValidated}\"",
+            "activeTitlePress=\".on${11:ActiveTitlePress}\"$2"
+        ],
+        "description": "sap.m.MessagePopover with non-inherited events"
+    },
+    "sap.m.MessagePopover-all": {
+        "prefix": "!5-message-popover-all",
+        "body": [
+            "$1asyncDescriptionHandler=\"\"",
+            "asyncURLHandler=\"\"",
+            "placement=\"Vertical\"",
+            "initiallyExpanded=\"true\"",
+            "groupItems=\"false\"",
+            "<items>",
+            "\t<!-- <sap.m.MessageItem /> -->",
+            "</items>",
+            "<headerButton>",
+            "\t<!-- <sap.m.Button /> -->",
+            "</headerButton>",
+            "afterOpen=\".on${3:AfterOpen}\"",
+            "afterClose=\".on${4:AfterClose}\"",
+            "beforeOpen=\".on${5:BeforeOpen}\"",
+            "beforeClose=\".on${6:BeforeClose}\"",
+            "itemSelect=\".on${7:ItemSelect}\"",
+            "listSelect=\".on${8:ListSelect}\"",
+            "longtextLoaded=\".on${9:LongtextLoaded}\"",
+            "urlValidated=\".on${10:UrlValidated}\"",
+            "activeTitlePress=\".on${11:ActiveTitlePress}\"$2"
+        ],
+        "description": "sap.m.MessagePopover with non-inherited properties, aggregations and events"
+    }
+}

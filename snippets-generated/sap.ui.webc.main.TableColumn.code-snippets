@@ -1,0 +1,51 @@
+{
+    "sap.ui.webc.main.TableColumn": {
+        "prefix": "!5-table-column",
+        "body": [
+            "<TableColumn ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.webc.main.TableColumn"
+    },
+    "sap.ui.webc.main.TableColumn-properties": {
+        "prefix": "!5-table-column-properties",
+        "body": [
+            "$1demandPopin=\"false\"",
+            "minWidth=\"...see text or source\"",
+            "popinDisplay=\"Block\"",
+            "popinText=\"\"$2"
+        ],
+        "description": "sap.ui.webc.main.TableColumn with non-inherited properties"
+    },
+    "sap.ui.webc.main.TableColumn-aggregations": {
+        "prefix": "!5-table-column-aggregations",
+        "body": [
+            "$1<content>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</content>",
+            "$2"
+        ],
+        "description": "sap.ui.webc.main.TableColumn with non-inherited aggregations"
+    },
+    "sap.ui.webc.main.TableColumn-events": {
+        "prefix": "!5-table-column-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.webc.main.TableColumn with non-inherited events"
+    },
+    "sap.ui.webc.main.TableColumn-all": {
+        "prefix": "!5-table-column-all",
+        "body": [
+            "$1demandPopin=\"false\"",
+            "minWidth=\"...see text or source\"",
+            "popinDisplay=\"Block\"",
+            "popinText=\"\"",
+            "<content>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</content>$2"
+        ],
+        "description": "sap.ui.webc.main.TableColumn with non-inherited properties, aggregations and events"
+    }
+}

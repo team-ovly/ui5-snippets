@@ -1,0 +1,71 @@
+{
+    "sap.m.FlexBox": {
+        "prefix": "!5-flex-box",
+        "body": [
+            "<FlexBox ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.FlexBox"
+    },
+    "sap.m.FlexBox-properties": {
+        "prefix": "!5-flex-box-properties",
+        "body": [
+            "$1height=\"\"",
+            "width=\"\"",
+            "displayInline=\"false\"",
+            "direction=\"Row\"",
+            "fitContainer=\"false\"",
+            "renderType=\"Div\"",
+            "justifyContent=\"Start\"",
+            "alignItems=\"Stretch\"",
+            "wrap=\"NoWrap\"",
+            "alignContent=\"Stretch\"",
+            "backgroundDesign=\"Transparent\"",
+            "gap=\"\"",
+            "rowGap=\"\"",
+            "columnGap=\"\"$2"
+        ],
+        "description": "sap.m.FlexBox with non-inherited properties"
+    },
+    "sap.m.FlexBox-aggregations": {
+        "prefix": "!5-flex-box-aggregations",
+        "body": [
+            "$1<items>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</items>",
+            "$2"
+        ],
+        "description": "sap.m.FlexBox with non-inherited aggregations"
+    },
+    "sap.m.FlexBox-events": {
+        "prefix": "!5-flex-box-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.m.FlexBox with non-inherited events"
+    },
+    "sap.m.FlexBox-all": {
+        "prefix": "!5-flex-box-all",
+        "body": [
+            "$1height=\"\"",
+            "width=\"\"",
+            "displayInline=\"false\"",
+            "direction=\"Row\"",
+            "fitContainer=\"false\"",
+            "renderType=\"Div\"",
+            "justifyContent=\"Start\"",
+            "alignItems=\"Stretch\"",
+            "wrap=\"NoWrap\"",
+            "alignContent=\"Stretch\"",
+            "backgroundDesign=\"Transparent\"",
+            "gap=\"\"",
+            "rowGap=\"\"",
+            "columnGap=\"\"",
+            "<items>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</items>$2"
+        ],
+        "description": "sap.m.FlexBox with non-inherited properties, aggregations and events"
+    }
+}

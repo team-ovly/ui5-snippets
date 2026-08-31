@@ -1,0 +1,46 @@
+{
+    "sap.ui.commons.ImageMap": {
+        "prefix": "!5-image-map",
+        "body": [
+            "<ImageMap ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.commons.ImageMap"
+    },
+    "sap.ui.commons.ImageMap-properties": {
+        "prefix": "!5-image-map-properties",
+        "body": [
+            "$1name=\"\"$2"
+        ],
+        "description": "sap.ui.commons.ImageMap with non-inherited properties"
+    },
+    "sap.ui.commons.ImageMap-aggregations": {
+        "prefix": "!5-image-map-aggregations",
+        "body": [
+            "$1<areas>",
+            "\t<!-- <sap.ui.commons.Area /> -->",
+            "</areas>",
+            "$2"
+        ],
+        "description": "sap.ui.commons.ImageMap with non-inherited aggregations"
+    },
+    "sap.ui.commons.ImageMap-events": {
+        "prefix": "!5-image-map-events",
+        "body": [
+            "$1press=\".on${3:Press}\"$2"
+        ],
+        "description": "sap.ui.commons.ImageMap with non-inherited events"
+    },
+    "sap.ui.commons.ImageMap-all": {
+        "prefix": "!5-image-map-all",
+        "body": [
+            "$1name=\"\"",
+            "<areas>",
+            "\t<!-- <sap.ui.commons.Area /> -->",
+            "</areas>",
+            "press=\".on${3:Press}\"$2"
+        ],
+        "description": "sap.ui.commons.ImageMap with non-inherited properties, aggregations and events"
+    }
+}

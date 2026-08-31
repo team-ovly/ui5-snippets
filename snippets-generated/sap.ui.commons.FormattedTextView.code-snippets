@@ -1,0 +1,47 @@
+{
+    "sap.ui.commons.FormattedTextView": {
+        "prefix": "!5-formatted-text-view",
+        "body": [
+            "<FormattedTextView ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.commons.FormattedTextView"
+    },
+    "sap.ui.commons.FormattedTextView-properties": {
+        "prefix": "!5-formatted-text-view-properties",
+        "body": [
+            "$1accessibleRole=\"Document\"",
+            "htmlText=\"\"$2"
+        ],
+        "description": "sap.ui.commons.FormattedTextView with non-inherited properties"
+    },
+    "sap.ui.commons.FormattedTextView-aggregations": {
+        "prefix": "!5-formatted-text-view-aggregations",
+        "body": [
+            "$1<controls>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</controls>",
+            "$2"
+        ],
+        "description": "sap.ui.commons.FormattedTextView with non-inherited aggregations"
+    },
+    "sap.ui.commons.FormattedTextView-events": {
+        "prefix": "!5-formatted-text-view-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.commons.FormattedTextView with non-inherited events"
+    },
+    "sap.ui.commons.FormattedTextView-all": {
+        "prefix": "!5-formatted-text-view-all",
+        "body": [
+            "$1accessibleRole=\"Document\"",
+            "htmlText=\"\"",
+            "<controls>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</controls>$2"
+        ],
+        "description": "sap.ui.commons.FormattedTextView with non-inherited properties, aggregations and events"
+    }
+}

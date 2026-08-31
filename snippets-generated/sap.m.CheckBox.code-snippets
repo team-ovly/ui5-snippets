@@ -1,0 +1,84 @@
+{
+    "sap.m.CheckBox": {
+        "prefix": "!5-check-box",
+        "body": [
+            "<CheckBox ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.CheckBox"
+    },
+    "sap.m.CheckBox-properties": {
+        "prefix": "!5-check-box-properties",
+        "body": [
+            "$1selected=\"false\"",
+            "partiallySelected=\"false\"",
+            "enabled=\"true\"",
+            "required=\"false\"",
+            "name=\"\"",
+            "text=\"\"",
+            "textDirection=\"Inherit\"",
+            "textAlign=\"Begin\"",
+            "width=\"\"",
+            "useEntireWidth=\"false\"",
+            "activeHandling=\"true\"",
+            "editable=\"true\"",
+            "valueState=\"None\"",
+            "valueStateText=\"\"",
+            "displayOnly=\"false\"",
+            "wrapping=\"false\"",
+            "highlightAccKeysRef=\"false\"",
+            "accesskey=\"\"$2"
+        ],
+        "description": "sap.m.CheckBox with non-inherited properties"
+    },
+    "sap.m.CheckBox-aggregations": {
+        "prefix": "!5-check-box-aggregations",
+        "body": [
+            "$1<_label>",
+            "\t<!-- <sap.m.Label /> -->",
+            "</_label>",
+            "$2"
+        ],
+        "description": "sap.m.CheckBox with non-inherited aggregations"
+    },
+    "sap.m.CheckBox-events": {
+        "prefix": "!5-check-box-events",
+        "body": [
+            "$1select=\".on${3:Select}\"",
+            "ariaDescribedBy=\".on${4:AriaDescribedBy}\"",
+            "ariaLabelledBy=\".on${5:AriaLabelledBy}\"$2"
+        ],
+        "description": "sap.m.CheckBox with non-inherited events"
+    },
+    "sap.m.CheckBox-all": {
+        "prefix": "!5-check-box-all",
+        "body": [
+            "$1selected=\"false\"",
+            "partiallySelected=\"false\"",
+            "enabled=\"true\"",
+            "required=\"false\"",
+            "name=\"\"",
+            "text=\"\"",
+            "textDirection=\"Inherit\"",
+            "textAlign=\"Begin\"",
+            "width=\"\"",
+            "useEntireWidth=\"false\"",
+            "activeHandling=\"true\"",
+            "editable=\"true\"",
+            "valueState=\"None\"",
+            "valueStateText=\"\"",
+            "displayOnly=\"false\"",
+            "wrapping=\"false\"",
+            "highlightAccKeysRef=\"false\"",
+            "accesskey=\"\"",
+            "<_label>",
+            "\t<!-- <sap.m.Label /> -->",
+            "</_label>",
+            "select=\".on${3:Select}\"",
+            "ariaDescribedBy=\".on${4:AriaDescribedBy}\"",
+            "ariaLabelledBy=\".on${5:AriaLabelledBy}\"$2"
+        ],
+        "description": "sap.m.CheckBox with non-inherited properties, aggregations and events"
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "sap.m.OverflowToolbarToggleButton": {
+        "prefix": "!5-overflow-toolbar-toggle-button",
+        "body": [
+            "<OverflowToolbarToggleButton ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.OverflowToolbarToggleButton"
+    },
+    "sap.m.OverflowToolbarToggleButton-properties": {
+        "prefix": "!5-overflow-toolbar-toggle-button-properties",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.m.OverflowToolbarToggleButton with non-inherited properties"
+    },
+    "sap.m.OverflowToolbarToggleButton-aggregations": {
+        "prefix": "!5-overflow-toolbar-toggle-button-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.m.OverflowToolbarToggleButton with non-inherited aggregations"
+    },
+    "sap.m.OverflowToolbarToggleButton-events": {
+        "prefix": "!5-overflow-toolbar-toggle-button-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.m.OverflowToolbarToggleButton with non-inherited events"
+    },
+    "sap.m.OverflowToolbarToggleButton-all": {
+        "prefix": "!5-overflow-toolbar-toggle-button-all",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.m.OverflowToolbarToggleButton with non-inherited properties, aggregations and events"
+    }
+}

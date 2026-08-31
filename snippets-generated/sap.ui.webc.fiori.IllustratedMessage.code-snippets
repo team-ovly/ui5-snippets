@@ -1,0 +1,64 @@
+{
+    "sap.ui.webc.fiori.IllustratedMessage": {
+        "prefix": "!5-illustrated-message",
+        "body": [
+            "<IllustratedMessage ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.webc.fiori.IllustratedMessage"
+    },
+    "sap.ui.webc.fiori.IllustratedMessage-properties": {
+        "prefix": "!5-illustrated-message-properties",
+        "body": [
+            "$1name=\"BeforeSearch\"",
+            "size=\"Auto\"",
+            "subtitleText=\"\"",
+            "titleText=\"\"$2"
+        ],
+        "description": "sap.ui.webc.fiori.IllustratedMessage with non-inherited properties"
+    },
+    "sap.ui.webc.fiori.IllustratedMessage-aggregations": {
+        "prefix": "!5-illustrated-message-aggregations",
+        "body": [
+            "$1<actions>",
+            "\t<!-- <sap.ui.webc.main.IButton /> -->",
+            "</actions>",
+            "<subtitle>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</subtitle>",
+            "<title>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</title>",
+            "$2"
+        ],
+        "description": "sap.ui.webc.fiori.IllustratedMessage with non-inherited aggregations"
+    },
+    "sap.ui.webc.fiori.IllustratedMessage-events": {
+        "prefix": "!5-illustrated-message-events",
+        "body": [
+            "$1ariaLabelledBy=\".on${3:AriaLabelledBy}\"$2"
+        ],
+        "description": "sap.ui.webc.fiori.IllustratedMessage with non-inherited events"
+    },
+    "sap.ui.webc.fiori.IllustratedMessage-all": {
+        "prefix": "!5-illustrated-message-all",
+        "body": [
+            "$1name=\"BeforeSearch\"",
+            "size=\"Auto\"",
+            "subtitleText=\"\"",
+            "titleText=\"\"",
+            "<actions>",
+            "\t<!-- <sap.ui.webc.main.IButton /> -->",
+            "</actions>",
+            "<subtitle>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</subtitle>",
+            "<title>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</title>",
+            "ariaLabelledBy=\".on${3:AriaLabelledBy}\"$2"
+        ],
+        "description": "sap.ui.webc.fiori.IllustratedMessage with non-inherited properties, aggregations and events"
+    }
+}

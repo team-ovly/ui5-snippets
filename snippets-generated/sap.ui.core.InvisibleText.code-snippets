@@ -1,0 +1,39 @@
+{
+    "sap.ui.core.InvisibleText": {
+        "prefix": "!5-invisible-text",
+        "body": [
+            "<InvisibleText ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.core.InvisibleText"
+    },
+    "sap.ui.core.InvisibleText-properties": {
+        "prefix": "!5-invisible-text-properties",
+        "body": [
+            "$1text=\"\"$2"
+        ],
+        "description": "sap.ui.core.InvisibleText with non-inherited properties"
+    },
+    "sap.ui.core.InvisibleText-aggregations": {
+        "prefix": "!5-invisible-text-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.core.InvisibleText with non-inherited aggregations"
+    },
+    "sap.ui.core.InvisibleText-events": {
+        "prefix": "!5-invisible-text-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.core.InvisibleText with non-inherited events"
+    },
+    "sap.ui.core.InvisibleText-all": {
+        "prefix": "!5-invisible-text-all",
+        "body": [
+            "$1text=\"\"$2"
+        ],
+        "description": "sap.ui.core.InvisibleText with non-inherited properties, aggregations and events"
+    }
+}

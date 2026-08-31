@@ -1,0 +1,50 @@
+{
+    "sap.ui.webc.main.SegmentedButton": {
+        "prefix": "!5-segmented-button",
+        "body": [
+            "<SegmentedButton ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.webc.main.SegmentedButton"
+    },
+    "sap.ui.webc.main.SegmentedButton-properties": {
+        "prefix": "!5-segmented-button-properties",
+        "body": [
+            "$1accessibleName=\"undefined\"",
+            "mode=\"SingleSelect\"",
+            "width=\"\"$2"
+        ],
+        "description": "sap.ui.webc.main.SegmentedButton with non-inherited properties"
+    },
+    "sap.ui.webc.main.SegmentedButton-aggregations": {
+        "prefix": "!5-segmented-button-aggregations",
+        "body": [
+            "$1<items>",
+            "\t<!-- <sap.ui.webc.main.ISegmentedButtonItem /> -->",
+            "</items>",
+            "$2"
+        ],
+        "description": "sap.ui.webc.main.SegmentedButton with non-inherited aggregations"
+    },
+    "sap.ui.webc.main.SegmentedButton-events": {
+        "prefix": "!5-segmented-button-events",
+        "body": [
+            "$1selectionChange=\".on${3:SelectionChange}\"$2"
+        ],
+        "description": "sap.ui.webc.main.SegmentedButton with non-inherited events"
+    },
+    "sap.ui.webc.main.SegmentedButton-all": {
+        "prefix": "!5-segmented-button-all",
+        "body": [
+            "$1accessibleName=\"undefined\"",
+            "mode=\"SingleSelect\"",
+            "width=\"\"",
+            "<items>",
+            "\t<!-- <sap.ui.webc.main.ISegmentedButtonItem /> -->",
+            "</items>",
+            "selectionChange=\".on${3:SelectionChange}\"$2"
+        ],
+        "description": "sap.ui.webc.main.SegmentedButton with non-inherited properties, aggregations and events"
+    }
+}

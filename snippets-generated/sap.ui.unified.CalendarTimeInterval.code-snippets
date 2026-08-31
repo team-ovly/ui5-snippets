@@ -1,0 +1,108 @@
+{
+    "sap.ui.unified.CalendarTimeInterval": {
+        "prefix": "!5-calendar-time-interval",
+        "body": [
+            "<CalendarTimeInterval ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.unified.CalendarTimeInterval"
+    },
+    "sap.ui.unified.CalendarTimeInterval-properties": {
+        "prefix": "!5-calendar-time-interval-properties",
+        "body": [
+            "$1width=\"\"",
+            "startDate=\"\"",
+            "intervalSelection=\"false\"",
+            "singleSelection=\"true\"",
+            "items=\"12\"",
+            "intervalMinutes=\"60\"",
+            "pickerPopup=\"false\"",
+            "minDate=\"\"",
+            "maxDate=\"\"",
+            "_currentPicker=\"timesRow\"$2"
+        ],
+        "description": "sap.ui.unified.CalendarTimeInterval with non-inherited properties"
+    },
+    "sap.ui.unified.CalendarTimeInterval-aggregations": {
+        "prefix": "!5-calendar-time-interval-aggregations",
+        "body": [
+            "$1<selectedDates>",
+            "\t<!-- <sap.ui.unified.DateRange /> -->",
+            "</selectedDates>",
+            "<specialDates>",
+            "\t<!-- <sap.ui.unified.DateTypeRange /> -->",
+            "</specialDates>",
+            "<header>",
+            "\t<!-- <sap.ui.unified.calendar.Header /> -->",
+            "</header>",
+            "<timesRow>",
+            "\t<!-- <sap.ui.unified.calendar.TimesRow /> -->",
+            "</timesRow>",
+            "<datesRow>",
+            "\t<!-- <sap.ui.unified.calendar.Month /> -->",
+            "</datesRow>",
+            "<monthPicker>",
+            "\t<!-- <sap.ui.unified.calendar.MonthPicker /> -->",
+            "</monthPicker>",
+            "<yearPicker>",
+            "\t<!-- <sap.ui.unified.calendar.YearPicker /> -->",
+            "</yearPicker>",
+            "$2"
+        ],
+        "description": "sap.ui.unified.CalendarTimeInterval with non-inherited aggregations"
+    },
+    "sap.ui.unified.CalendarTimeInterval-events": {
+        "prefix": "!5-calendar-time-interval-events",
+        "body": [
+            "$1select=\".on${3:Select}\"",
+            "cancel=\".on${4:Cancel}\"",
+            "startDateChange=\".on${5:StartDateChange}\"",
+            "ariaLabelledBy=\".on${6:AriaLabelledBy}\"",
+            "legend=\".on${7:Legend}\"$2"
+        ],
+        "description": "sap.ui.unified.CalendarTimeInterval with non-inherited events"
+    },
+    "sap.ui.unified.CalendarTimeInterval-all": {
+        "prefix": "!5-calendar-time-interval-all",
+        "body": [
+            "$1width=\"\"",
+            "startDate=\"\"",
+            "intervalSelection=\"false\"",
+            "singleSelection=\"true\"",
+            "items=\"12\"",
+            "intervalMinutes=\"60\"",
+            "pickerPopup=\"false\"",
+            "minDate=\"\"",
+            "maxDate=\"\"",
+            "_currentPicker=\"timesRow\"",
+            "<selectedDates>",
+            "\t<!-- <sap.ui.unified.DateRange /> -->",
+            "</selectedDates>",
+            "<specialDates>",
+            "\t<!-- <sap.ui.unified.DateTypeRange /> -->",
+            "</specialDates>",
+            "<header>",
+            "\t<!-- <sap.ui.unified.calendar.Header /> -->",
+            "</header>",
+            "<timesRow>",
+            "\t<!-- <sap.ui.unified.calendar.TimesRow /> -->",
+            "</timesRow>",
+            "<datesRow>",
+            "\t<!-- <sap.ui.unified.calendar.Month /> -->",
+            "</datesRow>",
+            "<monthPicker>",
+            "\t<!-- <sap.ui.unified.calendar.MonthPicker /> -->",
+            "</monthPicker>",
+            "<yearPicker>",
+            "\t<!-- <sap.ui.unified.calendar.YearPicker /> -->",
+            "</yearPicker>",
+            "select=\".on${3:Select}\"",
+            "cancel=\".on${4:Cancel}\"",
+            "startDateChange=\".on${5:StartDateChange}\"",
+            "ariaLabelledBy=\".on${6:AriaLabelledBy}\"",
+            "legend=\".on${7:Legend}\"$2"
+        ],
+        "description": "sap.ui.unified.CalendarTimeInterval with non-inherited properties, aggregations and events"
+    }
+}

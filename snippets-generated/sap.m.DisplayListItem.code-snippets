@@ -1,0 +1,43 @@
+{
+    "sap.m.DisplayListItem": {
+        "prefix": "!5-display-list-item",
+        "body": [
+            "<DisplayListItem ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.DisplayListItem"
+    },
+    "sap.m.DisplayListItem-properties": {
+        "prefix": "!5-display-list-item-properties",
+        "body": [
+            "$1label=\"\"",
+            "value=\"\"",
+            "valueTextDirection=\"Inherit\"$2"
+        ],
+        "description": "sap.m.DisplayListItem with non-inherited properties"
+    },
+    "sap.m.DisplayListItem-aggregations": {
+        "prefix": "!5-display-list-item-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.m.DisplayListItem with non-inherited aggregations"
+    },
+    "sap.m.DisplayListItem-events": {
+        "prefix": "!5-display-list-item-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.m.DisplayListItem with non-inherited events"
+    },
+    "sap.m.DisplayListItem-all": {
+        "prefix": "!5-display-list-item-all",
+        "body": [
+            "$1label=\"\"",
+            "value=\"\"",
+            "valueTextDirection=\"Inherit\"$2"
+        ],
+        "description": "sap.m.DisplayListItem with non-inherited properties, aggregations and events"
+    }
+}

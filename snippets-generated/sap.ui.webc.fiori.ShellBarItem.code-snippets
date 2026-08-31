@@ -1,0 +1,44 @@
+{
+    "sap.ui.webc.fiori.ShellBarItem": {
+        "prefix": "!5-shell-bar-item",
+        "body": [
+            "<ShellBarItem ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.webc.fiori.ShellBarItem"
+    },
+    "sap.ui.webc.fiori.ShellBarItem-properties": {
+        "prefix": "!5-shell-bar-item-properties",
+        "body": [
+            "$1count=\"\"",
+            "icon=\"\"",
+            "text=\"\"$2"
+        ],
+        "description": "sap.ui.webc.fiori.ShellBarItem with non-inherited properties"
+    },
+    "sap.ui.webc.fiori.ShellBarItem-aggregations": {
+        "prefix": "!5-shell-bar-item-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.webc.fiori.ShellBarItem with non-inherited aggregations"
+    },
+    "sap.ui.webc.fiori.ShellBarItem-events": {
+        "prefix": "!5-shell-bar-item-events",
+        "body": [
+            "$1click=\".on${3:Click}\"$2"
+        ],
+        "description": "sap.ui.webc.fiori.ShellBarItem with non-inherited events"
+    },
+    "sap.ui.webc.fiori.ShellBarItem-all": {
+        "prefix": "!5-shell-bar-item-all",
+        "body": [
+            "$1count=\"\"",
+            "icon=\"\"",
+            "text=\"\"",
+            "click=\".on${3:Click}\"$2"
+        ],
+        "description": "sap.ui.webc.fiori.ShellBarItem with non-inherited properties, aggregations and events"
+    }
+}

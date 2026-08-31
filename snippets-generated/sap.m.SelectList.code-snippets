@@ -1,0 +1,70 @@
+{
+    "sap.m.SelectList": {
+        "prefix": "!5-select-list",
+        "body": [
+            "<SelectList ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.SelectList"
+    },
+    "sap.m.SelectList-properties": {
+        "prefix": "!5-select-list-properties",
+        "body": [
+            "$1enabled=\"true\"",
+            "width=\"auto\"",
+            "maxWidth=\"100%\"",
+            "selectedKey=\"\"",
+            "selectedItemId=\"\"",
+            "showSecondaryValues=\"false\"",
+            "_columnRatio=\"\"",
+            "_tabIndex=\"\"",
+            "keyboardNavigationMode=\"Delimited\"",
+            "hideDisabledItems=\"false\"$2"
+        ],
+        "description": "sap.m.SelectList with non-inherited properties"
+    },
+    "sap.m.SelectList-aggregations": {
+        "prefix": "!5-select-list-aggregations",
+        "body": [
+            "$1<items>",
+            "\t<!-- <sap.ui.core.Item /> -->",
+            "</items>",
+            "$2"
+        ],
+        "description": "sap.m.SelectList with non-inherited aggregations"
+    },
+    "sap.m.SelectList-events": {
+        "prefix": "!5-select-list-events",
+        "body": [
+            "$1selectionChange=\".on${3:SelectionChange}\"",
+            "itemPress=\".on${4:ItemPress}\"",
+            "selectedItem=\".on${5:SelectedItem}\"",
+            "ariaLabelledBy=\".on${6:AriaLabelledBy}\"$2"
+        ],
+        "description": "sap.m.SelectList with non-inherited events"
+    },
+    "sap.m.SelectList-all": {
+        "prefix": "!5-select-list-all",
+        "body": [
+            "$1enabled=\"true\"",
+            "width=\"auto\"",
+            "maxWidth=\"100%\"",
+            "selectedKey=\"\"",
+            "selectedItemId=\"\"",
+            "showSecondaryValues=\"false\"",
+            "_columnRatio=\"\"",
+            "_tabIndex=\"\"",
+            "keyboardNavigationMode=\"Delimited\"",
+            "hideDisabledItems=\"false\"",
+            "<items>",
+            "\t<!-- <sap.ui.core.Item /> -->",
+            "</items>",
+            "selectionChange=\".on${3:SelectionChange}\"",
+            "itemPress=\".on${4:ItemPress}\"",
+            "selectedItem=\".on${5:SelectedItem}\"",
+            "ariaLabelledBy=\".on${6:AriaLabelledBy}\"$2"
+        ],
+        "description": "sap.m.SelectList with non-inherited properties, aggregations and events"
+    }
+}

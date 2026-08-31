@@ -1,0 +1,39 @@
+{
+    "sap.m.upload.UploadSetToolbarPlaceholder": {
+        "prefix": "!5-upload-set-toolbar-placeholder",
+        "body": [
+            "<UploadSetToolbarPlaceholder ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.upload.UploadSetToolbarPlaceholder"
+    },
+    "sap.m.upload.UploadSetToolbarPlaceholder-properties": {
+        "prefix": "!5-upload-set-toolbar-placeholder-properties",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.m.upload.UploadSetToolbarPlaceholder with non-inherited properties"
+    },
+    "sap.m.upload.UploadSetToolbarPlaceholder-aggregations": {
+        "prefix": "!5-upload-set-toolbar-placeholder-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.m.upload.UploadSetToolbarPlaceholder with non-inherited aggregations"
+    },
+    "sap.m.upload.UploadSetToolbarPlaceholder-events": {
+        "prefix": "!5-upload-set-toolbar-placeholder-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.m.upload.UploadSetToolbarPlaceholder with non-inherited events"
+    },
+    "sap.m.upload.UploadSetToolbarPlaceholder-all": {
+        "prefix": "!5-upload-set-toolbar-placeholder-all",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.m.upload.UploadSetToolbarPlaceholder with non-inherited properties, aggregations and events"
+    }
+}

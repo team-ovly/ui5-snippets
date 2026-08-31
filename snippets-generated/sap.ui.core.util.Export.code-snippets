@@ -1,0 +1,62 @@
+{
+    "sap.ui.core.util.Export": {
+        "prefix": "!5-export",
+        "body": [
+            "<Export ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.core.util.Export"
+    },
+    "sap.ui.core.util.Export-properties": {
+        "prefix": "!5-export-properties",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.core.util.Export with non-inherited properties"
+    },
+    "sap.ui.core.util.Export-aggregations": {
+        "prefix": "!5-export-aggregations",
+        "body": [
+            "$1<exportType>",
+            "\t<!-- <sap.ui.core.util.ExportType /> -->",
+            "</exportType>",
+            "<columns>",
+            "\t<!-- <sap.ui.core.util.ExportColumn /> -->",
+            "</columns>",
+            "<rows>",
+            "\t<!-- <sap.ui.core.util.ExportRow /> -->",
+            "</rows>",
+            "<_template>",
+            "\t<!-- <sap.ui.core.util.ExportRow /> -->",
+            "</_template>",
+            "$2"
+        ],
+        "description": "sap.ui.core.util.Export with non-inherited aggregations"
+    },
+    "sap.ui.core.util.Export-events": {
+        "prefix": "!5-export-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.core.util.Export with non-inherited events"
+    },
+    "sap.ui.core.util.Export-all": {
+        "prefix": "!5-export-all",
+        "body": [
+            "$1<exportType>",
+            "\t<!-- <sap.ui.core.util.ExportType /> -->",
+            "</exportType>",
+            "<columns>",
+            "\t<!-- <sap.ui.core.util.ExportColumn /> -->",
+            "</columns>",
+            "<rows>",
+            "\t<!-- <sap.ui.core.util.ExportRow /> -->",
+            "</rows>",
+            "<_template>",
+            "\t<!-- <sap.ui.core.util.ExportRow /> -->",
+            "</_template>$2"
+        ],
+        "description": "sap.ui.core.util.Export with non-inherited properties, aggregations and events"
+    }
+}

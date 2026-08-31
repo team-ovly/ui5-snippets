@@ -1,0 +1,68 @@
+{
+    "sap.m.NumericContent": {
+        "prefix": "!5-numeric-content",
+        "body": [
+            "<NumericContent ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.NumericContent"
+    },
+    "sap.m.NumericContent-properties": {
+        "prefix": "!5-numeric-content-properties",
+        "body": [
+            "$1animateTextChange=\"true\"",
+            "formatterValue=\"false\"",
+            "icon=\"\"",
+            "iconDescription=\"\"",
+            "indicator=\"None\"",
+            "nullifyValue=\"true\"",
+            "scale=\"\"",
+            "size=\"Auto\"",
+            "truncateValueTo=\"\"",
+            "value=\"\"",
+            "valueColor=\"Neutral\"",
+            "width=\"\"",
+            "withMargin=\"true\"",
+            "state=\"Loaded\"",
+            "adaptiveFontSize=\"true\"$2"
+        ],
+        "description": "sap.m.NumericContent with non-inherited properties"
+    },
+    "sap.m.NumericContent-aggregations": {
+        "prefix": "!5-numeric-content-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.m.NumericContent with non-inherited aggregations"
+    },
+    "sap.m.NumericContent-events": {
+        "prefix": "!5-numeric-content-events",
+        "body": [
+            "$1press=\".on${3:Press}\"$2"
+        ],
+        "description": "sap.m.NumericContent with non-inherited events"
+    },
+    "sap.m.NumericContent-all": {
+        "prefix": "!5-numeric-content-all",
+        "body": [
+            "$1animateTextChange=\"true\"",
+            "formatterValue=\"false\"",
+            "icon=\"\"",
+            "iconDescription=\"\"",
+            "indicator=\"None\"",
+            "nullifyValue=\"true\"",
+            "scale=\"\"",
+            "size=\"Auto\"",
+            "truncateValueTo=\"\"",
+            "value=\"\"",
+            "valueColor=\"Neutral\"",
+            "width=\"\"",
+            "withMargin=\"true\"",
+            "state=\"Loaded\"",
+            "adaptiveFontSize=\"true\"",
+            "press=\".on${3:Press}\"$2"
+        ],
+        "description": "sap.m.NumericContent with non-inherited properties, aggregations and events"
+    }
+}

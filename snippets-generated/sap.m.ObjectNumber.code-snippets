@@ -1,0 +1,64 @@
+{
+    "sap.m.ObjectNumber": {
+        "prefix": "!5-object-number",
+        "body": [
+            "<ObjectNumber ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.ObjectNumber"
+    },
+    "sap.m.ObjectNumber-properties": {
+        "prefix": "!5-object-number-properties",
+        "body": [
+            "$1number=\"\"",
+            "numberUnit=\"\"",
+            "emphasized=\"true\"",
+            "state=\"None\"",
+            "unit=\"\"",
+            "textDirection=\"Inherit\"",
+            "textAlign=\"Begin\"",
+            "active=\"false\"",
+            "reactiveAreaMode=\"Inline\"",
+            "inverted=\"false\"",
+            "emptyIndicatorMode=\"Off\"$2"
+        ],
+        "description": "sap.m.ObjectNumber with non-inherited properties"
+    },
+    "sap.m.ObjectNumber-aggregations": {
+        "prefix": "!5-object-number-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.m.ObjectNumber with non-inherited aggregations"
+    },
+    "sap.m.ObjectNumber-events": {
+        "prefix": "!5-object-number-events",
+        "body": [
+            "$1press=\".on${3:Press}\"",
+            "ariaLabelledBy=\".on${4:AriaLabelledBy}\"",
+            "ariaDescribedBy=\".on${5:AriaDescribedBy}\"$2"
+        ],
+        "description": "sap.m.ObjectNumber with non-inherited events"
+    },
+    "sap.m.ObjectNumber-all": {
+        "prefix": "!5-object-number-all",
+        "body": [
+            "$1number=\"\"",
+            "numberUnit=\"\"",
+            "emphasized=\"true\"",
+            "state=\"None\"",
+            "unit=\"\"",
+            "textDirection=\"Inherit\"",
+            "textAlign=\"Begin\"",
+            "active=\"false\"",
+            "reactiveAreaMode=\"Inline\"",
+            "inverted=\"false\"",
+            "emptyIndicatorMode=\"Off\"",
+            "press=\".on${3:Press}\"",
+            "ariaLabelledBy=\".on${4:AriaLabelledBy}\"",
+            "ariaDescribedBy=\".on${5:AriaDescribedBy}\"$2"
+        ],
+        "description": "sap.m.ObjectNumber with non-inherited properties, aggregations and events"
+    }
+}

@@ -1,0 +1,60 @@
+{
+    "sap.ui.commons.RadioButton": {
+        "prefix": "!5-radio-button",
+        "body": [
+            "<RadioButton ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.commons.RadioButton"
+    },
+    "sap.ui.commons.RadioButton-properties": {
+        "prefix": "!5-radio-button-properties",
+        "body": [
+            "$1text=\"\"",
+            "enabled=\"true\"",
+            "editable=\"true\"",
+            "selected=\"false\"",
+            "valueState=\"None\"",
+            "width=\"\"",
+            "textDirection=\"Inherit\"",
+            "groupName=\"sapUiRbDefaultGroup\"",
+            "key=\"\"$2"
+        ],
+        "description": "sap.ui.commons.RadioButton with non-inherited properties"
+    },
+    "sap.ui.commons.RadioButton-aggregations": {
+        "prefix": "!5-radio-button-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.commons.RadioButton with non-inherited aggregations"
+    },
+    "sap.ui.commons.RadioButton-events": {
+        "prefix": "!5-radio-button-events",
+        "body": [
+            "$1select=\".on${3:Select}\"",
+            "ariaDescribedBy=\".on${4:AriaDescribedBy}\"",
+            "ariaLabelledBy=\".on${5:AriaLabelledBy}\"$2"
+        ],
+        "description": "sap.ui.commons.RadioButton with non-inherited events"
+    },
+    "sap.ui.commons.RadioButton-all": {
+        "prefix": "!5-radio-button-all",
+        "body": [
+            "$1text=\"\"",
+            "enabled=\"true\"",
+            "editable=\"true\"",
+            "selected=\"false\"",
+            "valueState=\"None\"",
+            "width=\"\"",
+            "textDirection=\"Inherit\"",
+            "groupName=\"sapUiRbDefaultGroup\"",
+            "key=\"\"",
+            "select=\".on${3:Select}\"",
+            "ariaDescribedBy=\".on${4:AriaDescribedBy}\"",
+            "ariaLabelledBy=\".on${5:AriaLabelledBy}\"$2"
+        ],
+        "description": "sap.ui.commons.RadioButton with non-inherited properties, aggregations and events"
+    }
+}

@@ -1,0 +1,65 @@
+{
+    "sap.tnt.ToolPage": {
+        "prefix": "!5-tool-page",
+        "body": [
+            "<ToolPage ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.tnt.ToolPage"
+    },
+    "sap.tnt.ToolPage-properties": {
+        "prefix": "!5-tool-page-properties",
+        "body": [
+            "$1sideExpanded=\"true\"",
+            "contentBackgroundDesign=\"Standard\"$2"
+        ],
+        "description": "sap.tnt.ToolPage with non-inherited properties"
+    },
+    "sap.tnt.ToolPage-aggregations": {
+        "prefix": "!5-tool-page-aggregations",
+        "body": [
+            "$1<header>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</header>",
+            "<subHeader>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</subHeader>",
+            "<sideContent>",
+            "\t<!-- <sap.tnt.SideNavigation /> -->",
+            "</sideContent>",
+            "<mainContents>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</mainContents>",
+            "$2"
+        ],
+        "description": "sap.tnt.ToolPage with non-inherited aggregations"
+    },
+    "sap.tnt.ToolPage-events": {
+        "prefix": "!5-tool-page-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.tnt.ToolPage with non-inherited events"
+    },
+    "sap.tnt.ToolPage-all": {
+        "prefix": "!5-tool-page-all",
+        "body": [
+            "$1sideExpanded=\"true\"",
+            "contentBackgroundDesign=\"Standard\"",
+            "<header>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</header>",
+            "<subHeader>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</subHeader>",
+            "<sideContent>",
+            "\t<!-- <sap.tnt.SideNavigation /> -->",
+            "</sideContent>",
+            "<mainContents>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</mainContents>$2"
+        ],
+        "description": "sap.tnt.ToolPage with non-inherited properties, aggregations and events"
+    }
+}

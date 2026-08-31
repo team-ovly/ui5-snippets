@@ -1,0 +1,65 @@
+{
+    "sap.m.NotificationListItem": {
+        "prefix": "!5-notification-list-item",
+        "body": [
+            "<NotificationListItem ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.NotificationListItem"
+    },
+    "sap.m.NotificationListItem-properties": {
+        "prefix": "!5-notification-list-item-properties",
+        "body": [
+            "$1description=\"\"",
+            "authorInitials=\"\"",
+            "truncate=\"true\"",
+            "hideShowMoreButton=\"false\"",
+            "authorAvatarColor=\"Accent6\"",
+            "authorName=\"\"",
+            "authorPicture=\"\"",
+            "datetime=\"\"$2"
+        ],
+        "description": "sap.m.NotificationListItem with non-inherited properties"
+    },
+    "sap.m.NotificationListItem-aggregations": {
+        "prefix": "!5-notification-list-item-aggregations",
+        "body": [
+            "$1<processingMessage>",
+            "\t<!-- <sap.m.MessageStrip /> -->",
+            "</processingMessage>",
+            "<_showMoreButton>",
+            "\t<!-- <sap.m.Link /> -->",
+            "</_showMoreButton>",
+            "$2"
+        ],
+        "description": "sap.m.NotificationListItem with non-inherited aggregations"
+    },
+    "sap.m.NotificationListItem-events": {
+        "prefix": "!5-notification-list-item-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.m.NotificationListItem with non-inherited events"
+    },
+    "sap.m.NotificationListItem-all": {
+        "prefix": "!5-notification-list-item-all",
+        "body": [
+            "$1description=\"\"",
+            "authorInitials=\"\"",
+            "truncate=\"true\"",
+            "hideShowMoreButton=\"false\"",
+            "authorAvatarColor=\"Accent6\"",
+            "authorName=\"\"",
+            "authorPicture=\"\"",
+            "datetime=\"\"",
+            "<processingMessage>",
+            "\t<!-- <sap.m.MessageStrip /> -->",
+            "</processingMessage>",
+            "<_showMoreButton>",
+            "\t<!-- <sap.m.Link /> -->",
+            "</_showMoreButton>$2"
+        ],
+        "description": "sap.m.NotificationListItem with non-inherited properties, aggregations and events"
+    }
+}

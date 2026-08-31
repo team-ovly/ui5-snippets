@@ -1,0 +1,66 @@
+{
+    "sap.ui.layout.form.Form": {
+        "prefix": "!5-form",
+        "body": [
+            "<Form ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.layout.form.Form"
+    },
+    "sap.ui.layout.form.Form-properties": {
+        "prefix": "!5-form-properties",
+        "body": [
+            "$1width=\"\"",
+            "editable=\"false\"$2"
+        ],
+        "description": "sap.ui.layout.form.Form with non-inherited properties"
+    },
+    "sap.ui.layout.form.Form-aggregations": {
+        "prefix": "!5-form-aggregations",
+        "body": [
+            "$1<formContainers>",
+            "\t<!-- <sap.ui.layout.form.FormContainer /> -->",
+            "</formContainers>",
+            "<title>",
+            "\t<!-- <sap.ui.core.Title /> -->",
+            "</title>",
+            "<toolbar>",
+            "\t<!-- <sap.ui.core.Toolbar /> -->",
+            "</toolbar>",
+            "<layout>",
+            "\t<!-- <sap.ui.layout.form.FormLayout /> -->",
+            "</layout>",
+            "$2"
+        ],
+        "description": "sap.ui.layout.form.Form with non-inherited aggregations"
+    },
+    "sap.ui.layout.form.Form-events": {
+        "prefix": "!5-form-events",
+        "body": [
+            "$1ariaLabelledBy=\".on${3:AriaLabelledBy}\"$2"
+        ],
+        "description": "sap.ui.layout.form.Form with non-inherited events"
+    },
+    "sap.ui.layout.form.Form-all": {
+        "prefix": "!5-form-all",
+        "body": [
+            "$1width=\"\"",
+            "editable=\"false\"",
+            "<formContainers>",
+            "\t<!-- <sap.ui.layout.form.FormContainer /> -->",
+            "</formContainers>",
+            "<title>",
+            "\t<!-- <sap.ui.core.Title /> -->",
+            "</title>",
+            "<toolbar>",
+            "\t<!-- <sap.ui.core.Toolbar /> -->",
+            "</toolbar>",
+            "<layout>",
+            "\t<!-- <sap.ui.layout.form.FormLayout /> -->",
+            "</layout>",
+            "ariaLabelledBy=\".on${3:AriaLabelledBy}\"$2"
+        ],
+        "description": "sap.ui.layout.form.Form with non-inherited properties, aggregations and events"
+    }
+}

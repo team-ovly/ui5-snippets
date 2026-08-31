@@ -1,0 +1,84 @@
+{
+    "sap.m.SelectDialog": {
+        "prefix": "!5-select-dialog",
+        "body": [
+            "<SelectDialog ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.SelectDialog"
+    },
+    "sap.m.SelectDialog-properties": {
+        "prefix": "!5-select-dialog-properties",
+        "body": [
+            "$1title=\"\"",
+            "noDataText=\"\"",
+            "multiSelect=\"false\"",
+            "growingThreshold=\"\"",
+            "growing=\"true\"",
+            "contentWidth=\"\"",
+            "rememberSelections=\"false\"",
+            "contentHeight=\"\"",
+            "showClearButton=\"false\"",
+            "confirmButtonText=\"\"",
+            "draggable=\"false\"",
+            "resizable=\"false\"",
+            "titleAlignment=\"Auto\"",
+            "searchPlaceholder=\"\"$2"
+        ],
+        "description": "sap.m.SelectDialog with non-inherited properties"
+    },
+    "sap.m.SelectDialog-aggregations": {
+        "prefix": "!5-select-dialog-aggregations",
+        "body": [
+            "$1<items>",
+            "\t<!-- <sap.m.ListItemBase /> -->",
+            "</items>",
+            "<_dialog>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</_dialog>",
+            "$2"
+        ],
+        "description": "sap.m.SelectDialog with non-inherited aggregations"
+    },
+    "sap.m.SelectDialog-events": {
+        "prefix": "!5-select-dialog-events",
+        "body": [
+            "$1confirm=\".on${3:Confirm}\"",
+            "search=\".on${4:Search}\"",
+            "liveChange=\".on${5:LiveChange}\"",
+            "cancel=\".on${6:Cancel}\"$2"
+        ],
+        "description": "sap.m.SelectDialog with non-inherited events"
+    },
+    "sap.m.SelectDialog-all": {
+        "prefix": "!5-select-dialog-all",
+        "body": [
+            "$1title=\"\"",
+            "noDataText=\"\"",
+            "multiSelect=\"false\"",
+            "growingThreshold=\"\"",
+            "growing=\"true\"",
+            "contentWidth=\"\"",
+            "rememberSelections=\"false\"",
+            "contentHeight=\"\"",
+            "showClearButton=\"false\"",
+            "confirmButtonText=\"\"",
+            "draggable=\"false\"",
+            "resizable=\"false\"",
+            "titleAlignment=\"Auto\"",
+            "searchPlaceholder=\"\"",
+            "<items>",
+            "\t<!-- <sap.m.ListItemBase /> -->",
+            "</items>",
+            "<_dialog>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</_dialog>",
+            "confirm=\".on${3:Confirm}\"",
+            "search=\".on${4:Search}\"",
+            "liveChange=\".on${5:LiveChange}\"",
+            "cancel=\".on${6:Cancel}\"$2"
+        ],
+        "description": "sap.m.SelectDialog with non-inherited properties, aggregations and events"
+    }
+}

@@ -1,0 +1,65 @@
+{
+    "sap.m.QuickViewPage": {
+        "prefix": "!5-quick-view-page",
+        "body": [
+            "<QuickViewPage ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.QuickViewPage"
+    },
+    "sap.m.QuickViewPage-properties": {
+        "prefix": "!5-quick-view-page-properties",
+        "body": [
+            "$1pageId=\"\"",
+            "header=\"\"",
+            "title=\"\"",
+            "titleUrl=\"\"",
+            "crossAppNavCallback=\"\"",
+            "description=\"\"",
+            "icon=\"\"",
+            "fallbackIcon=\"\"$2"
+        ],
+        "description": "sap.m.QuickViewPage with non-inherited properties"
+    },
+    "sap.m.QuickViewPage-aggregations": {
+        "prefix": "!5-quick-view-page-aggregations",
+        "body": [
+            "$1<groups>",
+            "\t<!-- <sap.m.QuickViewGroup /> -->",
+            "</groups>",
+            "<avatar>",
+            "\t<!-- <sap.m.Avatar /> -->",
+            "</avatar>",
+            "$2"
+        ],
+        "description": "sap.m.QuickViewPage with non-inherited aggregations"
+    },
+    "sap.m.QuickViewPage-events": {
+        "prefix": "!5-quick-view-page-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.m.QuickViewPage with non-inherited events"
+    },
+    "sap.m.QuickViewPage-all": {
+        "prefix": "!5-quick-view-page-all",
+        "body": [
+            "$1pageId=\"\"",
+            "header=\"\"",
+            "title=\"\"",
+            "titleUrl=\"\"",
+            "crossAppNavCallback=\"\"",
+            "description=\"\"",
+            "icon=\"\"",
+            "fallbackIcon=\"\"",
+            "<groups>",
+            "\t<!-- <sap.m.QuickViewGroup /> -->",
+            "</groups>",
+            "<avatar>",
+            "\t<!-- <sap.m.Avatar /> -->",
+            "</avatar>$2"
+        ],
+        "description": "sap.m.QuickViewPage with non-inherited properties, aggregations and events"
+    }
+}

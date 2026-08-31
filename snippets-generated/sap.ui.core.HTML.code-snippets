@@ -1,0 +1,46 @@
+{
+    "sap.ui.core.HTML": {
+        "prefix": "!5-html",
+        "body": [
+            "<HTML ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.core.HTML"
+    },
+    "sap.ui.core.HTML-properties": {
+        "prefix": "!5-html-properties",
+        "body": [
+            "$1content=\"\"",
+            "preferDOM=\"true\"",
+            "sanitizeContent=\"false\"",
+            "visible=\"true\"$2"
+        ],
+        "description": "sap.ui.core.HTML with non-inherited properties"
+    },
+    "sap.ui.core.HTML-aggregations": {
+        "prefix": "!5-html-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.core.HTML with non-inherited aggregations"
+    },
+    "sap.ui.core.HTML-events": {
+        "prefix": "!5-html-events",
+        "body": [
+            "$1afterRendering=\".on${3:AfterRendering}\"$2"
+        ],
+        "description": "sap.ui.core.HTML with non-inherited events"
+    },
+    "sap.ui.core.HTML-all": {
+        "prefix": "!5-html-all",
+        "body": [
+            "$1content=\"\"",
+            "preferDOM=\"true\"",
+            "sanitizeContent=\"false\"",
+            "visible=\"true\"",
+            "afterRendering=\".on${3:AfterRendering}\"$2"
+        ],
+        "description": "sap.ui.core.HTML with non-inherited properties, aggregations and events"
+    }
+}

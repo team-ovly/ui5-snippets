@@ -1,0 +1,39 @@
+{
+    "sap.m.Tree": {
+        "prefix": "!5-tree",
+        "body": [
+            "<Tree ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.Tree"
+    },
+    "sap.m.Tree-properties": {
+        "prefix": "!5-tree-properties",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.m.Tree with non-inherited properties"
+    },
+    "sap.m.Tree-aggregations": {
+        "prefix": "!5-tree-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.m.Tree with non-inherited aggregations"
+    },
+    "sap.m.Tree-events": {
+        "prefix": "!5-tree-events",
+        "body": [
+            "$1toggleOpenState=\".on${3:ToggleOpenState}\"$2"
+        ],
+        "description": "sap.m.Tree with non-inherited events"
+    },
+    "sap.m.Tree-all": {
+        "prefix": "!5-tree-all",
+        "body": [
+            "$1toggleOpenState=\".on${3:ToggleOpenState}\"$2"
+        ],
+        "description": "sap.m.Tree with non-inherited properties, aggregations and events"
+    }
+}

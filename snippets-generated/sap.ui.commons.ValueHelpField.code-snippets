@@ -1,0 +1,44 @@
+{
+    "sap.ui.commons.ValueHelpField": {
+        "prefix": "!5-value-help-field",
+        "body": [
+            "<ValueHelpField ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.commons.ValueHelpField"
+    },
+    "sap.ui.commons.ValueHelpField-properties": {
+        "prefix": "!5-value-help-field-properties",
+        "body": [
+            "$1iconURL=\"\"",
+            "iconHoverURL=\"\"",
+            "iconDisabledURL=\"\"$2"
+        ],
+        "description": "sap.ui.commons.ValueHelpField with non-inherited properties"
+    },
+    "sap.ui.commons.ValueHelpField-aggregations": {
+        "prefix": "!5-value-help-field-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.commons.ValueHelpField with non-inherited aggregations"
+    },
+    "sap.ui.commons.ValueHelpField-events": {
+        "prefix": "!5-value-help-field-events",
+        "body": [
+            "$1valueHelpRequest=\".on${3:ValueHelpRequest}\"$2"
+        ],
+        "description": "sap.ui.commons.ValueHelpField with non-inherited events"
+    },
+    "sap.ui.commons.ValueHelpField-all": {
+        "prefix": "!5-value-help-field-all",
+        "body": [
+            "$1iconURL=\"\"",
+            "iconHoverURL=\"\"",
+            "iconDisabledURL=\"\"",
+            "valueHelpRequest=\".on${3:ValueHelpRequest}\"$2"
+        ],
+        "description": "sap.ui.commons.ValueHelpField with non-inherited properties, aggregations and events"
+    }
+}

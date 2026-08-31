@@ -1,0 +1,40 @@
+{
+    "sap.m.Tile": {
+        "prefix": "!5-tile",
+        "body": [
+            "<Tile ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.Tile"
+    },
+    "sap.m.Tile-properties": {
+        "prefix": "!5-tile-properties",
+        "body": [
+            "$1removable=\"true\"$2"
+        ],
+        "description": "sap.m.Tile with non-inherited properties"
+    },
+    "sap.m.Tile-aggregations": {
+        "prefix": "!5-tile-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.m.Tile with non-inherited aggregations"
+    },
+    "sap.m.Tile-events": {
+        "prefix": "!5-tile-events",
+        "body": [
+            "$1press=\".on${3:Press}\"$2"
+        ],
+        "description": "sap.m.Tile with non-inherited events"
+    },
+    "sap.m.Tile-all": {
+        "prefix": "!5-tile-all",
+        "body": [
+            "$1removable=\"true\"",
+            "press=\".on${3:Press}\"$2"
+        ],
+        "description": "sap.m.Tile with non-inherited properties, aggregations and events"
+    }
+}

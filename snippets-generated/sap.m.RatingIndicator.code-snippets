@@ -1,0 +1,66 @@
+{
+    "sap.m.RatingIndicator": {
+        "prefix": "!5-rating-indicator",
+        "body": [
+            "<RatingIndicator ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.RatingIndicator"
+    },
+    "sap.m.RatingIndicator-properties": {
+        "prefix": "!5-rating-indicator-properties",
+        "body": [
+            "$1enabled=\"true\"",
+            "maxValue=\"5\"",
+            "value=\"0\"",
+            "iconSize=\"\"",
+            "iconSelected=\"\"",
+            "iconUnselected=\"\"",
+            "iconHovered=\"\"",
+            "visualMode=\"Half\"",
+            "displayOnly=\"false\"",
+            "editable=\"true\"",
+            "required=\"false\"$2"
+        ],
+        "description": "sap.m.RatingIndicator with non-inherited properties"
+    },
+    "sap.m.RatingIndicator-aggregations": {
+        "prefix": "!5-rating-indicator-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.m.RatingIndicator with non-inherited aggregations"
+    },
+    "sap.m.RatingIndicator-events": {
+        "prefix": "!5-rating-indicator-events",
+        "body": [
+            "$1change=\".on${3:Change}\"",
+            "liveChange=\".on${4:LiveChange}\"",
+            "ariaDescribedBy=\".on${5:AriaDescribedBy}\"",
+            "ariaLabelledBy=\".on${6:AriaLabelledBy}\"$2"
+        ],
+        "description": "sap.m.RatingIndicator with non-inherited events"
+    },
+    "sap.m.RatingIndicator-all": {
+        "prefix": "!5-rating-indicator-all",
+        "body": [
+            "$1enabled=\"true\"",
+            "maxValue=\"5\"",
+            "value=\"0\"",
+            "iconSize=\"\"",
+            "iconSelected=\"\"",
+            "iconUnselected=\"\"",
+            "iconHovered=\"\"",
+            "visualMode=\"Half\"",
+            "displayOnly=\"false\"",
+            "editable=\"true\"",
+            "required=\"false\"",
+            "change=\".on${3:Change}\"",
+            "liveChange=\".on${4:LiveChange}\"",
+            "ariaDescribedBy=\".on${5:AriaDescribedBy}\"",
+            "ariaLabelledBy=\".on${6:AriaLabelledBy}\"$2"
+        ],
+        "description": "sap.m.RatingIndicator with non-inherited properties, aggregations and events"
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "sap.ui.suite.TaskCircle": {
+        "prefix": "!5-task-circle",
+        "body": [
+            "<TaskCircle ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.suite.TaskCircle"
+    },
+    "sap.ui.suite.TaskCircle-properties": {
+        "prefix": "!5-task-circle-properties",
+        "body": [
+            "$1value=\"0\"",
+            "maxValue=\"100\"",
+            "minValue=\"0\"",
+            "color=\"Gray\"$2"
+        ],
+        "description": "sap.ui.suite.TaskCircle with non-inherited properties"
+    },
+    "sap.ui.suite.TaskCircle-aggregations": {
+        "prefix": "!5-task-circle-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.suite.TaskCircle with non-inherited aggregations"
+    },
+    "sap.ui.suite.TaskCircle-events": {
+        "prefix": "!5-task-circle-events",
+        "body": [
+            "$1press=\".on${3:Press}\"",
+            "ariaLabelledBy=\".on${4:AriaLabelledBy}\"",
+            "ariaDescribedBy=\".on${5:AriaDescribedBy}\"$2"
+        ],
+        "description": "sap.ui.suite.TaskCircle with non-inherited events"
+    },
+    "sap.ui.suite.TaskCircle-all": {
+        "prefix": "!5-task-circle-all",
+        "body": [
+            "$1value=\"0\"",
+            "maxValue=\"100\"",
+            "minValue=\"0\"",
+            "color=\"Gray\"",
+            "press=\".on${3:Press}\"",
+            "ariaLabelledBy=\".on${4:AriaLabelledBy}\"",
+            "ariaDescribedBy=\".on${5:AriaDescribedBy}\"$2"
+        ],
+        "description": "sap.ui.suite.TaskCircle with non-inherited properties, aggregations and events"
+    }
+}

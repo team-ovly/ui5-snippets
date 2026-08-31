@@ -1,0 +1,60 @@
+{
+    "sap.ui.ux3.Exact": {
+        "prefix": "!5-exact",
+        "body": [
+            "<Exact ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.ux3.Exact"
+    },
+    "sap.ui.ux3.Exact-properties": {
+        "prefix": "!5-exact-properties",
+        "body": [
+            "$1resultText=\"\"$2"
+        ],
+        "description": "sap.ui.ux3.Exact with non-inherited properties"
+    },
+    "sap.ui.ux3.Exact-aggregations": {
+        "prefix": "!5-exact-aggregations",
+        "body": [
+            "$1<settingsMenu>",
+            "\t<!-- <sap.ui.commons.Menu /> -->",
+            "</settingsMenu>",
+            "<attributes>",
+            "\t<!-- <sap.ui.ux3.ExactAttribute /> -->",
+            "</attributes>",
+            "<controls>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</controls>",
+            "$2"
+        ],
+        "description": "sap.ui.ux3.Exact with non-inherited aggregations"
+    },
+    "sap.ui.ux3.Exact-events": {
+        "prefix": "!5-exact-events",
+        "body": [
+            "$1search=\".on${3:Search}\"",
+            "refineSearch=\".on${4:RefineSearch}\"$2"
+        ],
+        "description": "sap.ui.ux3.Exact with non-inherited events"
+    },
+    "sap.ui.ux3.Exact-all": {
+        "prefix": "!5-exact-all",
+        "body": [
+            "$1resultText=\"\"",
+            "<settingsMenu>",
+            "\t<!-- <sap.ui.commons.Menu /> -->",
+            "</settingsMenu>",
+            "<attributes>",
+            "\t<!-- <sap.ui.ux3.ExactAttribute /> -->",
+            "</attributes>",
+            "<controls>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</controls>",
+            "search=\".on${3:Search}\"",
+            "refineSearch=\".on${4:RefineSearch}\"$2"
+        ],
+        "description": "sap.ui.ux3.Exact with non-inherited properties, aggregations and events"
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "sap.ui.core.ScrollBar": {
+        "prefix": "!5-scroll-bar",
+        "body": [
+            "<ScrollBar ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.core.ScrollBar"
+    },
+    "sap.ui.core.ScrollBar-properties": {
+        "prefix": "!5-scroll-bar-properties",
+        "body": [
+            "$1vertical=\"true\"",
+            "scrollPosition=\"\"",
+            "size=\"\"",
+            "contentSize=\"\"",
+            "steps=\"\"$2"
+        ],
+        "description": "sap.ui.core.ScrollBar with non-inherited properties"
+    },
+    "sap.ui.core.ScrollBar-aggregations": {
+        "prefix": "!5-scroll-bar-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.core.ScrollBar with non-inherited aggregations"
+    },
+    "sap.ui.core.ScrollBar-events": {
+        "prefix": "!5-scroll-bar-events",
+        "body": [
+            "$1scroll=\".on${3:Scroll}\"$2"
+        ],
+        "description": "sap.ui.core.ScrollBar with non-inherited events"
+    },
+    "sap.ui.core.ScrollBar-all": {
+        "prefix": "!5-scroll-bar-all",
+        "body": [
+            "$1vertical=\"true\"",
+            "scrollPosition=\"\"",
+            "size=\"\"",
+            "contentSize=\"\"",
+            "steps=\"\"",
+            "scroll=\".on${3:Scroll}\"$2"
+        ],
+        "description": "sap.ui.core.ScrollBar with non-inherited properties, aggregations and events"
+    }
+}

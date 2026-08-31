@@ -1,0 +1,67 @@
+{
+    "sap.ui.layout.cssgrid.CSSGrid": {
+        "prefix": "!5-cssgrid",
+        "body": [
+            "<CSSGrid ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.layout.cssgrid.CSSGrid"
+    },
+    "sap.ui.layout.cssgrid.CSSGrid-properties": {
+        "prefix": "!5-cssgrid-properties",
+        "body": [
+            "$1width=\"100%\"",
+            "gridTemplateColumns=\"\"",
+            "gridTemplateRows=\"\"",
+            "gridRowGap=\"\"",
+            "gridColumnGap=\"\"",
+            "gridGap=\"\"",
+            "gridAutoRows=\"\"",
+            "gridAutoColumns=\"\"",
+            "gridAutoFlow=\"Row\"$2"
+        ],
+        "description": "sap.ui.layout.cssgrid.CSSGrid with non-inherited properties"
+    },
+    "sap.ui.layout.cssgrid.CSSGrid-aggregations": {
+        "prefix": "!5-cssgrid-aggregations",
+        "body": [
+            "$1<customLayout>",
+            "\t<!-- <sap.ui.layout.cssgrid.GridLayoutBase /> -->",
+            "</customLayout>",
+            "<items>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</items>",
+            "$2"
+        ],
+        "description": "sap.ui.layout.cssgrid.CSSGrid with non-inherited aggregations"
+    },
+    "sap.ui.layout.cssgrid.CSSGrid-events": {
+        "prefix": "!5-cssgrid-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.layout.cssgrid.CSSGrid with non-inherited events"
+    },
+    "sap.ui.layout.cssgrid.CSSGrid-all": {
+        "prefix": "!5-cssgrid-all",
+        "body": [
+            "$1width=\"100%\"",
+            "gridTemplateColumns=\"\"",
+            "gridTemplateRows=\"\"",
+            "gridRowGap=\"\"",
+            "gridColumnGap=\"\"",
+            "gridGap=\"\"",
+            "gridAutoRows=\"\"",
+            "gridAutoColumns=\"\"",
+            "gridAutoFlow=\"Row\"",
+            "<customLayout>",
+            "\t<!-- <sap.ui.layout.cssgrid.GridLayoutBase /> -->",
+            "</customLayout>",
+            "<items>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</items>$2"
+        ],
+        "description": "sap.ui.layout.cssgrid.CSSGrid with non-inherited properties, aggregations and events"
+    }
+}

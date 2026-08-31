@@ -1,0 +1,104 @@
+{
+    "sap.ui.webc.fiori.ShellBar": {
+        "prefix": "!5-shell-bar",
+        "body": [
+            "<ShellBar ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.webc.fiori.ShellBar"
+    },
+    "sap.ui.webc.fiori.ShellBar-properties": {
+        "prefix": "!5-shell-bar-properties",
+        "body": [
+            "$1accessibilityAttributes=\"[object Object]\"",
+            "accessibilityRoles=\"[object Object]\"",
+            "accessibilityTexts=\"[object Object]\"",
+            "notificationsCount=\"\"",
+            "primaryTitle=\"\"",
+            "secondaryTitle=\"\"",
+            "showCoPilot=\"false\"",
+            "showNotifications=\"false\"",
+            "showProductSwitch=\"false\"",
+            "showSearchField=\"false\"$2"
+        ],
+        "description": "sap.ui.webc.fiori.ShellBar with non-inherited properties"
+    },
+    "sap.ui.webc.fiori.ShellBar-aggregations": {
+        "prefix": "!5-shell-bar-aggregations",
+        "body": [
+            "$1<items>",
+            "\t<!-- <sap.ui.webc.fiori.IShellBarItem /> -->",
+            "</items>",
+            "<logo>",
+            "\t<!-- <sap.ui.webc.main.IAvatar /> -->",
+            "</logo>",
+            "<menuItems>",
+            "\t<!-- <sap.ui.webc.main.IListItem /> -->",
+            "</menuItems>",
+            "<profile>",
+            "\t<!-- <sap.ui.webc.main.IAvatar /> -->",
+            "</profile>",
+            "<searchField>",
+            "\t<!-- <sap.ui.webc.main.IInput /> -->",
+            "</searchField>",
+            "<startButton>",
+            "\t<!-- <sap.ui.webc.main.IButton /> -->",
+            "</startButton>",
+            "$2"
+        ],
+        "description": "sap.ui.webc.fiori.ShellBar with non-inherited aggregations"
+    },
+    "sap.ui.webc.fiori.ShellBar-events": {
+        "prefix": "!5-shell-bar-events",
+        "body": [
+            "$1coPilotClick=\".on${3:CoPilotClick}\"",
+            "logoClick=\".on${4:LogoClick}\"",
+            "menuItemClick=\".on${5:MenuItemClick}\"",
+            "notificationsClick=\".on${6:NotificationsClick}\"",
+            "productSwitchClick=\".on${7:ProductSwitchClick}\"",
+            "profileClick=\".on${8:ProfileClick}\"$2"
+        ],
+        "description": "sap.ui.webc.fiori.ShellBar with non-inherited events"
+    },
+    "sap.ui.webc.fiori.ShellBar-all": {
+        "prefix": "!5-shell-bar-all",
+        "body": [
+            "$1accessibilityAttributes=\"[object Object]\"",
+            "accessibilityRoles=\"[object Object]\"",
+            "accessibilityTexts=\"[object Object]\"",
+            "notificationsCount=\"\"",
+            "primaryTitle=\"\"",
+            "secondaryTitle=\"\"",
+            "showCoPilot=\"false\"",
+            "showNotifications=\"false\"",
+            "showProductSwitch=\"false\"",
+            "showSearchField=\"false\"",
+            "<items>",
+            "\t<!-- <sap.ui.webc.fiori.IShellBarItem /> -->",
+            "</items>",
+            "<logo>",
+            "\t<!-- <sap.ui.webc.main.IAvatar /> -->",
+            "</logo>",
+            "<menuItems>",
+            "\t<!-- <sap.ui.webc.main.IListItem /> -->",
+            "</menuItems>",
+            "<profile>",
+            "\t<!-- <sap.ui.webc.main.IAvatar /> -->",
+            "</profile>",
+            "<searchField>",
+            "\t<!-- <sap.ui.webc.main.IInput /> -->",
+            "</searchField>",
+            "<startButton>",
+            "\t<!-- <sap.ui.webc.main.IButton /> -->",
+            "</startButton>",
+            "coPilotClick=\".on${3:CoPilotClick}\"",
+            "logoClick=\".on${4:LogoClick}\"",
+            "menuItemClick=\".on${5:MenuItemClick}\"",
+            "notificationsClick=\".on${6:NotificationsClick}\"",
+            "productSwitchClick=\".on${7:ProductSwitchClick}\"",
+            "profileClick=\".on${8:ProfileClick}\"$2"
+        ],
+        "description": "sap.ui.webc.fiori.ShellBar with non-inherited properties, aggregations and events"
+    }
+}

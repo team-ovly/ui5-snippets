@@ -1,0 +1,68 @@
+{
+    "sap.m.SlideTile": {
+        "prefix": "!5-slide-tile",
+        "body": [
+            "<SlideTile ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.SlideTile"
+    },
+    "sap.m.SlideTile-properties": {
+        "prefix": "!5-slide-tile-properties",
+        "body": [
+            "$1displayTime=\"5000\"",
+            "transitionTime=\"500\"",
+            "scope=\"Display\"",
+            "sizeBehavior=\"Responsive\"",
+            "width=\"\"",
+            "height=\"\"$2"
+        ],
+        "description": "sap.m.SlideTile with non-inherited properties"
+    },
+    "sap.m.SlideTile-aggregations": {
+        "prefix": "!5-slide-tile-aggregations",
+        "body": [
+            "$1<tiles>",
+            "\t<!-- <sap.m.GenericTile /> -->",
+            "</tiles>",
+            "<_pausePlayIcon>",
+            "\t<!-- <sap.ui.core.Icon /> -->",
+            "</_pausePlayIcon>",
+            "<_invisibleText>",
+            "\t<!-- <sap.ui.core.InvisibleText /> -->",
+            "</_invisibleText>",
+            "$2"
+        ],
+        "description": "sap.m.SlideTile with non-inherited aggregations"
+    },
+    "sap.m.SlideTile-events": {
+        "prefix": "!5-slide-tile-events",
+        "body": [
+            "$1press=\".on${3:Press}\"$2"
+        ],
+        "description": "sap.m.SlideTile with non-inherited events"
+    },
+    "sap.m.SlideTile-all": {
+        "prefix": "!5-slide-tile-all",
+        "body": [
+            "$1displayTime=\"5000\"",
+            "transitionTime=\"500\"",
+            "scope=\"Display\"",
+            "sizeBehavior=\"Responsive\"",
+            "width=\"\"",
+            "height=\"\"",
+            "<tiles>",
+            "\t<!-- <sap.m.GenericTile /> -->",
+            "</tiles>",
+            "<_pausePlayIcon>",
+            "\t<!-- <sap.ui.core.Icon /> -->",
+            "</_pausePlayIcon>",
+            "<_invisibleText>",
+            "\t<!-- <sap.ui.core.InvisibleText /> -->",
+            "</_invisibleText>",
+            "press=\".on${3:Press}\"$2"
+        ],
+        "description": "sap.m.SlideTile with non-inherited properties, aggregations and events"
+    }
+}

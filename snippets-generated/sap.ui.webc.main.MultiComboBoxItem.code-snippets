@@ -1,0 +1,43 @@
+{
+    "sap.ui.webc.main.MultiComboBoxItem": {
+        "prefix": "!5-multi-combo-box-item",
+        "body": [
+            "<MultiComboBoxItem ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.webc.main.MultiComboBoxItem"
+    },
+    "sap.ui.webc.main.MultiComboBoxItem-properties": {
+        "prefix": "!5-multi-combo-box-item-properties",
+        "body": [
+            "$1additionalText=\"\"",
+            "selected=\"false\"",
+            "text=\"\"$2"
+        ],
+        "description": "sap.ui.webc.main.MultiComboBoxItem with non-inherited properties"
+    },
+    "sap.ui.webc.main.MultiComboBoxItem-aggregations": {
+        "prefix": "!5-multi-combo-box-item-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.webc.main.MultiComboBoxItem with non-inherited aggregations"
+    },
+    "sap.ui.webc.main.MultiComboBoxItem-events": {
+        "prefix": "!5-multi-combo-box-item-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.webc.main.MultiComboBoxItem with non-inherited events"
+    },
+    "sap.ui.webc.main.MultiComboBoxItem-all": {
+        "prefix": "!5-multi-combo-box-item-all",
+        "body": [
+            "$1additionalText=\"\"",
+            "selected=\"false\"",
+            "text=\"\"$2"
+        ],
+        "description": "sap.ui.webc.main.MultiComboBoxItem with non-inherited properties, aggregations and events"
+    }
+}

@@ -1,0 +1,88 @@
+{
+    "sap.m.IllustratedMessage": {
+        "prefix": "!5-illustrated-message",
+        "body": [
+            "<IllustratedMessage ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.IllustratedMessage"
+    },
+    "sap.m.IllustratedMessage-properties": {
+        "prefix": "!5-illustrated-message-properties",
+        "body": [
+            "$1description=\"\"",
+            "enableDefaultTitleAndDescription=\"true\"",
+            "enableFormattedText=\"false\"",
+            "enableVerticalResponsiveness=\"false\"",
+            "illustrationSize=\"Auto\"",
+            "illustrationType=\"sap.m.IllustratedMessageType.NoSearchResults\"",
+            "src=\"\"",
+            "title=\"\"",
+            "ariaTitleLevel=\"Auto\"$2"
+        ],
+        "description": "sap.m.IllustratedMessage with non-inherited properties"
+    },
+    "sap.m.IllustratedMessage-aggregations": {
+        "prefix": "!5-illustrated-message-aggregations",
+        "body": [
+            "$1<additionalContent>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</additionalContent>",
+            "<_formattedText>",
+            "\t<!-- <sap.m.FormattedText /> -->",
+            "</_formattedText>",
+            "<_illustration>",
+            "\t<!-- <sap.m.Illustration /> -->",
+            "</_illustration>",
+            "<_text>",
+            "\t<!-- <sap.m.Text /> -->",
+            "</_text>",
+            "<_title>",
+            "\t<!-- <sap.m.Title /> -->",
+            "</_title>",
+            "$2"
+        ],
+        "description": "sap.m.IllustratedMessage with non-inherited aggregations"
+    },
+    "sap.m.IllustratedMessage-events": {
+        "prefix": "!5-illustrated-message-events",
+        "body": [
+            "$1illustrationAriaLabelledBy=\".on${3:IllustrationAriaLabelledBy}\"",
+            "illustrationAriaDescribedBy=\".on${4:IllustrationAriaDescribedBy}\"$2"
+        ],
+        "description": "sap.m.IllustratedMessage with non-inherited events"
+    },
+    "sap.m.IllustratedMessage-all": {
+        "prefix": "!5-illustrated-message-all",
+        "body": [
+            "$1description=\"\"",
+            "enableDefaultTitleAndDescription=\"true\"",
+            "enableFormattedText=\"false\"",
+            "enableVerticalResponsiveness=\"false\"",
+            "illustrationSize=\"Auto\"",
+            "illustrationType=\"sap.m.IllustratedMessageType.NoSearchResults\"",
+            "src=\"\"",
+            "title=\"\"",
+            "ariaTitleLevel=\"Auto\"",
+            "<additionalContent>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</additionalContent>",
+            "<_formattedText>",
+            "\t<!-- <sap.m.FormattedText /> -->",
+            "</_formattedText>",
+            "<_illustration>",
+            "\t<!-- <sap.m.Illustration /> -->",
+            "</_illustration>",
+            "<_text>",
+            "\t<!-- <sap.m.Text /> -->",
+            "</_text>",
+            "<_title>",
+            "\t<!-- <sap.m.Title /> -->",
+            "</_title>",
+            "illustrationAriaLabelledBy=\".on${3:IllustrationAriaLabelledBy}\"",
+            "illustrationAriaDescribedBy=\".on${4:IllustrationAriaDescribedBy}\"$2"
+        ],
+        "description": "sap.m.IllustratedMessage with non-inherited properties, aggregations and events"
+    }
+}

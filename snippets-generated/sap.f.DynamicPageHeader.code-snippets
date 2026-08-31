@@ -1,0 +1,59 @@
+{
+    "sap.f.DynamicPageHeader": {
+        "prefix": "!5-dynamic-page-header",
+        "body": [
+            "<DynamicPageHeader ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.f.DynamicPageHeader"
+    },
+    "sap.f.DynamicPageHeader-properties": {
+        "prefix": "!5-dynamic-page-header-properties",
+        "body": [
+            "$1pinnable=\"true\"",
+            "backgroundDesign=\"\"$2"
+        ],
+        "description": "sap.f.DynamicPageHeader with non-inherited properties"
+    },
+    "sap.f.DynamicPageHeader-aggregations": {
+        "prefix": "!5-dynamic-page-header-aggregations",
+        "body": [
+            "$1<content>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</content>",
+            "<_pinButton>",
+            "\t<!-- <sap.m.Button /> -->",
+            "</_pinButton>",
+            "<_collapseButton>",
+            "\t<!-- <sap.m.Button /> -->",
+            "</_collapseButton>",
+            "$2"
+        ],
+        "description": "sap.f.DynamicPageHeader with non-inherited aggregations"
+    },
+    "sap.f.DynamicPageHeader-events": {
+        "prefix": "!5-dynamic-page-header-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.f.DynamicPageHeader with non-inherited events"
+    },
+    "sap.f.DynamicPageHeader-all": {
+        "prefix": "!5-dynamic-page-header-all",
+        "body": [
+            "$1pinnable=\"true\"",
+            "backgroundDesign=\"\"",
+            "<content>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</content>",
+            "<_pinButton>",
+            "\t<!-- <sap.m.Button /> -->",
+            "</_pinButton>",
+            "<_collapseButton>",
+            "\t<!-- <sap.m.Button /> -->",
+            "</_collapseButton>$2"
+        ],
+        "description": "sap.f.DynamicPageHeader with non-inherited properties, aggregations and events"
+    }
+}

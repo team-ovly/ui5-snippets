@@ -1,0 +1,66 @@
+{
+    "sap.m.Shell": {
+        "prefix": "!5-shell",
+        "body": [
+            "<Shell ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.Shell"
+    },
+    "sap.m.Shell-properties": {
+        "prefix": "!5-shell-properties",
+        "body": [
+            "$1title=\"\"",
+            "logo=\"\"",
+            "showLogout=\"true\"",
+            "headerRightText=\"\"",
+            "appWidthLimited=\"true\"",
+            "backgroundColor=\"\"",
+            "backgroundImage=\"\"",
+            "backgroundRepeat=\"false\"",
+            "backgroundOpacity=\"1\"",
+            "homeIcon=\"\"",
+            "titleLevel=\"H1\"$2"
+        ],
+        "description": "sap.m.Shell with non-inherited properties"
+    },
+    "sap.m.Shell-aggregations": {
+        "prefix": "!5-shell-aggregations",
+        "body": [
+            "$1<app>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</app>",
+            "$2"
+        ],
+        "description": "sap.m.Shell with non-inherited aggregations"
+    },
+    "sap.m.Shell-events": {
+        "prefix": "!5-shell-events",
+        "body": [
+            "$1logout=\".on${3:Logout}\"$2"
+        ],
+        "description": "sap.m.Shell with non-inherited events"
+    },
+    "sap.m.Shell-all": {
+        "prefix": "!5-shell-all",
+        "body": [
+            "$1title=\"\"",
+            "logo=\"\"",
+            "showLogout=\"true\"",
+            "headerRightText=\"\"",
+            "appWidthLimited=\"true\"",
+            "backgroundColor=\"\"",
+            "backgroundImage=\"\"",
+            "backgroundRepeat=\"false\"",
+            "backgroundOpacity=\"1\"",
+            "homeIcon=\"\"",
+            "titleLevel=\"H1\"",
+            "<app>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</app>",
+            "logout=\".on${3:Logout}\"$2"
+        ],
+        "description": "sap.m.Shell with non-inherited properties, aggregations and events"
+    }
+}

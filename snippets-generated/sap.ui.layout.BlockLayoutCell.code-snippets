@@ -1,0 +1,61 @@
+{
+    "sap.ui.layout.BlockLayoutCell": {
+        "prefix": "!5-block-layout-cell",
+        "body": [
+            "<BlockLayoutCell ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.layout.BlockLayoutCell"
+    },
+    "sap.ui.layout.BlockLayoutCell-properties": {
+        "prefix": "!5-block-layout-cell-properties",
+        "body": [
+            "$1title=\"\"",
+            "titleAlignment=\"Begin\"",
+            "titleLevel=\"Auto\"",
+            "width=\"0\"",
+            "backgroundColorSet=\"\"",
+            "backgroundColorShade=\"\"$2"
+        ],
+        "description": "sap.ui.layout.BlockLayoutCell with non-inherited properties"
+    },
+    "sap.ui.layout.BlockLayoutCell-aggregations": {
+        "prefix": "!5-block-layout-cell-aggregations",
+        "body": [
+            "$1<content>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</content>",
+            "<titleLink>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</titleLink>",
+            "$2"
+        ],
+        "description": "sap.ui.layout.BlockLayoutCell with non-inherited aggregations"
+    },
+    "sap.ui.layout.BlockLayoutCell-events": {
+        "prefix": "!5-block-layout-cell-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.layout.BlockLayoutCell with non-inherited events"
+    },
+    "sap.ui.layout.BlockLayoutCell-all": {
+        "prefix": "!5-block-layout-cell-all",
+        "body": [
+            "$1title=\"\"",
+            "titleAlignment=\"Begin\"",
+            "titleLevel=\"Auto\"",
+            "width=\"0\"",
+            "backgroundColorSet=\"\"",
+            "backgroundColorShade=\"\"",
+            "<content>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</content>",
+            "<titleLink>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</titleLink>$2"
+        ],
+        "description": "sap.ui.layout.BlockLayoutCell with non-inherited properties, aggregations and events"
+    }
+}

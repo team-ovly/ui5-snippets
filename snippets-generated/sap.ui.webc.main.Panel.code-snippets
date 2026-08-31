@@ -1,0 +1,70 @@
+{
+    "sap.ui.webc.main.Panel": {
+        "prefix": "!5-panel",
+        "body": [
+            "<Panel ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.webc.main.Panel"
+    },
+    "sap.ui.webc.main.Panel-properties": {
+        "prefix": "!5-panel-properties",
+        "body": [
+            "$1accessibleName=\"\"",
+            "accessibleRole=\"Form\"",
+            "collapsed=\"false\"",
+            "fixed=\"false\"",
+            "headerLevel=\"H2\"",
+            "headerText=\"\"",
+            "height=\"\"",
+            "noAnimation=\"false\"",
+            "stickyHeader=\"false\"",
+            "width=\"\"$2"
+        ],
+        "description": "sap.ui.webc.main.Panel with non-inherited properties"
+    },
+    "sap.ui.webc.main.Panel-aggregations": {
+        "prefix": "!5-panel-aggregations",
+        "body": [
+            "$1<content>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</content>",
+            "<header>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</header>",
+            "$2"
+        ],
+        "description": "sap.ui.webc.main.Panel with non-inherited aggregations"
+    },
+    "sap.ui.webc.main.Panel-events": {
+        "prefix": "!5-panel-events",
+        "body": [
+            "$1toggle=\".on${3:Toggle}\"$2"
+        ],
+        "description": "sap.ui.webc.main.Panel with non-inherited events"
+    },
+    "sap.ui.webc.main.Panel-all": {
+        "prefix": "!5-panel-all",
+        "body": [
+            "$1accessibleName=\"\"",
+            "accessibleRole=\"Form\"",
+            "collapsed=\"false\"",
+            "fixed=\"false\"",
+            "headerLevel=\"H2\"",
+            "headerText=\"\"",
+            "height=\"\"",
+            "noAnimation=\"false\"",
+            "stickyHeader=\"false\"",
+            "width=\"\"",
+            "<content>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</content>",
+            "<header>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</header>",
+            "toggle=\".on${3:Toggle}\"$2"
+        ],
+        "description": "sap.ui.webc.main.Panel with non-inherited properties, aggregations and events"
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "sap.f.ProductSwitch": {
+        "prefix": "!5-product-switch",
+        "body": [
+            "<ProductSwitch ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.f.ProductSwitch"
+    },
+    "sap.f.ProductSwitch-properties": {
+        "prefix": "!5-product-switch-properties",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.f.ProductSwitch with non-inherited properties"
+    },
+    "sap.f.ProductSwitch-aggregations": {
+        "prefix": "!5-product-switch-aggregations",
+        "body": [
+            "$1<_gridContainer>",
+            "\t<!-- <sap.f.GridContainer /> -->",
+            "</_gridContainer>",
+            "<items>",
+            "\t<!-- <sap.f.ProductSwitchItem /> -->",
+            "</items>",
+            "$2"
+        ],
+        "description": "sap.f.ProductSwitch with non-inherited aggregations"
+    },
+    "sap.f.ProductSwitch-events": {
+        "prefix": "!5-product-switch-events",
+        "body": [
+            "$1change=\".on${3:Change}\"",
+            "selectedItem=\".on${4:SelectedItem}\"$2"
+        ],
+        "description": "sap.f.ProductSwitch with non-inherited events"
+    },
+    "sap.f.ProductSwitch-all": {
+        "prefix": "!5-product-switch-all",
+        "body": [
+            "$1<_gridContainer>",
+            "\t<!-- <sap.f.GridContainer /> -->",
+            "</_gridContainer>",
+            "<items>",
+            "\t<!-- <sap.f.ProductSwitchItem /> -->",
+            "</items>",
+            "change=\".on${3:Change}\"",
+            "selectedItem=\".on${4:SelectedItem}\"$2"
+        ],
+        "description": "sap.f.ProductSwitch with non-inherited properties, aggregations and events"
+    }
+}

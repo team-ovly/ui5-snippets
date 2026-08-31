@@ -1,0 +1,58 @@
+{
+    "sap.ui.ux3.NavigationBar": {
+        "prefix": "!5-navigation-bar",
+        "body": [
+            "<NavigationBar ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.ux3.NavigationBar"
+    },
+    "sap.ui.ux3.NavigationBar-properties": {
+        "prefix": "!5-navigation-bar-properties",
+        "body": [
+            "$1toplevelVariant=\"false\"",
+            "overflowItemsToUpperCase=\"false\"$2"
+        ],
+        "description": "sap.ui.ux3.NavigationBar with non-inherited properties"
+    },
+    "sap.ui.ux3.NavigationBar-aggregations": {
+        "prefix": "!5-navigation-bar-aggregations",
+        "body": [
+            "$1<items>",
+            "\t<!-- <sap.ui.ux3.NavigationItem /> -->",
+            "</items>",
+            "<overflowMenu>",
+            "\t<!-- <sap.ui.commons.Menu /> -->",
+            "</overflowMenu>",
+            "$2"
+        ],
+        "description": "sap.ui.ux3.NavigationBar with non-inherited aggregations"
+    },
+    "sap.ui.ux3.NavigationBar-events": {
+        "prefix": "!5-navigation-bar-events",
+        "body": [
+            "$1select=\".on${3:Select}\"",
+            "selectedItem=\".on${4:SelectedItem}\"",
+            "associatedItems=\".on${5:AssociatedItems}\"$2"
+        ],
+        "description": "sap.ui.ux3.NavigationBar with non-inherited events"
+    },
+    "sap.ui.ux3.NavigationBar-all": {
+        "prefix": "!5-navigation-bar-all",
+        "body": [
+            "$1toplevelVariant=\"false\"",
+            "overflowItemsToUpperCase=\"false\"",
+            "<items>",
+            "\t<!-- <sap.ui.ux3.NavigationItem /> -->",
+            "</items>",
+            "<overflowMenu>",
+            "\t<!-- <sap.ui.commons.Menu /> -->",
+            "</overflowMenu>",
+            "select=\".on${3:Select}\"",
+            "selectedItem=\".on${4:SelectedItem}\"",
+            "associatedItems=\".on${5:AssociatedItems}\"$2"
+        ],
+        "description": "sap.ui.ux3.NavigationBar with non-inherited properties, aggregations and events"
+    }
+}

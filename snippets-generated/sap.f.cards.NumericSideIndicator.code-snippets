@@ -1,0 +1,65 @@
+{
+    "sap.f.cards.NumericSideIndicator": {
+        "prefix": "!5-numeric-side-indicator",
+        "body": [
+            "<NumericSideIndicator ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.f.cards.NumericSideIndicator"
+    },
+    "sap.f.cards.NumericSideIndicator-properties": {
+        "prefix": "!5-numeric-side-indicator-properties",
+        "body": [
+            "$1title=\"\"",
+            "number=\"\"",
+            "unit=\"\"",
+            "state=\"None\"",
+            "useTooltips=\"false\"$2"
+        ],
+        "description": "sap.f.cards.NumericSideIndicator with non-inherited properties"
+    },
+    "sap.f.cards.NumericSideIndicator-aggregations": {
+        "prefix": "!5-numeric-side-indicator-aggregations",
+        "body": [
+            "$1<_title>",
+            "\t<!-- <sap.m.Text /> -->",
+            "</_title>",
+            "<_number>",
+            "\t<!-- <sap.m.Text /> -->",
+            "</_number>",
+            "<_unit>",
+            "\t<!-- <sap.m.Text /> -->",
+            "</_unit>",
+            "$2"
+        ],
+        "description": "sap.f.cards.NumericSideIndicator with non-inherited aggregations"
+    },
+    "sap.f.cards.NumericSideIndicator-events": {
+        "prefix": "!5-numeric-side-indicator-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.f.cards.NumericSideIndicator with non-inherited events"
+    },
+    "sap.f.cards.NumericSideIndicator-all": {
+        "prefix": "!5-numeric-side-indicator-all",
+        "body": [
+            "$1title=\"\"",
+            "number=\"\"",
+            "unit=\"\"",
+            "state=\"None\"",
+            "useTooltips=\"false\"",
+            "<_title>",
+            "\t<!-- <sap.m.Text /> -->",
+            "</_title>",
+            "<_number>",
+            "\t<!-- <sap.m.Text /> -->",
+            "</_number>",
+            "<_unit>",
+            "\t<!-- <sap.m.Text /> -->",
+            "</_unit>$2"
+        ],
+        "description": "sap.f.cards.NumericSideIndicator with non-inherited properties, aggregations and events"
+    }
+}

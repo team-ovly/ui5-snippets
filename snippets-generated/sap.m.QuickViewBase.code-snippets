@@ -1,0 +1,47 @@
+{
+    "sap.m.QuickViewBase": {
+        "prefix": "!5-quick-view-base",
+        "body": [
+            "<QuickViewBase ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.QuickViewBase"
+    },
+    "sap.m.QuickViewBase-properties": {
+        "prefix": "!5-quick-view-base-properties",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.m.QuickViewBase with non-inherited properties"
+    },
+    "sap.m.QuickViewBase-aggregations": {
+        "prefix": "!5-quick-view-base-aggregations",
+        "body": [
+            "$1<pages>",
+            "\t<!-- <sap.m.QuickViewPage /> -->",
+            "</pages>",
+            "$2"
+        ],
+        "description": "sap.m.QuickViewBase with non-inherited aggregations"
+    },
+    "sap.m.QuickViewBase-events": {
+        "prefix": "!5-quick-view-base-events",
+        "body": [
+            "$1navigate=\".on${3:Navigate}\"",
+            "afterNavigate=\".on${4:AfterNavigate}\"$2"
+        ],
+        "description": "sap.m.QuickViewBase with non-inherited events"
+    },
+    "sap.m.QuickViewBase-all": {
+        "prefix": "!5-quick-view-base-all",
+        "body": [
+            "$1<pages>",
+            "\t<!-- <sap.m.QuickViewPage /> -->",
+            "</pages>",
+            "navigate=\".on${3:Navigate}\"",
+            "afterNavigate=\".on${4:AfterNavigate}\"$2"
+        ],
+        "description": "sap.m.QuickViewBase with non-inherited properties, aggregations and events"
+    }
+}

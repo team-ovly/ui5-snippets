@@ -1,0 +1,43 @@
+{
+    "sap.uxap.ObjectPageHeaderActionButton": {
+        "prefix": "!5-object-page-header-action-button",
+        "body": [
+            "<ObjectPageHeaderActionButton ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.uxap.ObjectPageHeaderActionButton"
+    },
+    "sap.uxap.ObjectPageHeaderActionButton-properties": {
+        "prefix": "!5-object-page-header-action-button-properties",
+        "body": [
+            "$1hideText=\"true\"",
+            "hideIcon=\"false\"",
+            "importance=\"High\"$2"
+        ],
+        "description": "sap.uxap.ObjectPageHeaderActionButton with non-inherited properties"
+    },
+    "sap.uxap.ObjectPageHeaderActionButton-aggregations": {
+        "prefix": "!5-object-page-header-action-button-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.uxap.ObjectPageHeaderActionButton with non-inherited aggregations"
+    },
+    "sap.uxap.ObjectPageHeaderActionButton-events": {
+        "prefix": "!5-object-page-header-action-button-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.uxap.ObjectPageHeaderActionButton with non-inherited events"
+    },
+    "sap.uxap.ObjectPageHeaderActionButton-all": {
+        "prefix": "!5-object-page-header-action-button-all",
+        "body": [
+            "$1hideText=\"true\"",
+            "hideIcon=\"false\"",
+            "importance=\"High\"$2"
+        ],
+        "description": "sap.uxap.ObjectPageHeaderActionButton with non-inherited properties, aggregations and events"
+    }
+}

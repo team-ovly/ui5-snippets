@@ -1,0 +1,116 @@
+{
+    "sap.f.FlexibleColumnLayout": {
+        "prefix": "!5-flexible-column-layout",
+        "body": [
+            "<FlexibleColumnLayout ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.f.FlexibleColumnLayout"
+    },
+    "sap.f.FlexibleColumnLayout-properties": {
+        "prefix": "!5-flexible-column-layout-properties",
+        "body": [
+            "$1autoFocus=\"true\"",
+            "layout=\"OneColumn\"",
+            "defaultTransitionNameBeginColumn=\"slide\"",
+            "defaultTransitionNameMidColumn=\"slide\"",
+            "defaultTransitionNameEndColumn=\"slide\"",
+            "backgroundDesign=\"Transparent\"",
+            "restoreFocusOnBackNavigation=\"false\"$2"
+        ],
+        "description": "sap.f.FlexibleColumnLayout with non-inherited properties"
+    },
+    "sap.f.FlexibleColumnLayout-aggregations": {
+        "prefix": "!5-flexible-column-layout-aggregations",
+        "body": [
+            "$1<beginColumnPages>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</beginColumnPages>",
+            "<midColumnPages>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</midColumnPages>",
+            "<endColumnPages>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</endColumnPages>",
+            "<landmarkInfo>",
+            "\t<!-- <sap.f.FlexibleColumnLayoutAccessibleLandmarkInfo /> -->",
+            "</landmarkInfo>",
+            "<_beginColumnNav>",
+            "\t<!-- <sap.m.NavContainer /> -->",
+            "</_beginColumnNav>",
+            "<_midColumnNav>",
+            "\t<!-- <sap.m.NavContainer /> -->",
+            "</_midColumnNav>",
+            "<_endColumnNav>",
+            "\t<!-- <sap.m.NavContainer /> -->",
+            "</_endColumnNav>",
+            "$2"
+        ],
+        "description": "sap.f.FlexibleColumnLayout with non-inherited aggregations"
+    },
+    "sap.f.FlexibleColumnLayout-events": {
+        "prefix": "!5-flexible-column-layout-events",
+        "body": [
+            "$1stateChange=\".on${3:StateChange}\"",
+            "beginColumnNavigate=\".on${4:BeginColumnNavigate}\"",
+            "afterBeginColumnNavigate=\".on${5:AfterBeginColumnNavigate}\"",
+            "midColumnNavigate=\".on${6:MidColumnNavigate}\"",
+            "afterMidColumnNavigate=\".on${7:AfterMidColumnNavigate}\"",
+            "endColumnNavigate=\".on${8:EndColumnNavigate}\"",
+            "afterEndColumnNavigate=\".on${9:AfterEndColumnNavigate}\"",
+            "columnResize=\".on${10:ColumnResize}\"",
+            "columnsDistributionChange=\".on${11:ColumnsDistributionChange}\"",
+            "initialBeginColumnPage=\".on${12:InitialBeginColumnPage}\"",
+            "initialMidColumnPage=\".on${13:InitialMidColumnPage}\"",
+            "initialEndColumnPage=\".on${14:InitialEndColumnPage}\"$2"
+        ],
+        "description": "sap.f.FlexibleColumnLayout with non-inherited events"
+    },
+    "sap.f.FlexibleColumnLayout-all": {
+        "prefix": "!5-flexible-column-layout-all",
+        "body": [
+            "$1autoFocus=\"true\"",
+            "layout=\"OneColumn\"",
+            "defaultTransitionNameBeginColumn=\"slide\"",
+            "defaultTransitionNameMidColumn=\"slide\"",
+            "defaultTransitionNameEndColumn=\"slide\"",
+            "backgroundDesign=\"Transparent\"",
+            "restoreFocusOnBackNavigation=\"false\"",
+            "<beginColumnPages>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</beginColumnPages>",
+            "<midColumnPages>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</midColumnPages>",
+            "<endColumnPages>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</endColumnPages>",
+            "<landmarkInfo>",
+            "\t<!-- <sap.f.FlexibleColumnLayoutAccessibleLandmarkInfo /> -->",
+            "</landmarkInfo>",
+            "<_beginColumnNav>",
+            "\t<!-- <sap.m.NavContainer /> -->",
+            "</_beginColumnNav>",
+            "<_midColumnNav>",
+            "\t<!-- <sap.m.NavContainer /> -->",
+            "</_midColumnNav>",
+            "<_endColumnNav>",
+            "\t<!-- <sap.m.NavContainer /> -->",
+            "</_endColumnNav>",
+            "stateChange=\".on${3:StateChange}\"",
+            "beginColumnNavigate=\".on${4:BeginColumnNavigate}\"",
+            "afterBeginColumnNavigate=\".on${5:AfterBeginColumnNavigate}\"",
+            "midColumnNavigate=\".on${6:MidColumnNavigate}\"",
+            "afterMidColumnNavigate=\".on${7:AfterMidColumnNavigate}\"",
+            "endColumnNavigate=\".on${8:EndColumnNavigate}\"",
+            "afterEndColumnNavigate=\".on${9:AfterEndColumnNavigate}\"",
+            "columnResize=\".on${10:ColumnResize}\"",
+            "columnsDistributionChange=\".on${11:ColumnsDistributionChange}\"",
+            "initialBeginColumnPage=\".on${12:InitialBeginColumnPage}\"",
+            "initialMidColumnPage=\".on${13:InitialMidColumnPage}\"",
+            "initialEndColumnPage=\".on${14:InitialEndColumnPage}\"$2"
+        ],
+        "description": "sap.f.FlexibleColumnLayout with non-inherited properties, aggregations and events"
+    }
+}

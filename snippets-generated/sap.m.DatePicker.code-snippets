@@ -1,0 +1,72 @@
+{
+    "sap.m.DatePicker": {
+        "prefix": "!5-date-picker",
+        "body": [
+            "<DatePicker ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.DatePicker"
+    },
+    "sap.m.DatePicker-properties": {
+        "prefix": "!5-date-picker-properties",
+        "body": [
+            "$1displayFormatType=\"\"",
+            "secondaryCalendarType=\"\"",
+            "minDate=\"\"",
+            "maxDate=\"\"",
+            "showFooter=\"false\"",
+            "showCurrentDateButton=\"false\"",
+            "hideInput=\"false\"",
+            "calendarWeekNumbering=\"\"$2"
+        ],
+        "description": "sap.m.DatePicker with non-inherited properties"
+    },
+    "sap.m.DatePicker-aggregations": {
+        "prefix": "!5-date-picker-aggregations",
+        "body": [
+            "$1<specialDates>",
+            "\t<!-- <sap.ui.core.Element /> -->",
+            "</specialDates>",
+            "<_popup>",
+            "\t<!-- <sap.m.ResponsivePopover /> -->",
+            "</_popup>",
+            "$2"
+        ],
+        "description": "sap.m.DatePicker with non-inherited aggregations"
+    },
+    "sap.m.DatePicker-events": {
+        "prefix": "!5-date-picker-events",
+        "body": [
+            "$1navigate=\".on${3:Navigate}\"",
+            "afterValueHelpOpen=\".on${4:AfterValueHelpOpen}\"",
+            "afterValueHelpClose=\".on${5:AfterValueHelpClose}\"",
+            "legend=\".on${6:Legend}\"$2"
+        ],
+        "description": "sap.m.DatePicker with non-inherited events"
+    },
+    "sap.m.DatePicker-all": {
+        "prefix": "!5-date-picker-all",
+        "body": [
+            "$1displayFormatType=\"\"",
+            "secondaryCalendarType=\"\"",
+            "minDate=\"\"",
+            "maxDate=\"\"",
+            "showFooter=\"false\"",
+            "showCurrentDateButton=\"false\"",
+            "hideInput=\"false\"",
+            "calendarWeekNumbering=\"\"",
+            "<specialDates>",
+            "\t<!-- <sap.ui.core.Element /> -->",
+            "</specialDates>",
+            "<_popup>",
+            "\t<!-- <sap.m.ResponsivePopover /> -->",
+            "</_popup>",
+            "navigate=\".on${3:Navigate}\"",
+            "afterValueHelpOpen=\".on${4:AfterValueHelpOpen}\"",
+            "afterValueHelpClose=\".on${5:AfterValueHelpClose}\"",
+            "legend=\".on${6:Legend}\"$2"
+        ],
+        "description": "sap.m.DatePicker with non-inherited properties, aggregations and events"
+    }
+}

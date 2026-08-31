@@ -1,0 +1,58 @@
+{
+    "sap.ui.commons.ComboBox": {
+        "prefix": "!5-combo-box",
+        "body": [
+            "<ComboBox ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.commons.ComboBox"
+    },
+    "sap.ui.commons.ComboBox-properties": {
+        "prefix": "!5-combo-box-properties",
+        "body": [
+            "$1maxPopupItems=\"10\"",
+            "displaySecondaryValues=\"false\"",
+            "selectedKey=\"\"",
+            "selectedItemId=\"\"$2"
+        ],
+        "description": "sap.ui.commons.ComboBox with non-inherited properties"
+    },
+    "sap.ui.commons.ComboBox-aggregations": {
+        "prefix": "!5-combo-box-aggregations",
+        "body": [
+            "$1<items>",
+            "\t<!-- <sap.ui.core.ListItem /> -->",
+            "</items>",
+            "<myListBox>",
+            "\t<!-- <sap.ui.commons.ListBox /> -->",
+            "</myListBox>",
+            "$2"
+        ],
+        "description": "sap.ui.commons.ComboBox with non-inherited aggregations"
+    },
+    "sap.ui.commons.ComboBox-events": {
+        "prefix": "!5-combo-box-events",
+        "body": [
+            "$1listBox=\".on${3:ListBox}\"$2"
+        ],
+        "description": "sap.ui.commons.ComboBox with non-inherited events"
+    },
+    "sap.ui.commons.ComboBox-all": {
+        "prefix": "!5-combo-box-all",
+        "body": [
+            "$1maxPopupItems=\"10\"",
+            "displaySecondaryValues=\"false\"",
+            "selectedKey=\"\"",
+            "selectedItemId=\"\"",
+            "<items>",
+            "\t<!-- <sap.ui.core.ListItem /> -->",
+            "</items>",
+            "<myListBox>",
+            "\t<!-- <sap.ui.commons.ListBox /> -->",
+            "</myListBox>",
+            "listBox=\".on${3:ListBox}\"$2"
+        ],
+        "description": "sap.ui.commons.ComboBox with non-inherited properties, aggregations and events"
+    }
+}

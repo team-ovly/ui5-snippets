@@ -1,0 +1,68 @@
+{
+    "sap.ui.webc.fiori.FlexibleColumnLayout": {
+        "prefix": "!5-flexible-column-layout",
+        "body": [
+            "<FlexibleColumnLayout ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.webc.fiori.FlexibleColumnLayout"
+    },
+    "sap.ui.webc.fiori.FlexibleColumnLayout-properties": {
+        "prefix": "!5-flexible-column-layout-properties",
+        "body": [
+            "$1accessibilityRoles=\"[object Object]\"",
+            "accessibilityTexts=\"[object Object]\"",
+            "height=\"\"",
+            "hideArrows=\"false\"",
+            "layout=\"OneColumn\"",
+            "width=\"\"$2"
+        ],
+        "description": "sap.ui.webc.fiori.FlexibleColumnLayout with non-inherited properties"
+    },
+    "sap.ui.webc.fiori.FlexibleColumnLayout-aggregations": {
+        "prefix": "!5-flexible-column-layout-aggregations",
+        "body": [
+            "$1<endColumn>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</endColumn>",
+            "<midColumn>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</midColumn>",
+            "<startColumn>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</startColumn>",
+            "$2"
+        ],
+        "description": "sap.ui.webc.fiori.FlexibleColumnLayout with non-inherited aggregations"
+    },
+    "sap.ui.webc.fiori.FlexibleColumnLayout-events": {
+        "prefix": "!5-flexible-column-layout-events",
+        "body": [
+            "$1layoutChange=\".on${3:LayoutChange}\"$2"
+        ],
+        "description": "sap.ui.webc.fiori.FlexibleColumnLayout with non-inherited events"
+    },
+    "sap.ui.webc.fiori.FlexibleColumnLayout-all": {
+        "prefix": "!5-flexible-column-layout-all",
+        "body": [
+            "$1accessibilityRoles=\"[object Object]\"",
+            "accessibilityTexts=\"[object Object]\"",
+            "height=\"\"",
+            "hideArrows=\"false\"",
+            "layout=\"OneColumn\"",
+            "width=\"\"",
+            "<endColumn>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</endColumn>",
+            "<midColumn>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</midColumn>",
+            "<startColumn>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</startColumn>",
+            "layoutChange=\".on${3:LayoutChange}\"$2"
+        ],
+        "description": "sap.ui.webc.fiori.FlexibleColumnLayout with non-inherited properties, aggregations and events"
+    }
+}

@@ -1,0 +1,51 @@
+{
+    "sap.f.Card": {
+        "prefix": "!5-card",
+        "body": [
+            "<Card ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.f.Card"
+    },
+    "sap.f.Card-properties": {
+        "prefix": "!5-card-properties",
+        "body": [
+            "$1headerPosition=\"Top\"$2"
+        ],
+        "description": "sap.f.Card with non-inherited properties"
+    },
+    "sap.f.Card-aggregations": {
+        "prefix": "!5-card-aggregations",
+        "body": [
+            "$1<header>",
+            "\t<!-- <sap.f.cards.IHeader /> -->",
+            "</header>",
+            "<content>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</content>",
+            "$2"
+        ],
+        "description": "sap.f.Card with non-inherited aggregations"
+    },
+    "sap.f.Card-events": {
+        "prefix": "!5-card-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.f.Card with non-inherited events"
+    },
+    "sap.f.Card-all": {
+        "prefix": "!5-card-all",
+        "body": [
+            "$1headerPosition=\"Top\"",
+            "<header>",
+            "\t<!-- <sap.f.cards.IHeader /> -->",
+            "</header>",
+            "<content>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</content>$2"
+        ],
+        "description": "sap.f.Card with non-inherited properties, aggregations and events"
+    }
+}

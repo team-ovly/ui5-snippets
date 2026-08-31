@@ -1,0 +1,39 @@
+{
+    "sap.ui.integration.designtime.baseEditor.propertyEditor.stringEditor.StringEditor": {
+        "prefix": "!5-string-editor",
+        "body": [
+            "<StringEditor ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.integration.designtime.baseEditor.propertyEditor.stringEditor.StringEditor"
+    },
+    "sap.ui.integration.designtime.baseEditor.propertyEditor.stringEditor.StringEditor-properties": {
+        "prefix": "!5-string-editor-properties",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.integration.designtime.baseEditor.propertyEditor.stringEditor.StringEditor with non-inherited properties"
+    },
+    "sap.ui.integration.designtime.baseEditor.propertyEditor.stringEditor.StringEditor-aggregations": {
+        "prefix": "!5-string-editor-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.integration.designtime.baseEditor.propertyEditor.stringEditor.StringEditor with non-inherited aggregations"
+    },
+    "sap.ui.integration.designtime.baseEditor.propertyEditor.stringEditor.StringEditor-events": {
+        "prefix": "!5-string-editor-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.integration.designtime.baseEditor.propertyEditor.stringEditor.StringEditor with non-inherited events"
+    },
+    "sap.ui.integration.designtime.baseEditor.propertyEditor.stringEditor.StringEditor-all": {
+        "prefix": "!5-string-editor-all",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.integration.designtime.baseEditor.propertyEditor.stringEditor.StringEditor with non-inherited properties, aggregations and events"
+    }
+}

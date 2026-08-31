@@ -1,0 +1,42 @@
+{
+    "sap.ui.commons.Paginator": {
+        "prefix": "!5-paginator",
+        "body": [
+            "<Paginator ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.commons.Paginator"
+    },
+    "sap.ui.commons.Paginator-properties": {
+        "prefix": "!5-paginator-properties",
+        "body": [
+            "$1currentPage=\"1\"",
+            "numberOfPages=\"\"$2"
+        ],
+        "description": "sap.ui.commons.Paginator with non-inherited properties"
+    },
+    "sap.ui.commons.Paginator-aggregations": {
+        "prefix": "!5-paginator-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.commons.Paginator with non-inherited aggregations"
+    },
+    "sap.ui.commons.Paginator-events": {
+        "prefix": "!5-paginator-events",
+        "body": [
+            "$1page=\".on${3:Page}\"$2"
+        ],
+        "description": "sap.ui.commons.Paginator with non-inherited events"
+    },
+    "sap.ui.commons.Paginator-all": {
+        "prefix": "!5-paginator-all",
+        "body": [
+            "$1currentPage=\"1\"",
+            "numberOfPages=\"\"",
+            "page=\".on${3:Page}\"$2"
+        ],
+        "description": "sap.ui.commons.Paginator with non-inherited properties, aggregations and events"
+    }
+}

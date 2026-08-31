@@ -1,0 +1,64 @@
+{
+    "sap.tnt.NavigationList": {
+        "prefix": "!5-navigation-list",
+        "body": [
+            "<NavigationList ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.tnt.NavigationList"
+    },
+    "sap.tnt.NavigationList-properties": {
+        "prefix": "!5-navigation-list-properties",
+        "body": [
+            "$1width=\"\"",
+            "expanded=\"true\"",
+            "selectedKey=\"\"$2"
+        ],
+        "description": "sap.tnt.NavigationList with non-inherited properties"
+    },
+    "sap.tnt.NavigationList-aggregations": {
+        "prefix": "!5-navigation-list-aggregations",
+        "body": [
+            "$1<items>",
+            "\t<!-- <sap.tnt.NavigationListItemBase /> -->",
+            "</items>",
+            "<_overflowItem>",
+            "\t<!-- <sap.tnt.NavigationListItem /> -->",
+            "</_overflowItem>",
+            "$2"
+        ],
+        "description": "sap.tnt.NavigationList with non-inherited aggregations"
+    },
+    "sap.tnt.NavigationList-events": {
+        "prefix": "!5-navigation-list-events",
+        "body": [
+            "$1itemSelect=\".on${3:ItemSelect}\"",
+            "itemPress=\".on${4:ItemPress}\"",
+            "ariaDescribedBy=\".on${5:AriaDescribedBy}\"",
+            "ariaLabelledBy=\".on${6:AriaLabelledBy}\"",
+            "selectedItem=\".on${7:SelectedItem}\"$2"
+        ],
+        "description": "sap.tnt.NavigationList with non-inherited events"
+    },
+    "sap.tnt.NavigationList-all": {
+        "prefix": "!5-navigation-list-all",
+        "body": [
+            "$1width=\"\"",
+            "expanded=\"true\"",
+            "selectedKey=\"\"",
+            "<items>",
+            "\t<!-- <sap.tnt.NavigationListItemBase /> -->",
+            "</items>",
+            "<_overflowItem>",
+            "\t<!-- <sap.tnt.NavigationListItem /> -->",
+            "</_overflowItem>",
+            "itemSelect=\".on${3:ItemSelect}\"",
+            "itemPress=\".on${4:ItemPress}\"",
+            "ariaDescribedBy=\".on${5:AriaDescribedBy}\"",
+            "ariaLabelledBy=\".on${6:AriaLabelledBy}\"",
+            "selectedItem=\".on${7:SelectedItem}\"$2"
+        ],
+        "description": "sap.tnt.NavigationList with non-inherited properties, aggregations and events"
+    }
+}

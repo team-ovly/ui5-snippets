@@ -1,0 +1,46 @@
+{
+    "sap.m.Illustration": {
+        "prefix": "!5-illustration",
+        "body": [
+            "<Illustration ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.Illustration"
+    },
+    "sap.m.Illustration-properties": {
+        "prefix": "!5-illustration-properties",
+        "body": [
+            "$1set=\"\"",
+            "media=\"\"",
+            "type=\"\"$2"
+        ],
+        "description": "sap.m.Illustration with non-inherited properties"
+    },
+    "sap.m.Illustration-aggregations": {
+        "prefix": "!5-illustration-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.m.Illustration with non-inherited aggregations"
+    },
+    "sap.m.Illustration-events": {
+        "prefix": "!5-illustration-events",
+        "body": [
+            "$1ariaLabelledBy=\".on${3:AriaLabelledBy}\"",
+            "ariaDescribedBy=\".on${4:AriaDescribedBy}\"$2"
+        ],
+        "description": "sap.m.Illustration with non-inherited events"
+    },
+    "sap.m.Illustration-all": {
+        "prefix": "!5-illustration-all",
+        "body": [
+            "$1set=\"\"",
+            "media=\"\"",
+            "type=\"\"",
+            "ariaLabelledBy=\".on${3:AriaLabelledBy}\"",
+            "ariaDescribedBy=\".on${4:AriaDescribedBy}\"$2"
+        ],
+        "description": "sap.m.Illustration with non-inherited properties, aggregations and events"
+    }
+}

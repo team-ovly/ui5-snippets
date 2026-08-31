@@ -1,0 +1,122 @@
+{
+    "sap.ui.integration.widgets.Card": {
+        "prefix": "!5-card",
+        "body": [
+            "<Card ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.integration.widgets.Card"
+    },
+    "sap.ui.integration.widgets.Card-properties": {
+        "prefix": "!5-card-properties",
+        "body": [
+            "$1referenceId=\"\"",
+            "manifest=\"\"",
+            "parameters=\"\"",
+            "dataMode=\"Auto\"",
+            "baseUrl=\"\"",
+            "manifestChanges=\"\"",
+            "useMockData=\"false\"",
+            "design=\"Solid\"",
+            "displayVariant=\"Standard\"",
+            "previewMode=\"Off\"",
+            "useProgressiveDisclosure=\"false\"",
+            "overflow=\"Default\"",
+            "showCloseButton=\"false\"",
+            "interactive=\"false\"$2"
+        ],
+        "description": "sap.ui.integration.widgets.Card with non-inherited properties"
+    },
+    "sap.ui.integration.widgets.Card-aggregations": {
+        "prefix": "!5-card-aggregations",
+        "body": [
+            "$1<actionDefinitions>",
+            "\t<!-- <sap.ui.integration.ActionDefinition /> -->",
+            "</actionDefinitions>",
+            "<_header>",
+            "\t<!-- <sap.f.cards.IHeader /> -->",
+            "</_header>",
+            "<_filterBar>",
+            "\t<!-- <sap.ui.integration.cards.filters.FilterBar /> -->",
+            "</_filterBar>",
+            "<_content>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</_content>",
+            "<_footer>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</_footer>",
+            "<_extension>",
+            "\t<!-- <sap.ui.integration.Extension /> -->",
+            "</_extension>",
+            "<_loadingProvider>",
+            "\t<!-- <sap.ui.core.Element /> -->",
+            "</_loadingProvider>",
+            "$2"
+        ],
+        "description": "sap.ui.integration.widgets.Card with non-inherited aggregations"
+    },
+    "sap.ui.integration.widgets.Card-events": {
+        "prefix": "!5-card-events",
+        "body": [
+            "$1action=\".on${3:Action}\"",
+            "configurationChange=\".on${4:ConfigurationChange}\"",
+            "manifestReady=\".on${5:ManifestReady}\"",
+            "manifestApplied=\".on${6:ManifestApplied}\"",
+            "stateChanged=\".on${7:StateChanged}\"",
+            "host=\".on${8:Host}\"",
+            "openerReference=\".on${9:OpenerReference}\"",
+            "dialogHeader=\".on${10:DialogHeader}\"$2"
+        ],
+        "description": "sap.ui.integration.widgets.Card with non-inherited events"
+    },
+    "sap.ui.integration.widgets.Card-all": {
+        "prefix": "!5-card-all",
+        "body": [
+            "$1referenceId=\"\"",
+            "manifest=\"\"",
+            "parameters=\"\"",
+            "dataMode=\"Auto\"",
+            "baseUrl=\"\"",
+            "manifestChanges=\"\"",
+            "useMockData=\"false\"",
+            "design=\"Solid\"",
+            "displayVariant=\"Standard\"",
+            "previewMode=\"Off\"",
+            "useProgressiveDisclosure=\"false\"",
+            "overflow=\"Default\"",
+            "showCloseButton=\"false\"",
+            "interactive=\"false\"",
+            "<actionDefinitions>",
+            "\t<!-- <sap.ui.integration.ActionDefinition /> -->",
+            "</actionDefinitions>",
+            "<_header>",
+            "\t<!-- <sap.f.cards.IHeader /> -->",
+            "</_header>",
+            "<_filterBar>",
+            "\t<!-- <sap.ui.integration.cards.filters.FilterBar /> -->",
+            "</_filterBar>",
+            "<_content>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</_content>",
+            "<_footer>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</_footer>",
+            "<_extension>",
+            "\t<!-- <sap.ui.integration.Extension /> -->",
+            "</_extension>",
+            "<_loadingProvider>",
+            "\t<!-- <sap.ui.core.Element /> -->",
+            "</_loadingProvider>",
+            "action=\".on${3:Action}\"",
+            "configurationChange=\".on${4:ConfigurationChange}\"",
+            "manifestReady=\".on${5:ManifestReady}\"",
+            "manifestApplied=\".on${6:ManifestApplied}\"",
+            "stateChanged=\".on${7:StateChanged}\"",
+            "host=\".on${8:Host}\"",
+            "openerReference=\".on${9:OpenerReference}\"",
+            "dialogHeader=\".on${10:DialogHeader}\"$2"
+        ],
+        "description": "sap.ui.integration.widgets.Card with non-inherited properties, aggregations and events"
+    }
+}

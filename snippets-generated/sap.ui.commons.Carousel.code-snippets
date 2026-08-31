@@ -1,0 +1,61 @@
+{
+    "sap.ui.commons.Carousel": {
+        "prefix": "!5-carousel",
+        "body": [
+            "<Carousel ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.commons.Carousel"
+    },
+    "sap.ui.commons.Carousel-properties": {
+        "prefix": "!5-carousel-properties",
+        "body": [
+            "$1orientation=\"horizontal\"",
+            "width=\"\"",
+            "height=\"\"",
+            "defaultItemHeight=\"150\"",
+            "defaultItemWidth=\"150\"",
+            "animationDuration=\"500\"",
+            "visibleItems=\"\"",
+            "handleSize=\"22\"",
+            "firstVisibleIndex=\"0\"$2"
+        ],
+        "description": "sap.ui.commons.Carousel with non-inherited properties"
+    },
+    "sap.ui.commons.Carousel-aggregations": {
+        "prefix": "!5-carousel-aggregations",
+        "body": [
+            "$1<content>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</content>",
+            "$2"
+        ],
+        "description": "sap.ui.commons.Carousel with non-inherited aggregations"
+    },
+    "sap.ui.commons.Carousel-events": {
+        "prefix": "!5-carousel-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.commons.Carousel with non-inherited events"
+    },
+    "sap.ui.commons.Carousel-all": {
+        "prefix": "!5-carousel-all",
+        "body": [
+            "$1orientation=\"horizontal\"",
+            "width=\"\"",
+            "height=\"\"",
+            "defaultItemHeight=\"150\"",
+            "defaultItemWidth=\"150\"",
+            "animationDuration=\"500\"",
+            "visibleItems=\"\"",
+            "handleSize=\"22\"",
+            "firstVisibleIndex=\"0\"",
+            "<content>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</content>$2"
+        ],
+        "description": "sap.ui.commons.Carousel with non-inherited properties, aggregations and events"
+    }
+}

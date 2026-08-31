@@ -1,0 +1,39 @@
+{
+    "sap.ui.integration.designtime.baseEditor.propertyEditor.numberEditor.NumberEditor": {
+        "prefix": "!5-number-editor",
+        "body": [
+            "<NumberEditor ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.integration.designtime.baseEditor.propertyEditor.numberEditor.NumberEditor"
+    },
+    "sap.ui.integration.designtime.baseEditor.propertyEditor.numberEditor.NumberEditor-properties": {
+        "prefix": "!5-number-editor-properties",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.integration.designtime.baseEditor.propertyEditor.numberEditor.NumberEditor with non-inherited properties"
+    },
+    "sap.ui.integration.designtime.baseEditor.propertyEditor.numberEditor.NumberEditor-aggregations": {
+        "prefix": "!5-number-editor-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.integration.designtime.baseEditor.propertyEditor.numberEditor.NumberEditor with non-inherited aggregations"
+    },
+    "sap.ui.integration.designtime.baseEditor.propertyEditor.numberEditor.NumberEditor-events": {
+        "prefix": "!5-number-editor-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.integration.designtime.baseEditor.propertyEditor.numberEditor.NumberEditor with non-inherited events"
+    },
+    "sap.ui.integration.designtime.baseEditor.propertyEditor.numberEditor.NumberEditor-all": {
+        "prefix": "!5-number-editor-all",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.integration.designtime.baseEditor.propertyEditor.numberEditor.NumberEditor with non-inherited properties, aggregations and events"
+    }
+}

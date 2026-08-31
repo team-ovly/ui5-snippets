@@ -1,0 +1,52 @@
+{
+    "sap.m.Switch": {
+        "prefix": "!5-switch",
+        "body": [
+            "<Switch ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.Switch"
+    },
+    "sap.m.Switch-properties": {
+        "prefix": "!5-switch-properties",
+        "body": [
+            "$1state=\"false\"",
+            "customTextOn=\"\"",
+            "customTextOff=\"\"",
+            "enabled=\"true\"",
+            "name=\"\"",
+            "type=\"Default\"$2"
+        ],
+        "description": "sap.m.Switch with non-inherited properties"
+    },
+    "sap.m.Switch-aggregations": {
+        "prefix": "!5-switch-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.m.Switch with non-inherited aggregations"
+    },
+    "sap.m.Switch-events": {
+        "prefix": "!5-switch-events",
+        "body": [
+            "$1change=\".on${3:Change}\"",
+            "ariaLabelledBy=\".on${4:AriaLabelledBy}\"$2"
+        ],
+        "description": "sap.m.Switch with non-inherited events"
+    },
+    "sap.m.Switch-all": {
+        "prefix": "!5-switch-all",
+        "body": [
+            "$1state=\"false\"",
+            "customTextOn=\"\"",
+            "customTextOff=\"\"",
+            "enabled=\"true\"",
+            "name=\"\"",
+            "type=\"Default\"",
+            "change=\".on${3:Change}\"",
+            "ariaLabelledBy=\".on${4:AriaLabelledBy}\"$2"
+        ],
+        "description": "sap.m.Switch with non-inherited properties, aggregations and events"
+    }
+}

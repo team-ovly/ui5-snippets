@@ -1,0 +1,66 @@
+{
+    "sap.ui.unified.calendar.YearPicker": {
+        "prefix": "!5-year-picker",
+        "body": [
+            "<YearPicker ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.unified.calendar.YearPicker"
+    },
+    "sap.ui.unified.calendar.YearPicker-properties": {
+        "prefix": "!5-year-picker-properties",
+        "body": [
+            "$1year=\"2000\"",
+            "years=\"20\"",
+            "intervalSelection=\"false\"",
+            "_singleSelection=\"true\"",
+            "_showSelectedRange=\"false\"",
+            "columns=\"4\"",
+            "date=\"\"",
+            "primaryCalendarType=\"\"",
+            "secondaryCalendarType=\"\"",
+            "_middleDate=\"\"$2"
+        ],
+        "description": "sap.ui.unified.calendar.YearPicker with non-inherited properties"
+    },
+    "sap.ui.unified.calendar.YearPicker-aggregations": {
+        "prefix": "!5-year-picker-aggregations",
+        "body": [
+            "$1<selectedDates>",
+            "\t<!-- <sap.ui.unified.DateRange /> -->",
+            "</selectedDates>",
+            "$2"
+        ],
+        "description": "sap.ui.unified.calendar.YearPicker with non-inherited aggregations"
+    },
+    "sap.ui.unified.calendar.YearPicker-events": {
+        "prefix": "!5-year-picker-events",
+        "body": [
+            "$1select=\".on${3:Select}\"",
+            "pageChange=\".on${4:PageChange}\"$2"
+        ],
+        "description": "sap.ui.unified.calendar.YearPicker with non-inherited events"
+    },
+    "sap.ui.unified.calendar.YearPicker-all": {
+        "prefix": "!5-year-picker-all",
+        "body": [
+            "$1year=\"2000\"",
+            "years=\"20\"",
+            "intervalSelection=\"false\"",
+            "_singleSelection=\"true\"",
+            "_showSelectedRange=\"false\"",
+            "columns=\"4\"",
+            "date=\"\"",
+            "primaryCalendarType=\"\"",
+            "secondaryCalendarType=\"\"",
+            "_middleDate=\"\"",
+            "<selectedDates>",
+            "\t<!-- <sap.ui.unified.DateRange /> -->",
+            "</selectedDates>",
+            "select=\".on${3:Select}\"",
+            "pageChange=\".on${4:PageChange}\"$2"
+        ],
+        "description": "sap.ui.unified.calendar.YearPicker with non-inherited properties, aggregations and events"
+    }
+}

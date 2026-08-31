@@ -1,0 +1,66 @@
+{
+    "sap.m.TabContainer": {
+        "prefix": "!5-tab-container",
+        "body": [
+            "<TabContainer ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.TabContainer"
+    },
+    "sap.m.TabContainer-properties": {
+        "prefix": "!5-tab-container-properties",
+        "body": [
+            "$1showAddNewButton=\"false\"",
+            "backgroundDesign=\"List\"$2"
+        ],
+        "description": "sap.m.TabContainer with non-inherited properties"
+    },
+    "sap.m.TabContainer-aggregations": {
+        "prefix": "!5-tab-container-aggregations",
+        "body": [
+            "$1<items>",
+            "\t<!-- <sap.m.TabContainerItem /> -->",
+            "</items>",
+            "<_addNewButton>",
+            "\t<!-- <sap.m.Button /> -->",
+            "</_addNewButton>",
+            "<_tabStrip>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</_tabStrip>",
+            "$2"
+        ],
+        "description": "sap.m.TabContainer with non-inherited aggregations"
+    },
+    "sap.m.TabContainer-events": {
+        "prefix": "!5-tab-container-events",
+        "body": [
+            "$1itemClose=\".on${3:ItemClose}\"",
+            "itemSelect=\".on${4:ItemSelect}\"",
+            "addNewButtonPress=\".on${5:AddNewButtonPress}\"",
+            "selectedItem=\".on${6:SelectedItem}\"$2"
+        ],
+        "description": "sap.m.TabContainer with non-inherited events"
+    },
+    "sap.m.TabContainer-all": {
+        "prefix": "!5-tab-container-all",
+        "body": [
+            "$1showAddNewButton=\"false\"",
+            "backgroundDesign=\"List\"",
+            "<items>",
+            "\t<!-- <sap.m.TabContainerItem /> -->",
+            "</items>",
+            "<_addNewButton>",
+            "\t<!-- <sap.m.Button /> -->",
+            "</_addNewButton>",
+            "<_tabStrip>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</_tabStrip>",
+            "itemClose=\".on${3:ItemClose}\"",
+            "itemSelect=\".on${4:ItemSelect}\"",
+            "addNewButtonPress=\".on${5:AddNewButtonPress}\"",
+            "selectedItem=\".on${6:SelectedItem}\"$2"
+        ],
+        "description": "sap.m.TabContainer with non-inherited properties, aggregations and events"
+    }
+}

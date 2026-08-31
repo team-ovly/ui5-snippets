@@ -1,0 +1,72 @@
+{
+    "sap.m.Button": {
+        "prefix": "!5-button",
+        "body": [
+            "<Button ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.Button"
+    },
+    "sap.m.Button-properties": {
+        "prefix": "!5-button-properties",
+        "body": [
+            "$1text=\"\"",
+            "type=\"Default\"",
+            "width=\"\"",
+            "enabled=\"true\"",
+            "icon=\"\"",
+            "iconFirst=\"true\"",
+            "activeIcon=\"\"",
+            "iconDensityAware=\"true\"",
+            "textDirection=\"Inherit\"",
+            "ariaHasPopup=\"None\"",
+            "accessibleRole=\"Default\"",
+            "highlightAccKeysRef=\"false\"",
+            "accesskey=\"\"",
+            "badgeStyle=\"Default\"$2"
+        ],
+        "description": "sap.m.Button with non-inherited properties"
+    },
+    "sap.m.Button-aggregations": {
+        "prefix": "!5-button-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.m.Button with non-inherited aggregations"
+    },
+    "sap.m.Button-events": {
+        "prefix": "!5-button-events",
+        "body": [
+            "$1tap=\".on${3:Tap}\"",
+            "press=\".on${4:Press}\"",
+            "ariaDescribedBy=\".on${5:AriaDescribedBy}\"",
+            "ariaLabelledBy=\".on${6:AriaLabelledBy}\"$2"
+        ],
+        "description": "sap.m.Button with non-inherited events"
+    },
+    "sap.m.Button-all": {
+        "prefix": "!5-button-all",
+        "body": [
+            "$1text=\"\"",
+            "type=\"Default\"",
+            "width=\"\"",
+            "enabled=\"true\"",
+            "icon=\"\"",
+            "iconFirst=\"true\"",
+            "activeIcon=\"\"",
+            "iconDensityAware=\"true\"",
+            "textDirection=\"Inherit\"",
+            "ariaHasPopup=\"None\"",
+            "accessibleRole=\"Default\"",
+            "highlightAccKeysRef=\"false\"",
+            "accesskey=\"\"",
+            "badgeStyle=\"Default\"",
+            "tap=\".on${3:Tap}\"",
+            "press=\".on${4:Press}\"",
+            "ariaDescribedBy=\".on${5:AriaDescribedBy}\"",
+            "ariaLabelledBy=\".on${6:AriaLabelledBy}\"$2"
+        ],
+        "description": "sap.m.Button with non-inherited properties, aggregations and events"
+    }
+}

@@ -1,0 +1,76 @@
+{
+    "sap.ui.webc.main.DateRangePicker": {
+        "prefix": "!5-date-range-picker",
+        "body": [
+            "<DateRangePicker ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.webc.main.DateRangePicker"
+    },
+    "sap.ui.webc.main.DateRangePicker-properties": {
+        "prefix": "!5-date-range-picker-properties",
+        "body": [
+            "$1accessibleName=\"\"",
+            "delimiter=\"-\"",
+            "enabled=\"true\"",
+            "formatPattern=\"\"",
+            "hideWeekNumbers=\"false\"",
+            "maxDate=\"\"",
+            "minDate=\"\"",
+            "name=\"\"",
+            "placeholder=\"undefined\"",
+            "primaryCalendarType=\"\"",
+            "readonly=\"false\"",
+            "required=\"false\"",
+            "secondaryCalendarType=\"undefined\"",
+            "value=\"\"",
+            "valueState=\"None\"",
+            "valueStateMessage=\"\"",
+            "width=\"\"$2"
+        ],
+        "description": "sap.ui.webc.main.DateRangePicker with non-inherited properties"
+    },
+    "sap.ui.webc.main.DateRangePicker-aggregations": {
+        "prefix": "!5-date-range-picker-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.webc.main.DateRangePicker with non-inherited aggregations"
+    },
+    "sap.ui.webc.main.DateRangePicker-events": {
+        "prefix": "!5-date-range-picker-events",
+        "body": [
+            "$1change=\".on${3:Change}\"",
+            "input=\".on${4:Input}\"",
+            "ariaLabelledBy=\".on${5:AriaLabelledBy}\"$2"
+        ],
+        "description": "sap.ui.webc.main.DateRangePicker with non-inherited events"
+    },
+    "sap.ui.webc.main.DateRangePicker-all": {
+        "prefix": "!5-date-range-picker-all",
+        "body": [
+            "$1accessibleName=\"\"",
+            "delimiter=\"-\"",
+            "enabled=\"true\"",
+            "formatPattern=\"\"",
+            "hideWeekNumbers=\"false\"",
+            "maxDate=\"\"",
+            "minDate=\"\"",
+            "name=\"\"",
+            "placeholder=\"undefined\"",
+            "primaryCalendarType=\"\"",
+            "readonly=\"false\"",
+            "required=\"false\"",
+            "secondaryCalendarType=\"undefined\"",
+            "value=\"\"",
+            "valueState=\"None\"",
+            "valueStateMessage=\"\"",
+            "width=\"\"",
+            "change=\".on${3:Change}\"",
+            "input=\".on${4:Input}\"",
+            "ariaLabelledBy=\".on${5:AriaLabelledBy}\"$2"
+        ],
+        "description": "sap.ui.webc.main.DateRangePicker with non-inherited properties, aggregations and events"
+    }
+}

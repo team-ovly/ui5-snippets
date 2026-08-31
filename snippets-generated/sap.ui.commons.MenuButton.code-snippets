@@ -1,0 +1,48 @@
+{
+    "sap.ui.commons.MenuButton": {
+        "prefix": "!5-menu-button",
+        "body": [
+            "<MenuButton ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.commons.MenuButton"
+    },
+    "sap.ui.commons.MenuButton-properties": {
+        "prefix": "!5-menu-button-properties",
+        "body": [
+            "$1dockButton=\"\"",
+            "dockMenu=\"\"$2"
+        ],
+        "description": "sap.ui.commons.MenuButton with non-inherited properties"
+    },
+    "sap.ui.commons.MenuButton-aggregations": {
+        "prefix": "!5-menu-button-aggregations",
+        "body": [
+            "$1<menu>",
+            "\t<!-- <sap.ui.unified.Menu /> -->",
+            "</menu>",
+            "$2"
+        ],
+        "description": "sap.ui.commons.MenuButton with non-inherited aggregations"
+    },
+    "sap.ui.commons.MenuButton-events": {
+        "prefix": "!5-menu-button-events",
+        "body": [
+            "$1itemSelected=\".on${3:ItemSelected}\"$2"
+        ],
+        "description": "sap.ui.commons.MenuButton with non-inherited events"
+    },
+    "sap.ui.commons.MenuButton-all": {
+        "prefix": "!5-menu-button-all",
+        "body": [
+            "$1dockButton=\"\"",
+            "dockMenu=\"\"",
+            "<menu>",
+            "\t<!-- <sap.ui.unified.Menu /> -->",
+            "</menu>",
+            "itemSelected=\".on${3:ItemSelected}\"$2"
+        ],
+        "description": "sap.ui.commons.MenuButton with non-inherited properties, aggregations and events"
+    }
+}

@@ -1,0 +1,74 @@
+{
+    "sap.m.ActionSheet": {
+        "prefix": "!5-action-sheet",
+        "body": [
+            "<ActionSheet ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.ActionSheet"
+    },
+    "sap.m.ActionSheet-properties": {
+        "prefix": "!5-action-sheet-properties",
+        "body": [
+            "$1placement=\"Bottom\"",
+            "showCancelButton=\"true\"",
+            "cancelButtonText=\"\"",
+            "title=\"\"$2"
+        ],
+        "description": "sap.m.ActionSheet with non-inherited properties"
+    },
+    "sap.m.ActionSheet-aggregations": {
+        "prefix": "!5-action-sheet-aggregations",
+        "body": [
+            "$1<buttons>",
+            "\t<!-- <sap.m.Button /> -->",
+            "</buttons>",
+            "<_cancelButton>",
+            "\t<!-- <sap.m.Button /> -->",
+            "</_cancelButton>",
+            "<_invisibleAriaTexts>",
+            "\t<!-- <sap.ui.core.InvisibleText /> -->",
+            "</_invisibleAriaTexts>",
+            "$2"
+        ],
+        "description": "sap.m.ActionSheet with non-inherited aggregations"
+    },
+    "sap.m.ActionSheet-events": {
+        "prefix": "!5-action-sheet-events",
+        "body": [
+            "$1cancelButtonTap=\".on${3:CancelButtonTap}\"",
+            "beforeOpen=\".on${4:BeforeOpen}\"",
+            "afterOpen=\".on${5:AfterOpen}\"",
+            "beforeClose=\".on${6:BeforeClose}\"",
+            "afterClose=\".on${7:AfterClose}\"",
+            "cancelButtonPress=\".on${8:CancelButtonPress}\"$2"
+        ],
+        "description": "sap.m.ActionSheet with non-inherited events"
+    },
+    "sap.m.ActionSheet-all": {
+        "prefix": "!5-action-sheet-all",
+        "body": [
+            "$1placement=\"Bottom\"",
+            "showCancelButton=\"true\"",
+            "cancelButtonText=\"\"",
+            "title=\"\"",
+            "<buttons>",
+            "\t<!-- <sap.m.Button /> -->",
+            "</buttons>",
+            "<_cancelButton>",
+            "\t<!-- <sap.m.Button /> -->",
+            "</_cancelButton>",
+            "<_invisibleAriaTexts>",
+            "\t<!-- <sap.ui.core.InvisibleText /> -->",
+            "</_invisibleAriaTexts>",
+            "cancelButtonTap=\".on${3:CancelButtonTap}\"",
+            "beforeOpen=\".on${4:BeforeOpen}\"",
+            "afterOpen=\".on${5:AfterOpen}\"",
+            "beforeClose=\".on${6:BeforeClose}\"",
+            "afterClose=\".on${7:AfterClose}\"",
+            "cancelButtonPress=\".on${8:CancelButtonPress}\"$2"
+        ],
+        "description": "sap.m.ActionSheet with non-inherited properties, aggregations and events"
+    }
+}

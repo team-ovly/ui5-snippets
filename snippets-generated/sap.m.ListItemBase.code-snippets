@@ -1,0 +1,62 @@
+{
+    "sap.m.ListItemBase": {
+        "prefix": "!5-list-item-base",
+        "body": [
+            "<ListItemBase ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.ListItemBase"
+    },
+    "sap.m.ListItemBase-properties": {
+        "prefix": "!5-list-item-base-properties",
+        "body": [
+            "$1type=\"Inactive\"",
+            "visible=\"true\"",
+            "unread=\"false\"",
+            "selected=\"false\"",
+            "counter=\"\"",
+            "highlight=\"None\"",
+            "highlightText=\"\"",
+            "navigated=\"false\"$2"
+        ],
+        "description": "sap.m.ListItemBase with non-inherited properties"
+    },
+    "sap.m.ListItemBase-aggregations": {
+        "prefix": "!5-list-item-base-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.m.ListItemBase with non-inherited aggregations"
+    },
+    "sap.m.ListItemBase-events": {
+        "prefix": "!5-list-item-base-events",
+        "body": [
+            "$1tap=\".on${3:Tap}\"",
+            "detailTap=\".on${4:DetailTap}\"",
+            "press=\".on${5:Press}\"",
+            "detailPress=\".on${6:DetailPress}\"",
+            "ariaLabelledBy=\".on${7:AriaLabelledBy}\"$2"
+        ],
+        "description": "sap.m.ListItemBase with non-inherited events"
+    },
+    "sap.m.ListItemBase-all": {
+        "prefix": "!5-list-item-base-all",
+        "body": [
+            "$1type=\"Inactive\"",
+            "visible=\"true\"",
+            "unread=\"false\"",
+            "selected=\"false\"",
+            "counter=\"\"",
+            "highlight=\"None\"",
+            "highlightText=\"\"",
+            "navigated=\"false\"",
+            "tap=\".on${3:Tap}\"",
+            "detailTap=\".on${4:DetailTap}\"",
+            "press=\".on${5:Press}\"",
+            "detailPress=\".on${6:DetailPress}\"",
+            "ariaLabelledBy=\".on${7:AriaLabelledBy}\"$2"
+        ],
+        "description": "sap.m.ListItemBase with non-inherited properties, aggregations and events"
+    }
+}

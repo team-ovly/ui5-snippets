@@ -1,0 +1,70 @@
+{
+    "sap.m.Table": {
+        "prefix": "!5-table",
+        "body": [
+            "<Table ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.Table"
+    },
+    "sap.m.Table-properties": {
+        "prefix": "!5-table-properties",
+        "body": [
+            "$1backgroundDesign=\"Translucent\"",
+            "fixedLayout=\"true\"",
+            "showOverlay=\"false\"",
+            "alternateRowColors=\"false\"",
+            "popinLayout=\"Block\"",
+            "contextualWidth=\"Inherit\"",
+            "autoPopinMode=\"false\"",
+            "hiddenInPopin=\"\"$2"
+        ],
+        "description": "sap.m.Table with non-inherited properties"
+    },
+    "sap.m.Table-aggregations": {
+        "prefix": "!5-table-aggregations",
+        "body": [
+            "$1<columns>",
+            "\t<!-- <sap.m.Column /> -->",
+            "</columns>",
+            "<_noColumnsMessage>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</_noColumnsMessage>",
+            "$2"
+        ],
+        "description": "sap.m.Table with non-inherited aggregations"
+    },
+    "sap.m.Table-events": {
+        "prefix": "!5-table-events",
+        "body": [
+            "$1beforeOpenContextMenu=\".on${3:BeforeOpenContextMenu}\"",
+            "paste=\".on${4:Paste}\"",
+            "popinChanged=\".on${5:PopinChanged}\"$2"
+        ],
+        "description": "sap.m.Table with non-inherited events"
+    },
+    "sap.m.Table-all": {
+        "prefix": "!5-table-all",
+        "body": [
+            "$1backgroundDesign=\"Translucent\"",
+            "fixedLayout=\"true\"",
+            "showOverlay=\"false\"",
+            "alternateRowColors=\"false\"",
+            "popinLayout=\"Block\"",
+            "contextualWidth=\"Inherit\"",
+            "autoPopinMode=\"false\"",
+            "hiddenInPopin=\"\"",
+            "<columns>",
+            "\t<!-- <sap.m.Column /> -->",
+            "</columns>",
+            "<_noColumnsMessage>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</_noColumnsMessage>",
+            "beforeOpenContextMenu=\".on${3:BeforeOpenContextMenu}\"",
+            "paste=\".on${4:Paste}\"",
+            "popinChanged=\".on${5:PopinChanged}\"$2"
+        ],
+        "description": "sap.m.Table with non-inherited properties, aggregations and events"
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "sap.ui.commons.layout.MatrixLayout": {
+        "prefix": "!5-matrix-layout",
+        "body": [
+            "<MatrixLayout ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.commons.layout.MatrixLayout"
+    },
+    "sap.ui.commons.layout.MatrixLayout-properties": {
+        "prefix": "!5-matrix-layout-properties",
+        "body": [
+            "$1width=\"\"",
+            "height=\"\"",
+            "layoutFixed=\"true\"",
+            "columns=\"\"",
+            "widths=\"\"$2"
+        ],
+        "description": "sap.ui.commons.layout.MatrixLayout with non-inherited properties"
+    },
+    "sap.ui.commons.layout.MatrixLayout-aggregations": {
+        "prefix": "!5-matrix-layout-aggregations",
+        "body": [
+            "$1<rows>",
+            "\t<!-- <sap.ui.commons.layout.MatrixLayoutRow /> -->",
+            "</rows>",
+            "$2"
+        ],
+        "description": "sap.ui.commons.layout.MatrixLayout with non-inherited aggregations"
+    },
+    "sap.ui.commons.layout.MatrixLayout-events": {
+        "prefix": "!5-matrix-layout-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.commons.layout.MatrixLayout with non-inherited events"
+    },
+    "sap.ui.commons.layout.MatrixLayout-all": {
+        "prefix": "!5-matrix-layout-all",
+        "body": [
+            "$1width=\"\"",
+            "height=\"\"",
+            "layoutFixed=\"true\"",
+            "columns=\"\"",
+            "widths=\"\"",
+            "<rows>",
+            "\t<!-- <sap.ui.commons.layout.MatrixLayoutRow /> -->",
+            "</rows>$2"
+        ],
+        "description": "sap.ui.commons.layout.MatrixLayout with non-inherited properties, aggregations and events"
+    }
+}

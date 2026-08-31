@@ -1,0 +1,88 @@
+{
+    "sap.f.cards.BaseHeader": {
+        "prefix": "!5-base-header",
+        "body": [
+            "<BaseHeader ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.f.cards.BaseHeader"
+    },
+    "sap.f.cards.BaseHeader-properties": {
+        "prefix": "!5-base-header-properties",
+        "body": [
+            "$1dataTimestamp=\"\"",
+            "statusVisible=\"true\"",
+            "dataTimestampUpdating=\"false\"",
+            "focusable=\"true\"",
+            "useTileLayout=\"\"",
+            "headingLevel=\"3\"",
+            "wrappingType=\"Normal\"",
+            "useTooltips=\"false\"",
+            "href=\"\"",
+            "target=\"\"$2"
+        ],
+        "description": "sap.f.cards.BaseHeader with non-inherited properties"
+    },
+    "sap.f.cards.BaseHeader-aggregations": {
+        "prefix": "!5-base-header-aggregations",
+        "body": [
+            "$1<infoSection>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</infoSection>",
+            "<_dataTimestamp>",
+            "\t<!-- <sap.m.Text /> -->",
+            "</_dataTimestamp>",
+            "<toolbar>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</toolbar>",
+            "<_error>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</_error>",
+            "<bannerLines>",
+            "\t<!-- <sap.m.Text /> -->",
+            "</bannerLines>",
+            "$2"
+        ],
+        "description": "sap.f.cards.BaseHeader with non-inherited aggregations"
+    },
+    "sap.f.cards.BaseHeader-events": {
+        "prefix": "!5-base-header-events",
+        "body": [
+            "$1press=\".on${3:Press}\"$2"
+        ],
+        "description": "sap.f.cards.BaseHeader with non-inherited events"
+    },
+    "sap.f.cards.BaseHeader-all": {
+        "prefix": "!5-base-header-all",
+        "body": [
+            "$1dataTimestamp=\"\"",
+            "statusVisible=\"true\"",
+            "dataTimestampUpdating=\"false\"",
+            "focusable=\"true\"",
+            "useTileLayout=\"\"",
+            "headingLevel=\"3\"",
+            "wrappingType=\"Normal\"",
+            "useTooltips=\"false\"",
+            "href=\"\"",
+            "target=\"\"",
+            "<infoSection>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</infoSection>",
+            "<_dataTimestamp>",
+            "\t<!-- <sap.m.Text /> -->",
+            "</_dataTimestamp>",
+            "<toolbar>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</toolbar>",
+            "<_error>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</_error>",
+            "<bannerLines>",
+            "\t<!-- <sap.m.Text /> -->",
+            "</bannerLines>",
+            "press=\".on${3:Press}\"$2"
+        ],
+        "description": "sap.f.cards.BaseHeader with non-inherited properties, aggregations and events"
+    }
+}

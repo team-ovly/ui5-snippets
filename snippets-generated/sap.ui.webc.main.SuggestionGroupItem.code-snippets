@@ -1,0 +1,39 @@
+{
+    "sap.ui.webc.main.SuggestionGroupItem": {
+        "prefix": "!5-suggestion-group-item",
+        "body": [
+            "<SuggestionGroupItem ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.webc.main.SuggestionGroupItem"
+    },
+    "sap.ui.webc.main.SuggestionGroupItem-properties": {
+        "prefix": "!5-suggestion-group-item-properties",
+        "body": [
+            "$1text=\"\"$2"
+        ],
+        "description": "sap.ui.webc.main.SuggestionGroupItem with non-inherited properties"
+    },
+    "sap.ui.webc.main.SuggestionGroupItem-aggregations": {
+        "prefix": "!5-suggestion-group-item-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.webc.main.SuggestionGroupItem with non-inherited aggregations"
+    },
+    "sap.ui.webc.main.SuggestionGroupItem-events": {
+        "prefix": "!5-suggestion-group-item-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.webc.main.SuggestionGroupItem with non-inherited events"
+    },
+    "sap.ui.webc.main.SuggestionGroupItem-all": {
+        "prefix": "!5-suggestion-group-item-all",
+        "body": [
+            "$1text=\"\"$2"
+        ],
+        "description": "sap.ui.webc.main.SuggestionGroupItem with non-inherited properties, aggregations and events"
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "sap.ui.commons.RangeSlider": {
+        "prefix": "!5-range-slider",
+        "body": [
+            "<RangeSlider ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.commons.RangeSlider"
+    },
+    "sap.ui.commons.RangeSlider-properties": {
+        "prefix": "!5-range-slider-properties",
+        "body": [
+            "$1value2=\"80\"$2"
+        ],
+        "description": "sap.ui.commons.RangeSlider with non-inherited properties"
+    },
+    "sap.ui.commons.RangeSlider-aggregations": {
+        "prefix": "!5-range-slider-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.commons.RangeSlider with non-inherited aggregations"
+    },
+    "sap.ui.commons.RangeSlider-events": {
+        "prefix": "!5-range-slider-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.commons.RangeSlider with non-inherited events"
+    },
+    "sap.ui.commons.RangeSlider-all": {
+        "prefix": "!5-range-slider-all",
+        "body": [
+            "$1value2=\"80\"$2"
+        ],
+        "description": "sap.ui.commons.RangeSlider with non-inherited properties, aggregations and events"
+    }
+}

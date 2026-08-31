@@ -1,0 +1,47 @@
+{
+    "sap.m.DraftIndicator": {
+        "prefix": "!5-draft-indicator",
+        "body": [
+            "<DraftIndicator ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.DraftIndicator"
+    },
+    "sap.m.DraftIndicator-properties": {
+        "prefix": "!5-draft-indicator-properties",
+        "body": [
+            "$1state=\"Clear\"",
+            "minDisplayTime=\"1500\"$2"
+        ],
+        "description": "sap.m.DraftIndicator with non-inherited properties"
+    },
+    "sap.m.DraftIndicator-aggregations": {
+        "prefix": "!5-draft-indicator-aggregations",
+        "body": [
+            "$1<_label>",
+            "\t<!-- <sap.m.Label /> -->",
+            "</_label>",
+            "$2"
+        ],
+        "description": "sap.m.DraftIndicator with non-inherited aggregations"
+    },
+    "sap.m.DraftIndicator-events": {
+        "prefix": "!5-draft-indicator-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.m.DraftIndicator with non-inherited events"
+    },
+    "sap.m.DraftIndicator-all": {
+        "prefix": "!5-draft-indicator-all",
+        "body": [
+            "$1state=\"Clear\"",
+            "minDisplayTime=\"1500\"",
+            "<_label>",
+            "\t<!-- <sap.m.Label /> -->",
+            "</_label>$2"
+        ],
+        "description": "sap.m.DraftIndicator with non-inherited properties, aggregations and events"
+    }
+}

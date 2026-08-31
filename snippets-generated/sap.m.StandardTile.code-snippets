@@ -1,0 +1,56 @@
+{
+    "sap.m.StandardTile": {
+        "prefix": "!5-standard-tile",
+        "body": [
+            "<StandardTile ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.StandardTile"
+    },
+    "sap.m.StandardTile-properties": {
+        "prefix": "!5-standard-tile-properties",
+        "body": [
+            "$1title=\"\"",
+            "info=\"\"",
+            "icon=\"\"",
+            "activeIcon=\"\"",
+            "number=\"\"",
+            "numberUnit=\"\"",
+            "infoState=\"None\"",
+            "type=\"None\"",
+            "iconDensityAware=\"true\"$2"
+        ],
+        "description": "sap.m.StandardTile with non-inherited properties"
+    },
+    "sap.m.StandardTile-aggregations": {
+        "prefix": "!5-standard-tile-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.m.StandardTile with non-inherited aggregations"
+    },
+    "sap.m.StandardTile-events": {
+        "prefix": "!5-standard-tile-events",
+        "body": [
+            "$1ariaDescribedBy=\".on${3:AriaDescribedBy}\"$2"
+        ],
+        "description": "sap.m.StandardTile with non-inherited events"
+    },
+    "sap.m.StandardTile-all": {
+        "prefix": "!5-standard-tile-all",
+        "body": [
+            "$1title=\"\"",
+            "info=\"\"",
+            "icon=\"\"",
+            "activeIcon=\"\"",
+            "number=\"\"",
+            "numberUnit=\"\"",
+            "infoState=\"None\"",
+            "type=\"None\"",
+            "iconDensityAware=\"true\"",
+            "ariaDescribedBy=\".on${3:AriaDescribedBy}\"$2"
+        ],
+        "description": "sap.m.StandardTile with non-inherited properties, aggregations and events"
+    }
+}

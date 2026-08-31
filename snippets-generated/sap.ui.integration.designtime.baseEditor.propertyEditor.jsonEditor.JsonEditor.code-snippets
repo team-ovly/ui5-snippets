@@ -1,0 +1,39 @@
+{
+    "sap.ui.integration.designtime.baseEditor.propertyEditor.jsonEditor.JsonEditor": {
+        "prefix": "!5-json-editor",
+        "body": [
+            "<JsonEditor ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.integration.designtime.baseEditor.propertyEditor.jsonEditor.JsonEditor"
+    },
+    "sap.ui.integration.designtime.baseEditor.propertyEditor.jsonEditor.JsonEditor-properties": {
+        "prefix": "!5-json-editor-properties",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.integration.designtime.baseEditor.propertyEditor.jsonEditor.JsonEditor with non-inherited properties"
+    },
+    "sap.ui.integration.designtime.baseEditor.propertyEditor.jsonEditor.JsonEditor-aggregations": {
+        "prefix": "!5-json-editor-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.integration.designtime.baseEditor.propertyEditor.jsonEditor.JsonEditor with non-inherited aggregations"
+    },
+    "sap.ui.integration.designtime.baseEditor.propertyEditor.jsonEditor.JsonEditor-events": {
+        "prefix": "!5-json-editor-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.integration.designtime.baseEditor.propertyEditor.jsonEditor.JsonEditor with non-inherited events"
+    },
+    "sap.ui.integration.designtime.baseEditor.propertyEditor.jsonEditor.JsonEditor-all": {
+        "prefix": "!5-json-editor-all",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.integration.designtime.baseEditor.propertyEditor.jsonEditor.JsonEditor with non-inherited properties, aggregations and events"
+    }
+}

@@ -1,0 +1,110 @@
+{
+    "sap.m.MessagePage": {
+        "prefix": "!5-message-page",
+        "body": [
+            "<MessagePage ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.MessagePage"
+    },
+    "sap.m.MessagePage-properties": {
+        "prefix": "!5-message-page-properties",
+        "body": [
+            "$1text=\"No matching items found.\"",
+            "description=\"Check the filter settings.\"",
+            "title=\"\"",
+            "titleLevel=\"Auto\"",
+            "showHeader=\"true\"",
+            "showNavButton=\"false\"",
+            "icon=\"sap-icon://documents\"",
+            "iconAlt=\"\"",
+            "textDirection=\"Inherit\"",
+            "enableFormattedText=\"false\"$2"
+        ],
+        "description": "sap.m.MessagePage with non-inherited properties"
+    },
+    "sap.m.MessagePage-aggregations": {
+        "prefix": "!5-message-page-aggregations",
+        "body": [
+            "$1<customText>",
+            "\t<!-- <sap.m.Link /> -->",
+            "</customText>",
+            "<customDescription>",
+            "\t<!-- <sap.m.Link /> -->",
+            "</customDescription>",
+            "<buttons>",
+            "\t<!-- <sap.m.Button /> -->",
+            "</buttons>",
+            "<_internalHeader>",
+            "\t<!-- <sap.m.Bar /> -->",
+            "</_internalHeader>",
+            "<_formattedText>",
+            "\t<!-- <sap.m.FormattedText /> -->",
+            "</_formattedText>",
+            "<_text>",
+            "\t<!-- <sap.m.Text /> -->",
+            "</_text>",
+            "<_description>",
+            "\t<!-- <sap.m.Text /> -->",
+            "</_description>",
+            "<_icon>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</_icon>",
+            "$2"
+        ],
+        "description": "sap.m.MessagePage with non-inherited aggregations"
+    },
+    "sap.m.MessagePage-events": {
+        "prefix": "!5-message-page-events",
+        "body": [
+            "$1navButtonPress=\".on${3:NavButtonPress}\"",
+            "ariaDescribedBy=\".on${4:AriaDescribedBy}\"",
+            "ariaLabelledBy=\".on${5:AriaLabelledBy}\"$2"
+        ],
+        "description": "sap.m.MessagePage with non-inherited events"
+    },
+    "sap.m.MessagePage-all": {
+        "prefix": "!5-message-page-all",
+        "body": [
+            "$1text=\"No matching items found.\"",
+            "description=\"Check the filter settings.\"",
+            "title=\"\"",
+            "titleLevel=\"Auto\"",
+            "showHeader=\"true\"",
+            "showNavButton=\"false\"",
+            "icon=\"sap-icon://documents\"",
+            "iconAlt=\"\"",
+            "textDirection=\"Inherit\"",
+            "enableFormattedText=\"false\"",
+            "<customText>",
+            "\t<!-- <sap.m.Link /> -->",
+            "</customText>",
+            "<customDescription>",
+            "\t<!-- <sap.m.Link /> -->",
+            "</customDescription>",
+            "<buttons>",
+            "\t<!-- <sap.m.Button /> -->",
+            "</buttons>",
+            "<_internalHeader>",
+            "\t<!-- <sap.m.Bar /> -->",
+            "</_internalHeader>",
+            "<_formattedText>",
+            "\t<!-- <sap.m.FormattedText /> -->",
+            "</_formattedText>",
+            "<_text>",
+            "\t<!-- <sap.m.Text /> -->",
+            "</_text>",
+            "<_description>",
+            "\t<!-- <sap.m.Text /> -->",
+            "</_description>",
+            "<_icon>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</_icon>",
+            "navButtonPress=\".on${3:NavButtonPress}\"",
+            "ariaDescribedBy=\".on${4:AriaDescribedBy}\"",
+            "ariaLabelledBy=\".on${5:AriaLabelledBy}\"$2"
+        ],
+        "description": "sap.m.MessagePage with non-inherited properties, aggregations and events"
+    }
+}

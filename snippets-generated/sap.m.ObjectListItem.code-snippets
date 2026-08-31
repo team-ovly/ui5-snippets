@@ -1,0 +1,97 @@
+{
+    "sap.m.ObjectListItem": {
+        "prefix": "!5-object-list-item",
+        "body": [
+            "<ObjectListItem ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.ObjectListItem"
+    },
+    "sap.m.ObjectListItem-properties": {
+        "prefix": "!5-object-list-item-properties",
+        "body": [
+            "$1title=\"\"",
+            "number=\"\"",
+            "numberUnit=\"\"",
+            "intro=\"\"",
+            "icon=\"\"",
+            "activeIcon=\"\"",
+            "iconDensityAware=\"true\"",
+            "markFavorite=\"\"",
+            "markFlagged=\"\"",
+            "showMarkers=\"\"",
+            "numberState=\"None\"",
+            "titleTextDirection=\"Inherit\"",
+            "introTextDirection=\"Inherit\"",
+            "numberTextDirection=\"Inherit\"",
+            "markLocked=\"false\"$2"
+        ],
+        "description": "sap.m.ObjectListItem with non-inherited properties"
+    },
+    "sap.m.ObjectListItem-aggregations": {
+        "prefix": "!5-object-list-item-aggregations",
+        "body": [
+            "$1<attributes>",
+            "\t<!-- <sap.m.ObjectAttribute /> -->",
+            "</attributes>",
+            "<firstStatus>",
+            "\t<!-- <sap.m.ObjectStatus /> -->",
+            "</firstStatus>",
+            "<secondStatus>",
+            "\t<!-- <sap.m.ObjectStatus /> -->",
+            "</secondStatus>",
+            "<markers>",
+            "\t<!-- <sap.m.ObjectMarker /> -->",
+            "</markers>",
+            "<_objectNumber>",
+            "\t<!-- <sap.m.ObjectNumber /> -->",
+            "</_objectNumber>",
+            "$2"
+        ],
+        "description": "sap.m.ObjectListItem with non-inherited aggregations"
+    },
+    "sap.m.ObjectListItem-events": {
+        "prefix": "!5-object-list-item-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.m.ObjectListItem with non-inherited events"
+    },
+    "sap.m.ObjectListItem-all": {
+        "prefix": "!5-object-list-item-all",
+        "body": [
+            "$1title=\"\"",
+            "number=\"\"",
+            "numberUnit=\"\"",
+            "intro=\"\"",
+            "icon=\"\"",
+            "activeIcon=\"\"",
+            "iconDensityAware=\"true\"",
+            "markFavorite=\"\"",
+            "markFlagged=\"\"",
+            "showMarkers=\"\"",
+            "numberState=\"None\"",
+            "titleTextDirection=\"Inherit\"",
+            "introTextDirection=\"Inherit\"",
+            "numberTextDirection=\"Inherit\"",
+            "markLocked=\"false\"",
+            "<attributes>",
+            "\t<!-- <sap.m.ObjectAttribute /> -->",
+            "</attributes>",
+            "<firstStatus>",
+            "\t<!-- <sap.m.ObjectStatus /> -->",
+            "</firstStatus>",
+            "<secondStatus>",
+            "\t<!-- <sap.m.ObjectStatus /> -->",
+            "</secondStatus>",
+            "<markers>",
+            "\t<!-- <sap.m.ObjectMarker /> -->",
+            "</markers>",
+            "<_objectNumber>",
+            "\t<!-- <sap.m.ObjectNumber /> -->",
+            "</_objectNumber>$2"
+        ],
+        "description": "sap.m.ObjectListItem with non-inherited properties, aggregations and events"
+    }
+}

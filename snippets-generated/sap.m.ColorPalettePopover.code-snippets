@@ -1,0 +1,54 @@
+{
+    "sap.m.ColorPalettePopover": {
+        "prefix": "!5-color-palette-popover",
+        "body": [
+            "<ColorPalettePopover ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.ColorPalettePopover"
+    },
+    "sap.m.ColorPalettePopover-properties": {
+        "prefix": "!5-color-palette-popover-properties",
+        "body": [
+            "$1defaultColor=\"\"",
+            "colors=\"gold,darkorange,indianred,darkmagenta,cornflowerblue,deepskyblue,darkcyan,olivedrab,darkslategray,azure,white,lightgray,darkgray,dimgray,black\"",
+            "selectedColor=\"\"",
+            "showDefaultColorButton=\"true\"",
+            "showMoreColorsButton=\"true\"",
+            "showRecentColorsSection=\"true\"",
+            "displayMode=\"Default\"$2"
+        ],
+        "description": "sap.m.ColorPalettePopover with non-inherited properties"
+    },
+    "sap.m.ColorPalettePopover-aggregations": {
+        "prefix": "!5-color-palette-popover-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.m.ColorPalettePopover with non-inherited aggregations"
+    },
+    "sap.m.ColorPalettePopover-events": {
+        "prefix": "!5-color-palette-popover-events",
+        "body": [
+            "$1colorSelect=\".on${3:ColorSelect}\"",
+            "liveChange=\".on${4:LiveChange}\"$2"
+        ],
+        "description": "sap.m.ColorPalettePopover with non-inherited events"
+    },
+    "sap.m.ColorPalettePopover-all": {
+        "prefix": "!5-color-palette-popover-all",
+        "body": [
+            "$1defaultColor=\"\"",
+            "colors=\"gold,darkorange,indianred,darkmagenta,cornflowerblue,deepskyblue,darkcyan,olivedrab,darkslategray,azure,white,lightgray,darkgray,dimgray,black\"",
+            "selectedColor=\"\"",
+            "showDefaultColorButton=\"true\"",
+            "showMoreColorsButton=\"true\"",
+            "showRecentColorsSection=\"true\"",
+            "displayMode=\"Default\"",
+            "colorSelect=\".on${3:ColorSelect}\"",
+            "liveChange=\".on${4:LiveChange}\"$2"
+        ],
+        "description": "sap.m.ColorPalettePopover with non-inherited properties, aggregations and events"
+    }
+}

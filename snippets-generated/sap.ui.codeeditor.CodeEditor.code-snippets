@@ -1,0 +1,60 @@
+{
+    "sap.ui.codeeditor.CodeEditor": {
+        "prefix": "!5-code-editor",
+        "body": [
+            "<CodeEditor ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.codeeditor.CodeEditor"
+    },
+    "sap.ui.codeeditor.CodeEditor-properties": {
+        "prefix": "!5-code-editor-properties",
+        "body": [
+            "$1value=\"\"",
+            "type=\"javascript\"",
+            "width=\"100%\"",
+            "height=\"100%\"",
+            "editable=\"true\"",
+            "lineNumbers=\"true\"",
+            "valueSelection=\"false\"",
+            "maxLines=\"0\"",
+            "colorTheme=\"default\"",
+            "syntaxHints=\"true\"$2"
+        ],
+        "description": "sap.ui.codeeditor.CodeEditor with non-inherited properties"
+    },
+    "sap.ui.codeeditor.CodeEditor-aggregations": {
+        "prefix": "!5-code-editor-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.codeeditor.CodeEditor with non-inherited aggregations"
+    },
+    "sap.ui.codeeditor.CodeEditor-events": {
+        "prefix": "!5-code-editor-events",
+        "body": [
+            "$1liveChange=\".on${3:LiveChange}\"",
+            "change=\".on${4:Change}\"$2"
+        ],
+        "description": "sap.ui.codeeditor.CodeEditor with non-inherited events"
+    },
+    "sap.ui.codeeditor.CodeEditor-all": {
+        "prefix": "!5-code-editor-all",
+        "body": [
+            "$1value=\"\"",
+            "type=\"javascript\"",
+            "width=\"100%\"",
+            "height=\"100%\"",
+            "editable=\"true\"",
+            "lineNumbers=\"true\"",
+            "valueSelection=\"false\"",
+            "maxLines=\"0\"",
+            "colorTheme=\"default\"",
+            "syntaxHints=\"true\"",
+            "liveChange=\".on${3:LiveChange}\"",
+            "change=\".on${4:Change}\"$2"
+        ],
+        "description": "sap.ui.codeeditor.CodeEditor with non-inherited properties, aggregations and events"
+    }
+}

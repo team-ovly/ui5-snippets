@@ -1,0 +1,74 @@
+{
+    "sap.ui.commons.TextField": {
+        "prefix": "!5-text-field",
+        "body": [
+            "<TextField ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.commons.TextField"
+    },
+    "sap.ui.commons.TextField-properties": {
+        "prefix": "!5-text-field-properties",
+        "body": [
+            "$1value=\"\"",
+            "textDirection=\"Inherit\"",
+            "enabled=\"true\"",
+            "editable=\"true\"",
+            "required=\"false\"",
+            "width=\"\"",
+            "maxLength=\"0\"",
+            "valueState=\"None\"",
+            "textAlign=\"Begin\"",
+            "imeMode=\"Auto\"",
+            "design=\"Standard\"",
+            "helpId=\"\"",
+            "accessibleRole=\"Textbox\"",
+            "name=\"\"",
+            "placeholder=\"\"$2"
+        ],
+        "description": "sap.ui.commons.TextField with non-inherited properties"
+    },
+    "sap.ui.commons.TextField-aggregations": {
+        "prefix": "!5-text-field-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.commons.TextField with non-inherited aggregations"
+    },
+    "sap.ui.commons.TextField-events": {
+        "prefix": "!5-text-field-events",
+        "body": [
+            "$1change=\".on${3:Change}\"",
+            "liveChange=\".on${4:LiveChange}\"",
+            "ariaDescribedBy=\".on${5:AriaDescribedBy}\"",
+            "ariaLabelledBy=\".on${6:AriaLabelledBy}\"$2"
+        ],
+        "description": "sap.ui.commons.TextField with non-inherited events"
+    },
+    "sap.ui.commons.TextField-all": {
+        "prefix": "!5-text-field-all",
+        "body": [
+            "$1value=\"\"",
+            "textDirection=\"Inherit\"",
+            "enabled=\"true\"",
+            "editable=\"true\"",
+            "required=\"false\"",
+            "width=\"\"",
+            "maxLength=\"0\"",
+            "valueState=\"None\"",
+            "textAlign=\"Begin\"",
+            "imeMode=\"Auto\"",
+            "design=\"Standard\"",
+            "helpId=\"\"",
+            "accessibleRole=\"Textbox\"",
+            "name=\"\"",
+            "placeholder=\"\"",
+            "change=\".on${3:Change}\"",
+            "liveChange=\".on${4:LiveChange}\"",
+            "ariaDescribedBy=\".on${5:AriaDescribedBy}\"",
+            "ariaLabelledBy=\".on${6:AriaLabelledBy}\"$2"
+        ],
+        "description": "sap.ui.commons.TextField with non-inherited properties, aggregations and events"
+    }
+}

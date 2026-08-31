@@ -1,0 +1,51 @@
+{
+    "sap.m.TimePickerClocks": {
+        "prefix": "!5-time-picker-clocks",
+        "body": [
+            "<TimePickerClocks ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.TimePickerClocks"
+    },
+    "sap.m.TimePickerClocks-properties": {
+        "prefix": "!5-time-picker-clocks-properties",
+        "body": [
+            "$1skipAnimation=\"false\"$2"
+        ],
+        "description": "sap.m.TimePickerClocks with non-inherited properties"
+    },
+    "sap.m.TimePickerClocks-aggregations": {
+        "prefix": "!5-time-picker-clocks-aggregations",
+        "body": [
+            "$1<_buttons>",
+            "\t<!-- <sap.m.internal.ToggleSpinButton /> -->",
+            "</_buttons>",
+            "<_clocks>",
+            "\t<!-- <sap.m.TimePickerClock /> -->",
+            "</_clocks>",
+            "$2"
+        ],
+        "description": "sap.m.TimePickerClocks with non-inherited aggregations"
+    },
+    "sap.m.TimePickerClocks-events": {
+        "prefix": "!5-time-picker-clocks-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.m.TimePickerClocks with non-inherited events"
+    },
+    "sap.m.TimePickerClocks-all": {
+        "prefix": "!5-time-picker-clocks-all",
+        "body": [
+            "$1skipAnimation=\"false\"",
+            "<_buttons>",
+            "\t<!-- <sap.m.internal.ToggleSpinButton /> -->",
+            "</_buttons>",
+            "<_clocks>",
+            "\t<!-- <sap.m.TimePickerClock /> -->",
+            "</_clocks>$2"
+        ],
+        "description": "sap.m.TimePickerClocks with non-inherited properties, aggregations and events"
+    }
+}

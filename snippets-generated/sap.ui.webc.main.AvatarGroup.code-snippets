@@ -1,0 +1,54 @@
+{
+    "sap.ui.webc.main.AvatarGroup": {
+        "prefix": "!5-avatar-group",
+        "body": [
+            "<AvatarGroup ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.webc.main.AvatarGroup"
+    },
+    "sap.ui.webc.main.AvatarGroup-properties": {
+        "prefix": "!5-avatar-group-properties",
+        "body": [
+            "$1type=\"Group\"$2"
+        ],
+        "description": "sap.ui.webc.main.AvatarGroup with non-inherited properties"
+    },
+    "sap.ui.webc.main.AvatarGroup-aggregations": {
+        "prefix": "!5-avatar-group-aggregations",
+        "body": [
+            "$1<items>",
+            "\t<!-- <sap.ui.webc.main.IAvatar /> -->",
+            "</items>",
+            "<overflowButton>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</overflowButton>",
+            "$2"
+        ],
+        "description": "sap.ui.webc.main.AvatarGroup with non-inherited aggregations"
+    },
+    "sap.ui.webc.main.AvatarGroup-events": {
+        "prefix": "!5-avatar-group-events",
+        "body": [
+            "$1click=\".on${3:Click}\"",
+            "overflow=\".on${4:Overflow}\"$2"
+        ],
+        "description": "sap.ui.webc.main.AvatarGroup with non-inherited events"
+    },
+    "sap.ui.webc.main.AvatarGroup-all": {
+        "prefix": "!5-avatar-group-all",
+        "body": [
+            "$1type=\"Group\"",
+            "<items>",
+            "\t<!-- <sap.ui.webc.main.IAvatar /> -->",
+            "</items>",
+            "<overflowButton>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</overflowButton>",
+            "click=\".on${3:Click}\"",
+            "overflow=\".on${4:Overflow}\"$2"
+        ],
+        "description": "sap.ui.webc.main.AvatarGroup with non-inherited properties, aggregations and events"
+    }
+}

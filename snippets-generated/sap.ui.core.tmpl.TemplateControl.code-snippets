@@ -1,0 +1,50 @@
+{
+    "sap.ui.core.tmpl.TemplateControl": {
+        "prefix": "!5-template-control",
+        "body": [
+            "<TemplateControl ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.core.tmpl.TemplateControl"
+    },
+    "sap.ui.core.tmpl.TemplateControl-properties": {
+        "prefix": "!5-template-control-properties",
+        "body": [
+            "$1context=\"\"$2"
+        ],
+        "description": "sap.ui.core.tmpl.TemplateControl with non-inherited properties"
+    },
+    "sap.ui.core.tmpl.TemplateControl-aggregations": {
+        "prefix": "!5-template-control-aggregations",
+        "body": [
+            "$1<controls>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</controls>",
+            "$2"
+        ],
+        "description": "sap.ui.core.tmpl.TemplateControl with non-inherited aggregations"
+    },
+    "sap.ui.core.tmpl.TemplateControl-events": {
+        "prefix": "!5-template-control-events",
+        "body": [
+            "$1afterRendering=\".on${3:AfterRendering}\"",
+            "beforeRendering=\".on${4:BeforeRendering}\"",
+            "template=\".on${5:Template}\"$2"
+        ],
+        "description": "sap.ui.core.tmpl.TemplateControl with non-inherited events"
+    },
+    "sap.ui.core.tmpl.TemplateControl-all": {
+        "prefix": "!5-template-control-all",
+        "body": [
+            "$1context=\"\"",
+            "<controls>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</controls>",
+            "afterRendering=\".on${3:AfterRendering}\"",
+            "beforeRendering=\".on${4:BeforeRendering}\"",
+            "template=\".on${5:Template}\"$2"
+        ],
+        "description": "sap.ui.core.tmpl.TemplateControl with non-inherited properties, aggregations and events"
+    }
+}

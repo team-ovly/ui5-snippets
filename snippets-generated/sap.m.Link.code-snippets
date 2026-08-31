@@ -1,0 +1,94 @@
+{
+    "sap.m.Link": {
+        "prefix": "!5-link",
+        "body": [
+            "<Link ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.Link"
+    },
+    "sap.m.Link-properties": {
+        "prefix": "!5-link-properties",
+        "body": [
+            "$1text=\"\"",
+            "icon=\"\"",
+            "endIcon=\"\"",
+            "enabled=\"true\"",
+            "target=\"\"",
+            "rel=\"\"",
+            "width=\"\"",
+            "href=\"\"",
+            "validateUrl=\"false\"",
+            "wrapping=\"false\"",
+            "textAlign=\"Initial\"",
+            "textDirection=\"Inherit\"",
+            "subtle=\"false\"",
+            "emphasized=\"false\"",
+            "ariaHasPopup=\"None\"",
+            "accessibleRole=\"Default\"",
+            "reactiveAreaMode=\"Inline\"",
+            "emptyIndicatorMode=\"Off\"",
+            "highlightAccKeysRef=\"false\"",
+            "accesskey=\"\"$2"
+        ],
+        "description": "sap.m.Link with non-inherited properties"
+    },
+    "sap.m.Link-aggregations": {
+        "prefix": "!5-link-aggregations",
+        "body": [
+            "$1<_icon>",
+            "\t<!-- <sap.ui.core.Icon /> -->",
+            "</_icon>",
+            "<_endIcon>",
+            "\t<!-- <sap.ui.core.Icon /> -->",
+            "</_endIcon>",
+            "$2"
+        ],
+        "description": "sap.m.Link with non-inherited aggregations"
+    },
+    "sap.m.Link-events": {
+        "prefix": "!5-link-events",
+        "body": [
+            "$1press=\".on${3:Press}\"",
+            "ariaDescribedBy=\".on${4:AriaDescribedBy}\"",
+            "ariaLabelledBy=\".on${5:AriaLabelledBy}\"$2"
+        ],
+        "description": "sap.m.Link with non-inherited events"
+    },
+    "sap.m.Link-all": {
+        "prefix": "!5-link-all",
+        "body": [
+            "$1text=\"\"",
+            "icon=\"\"",
+            "endIcon=\"\"",
+            "enabled=\"true\"",
+            "target=\"\"",
+            "rel=\"\"",
+            "width=\"\"",
+            "href=\"\"",
+            "validateUrl=\"false\"",
+            "wrapping=\"false\"",
+            "textAlign=\"Initial\"",
+            "textDirection=\"Inherit\"",
+            "subtle=\"false\"",
+            "emphasized=\"false\"",
+            "ariaHasPopup=\"None\"",
+            "accessibleRole=\"Default\"",
+            "reactiveAreaMode=\"Inline\"",
+            "emptyIndicatorMode=\"Off\"",
+            "highlightAccKeysRef=\"false\"",
+            "accesskey=\"\"",
+            "<_icon>",
+            "\t<!-- <sap.ui.core.Icon /> -->",
+            "</_icon>",
+            "<_endIcon>",
+            "\t<!-- <sap.ui.core.Icon /> -->",
+            "</_endIcon>",
+            "press=\".on${3:Press}\"",
+            "ariaDescribedBy=\".on${4:AriaDescribedBy}\"",
+            "ariaLabelledBy=\".on${5:AriaLabelledBy}\"$2"
+        ],
+        "description": "sap.m.Link with non-inherited properties, aggregations and events"
+    }
+}

@@ -1,0 +1,62 @@
+{
+    "sap.ui.webc.main.Menu": {
+        "prefix": "!5-menu",
+        "body": [
+            "<Menu ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.webc.main.Menu"
+    },
+    "sap.ui.webc.main.Menu-properties": {
+        "prefix": "!5-menu-properties",
+        "body": [
+            "$1busy=\"false\"",
+            "busyDelay=\"1000\"",
+            "headerText=\"\"",
+            "open=\"false\"$2"
+        ],
+        "description": "sap.ui.webc.main.Menu with non-inherited properties"
+    },
+    "sap.ui.webc.main.Menu-aggregations": {
+        "prefix": "!5-menu-aggregations",
+        "body": [
+            "$1<items>",
+            "\t<!-- <sap.ui.webc.main.IMenuItem /> -->",
+            "</items>",
+            "$2"
+        ],
+        "description": "sap.ui.webc.main.Menu with non-inherited aggregations"
+    },
+    "sap.ui.webc.main.Menu-events": {
+        "prefix": "!5-menu-events",
+        "body": [
+            "$1afterClose=\".on${3:AfterClose}\"",
+            "afterOpen=\".on${4:AfterOpen}\"",
+            "beforeClose=\".on${5:BeforeClose}\"",
+            "beforeOpen=\".on${6:BeforeOpen}\"",
+            "itemClick=\".on${7:ItemClick}\"",
+            "opener=\".on${8:Opener}\"$2"
+        ],
+        "description": "sap.ui.webc.main.Menu with non-inherited events"
+    },
+    "sap.ui.webc.main.Menu-all": {
+        "prefix": "!5-menu-all",
+        "body": [
+            "$1busy=\"false\"",
+            "busyDelay=\"1000\"",
+            "headerText=\"\"",
+            "open=\"false\"",
+            "<items>",
+            "\t<!-- <sap.ui.webc.main.IMenuItem /> -->",
+            "</items>",
+            "afterClose=\".on${3:AfterClose}\"",
+            "afterOpen=\".on${4:AfterOpen}\"",
+            "beforeClose=\".on${5:BeforeClose}\"",
+            "beforeOpen=\".on${6:BeforeOpen}\"",
+            "itemClick=\".on${7:ItemClick}\"",
+            "opener=\".on${8:Opener}\"$2"
+        ],
+        "description": "sap.ui.webc.main.Menu with non-inherited properties, aggregations and events"
+    }
+}

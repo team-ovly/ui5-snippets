@@ -1,0 +1,60 @@
+{
+    "sap.ui.webc.main.Button": {
+        "prefix": "!5-button",
+        "body": [
+            "<Button ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.webc.main.Button"
+    },
+    "sap.ui.webc.main.Button-properties": {
+        "prefix": "!5-button-properties",
+        "body": [
+            "$1accessibilityAttributes=\"[object Object]\"",
+            "accessibleName=\"undefined\"",
+            "design=\"Default\"",
+            "enabled=\"true\"",
+            "icon=\"\"",
+            "iconEnd=\"false\"",
+            "text=\"\"",
+            "textDirection=\"Inherit\"",
+            "type=\"Button\"",
+            "width=\"\"$2"
+        ],
+        "description": "sap.ui.webc.main.Button with non-inherited properties"
+    },
+    "sap.ui.webc.main.Button-aggregations": {
+        "prefix": "!5-button-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.webc.main.Button with non-inherited aggregations"
+    },
+    "sap.ui.webc.main.Button-events": {
+        "prefix": "!5-button-events",
+        "body": [
+            "$1click=\".on${3:Click}\"",
+            "ariaLabelledBy=\".on${4:AriaLabelledBy}\"$2"
+        ],
+        "description": "sap.ui.webc.main.Button with non-inherited events"
+    },
+    "sap.ui.webc.main.Button-all": {
+        "prefix": "!5-button-all",
+        "body": [
+            "$1accessibilityAttributes=\"[object Object]\"",
+            "accessibleName=\"undefined\"",
+            "design=\"Default\"",
+            "enabled=\"true\"",
+            "icon=\"\"",
+            "iconEnd=\"false\"",
+            "text=\"\"",
+            "textDirection=\"Inherit\"",
+            "type=\"Button\"",
+            "width=\"\"",
+            "click=\".on${3:Click}\"",
+            "ariaLabelledBy=\".on${4:AriaLabelledBy}\"$2"
+        ],
+        "description": "sap.ui.webc.main.Button with non-inherited properties, aggregations and events"
+    }
+}

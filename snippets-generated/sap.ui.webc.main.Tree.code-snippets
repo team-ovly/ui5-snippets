@@ -1,0 +1,76 @@
+{
+    "sap.ui.webc.main.Tree": {
+        "prefix": "!5-tree",
+        "body": [
+            "<Tree ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.webc.main.Tree"
+    },
+    "sap.ui.webc.main.Tree-properties": {
+        "prefix": "!5-tree-properties",
+        "body": [
+            "$1accessibleName=\"\"",
+            "footerText=\"\"",
+            "headerText=\"\"",
+            "height=\"\"",
+            "mode=\"None\"",
+            "noDataText=\"\"",
+            "width=\"\"$2"
+        ],
+        "description": "sap.ui.webc.main.Tree with non-inherited properties"
+    },
+    "sap.ui.webc.main.Tree-aggregations": {
+        "prefix": "!5-tree-aggregations",
+        "body": [
+            "$1<header>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</header>",
+            "<items>",
+            "\t<!-- <sap.ui.webc.main.ITreeItem /> -->",
+            "</items>",
+            "$2"
+        ],
+        "description": "sap.ui.webc.main.Tree with non-inherited aggregations"
+    },
+    "sap.ui.webc.main.Tree-events": {
+        "prefix": "!5-tree-events",
+        "body": [
+            "$1itemClick=\".on${3:ItemClick}\"",
+            "itemDelete=\".on${4:ItemDelete}\"",
+            "itemMouseout=\".on${5:ItemMouseout}\"",
+            "itemMouseover=\".on${6:ItemMouseover}\"",
+            "itemToggle=\".on${7:ItemToggle}\"",
+            "selectionChange=\".on${8:SelectionChange}\"",
+            "ariaLabelledBy=\".on${9:AriaLabelledBy}\"$2"
+        ],
+        "description": "sap.ui.webc.main.Tree with non-inherited events"
+    },
+    "sap.ui.webc.main.Tree-all": {
+        "prefix": "!5-tree-all",
+        "body": [
+            "$1accessibleName=\"\"",
+            "footerText=\"\"",
+            "headerText=\"\"",
+            "height=\"\"",
+            "mode=\"None\"",
+            "noDataText=\"\"",
+            "width=\"\"",
+            "<header>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</header>",
+            "<items>",
+            "\t<!-- <sap.ui.webc.main.ITreeItem /> -->",
+            "</items>",
+            "itemClick=\".on${3:ItemClick}\"",
+            "itemDelete=\".on${4:ItemDelete}\"",
+            "itemMouseout=\".on${5:ItemMouseout}\"",
+            "itemMouseover=\".on${6:ItemMouseover}\"",
+            "itemToggle=\".on${7:ItemToggle}\"",
+            "selectionChange=\".on${8:SelectionChange}\"",
+            "ariaLabelledBy=\".on${9:AriaLabelledBy}\"$2"
+        ],
+        "description": "sap.ui.webc.main.Tree with non-inherited properties, aggregations and events"
+    }
+}

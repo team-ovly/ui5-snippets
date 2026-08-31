@@ -1,0 +1,39 @@
+{
+    "sap.m.p13n.QueryPanel": {
+        "prefix": "!5-query-panel",
+        "body": [
+            "<QueryPanel ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.p13n.QueryPanel"
+    },
+    "sap.m.p13n.QueryPanel-properties": {
+        "prefix": "!5-query-panel-properties",
+        "body": [
+            "$1queryLimit=\"-1\"$2"
+        ],
+        "description": "sap.m.p13n.QueryPanel with non-inherited properties"
+    },
+    "sap.m.p13n.QueryPanel-aggregations": {
+        "prefix": "!5-query-panel-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.m.p13n.QueryPanel with non-inherited aggregations"
+    },
+    "sap.m.p13n.QueryPanel-events": {
+        "prefix": "!5-query-panel-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.m.p13n.QueryPanel with non-inherited events"
+    },
+    "sap.m.p13n.QueryPanel-all": {
+        "prefix": "!5-query-panel-all",
+        "body": [
+            "$1queryLimit=\"-1\"$2"
+        ],
+        "description": "sap.m.p13n.QueryPanel with non-inherited properties, aggregations and events"
+    }
+}

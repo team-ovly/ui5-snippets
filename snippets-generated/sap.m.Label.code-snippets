@@ -1,0 +1,62 @@
+{
+    "sap.m.Label": {
+        "prefix": "!5-label",
+        "body": [
+            "<Label ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.Label"
+    },
+    "sap.m.Label-properties": {
+        "prefix": "!5-label-properties",
+        "body": [
+            "$1design=\"Standard\"",
+            "text=\"\"",
+            "textAlign=\"Begin\"",
+            "textDirection=\"Inherit\"",
+            "width=\"\"",
+            "required=\"false\"",
+            "displayOnly=\"false\"",
+            "wrapping=\"false\"",
+            "wrappingType=\"Normal\"",
+            "vAlign=\"Inherit\"",
+            "showColon=\"false\"",
+            "highlightAccKeysRef=\"false\"$2"
+        ],
+        "description": "sap.m.Label with non-inherited properties"
+    },
+    "sap.m.Label-aggregations": {
+        "prefix": "!5-label-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.m.Label with non-inherited aggregations"
+    },
+    "sap.m.Label-events": {
+        "prefix": "!5-label-events",
+        "body": [
+            "$1labelFor=\".on${3:LabelFor}\"$2"
+        ],
+        "description": "sap.m.Label with non-inherited events"
+    },
+    "sap.m.Label-all": {
+        "prefix": "!5-label-all",
+        "body": [
+            "$1design=\"Standard\"",
+            "text=\"\"",
+            "textAlign=\"Begin\"",
+            "textDirection=\"Inherit\"",
+            "width=\"\"",
+            "required=\"false\"",
+            "displayOnly=\"false\"",
+            "wrapping=\"false\"",
+            "wrappingType=\"Normal\"",
+            "vAlign=\"Inherit\"",
+            "showColon=\"false\"",
+            "highlightAccKeysRef=\"false\"",
+            "labelFor=\".on${3:LabelFor}\"$2"
+        ],
+        "description": "sap.m.Label with non-inherited properties, aggregations and events"
+    }
+}

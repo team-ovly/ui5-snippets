@@ -1,0 +1,68 @@
+{
+    "sap.ui.webc.main.StepInput": {
+        "prefix": "!5-step-input",
+        "body": [
+            "<StepInput ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.webc.main.StepInput"
+    },
+    "sap.ui.webc.main.StepInput-properties": {
+        "prefix": "!5-step-input-properties",
+        "body": [
+            "$1accessibleName=\"\"",
+            "enabled=\"true\"",
+            "max=\"\"",
+            "min=\"\"",
+            "name=\"\"",
+            "placeholder=\"undefined\"",
+            "readonly=\"false\"",
+            "required=\"false\"",
+            "step=\"1\"",
+            "value=\"0\"",
+            "valuePrecision=\"0\"",
+            "valueState=\"None\"",
+            "valueStateMessage=\"\"",
+            "width=\"\"$2"
+        ],
+        "description": "sap.ui.webc.main.StepInput with non-inherited properties"
+    },
+    "sap.ui.webc.main.StepInput-aggregations": {
+        "prefix": "!5-step-input-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.webc.main.StepInput with non-inherited aggregations"
+    },
+    "sap.ui.webc.main.StepInput-events": {
+        "prefix": "!5-step-input-events",
+        "body": [
+            "$1change=\".on${3:Change}\"",
+            "ariaLabelledBy=\".on${4:AriaLabelledBy}\"$2"
+        ],
+        "description": "sap.ui.webc.main.StepInput with non-inherited events"
+    },
+    "sap.ui.webc.main.StepInput-all": {
+        "prefix": "!5-step-input-all",
+        "body": [
+            "$1accessibleName=\"\"",
+            "enabled=\"true\"",
+            "max=\"\"",
+            "min=\"\"",
+            "name=\"\"",
+            "placeholder=\"undefined\"",
+            "readonly=\"false\"",
+            "required=\"false\"",
+            "step=\"1\"",
+            "value=\"0\"",
+            "valuePrecision=\"0\"",
+            "valueState=\"None\"",
+            "valueStateMessage=\"\"",
+            "width=\"\"",
+            "change=\".on${3:Change}\"",
+            "ariaLabelledBy=\".on${4:AriaLabelledBy}\"$2"
+        ],
+        "description": "sap.ui.webc.main.StepInput with non-inherited properties, aggregations and events"
+    }
+}

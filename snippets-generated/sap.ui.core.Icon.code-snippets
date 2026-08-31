@@ -1,0 +1,74 @@
+{
+    "sap.ui.core.Icon": {
+        "prefix": "!5-icon",
+        "body": [
+            "<Icon ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.core.Icon"
+    },
+    "sap.ui.core.Icon-properties": {
+        "prefix": "!5-icon-properties",
+        "body": [
+            "$1src=\"\"",
+            "size=\"\"",
+            "color=\"\"",
+            "hoverColor=\"\"",
+            "activeColor=\"\"",
+            "width=\"\"",
+            "height=\"\"",
+            "backgroundColor=\"\"",
+            "hoverBackgroundColor=\"\"",
+            "activeBackgroundColor=\"\"",
+            "decorative=\"true\"",
+            "useIconTooltip=\"true\"",
+            "alt=\"\"",
+            "noTabStop=\"false\"$2"
+        ],
+        "description": "sap.ui.core.Icon with non-inherited properties"
+    },
+    "sap.ui.core.Icon-aggregations": {
+        "prefix": "!5-icon-aggregations",
+        "body": [
+            "$1<_invisibleText>",
+            "\t<!-- <sap.ui.core.InvisibleText /> -->",
+            "</_invisibleText>",
+            "$2"
+        ],
+        "description": "sap.ui.core.Icon with non-inherited aggregations"
+    },
+    "sap.ui.core.Icon-events": {
+        "prefix": "!5-icon-events",
+        "body": [
+            "$1press=\".on${3:Press}\"",
+            "ariaLabelledBy=\".on${4:AriaLabelledBy}\"$2"
+        ],
+        "description": "sap.ui.core.Icon with non-inherited events"
+    },
+    "sap.ui.core.Icon-all": {
+        "prefix": "!5-icon-all",
+        "body": [
+            "$1src=\"\"",
+            "size=\"\"",
+            "color=\"\"",
+            "hoverColor=\"\"",
+            "activeColor=\"\"",
+            "width=\"\"",
+            "height=\"\"",
+            "backgroundColor=\"\"",
+            "hoverBackgroundColor=\"\"",
+            "activeBackgroundColor=\"\"",
+            "decorative=\"true\"",
+            "useIconTooltip=\"true\"",
+            "alt=\"\"",
+            "noTabStop=\"false\"",
+            "<_invisibleText>",
+            "\t<!-- <sap.ui.core.InvisibleText /> -->",
+            "</_invisibleText>",
+            "press=\".on${3:Press}\"",
+            "ariaLabelledBy=\".on${4:AriaLabelledBy}\"$2"
+        ],
+        "description": "sap.ui.core.Icon with non-inherited properties, aggregations and events"
+    }
+}

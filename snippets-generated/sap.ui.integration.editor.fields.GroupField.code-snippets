@@ -1,0 +1,39 @@
+{
+    "sap.ui.integration.editor.fields.GroupField": {
+        "prefix": "!5-group-field",
+        "body": [
+            "<GroupField ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.integration.editor.fields.GroupField"
+    },
+    "sap.ui.integration.editor.fields.GroupField-properties": {
+        "prefix": "!5-group-field-properties",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.integration.editor.fields.GroupField with non-inherited properties"
+    },
+    "sap.ui.integration.editor.fields.GroupField-aggregations": {
+        "prefix": "!5-group-field-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.integration.editor.fields.GroupField with non-inherited aggregations"
+    },
+    "sap.ui.integration.editor.fields.GroupField-events": {
+        "prefix": "!5-group-field-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.integration.editor.fields.GroupField with non-inherited events"
+    },
+    "sap.ui.integration.editor.fields.GroupField-all": {
+        "prefix": "!5-group-field-all",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.integration.editor.fields.GroupField with non-inherited properties, aggregations and events"
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "sap.m.QuickView": {
+        "prefix": "!5-quick-view",
+        "body": [
+            "<QuickView ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.QuickView"
+    },
+    "sap.m.QuickView-properties": {
+        "prefix": "!5-quick-view-properties",
+        "body": [
+            "$1placement=\"Right\"",
+            "width=\"320px\"$2"
+        ],
+        "description": "sap.m.QuickView with non-inherited properties"
+    },
+    "sap.m.QuickView-aggregations": {
+        "prefix": "!5-quick-view-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.m.QuickView with non-inherited aggregations"
+    },
+    "sap.m.QuickView-events": {
+        "prefix": "!5-quick-view-events",
+        "body": [
+            "$1afterOpen=\".on${3:AfterOpen}\"",
+            "afterClose=\".on${4:AfterClose}\"",
+            "beforeOpen=\".on${5:BeforeOpen}\"",
+            "beforeClose=\".on${6:BeforeClose}\"$2"
+        ],
+        "description": "sap.m.QuickView with non-inherited events"
+    },
+    "sap.m.QuickView-all": {
+        "prefix": "!5-quick-view-all",
+        "body": [
+            "$1placement=\"Right\"",
+            "width=\"320px\"",
+            "afterOpen=\".on${3:AfterOpen}\"",
+            "afterClose=\".on${4:AfterClose}\"",
+            "beforeOpen=\".on${5:BeforeOpen}\"",
+            "beforeClose=\".on${6:BeforeClose}\"$2"
+        ],
+        "description": "sap.m.QuickView with non-inherited properties, aggregations and events"
+    }
+}

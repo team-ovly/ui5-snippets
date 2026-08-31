@@ -1,0 +1,39 @@
+{
+    "sap.ui.layout.form.ResponsiveLayout": {
+        "prefix": "!5-responsive-layout",
+        "body": [
+            "<ResponsiveLayout ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.layout.form.ResponsiveLayout"
+    },
+    "sap.ui.layout.form.ResponsiveLayout-properties": {
+        "prefix": "!5-responsive-layout-properties",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.layout.form.ResponsiveLayout with non-inherited properties"
+    },
+    "sap.ui.layout.form.ResponsiveLayout-aggregations": {
+        "prefix": "!5-responsive-layout-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.layout.form.ResponsiveLayout with non-inherited aggregations"
+    },
+    "sap.ui.layout.form.ResponsiveLayout-events": {
+        "prefix": "!5-responsive-layout-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.layout.form.ResponsiveLayout with non-inherited events"
+    },
+    "sap.ui.layout.form.ResponsiveLayout-all": {
+        "prefix": "!5-responsive-layout-all",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.layout.form.ResponsiveLayout with non-inherited properties, aggregations and events"
+    }
+}

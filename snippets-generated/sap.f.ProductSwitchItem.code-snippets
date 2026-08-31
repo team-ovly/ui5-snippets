@@ -1,0 +1,59 @@
+{
+    "sap.f.ProductSwitchItem": {
+        "prefix": "!5-product-switch-item",
+        "body": [
+            "<ProductSwitchItem ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.f.ProductSwitchItem"
+    },
+    "sap.f.ProductSwitchItem-properties": {
+        "prefix": "!5-product-switch-item-properties",
+        "body": [
+            "$1src=\"\"",
+            "title=\"\"",
+            "subTitle=\"\"",
+            "targetSrc=\"\"",
+            "target=\"\"$2"
+        ],
+        "description": "sap.f.ProductSwitchItem with non-inherited properties"
+    },
+    "sap.f.ProductSwitchItem-aggregations": {
+        "prefix": "!5-product-switch-item-aggregations",
+        "body": [
+            "$1<_icon>",
+            "\t<!-- <sap.ui.core.Icon /> -->",
+            "</_icon>",
+            "<_title>",
+            "\t<!-- <sap.m.Text /> -->",
+            "</_title>",
+            "$2"
+        ],
+        "description": "sap.f.ProductSwitchItem with non-inherited aggregations"
+    },
+    "sap.f.ProductSwitchItem-events": {
+        "prefix": "!5-product-switch-item-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.f.ProductSwitchItem with non-inherited events"
+    },
+    "sap.f.ProductSwitchItem-all": {
+        "prefix": "!5-product-switch-item-all",
+        "body": [
+            "$1src=\"\"",
+            "title=\"\"",
+            "subTitle=\"\"",
+            "targetSrc=\"\"",
+            "target=\"\"",
+            "<_icon>",
+            "\t<!-- <sap.ui.core.Icon /> -->",
+            "</_icon>",
+            "<_title>",
+            "\t<!-- <sap.m.Text /> -->",
+            "</_title>$2"
+        ],
+        "description": "sap.f.ProductSwitchItem with non-inherited properties, aggregations and events"
+    }
+}

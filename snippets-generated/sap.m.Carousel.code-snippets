@@ -1,0 +1,86 @@
+{
+    "sap.m.Carousel": {
+        "prefix": "!5-carousel",
+        "body": [
+            "<Carousel ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.Carousel"
+    },
+    "sap.m.Carousel-properties": {
+        "prefix": "!5-carousel-properties",
+        "body": [
+            "$1height=\"100%\"",
+            "width=\"100%\"",
+            "loop=\"false\"",
+            "showPageIndicator=\"true\"",
+            "pageIndicatorPlacement=\"Bottom\"",
+            "showBusyIndicator=\"true\"",
+            "arrowsPlacement=\"Content\"",
+            "backgroundDesign=\"Translucent\"",
+            "pageIndicatorBackgroundDesign=\"Solid\"",
+            "pageIndicatorBorderDesign=\"Solid\"$2"
+        ],
+        "description": "sap.m.Carousel with non-inherited properties"
+    },
+    "sap.m.Carousel-aggregations": {
+        "prefix": "!5-carousel-aggregations",
+        "body": [
+            "$1<pages>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</pages>",
+            "<customLayout>",
+            "\t<!-- <sap.m.CarouselLayout /> -->",
+            "</customLayout>",
+            "<_emptyPage>",
+            "\t<!-- <sap.m.IllustratedMessage /> -->",
+            "</_emptyPage>",
+            "$2"
+        ],
+        "description": "sap.m.Carousel with non-inherited aggregations"
+    },
+    "sap.m.Carousel-events": {
+        "prefix": "!5-carousel-events",
+        "body": [
+            "$1loadPage=\".on${3:LoadPage}\"",
+            "unloadPage=\".on${4:UnloadPage}\"",
+            "pageChanged=\".on${5:PageChanged}\"",
+            "beforePageChanged=\".on${6:BeforePageChanged}\"",
+            "activePage=\".on${7:ActivePage}\"",
+            "ariaLabelledBy=\".on${8:AriaLabelledBy}\"$2"
+        ],
+        "description": "sap.m.Carousel with non-inherited events"
+    },
+    "sap.m.Carousel-all": {
+        "prefix": "!5-carousel-all",
+        "body": [
+            "$1height=\"100%\"",
+            "width=\"100%\"",
+            "loop=\"false\"",
+            "showPageIndicator=\"true\"",
+            "pageIndicatorPlacement=\"Bottom\"",
+            "showBusyIndicator=\"true\"",
+            "arrowsPlacement=\"Content\"",
+            "backgroundDesign=\"Translucent\"",
+            "pageIndicatorBackgroundDesign=\"Solid\"",
+            "pageIndicatorBorderDesign=\"Solid\"",
+            "<pages>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</pages>",
+            "<customLayout>",
+            "\t<!-- <sap.m.CarouselLayout /> -->",
+            "</customLayout>",
+            "<_emptyPage>",
+            "\t<!-- <sap.m.IllustratedMessage /> -->",
+            "</_emptyPage>",
+            "loadPage=\".on${3:LoadPage}\"",
+            "unloadPage=\".on${4:UnloadPage}\"",
+            "pageChanged=\".on${5:PageChanged}\"",
+            "beforePageChanged=\".on${6:BeforePageChanged}\"",
+            "activePage=\".on${7:ActivePage}\"",
+            "ariaLabelledBy=\".on${8:AriaLabelledBy}\"$2"
+        ],
+        "description": "sap.m.Carousel with non-inherited properties, aggregations and events"
+    }
+}

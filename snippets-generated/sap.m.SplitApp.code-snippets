@@ -1,0 +1,40 @@
+{
+    "sap.m.SplitApp": {
+        "prefix": "!5-split-app",
+        "body": [
+            "<SplitApp ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.SplitApp"
+    },
+    "sap.m.SplitApp-properties": {
+        "prefix": "!5-split-app-properties",
+        "body": [
+            "$1homeIcon=\"\"$2"
+        ],
+        "description": "sap.m.SplitApp with non-inherited properties"
+    },
+    "sap.m.SplitApp-aggregations": {
+        "prefix": "!5-split-app-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.m.SplitApp with non-inherited aggregations"
+    },
+    "sap.m.SplitApp-events": {
+        "prefix": "!5-split-app-events",
+        "body": [
+            "$1orientationChange=\".on${3:OrientationChange}\"$2"
+        ],
+        "description": "sap.m.SplitApp with non-inherited events"
+    },
+    "sap.m.SplitApp-all": {
+        "prefix": "!5-split-app-all",
+        "body": [
+            "$1homeIcon=\"\"",
+            "orientationChange=\".on${3:OrientationChange}\"$2"
+        ],
+        "description": "sap.m.SplitApp with non-inherited properties, aggregations and events"
+    }
+}

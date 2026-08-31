@@ -1,0 +1,106 @@
+{
+    "sap.f.GridContainer": {
+        "prefix": "!5-grid-container",
+        "body": [
+            "<GridContainer ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.f.GridContainer"
+    },
+    "sap.f.GridContainer-properties": {
+        "prefix": "!5-grid-container-properties",
+        "body": [
+            "$1width=\"\"",
+            "minHeight=\"2rem\"",
+            "containerQuery=\"false\"",
+            "snapToRow=\"false\"",
+            "allowDenseFill=\"false\"",
+            "inlineBlockLayout=\"false\"$2"
+        ],
+        "description": "sap.f.GridContainer with non-inherited properties"
+    },
+    "sap.f.GridContainer-aggregations": {
+        "prefix": "!5-grid-container-aggregations",
+        "body": [
+            "$1<items>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</items>",
+            "<layout>",
+            "\t<!-- <sap.f.GridContainerSettings /> -->",
+            "</layout>",
+            "<layoutXS>",
+            "\t<!-- <sap.f.GridContainerSettings /> -->",
+            "</layoutXS>",
+            "<layoutS>",
+            "\t<!-- <sap.f.GridContainerSettings /> -->",
+            "</layoutS>",
+            "<layoutM>",
+            "\t<!-- <sap.f.GridContainerSettings /> -->",
+            "</layoutM>",
+            "<layoutL>",
+            "\t<!-- <sap.f.GridContainerSettings /> -->",
+            "</layoutL>",
+            "<layoutXL>",
+            "\t<!-- <sap.f.GridContainerSettings /> -->",
+            "</layoutXL>",
+            "<_defaultLayout>",
+            "\t<!-- <sap.f.GridContainerSettings /> -->",
+            "</_defaultLayout>",
+            "$2"
+        ],
+        "description": "sap.f.GridContainer with non-inherited aggregations"
+    },
+    "sap.f.GridContainer-events": {
+        "prefix": "!5-grid-container-events",
+        "body": [
+            "$1layoutChange=\".on${3:LayoutChange}\"",
+            "columnsChange=\".on${4:ColumnsChange}\"",
+            "borderReached=\".on${5:BorderReached}\"",
+            "ariaDescribedBy=\".on${6:AriaDescribedBy}\"",
+            "ariaLabelledBy=\".on${7:AriaLabelledBy}\"$2"
+        ],
+        "description": "sap.f.GridContainer with non-inherited events"
+    },
+    "sap.f.GridContainer-all": {
+        "prefix": "!5-grid-container-all",
+        "body": [
+            "$1width=\"\"",
+            "minHeight=\"2rem\"",
+            "containerQuery=\"false\"",
+            "snapToRow=\"false\"",
+            "allowDenseFill=\"false\"",
+            "inlineBlockLayout=\"false\"",
+            "<items>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</items>",
+            "<layout>",
+            "\t<!-- <sap.f.GridContainerSettings /> -->",
+            "</layout>",
+            "<layoutXS>",
+            "\t<!-- <sap.f.GridContainerSettings /> -->",
+            "</layoutXS>",
+            "<layoutS>",
+            "\t<!-- <sap.f.GridContainerSettings /> -->",
+            "</layoutS>",
+            "<layoutM>",
+            "\t<!-- <sap.f.GridContainerSettings /> -->",
+            "</layoutM>",
+            "<layoutL>",
+            "\t<!-- <sap.f.GridContainerSettings /> -->",
+            "</layoutL>",
+            "<layoutXL>",
+            "\t<!-- <sap.f.GridContainerSettings /> -->",
+            "</layoutXL>",
+            "<_defaultLayout>",
+            "\t<!-- <sap.f.GridContainerSettings /> -->",
+            "</_defaultLayout>",
+            "layoutChange=\".on${3:LayoutChange}\"",
+            "columnsChange=\".on${4:ColumnsChange}\"",
+            "borderReached=\".on${5:BorderReached}\"",
+            "ariaDescribedBy=\".on${6:AriaDescribedBy}\"",
+            "ariaLabelledBy=\".on${7:AriaLabelledBy}\"$2"
+        ],
+        "description": "sap.f.GridContainer with non-inherited properties, aggregations and events"
+    }
+}

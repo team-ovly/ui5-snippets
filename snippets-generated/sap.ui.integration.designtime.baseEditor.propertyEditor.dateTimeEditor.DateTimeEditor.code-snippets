@@ -1,0 +1,39 @@
+{
+    "sap.ui.integration.designtime.baseEditor.propertyEditor.dateTimeEditor.DateTimeEditor": {
+        "prefix": "!5-date-time-editor",
+        "body": [
+            "<DateTimeEditor ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.integration.designtime.baseEditor.propertyEditor.dateTimeEditor.DateTimeEditor"
+    },
+    "sap.ui.integration.designtime.baseEditor.propertyEditor.dateTimeEditor.DateTimeEditor-properties": {
+        "prefix": "!5-date-time-editor-properties",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.integration.designtime.baseEditor.propertyEditor.dateTimeEditor.DateTimeEditor with non-inherited properties"
+    },
+    "sap.ui.integration.designtime.baseEditor.propertyEditor.dateTimeEditor.DateTimeEditor-aggregations": {
+        "prefix": "!5-date-time-editor-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.integration.designtime.baseEditor.propertyEditor.dateTimeEditor.DateTimeEditor with non-inherited aggregations"
+    },
+    "sap.ui.integration.designtime.baseEditor.propertyEditor.dateTimeEditor.DateTimeEditor-events": {
+        "prefix": "!5-date-time-editor-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.integration.designtime.baseEditor.propertyEditor.dateTimeEditor.DateTimeEditor with non-inherited events"
+    },
+    "sap.ui.integration.designtime.baseEditor.propertyEditor.dateTimeEditor.DateTimeEditor-all": {
+        "prefix": "!5-date-time-editor-all",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.integration.designtime.baseEditor.propertyEditor.dateTimeEditor.DateTimeEditor with non-inherited properties, aggregations and events"
+    }
+}

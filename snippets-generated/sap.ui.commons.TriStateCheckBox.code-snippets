@@ -1,0 +1,52 @@
+{
+    "sap.ui.commons.TriStateCheckBox": {
+        "prefix": "!5-tri-state-check-box",
+        "body": [
+            "<TriStateCheckBox ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.commons.TriStateCheckBox"
+    },
+    "sap.ui.commons.TriStateCheckBox-properties": {
+        "prefix": "!5-tri-state-check-box-properties",
+        "body": [
+            "$1selectionState=\"Unchecked\"",
+            "text=\"\"",
+            "enabled=\"true\"",
+            "editable=\"true\"",
+            "valueState=\"None\"",
+            "width=\"\"",
+            "textDirection=\"Inherit\"$2"
+        ],
+        "description": "sap.ui.commons.TriStateCheckBox with non-inherited properties"
+    },
+    "sap.ui.commons.TriStateCheckBox-aggregations": {
+        "prefix": "!5-tri-state-check-box-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.commons.TriStateCheckBox with non-inherited aggregations"
+    },
+    "sap.ui.commons.TriStateCheckBox-events": {
+        "prefix": "!5-tri-state-check-box-events",
+        "body": [
+            "$1change=\".on${3:Change}\"$2"
+        ],
+        "description": "sap.ui.commons.TriStateCheckBox with non-inherited events"
+    },
+    "sap.ui.commons.TriStateCheckBox-all": {
+        "prefix": "!5-tri-state-check-box-all",
+        "body": [
+            "$1selectionState=\"Unchecked\"",
+            "text=\"\"",
+            "enabled=\"true\"",
+            "editable=\"true\"",
+            "valueState=\"None\"",
+            "width=\"\"",
+            "textDirection=\"Inherit\"",
+            "change=\".on${3:Change}\"$2"
+        ],
+        "description": "sap.ui.commons.TriStateCheckBox with non-inherited properties, aggregations and events"
+    }
+}

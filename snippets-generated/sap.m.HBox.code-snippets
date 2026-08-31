@@ -1,0 +1,39 @@
+{
+    "sap.m.HBox": {
+        "prefix": "!5-hbox",
+        "body": [
+            "<HBox ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.HBox"
+    },
+    "sap.m.HBox-properties": {
+        "prefix": "!5-hbox-properties",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.m.HBox with non-inherited properties"
+    },
+    "sap.m.HBox-aggregations": {
+        "prefix": "!5-hbox-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.m.HBox with non-inherited aggregations"
+    },
+    "sap.m.HBox-events": {
+        "prefix": "!5-hbox-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.m.HBox with non-inherited events"
+    },
+    "sap.m.HBox-all": {
+        "prefix": "!5-hbox-all",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.m.HBox with non-inherited properties, aggregations and events"
+    }
+}

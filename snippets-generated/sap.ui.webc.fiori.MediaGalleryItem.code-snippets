@@ -1,0 +1,55 @@
+{
+    "sap.ui.webc.fiori.MediaGalleryItem": {
+        "prefix": "!5-media-gallery-item",
+        "body": [
+            "<MediaGalleryItem ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.webc.fiori.MediaGalleryItem"
+    },
+    "sap.ui.webc.fiori.MediaGalleryItem-properties": {
+        "prefix": "!5-media-gallery-item-properties",
+        "body": [
+            "$1enabled=\"true\"",
+            "layout=\"Square\"",
+            "selected=\"false\"$2"
+        ],
+        "description": "sap.ui.webc.fiori.MediaGalleryItem with non-inherited properties"
+    },
+    "sap.ui.webc.fiori.MediaGalleryItem-aggregations": {
+        "prefix": "!5-media-gallery-item-aggregations",
+        "body": [
+            "$1<content>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</content>",
+            "<thumbnail>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</thumbnail>",
+            "$2"
+        ],
+        "description": "sap.ui.webc.fiori.MediaGalleryItem with non-inherited aggregations"
+    },
+    "sap.ui.webc.fiori.MediaGalleryItem-events": {
+        "prefix": "!5-media-gallery-item-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.webc.fiori.MediaGalleryItem with non-inherited events"
+    },
+    "sap.ui.webc.fiori.MediaGalleryItem-all": {
+        "prefix": "!5-media-gallery-item-all",
+        "body": [
+            "$1enabled=\"true\"",
+            "layout=\"Square\"",
+            "selected=\"false\"",
+            "<content>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</content>",
+            "<thumbnail>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</thumbnail>$2"
+        ],
+        "description": "sap.ui.webc.fiori.MediaGalleryItem with non-inherited properties, aggregations and events"
+    }
+}

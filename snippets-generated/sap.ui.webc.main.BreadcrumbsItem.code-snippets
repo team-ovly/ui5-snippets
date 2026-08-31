@@ -1,0 +1,45 @@
+{
+    "sap.ui.webc.main.BreadcrumbsItem": {
+        "prefix": "!5-breadcrumbs-item",
+        "body": [
+            "<BreadcrumbsItem ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.webc.main.BreadcrumbsItem"
+    },
+    "sap.ui.webc.main.BreadcrumbsItem-properties": {
+        "prefix": "!5-breadcrumbs-item-properties",
+        "body": [
+            "$1accessibleName=\"undefined\"",
+            "href=\"\"",
+            "target=\"undefined\"",
+            "text=\"\"$2"
+        ],
+        "description": "sap.ui.webc.main.BreadcrumbsItem with non-inherited properties"
+    },
+    "sap.ui.webc.main.BreadcrumbsItem-aggregations": {
+        "prefix": "!5-breadcrumbs-item-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.webc.main.BreadcrumbsItem with non-inherited aggregations"
+    },
+    "sap.ui.webc.main.BreadcrumbsItem-events": {
+        "prefix": "!5-breadcrumbs-item-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.webc.main.BreadcrumbsItem with non-inherited events"
+    },
+    "sap.ui.webc.main.BreadcrumbsItem-all": {
+        "prefix": "!5-breadcrumbs-item-all",
+        "body": [
+            "$1accessibleName=\"undefined\"",
+            "href=\"\"",
+            "target=\"undefined\"",
+            "text=\"\"$2"
+        ],
+        "description": "sap.ui.webc.main.BreadcrumbsItem with non-inherited properties, aggregations and events"
+    }
+}

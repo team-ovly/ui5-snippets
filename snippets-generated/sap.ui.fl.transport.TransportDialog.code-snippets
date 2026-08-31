@@ -1,0 +1,39 @@
+{
+    "sap.ui.fl.transport.TransportDialog": {
+        "prefix": "!5-transport-dialog",
+        "body": [
+            "<TransportDialog ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.fl.transport.TransportDialog"
+    },
+    "sap.ui.fl.transport.TransportDialog-properties": {
+        "prefix": "!5-transport-dialog-properties",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.fl.transport.TransportDialog with non-inherited properties"
+    },
+    "sap.ui.fl.transport.TransportDialog-aggregations": {
+        "prefix": "!5-transport-dialog-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.fl.transport.TransportDialog with non-inherited aggregations"
+    },
+    "sap.ui.fl.transport.TransportDialog-events": {
+        "prefix": "!5-transport-dialog-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.fl.transport.TransportDialog with non-inherited events"
+    },
+    "sap.ui.fl.transport.TransportDialog-all": {
+        "prefix": "!5-transport-dialog-all",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.fl.transport.TransportDialog with non-inherited properties, aggregations and events"
+    }
+}

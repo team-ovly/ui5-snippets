@@ -1,0 +1,39 @@
+{
+    "sap.ui.table.AnalyticalColumnMenu": {
+        "prefix": "!5-analytical-column-menu",
+        "body": [
+            "<AnalyticalColumnMenu ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.table.AnalyticalColumnMenu"
+    },
+    "sap.ui.table.AnalyticalColumnMenu-properties": {
+        "prefix": "!5-analytical-column-menu-properties",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.table.AnalyticalColumnMenu with non-inherited properties"
+    },
+    "sap.ui.table.AnalyticalColumnMenu-aggregations": {
+        "prefix": "!5-analytical-column-menu-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.table.AnalyticalColumnMenu with non-inherited aggregations"
+    },
+    "sap.ui.table.AnalyticalColumnMenu-events": {
+        "prefix": "!5-analytical-column-menu-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.table.AnalyticalColumnMenu with non-inherited events"
+    },
+    "sap.ui.table.AnalyticalColumnMenu-all": {
+        "prefix": "!5-analytical-column-menu-all",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.table.AnalyticalColumnMenu with non-inherited properties, aggregations and events"
+    }
+}

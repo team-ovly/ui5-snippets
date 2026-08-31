@@ -1,0 +1,59 @@
+{
+    "sap.ui.webc.fiori.Bar": {
+        "prefix": "!5-bar",
+        "body": [
+            "<Bar ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.webc.fiori.Bar"
+    },
+    "sap.ui.webc.fiori.Bar-properties": {
+        "prefix": "!5-bar-properties",
+        "body": [
+            "$1design=\"Header\"",
+            "width=\"\"$2"
+        ],
+        "description": "sap.ui.webc.fiori.Bar with non-inherited properties"
+    },
+    "sap.ui.webc.fiori.Bar-aggregations": {
+        "prefix": "!5-bar-aggregations",
+        "body": [
+            "$1<endContent>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</endContent>",
+            "<middleContent>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</middleContent>",
+            "<startContent>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</startContent>",
+            "$2"
+        ],
+        "description": "sap.ui.webc.fiori.Bar with non-inherited aggregations"
+    },
+    "sap.ui.webc.fiori.Bar-events": {
+        "prefix": "!5-bar-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.webc.fiori.Bar with non-inherited events"
+    },
+    "sap.ui.webc.fiori.Bar-all": {
+        "prefix": "!5-bar-all",
+        "body": [
+            "$1design=\"Header\"",
+            "width=\"\"",
+            "<endContent>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</endContent>",
+            "<middleContent>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</middleContent>",
+            "<startContent>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</startContent>$2"
+        ],
+        "description": "sap.ui.webc.fiori.Bar with non-inherited properties, aggregations and events"
+    }
+}

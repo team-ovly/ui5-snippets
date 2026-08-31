@@ -1,0 +1,45 @@
+{
+    "sap.ui.ux3.FacetFilter": {
+        "prefix": "!5-facet-filter",
+        "body": [
+            "<FacetFilter ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.ux3.FacetFilter"
+    },
+    "sap.ui.ux3.FacetFilter-properties": {
+        "prefix": "!5-facet-filter-properties",
+        "body": [
+            "$1visibleItemCountMode=\"Fixed\"$2"
+        ],
+        "description": "sap.ui.ux3.FacetFilter with non-inherited properties"
+    },
+    "sap.ui.ux3.FacetFilter-aggregations": {
+        "prefix": "!5-facet-filter-aggregations",
+        "body": [
+            "$1<lists>",
+            "\t<!-- <sap.ui.ux3.FacetFilterList /> -->",
+            "</lists>",
+            "$2"
+        ],
+        "description": "sap.ui.ux3.FacetFilter with non-inherited aggregations"
+    },
+    "sap.ui.ux3.FacetFilter-events": {
+        "prefix": "!5-facet-filter-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.ux3.FacetFilter with non-inherited events"
+    },
+    "sap.ui.ux3.FacetFilter-all": {
+        "prefix": "!5-facet-filter-all",
+        "body": [
+            "$1visibleItemCountMode=\"Fixed\"",
+            "<lists>",
+            "\t<!-- <sap.ui.ux3.FacetFilterList /> -->",
+            "</lists>$2"
+        ],
+        "description": "sap.ui.ux3.FacetFilter with non-inherited properties, aggregations and events"
+    }
+}

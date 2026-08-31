@@ -1,0 +1,49 @@
+{
+    "sap.ui.unified.Currency": {
+        "prefix": "!5-currency",
+        "body": [
+            "<Currency ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.unified.Currency"
+    },
+    "sap.ui.unified.Currency-properties": {
+        "prefix": "!5-currency-properties",
+        "body": [
+            "$1value=\"0\"",
+            "stringValue=\"\"",
+            "currency=\"\"",
+            "maxPrecision=\"\"",
+            "useSymbol=\"true\"",
+            "emptyIndicatorMode=\"Off\"$2"
+        ],
+        "description": "sap.ui.unified.Currency with non-inherited properties"
+    },
+    "sap.ui.unified.Currency-aggregations": {
+        "prefix": "!5-currency-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.unified.Currency with non-inherited aggregations"
+    },
+    "sap.ui.unified.Currency-events": {
+        "prefix": "!5-currency-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.unified.Currency with non-inherited events"
+    },
+    "sap.ui.unified.Currency-all": {
+        "prefix": "!5-currency-all",
+        "body": [
+            "$1value=\"0\"",
+            "stringValue=\"\"",
+            "currency=\"\"",
+            "maxPrecision=\"\"",
+            "useSymbol=\"true\"",
+            "emptyIndicatorMode=\"Off\"$2"
+        ],
+        "description": "sap.ui.unified.Currency with non-inherited properties, aggregations and events"
+    }
+}

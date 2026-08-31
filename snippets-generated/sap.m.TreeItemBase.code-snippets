@@ -1,0 +1,39 @@
+{
+    "sap.m.TreeItemBase": {
+        "prefix": "!5-tree-item-base",
+        "body": [
+            "<TreeItemBase ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.TreeItemBase"
+    },
+    "sap.m.TreeItemBase-properties": {
+        "prefix": "!5-tree-item-base-properties",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.m.TreeItemBase with non-inherited properties"
+    },
+    "sap.m.TreeItemBase-aggregations": {
+        "prefix": "!5-tree-item-base-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.m.TreeItemBase with non-inherited aggregations"
+    },
+    "sap.m.TreeItemBase-events": {
+        "prefix": "!5-tree-item-base-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.m.TreeItemBase with non-inherited events"
+    },
+    "sap.m.TreeItemBase-all": {
+        "prefix": "!5-tree-item-base-all",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.m.TreeItemBase with non-inherited properties, aggregations and events"
+    }
+}

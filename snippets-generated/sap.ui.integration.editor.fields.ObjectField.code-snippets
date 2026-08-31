@@ -1,0 +1,41 @@
+{
+    "sap.ui.integration.editor.fields.ObjectField": {
+        "prefix": "!5-object-field",
+        "body": [
+            "<ObjectField ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.integration.editor.fields.ObjectField"
+    },
+    "sap.ui.integration.editor.fields.ObjectField-properties": {
+        "prefix": "!5-object-field-properties",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.integration.editor.fields.ObjectField with non-inherited properties"
+    },
+    "sap.ui.integration.editor.fields.ObjectField-aggregations": {
+        "prefix": "!5-object-field-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.integration.editor.fields.ObjectField with non-inherited aggregations"
+    },
+    "sap.ui.integration.editor.fields.ObjectField-events": {
+        "prefix": "!5-object-field-events",
+        "body": [
+            "$1tableUpdated=\".on${3:TableUpdated}\"",
+            "translationPopoverOpened=\".on${4:TranslationPopoverOpened}\"$2"
+        ],
+        "description": "sap.ui.integration.editor.fields.ObjectField with non-inherited events"
+    },
+    "sap.ui.integration.editor.fields.ObjectField-all": {
+        "prefix": "!5-object-field-all",
+        "body": [
+            "$1tableUpdated=\".on${3:TableUpdated}\"",
+            "translationPopoverOpened=\".on${4:TranslationPopoverOpened}\"$2"
+        ],
+        "description": "sap.ui.integration.editor.fields.ObjectField with non-inherited properties, aggregations and events"
+    }
+}

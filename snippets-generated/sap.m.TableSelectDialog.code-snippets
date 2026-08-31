@@ -1,0 +1,90 @@
+{
+    "sap.m.TableSelectDialog": {
+        "prefix": "!5-table-select-dialog",
+        "body": [
+            "<TableSelectDialog ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.TableSelectDialog"
+    },
+    "sap.m.TableSelectDialog-properties": {
+        "prefix": "!5-table-select-dialog-properties",
+        "body": [
+            "$1title=\"\"",
+            "noDataText=\"\"",
+            "multiSelect=\"false\"",
+            "growing=\"true\"",
+            "growingThreshold=\"\"",
+            "contentWidth=\"\"",
+            "rememberSelections=\"false\"",
+            "contentHeight=\"\"",
+            "showClearButton=\"false\"",
+            "confirmButtonText=\"\"",
+            "draggable=\"false\"",
+            "resizable=\"false\"",
+            "titleAlignment=\"Auto\"",
+            "searchPlaceholder=\"\"$2"
+        ],
+        "description": "sap.m.TableSelectDialog with non-inherited properties"
+    },
+    "sap.m.TableSelectDialog-aggregations": {
+        "prefix": "!5-table-select-dialog-aggregations",
+        "body": [
+            "$1<items>",
+            "\t<!-- <sap.m.ColumnListItem /> -->",
+            "</items>",
+            "<_dialog>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</_dialog>",
+            "<columns>",
+            "\t<!-- <sap.m.Column /> -->",
+            "</columns>",
+            "$2"
+        ],
+        "description": "sap.m.TableSelectDialog with non-inherited aggregations"
+    },
+    "sap.m.TableSelectDialog-events": {
+        "prefix": "!5-table-select-dialog-events",
+        "body": [
+            "$1confirm=\".on${3:Confirm}\"",
+            "search=\".on${4:Search}\"",
+            "liveChange=\".on${5:LiveChange}\"",
+            "cancel=\".on${6:Cancel}\"$2"
+        ],
+        "description": "sap.m.TableSelectDialog with non-inherited events"
+    },
+    "sap.m.TableSelectDialog-all": {
+        "prefix": "!5-table-select-dialog-all",
+        "body": [
+            "$1title=\"\"",
+            "noDataText=\"\"",
+            "multiSelect=\"false\"",
+            "growing=\"true\"",
+            "growingThreshold=\"\"",
+            "contentWidth=\"\"",
+            "rememberSelections=\"false\"",
+            "contentHeight=\"\"",
+            "showClearButton=\"false\"",
+            "confirmButtonText=\"\"",
+            "draggable=\"false\"",
+            "resizable=\"false\"",
+            "titleAlignment=\"Auto\"",
+            "searchPlaceholder=\"\"",
+            "<items>",
+            "\t<!-- <sap.m.ColumnListItem /> -->",
+            "</items>",
+            "<_dialog>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</_dialog>",
+            "<columns>",
+            "\t<!-- <sap.m.Column /> -->",
+            "</columns>",
+            "confirm=\".on${3:Confirm}\"",
+            "search=\".on${4:Search}\"",
+            "liveChange=\".on${5:LiveChange}\"",
+            "cancel=\".on${6:Cancel}\"$2"
+        ],
+        "description": "sap.m.TableSelectDialog with non-inherited properties, aggregations and events"
+    }
+}

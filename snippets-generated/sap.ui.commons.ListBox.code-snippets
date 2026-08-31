@@ -1,0 +1,74 @@
+{
+    "sap.ui.commons.ListBox": {
+        "prefix": "!5-list-box",
+        "body": [
+            "<ListBox ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.commons.ListBox"
+    },
+    "sap.ui.commons.ListBox-properties": {
+        "prefix": "!5-list-box-properties",
+        "body": [
+            "$1editable=\"true\"",
+            "enabled=\"true\"",
+            "allowMultiSelect=\"false\"",
+            "width=\"\"",
+            "height=\"\"",
+            "scrollTop=\"-1\"",
+            "displayIcons=\"false\"",
+            "displaySecondaryValues=\"false\"",
+            "valueTextAlign=\"Begin\"",
+            "secondaryValueTextAlign=\"Begin\"",
+            "minWidth=\"\"",
+            "maxWidth=\"\"",
+            "visibleItems=\"\"$2"
+        ],
+        "description": "sap.ui.commons.ListBox with non-inherited properties"
+    },
+    "sap.ui.commons.ListBox-aggregations": {
+        "prefix": "!5-list-box-aggregations",
+        "body": [
+            "$1<items>",
+            "\t<!-- <sap.ui.core.Item /> -->",
+            "</items>",
+            "$2"
+        ],
+        "description": "sap.ui.commons.ListBox with non-inherited aggregations"
+    },
+    "sap.ui.commons.ListBox-events": {
+        "prefix": "!5-list-box-events",
+        "body": [
+            "$1select=\".on${3:Select}\"",
+            "ariaDescribedBy=\".on${4:AriaDescribedBy}\"",
+            "ariaLabelledBy=\".on${5:AriaLabelledBy}\"$2"
+        ],
+        "description": "sap.ui.commons.ListBox with non-inherited events"
+    },
+    "sap.ui.commons.ListBox-all": {
+        "prefix": "!5-list-box-all",
+        "body": [
+            "$1editable=\"true\"",
+            "enabled=\"true\"",
+            "allowMultiSelect=\"false\"",
+            "width=\"\"",
+            "height=\"\"",
+            "scrollTop=\"-1\"",
+            "displayIcons=\"false\"",
+            "displaySecondaryValues=\"false\"",
+            "valueTextAlign=\"Begin\"",
+            "secondaryValueTextAlign=\"Begin\"",
+            "minWidth=\"\"",
+            "maxWidth=\"\"",
+            "visibleItems=\"\"",
+            "<items>",
+            "\t<!-- <sap.ui.core.Item /> -->",
+            "</items>",
+            "select=\".on${3:Select}\"",
+            "ariaDescribedBy=\".on${4:AriaDescribedBy}\"",
+            "ariaLabelledBy=\".on${5:AriaLabelledBy}\"$2"
+        ],
+        "description": "sap.ui.commons.ListBox with non-inherited properties, aggregations and events"
+    }
+}

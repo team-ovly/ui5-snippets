@@ -1,0 +1,72 @@
+{
+    "sap.ui.integration.designtime.baseEditor.PropertyEditor": {
+        "prefix": "!5-property-editor",
+        "body": [
+            "<PropertyEditor ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.integration.designtime.baseEditor.PropertyEditor"
+    },
+    "sap.ui.integration.designtime.baseEditor.PropertyEditor-properties": {
+        "prefix": "!5-property-editor-properties",
+        "body": [
+            "$1propertyName=\"\"",
+            "renderLabel=\"\"",
+            "value=\"\"",
+            "config=\"\"$2"
+        ],
+        "description": "sap.ui.integration.designtime.baseEditor.PropertyEditor with non-inherited properties"
+    },
+    "sap.ui.integration.designtime.baseEditor.PropertyEditor-aggregations": {
+        "prefix": "!5-property-editor-aggregations",
+        "body": [
+            "$1<propertyEditor>",
+            "\t<!-- <sap.ui.integration.designtime.baseEditor.propertyEditor.BasePropertyEditor /> -->",
+            "</propertyEditor>",
+            "$2"
+        ],
+        "description": "sap.ui.integration.designtime.baseEditor.PropertyEditor with non-inherited aggregations"
+    },
+    "sap.ui.integration.designtime.baseEditor.PropertyEditor-events": {
+        "prefix": "!5-property-editor-events",
+        "body": [
+            "$1editorChange=\".on${3:EditorChange}\"",
+            "propertyEditorChange=\".on${4:PropertyEditorChange}\"",
+            "configChange=\".on${5:ConfigChange}\"",
+            "propertyNameChange=\".on${6:PropertyNameChange}\"",
+            "ready=\".on${7:Ready}\"",
+            "validationErrorChange=\".on${8:ValidationErrorChange}\"",
+            "beforeValueChange=\".on${9:BeforeValueChange}\"",
+            "valueChange=\".on${10:ValueChange}\"",
+            "designtimeMetadataChange=\".on${11:DesigntimeMetadataChange}\"",
+            "init=\".on${12:Init}\"",
+            "editor=\".on${13:Editor}\"$2"
+        ],
+        "description": "sap.ui.integration.designtime.baseEditor.PropertyEditor with non-inherited events"
+    },
+    "sap.ui.integration.designtime.baseEditor.PropertyEditor-all": {
+        "prefix": "!5-property-editor-all",
+        "body": [
+            "$1propertyName=\"\"",
+            "renderLabel=\"\"",
+            "value=\"\"",
+            "config=\"\"",
+            "<propertyEditor>",
+            "\t<!-- <sap.ui.integration.designtime.baseEditor.propertyEditor.BasePropertyEditor /> -->",
+            "</propertyEditor>",
+            "editorChange=\".on${3:EditorChange}\"",
+            "propertyEditorChange=\".on${4:PropertyEditorChange}\"",
+            "configChange=\".on${5:ConfigChange}\"",
+            "propertyNameChange=\".on${6:PropertyNameChange}\"",
+            "ready=\".on${7:Ready}\"",
+            "validationErrorChange=\".on${8:ValidationErrorChange}\"",
+            "beforeValueChange=\".on${9:BeforeValueChange}\"",
+            "valueChange=\".on${10:ValueChange}\"",
+            "designtimeMetadataChange=\".on${11:DesigntimeMetadataChange}\"",
+            "init=\".on${12:Init}\"",
+            "editor=\".on${13:Editor}\"$2"
+        ],
+        "description": "sap.ui.integration.designtime.baseEditor.PropertyEditor with non-inherited properties, aggregations and events"
+    }
+}

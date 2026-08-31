@@ -1,0 +1,104 @@
+{
+    "sap.m.Slider": {
+        "prefix": "!5-slider",
+        "body": [
+            "<Slider ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.Slider"
+    },
+    "sap.m.Slider-properties": {
+        "prefix": "!5-slider-properties",
+        "body": [
+            "$1width=\"100%\"",
+            "enabled=\"true\"",
+            "name=\"\"",
+            "min=\"0\"",
+            "max=\"100\"",
+            "step=\"1\"",
+            "progress=\"true\"",
+            "value=\"0\"",
+            "showHandleTooltip=\"true\"",
+            "showAdvancedTooltip=\"false\"",
+            "inputsAsTooltips=\"false\"",
+            "enableTickmarks=\"false\"",
+            "handlePressed=\"false\"$2"
+        ],
+        "description": "sap.m.Slider with non-inherited properties"
+    },
+    "sap.m.Slider-aggregations": {
+        "prefix": "!5-slider-aggregations",
+        "body": [
+            "$1<_tooltipContainer>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</_tooltipContainer>",
+            "<scale>",
+            "\t<!-- <sap.m.IScale /> -->",
+            "</scale>",
+            "<_defaultScale>",
+            "\t<!-- <sap.m.ResponsiveScale /> -->",
+            "</_defaultScale>",
+            "<_defaultTooltips>",
+            "\t<!-- <sap.m.SliderTooltipBase /> -->",
+            "</_defaultTooltips>",
+            "<customTooltips>",
+            "\t<!-- <sap.m.SliderTooltipBase /> -->",
+            "</customTooltips>",
+            "<_handlesLabels>",
+            "\t<!-- <sap.ui.core.InvisibleText /> -->",
+            "</_handlesLabels>",
+            "$2"
+        ],
+        "description": "sap.m.Slider with non-inherited aggregations"
+    },
+    "sap.m.Slider-events": {
+        "prefix": "!5-slider-events",
+        "body": [
+            "$1change=\".on${3:Change}\"",
+            "liveChange=\".on${4:LiveChange}\"",
+            "ariaLabelledBy=\".on${5:AriaLabelledBy}\"$2"
+        ],
+        "description": "sap.m.Slider with non-inherited events"
+    },
+    "sap.m.Slider-all": {
+        "prefix": "!5-slider-all",
+        "body": [
+            "$1width=\"100%\"",
+            "enabled=\"true\"",
+            "name=\"\"",
+            "min=\"0\"",
+            "max=\"100\"",
+            "step=\"1\"",
+            "progress=\"true\"",
+            "value=\"0\"",
+            "showHandleTooltip=\"true\"",
+            "showAdvancedTooltip=\"false\"",
+            "inputsAsTooltips=\"false\"",
+            "enableTickmarks=\"false\"",
+            "handlePressed=\"false\"",
+            "<_tooltipContainer>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</_tooltipContainer>",
+            "<scale>",
+            "\t<!-- <sap.m.IScale /> -->",
+            "</scale>",
+            "<_defaultScale>",
+            "\t<!-- <sap.m.ResponsiveScale /> -->",
+            "</_defaultScale>",
+            "<_defaultTooltips>",
+            "\t<!-- <sap.m.SliderTooltipBase /> -->",
+            "</_defaultTooltips>",
+            "<customTooltips>",
+            "\t<!-- <sap.m.SliderTooltipBase /> -->",
+            "</customTooltips>",
+            "<_handlesLabels>",
+            "\t<!-- <sap.ui.core.InvisibleText /> -->",
+            "</_handlesLabels>",
+            "change=\".on${3:Change}\"",
+            "liveChange=\".on${4:LiveChange}\"",
+            "ariaLabelledBy=\".on${5:AriaLabelledBy}\"$2"
+        ],
+        "description": "sap.m.Slider with non-inherited properties, aggregations and events"
+    }
+}

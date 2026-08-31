@@ -1,0 +1,67 @@
+{
+    "sap.m.ExpandableText": {
+        "prefix": "!5-expandable-text",
+        "body": [
+            "<ExpandableText ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.ExpandableText"
+    },
+    "sap.m.ExpandableText-properties": {
+        "prefix": "!5-expandable-text-properties",
+        "body": [
+            "$1text=\"\"",
+            "textDirection=\"Inherit\"",
+            "wrappingType=\"Normal\"",
+            "textAlign=\"Begin\"",
+            "renderWhitespace=\"false\"",
+            "overflowMode=\"InPlace\"",
+            "maxCharacters=\"100\"",
+            "expanded=\"false\"",
+            "emptyIndicatorMode=\"Off\"$2"
+        ],
+        "description": "sap.m.ExpandableText with non-inherited properties"
+    },
+    "sap.m.ExpandableText-aggregations": {
+        "prefix": "!5-expandable-text-aggregations",
+        "body": [
+            "$1<_showMoreLink>",
+            "\t<!-- <sap.m.Link /> -->",
+            "</_showMoreLink>",
+            "<_ariaLabelledBy>",
+            "\t<!-- <sap.ui.core.InvisibleText /> -->",
+            "</_ariaLabelledBy>",
+            "$2"
+        ],
+        "description": "sap.m.ExpandableText with non-inherited aggregations"
+    },
+    "sap.m.ExpandableText-events": {
+        "prefix": "!5-expandable-text-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.m.ExpandableText with non-inherited events"
+    },
+    "sap.m.ExpandableText-all": {
+        "prefix": "!5-expandable-text-all",
+        "body": [
+            "$1text=\"\"",
+            "textDirection=\"Inherit\"",
+            "wrappingType=\"Normal\"",
+            "textAlign=\"Begin\"",
+            "renderWhitespace=\"false\"",
+            "overflowMode=\"InPlace\"",
+            "maxCharacters=\"100\"",
+            "expanded=\"false\"",
+            "emptyIndicatorMode=\"Off\"",
+            "<_showMoreLink>",
+            "\t<!-- <sap.m.Link /> -->",
+            "</_showMoreLink>",
+            "<_ariaLabelledBy>",
+            "\t<!-- <sap.ui.core.InvisibleText /> -->",
+            "</_ariaLabelledBy>$2"
+        ],
+        "description": "sap.m.ExpandableText with non-inherited properties, aggregations and events"
+    }
+}

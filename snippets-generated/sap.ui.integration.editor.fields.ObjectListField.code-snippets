@@ -1,0 +1,39 @@
+{
+    "sap.ui.integration.editor.fields.ObjectListField": {
+        "prefix": "!5-object-list-field",
+        "body": [
+            "<ObjectListField ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.integration.editor.fields.ObjectListField"
+    },
+    "sap.ui.integration.editor.fields.ObjectListField-properties": {
+        "prefix": "!5-object-list-field-properties",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.integration.editor.fields.ObjectListField with non-inherited properties"
+    },
+    "sap.ui.integration.editor.fields.ObjectListField-aggregations": {
+        "prefix": "!5-object-list-field-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.integration.editor.fields.ObjectListField with non-inherited aggregations"
+    },
+    "sap.ui.integration.editor.fields.ObjectListField-events": {
+        "prefix": "!5-object-list-field-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.integration.editor.fields.ObjectListField with non-inherited events"
+    },
+    "sap.ui.integration.editor.fields.ObjectListField-all": {
+        "prefix": "!5-object-list-field-all",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.integration.editor.fields.ObjectListField with non-inherited properties, aggregations and events"
+    }
+}

@@ -1,0 +1,56 @@
+{
+    "sap.ui.commons.ResponsiveContainer": {
+        "prefix": "!5-responsive-container",
+        "body": [
+            "<ResponsiveContainer ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.commons.ResponsiveContainer"
+    },
+    "sap.ui.commons.ResponsiveContainer-properties": {
+        "prefix": "!5-responsive-container-properties",
+        "body": [
+            "$1width=\"100%\"",
+            "height=\"100%\"$2"
+        ],
+        "description": "sap.ui.commons.ResponsiveContainer with non-inherited properties"
+    },
+    "sap.ui.commons.ResponsiveContainer-aggregations": {
+        "prefix": "!5-responsive-container-aggregations",
+        "body": [
+            "$1<ranges>",
+            "\t<!-- <sap.ui.commons.ResponsiveContainerRange /> -->",
+            "</ranges>",
+            "<content>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</content>",
+            "$2"
+        ],
+        "description": "sap.ui.commons.ResponsiveContainer with non-inherited aggregations"
+    },
+    "sap.ui.commons.ResponsiveContainer-events": {
+        "prefix": "!5-responsive-container-events",
+        "body": [
+            "$1rangeSwitch=\".on${3:RangeSwitch}\"",
+            "defaultContent=\".on${4:DefaultContent}\"$2"
+        ],
+        "description": "sap.ui.commons.ResponsiveContainer with non-inherited events"
+    },
+    "sap.ui.commons.ResponsiveContainer-all": {
+        "prefix": "!5-responsive-container-all",
+        "body": [
+            "$1width=\"100%\"",
+            "height=\"100%\"",
+            "<ranges>",
+            "\t<!-- <sap.ui.commons.ResponsiveContainerRange /> -->",
+            "</ranges>",
+            "<content>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</content>",
+            "rangeSwitch=\".on${3:RangeSwitch}\"",
+            "defaultContent=\".on${4:DefaultContent}\"$2"
+        ],
+        "description": "sap.ui.commons.ResponsiveContainer with non-inherited properties, aggregations and events"
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "sap.ui.mdc.table.Column": {
+        "prefix": "!5-column",
+        "body": [
+            "<Column ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.mdc.table.Column"
+    },
+    "sap.ui.mdc.table.Column-properties": {
+        "prefix": "!5-column-properties",
+        "body": [
+            "$1width=\"\"",
+            "minWidth=\"8\"",
+            "header=\"\"",
+            "headerVisible=\"true\"",
+            "hAlign=\"Begin\"",
+            "importance=\"None\"",
+            "dataProperty=\"\"",
+            "propertyKey=\"\"",
+            "required=\"false\"$2"
+        ],
+        "description": "sap.ui.mdc.table.Column with non-inherited properties"
+    },
+    "sap.ui.mdc.table.Column-aggregations": {
+        "prefix": "!5-column-aggregations",
+        "body": [
+            "$1<template>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</template>",
+            "<creationTemplate>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</creationTemplate>",
+            "<extendedSettings>",
+            "\t<!-- <sap.ui.mdc.table.ColumnSettings /> -->",
+            "</extendedSettings>",
+            "$2"
+        ],
+        "description": "sap.ui.mdc.table.Column with non-inherited aggregations"
+    },
+    "sap.ui.mdc.table.Column-events": {
+        "prefix": "!5-column-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.mdc.table.Column with non-inherited events"
+    },
+    "sap.ui.mdc.table.Column-all": {
+        "prefix": "!5-column-all",
+        "body": [
+            "$1width=\"\"",
+            "minWidth=\"8\"",
+            "header=\"\"",
+            "headerVisible=\"true\"",
+            "hAlign=\"Begin\"",
+            "importance=\"None\"",
+            "dataProperty=\"\"",
+            "propertyKey=\"\"",
+            "required=\"false\"",
+            "<template>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</template>",
+            "<creationTemplate>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</creationTemplate>",
+            "<extendedSettings>",
+            "\t<!-- <sap.ui.mdc.table.ColumnSettings /> -->",
+            "</extendedSettings>$2"
+        ],
+        "description": "sap.ui.mdc.table.Column with non-inherited properties, aggregations and events"
+    }
+}

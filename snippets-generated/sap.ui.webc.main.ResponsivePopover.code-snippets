@@ -1,0 +1,92 @@
+{
+    "sap.ui.webc.main.ResponsivePopover": {
+        "prefix": "!5-responsive-popover",
+        "body": [
+            "<ResponsivePopover ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.webc.main.ResponsivePopover"
+    },
+    "sap.ui.webc.main.ResponsivePopover-properties": {
+        "prefix": "!5-responsive-popover-properties",
+        "body": [
+            "$1accessibleName=\"undefined\"",
+            "accessibleRole=\"Dialog\"",
+            "allowTargetOverlap=\"false\"",
+            "headerText=\"\"",
+            "hideArrow=\"false\"",
+            "hideBackdrop=\"false\"",
+            "horizontalAlign=\"Center\"",
+            "modal=\"false\"",
+            "open=\"false\"",
+            "placementType=\"Right\"",
+            "preventFocusRestore=\"false\"",
+            "verticalAlign=\"Center\"$2"
+        ],
+        "description": "sap.ui.webc.main.ResponsivePopover with non-inherited properties"
+    },
+    "sap.ui.webc.main.ResponsivePopover-aggregations": {
+        "prefix": "!5-responsive-popover-aggregations",
+        "body": [
+            "$1<content>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</content>",
+            "<footer>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</footer>",
+            "<header>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</header>",
+            "$2"
+        ],
+        "description": "sap.ui.webc.main.ResponsivePopover with non-inherited aggregations"
+    },
+    "sap.ui.webc.main.ResponsivePopover-events": {
+        "prefix": "!5-responsive-popover-events",
+        "body": [
+            "$1afterClose=\".on${3:AfterClose}\"",
+            "afterOpen=\".on${4:AfterOpen}\"",
+            "beforeClose=\".on${5:BeforeClose}\"",
+            "beforeOpen=\".on${6:BeforeOpen}\"",
+            "opener=\".on${7:Opener}\"",
+            "ariaLabelledBy=\".on${8:AriaLabelledBy}\"",
+            "initialFocus=\".on${9:InitialFocus}\"$2"
+        ],
+        "description": "sap.ui.webc.main.ResponsivePopover with non-inherited events"
+    },
+    "sap.ui.webc.main.ResponsivePopover-all": {
+        "prefix": "!5-responsive-popover-all",
+        "body": [
+            "$1accessibleName=\"undefined\"",
+            "accessibleRole=\"Dialog\"",
+            "allowTargetOverlap=\"false\"",
+            "headerText=\"\"",
+            "hideArrow=\"false\"",
+            "hideBackdrop=\"false\"",
+            "horizontalAlign=\"Center\"",
+            "modal=\"false\"",
+            "open=\"false\"",
+            "placementType=\"Right\"",
+            "preventFocusRestore=\"false\"",
+            "verticalAlign=\"Center\"",
+            "<content>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</content>",
+            "<footer>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</footer>",
+            "<header>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</header>",
+            "afterClose=\".on${3:AfterClose}\"",
+            "afterOpen=\".on${4:AfterOpen}\"",
+            "beforeClose=\".on${5:BeforeClose}\"",
+            "beforeOpen=\".on${6:BeforeOpen}\"",
+            "opener=\".on${7:Opener}\"",
+            "ariaLabelledBy=\".on${8:AriaLabelledBy}\"",
+            "initialFocus=\".on${9:InitialFocus}\"$2"
+        ],
+        "description": "sap.ui.webc.main.ResponsivePopover with non-inherited properties, aggregations and events"
+    }
+}

@@ -1,0 +1,68 @@
+{
+    "sap.m.P13nConditionPanel": {
+        "prefix": "!5-p13n-condition-panel",
+        "body": [
+            "<P13nConditionPanel ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.P13nConditionPanel"
+    },
+    "sap.m.P13nConditionPanel-properties": {
+        "prefix": "!5-p13n-condition-panel-properties",
+        "body": [
+            "$1maxConditions=\"-1\"",
+            "exclude=\"false\"",
+            "containerQuery=\"false\"",
+            "autoAddNewRow=\"false\"",
+            "disableFirstRemoveIcon=\"false\"",
+            "alwaysShowAddIcon=\"true\"",
+            "usePrevConditionSetting=\"true\"",
+            "autoReduceKeyFieldItems=\"false\"",
+            "layoutMode=\"\"",
+            "showLabel=\"false\"",
+            "displayFormat=\"\"",
+            "validationExecutor=\"\"$2"
+        ],
+        "description": "sap.m.P13nConditionPanel with non-inherited properties"
+    },
+    "sap.m.P13nConditionPanel-aggregations": {
+        "prefix": "!5-p13n-condition-panel-aggregations",
+        "body": [
+            "$1<content>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</content>",
+            "$2"
+        ],
+        "description": "sap.m.P13nConditionPanel with non-inherited aggregations"
+    },
+    "sap.m.P13nConditionPanel-events": {
+        "prefix": "!5-p13n-condition-panel-events",
+        "body": [
+            "$1dataChange=\".on${3:DataChange}\"$2"
+        ],
+        "description": "sap.m.P13nConditionPanel with non-inherited events"
+    },
+    "sap.m.P13nConditionPanel-all": {
+        "prefix": "!5-p13n-condition-panel-all",
+        "body": [
+            "$1maxConditions=\"-1\"",
+            "exclude=\"false\"",
+            "containerQuery=\"false\"",
+            "autoAddNewRow=\"false\"",
+            "disableFirstRemoveIcon=\"false\"",
+            "alwaysShowAddIcon=\"true\"",
+            "usePrevConditionSetting=\"true\"",
+            "autoReduceKeyFieldItems=\"false\"",
+            "layoutMode=\"\"",
+            "showLabel=\"false\"",
+            "displayFormat=\"\"",
+            "validationExecutor=\"\"",
+            "<content>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</content>",
+            "dataChange=\".on${3:DataChange}\"$2"
+        ],
+        "description": "sap.m.P13nConditionPanel with non-inherited properties, aggregations and events"
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "sap.ui.commons.MessageBar": {
+        "prefix": "!5-message-bar",
+        "body": [
+            "<MessageBar ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.commons.MessageBar"
+    },
+    "sap.ui.commons.MessageBar-properties": {
+        "prefix": "!5-message-bar-properties",
+        "body": [
+            "$1anchorID=\"\"",
+            "visible=\"true\"",
+            "maxToasted=\"3\"",
+            "maxListed=\"7\"",
+            "anchorSnapPoint=\"begin top\"$2"
+        ],
+        "description": "sap.ui.commons.MessageBar with non-inherited properties"
+    },
+    "sap.ui.commons.MessageBar-aggregations": {
+        "prefix": "!5-message-bar-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.commons.MessageBar with non-inherited aggregations"
+    },
+    "sap.ui.commons.MessageBar-events": {
+        "prefix": "!5-message-bar-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.commons.MessageBar with non-inherited events"
+    },
+    "sap.ui.commons.MessageBar-all": {
+        "prefix": "!5-message-bar-all",
+        "body": [
+            "$1anchorID=\"\"",
+            "visible=\"true\"",
+            "maxToasted=\"3\"",
+            "maxListed=\"7\"",
+            "anchorSnapPoint=\"begin top\"$2"
+        ],
+        "description": "sap.ui.commons.MessageBar with non-inherited properties, aggregations and events"
+    }
+}

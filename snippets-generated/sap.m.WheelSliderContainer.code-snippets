@@ -1,0 +1,49 @@
+{
+    "sap.m.WheelSliderContainer": {
+        "prefix": "!5-wheel-slider-container",
+        "body": [
+            "<WheelSliderContainer ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.WheelSliderContainer"
+    },
+    "sap.m.WheelSliderContainer-properties": {
+        "prefix": "!5-wheel-slider-container-properties",
+        "body": [
+            "$1labelText=\"\"",
+            "width=\"\"",
+            "height=\"\"$2"
+        ],
+        "description": "sap.m.WheelSliderContainer with non-inherited properties"
+    },
+    "sap.m.WheelSliderContainer-aggregations": {
+        "prefix": "!5-wheel-slider-container-aggregations",
+        "body": [
+            "$1<sliders>",
+            "\t<!-- <sap.m.WheelSlider /> -->",
+            "</sliders>",
+            "$2"
+        ],
+        "description": "sap.m.WheelSliderContainer with non-inherited aggregations"
+    },
+    "sap.m.WheelSliderContainer-events": {
+        "prefix": "!5-wheel-slider-container-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.m.WheelSliderContainer with non-inherited events"
+    },
+    "sap.m.WheelSliderContainer-all": {
+        "prefix": "!5-wheel-slider-container-all",
+        "body": [
+            "$1labelText=\"\"",
+            "width=\"\"",
+            "height=\"\"",
+            "<sliders>",
+            "\t<!-- <sap.m.WheelSlider /> -->",
+            "</sliders>$2"
+        ],
+        "description": "sap.m.WheelSliderContainer with non-inherited properties, aggregations and events"
+    }
+}

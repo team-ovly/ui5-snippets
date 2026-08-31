@@ -1,0 +1,62 @@
+{
+    "sap.ui.webc.main.CheckBox": {
+        "prefix": "!5-check-box",
+        "body": [
+            "<CheckBox ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.webc.main.CheckBox"
+    },
+    "sap.ui.webc.main.CheckBox-properties": {
+        "prefix": "!5-check-box-properties",
+        "body": [
+            "$1accessibleName=\"\"",
+            "checked=\"false\"",
+            "enabled=\"true\"",
+            "indeterminate=\"false\"",
+            "name=\"\"",
+            "readonly=\"false\"",
+            "required=\"false\"",
+            "text=\"\"",
+            "valueState=\"None\"",
+            "width=\"\"",
+            "wrappingType=\"None\"$2"
+        ],
+        "description": "sap.ui.webc.main.CheckBox with non-inherited properties"
+    },
+    "sap.ui.webc.main.CheckBox-aggregations": {
+        "prefix": "!5-check-box-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.webc.main.CheckBox with non-inherited aggregations"
+    },
+    "sap.ui.webc.main.CheckBox-events": {
+        "prefix": "!5-check-box-events",
+        "body": [
+            "$1change=\".on${3:Change}\"",
+            "ariaLabelledBy=\".on${4:AriaLabelledBy}\"$2"
+        ],
+        "description": "sap.ui.webc.main.CheckBox with non-inherited events"
+    },
+    "sap.ui.webc.main.CheckBox-all": {
+        "prefix": "!5-check-box-all",
+        "body": [
+            "$1accessibleName=\"\"",
+            "checked=\"false\"",
+            "enabled=\"true\"",
+            "indeterminate=\"false\"",
+            "name=\"\"",
+            "readonly=\"false\"",
+            "required=\"false\"",
+            "text=\"\"",
+            "valueState=\"None\"",
+            "width=\"\"",
+            "wrappingType=\"None\"",
+            "change=\".on${3:Change}\"",
+            "ariaLabelledBy=\".on${4:AriaLabelledBy}\"$2"
+        ],
+        "description": "sap.ui.webc.main.CheckBox with non-inherited properties, aggregations and events"
+    }
+}

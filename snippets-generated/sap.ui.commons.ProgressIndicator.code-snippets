@@ -1,0 +1,49 @@
+{
+    "sap.ui.commons.ProgressIndicator": {
+        "prefix": "!5-progress-indicator",
+        "body": [
+            "<ProgressIndicator ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.commons.ProgressIndicator"
+    },
+    "sap.ui.commons.ProgressIndicator-properties": {
+        "prefix": "!5-progress-indicator-properties",
+        "body": [
+            "$1enabled=\"true\"",
+            "barColor=\"NEUTRAL\"",
+            "displayValue=\"0%\"",
+            "percentValue=\"0\"",
+            "showValue=\"true\"",
+            "width=\"100%\"$2"
+        ],
+        "description": "sap.ui.commons.ProgressIndicator with non-inherited properties"
+    },
+    "sap.ui.commons.ProgressIndicator-aggregations": {
+        "prefix": "!5-progress-indicator-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.commons.ProgressIndicator with non-inherited aggregations"
+    },
+    "sap.ui.commons.ProgressIndicator-events": {
+        "prefix": "!5-progress-indicator-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.commons.ProgressIndicator with non-inherited events"
+    },
+    "sap.ui.commons.ProgressIndicator-all": {
+        "prefix": "!5-progress-indicator-all",
+        "body": [
+            "$1enabled=\"true\"",
+            "barColor=\"NEUTRAL\"",
+            "displayValue=\"0%\"",
+            "percentValue=\"0\"",
+            "showValue=\"true\"",
+            "width=\"100%\"$2"
+        ],
+        "description": "sap.ui.commons.ProgressIndicator with non-inherited properties, aggregations and events"
+    }
+}

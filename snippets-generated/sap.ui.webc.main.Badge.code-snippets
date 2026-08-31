@@ -1,0 +1,47 @@
+{
+    "sap.ui.webc.main.Badge": {
+        "prefix": "!5-badge",
+        "body": [
+            "<Badge ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.webc.main.Badge"
+    },
+    "sap.ui.webc.main.Badge-properties": {
+        "prefix": "!5-badge-properties",
+        "body": [
+            "$1colorScheme=\"1\"",
+            "text=\"\"$2"
+        ],
+        "description": "sap.ui.webc.main.Badge with non-inherited properties"
+    },
+    "sap.ui.webc.main.Badge-aggregations": {
+        "prefix": "!5-badge-aggregations",
+        "body": [
+            "$1<icon>",
+            "\t<!-- <sap.ui.webc.main.IIcon /> -->",
+            "</icon>",
+            "$2"
+        ],
+        "description": "sap.ui.webc.main.Badge with non-inherited aggregations"
+    },
+    "sap.ui.webc.main.Badge-events": {
+        "prefix": "!5-badge-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.webc.main.Badge with non-inherited events"
+    },
+    "sap.ui.webc.main.Badge-all": {
+        "prefix": "!5-badge-all",
+        "body": [
+            "$1colorScheme=\"1\"",
+            "text=\"\"",
+            "<icon>",
+            "\t<!-- <sap.ui.webc.main.IIcon /> -->",
+            "</icon>$2"
+        ],
+        "description": "sap.ui.webc.main.Badge with non-inherited properties, aggregations and events"
+    }
+}

@@ -1,0 +1,66 @@
+{
+    "sap.m.GenericTag": {
+        "prefix": "!5-generic-tag",
+        "body": [
+            "<GenericTag ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.GenericTag"
+    },
+    "sap.m.GenericTag-properties": {
+        "prefix": "!5-generic-tag-properties",
+        "body": [
+            "$1text=\"\"",
+            "status=\"None\"",
+            "design=\"Full\"",
+            "valueState=\"None\"$2"
+        ],
+        "description": "sap.m.GenericTag with non-inherited properties"
+    },
+    "sap.m.GenericTag-aggregations": {
+        "prefix": "!5-generic-tag-aggregations",
+        "body": [
+            "$1<value>",
+            "\t<!-- <sap.m.ObjectNumber /> -->",
+            "</value>",
+            "<_statusIcon>",
+            "\t<!-- <sap.ui.core.Icon /> -->",
+            "</_statusIcon>",
+            "<_errorIcon>",
+            "\t<!-- <sap.ui.core.Icon /> -->",
+            "</_errorIcon>",
+            "$2"
+        ],
+        "description": "sap.m.GenericTag with non-inherited aggregations"
+    },
+    "sap.m.GenericTag-events": {
+        "prefix": "!5-generic-tag-events",
+        "body": [
+            "$1press=\".on${3:Press}\"",
+            "ariaLabelledBy=\".on${4:AriaLabelledBy}\"$2"
+        ],
+        "description": "sap.m.GenericTag with non-inherited events"
+    },
+    "sap.m.GenericTag-all": {
+        "prefix": "!5-generic-tag-all",
+        "body": [
+            "$1text=\"\"",
+            "status=\"None\"",
+            "design=\"Full\"",
+            "valueState=\"None\"",
+            "<value>",
+            "\t<!-- <sap.m.ObjectNumber /> -->",
+            "</value>",
+            "<_statusIcon>",
+            "\t<!-- <sap.ui.core.Icon /> -->",
+            "</_statusIcon>",
+            "<_errorIcon>",
+            "\t<!-- <sap.ui.core.Icon /> -->",
+            "</_errorIcon>",
+            "press=\".on${3:Press}\"",
+            "ariaLabelledBy=\".on${4:AriaLabelledBy}\"$2"
+        ],
+        "description": "sap.m.GenericTag with non-inherited properties, aggregations and events"
+    }
+}

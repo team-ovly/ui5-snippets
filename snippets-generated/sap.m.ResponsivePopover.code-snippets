@@ -1,0 +1,122 @@
+{
+    "sap.m.ResponsivePopover": {
+        "prefix": "!5-responsive-popover",
+        "body": [
+            "<ResponsivePopover ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.ResponsivePopover"
+    },
+    "sap.m.ResponsivePopover-properties": {
+        "prefix": "!5-responsive-popover-properties",
+        "body": [
+            "$1placement=\"Right\"",
+            "showHeader=\"true\"",
+            "title=\"\"",
+            "icon=\"\"",
+            "modal=\"\"",
+            "offsetX=\"\"",
+            "offsetY=\"\"",
+            "showArrow=\"true\"",
+            "contentWidth=\"\"",
+            "contentHeight=\"\"",
+            "horizontalScrolling=\"true\"",
+            "verticalScrolling=\"true\"",
+            "showCloseButton=\"true\"",
+            "resizable=\"false\"",
+            "titleAlignment=\"Auto\"$2"
+        ],
+        "description": "sap.m.ResponsivePopover with non-inherited properties"
+    },
+    "sap.m.ResponsivePopover-aggregations": {
+        "prefix": "!5-responsive-popover-aggregations",
+        "body": [
+            "$1<content>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</content>",
+            "<customHeader>",
+            "\t<!-- <sap.m.IBar /> -->",
+            "</customHeader>",
+            "<subHeader>",
+            "\t<!-- <sap.m.IBar /> -->",
+            "</subHeader>",
+            "<beginButton>",
+            "\t<!-- <sap.m.Button /> -->",
+            "</beginButton>",
+            "<endButton>",
+            "\t<!-- <sap.m.Button /> -->",
+            "</endButton>",
+            "<footer>",
+            "\t<!-- <sap.m.Toolbar /> -->",
+            "</footer>",
+            "<_popup>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</_popup>",
+            "$2"
+        ],
+        "description": "sap.m.ResponsivePopover with non-inherited aggregations"
+    },
+    "sap.m.ResponsivePopover-events": {
+        "prefix": "!5-responsive-popover-events",
+        "body": [
+            "$1beforeOpen=\".on${3:BeforeOpen}\"",
+            "afterOpen=\".on${4:AfterOpen}\"",
+            "beforeClose=\".on${5:BeforeClose}\"",
+            "afterClose=\".on${6:AfterClose}\"",
+            "initialFocus=\".on${7:InitialFocus}\"",
+            "ariaLabelledBy=\".on${8:AriaLabelledBy}\"",
+            "ariaDescribedBy=\".on${9:AriaDescribedBy}\"$2"
+        ],
+        "description": "sap.m.ResponsivePopover with non-inherited events"
+    },
+    "sap.m.ResponsivePopover-all": {
+        "prefix": "!5-responsive-popover-all",
+        "body": [
+            "$1placement=\"Right\"",
+            "showHeader=\"true\"",
+            "title=\"\"",
+            "icon=\"\"",
+            "modal=\"\"",
+            "offsetX=\"\"",
+            "offsetY=\"\"",
+            "showArrow=\"true\"",
+            "contentWidth=\"\"",
+            "contentHeight=\"\"",
+            "horizontalScrolling=\"true\"",
+            "verticalScrolling=\"true\"",
+            "showCloseButton=\"true\"",
+            "resizable=\"false\"",
+            "titleAlignment=\"Auto\"",
+            "<content>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</content>",
+            "<customHeader>",
+            "\t<!-- <sap.m.IBar /> -->",
+            "</customHeader>",
+            "<subHeader>",
+            "\t<!-- <sap.m.IBar /> -->",
+            "</subHeader>",
+            "<beginButton>",
+            "\t<!-- <sap.m.Button /> -->",
+            "</beginButton>",
+            "<endButton>",
+            "\t<!-- <sap.m.Button /> -->",
+            "</endButton>",
+            "<footer>",
+            "\t<!-- <sap.m.Toolbar /> -->",
+            "</footer>",
+            "<_popup>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</_popup>",
+            "beforeOpen=\".on${3:BeforeOpen}\"",
+            "afterOpen=\".on${4:AfterOpen}\"",
+            "beforeClose=\".on${5:BeforeClose}\"",
+            "afterClose=\".on${6:AfterClose}\"",
+            "initialFocus=\".on${7:InitialFocus}\"",
+            "ariaLabelledBy=\".on${8:AriaLabelledBy}\"",
+            "ariaDescribedBy=\".on${9:AriaDescribedBy}\"$2"
+        ],
+        "description": "sap.m.ResponsivePopover with non-inherited properties, aggregations and events"
+    }
+}

@@ -1,0 +1,108 @@
+{
+    "sap.ui.layout.form.SimpleForm": {
+        "prefix": "!5-simple-form",
+        "body": [
+            "<SimpleForm ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.layout.form.SimpleForm"
+    },
+    "sap.ui.layout.form.SimpleForm-properties": {
+        "prefix": "!5-simple-form-properties",
+        "body": [
+            "$1maxContainerCols=\"2\"",
+            "minWidth=\"-1\"",
+            "width=\"\"",
+            "editable=\"false\"",
+            "labelMinWidth=\"192\"",
+            "layout=\"ResponsiveGridLayout\"",
+            "labelSpanXL=\"-1\"",
+            "labelSpanL=\"4\"",
+            "labelSpanM=\"2\"",
+            "labelSpanS=\"12\"",
+            "adjustLabelSpan=\"true\"",
+            "emptySpanXL=\"-1\"",
+            "emptySpanL=\"0\"",
+            "emptySpanM=\"0\"",
+            "emptySpanS=\"0\"",
+            "columnsXL=\"-1\"",
+            "columnsL=\"2\"",
+            "columnsM=\"1\"",
+            "singleContainerFullSize=\"true\"",
+            "breakpointXL=\"1440\"",
+            "breakpointL=\"1024\"",
+            "breakpointM=\"600\"",
+            "backgroundDesign=\"Translucent\"$2"
+        ],
+        "description": "sap.ui.layout.form.SimpleForm with non-inherited properties"
+    },
+    "sap.ui.layout.form.SimpleForm-aggregations": {
+        "prefix": "!5-simple-form-aggregations",
+        "body": [
+            "$1<content>",
+            "\t<!-- <sap.ui.core.Element /> -->",
+            "</content>",
+            "<form>",
+            "\t<!-- <sap.ui.layout.form.Form /> -->",
+            "</form>",
+            "<title>",
+            "\t<!-- <sap.ui.core.Title /> -->",
+            "</title>",
+            "<toolbar>",
+            "\t<!-- <sap.ui.core.Toolbar /> -->",
+            "</toolbar>",
+            "$2"
+        ],
+        "description": "sap.ui.layout.form.SimpleForm with non-inherited aggregations"
+    },
+    "sap.ui.layout.form.SimpleForm-events": {
+        "prefix": "!5-simple-form-events",
+        "body": [
+            "$1ariaLabelledBy=\".on${3:AriaLabelledBy}\"$2"
+        ],
+        "description": "sap.ui.layout.form.SimpleForm with non-inherited events"
+    },
+    "sap.ui.layout.form.SimpleForm-all": {
+        "prefix": "!5-simple-form-all",
+        "body": [
+            "$1maxContainerCols=\"2\"",
+            "minWidth=\"-1\"",
+            "width=\"\"",
+            "editable=\"false\"",
+            "labelMinWidth=\"192\"",
+            "layout=\"ResponsiveGridLayout\"",
+            "labelSpanXL=\"-1\"",
+            "labelSpanL=\"4\"",
+            "labelSpanM=\"2\"",
+            "labelSpanS=\"12\"",
+            "adjustLabelSpan=\"true\"",
+            "emptySpanXL=\"-1\"",
+            "emptySpanL=\"0\"",
+            "emptySpanM=\"0\"",
+            "emptySpanS=\"0\"",
+            "columnsXL=\"-1\"",
+            "columnsL=\"2\"",
+            "columnsM=\"1\"",
+            "singleContainerFullSize=\"true\"",
+            "breakpointXL=\"1440\"",
+            "breakpointL=\"1024\"",
+            "breakpointM=\"600\"",
+            "backgroundDesign=\"Translucent\"",
+            "<content>",
+            "\t<!-- <sap.ui.core.Element /> -->",
+            "</content>",
+            "<form>",
+            "\t<!-- <sap.ui.layout.form.Form /> -->",
+            "</form>",
+            "<title>",
+            "\t<!-- <sap.ui.core.Title /> -->",
+            "</title>",
+            "<toolbar>",
+            "\t<!-- <sap.ui.core.Toolbar /> -->",
+            "</toolbar>",
+            "ariaLabelledBy=\".on${3:AriaLabelledBy}\"$2"
+        ],
+        "description": "sap.ui.layout.form.SimpleForm with non-inherited properties, aggregations and events"
+    }
+}

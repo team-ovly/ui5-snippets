@@ -1,0 +1,62 @@
+{
+    "sap.uxap.AnchorBar": {
+        "prefix": "!5-anchor-bar",
+        "body": [
+            "<AnchorBar ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.uxap.AnchorBar"
+    },
+    "sap.uxap.AnchorBar-properties": {
+        "prefix": "!5-anchor-bar-properties",
+        "body": [
+            "$1showPopover=\"true\"",
+            "upperCase=\"false\"",
+            "backgroundDesign=\"\"$2"
+        ],
+        "description": "sap.uxap.AnchorBar with non-inherited properties"
+    },
+    "sap.uxap.AnchorBar-aggregations": {
+        "prefix": "!5-anchor-bar-aggregations",
+        "body": [
+            "$1<_select>",
+            "\t<!-- <sap.uxap.HierarchicalSelect /> -->",
+            "</_select>",
+            "<_scrollArrowLeft>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</_scrollArrowLeft>",
+            "<_scrollArrowRight>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</_scrollArrowRight>",
+            "$2"
+        ],
+        "description": "sap.uxap.AnchorBar with non-inherited aggregations"
+    },
+    "sap.uxap.AnchorBar-events": {
+        "prefix": "!5-anchor-bar-events",
+        "body": [
+            "$1selectedButton=\".on${3:SelectedButton}\"$2"
+        ],
+        "description": "sap.uxap.AnchorBar with non-inherited events"
+    },
+    "sap.uxap.AnchorBar-all": {
+        "prefix": "!5-anchor-bar-all",
+        "body": [
+            "$1showPopover=\"true\"",
+            "upperCase=\"false\"",
+            "backgroundDesign=\"\"",
+            "<_select>",
+            "\t<!-- <sap.uxap.HierarchicalSelect /> -->",
+            "</_select>",
+            "<_scrollArrowLeft>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</_scrollArrowLeft>",
+            "<_scrollArrowRight>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</_scrollArrowRight>",
+            "selectedButton=\".on${3:SelectedButton}\"$2"
+        ],
+        "description": "sap.uxap.AnchorBar with non-inherited properties, aggregations and events"
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "sap.ui.unified.SplitContainer": {
+        "prefix": "!5-split-container",
+        "body": [
+            "<SplitContainer ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.unified.SplitContainer"
+    },
+    "sap.ui.unified.SplitContainer-properties": {
+        "prefix": "!5-split-container-properties",
+        "body": [
+            "$1showSecondaryContent=\"\"",
+            "secondaryContentSize=\"250px\"",
+            "secondaryContentWidth=\"250px\"",
+            "orientation=\"Horizontal\"$2"
+        ],
+        "description": "sap.ui.unified.SplitContainer with non-inherited properties"
+    },
+    "sap.ui.unified.SplitContainer-aggregations": {
+        "prefix": "!5-split-container-aggregations",
+        "body": [
+            "$1<content>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</content>",
+            "<secondaryContent>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</secondaryContent>",
+            "$2"
+        ],
+        "description": "sap.ui.unified.SplitContainer with non-inherited aggregations"
+    },
+    "sap.ui.unified.SplitContainer-events": {
+        "prefix": "!5-split-container-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.unified.SplitContainer with non-inherited events"
+    },
+    "sap.ui.unified.SplitContainer-all": {
+        "prefix": "!5-split-container-all",
+        "body": [
+            "$1showSecondaryContent=\"\"",
+            "secondaryContentSize=\"250px\"",
+            "secondaryContentWidth=\"250px\"",
+            "orientation=\"Horizontal\"",
+            "<content>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</content>",
+            "<secondaryContent>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</secondaryContent>$2"
+        ],
+        "description": "sap.ui.unified.SplitContainer with non-inherited properties, aggregations and events"
+    }
+}

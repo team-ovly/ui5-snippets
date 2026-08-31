@@ -1,0 +1,44 @@
+{
+    "sap.ui.suite.VerticalProgressIndicator": {
+        "prefix": "!5-vertical-progress-indicator",
+        "body": [
+            "<VerticalProgressIndicator ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.suite.VerticalProgressIndicator"
+    },
+    "sap.ui.suite.VerticalProgressIndicator-properties": {
+        "prefix": "!5-vertical-progress-indicator-properties",
+        "body": [
+            "$1percentage=\"\"$2"
+        ],
+        "description": "sap.ui.suite.VerticalProgressIndicator with non-inherited properties"
+    },
+    "sap.ui.suite.VerticalProgressIndicator-aggregations": {
+        "prefix": "!5-vertical-progress-indicator-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.suite.VerticalProgressIndicator with non-inherited aggregations"
+    },
+    "sap.ui.suite.VerticalProgressIndicator-events": {
+        "prefix": "!5-vertical-progress-indicator-events",
+        "body": [
+            "$1press=\".on${3:Press}\"",
+            "ariaLabelledBy=\".on${4:AriaLabelledBy}\"",
+            "ariaDescribedBy=\".on${5:AriaDescribedBy}\"$2"
+        ],
+        "description": "sap.ui.suite.VerticalProgressIndicator with non-inherited events"
+    },
+    "sap.ui.suite.VerticalProgressIndicator-all": {
+        "prefix": "!5-vertical-progress-indicator-all",
+        "body": [
+            "$1percentage=\"\"",
+            "press=\".on${3:Press}\"",
+            "ariaLabelledBy=\".on${4:AriaLabelledBy}\"",
+            "ariaDescribedBy=\".on${5:AriaDescribedBy}\"$2"
+        ],
+        "description": "sap.ui.suite.VerticalProgressIndicator with non-inherited properties, aggregations and events"
+    }
+}

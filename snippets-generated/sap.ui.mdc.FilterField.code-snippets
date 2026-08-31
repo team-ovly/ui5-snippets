@@ -1,0 +1,46 @@
+{
+    "sap.ui.mdc.FilterField": {
+        "prefix": "!5-filter-field",
+        "body": [
+            "<FilterField ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.mdc.FilterField"
+    },
+    "sap.ui.mdc.FilterField-properties": {
+        "prefix": "!5-filter-field-properties",
+        "body": [
+            "$1operators=\"\"",
+            "defaultOperator=\"\"",
+            "propertyKey=\"\"",
+            "additionalDataType=\"\"$2"
+        ],
+        "description": "sap.ui.mdc.FilterField with non-inherited properties"
+    },
+    "sap.ui.mdc.FilterField-aggregations": {
+        "prefix": "!5-filter-field-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.mdc.FilterField with non-inherited aggregations"
+    },
+    "sap.ui.mdc.FilterField-events": {
+        "prefix": "!5-filter-field-events",
+        "body": [
+            "$1change=\".on${3:Change}\"$2"
+        ],
+        "description": "sap.ui.mdc.FilterField with non-inherited events"
+    },
+    "sap.ui.mdc.FilterField-all": {
+        "prefix": "!5-filter-field-all",
+        "body": [
+            "$1operators=\"\"",
+            "defaultOperator=\"\"",
+            "propertyKey=\"\"",
+            "additionalDataType=\"\"",
+            "change=\".on${3:Change}\"$2"
+        ],
+        "description": "sap.ui.mdc.FilterField with non-inherited properties, aggregations and events"
+    }
+}

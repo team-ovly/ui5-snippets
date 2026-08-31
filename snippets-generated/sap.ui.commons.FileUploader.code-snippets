@@ -1,0 +1,39 @@
+{
+    "sap.ui.commons.FileUploader": {
+        "prefix": "!5-file-uploader",
+        "body": [
+            "<FileUploader ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.commons.FileUploader"
+    },
+    "sap.ui.commons.FileUploader-properties": {
+        "prefix": "!5-file-uploader-properties",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.commons.FileUploader with non-inherited properties"
+    },
+    "sap.ui.commons.FileUploader-aggregations": {
+        "prefix": "!5-file-uploader-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.commons.FileUploader with non-inherited aggregations"
+    },
+    "sap.ui.commons.FileUploader-events": {
+        "prefix": "!5-file-uploader-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.commons.FileUploader with non-inherited events"
+    },
+    "sap.ui.commons.FileUploader-all": {
+        "prefix": "!5-file-uploader-all",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.commons.FileUploader with non-inherited properties, aggregations and events"
+    }
+}

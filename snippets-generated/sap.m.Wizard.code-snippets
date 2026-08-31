@@ -1,0 +1,78 @@
+{
+    "sap.m.Wizard": {
+        "prefix": "!5-wizard",
+        "body": [
+            "<Wizard ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.Wizard"
+    },
+    "sap.m.Wizard-properties": {
+        "prefix": "!5-wizard-properties",
+        "body": [
+            "$1width=\"auto\"",
+            "height=\"100%\"",
+            "showNextButton=\"true\"",
+            "finishButtonText=\"Review\"",
+            "enableBranching=\"false\"",
+            "backgroundDesign=\"Standard\"",
+            "renderMode=\"Scroll\"",
+            "stepTitleLevel=\"H3\"$2"
+        ],
+        "description": "sap.m.Wizard with non-inherited properties"
+    },
+    "sap.m.Wizard-aggregations": {
+        "prefix": "!5-wizard-aggregations",
+        "body": [
+            "$1<steps>",
+            "\t<!-- <sap.m.WizardStep /> -->",
+            "</steps>",
+            "<_progressNavigator>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</_progressNavigator>",
+            "<_nextButton>",
+            "\t<!-- <sap.m.Button /> -->",
+            "</_nextButton>",
+            "$2"
+        ],
+        "description": "sap.m.Wizard with non-inherited aggregations"
+    },
+    "sap.m.Wizard-events": {
+        "prefix": "!5-wizard-events",
+        "body": [
+            "$1stepActivate=\".on${3:StepActivate}\"",
+            "navigationChange=\".on${4:NavigationChange}\"",
+            "complete=\".on${5:Complete}\"",
+            "currentStep=\".on${6:CurrentStep}\"$2"
+        ],
+        "description": "sap.m.Wizard with non-inherited events"
+    },
+    "sap.m.Wizard-all": {
+        "prefix": "!5-wizard-all",
+        "body": [
+            "$1width=\"auto\"",
+            "height=\"100%\"",
+            "showNextButton=\"true\"",
+            "finishButtonText=\"Review\"",
+            "enableBranching=\"false\"",
+            "backgroundDesign=\"Standard\"",
+            "renderMode=\"Scroll\"",
+            "stepTitleLevel=\"H3\"",
+            "<steps>",
+            "\t<!-- <sap.m.WizardStep /> -->",
+            "</steps>",
+            "<_progressNavigator>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</_progressNavigator>",
+            "<_nextButton>",
+            "\t<!-- <sap.m.Button /> -->",
+            "</_nextButton>",
+            "stepActivate=\".on${3:StepActivate}\"",
+            "navigationChange=\".on${4:NavigationChange}\"",
+            "complete=\".on${5:Complete}\"",
+            "currentStep=\".on${6:CurrentStep}\"$2"
+        ],
+        "description": "sap.m.Wizard with non-inherited properties, aggregations and events"
+    }
+}

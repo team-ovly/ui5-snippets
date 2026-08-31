@@ -1,0 +1,45 @@
+{
+    "sap.ui.layout.HorizontalLayout": {
+        "prefix": "!5-horizontal-layout",
+        "body": [
+            "<HorizontalLayout ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.layout.HorizontalLayout"
+    },
+    "sap.ui.layout.HorizontalLayout-properties": {
+        "prefix": "!5-horizontal-layout-properties",
+        "body": [
+            "$1allowWrapping=\"false\"$2"
+        ],
+        "description": "sap.ui.layout.HorizontalLayout with non-inherited properties"
+    },
+    "sap.ui.layout.HorizontalLayout-aggregations": {
+        "prefix": "!5-horizontal-layout-aggregations",
+        "body": [
+            "$1<content>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</content>",
+            "$2"
+        ],
+        "description": "sap.ui.layout.HorizontalLayout with non-inherited aggregations"
+    },
+    "sap.ui.layout.HorizontalLayout-events": {
+        "prefix": "!5-horizontal-layout-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.layout.HorizontalLayout with non-inherited events"
+    },
+    "sap.ui.layout.HorizontalLayout-all": {
+        "prefix": "!5-horizontal-layout-all",
+        "body": [
+            "$1allowWrapping=\"false\"",
+            "<content>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</content>$2"
+        ],
+        "description": "sap.ui.layout.HorizontalLayout with non-inherited properties, aggregations and events"
+    }
+}

@@ -1,0 +1,74 @@
+{
+    "sap.ui.webc.main.TreeItem": {
+        "prefix": "!5-tree-item",
+        "body": [
+            "<TreeItem ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.webc.main.TreeItem"
+    },
+    "sap.ui.webc.main.TreeItem-properties": {
+        "prefix": "!5-tree-item-properties",
+        "body": [
+            "$1accessibilityAttributes=\"[object Object]\"",
+            "accessibleName=\"\"",
+            "additionalText=\"\"",
+            "additionalTextState=\"None\"",
+            "expanded=\"false\"",
+            "hasChildren=\"false\"",
+            "icon=\"\"",
+            "indeterminate=\"false\"",
+            "navigated=\"\"",
+            "selected=\"false\"",
+            "text=\"\"",
+            "type=\"Active\"$2"
+        ],
+        "description": "sap.ui.webc.main.TreeItem with non-inherited properties"
+    },
+    "sap.ui.webc.main.TreeItem-aggregations": {
+        "prefix": "!5-tree-item-aggregations",
+        "body": [
+            "$1<deleteButton>",
+            "\t<!-- <sap.ui.webc.main.IButton /> -->",
+            "</deleteButton>",
+            "<items>",
+            "\t<!-- <sap.ui.webc.main.ITreeItem /> -->",
+            "</items>",
+            "$2"
+        ],
+        "description": "sap.ui.webc.main.TreeItem with non-inherited aggregations"
+    },
+    "sap.ui.webc.main.TreeItem-events": {
+        "prefix": "!5-tree-item-events",
+        "body": [
+            "$1detailClick=\".on${3:DetailClick}\"$2"
+        ],
+        "description": "sap.ui.webc.main.TreeItem with non-inherited events"
+    },
+    "sap.ui.webc.main.TreeItem-all": {
+        "prefix": "!5-tree-item-all",
+        "body": [
+            "$1accessibilityAttributes=\"[object Object]\"",
+            "accessibleName=\"\"",
+            "additionalText=\"\"",
+            "additionalTextState=\"None\"",
+            "expanded=\"false\"",
+            "hasChildren=\"false\"",
+            "icon=\"\"",
+            "indeterminate=\"false\"",
+            "navigated=\"\"",
+            "selected=\"false\"",
+            "text=\"\"",
+            "type=\"Active\"",
+            "<deleteButton>",
+            "\t<!-- <sap.ui.webc.main.IButton /> -->",
+            "</deleteButton>",
+            "<items>",
+            "\t<!-- <sap.ui.webc.main.ITreeItem /> -->",
+            "</items>",
+            "detailClick=\".on${3:DetailClick}\"$2"
+        ],
+        "description": "sap.ui.webc.main.TreeItem with non-inherited properties, aggregations and events"
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "sap.ui.mdc.actiontoolbar.ActionToolbarAction": {
+        "prefix": "!5-action-toolbar-action",
+        "body": [
+            "<ActionToolbarAction ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.mdc.actiontoolbar.ActionToolbarAction"
+    },
+    "sap.ui.mdc.actiontoolbar.ActionToolbarAction-properties": {
+        "prefix": "!5-action-toolbar-action-properties",
+        "body": [
+            "$1layoutInformation=\"...see text or source\"",
+            "label=\"\"$2"
+        ],
+        "description": "sap.ui.mdc.actiontoolbar.ActionToolbarAction with non-inherited properties"
+    },
+    "sap.ui.mdc.actiontoolbar.ActionToolbarAction-aggregations": {
+        "prefix": "!5-action-toolbar-action-aggregations",
+        "body": [
+            "$1<action>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</action>",
+            "$2"
+        ],
+        "description": "sap.ui.mdc.actiontoolbar.ActionToolbarAction with non-inherited aggregations"
+    },
+    "sap.ui.mdc.actiontoolbar.ActionToolbarAction-events": {
+        "prefix": "!5-action-toolbar-action-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.mdc.actiontoolbar.ActionToolbarAction with non-inherited events"
+    },
+    "sap.ui.mdc.actiontoolbar.ActionToolbarAction-all": {
+        "prefix": "!5-action-toolbar-action-all",
+        "body": [
+            "$1layoutInformation=\"...see text or source\"",
+            "label=\"\"",
+            "<action>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</action>$2"
+        ],
+        "description": "sap.ui.mdc.actiontoolbar.ActionToolbarAction with non-inherited properties, aggregations and events"
+    }
+}

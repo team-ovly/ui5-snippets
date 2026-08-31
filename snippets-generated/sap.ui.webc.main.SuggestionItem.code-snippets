@@ -1,0 +1,53 @@
+{
+    "sap.ui.webc.main.SuggestionItem": {
+        "prefix": "!5-suggestion-item",
+        "body": [
+            "<SuggestionItem ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.webc.main.SuggestionItem"
+    },
+    "sap.ui.webc.main.SuggestionItem-properties": {
+        "prefix": "!5-suggestion-item-properties",
+        "body": [
+            "$1additionalText=\"\"",
+            "additionalTextState=\"None\"",
+            "description=\"\"",
+            "icon=\"\"",
+            "iconEnd=\"false\"",
+            "image=\"\"",
+            "text=\"\"",
+            "type=\"Active\"$2"
+        ],
+        "description": "sap.ui.webc.main.SuggestionItem with non-inherited properties"
+    },
+    "sap.ui.webc.main.SuggestionItem-aggregations": {
+        "prefix": "!5-suggestion-item-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.webc.main.SuggestionItem with non-inherited aggregations"
+    },
+    "sap.ui.webc.main.SuggestionItem-events": {
+        "prefix": "!5-suggestion-item-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.webc.main.SuggestionItem with non-inherited events"
+    },
+    "sap.ui.webc.main.SuggestionItem-all": {
+        "prefix": "!5-suggestion-item-all",
+        "body": [
+            "$1additionalText=\"\"",
+            "additionalTextState=\"None\"",
+            "description=\"\"",
+            "icon=\"\"",
+            "iconEnd=\"false\"",
+            "image=\"\"",
+            "text=\"\"",
+            "type=\"Active\"$2"
+        ],
+        "description": "sap.ui.webc.main.SuggestionItem with non-inherited properties, aggregations and events"
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "sap.ui.commons.ColorPicker": {
+        "prefix": "!5-color-picker",
+        "body": [
+            "<ColorPicker ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.commons.ColorPicker"
+    },
+    "sap.ui.commons.ColorPicker-properties": {
+        "prefix": "!5-color-picker-properties",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.commons.ColorPicker with non-inherited properties"
+    },
+    "sap.ui.commons.ColorPicker-aggregations": {
+        "prefix": "!5-color-picker-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.commons.ColorPicker with non-inherited aggregations"
+    },
+    "sap.ui.commons.ColorPicker-events": {
+        "prefix": "!5-color-picker-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.commons.ColorPicker with non-inherited events"
+    },
+    "sap.ui.commons.ColorPicker-all": {
+        "prefix": "!5-color-picker-all",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.commons.ColorPicker with non-inherited properties, aggregations and events"
+    }
+}

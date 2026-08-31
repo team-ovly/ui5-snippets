@@ -1,0 +1,72 @@
+{
+    "sap.ui.unified.calendar.MonthsRow": {
+        "prefix": "!5-months-row",
+        "body": [
+            "<MonthsRow ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.unified.calendar.MonthsRow"
+    },
+    "sap.ui.unified.calendar.MonthsRow-properties": {
+        "prefix": "!5-months-row-properties",
+        "body": [
+            "$1date=\"\"",
+            "startDate=\"\"",
+            "months=\"12\"",
+            "intervalSelection=\"false\"",
+            "singleSelection=\"true\"",
+            "showHeader=\"false\"",
+            "primaryCalendarType=\"\"",
+            "secondaryCalendarType=\"\"$2"
+        ],
+        "description": "sap.ui.unified.calendar.MonthsRow with non-inherited properties"
+    },
+    "sap.ui.unified.calendar.MonthsRow-aggregations": {
+        "prefix": "!5-months-row-aggregations",
+        "body": [
+            "$1<selectedDates>",
+            "\t<!-- <sap.ui.unified.DateRange /> -->",
+            "</selectedDates>",
+            "<specialDates>",
+            "\t<!-- <sap.ui.unified.DateTypeRange /> -->",
+            "</specialDates>",
+            "$2"
+        ],
+        "description": "sap.ui.unified.calendar.MonthsRow with non-inherited aggregations"
+    },
+    "sap.ui.unified.calendar.MonthsRow-events": {
+        "prefix": "!5-months-row-events",
+        "body": [
+            "$1select=\".on${3:Select}\"",
+            "focus=\".on${4:Focus}\"",
+            "ariaLabelledBy=\".on${5:AriaLabelledBy}\"",
+            "legend=\".on${6:Legend}\"$2"
+        ],
+        "description": "sap.ui.unified.calendar.MonthsRow with non-inherited events"
+    },
+    "sap.ui.unified.calendar.MonthsRow-all": {
+        "prefix": "!5-months-row-all",
+        "body": [
+            "$1date=\"\"",
+            "startDate=\"\"",
+            "months=\"12\"",
+            "intervalSelection=\"false\"",
+            "singleSelection=\"true\"",
+            "showHeader=\"false\"",
+            "primaryCalendarType=\"\"",
+            "secondaryCalendarType=\"\"",
+            "<selectedDates>",
+            "\t<!-- <sap.ui.unified.DateRange /> -->",
+            "</selectedDates>",
+            "<specialDates>",
+            "\t<!-- <sap.ui.unified.DateTypeRange /> -->",
+            "</specialDates>",
+            "select=\".on${3:Select}\"",
+            "focus=\".on${4:Focus}\"",
+            "ariaLabelledBy=\".on${5:AriaLabelledBy}\"",
+            "legend=\".on${6:Legend}\"$2"
+        ],
+        "description": "sap.ui.unified.calendar.MonthsRow with non-inherited properties, aggregations and events"
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "sap.ui.integration.designtime.baseEditor.propertyEditor.booleanEditor.BooleanEditor": {
+        "prefix": "!5-boolean-editor",
+        "body": [
+            "<BooleanEditor ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.integration.designtime.baseEditor.propertyEditor.booleanEditor.BooleanEditor"
+    },
+    "sap.ui.integration.designtime.baseEditor.propertyEditor.booleanEditor.BooleanEditor-properties": {
+        "prefix": "!5-boolean-editor-properties",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.integration.designtime.baseEditor.propertyEditor.booleanEditor.BooleanEditor with non-inherited properties"
+    },
+    "sap.ui.integration.designtime.baseEditor.propertyEditor.booleanEditor.BooleanEditor-aggregations": {
+        "prefix": "!5-boolean-editor-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.integration.designtime.baseEditor.propertyEditor.booleanEditor.BooleanEditor with non-inherited aggregations"
+    },
+    "sap.ui.integration.designtime.baseEditor.propertyEditor.booleanEditor.BooleanEditor-events": {
+        "prefix": "!5-boolean-editor-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.integration.designtime.baseEditor.propertyEditor.booleanEditor.BooleanEditor with non-inherited events"
+    },
+    "sap.ui.integration.designtime.baseEditor.propertyEditor.booleanEditor.BooleanEditor-all": {
+        "prefix": "!5-boolean-editor-all",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.integration.designtime.baseEditor.propertyEditor.booleanEditor.BooleanEditor with non-inherited properties, aggregations and events"
+    }
+}

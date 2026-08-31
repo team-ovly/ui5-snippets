@@ -1,0 +1,58 @@
+{
+    "sap.ui.layout.Grid": {
+        "prefix": "!5-grid",
+        "body": [
+            "<Grid ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.layout.Grid"
+    },
+    "sap.ui.layout.Grid-properties": {
+        "prefix": "!5-grid-properties",
+        "body": [
+            "$1width=\"100%\"",
+            "vSpacing=\"1\"",
+            "hSpacing=\"1\"",
+            "position=\"Left\"",
+            "defaultSpan=\"XL3 L3 M6 S12\"",
+            "defaultIndent=\"XL0 L0 M0 S0\"",
+            "containerQuery=\"false\"$2"
+        ],
+        "description": "sap.ui.layout.Grid with non-inherited properties"
+    },
+    "sap.ui.layout.Grid-aggregations": {
+        "prefix": "!5-grid-aggregations",
+        "body": [
+            "$1<content>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</content>",
+            "$2"
+        ],
+        "description": "sap.ui.layout.Grid with non-inherited aggregations"
+    },
+    "sap.ui.layout.Grid-events": {
+        "prefix": "!5-grid-events",
+        "body": [
+            "$1ariaLabelledBy=\".on${3:AriaLabelledBy}\"$2"
+        ],
+        "description": "sap.ui.layout.Grid with non-inherited events"
+    },
+    "sap.ui.layout.Grid-all": {
+        "prefix": "!5-grid-all",
+        "body": [
+            "$1width=\"100%\"",
+            "vSpacing=\"1\"",
+            "hSpacing=\"1\"",
+            "position=\"Left\"",
+            "defaultSpan=\"XL3 L3 M6 S12\"",
+            "defaultIndent=\"XL0 L0 M0 S0\"",
+            "containerQuery=\"false\"",
+            "<content>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</content>",
+            "ariaLabelledBy=\".on${3:AriaLabelledBy}\"$2"
+        ],
+        "description": "sap.ui.layout.Grid with non-inherited properties, aggregations and events"
+    }
+}

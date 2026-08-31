@@ -1,0 +1,64 @@
+{
+    "sap.m.TimePickerSliders": {
+        "prefix": "!5-time-picker-sliders",
+        "body": [
+            "<TimePickerSliders ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.TimePickerSliders"
+    },
+    "sap.m.TimePickerSliders-properties": {
+        "prefix": "!5-time-picker-sliders-properties",
+        "body": [
+            "$1localeId=\"\"",
+            "displayFormat=\"\"",
+            "labelText=\"\"",
+            "minutesStep=\"1\"",
+            "secondsStep=\"1\"",
+            "width=\"\"",
+            "height=\"\"",
+            "value=\"\"",
+            "valueFormat=\"\"",
+            "support2400=\"false\"$2"
+        ],
+        "description": "sap.m.TimePickerSliders with non-inherited properties"
+    },
+    "sap.m.TimePickerSliders-aggregations": {
+        "prefix": "!5-time-picker-sliders-aggregations",
+        "body": [
+            "$1<_columns>",
+            "\t<!-- <sap.m.TimePickerSlider /> -->",
+            "</_columns>",
+            "$2"
+        ],
+        "description": "sap.m.TimePickerSliders with non-inherited aggregations"
+    },
+    "sap.m.TimePickerSliders-events": {
+        "prefix": "!5-time-picker-sliders-events",
+        "body": [
+            "$1change=\".on${3:Change}\"$2"
+        ],
+        "description": "sap.m.TimePickerSliders with non-inherited events"
+    },
+    "sap.m.TimePickerSliders-all": {
+        "prefix": "!5-time-picker-sliders-all",
+        "body": [
+            "$1localeId=\"\"",
+            "displayFormat=\"\"",
+            "labelText=\"\"",
+            "minutesStep=\"1\"",
+            "secondsStep=\"1\"",
+            "width=\"\"",
+            "height=\"\"",
+            "value=\"\"",
+            "valueFormat=\"\"",
+            "support2400=\"false\"",
+            "<_columns>",
+            "\t<!-- <sap.m.TimePickerSlider /> -->",
+            "</_columns>",
+            "change=\".on${3:Change}\"$2"
+        ],
+        "description": "sap.m.TimePickerSliders with non-inherited properties, aggregations and events"
+    }
+}

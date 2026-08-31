@@ -1,0 +1,39 @@
+{
+    "sap.tnt.ToolHeader": {
+        "prefix": "!5-tool-header",
+        "body": [
+            "<ToolHeader ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.tnt.ToolHeader"
+    },
+    "sap.tnt.ToolHeader-properties": {
+        "prefix": "!5-tool-header-properties",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.tnt.ToolHeader with non-inherited properties"
+    },
+    "sap.tnt.ToolHeader-aggregations": {
+        "prefix": "!5-tool-header-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.tnt.ToolHeader with non-inherited aggregations"
+    },
+    "sap.tnt.ToolHeader-events": {
+        "prefix": "!5-tool-header-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.tnt.ToolHeader with non-inherited events"
+    },
+    "sap.tnt.ToolHeader-all": {
+        "prefix": "!5-tool-header-all",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.tnt.ToolHeader with non-inherited properties, aggregations and events"
+    }
+}

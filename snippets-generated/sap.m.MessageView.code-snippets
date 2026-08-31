@@ -1,0 +1,74 @@
+{
+    "sap.m.MessageView": {
+        "prefix": "!5-message-view",
+        "body": [
+            "<MessageView ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.MessageView"
+    },
+    "sap.m.MessageView-properties": {
+        "prefix": "!5-message-view-properties",
+        "body": [
+            "$1asyncDescriptionHandler=\"\"",
+            "asyncURLHandler=\"\"",
+            "groupItems=\"false\"",
+            "showDetailsPageHeader=\"true\"$2"
+        ],
+        "description": "sap.m.MessageView with non-inherited properties"
+    },
+    "sap.m.MessageView-aggregations": {
+        "prefix": "!5-message-view-aggregations",
+        "body": [
+            "$1<items>",
+            "\t<!-- <sap.m.MessageItem /> -->",
+            "</items>",
+            "<headerButton>",
+            "\t<!-- <sap.m.Button /> -->",
+            "</headerButton>",
+            "<_navContainer>",
+            "\t<!-- <sap.m.NavContainer /> -->",
+            "</_navContainer>",
+            "$2"
+        ],
+        "description": "sap.m.MessageView with non-inherited aggregations"
+    },
+    "sap.m.MessageView-events": {
+        "prefix": "!5-message-view-events",
+        "body": [
+            "$1afterOpen=\".on${3:AfterOpen}\"",
+            "itemSelect=\".on${4:ItemSelect}\"",
+            "listSelect=\".on${5:ListSelect}\"",
+            "longtextLoaded=\".on${6:LongtextLoaded}\"",
+            "urlValidated=\".on${7:UrlValidated}\"",
+            "activeTitlePress=\".on${8:ActiveTitlePress}\"$2"
+        ],
+        "description": "sap.m.MessageView with non-inherited events"
+    },
+    "sap.m.MessageView-all": {
+        "prefix": "!5-message-view-all",
+        "body": [
+            "$1asyncDescriptionHandler=\"\"",
+            "asyncURLHandler=\"\"",
+            "groupItems=\"false\"",
+            "showDetailsPageHeader=\"true\"",
+            "<items>",
+            "\t<!-- <sap.m.MessageItem /> -->",
+            "</items>",
+            "<headerButton>",
+            "\t<!-- <sap.m.Button /> -->",
+            "</headerButton>",
+            "<_navContainer>",
+            "\t<!-- <sap.m.NavContainer /> -->",
+            "</_navContainer>",
+            "afterOpen=\".on${3:AfterOpen}\"",
+            "itemSelect=\".on${4:ItemSelect}\"",
+            "listSelect=\".on${5:ListSelect}\"",
+            "longtextLoaded=\".on${6:LongtextLoaded}\"",
+            "urlValidated=\".on${7:UrlValidated}\"",
+            "activeTitlePress=\".on${8:ActiveTitlePress}\"$2"
+        ],
+        "description": "sap.m.MessageView with non-inherited properties, aggregations and events"
+    }
+}

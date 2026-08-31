@@ -1,0 +1,41 @@
+{
+    "sap.ui.webc.fiori.FilterItemOption": {
+        "prefix": "!5-filter-item-option",
+        "body": [
+            "<FilterItemOption ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.webc.fiori.FilterItemOption"
+    },
+    "sap.ui.webc.fiori.FilterItemOption-properties": {
+        "prefix": "!5-filter-item-option-properties",
+        "body": [
+            "$1selected=\"false\"",
+            "text=\"\"$2"
+        ],
+        "description": "sap.ui.webc.fiori.FilterItemOption with non-inherited properties"
+    },
+    "sap.ui.webc.fiori.FilterItemOption-aggregations": {
+        "prefix": "!5-filter-item-option-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.webc.fiori.FilterItemOption with non-inherited aggregations"
+    },
+    "sap.ui.webc.fiori.FilterItemOption-events": {
+        "prefix": "!5-filter-item-option-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.webc.fiori.FilterItemOption with non-inherited events"
+    },
+    "sap.ui.webc.fiori.FilterItemOption-all": {
+        "prefix": "!5-filter-item-option-all",
+        "body": [
+            "$1selected=\"false\"",
+            "text=\"\"$2"
+        ],
+        "description": "sap.ui.webc.fiori.FilterItemOption with non-inherited properties, aggregations and events"
+    }
+}

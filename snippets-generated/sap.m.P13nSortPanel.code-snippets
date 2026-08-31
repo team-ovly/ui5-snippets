@@ -1,0 +1,58 @@
+{
+    "sap.m.P13nSortPanel": {
+        "prefix": "!5-p13n-sort-panel",
+        "body": [
+            "<P13nSortPanel ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.P13nSortPanel"
+    },
+    "sap.m.P13nSortPanel-properties": {
+        "prefix": "!5-p13n-sort-panel-properties",
+        "body": [
+            "$1containerQuery=\"false\"",
+            "layoutMode=\"\"$2"
+        ],
+        "description": "sap.m.P13nSortPanel with non-inherited properties"
+    },
+    "sap.m.P13nSortPanel-aggregations": {
+        "prefix": "!5-p13n-sort-panel-aggregations",
+        "body": [
+            "$1<content>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</content>",
+            "<sortItems>",
+            "\t<!-- <sap.m.P13nSortItem /> -->",
+            "</sortItems>",
+            "$2"
+        ],
+        "description": "sap.m.P13nSortPanel with non-inherited aggregations"
+    },
+    "sap.m.P13nSortPanel-events": {
+        "prefix": "!5-p13n-sort-panel-events",
+        "body": [
+            "$1addSortItem=\".on${3:AddSortItem}\"",
+            "removeSortItem=\".on${4:RemoveSortItem}\"",
+            "updateSortItem=\".on${5:UpdateSortItem}\"$2"
+        ],
+        "description": "sap.m.P13nSortPanel with non-inherited events"
+    },
+    "sap.m.P13nSortPanel-all": {
+        "prefix": "!5-p13n-sort-panel-all",
+        "body": [
+            "$1containerQuery=\"false\"",
+            "layoutMode=\"\"",
+            "<content>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</content>",
+            "<sortItems>",
+            "\t<!-- <sap.m.P13nSortItem /> -->",
+            "</sortItems>",
+            "addSortItem=\".on${3:AddSortItem}\"",
+            "removeSortItem=\".on${4:RemoveSortItem}\"",
+            "updateSortItem=\".on${5:UpdateSortItem}\"$2"
+        ],
+        "description": "sap.m.P13nSortPanel with non-inherited properties, aggregations and events"
+    }
+}

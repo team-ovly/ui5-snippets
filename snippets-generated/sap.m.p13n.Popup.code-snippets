@@ -1,0 +1,58 @@
+{
+    "sap.m.p13n.Popup": {
+        "prefix": "!5-popup",
+        "body": [
+            "<Popup ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.p13n.Popup"
+    },
+    "sap.m.p13n.Popup-properties": {
+        "prefix": "!5-popup-properties",
+        "body": [
+            "$1title=\"\"",
+            "mode=\"Dialog\"",
+            "warningText=\"\"",
+            "reset=\"\"$2"
+        ],
+        "description": "sap.m.p13n.Popup with non-inherited properties"
+    },
+    "sap.m.p13n.Popup-aggregations": {
+        "prefix": "!5-popup-aggregations",
+        "body": [
+            "$1<panels>",
+            "\t<!-- <sap.m.p13n.IContent /> -->",
+            "</panels>",
+            "<additionalButtons>",
+            "\t<!-- <sap.m.Button /> -->",
+            "</additionalButtons>",
+            "$2"
+        ],
+        "description": "sap.m.p13n.Popup with non-inherited aggregations"
+    },
+    "sap.m.p13n.Popup-events": {
+        "prefix": "!5-popup-events",
+        "body": [
+            "$1close=\".on${3:Close}\"$2"
+        ],
+        "description": "sap.m.p13n.Popup with non-inherited events"
+    },
+    "sap.m.p13n.Popup-all": {
+        "prefix": "!5-popup-all",
+        "body": [
+            "$1title=\"\"",
+            "mode=\"Dialog\"",
+            "warningText=\"\"",
+            "reset=\"\"",
+            "<panels>",
+            "\t<!-- <sap.m.p13n.IContent /> -->",
+            "</panels>",
+            "<additionalButtons>",
+            "\t<!-- <sap.m.Button /> -->",
+            "</additionalButtons>",
+            "close=\".on${3:Close}\"$2"
+        ],
+        "description": "sap.m.p13n.Popup with non-inherited properties, aggregations and events"
+    }
+}

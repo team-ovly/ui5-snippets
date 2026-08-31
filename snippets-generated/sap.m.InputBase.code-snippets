@@ -1,0 +1,90 @@
+{
+    "sap.m.InputBase": {
+        "prefix": "!5-input-base",
+        "body": [
+            "<InputBase ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.InputBase"
+    },
+    "sap.m.InputBase-properties": {
+        "prefix": "!5-input-base-properties",
+        "body": [
+            "$1value=\"\"",
+            "width=\"\"",
+            "enabled=\"true\"",
+            "valueState=\"None\"",
+            "name=\"\"",
+            "placeholder=\"\"",
+            "editable=\"true\"",
+            "valueStateText=\"\"",
+            "showValueStateMessage=\"true\"",
+            "textAlign=\"Initial\"",
+            "textDirection=\"Inherit\"",
+            "required=\"false\"$2"
+        ],
+        "description": "sap.m.InputBase with non-inherited properties"
+    },
+    "sap.m.InputBase-aggregations": {
+        "prefix": "!5-input-base-aggregations",
+        "body": [
+            "$1<formattedValueStateText>",
+            "\t<!-- <sap.m.FormattedText /> -->",
+            "</formattedValueStateText>",
+            "<_invisibleFormattedValueStateText>",
+            "\t<!-- <sap.m.FormattedText /> -->",
+            "</_invisibleFormattedValueStateText>",
+            "<_endIcon>",
+            "\t<!-- <sap.ui.core.Icon /> -->",
+            "</_endIcon>",
+            "<_beginIcon>",
+            "\t<!-- <sap.ui.core.Icon /> -->",
+            "</_beginIcon>",
+            "$2"
+        ],
+        "description": "sap.m.InputBase with non-inherited aggregations"
+    },
+    "sap.m.InputBase-events": {
+        "prefix": "!5-input-base-events",
+        "body": [
+            "$1change=\".on${3:Change}\"",
+            "ariaLabelledBy=\".on${4:AriaLabelledBy}\"",
+            "ariaDescribedBy=\".on${5:AriaDescribedBy}\"$2"
+        ],
+        "description": "sap.m.InputBase with non-inherited events"
+    },
+    "sap.m.InputBase-all": {
+        "prefix": "!5-input-base-all",
+        "body": [
+            "$1value=\"\"",
+            "width=\"\"",
+            "enabled=\"true\"",
+            "valueState=\"None\"",
+            "name=\"\"",
+            "placeholder=\"\"",
+            "editable=\"true\"",
+            "valueStateText=\"\"",
+            "showValueStateMessage=\"true\"",
+            "textAlign=\"Initial\"",
+            "textDirection=\"Inherit\"",
+            "required=\"false\"",
+            "<formattedValueStateText>",
+            "\t<!-- <sap.m.FormattedText /> -->",
+            "</formattedValueStateText>",
+            "<_invisibleFormattedValueStateText>",
+            "\t<!-- <sap.m.FormattedText /> -->",
+            "</_invisibleFormattedValueStateText>",
+            "<_endIcon>",
+            "\t<!-- <sap.ui.core.Icon /> -->",
+            "</_endIcon>",
+            "<_beginIcon>",
+            "\t<!-- <sap.ui.core.Icon /> -->",
+            "</_beginIcon>",
+            "change=\".on${3:Change}\"",
+            "ariaLabelledBy=\".on${4:AriaLabelledBy}\"",
+            "ariaDescribedBy=\".on${5:AriaDescribedBy}\"$2"
+        ],
+        "description": "sap.m.InputBase with non-inherited properties, aggregations and events"
+    }
+}

@@ -1,0 +1,76 @@
+{
+    "sap.m.FeedInput": {
+        "prefix": "!5-feed-input",
+        "body": [
+            "<FeedInput ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.FeedInput"
+    },
+    "sap.m.FeedInput-properties": {
+        "prefix": "!5-feed-input-properties",
+        "body": [
+            "$1enabled=\"true\"",
+            "rows=\"2\"",
+            "showExceededText=\"false\"",
+            "maxLength=\"0\"",
+            "growing=\"false\"",
+            "growingMaxLines=\"0\"",
+            "placeholder=\"Post something here\"",
+            "value=\"\"",
+            "icon=\"\"",
+            "iconDisplayShape=\"Circle\"",
+            "iconInitials=\"\"",
+            "iconSize=\"M\"",
+            "showIcon=\"true\"",
+            "iconDensityAware=\"true\"",
+            "buttonTooltip=\"Submit\"",
+            "ariaLabelForPicture=\"\"$2"
+        ],
+        "description": "sap.m.FeedInput with non-inherited properties"
+    },
+    "sap.m.FeedInput-aggregations": {
+        "prefix": "!5-feed-input-aggregations",
+        "body": [
+            "$1<_avatar>",
+            "\t<!-- <sap.m.Avatar /> -->",
+            "</_avatar>",
+            "$2"
+        ],
+        "description": "sap.m.FeedInput with non-inherited aggregations"
+    },
+    "sap.m.FeedInput-events": {
+        "prefix": "!5-feed-input-events",
+        "body": [
+            "$1post=\".on${3:Post}\"$2"
+        ],
+        "description": "sap.m.FeedInput with non-inherited events"
+    },
+    "sap.m.FeedInput-all": {
+        "prefix": "!5-feed-input-all",
+        "body": [
+            "$1enabled=\"true\"",
+            "rows=\"2\"",
+            "showExceededText=\"false\"",
+            "maxLength=\"0\"",
+            "growing=\"false\"",
+            "growingMaxLines=\"0\"",
+            "placeholder=\"Post something here\"",
+            "value=\"\"",
+            "icon=\"\"",
+            "iconDisplayShape=\"Circle\"",
+            "iconInitials=\"\"",
+            "iconSize=\"M\"",
+            "showIcon=\"true\"",
+            "iconDensityAware=\"true\"",
+            "buttonTooltip=\"Submit\"",
+            "ariaLabelForPicture=\"\"",
+            "<_avatar>",
+            "\t<!-- <sap.m.Avatar /> -->",
+            "</_avatar>",
+            "post=\".on${3:Post}\"$2"
+        ],
+        "description": "sap.m.FeedInput with non-inherited properties, aggregations and events"
+    }
+}

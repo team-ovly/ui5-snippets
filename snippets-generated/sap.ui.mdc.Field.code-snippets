@@ -1,0 +1,42 @@
+{
+    "sap.ui.mdc.Field": {
+        "prefix": "!5-field",
+        "body": [
+            "<Field ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.mdc.Field"
+    },
+    "sap.ui.mdc.Field-properties": {
+        "prefix": "!5-field-properties",
+        "body": [
+            "$1value=\"\"",
+            "additionalValue=\"\"$2"
+        ],
+        "description": "sap.ui.mdc.Field with non-inherited properties"
+    },
+    "sap.ui.mdc.Field-aggregations": {
+        "prefix": "!5-field-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.mdc.Field with non-inherited aggregations"
+    },
+    "sap.ui.mdc.Field-events": {
+        "prefix": "!5-field-events",
+        "body": [
+            "$1change=\".on${3:Change}\"$2"
+        ],
+        "description": "sap.ui.mdc.Field with non-inherited events"
+    },
+    "sap.ui.mdc.Field-all": {
+        "prefix": "!5-field-all",
+        "body": [
+            "$1value=\"\"",
+            "additionalValue=\"\"",
+            "change=\".on${3:Change}\"$2"
+        ],
+        "description": "sap.ui.mdc.Field with non-inherited properties, aggregations and events"
+    }
+}

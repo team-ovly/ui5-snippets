@@ -1,0 +1,51 @@
+{
+    "sap.ui.commons.layout.AbsoluteLayout": {
+        "prefix": "!5-absolute-layout",
+        "body": [
+            "<AbsoluteLayout ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.commons.layout.AbsoluteLayout"
+    },
+    "sap.ui.commons.layout.AbsoluteLayout-properties": {
+        "prefix": "!5-absolute-layout-properties",
+        "body": [
+            "$1width=\"100%\"",
+            "height=\"100%\"",
+            "verticalScrolling=\"Hidden\"",
+            "horizontalScrolling=\"Hidden\"$2"
+        ],
+        "description": "sap.ui.commons.layout.AbsoluteLayout with non-inherited properties"
+    },
+    "sap.ui.commons.layout.AbsoluteLayout-aggregations": {
+        "prefix": "!5-absolute-layout-aggregations",
+        "body": [
+            "$1<positions>",
+            "\t<!-- <sap.ui.commons.layout.PositionContainer /> -->",
+            "</positions>",
+            "$2"
+        ],
+        "description": "sap.ui.commons.layout.AbsoluteLayout with non-inherited aggregations"
+    },
+    "sap.ui.commons.layout.AbsoluteLayout-events": {
+        "prefix": "!5-absolute-layout-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.commons.layout.AbsoluteLayout with non-inherited events"
+    },
+    "sap.ui.commons.layout.AbsoluteLayout-all": {
+        "prefix": "!5-absolute-layout-all",
+        "body": [
+            "$1width=\"100%\"",
+            "height=\"100%\"",
+            "verticalScrolling=\"Hidden\"",
+            "horizontalScrolling=\"Hidden\"",
+            "<positions>",
+            "\t<!-- <sap.ui.commons.layout.PositionContainer /> -->",
+            "</positions>$2"
+        ],
+        "description": "sap.ui.commons.layout.AbsoluteLayout with non-inherited properties, aggregations and events"
+    }
+}

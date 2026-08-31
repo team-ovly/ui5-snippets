@@ -1,0 +1,74 @@
+{
+    "sap.ui.webc.main.StandardListItem": {
+        "prefix": "!5-standard-list-item",
+        "body": [
+            "<StandardListItem ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.webc.main.StandardListItem"
+    },
+    "sap.ui.webc.main.StandardListItem-properties": {
+        "prefix": "!5-standard-list-item-properties",
+        "body": [
+            "$1accessibilityAttributes=\"[object Object]\"",
+            "accessibleName=\"\"",
+            "additionalText=\"\"",
+            "additionalTextState=\"None\"",
+            "description=\"\"",
+            "icon=\"\"",
+            "iconEnd=\"false\"",
+            "image=\"\"",
+            "navigated=\"\"",
+            "selected=\"false\"",
+            "text=\"\"",
+            "type=\"Active\"$2"
+        ],
+        "description": "sap.ui.webc.main.StandardListItem with non-inherited properties"
+    },
+    "sap.ui.webc.main.StandardListItem-aggregations": {
+        "prefix": "!5-standard-list-item-aggregations",
+        "body": [
+            "$1<deleteButton>",
+            "\t<!-- <sap.ui.webc.main.IButton /> -->",
+            "</deleteButton>",
+            "<imageContent>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</imageContent>",
+            "$2"
+        ],
+        "description": "sap.ui.webc.main.StandardListItem with non-inherited aggregations"
+    },
+    "sap.ui.webc.main.StandardListItem-events": {
+        "prefix": "!5-standard-list-item-events",
+        "body": [
+            "$1detailClick=\".on${3:DetailClick}\"$2"
+        ],
+        "description": "sap.ui.webc.main.StandardListItem with non-inherited events"
+    },
+    "sap.ui.webc.main.StandardListItem-all": {
+        "prefix": "!5-standard-list-item-all",
+        "body": [
+            "$1accessibilityAttributes=\"[object Object]\"",
+            "accessibleName=\"\"",
+            "additionalText=\"\"",
+            "additionalTextState=\"None\"",
+            "description=\"\"",
+            "icon=\"\"",
+            "iconEnd=\"false\"",
+            "image=\"\"",
+            "navigated=\"\"",
+            "selected=\"false\"",
+            "text=\"\"",
+            "type=\"Active\"",
+            "<deleteButton>",
+            "\t<!-- <sap.ui.webc.main.IButton /> -->",
+            "</deleteButton>",
+            "<imageContent>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</imageContent>",
+            "detailClick=\".on${3:DetailClick}\"$2"
+        ],
+        "description": "sap.ui.webc.main.StandardListItem with non-inherited properties, aggregations and events"
+    }
+}

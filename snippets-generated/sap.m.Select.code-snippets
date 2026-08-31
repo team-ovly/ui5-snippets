@@ -1,0 +1,116 @@
+{
+    "sap.m.Select": {
+        "prefix": "!5-select",
+        "body": [
+            "<Select ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.Select"
+    },
+    "sap.m.Select-properties": {
+        "prefix": "!5-select-properties",
+        "body": [
+            "$1name=\"\"",
+            "enabled=\"true\"",
+            "editable=\"true\"",
+            "width=\"auto\"",
+            "maxWidth=\"100%\"",
+            "selectedKey=\"\"",
+            "selectedItemId=\"\"",
+            "icon=\"\"",
+            "type=\"Default\"",
+            "autoAdjustWidth=\"false\"",
+            "textAlign=\"Initial\"",
+            "textDirection=\"Inherit\"",
+            "valueState=\"None\"",
+            "valueStateText=\"\"",
+            "showSecondaryValues=\"false\"",
+            "resetOnMissingKey=\"false\"",
+            "forceSelection=\"true\"",
+            "wrapItemsText=\"false\"",
+            "columnRatio=\"3:2\"",
+            "required=\"false\"$2"
+        ],
+        "description": "sap.m.Select with non-inherited properties"
+    },
+    "sap.m.Select-aggregations": {
+        "prefix": "!5-select-aggregations",
+        "body": [
+            "$1<items>",
+            "\t<!-- <sap.ui.core.Item /> -->",
+            "</items>",
+            "<picker>",
+            "\t<!-- <sap.ui.core.PopupInterface /> -->",
+            "</picker>",
+            "<_valueIcon>",
+            "\t<!-- <sap.ui.core.Icon /> -->",
+            "</_valueIcon>",
+            "<_pickerHeader>",
+            "\t<!-- <sap.m.Bar /> -->",
+            "</_pickerHeader>",
+            "<_pickerValueStateContent>",
+            "\t<!-- <sap.m.Text /> -->",
+            "</_pickerValueStateContent>",
+            "$2"
+        ],
+        "description": "sap.m.Select with non-inherited aggregations"
+    },
+    "sap.m.Select-events": {
+        "prefix": "!5-select-events",
+        "body": [
+            "$1change=\".on${3:Change}\"",
+            "liveChange=\".on${4:LiveChange}\"",
+            "beforeOpen=\".on${5:BeforeOpen}\"",
+            "selectedItem=\".on${6:SelectedItem}\"",
+            "ariaLabelledBy=\".on${7:AriaLabelledBy}\"$2"
+        ],
+        "description": "sap.m.Select with non-inherited events"
+    },
+    "sap.m.Select-all": {
+        "prefix": "!5-select-all",
+        "body": [
+            "$1name=\"\"",
+            "enabled=\"true\"",
+            "editable=\"true\"",
+            "width=\"auto\"",
+            "maxWidth=\"100%\"",
+            "selectedKey=\"\"",
+            "selectedItemId=\"\"",
+            "icon=\"\"",
+            "type=\"Default\"",
+            "autoAdjustWidth=\"false\"",
+            "textAlign=\"Initial\"",
+            "textDirection=\"Inherit\"",
+            "valueState=\"None\"",
+            "valueStateText=\"\"",
+            "showSecondaryValues=\"false\"",
+            "resetOnMissingKey=\"false\"",
+            "forceSelection=\"true\"",
+            "wrapItemsText=\"false\"",
+            "columnRatio=\"3:2\"",
+            "required=\"false\"",
+            "<items>",
+            "\t<!-- <sap.ui.core.Item /> -->",
+            "</items>",
+            "<picker>",
+            "\t<!-- <sap.ui.core.PopupInterface /> -->",
+            "</picker>",
+            "<_valueIcon>",
+            "\t<!-- <sap.ui.core.Icon /> -->",
+            "</_valueIcon>",
+            "<_pickerHeader>",
+            "\t<!-- <sap.m.Bar /> -->",
+            "</_pickerHeader>",
+            "<_pickerValueStateContent>",
+            "\t<!-- <sap.m.Text /> -->",
+            "</_pickerValueStateContent>",
+            "change=\".on${3:Change}\"",
+            "liveChange=\".on${4:LiveChange}\"",
+            "beforeOpen=\".on${5:BeforeOpen}\"",
+            "selectedItem=\".on${6:SelectedItem}\"",
+            "ariaLabelledBy=\".on${7:AriaLabelledBy}\"$2"
+        ],
+        "description": "sap.m.Select with non-inherited properties, aggregations and events"
+    }
+}

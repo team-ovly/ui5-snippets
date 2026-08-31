@@ -1,0 +1,39 @@
+{
+    "sap.ui.mdc.filterbar.vh.CollectiveSearchSelect": {
+        "prefix": "!5-collective-search-select",
+        "body": [
+            "<CollectiveSearchSelect ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.mdc.filterbar.vh.CollectiveSearchSelect"
+    },
+    "sap.ui.mdc.filterbar.vh.CollectiveSearchSelect-properties": {
+        "prefix": "!5-collective-search-select-properties",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.mdc.filterbar.vh.CollectiveSearchSelect with non-inherited properties"
+    },
+    "sap.ui.mdc.filterbar.vh.CollectiveSearchSelect-aggregations": {
+        "prefix": "!5-collective-search-select-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.mdc.filterbar.vh.CollectiveSearchSelect with non-inherited aggregations"
+    },
+    "sap.ui.mdc.filterbar.vh.CollectiveSearchSelect-events": {
+        "prefix": "!5-collective-search-select-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.mdc.filterbar.vh.CollectiveSearchSelect with non-inherited events"
+    },
+    "sap.ui.mdc.filterbar.vh.CollectiveSearchSelect-all": {
+        "prefix": "!5-collective-search-select-all",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.mdc.filterbar.vh.CollectiveSearchSelect with non-inherited properties, aggregations and events"
+    }
+}

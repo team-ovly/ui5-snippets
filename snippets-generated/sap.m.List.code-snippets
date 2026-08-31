@@ -1,0 +1,39 @@
+{
+    "sap.m.List": {
+        "prefix": "!5-list",
+        "body": [
+            "<List ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.List"
+    },
+    "sap.m.List-properties": {
+        "prefix": "!5-list-properties",
+        "body": [
+            "$1backgroundDesign=\"Solid\"$2"
+        ],
+        "description": "sap.m.List with non-inherited properties"
+    },
+    "sap.m.List-aggregations": {
+        "prefix": "!5-list-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.m.List with non-inherited aggregations"
+    },
+    "sap.m.List-events": {
+        "prefix": "!5-list-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.m.List with non-inherited events"
+    },
+    "sap.m.List-all": {
+        "prefix": "!5-list-all",
+        "body": [
+            "$1backgroundDesign=\"Solid\"$2"
+        ],
+        "description": "sap.m.List with non-inherited properties, aggregations and events"
+    }
+}

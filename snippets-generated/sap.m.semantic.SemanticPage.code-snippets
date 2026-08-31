@@ -1,0 +1,92 @@
+{
+    "sap.m.semantic.SemanticPage": {
+        "prefix": "!5-semantic-page",
+        "body": [
+            "<SemanticPage ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.semantic.SemanticPage"
+    },
+    "sap.m.semantic.SemanticPage-properties": {
+        "prefix": "!5-semantic-page-properties",
+        "body": [
+            "$1title=\"\"",
+            "titleLevel=\"Auto\"",
+            "showNavButton=\"false\"",
+            "showSubHeader=\"true\"",
+            "enableScrolling=\"true\"",
+            "showFooter=\"true\"",
+            "floatingFooter=\"false\"",
+            "semanticRuleSet=\"Classic\"",
+            "backgroundDesign=\"Standard\"$2"
+        ],
+        "description": "sap.m.semantic.SemanticPage with non-inherited properties"
+    },
+    "sap.m.semantic.SemanticPage-aggregations": {
+        "prefix": "!5-semantic-page-aggregations",
+        "body": [
+            "$1<subHeader>",
+            "\t<!-- <sap.m.IBar /> -->",
+            "</subHeader>",
+            "<content>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</content>",
+            "<customHeaderContent>",
+            "\t<!-- <sap.m.Button /> -->",
+            "</customHeaderContent>",
+            "<customFooterContent>",
+            "\t<!-- <sap.m.Button /> -->",
+            "</customFooterContent>",
+            "<landmarkInfo>",
+            "\t<!-- <sap.m.PageAccessibleLandmarkInfo /> -->",
+            "</landmarkInfo>",
+            "<_page>",
+            "\t<!-- <sap.m.Page /> -->",
+            "</_page>",
+            "$2"
+        ],
+        "description": "sap.m.semantic.SemanticPage with non-inherited aggregations"
+    },
+    "sap.m.semantic.SemanticPage-events": {
+        "prefix": "!5-semantic-page-events",
+        "body": [
+            "$1navButtonPress=\".on${3:NavButtonPress}\"$2"
+        ],
+        "description": "sap.m.semantic.SemanticPage with non-inherited events"
+    },
+    "sap.m.semantic.SemanticPage-all": {
+        "prefix": "!5-semantic-page-all",
+        "body": [
+            "$1title=\"\"",
+            "titleLevel=\"Auto\"",
+            "showNavButton=\"false\"",
+            "showSubHeader=\"true\"",
+            "enableScrolling=\"true\"",
+            "showFooter=\"true\"",
+            "floatingFooter=\"false\"",
+            "semanticRuleSet=\"Classic\"",
+            "backgroundDesign=\"Standard\"",
+            "<subHeader>",
+            "\t<!-- <sap.m.IBar /> -->",
+            "</subHeader>",
+            "<content>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</content>",
+            "<customHeaderContent>",
+            "\t<!-- <sap.m.Button /> -->",
+            "</customHeaderContent>",
+            "<customFooterContent>",
+            "\t<!-- <sap.m.Button /> -->",
+            "</customFooterContent>",
+            "<landmarkInfo>",
+            "\t<!-- <sap.m.PageAccessibleLandmarkInfo /> -->",
+            "</landmarkInfo>",
+            "<_page>",
+            "\t<!-- <sap.m.Page /> -->",
+            "</_page>",
+            "navButtonPress=\".on${3:NavButtonPress}\"$2"
+        ],
+        "description": "sap.m.semantic.SemanticPage with non-inherited properties, aggregations and events"
+    }
+}

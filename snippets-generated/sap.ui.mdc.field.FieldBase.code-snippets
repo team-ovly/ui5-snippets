@@ -1,0 +1,120 @@
+{
+    "sap.ui.mdc.field.FieldBase": {
+        "prefix": "!5-field-base",
+        "body": [
+            "<FieldBase ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.mdc.field.FieldBase"
+    },
+    "sap.ui.mdc.field.FieldBase-properties": {
+        "prefix": "!5-field-base-properties",
+        "body": [
+            "$1dataType=\"sap.ui.model.type.String\"",
+            "dataTypeConstraints=\"\"",
+            "dataTypeFormatOptions=\"\"",
+            "editMode=\"Editable\"",
+            "required=\"false\"",
+            "display=\"Value\"",
+            "textAlign=\"Initial\"",
+            "textDirection=\"Inherit\"",
+            "placeholder=\"\"",
+            "valueState=\"None\"",
+            "valueStateText=\"\"",
+            "width=\"\"",
+            "multipleLines=\"false\"",
+            "maxConditions=\"-1\"",
+            "conditions=\"\"",
+            "label=\"\"",
+            "delegate=\"...see text or source\"",
+            "showEmptyIndicator=\"false\"",
+            "_valueHelpEnabled=\"false\"",
+            "_ariaAttributes=\"[object Object]\"",
+            "_operators=\"\"$2"
+        ],
+        "description": "sap.ui.mdc.field.FieldBase with non-inherited properties"
+    },
+    "sap.ui.mdc.field.FieldBase-aggregations": {
+        "prefix": "!5-field-base-aggregations",
+        "body": [
+            "$1<content>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</content>",
+            "<contentEdit>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</contentEdit>",
+            "<contentDisplay>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</contentDisplay>",
+            "<_content>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</_content>",
+            "<fieldInfo>",
+            "\t<!-- <sap.ui.mdc.field.FieldInfoBase /> -->",
+            "</fieldInfo>",
+            "$2"
+        ],
+        "description": "sap.ui.mdc.field.FieldBase with non-inherited aggregations"
+    },
+    "sap.ui.mdc.field.FieldBase-events": {
+        "prefix": "!5-field-base-events",
+        "body": [
+            "$1liveChange=\".on${3:LiveChange}\"",
+            "press=\".on${4:Press}\"",
+            "submit=\".on${5:Submit}\"",
+            "fieldHelp=\".on${6:FieldHelp}\"",
+            "valueHelp=\".on${7:ValueHelp}\"",
+            "ariaLabelledBy=\".on${8:AriaLabelledBy}\"$2"
+        ],
+        "description": "sap.ui.mdc.field.FieldBase with non-inherited events"
+    },
+    "sap.ui.mdc.field.FieldBase-all": {
+        "prefix": "!5-field-base-all",
+        "body": [
+            "$1dataType=\"sap.ui.model.type.String\"",
+            "dataTypeConstraints=\"\"",
+            "dataTypeFormatOptions=\"\"",
+            "editMode=\"Editable\"",
+            "required=\"false\"",
+            "display=\"Value\"",
+            "textAlign=\"Initial\"",
+            "textDirection=\"Inherit\"",
+            "placeholder=\"\"",
+            "valueState=\"None\"",
+            "valueStateText=\"\"",
+            "width=\"\"",
+            "multipleLines=\"false\"",
+            "maxConditions=\"-1\"",
+            "conditions=\"\"",
+            "label=\"\"",
+            "delegate=\"...see text or source\"",
+            "showEmptyIndicator=\"false\"",
+            "_valueHelpEnabled=\"false\"",
+            "_ariaAttributes=\"[object Object]\"",
+            "_operators=\"\"",
+            "<content>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</content>",
+            "<contentEdit>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</contentEdit>",
+            "<contentDisplay>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</contentDisplay>",
+            "<_content>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</_content>",
+            "<fieldInfo>",
+            "\t<!-- <sap.ui.mdc.field.FieldInfoBase /> -->",
+            "</fieldInfo>",
+            "liveChange=\".on${3:LiveChange}\"",
+            "press=\".on${4:Press}\"",
+            "submit=\".on${5:Submit}\"",
+            "fieldHelp=\".on${6:FieldHelp}\"",
+            "valueHelp=\".on${7:ValueHelp}\"",
+            "ariaLabelledBy=\".on${8:AriaLabelledBy}\"$2"
+        ],
+        "description": "sap.ui.mdc.field.FieldBase with non-inherited properties, aggregations and events"
+    }
+}

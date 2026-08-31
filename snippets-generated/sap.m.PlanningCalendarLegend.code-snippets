@@ -1,0 +1,47 @@
+{
+    "sap.m.PlanningCalendarLegend": {
+        "prefix": "!5-planning-calendar-legend",
+        "body": [
+            "<PlanningCalendarLegend ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.PlanningCalendarLegend"
+    },
+    "sap.m.PlanningCalendarLegend-properties": {
+        "prefix": "!5-planning-calendar-legend-properties",
+        "body": [
+            "$1itemsHeader=\"\"",
+            "appointmentItemsHeader=\"\"$2"
+        ],
+        "description": "sap.m.PlanningCalendarLegend with non-inherited properties"
+    },
+    "sap.m.PlanningCalendarLegend-aggregations": {
+        "prefix": "!5-planning-calendar-legend-aggregations",
+        "body": [
+            "$1<appointmentItems>",
+            "\t<!-- <sap.ui.unified.CalendarLegendItem /> -->",
+            "</appointmentItems>",
+            "$2"
+        ],
+        "description": "sap.m.PlanningCalendarLegend with non-inherited aggregations"
+    },
+    "sap.m.PlanningCalendarLegend-events": {
+        "prefix": "!5-planning-calendar-legend-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.m.PlanningCalendarLegend with non-inherited events"
+    },
+    "sap.m.PlanningCalendarLegend-all": {
+        "prefix": "!5-planning-calendar-legend-all",
+        "body": [
+            "$1itemsHeader=\"\"",
+            "appointmentItemsHeader=\"\"",
+            "<appointmentItems>",
+            "\t<!-- <sap.ui.unified.CalendarLegendItem /> -->",
+            "</appointmentItems>$2"
+        ],
+        "description": "sap.m.PlanningCalendarLegend with non-inherited properties, aggregations and events"
+    }
+}

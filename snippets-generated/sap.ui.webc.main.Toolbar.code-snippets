@@ -1,0 +1,48 @@
+{
+    "sap.ui.webc.main.Toolbar": {
+        "prefix": "!5-toolbar",
+        "body": [
+            "<Toolbar ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.webc.main.Toolbar"
+    },
+    "sap.ui.webc.main.Toolbar-properties": {
+        "prefix": "!5-toolbar-properties",
+        "body": [
+            "$1accessibleName=\"\"",
+            "alignContent=\"\"$2"
+        ],
+        "description": "sap.ui.webc.main.Toolbar with non-inherited properties"
+    },
+    "sap.ui.webc.main.Toolbar-aggregations": {
+        "prefix": "!5-toolbar-aggregations",
+        "body": [
+            "$1<items>",
+            "\t<!-- <sap.ui.webc.main.IToolbarItem /> -->",
+            "</items>",
+            "$2"
+        ],
+        "description": "sap.ui.webc.main.Toolbar with non-inherited aggregations"
+    },
+    "sap.ui.webc.main.Toolbar-events": {
+        "prefix": "!5-toolbar-events",
+        "body": [
+            "$1ariaLabelledBy=\".on${3:AriaLabelledBy}\"$2"
+        ],
+        "description": "sap.ui.webc.main.Toolbar with non-inherited events"
+    },
+    "sap.ui.webc.main.Toolbar-all": {
+        "prefix": "!5-toolbar-all",
+        "body": [
+            "$1accessibleName=\"\"",
+            "alignContent=\"\"",
+            "<items>",
+            "\t<!-- <sap.ui.webc.main.IToolbarItem /> -->",
+            "</items>",
+            "ariaLabelledBy=\".on${3:AriaLabelledBy}\"$2"
+        ],
+        "description": "sap.ui.webc.main.Toolbar with non-inherited properties, aggregations and events"
+    }
+}

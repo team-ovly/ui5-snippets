@@ -1,0 +1,72 @@
+{
+    "sap.m.SplitButton": {
+        "prefix": "!5-split-button",
+        "body": [
+            "<SplitButton ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.SplitButton"
+    },
+    "sap.m.SplitButton-properties": {
+        "prefix": "!5-split-button-properties",
+        "body": [
+            "$1text=\"\"",
+            "type=\"Default\"",
+            "width=\"\"",
+            "enabled=\"true\"",
+            "icon=\"\"",
+            "activeIcon=\"\"",
+            "iconDensityAware=\"true\"",
+            "textDirection=\"Inherit\"$2"
+        ],
+        "description": "sap.m.SplitButton with non-inherited properties"
+    },
+    "sap.m.SplitButton-aggregations": {
+        "prefix": "!5-split-button-aggregations",
+        "body": [
+            "$1<_textButton>",
+            "\t<!-- <sap.m.Button /> -->",
+            "</_textButton>",
+            "<_arrowButton>",
+            "\t<!-- <sap.m.Button /> -->",
+            "</_arrowButton>",
+            "$2"
+        ],
+        "description": "sap.m.SplitButton with non-inherited aggregations"
+    },
+    "sap.m.SplitButton-events": {
+        "prefix": "!5-split-button-events",
+        "body": [
+            "$1press=\".on${3:Press}\"",
+            "arrowPress=\".on${4:ArrowPress}\"",
+            "ariaDescribedBy=\".on${5:AriaDescribedBy}\"",
+            "ariaLabelledBy=\".on${6:AriaLabelledBy}\"$2"
+        ],
+        "description": "sap.m.SplitButton with non-inherited events"
+    },
+    "sap.m.SplitButton-all": {
+        "prefix": "!5-split-button-all",
+        "body": [
+            "$1text=\"\"",
+            "type=\"Default\"",
+            "width=\"\"",
+            "enabled=\"true\"",
+            "icon=\"\"",
+            "activeIcon=\"\"",
+            "iconDensityAware=\"true\"",
+            "textDirection=\"Inherit\"",
+            "<_textButton>",
+            "\t<!-- <sap.m.Button /> -->",
+            "</_textButton>",
+            "<_arrowButton>",
+            "\t<!-- <sap.m.Button /> -->",
+            "</_arrowButton>",
+            "press=\".on${3:Press}\"",
+            "arrowPress=\".on${4:ArrowPress}\"",
+            "ariaDescribedBy=\".on${5:AriaDescribedBy}\"",
+            "ariaLabelledBy=\".on${6:AriaLabelledBy}\"$2"
+        ],
+        "description": "sap.m.SplitButton with non-inherited properties, aggregations and events"
+    }
+}

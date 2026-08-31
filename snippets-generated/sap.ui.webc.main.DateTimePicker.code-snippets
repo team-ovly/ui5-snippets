@@ -1,0 +1,74 @@
+{
+    "sap.ui.webc.main.DateTimePicker": {
+        "prefix": "!5-date-time-picker",
+        "body": [
+            "<DateTimePicker ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.webc.main.DateTimePicker"
+    },
+    "sap.ui.webc.main.DateTimePicker-properties": {
+        "prefix": "!5-date-time-picker-properties",
+        "body": [
+            "$1accessibleName=\"\"",
+            "enabled=\"true\"",
+            "formatPattern=\"\"",
+            "hideWeekNumbers=\"false\"",
+            "maxDate=\"\"",
+            "minDate=\"\"",
+            "name=\"\"",
+            "placeholder=\"undefined\"",
+            "primaryCalendarType=\"\"",
+            "readonly=\"false\"",
+            "required=\"false\"",
+            "secondaryCalendarType=\"undefined\"",
+            "value=\"\"",
+            "valueState=\"None\"",
+            "valueStateMessage=\"\"",
+            "width=\"\"$2"
+        ],
+        "description": "sap.ui.webc.main.DateTimePicker with non-inherited properties"
+    },
+    "sap.ui.webc.main.DateTimePicker-aggregations": {
+        "prefix": "!5-date-time-picker-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.webc.main.DateTimePicker with non-inherited aggregations"
+    },
+    "sap.ui.webc.main.DateTimePicker-events": {
+        "prefix": "!5-date-time-picker-events",
+        "body": [
+            "$1change=\".on${3:Change}\"",
+            "input=\".on${4:Input}\"",
+            "ariaLabelledBy=\".on${5:AriaLabelledBy}\"$2"
+        ],
+        "description": "sap.ui.webc.main.DateTimePicker with non-inherited events"
+    },
+    "sap.ui.webc.main.DateTimePicker-all": {
+        "prefix": "!5-date-time-picker-all",
+        "body": [
+            "$1accessibleName=\"\"",
+            "enabled=\"true\"",
+            "formatPattern=\"\"",
+            "hideWeekNumbers=\"false\"",
+            "maxDate=\"\"",
+            "minDate=\"\"",
+            "name=\"\"",
+            "placeholder=\"undefined\"",
+            "primaryCalendarType=\"\"",
+            "readonly=\"false\"",
+            "required=\"false\"",
+            "secondaryCalendarType=\"undefined\"",
+            "value=\"\"",
+            "valueState=\"None\"",
+            "valueStateMessage=\"\"",
+            "width=\"\"",
+            "change=\".on${3:Change}\"",
+            "input=\".on${4:Input}\"",
+            "ariaLabelledBy=\".on${5:AriaLabelledBy}\"$2"
+        ],
+        "description": "sap.ui.webc.main.DateTimePicker with non-inherited properties, aggregations and events"
+    }
+}

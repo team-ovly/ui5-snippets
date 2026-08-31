@@ -1,0 +1,86 @@
+{
+    "sap.m.HeaderContainer": {
+        "prefix": "!5-header-container",
+        "body": [
+            "<HeaderContainer ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.HeaderContainer"
+    },
+    "sap.m.HeaderContainer-properties": {
+        "prefix": "!5-header-container-properties",
+        "body": [
+            "$1scrollStep=\"300\"",
+            "scrollStepByItem=\"1\"",
+            "scrollTime=\"500\"",
+            "showOverflowItem=\"true\"",
+            "showDividers=\"true\"",
+            "orientation=\"Horizontal\"",
+            "backgroundDesign=\"Transparent\"",
+            "width=\"\"",
+            "height=\"\"",
+            "gridLayout=\"false\"",
+            "snapToRow=\"false\"$2"
+        ],
+        "description": "sap.m.HeaderContainer with non-inherited properties"
+    },
+    "sap.m.HeaderContainer-aggregations": {
+        "prefix": "!5-header-container-aggregations",
+        "body": [
+            "$1<content>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</content>",
+            "<_scrollContainer>",
+            "\t<!-- <sap.m.ScrollContainer /> -->",
+            "</_scrollContainer>",
+            "<_prevButton>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</_prevButton>",
+            "<_nextButton>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</_nextButton>",
+            "$2"
+        ],
+        "description": "sap.m.HeaderContainer with non-inherited aggregations"
+    },
+    "sap.m.HeaderContainer-events": {
+        "prefix": "!5-header-container-events",
+        "body": [
+            "$1scroll=\".on${3:Scroll}\"",
+            "ariaLabelledBy=\".on${4:AriaLabelledBy}\"$2"
+        ],
+        "description": "sap.m.HeaderContainer with non-inherited events"
+    },
+    "sap.m.HeaderContainer-all": {
+        "prefix": "!5-header-container-all",
+        "body": [
+            "$1scrollStep=\"300\"",
+            "scrollStepByItem=\"1\"",
+            "scrollTime=\"500\"",
+            "showOverflowItem=\"true\"",
+            "showDividers=\"true\"",
+            "orientation=\"Horizontal\"",
+            "backgroundDesign=\"Transparent\"",
+            "width=\"\"",
+            "height=\"\"",
+            "gridLayout=\"false\"",
+            "snapToRow=\"false\"",
+            "<content>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</content>",
+            "<_scrollContainer>",
+            "\t<!-- <sap.m.ScrollContainer /> -->",
+            "</_scrollContainer>",
+            "<_prevButton>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</_prevButton>",
+            "<_nextButton>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</_nextButton>",
+            "scroll=\".on${3:Scroll}\"",
+            "ariaLabelledBy=\".on${4:AriaLabelledBy}\"$2"
+        ],
+        "description": "sap.m.HeaderContainer with non-inherited properties, aggregations and events"
+    }
+}

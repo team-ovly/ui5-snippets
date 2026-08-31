@@ -1,0 +1,58 @@
+{
+    "sap.ui.webc.main.Calendar": {
+        "prefix": "!5-calendar",
+        "body": [
+            "<Calendar ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.webc.main.Calendar"
+    },
+    "sap.ui.webc.main.Calendar-properties": {
+        "prefix": "!5-calendar-properties",
+        "body": [
+            "$1formatPattern=\"\"",
+            "hideWeekNumbers=\"false\"",
+            "maxDate=\"\"",
+            "minDate=\"\"",
+            "primaryCalendarType=\"\"",
+            "secondaryCalendarType=\"undefined\"",
+            "selectionMode=\"Single\"$2"
+        ],
+        "description": "sap.ui.webc.main.Calendar with non-inherited properties"
+    },
+    "sap.ui.webc.main.Calendar-aggregations": {
+        "prefix": "!5-calendar-aggregations",
+        "body": [
+            "$1<dates>",
+            "\t<!-- <sap.ui.webc.main.ICalendarDate /> -->",
+            "</dates>",
+            "$2"
+        ],
+        "description": "sap.ui.webc.main.Calendar with non-inherited aggregations"
+    },
+    "sap.ui.webc.main.Calendar-events": {
+        "prefix": "!5-calendar-events",
+        "body": [
+            "$1selectedDatesChange=\".on${3:SelectedDatesChange}\"$2"
+        ],
+        "description": "sap.ui.webc.main.Calendar with non-inherited events"
+    },
+    "sap.ui.webc.main.Calendar-all": {
+        "prefix": "!5-calendar-all",
+        "body": [
+            "$1formatPattern=\"\"",
+            "hideWeekNumbers=\"false\"",
+            "maxDate=\"\"",
+            "minDate=\"\"",
+            "primaryCalendarType=\"\"",
+            "secondaryCalendarType=\"undefined\"",
+            "selectionMode=\"Single\"",
+            "<dates>",
+            "\t<!-- <sap.ui.webc.main.ICalendarDate /> -->",
+            "</dates>",
+            "selectedDatesChange=\".on${3:SelectedDatesChange}\"$2"
+        ],
+        "description": "sap.ui.webc.main.Calendar with non-inherited properties, aggregations and events"
+    }
+}

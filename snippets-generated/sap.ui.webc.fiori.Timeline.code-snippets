@@ -1,0 +1,51 @@
+{
+    "sap.ui.webc.fiori.Timeline": {
+        "prefix": "!5-timeline",
+        "body": [
+            "<Timeline ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.webc.fiori.Timeline"
+    },
+    "sap.ui.webc.fiori.Timeline-properties": {
+        "prefix": "!5-timeline-properties",
+        "body": [
+            "$1accessibleName=\"\"",
+            "height=\"\"",
+            "layout=\"Vertical\"",
+            "width=\"\"$2"
+        ],
+        "description": "sap.ui.webc.fiori.Timeline with non-inherited properties"
+    },
+    "sap.ui.webc.fiori.Timeline-aggregations": {
+        "prefix": "!5-timeline-aggregations",
+        "body": [
+            "$1<items>",
+            "\t<!-- <sap.ui.webc.fiori.ITimelineItem /> -->",
+            "</items>",
+            "$2"
+        ],
+        "description": "sap.ui.webc.fiori.Timeline with non-inherited aggregations"
+    },
+    "sap.ui.webc.fiori.Timeline-events": {
+        "prefix": "!5-timeline-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.webc.fiori.Timeline with non-inherited events"
+    },
+    "sap.ui.webc.fiori.Timeline-all": {
+        "prefix": "!5-timeline-all",
+        "body": [
+            "$1accessibleName=\"\"",
+            "height=\"\"",
+            "layout=\"Vertical\"",
+            "width=\"\"",
+            "<items>",
+            "\t<!-- <sap.ui.webc.fiori.ITimelineItem /> -->",
+            "</items>$2"
+        ],
+        "description": "sap.ui.webc.fiori.Timeline with non-inherited properties, aggregations and events"
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "sap.f.AvatarGroupItem": {
+        "prefix": "!5-avatar-group-item",
+        "body": [
+            "<AvatarGroupItem ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.f.AvatarGroupItem"
+    },
+    "sap.f.AvatarGroupItem-properties": {
+        "prefix": "!5-avatar-group-item-properties",
+        "body": [
+            "$1src=\"\"",
+            "initials=\"\"",
+            "fallbackIcon=\"\"$2"
+        ],
+        "description": "sap.f.AvatarGroupItem with non-inherited properties"
+    },
+    "sap.f.AvatarGroupItem-aggregations": {
+        "prefix": "!5-avatar-group-item-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.f.AvatarGroupItem with non-inherited aggregations"
+    },
+    "sap.f.AvatarGroupItem-events": {
+        "prefix": "!5-avatar-group-item-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.f.AvatarGroupItem with non-inherited events"
+    },
+    "sap.f.AvatarGroupItem-all": {
+        "prefix": "!5-avatar-group-item-all",
+        "body": [
+            "$1src=\"\"",
+            "initials=\"\"",
+            "fallbackIcon=\"\"$2"
+        ],
+        "description": "sap.f.AvatarGroupItem with non-inherited properties, aggregations and events"
+    }
+}

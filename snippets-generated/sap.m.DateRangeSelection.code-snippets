@@ -1,0 +1,45 @@
+{
+    "sap.m.DateRangeSelection": {
+        "prefix": "!5-date-range-selection",
+        "body": [
+            "<DateRangeSelection ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.DateRangeSelection"
+    },
+    "sap.m.DateRangeSelection-properties": {
+        "prefix": "!5-date-range-selection-properties",
+        "body": [
+            "$1delimiter=\"-\"",
+            "secondDateValue=\"\"",
+            "from=\"\"",
+            "to=\"\"$2"
+        ],
+        "description": "sap.m.DateRangeSelection with non-inherited properties"
+    },
+    "sap.m.DateRangeSelection-aggregations": {
+        "prefix": "!5-date-range-selection-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.m.DateRangeSelection with non-inherited aggregations"
+    },
+    "sap.m.DateRangeSelection-events": {
+        "prefix": "!5-date-range-selection-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.m.DateRangeSelection with non-inherited events"
+    },
+    "sap.m.DateRangeSelection-all": {
+        "prefix": "!5-date-range-selection-all",
+        "body": [
+            "$1delimiter=\"-\"",
+            "secondDateValue=\"\"",
+            "from=\"\"",
+            "to=\"\"$2"
+        ],
+        "description": "sap.m.DateRangeSelection with non-inherited properties, aggregations and events"
+    }
+}

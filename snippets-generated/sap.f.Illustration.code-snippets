@@ -1,0 +1,39 @@
+{
+    "sap.f.Illustration": {
+        "prefix": "!5-illustration",
+        "body": [
+            "<Illustration ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.f.Illustration"
+    },
+    "sap.f.Illustration-properties": {
+        "prefix": "!5-illustration-properties",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.f.Illustration with non-inherited properties"
+    },
+    "sap.f.Illustration-aggregations": {
+        "prefix": "!5-illustration-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.f.Illustration with non-inherited aggregations"
+    },
+    "sap.f.Illustration-events": {
+        "prefix": "!5-illustration-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.f.Illustration with non-inherited events"
+    },
+    "sap.f.Illustration-all": {
+        "prefix": "!5-illustration-all",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.f.Illustration with non-inherited properties, aggregations and events"
+    }
+}

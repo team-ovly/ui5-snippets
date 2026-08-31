@@ -1,0 +1,55 @@
+{
+    "sap.ui.unified.ShellOverlay": {
+        "prefix": "!5-shell-overlay",
+        "body": [
+            "<ShellOverlay ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.unified.ShellOverlay"
+    },
+    "sap.ui.unified.ShellOverlay-properties": {
+        "prefix": "!5-shell-overlay-properties",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.unified.ShellOverlay with non-inherited properties"
+    },
+    "sap.ui.unified.ShellOverlay-aggregations": {
+        "prefix": "!5-shell-overlay-aggregations",
+        "body": [
+            "$1<content>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</content>",
+            "<search>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</search>",
+            "$2"
+        ],
+        "description": "sap.ui.unified.ShellOverlay with non-inherited aggregations"
+    },
+    "sap.ui.unified.ShellOverlay-events": {
+        "prefix": "!5-shell-overlay-events",
+        "body": [
+            "$1closed=\".on${3:Closed}\"",
+            "shell=\".on${4:Shell}\"",
+            "ariaLabelledBy=\".on${5:AriaLabelledBy}\"$2"
+        ],
+        "description": "sap.ui.unified.ShellOverlay with non-inherited events"
+    },
+    "sap.ui.unified.ShellOverlay-all": {
+        "prefix": "!5-shell-overlay-all",
+        "body": [
+            "$1<content>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</content>",
+            "<search>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</search>",
+            "closed=\".on${3:Closed}\"",
+            "shell=\".on${4:Shell}\"",
+            "ariaLabelledBy=\".on${5:AriaLabelledBy}\"$2"
+        ],
+        "description": "sap.ui.unified.ShellOverlay with non-inherited properties, aggregations and events"
+    }
+}

@@ -1,0 +1,54 @@
+{
+    "sap.m.MultiComboBox": {
+        "prefix": "!5-multi-combo-box",
+        "body": [
+            "<MultiComboBox ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.MultiComboBox"
+    },
+    "sap.m.MultiComboBox-properties": {
+        "prefix": "!5-multi-combo-box-properties",
+        "body": [
+            "$1selectedKeys=\"\"",
+            "hasSelection=\"false\"",
+            "showSelectAll=\"false\"$2"
+        ],
+        "description": "sap.m.MultiComboBox with non-inherited properties"
+    },
+    "sap.m.MultiComboBox-aggregations": {
+        "prefix": "!5-multi-combo-box-aggregations",
+        "body": [
+            "$1<tokenizer>",
+            "\t<!-- <sap.m.Tokenizer /> -->",
+            "</tokenizer>",
+            "$2"
+        ],
+        "description": "sap.m.MultiComboBox with non-inherited aggregations"
+    },
+    "sap.m.MultiComboBox-events": {
+        "prefix": "!5-multi-combo-box-events",
+        "body": [
+            "$1selectionChange=\".on${3:SelectionChange}\"",
+            "selectionFinish=\".on${4:SelectionFinish}\"",
+            "selectedItems=\".on${5:SelectedItems}\"$2"
+        ],
+        "description": "sap.m.MultiComboBox with non-inherited events"
+    },
+    "sap.m.MultiComboBox-all": {
+        "prefix": "!5-multi-combo-box-all",
+        "body": [
+            "$1selectedKeys=\"\"",
+            "hasSelection=\"false\"",
+            "showSelectAll=\"false\"",
+            "<tokenizer>",
+            "\t<!-- <sap.m.Tokenizer /> -->",
+            "</tokenizer>",
+            "selectionChange=\".on${3:SelectionChange}\"",
+            "selectionFinish=\".on${4:SelectionFinish}\"",
+            "selectedItems=\".on${5:SelectedItems}\"$2"
+        ],
+        "description": "sap.m.MultiComboBox with non-inherited properties, aggregations and events"
+    }
+}

@@ -1,0 +1,110 @@
+{
+    "sap.f.ShellBar": {
+        "prefix": "!5-shell-bar",
+        "body": [
+            "<ShellBar ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.f.ShellBar"
+    },
+    "sap.f.ShellBar-properties": {
+        "prefix": "!5-shell-bar-properties",
+        "body": [
+            "$1title=\"\"",
+            "secondTitle=\"\"",
+            "homeIcon=\"\"",
+            "homeIconTooltip=\"\"",
+            "showMenuButton=\"false\"",
+            "showNavButton=\"false\"",
+            "showCopilot=\"false\"",
+            "showSearch=\"false\"",
+            "showNotifications=\"false\"",
+            "showProductSwitcher=\"false\"",
+            "notificationsNumber=\"\"$2"
+        ],
+        "description": "sap.f.ShellBar with non-inherited properties"
+    },
+    "sap.f.ShellBar-aggregations": {
+        "prefix": "!5-shell-bar-aggregations",
+        "body": [
+            "$1<menu>",
+            "\t<!-- <sap.m.Menu /> -->",
+            "</menu>",
+            "<searchManager>",
+            "\t<!-- <sap.f.SearchManager /> -->",
+            "</searchManager>",
+            "<profile>",
+            "\t<!-- <sap.m.Avatar /> -->",
+            "</profile>",
+            "<additionalContent>",
+            "\t<!-- <sap.f.IShellBar /> -->",
+            "</additionalContent>",
+            "<_overflowToolbar>",
+            "\t<!-- <sap.m.OverflowToolbar /> -->",
+            "</_overflowToolbar>",
+            "<_additionalBox>",
+            "\t<!-- <sap.m.HBox /> -->",
+            "</_additionalBox>",
+            "$2"
+        ],
+        "description": "sap.f.ShellBar with non-inherited aggregations"
+    },
+    "sap.f.ShellBar-events": {
+        "prefix": "!5-shell-bar-events",
+        "body": [
+            "$1homeIconPressed=\".on${3:HomeIconPressed}\"",
+            "menuButtonPressed=\".on${4:MenuButtonPressed}\"",
+            "navButtonPressed=\".on${5:NavButtonPressed}\"",
+            "copilotPressed=\".on${6:CopilotPressed}\"",
+            "searchButtonPressed=\".on${7:SearchButtonPressed}\"",
+            "notificationsPressed=\".on${8:NotificationsPressed}\"",
+            "productSwitcherPressed=\".on${9:ProductSwitcherPressed}\"",
+            "avatarPressed=\".on${10:AvatarPressed}\"$2"
+        ],
+        "description": "sap.f.ShellBar with non-inherited events"
+    },
+    "sap.f.ShellBar-all": {
+        "prefix": "!5-shell-bar-all",
+        "body": [
+            "$1title=\"\"",
+            "secondTitle=\"\"",
+            "homeIcon=\"\"",
+            "homeIconTooltip=\"\"",
+            "showMenuButton=\"false\"",
+            "showNavButton=\"false\"",
+            "showCopilot=\"false\"",
+            "showSearch=\"false\"",
+            "showNotifications=\"false\"",
+            "showProductSwitcher=\"false\"",
+            "notificationsNumber=\"\"",
+            "<menu>",
+            "\t<!-- <sap.m.Menu /> -->",
+            "</menu>",
+            "<searchManager>",
+            "\t<!-- <sap.f.SearchManager /> -->",
+            "</searchManager>",
+            "<profile>",
+            "\t<!-- <sap.m.Avatar /> -->",
+            "</profile>",
+            "<additionalContent>",
+            "\t<!-- <sap.f.IShellBar /> -->",
+            "</additionalContent>",
+            "<_overflowToolbar>",
+            "\t<!-- <sap.m.OverflowToolbar /> -->",
+            "</_overflowToolbar>",
+            "<_additionalBox>",
+            "\t<!-- <sap.m.HBox /> -->",
+            "</_additionalBox>",
+            "homeIconPressed=\".on${3:HomeIconPressed}\"",
+            "menuButtonPressed=\".on${4:MenuButtonPressed}\"",
+            "navButtonPressed=\".on${5:NavButtonPressed}\"",
+            "copilotPressed=\".on${6:CopilotPressed}\"",
+            "searchButtonPressed=\".on${7:SearchButtonPressed}\"",
+            "notificationsPressed=\".on${8:NotificationsPressed}\"",
+            "productSwitcherPressed=\".on${9:ProductSwitcherPressed}\"",
+            "avatarPressed=\".on${10:AvatarPressed}\"$2"
+        ],
+        "description": "sap.f.ShellBar with non-inherited properties, aggregations and events"
+    }
+}

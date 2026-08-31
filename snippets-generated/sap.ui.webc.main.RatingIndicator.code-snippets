@@ -1,0 +1,54 @@
+{
+    "sap.ui.webc.main.RatingIndicator": {
+        "prefix": "!5-rating-indicator",
+        "body": [
+            "<RatingIndicator ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.webc.main.RatingIndicator"
+    },
+    "sap.ui.webc.main.RatingIndicator-properties": {
+        "prefix": "!5-rating-indicator-properties",
+        "body": [
+            "$1accessibleName=\"\"",
+            "enabled=\"true\"",
+            "max=\"5\"",
+            "readonly=\"false\"",
+            "required=\"false\"",
+            "value=\"0\"",
+            "width=\"\"$2"
+        ],
+        "description": "sap.ui.webc.main.RatingIndicator with non-inherited properties"
+    },
+    "sap.ui.webc.main.RatingIndicator-aggregations": {
+        "prefix": "!5-rating-indicator-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.webc.main.RatingIndicator with non-inherited aggregations"
+    },
+    "sap.ui.webc.main.RatingIndicator-events": {
+        "prefix": "!5-rating-indicator-events",
+        "body": [
+            "$1change=\".on${3:Change}\"",
+            "ariaLabelledBy=\".on${4:AriaLabelledBy}\"$2"
+        ],
+        "description": "sap.ui.webc.main.RatingIndicator with non-inherited events"
+    },
+    "sap.ui.webc.main.RatingIndicator-all": {
+        "prefix": "!5-rating-indicator-all",
+        "body": [
+            "$1accessibleName=\"\"",
+            "enabled=\"true\"",
+            "max=\"5\"",
+            "readonly=\"false\"",
+            "required=\"false\"",
+            "value=\"0\"",
+            "width=\"\"",
+            "change=\".on${3:Change}\"",
+            "ariaLabelledBy=\".on${4:AriaLabelledBy}\"$2"
+        ],
+        "description": "sap.ui.webc.main.RatingIndicator with non-inherited properties, aggregations and events"
+    }
+}

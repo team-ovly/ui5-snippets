@@ -1,0 +1,39 @@
+{
+    "sap.ui.integration.editor.fields.DateTimeField": {
+        "prefix": "!5-date-time-field",
+        "body": [
+            "<DateTimeField ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.integration.editor.fields.DateTimeField"
+    },
+    "sap.ui.integration.editor.fields.DateTimeField-properties": {
+        "prefix": "!5-date-time-field-properties",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.integration.editor.fields.DateTimeField with non-inherited properties"
+    },
+    "sap.ui.integration.editor.fields.DateTimeField-aggregations": {
+        "prefix": "!5-date-time-field-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.integration.editor.fields.DateTimeField with non-inherited aggregations"
+    },
+    "sap.ui.integration.editor.fields.DateTimeField-events": {
+        "prefix": "!5-date-time-field-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.integration.editor.fields.DateTimeField with non-inherited events"
+    },
+    "sap.ui.integration.editor.fields.DateTimeField-all": {
+        "prefix": "!5-date-time-field-all",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.integration.editor.fields.DateTimeField with non-inherited properties, aggregations and events"
+    }
+}

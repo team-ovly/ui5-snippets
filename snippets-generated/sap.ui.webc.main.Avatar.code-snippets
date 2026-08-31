@@ -1,0 +1,68 @@
+{
+    "sap.ui.webc.main.Avatar": {
+        "prefix": "!5-avatar",
+        "body": [
+            "<Avatar ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.webc.main.Avatar"
+    },
+    "sap.ui.webc.main.Avatar-properties": {
+        "prefix": "!5-avatar-properties",
+        "body": [
+            "$1accessibleName=\"\"",
+            "colorScheme=\"Accent6\"",
+            "enabled=\"true\"",
+            "fallbackIcon=\"\"",
+            "icon=\"\"",
+            "initials=\"\"",
+            "interactive=\"false\"",
+            "shape=\"Circle\"",
+            "size=\"S\"$2"
+        ],
+        "description": "sap.ui.webc.main.Avatar with non-inherited properties"
+    },
+    "sap.ui.webc.main.Avatar-aggregations": {
+        "prefix": "!5-avatar-aggregations",
+        "body": [
+            "$1<badge>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</badge>",
+            "<image>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</image>",
+            "$2"
+        ],
+        "description": "sap.ui.webc.main.Avatar with non-inherited aggregations"
+    },
+    "sap.ui.webc.main.Avatar-events": {
+        "prefix": "!5-avatar-events",
+        "body": [
+            "$1click=\".on${3:Click}\"$2"
+        ],
+        "description": "sap.ui.webc.main.Avatar with non-inherited events"
+    },
+    "sap.ui.webc.main.Avatar-all": {
+        "prefix": "!5-avatar-all",
+        "body": [
+            "$1accessibleName=\"\"",
+            "colorScheme=\"Accent6\"",
+            "enabled=\"true\"",
+            "fallbackIcon=\"\"",
+            "icon=\"\"",
+            "initials=\"\"",
+            "interactive=\"false\"",
+            "shape=\"Circle\"",
+            "size=\"S\"",
+            "<badge>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</badge>",
+            "<image>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</image>",
+            "click=\".on${3:Click}\"$2"
+        ],
+        "description": "sap.ui.webc.main.Avatar with non-inherited properties, aggregations and events"
+    }
+}

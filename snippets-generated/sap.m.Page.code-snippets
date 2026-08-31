@@ -1,0 +1,112 @@
+{
+    "sap.m.Page": {
+        "prefix": "!5-page",
+        "body": [
+            "<Page ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.Page"
+    },
+    "sap.m.Page-properties": {
+        "prefix": "!5-page-properties",
+        "body": [
+            "$1title=\"\"",
+            "titleLevel=\"Auto\"",
+            "showNavButton=\"false\"",
+            "showHeader=\"true\"",
+            "showSubHeader=\"true\"",
+            "navButtonText=\"\"",
+            "navButtonTooltip=\"\"",
+            "enableScrolling=\"true\"",
+            "icon=\"\"",
+            "backgroundDesign=\"Standard\"",
+            "navButtonType=\"Back\"",
+            "showFooter=\"true\"",
+            "contentOnlyBusy=\"false\"",
+            "floatingFooter=\"false\"",
+            "titleAlignment=\"Auto\"$2"
+        ],
+        "description": "sap.m.Page with non-inherited properties"
+    },
+    "sap.m.Page-aggregations": {
+        "prefix": "!5-page-aggregations",
+        "body": [
+            "$1<content>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</content>",
+            "<customHeader>",
+            "\t<!-- <sap.m.IBar /> -->",
+            "</customHeader>",
+            "<footer>",
+            "\t<!-- <sap.m.IBar /> -->",
+            "</footer>",
+            "<subHeader>",
+            "\t<!-- <sap.m.IBar /> -->",
+            "</subHeader>",
+            "<headerContent>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</headerContent>",
+            "<landmarkInfo>",
+            "\t<!-- <sap.m.PageAccessibleLandmarkInfo /> -->",
+            "</landmarkInfo>",
+            "<_internalHeader>",
+            "\t<!-- <sap.m.IBar /> -->",
+            "</_internalHeader>",
+            "$2"
+        ],
+        "description": "sap.m.Page with non-inherited aggregations"
+    },
+    "sap.m.Page-events": {
+        "prefix": "!5-page-events",
+        "body": [
+            "$1navButtonTap=\".on${3:NavButtonTap}\"",
+            "navButtonPress=\".on${4:NavButtonPress}\"$2"
+        ],
+        "description": "sap.m.Page with non-inherited events"
+    },
+    "sap.m.Page-all": {
+        "prefix": "!5-page-all",
+        "body": [
+            "$1title=\"\"",
+            "titleLevel=\"Auto\"",
+            "showNavButton=\"false\"",
+            "showHeader=\"true\"",
+            "showSubHeader=\"true\"",
+            "navButtonText=\"\"",
+            "navButtonTooltip=\"\"",
+            "enableScrolling=\"true\"",
+            "icon=\"\"",
+            "backgroundDesign=\"Standard\"",
+            "navButtonType=\"Back\"",
+            "showFooter=\"true\"",
+            "contentOnlyBusy=\"false\"",
+            "floatingFooter=\"false\"",
+            "titleAlignment=\"Auto\"",
+            "<content>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</content>",
+            "<customHeader>",
+            "\t<!-- <sap.m.IBar /> -->",
+            "</customHeader>",
+            "<footer>",
+            "\t<!-- <sap.m.IBar /> -->",
+            "</footer>",
+            "<subHeader>",
+            "\t<!-- <sap.m.IBar /> -->",
+            "</subHeader>",
+            "<headerContent>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</headerContent>",
+            "<landmarkInfo>",
+            "\t<!-- <sap.m.PageAccessibleLandmarkInfo /> -->",
+            "</landmarkInfo>",
+            "<_internalHeader>",
+            "\t<!-- <sap.m.IBar /> -->",
+            "</_internalHeader>",
+            "navButtonTap=\".on${3:NavButtonTap}\"",
+            "navButtonPress=\".on${4:NavButtonPress}\"$2"
+        ],
+        "description": "sap.m.Page with non-inherited properties, aggregations and events"
+    }
+}

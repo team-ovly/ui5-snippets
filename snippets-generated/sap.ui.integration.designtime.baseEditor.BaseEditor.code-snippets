@@ -1,0 +1,60 @@
+{
+    "sap.ui.integration.designtime.baseEditor.BaseEditor": {
+        "prefix": "!5-base-editor",
+        "body": [
+            "<BaseEditor ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.integration.designtime.baseEditor.BaseEditor"
+    },
+    "sap.ui.integration.designtime.baseEditor.BaseEditor-properties": {
+        "prefix": "!5-base-editor-properties",
+        "body": [
+            "$1json=\"\"",
+            "config=\"...see text or source\"",
+            "designtimeMetadata=\"\"",
+            "layout=\"list\"$2"
+        ],
+        "description": "sap.ui.integration.designtime.baseEditor.BaseEditor with non-inherited properties"
+    },
+    "sap.ui.integration.designtime.baseEditor.BaseEditor-aggregations": {
+        "prefix": "!5-base-editor-aggregations",
+        "body": [
+            "$1<content>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</content>",
+            "$2"
+        ],
+        "description": "sap.ui.integration.designtime.baseEditor.BaseEditor with non-inherited aggregations"
+    },
+    "sap.ui.integration.designtime.baseEditor.BaseEditor-events": {
+        "prefix": "!5-base-editor-events",
+        "body": [
+            "$1jsonChange=\".on${3:JsonChange}\"",
+            "designtimeMetadataChange=\".on${4:DesigntimeMetadataChange}\"",
+            "configChange=\".on${5:ConfigChange}\"",
+            "propertyEditorsReady=\".on${6:PropertyEditorsReady}\"",
+            "validationErrorChange=\".on${7:ValidationErrorChange}\"$2"
+        ],
+        "description": "sap.ui.integration.designtime.baseEditor.BaseEditor with non-inherited events"
+    },
+    "sap.ui.integration.designtime.baseEditor.BaseEditor-all": {
+        "prefix": "!5-base-editor-all",
+        "body": [
+            "$1json=\"\"",
+            "config=\"...see text or source\"",
+            "designtimeMetadata=\"\"",
+            "layout=\"list\"",
+            "<content>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</content>",
+            "jsonChange=\".on${3:JsonChange}\"",
+            "designtimeMetadataChange=\".on${4:DesigntimeMetadataChange}\"",
+            "configChange=\".on${5:ConfigChange}\"",
+            "propertyEditorsReady=\".on${6:PropertyEditorsReady}\"",
+            "validationErrorChange=\".on${7:ValidationErrorChange}\"$2"
+        ],
+        "description": "sap.ui.integration.designtime.baseEditor.BaseEditor with non-inherited properties, aggregations and events"
+    }
+}

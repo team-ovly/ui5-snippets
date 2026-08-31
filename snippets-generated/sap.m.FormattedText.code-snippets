@@ -1,0 +1,59 @@
+{
+    "sap.m.FormattedText": {
+        "prefix": "!5-formatted-text",
+        "body": [
+            "<FormattedText ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.FormattedText"
+    },
+    "sap.m.FormattedText-properties": {
+        "prefix": "!5-formatted-text-properties",
+        "body": [
+            "$1htmlText=\"\"",
+            "width=\"\"",
+            "convertLinksToAnchorTags=\"None\"",
+            "convertedLinksDefaultTarget=\"_blank\"",
+            "height=\"\"",
+            "textDirection=\"Inherit\"",
+            "textAlign=\"Begin\"",
+            "disableStyleAttribute=\"false\"$2"
+        ],
+        "description": "sap.m.FormattedText with non-inherited properties"
+    },
+    "sap.m.FormattedText-aggregations": {
+        "prefix": "!5-formatted-text-aggregations",
+        "body": [
+            "$1<controls>",
+            "\t<!-- <sap.m.Link /> -->",
+            "</controls>",
+            "$2"
+        ],
+        "description": "sap.m.FormattedText with non-inherited aggregations"
+    },
+    "sap.m.FormattedText-events": {
+        "prefix": "!5-formatted-text-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.m.FormattedText with non-inherited events"
+    },
+    "sap.m.FormattedText-all": {
+        "prefix": "!5-formatted-text-all",
+        "body": [
+            "$1htmlText=\"\"",
+            "width=\"\"",
+            "convertLinksToAnchorTags=\"None\"",
+            "convertedLinksDefaultTarget=\"_blank\"",
+            "height=\"\"",
+            "textDirection=\"Inherit\"",
+            "textAlign=\"Begin\"",
+            "disableStyleAttribute=\"false\"",
+            "<controls>",
+            "\t<!-- <sap.m.Link /> -->",
+            "</controls>$2"
+        ],
+        "description": "sap.m.FormattedText with non-inherited properties, aggregations and events"
+    }
+}

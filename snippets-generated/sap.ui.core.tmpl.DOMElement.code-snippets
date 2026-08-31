@@ -1,0 +1,53 @@
+{
+    "sap.ui.core.tmpl.DOMElement": {
+        "prefix": "!5-domelement",
+        "body": [
+            "<DOMElement ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.core.tmpl.DOMElement"
+    },
+    "sap.ui.core.tmpl.DOMElement-properties": {
+        "prefix": "!5-domelement-properties",
+        "body": [
+            "$1text=\"\"",
+            "tag=\"span\"$2"
+        ],
+        "description": "sap.ui.core.tmpl.DOMElement with non-inherited properties"
+    },
+    "sap.ui.core.tmpl.DOMElement-aggregations": {
+        "prefix": "!5-domelement-aggregations",
+        "body": [
+            "$1<attributes>",
+            "\t<!-- <sap.ui.core.tmpl.DOMAttribute /> -->",
+            "</attributes>",
+            "<elements>",
+            "\t<!-- <sap.ui.core.tmpl.DOMElement /> -->",
+            "</elements>",
+            "$2"
+        ],
+        "description": "sap.ui.core.tmpl.DOMElement with non-inherited aggregations"
+    },
+    "sap.ui.core.tmpl.DOMElement-events": {
+        "prefix": "!5-domelement-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.core.tmpl.DOMElement with non-inherited events"
+    },
+    "sap.ui.core.tmpl.DOMElement-all": {
+        "prefix": "!5-domelement-all",
+        "body": [
+            "$1text=\"\"",
+            "tag=\"span\"",
+            "<attributes>",
+            "\t<!-- <sap.ui.core.tmpl.DOMAttribute /> -->",
+            "</attributes>",
+            "<elements>",
+            "\t<!-- <sap.ui.core.tmpl.DOMElement /> -->",
+            "</elements>$2"
+        ],
+        "description": "sap.ui.core.tmpl.DOMElement with non-inherited properties, aggregations and events"
+    }
+}

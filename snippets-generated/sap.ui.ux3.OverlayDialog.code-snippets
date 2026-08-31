@@ -1,0 +1,47 @@
+{
+    "sap.ui.ux3.OverlayDialog": {
+        "prefix": "!5-overlay-dialog",
+        "body": [
+            "<OverlayDialog ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.ux3.OverlayDialog"
+    },
+    "sap.ui.ux3.OverlayDialog-properties": {
+        "prefix": "!5-overlay-dialog-properties",
+        "body": [
+            "$1width=\"auto\"",
+            "height=\"auto\"$2"
+        ],
+        "description": "sap.ui.ux3.OverlayDialog with non-inherited properties"
+    },
+    "sap.ui.ux3.OverlayDialog-aggregations": {
+        "prefix": "!5-overlay-dialog-aggregations",
+        "body": [
+            "$1<content>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</content>",
+            "$2"
+        ],
+        "description": "sap.ui.ux3.OverlayDialog with non-inherited aggregations"
+    },
+    "sap.ui.ux3.OverlayDialog-events": {
+        "prefix": "!5-overlay-dialog-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.ux3.OverlayDialog with non-inherited events"
+    },
+    "sap.ui.ux3.OverlayDialog-all": {
+        "prefix": "!5-overlay-dialog-all",
+        "body": [
+            "$1width=\"auto\"",
+            "height=\"auto\"",
+            "<content>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</content>$2"
+        ],
+        "description": "sap.ui.ux3.OverlayDialog with non-inherited properties, aggregations and events"
+    }
+}

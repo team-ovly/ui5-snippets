@@ -1,0 +1,78 @@
+{
+    "sap.m.SearchField": {
+        "prefix": "!5-search-field",
+        "body": [
+            "<SearchField ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.SearchField"
+    },
+    "sap.m.SearchField-properties": {
+        "prefix": "!5-search-field-properties",
+        "body": [
+            "$1value=\"\"",
+            "width=\"\"",
+            "enabled=\"true\"",
+            "visible=\"true\"",
+            "maxLength=\"0\"",
+            "placeholder=\"\"",
+            "showMagnifier=\"true\"",
+            "showRefreshButton=\"false\"",
+            "refreshButtonTooltip=\"\"",
+            "showSearchButton=\"true\"",
+            "enableSuggestions=\"false\"",
+            "selectOnFocus=\"true\"$2"
+        ],
+        "description": "sap.m.SearchField with non-inherited properties"
+    },
+    "sap.m.SearchField-aggregations": {
+        "prefix": "!5-search-field-aggregations",
+        "body": [
+            "$1<suggestionItems>",
+            "\t<!-- <sap.m.SuggestionItem /> -->",
+            "</suggestionItems>",
+            "$2"
+        ],
+        "description": "sap.m.SearchField with non-inherited aggregations"
+    },
+    "sap.m.SearchField-events": {
+        "prefix": "!5-search-field-events",
+        "body": [
+            "$1search=\".on${3:Search}\"",
+            "change=\".on${4:Change}\"",
+            "liveChange=\".on${5:LiveChange}\"",
+            "suggest=\".on${6:Suggest}\"",
+            "ariaDescribedBy=\".on${7:AriaDescribedBy}\"",
+            "ariaLabelledBy=\".on${8:AriaLabelledBy}\"$2"
+        ],
+        "description": "sap.m.SearchField with non-inherited events"
+    },
+    "sap.m.SearchField-all": {
+        "prefix": "!5-search-field-all",
+        "body": [
+            "$1value=\"\"",
+            "width=\"\"",
+            "enabled=\"true\"",
+            "visible=\"true\"",
+            "maxLength=\"0\"",
+            "placeholder=\"\"",
+            "showMagnifier=\"true\"",
+            "showRefreshButton=\"false\"",
+            "refreshButtonTooltip=\"\"",
+            "showSearchButton=\"true\"",
+            "enableSuggestions=\"false\"",
+            "selectOnFocus=\"true\"",
+            "<suggestionItems>",
+            "\t<!-- <sap.m.SuggestionItem /> -->",
+            "</suggestionItems>",
+            "search=\".on${3:Search}\"",
+            "change=\".on${4:Change}\"",
+            "liveChange=\".on${5:LiveChange}\"",
+            "suggest=\".on${6:Suggest}\"",
+            "ariaDescribedBy=\".on${7:AriaDescribedBy}\"",
+            "ariaLabelledBy=\".on${8:AriaLabelledBy}\"$2"
+        ],
+        "description": "sap.m.SearchField with non-inherited properties, aggregations and events"
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "sap.m.FacetFilterItem": {
+        "prefix": "!5-facet-filter-item",
+        "body": [
+            "<FacetFilterItem ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.FacetFilterItem"
+    },
+    "sap.m.FacetFilterItem-properties": {
+        "prefix": "!5-facet-filter-item-properties",
+        "body": [
+            "$1key=\"\"",
+            "text=\"\"",
+            "count=\"\"$2"
+        ],
+        "description": "sap.m.FacetFilterItem with non-inherited properties"
+    },
+    "sap.m.FacetFilterItem-aggregations": {
+        "prefix": "!5-facet-filter-item-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.m.FacetFilterItem with non-inherited aggregations"
+    },
+    "sap.m.FacetFilterItem-events": {
+        "prefix": "!5-facet-filter-item-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.m.FacetFilterItem with non-inherited events"
+    },
+    "sap.m.FacetFilterItem-all": {
+        "prefix": "!5-facet-filter-item-all",
+        "body": [
+            "$1key=\"\"",
+            "text=\"\"",
+            "count=\"\"$2"
+        ],
+        "description": "sap.m.FacetFilterItem with non-inherited properties, aggregations and events"
+    }
+}

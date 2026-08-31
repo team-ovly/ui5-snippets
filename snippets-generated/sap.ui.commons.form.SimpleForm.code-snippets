@@ -1,0 +1,39 @@
+{
+    "sap.ui.commons.form.SimpleForm": {
+        "prefix": "!5-simple-form",
+        "body": [
+            "<SimpleForm ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.commons.form.SimpleForm"
+    },
+    "sap.ui.commons.form.SimpleForm-properties": {
+        "prefix": "!5-simple-form-properties",
+        "body": [
+            "$1layout=\"ResponsiveLayout\"$2"
+        ],
+        "description": "sap.ui.commons.form.SimpleForm with non-inherited properties"
+    },
+    "sap.ui.commons.form.SimpleForm-aggregations": {
+        "prefix": "!5-simple-form-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.commons.form.SimpleForm with non-inherited aggregations"
+    },
+    "sap.ui.commons.form.SimpleForm-events": {
+        "prefix": "!5-simple-form-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.commons.form.SimpleForm with non-inherited events"
+    },
+    "sap.ui.commons.form.SimpleForm-all": {
+        "prefix": "!5-simple-form-all",
+        "body": [
+            "$1layout=\"ResponsiveLayout\"$2"
+        ],
+        "description": "sap.ui.commons.form.SimpleForm with non-inherited properties, aggregations and events"
+    }
+}

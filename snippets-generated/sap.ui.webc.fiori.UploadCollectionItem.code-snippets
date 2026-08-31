@@ -1,0 +1,90 @@
+{
+    "sap.ui.webc.fiori.UploadCollectionItem": {
+        "prefix": "!5-upload-collection-item",
+        "body": [
+            "<UploadCollectionItem ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.webc.fiori.UploadCollectionItem"
+    },
+    "sap.ui.webc.fiori.UploadCollectionItem-properties": {
+        "prefix": "!5-upload-collection-item-properties",
+        "body": [
+            "$1accessibilityAttributes=\"[object Object]\"",
+            "disableDeleteButton=\"false\"",
+            "file=\"\"",
+            "fileName=\"\"",
+            "fileNameClickable=\"false\"",
+            "hideDeleteButton=\"false\"",
+            "hideRetryButton=\"false\"",
+            "hideTerminateButton=\"false\"",
+            "navigated=\"\"",
+            "progress=\"0\"",
+            "selected=\"false\"",
+            "type=\"Active\"",
+            "uploadState=\"Ready\"$2"
+        ],
+        "description": "sap.ui.webc.fiori.UploadCollectionItem with non-inherited properties"
+    },
+    "sap.ui.webc.fiori.UploadCollectionItem-aggregations": {
+        "prefix": "!5-upload-collection-item-aggregations",
+        "body": [
+            "$1<content>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</content>",
+            "<deleteButton>",
+            "\t<!-- <sap.ui.webc.main.IButton /> -->",
+            "</deleteButton>",
+            "<thumbnail>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</thumbnail>",
+            "$2"
+        ],
+        "description": "sap.ui.webc.fiori.UploadCollectionItem with non-inherited aggregations"
+    },
+    "sap.ui.webc.fiori.UploadCollectionItem-events": {
+        "prefix": "!5-upload-collection-item-events",
+        "body": [
+            "$1detailClick=\".on${3:DetailClick}\"",
+            "fileNameClick=\".on${4:FileNameClick}\"",
+            "rename=\".on${5:Rename}\"",
+            "retry=\".on${6:Retry}\"",
+            "terminate=\".on${7:Terminate}\"$2"
+        ],
+        "description": "sap.ui.webc.fiori.UploadCollectionItem with non-inherited events"
+    },
+    "sap.ui.webc.fiori.UploadCollectionItem-all": {
+        "prefix": "!5-upload-collection-item-all",
+        "body": [
+            "$1accessibilityAttributes=\"[object Object]\"",
+            "disableDeleteButton=\"false\"",
+            "file=\"\"",
+            "fileName=\"\"",
+            "fileNameClickable=\"false\"",
+            "hideDeleteButton=\"false\"",
+            "hideRetryButton=\"false\"",
+            "hideTerminateButton=\"false\"",
+            "navigated=\"\"",
+            "progress=\"0\"",
+            "selected=\"false\"",
+            "type=\"Active\"",
+            "uploadState=\"Ready\"",
+            "<content>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</content>",
+            "<deleteButton>",
+            "\t<!-- <sap.ui.webc.main.IButton /> -->",
+            "</deleteButton>",
+            "<thumbnail>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</thumbnail>",
+            "detailClick=\".on${3:DetailClick}\"",
+            "fileNameClick=\".on${4:FileNameClick}\"",
+            "rename=\".on${5:Rename}\"",
+            "retry=\".on${6:Retry}\"",
+            "terminate=\".on${7:Terminate}\"$2"
+        ],
+        "description": "sap.ui.webc.fiori.UploadCollectionItem with non-inherited properties, aggregations and events"
+    }
+}

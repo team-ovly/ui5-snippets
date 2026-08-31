@@ -1,0 +1,41 @@
+{
+    "sap.m.ComboBoxTextField": {
+        "prefix": "!5-combo-box-text-field",
+        "body": [
+            "<ComboBoxTextField ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.ComboBoxTextField"
+    },
+    "sap.m.ComboBoxTextField-properties": {
+        "prefix": "!5-combo-box-text-field-properties",
+        "body": [
+            "$1maxWidth=\"100%\"",
+            "showButton=\"true\"$2"
+        ],
+        "description": "sap.m.ComboBoxTextField with non-inherited properties"
+    },
+    "sap.m.ComboBoxTextField-aggregations": {
+        "prefix": "!5-combo-box-text-field-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.m.ComboBoxTextField with non-inherited aggregations"
+    },
+    "sap.m.ComboBoxTextField-events": {
+        "prefix": "!5-combo-box-text-field-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.m.ComboBoxTextField with non-inherited events"
+    },
+    "sap.m.ComboBoxTextField-all": {
+        "prefix": "!5-combo-box-text-field-all",
+        "body": [
+            "$1maxWidth=\"100%\"",
+            "showButton=\"true\"$2"
+        ],
+        "description": "sap.m.ComboBoxTextField with non-inherited properties, aggregations and events"
+    }
+}

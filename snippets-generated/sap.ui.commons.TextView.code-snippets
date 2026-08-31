@@ -1,0 +1,60 @@
+{
+    "sap.ui.commons.TextView": {
+        "prefix": "!5-text-view",
+        "body": [
+            "<TextView ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.commons.TextView"
+    },
+    "sap.ui.commons.TextView-properties": {
+        "prefix": "!5-text-view-properties",
+        "body": [
+            "$1text=\"\"",
+            "textDirection=\"Inherit\"",
+            "enabled=\"true\"",
+            "helpId=\"\"",
+            "accessibleRole=\"\"",
+            "design=\"Standard\"",
+            "wrapping=\"true\"",
+            "semanticColor=\"Default\"",
+            "textAlign=\"Begin\"",
+            "width=\"\"$2"
+        ],
+        "description": "sap.ui.commons.TextView with non-inherited properties"
+    },
+    "sap.ui.commons.TextView-aggregations": {
+        "prefix": "!5-text-view-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.commons.TextView with non-inherited aggregations"
+    },
+    "sap.ui.commons.TextView-events": {
+        "prefix": "!5-text-view-events",
+        "body": [
+            "$1ariaDescribedBy=\".on${3:AriaDescribedBy}\"",
+            "ariaLabelledBy=\".on${4:AriaLabelledBy}\"$2"
+        ],
+        "description": "sap.ui.commons.TextView with non-inherited events"
+    },
+    "sap.ui.commons.TextView-all": {
+        "prefix": "!5-text-view-all",
+        "body": [
+            "$1text=\"\"",
+            "textDirection=\"Inherit\"",
+            "enabled=\"true\"",
+            "helpId=\"\"",
+            "accessibleRole=\"\"",
+            "design=\"Standard\"",
+            "wrapping=\"true\"",
+            "semanticColor=\"Default\"",
+            "textAlign=\"Begin\"",
+            "width=\"\"",
+            "ariaDescribedBy=\".on${3:AriaDescribedBy}\"",
+            "ariaLabelledBy=\".on${4:AriaLabelledBy}\"$2"
+        ],
+        "description": "sap.ui.commons.TextView with non-inherited properties, aggregations and events"
+    }
+}

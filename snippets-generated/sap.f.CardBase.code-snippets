@@ -1,0 +1,56 @@
+{
+    "sap.f.CardBase": {
+        "prefix": "!5-card-base",
+        "body": [
+            "<CardBase ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.f.CardBase"
+    },
+    "sap.f.CardBase-properties": {
+        "prefix": "!5-card-base-properties",
+        "body": [
+            "$1width=\"100%\"",
+            "height=\"auto\"",
+            "semanticRole=\"Region\"$2"
+        ],
+        "description": "sap.f.CardBase with non-inherited properties"
+    },
+    "sap.f.CardBase-aggregations": {
+        "prefix": "!5-card-base-aggregations",
+        "body": [
+            "$1<_cardBadges>",
+            "\t<!-- <sap.m.ObjectStatus /> -->",
+            "</_cardBadges>",
+            "<_oInvisibleCardBadgeText>",
+            "\t<!-- <sap.ui.core.InvisibleText /> -->",
+            "</_oInvisibleCardBadgeText>",
+            "$2"
+        ],
+        "description": "sap.f.CardBase with non-inherited aggregations"
+    },
+    "sap.f.CardBase-events": {
+        "prefix": "!5-card-base-events",
+        "body": [
+            "$1press=\".on${3:Press}\"$2"
+        ],
+        "description": "sap.f.CardBase with non-inherited events"
+    },
+    "sap.f.CardBase-all": {
+        "prefix": "!5-card-base-all",
+        "body": [
+            "$1width=\"100%\"",
+            "height=\"auto\"",
+            "semanticRole=\"Region\"",
+            "<_cardBadges>",
+            "\t<!-- <sap.m.ObjectStatus /> -->",
+            "</_cardBadges>",
+            "<_oInvisibleCardBadgeText>",
+            "\t<!-- <sap.ui.core.InvisibleText /> -->",
+            "</_oInvisibleCardBadgeText>",
+            "press=\".on${3:Press}\"$2"
+        ],
+        "description": "sap.f.CardBase with non-inherited properties, aggregations and events"
+    }
+}

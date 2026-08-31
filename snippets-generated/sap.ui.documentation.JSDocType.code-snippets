@@ -1,0 +1,39 @@
+{
+    "sap.ui.documentation.JSDocType": {
+        "prefix": "!5-jsdoc-type",
+        "body": [
+            "<JSDocType ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.documentation.JSDocType"
+    },
+    "sap.ui.documentation.JSDocType-properties": {
+        "prefix": "!5-jsdoc-type-properties",
+        "body": [
+            "$1typeInfo=\"[object Object]\"$2"
+        ],
+        "description": "sap.ui.documentation.JSDocType with non-inherited properties"
+    },
+    "sap.ui.documentation.JSDocType-aggregations": {
+        "prefix": "!5-jsdoc-type-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.documentation.JSDocType with non-inherited aggregations"
+    },
+    "sap.ui.documentation.JSDocType-events": {
+        "prefix": "!5-jsdoc-type-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.documentation.JSDocType with non-inherited events"
+    },
+    "sap.ui.documentation.JSDocType-all": {
+        "prefix": "!5-jsdoc-type-all",
+        "body": [
+            "$1typeInfo=\"[object Object]\"$2"
+        ],
+        "description": "sap.ui.documentation.JSDocType with non-inherited properties, aggregations and events"
+    }
+}

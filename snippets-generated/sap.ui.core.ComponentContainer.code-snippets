@@ -1,0 +1,66 @@
+{
+    "sap.ui.core.ComponentContainer": {
+        "prefix": "!5-component-container",
+        "body": [
+            "<ComponentContainer ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.core.ComponentContainer"
+    },
+    "sap.ui.core.ComponentContainer-properties": {
+        "prefix": "!5-component-container-properties",
+        "body": [
+            "$1name=\"\"",
+            "url=\"\"",
+            "async=\"false\"",
+            "handleValidation=\"false\"",
+            "settings=\"\"",
+            "propagateModel=\"false\"",
+            "width=\"\"",
+            "height=\"\"",
+            "lifecycle=\"Legacy\"",
+            "autoPrefixId=\"false\"",
+            "usage=\"\"",
+            "manifest=\"\"$2"
+        ],
+        "description": "sap.ui.core.ComponentContainer with non-inherited properties"
+    },
+    "sap.ui.core.ComponentContainer-aggregations": {
+        "prefix": "!5-component-container-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.core.ComponentContainer with non-inherited aggregations"
+    },
+    "sap.ui.core.ComponentContainer-events": {
+        "prefix": "!5-component-container-events",
+        "body": [
+            "$1componentCreated=\".on${3:ComponentCreated}\"",
+            "componentFailed=\".on${4:ComponentFailed}\"",
+            "component=\".on${5:Component}\"$2"
+        ],
+        "description": "sap.ui.core.ComponentContainer with non-inherited events"
+    },
+    "sap.ui.core.ComponentContainer-all": {
+        "prefix": "!5-component-container-all",
+        "body": [
+            "$1name=\"\"",
+            "url=\"\"",
+            "async=\"false\"",
+            "handleValidation=\"false\"",
+            "settings=\"\"",
+            "propagateModel=\"false\"",
+            "width=\"\"",
+            "height=\"\"",
+            "lifecycle=\"Legacy\"",
+            "autoPrefixId=\"false\"",
+            "usage=\"\"",
+            "manifest=\"\"",
+            "componentCreated=\".on${3:ComponentCreated}\"",
+            "componentFailed=\".on${4:ComponentFailed}\"",
+            "component=\".on${5:Component}\"$2"
+        ],
+        "description": "sap.ui.core.ComponentContainer with non-inherited properties, aggregations and events"
+    }
+}

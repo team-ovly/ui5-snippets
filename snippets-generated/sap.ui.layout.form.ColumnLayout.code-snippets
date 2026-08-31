@@ -1,0 +1,47 @@
+{
+    "sap.ui.layout.form.ColumnLayout": {
+        "prefix": "!5-column-layout",
+        "body": [
+            "<ColumnLayout ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.layout.form.ColumnLayout"
+    },
+    "sap.ui.layout.form.ColumnLayout-properties": {
+        "prefix": "!5-column-layout-properties",
+        "body": [
+            "$1columnsXL=\"2\"",
+            "columnsL=\"2\"",
+            "columnsM=\"1\"",
+            "labelCellsLarge=\"4\"",
+            "emptyCellsLarge=\"0\"$2"
+        ],
+        "description": "sap.ui.layout.form.ColumnLayout with non-inherited properties"
+    },
+    "sap.ui.layout.form.ColumnLayout-aggregations": {
+        "prefix": "!5-column-layout-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.layout.form.ColumnLayout with non-inherited aggregations"
+    },
+    "sap.ui.layout.form.ColumnLayout-events": {
+        "prefix": "!5-column-layout-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.layout.form.ColumnLayout with non-inherited events"
+    },
+    "sap.ui.layout.form.ColumnLayout-all": {
+        "prefix": "!5-column-layout-all",
+        "body": [
+            "$1columnsXL=\"2\"",
+            "columnsL=\"2\"",
+            "columnsM=\"1\"",
+            "labelCellsLarge=\"4\"",
+            "emptyCellsLarge=\"0\"$2"
+        ],
+        "description": "sap.ui.layout.form.ColumnLayout with non-inherited properties, aggregations and events"
+    }
+}

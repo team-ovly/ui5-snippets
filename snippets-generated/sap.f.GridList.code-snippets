@@ -1,0 +1,45 @@
+{
+    "sap.f.GridList": {
+        "prefix": "!5-grid-list",
+        "body": [
+            "<GridList ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.f.GridList"
+    },
+    "sap.f.GridList-properties": {
+        "prefix": "!5-grid-list-properties",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.f.GridList with non-inherited properties"
+    },
+    "sap.f.GridList-aggregations": {
+        "prefix": "!5-grid-list-aggregations",
+        "body": [
+            "$1<customLayout>",
+            "\t<!-- <sap.ui.layout.cssgrid.GridLayoutBase /> -->",
+            "</customLayout>",
+            "$2"
+        ],
+        "description": "sap.f.GridList with non-inherited aggregations"
+    },
+    "sap.f.GridList-events": {
+        "prefix": "!5-grid-list-events",
+        "body": [
+            "$1borderReached=\".on${3:BorderReached}\"$2"
+        ],
+        "description": "sap.f.GridList with non-inherited events"
+    },
+    "sap.f.GridList-all": {
+        "prefix": "!5-grid-list-all",
+        "body": [
+            "$1<customLayout>",
+            "\t<!-- <sap.ui.layout.cssgrid.GridLayoutBase /> -->",
+            "</customLayout>",
+            "borderReached=\".on${3:BorderReached}\"$2"
+        ],
+        "description": "sap.f.GridList with non-inherited properties, aggregations and events"
+    }
+}

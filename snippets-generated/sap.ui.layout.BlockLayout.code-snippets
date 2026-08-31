@@ -1,0 +1,47 @@
+{
+    "sap.ui.layout.BlockLayout": {
+        "prefix": "!5-block-layout",
+        "body": [
+            "<BlockLayout ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.layout.BlockLayout"
+    },
+    "sap.ui.layout.BlockLayout-properties": {
+        "prefix": "!5-block-layout-properties",
+        "body": [
+            "$1background=\"Default\"",
+            "keepFontSize=\"false\"$2"
+        ],
+        "description": "sap.ui.layout.BlockLayout with non-inherited properties"
+    },
+    "sap.ui.layout.BlockLayout-aggregations": {
+        "prefix": "!5-block-layout-aggregations",
+        "body": [
+            "$1<content>",
+            "\t<!-- <sap.ui.layout.BlockLayoutRow /> -->",
+            "</content>",
+            "$2"
+        ],
+        "description": "sap.ui.layout.BlockLayout with non-inherited aggregations"
+    },
+    "sap.ui.layout.BlockLayout-events": {
+        "prefix": "!5-block-layout-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.layout.BlockLayout with non-inherited events"
+    },
+    "sap.ui.layout.BlockLayout-all": {
+        "prefix": "!5-block-layout-all",
+        "body": [
+            "$1background=\"Default\"",
+            "keepFontSize=\"false\"",
+            "<content>",
+            "\t<!-- <sap.ui.layout.BlockLayoutRow /> -->",
+            "</content>$2"
+        ],
+        "description": "sap.ui.layout.BlockLayout with non-inherited properties, aggregations and events"
+    }
+}

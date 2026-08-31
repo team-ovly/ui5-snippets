@@ -1,0 +1,44 @@
+{
+    "sap.ui.mdc.valuehelp.base.DialogTab": {
+        "prefix": "!5-dialog-tab",
+        "body": [
+            "<DialogTab ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.mdc.valuehelp.base.DialogTab"
+    },
+    "sap.ui.mdc.valuehelp.base.DialogTab-properties": {
+        "prefix": "!5-dialog-tab-properties",
+        "body": [
+            "$1content=\"\"$2"
+        ],
+        "description": "sap.ui.mdc.valuehelp.base.DialogTab with non-inherited properties"
+    },
+    "sap.ui.mdc.valuehelp.base.DialogTab-aggregations": {
+        "prefix": "!5-dialog-tab-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.mdc.valuehelp.base.DialogTab with non-inherited aggregations"
+    },
+    "sap.ui.mdc.valuehelp.base.DialogTab-events": {
+        "prefix": "!5-dialog-tab-events",
+        "body": [
+            "$1select=\".on${3:Select}\"",
+            "confirm=\".on${4:Confirm}\"",
+            "cancel=\".on${5:Cancel}\"$2"
+        ],
+        "description": "sap.ui.mdc.valuehelp.base.DialogTab with non-inherited events"
+    },
+    "sap.ui.mdc.valuehelp.base.DialogTab-all": {
+        "prefix": "!5-dialog-tab-all",
+        "body": [
+            "$1content=\"\"",
+            "select=\".on${3:Select}\"",
+            "confirm=\".on${4:Confirm}\"",
+            "cancel=\".on${5:Cancel}\"$2"
+        ],
+        "description": "sap.ui.mdc.valuehelp.base.DialogTab with non-inherited properties, aggregations and events"
+    }
+}

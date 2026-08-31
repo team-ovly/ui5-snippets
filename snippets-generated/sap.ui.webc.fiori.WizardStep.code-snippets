@@ -1,0 +1,55 @@
+{
+    "sap.ui.webc.fiori.WizardStep": {
+        "prefix": "!5-wizard-step",
+        "body": [
+            "<WizardStep ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.webc.fiori.WizardStep"
+    },
+    "sap.ui.webc.fiori.WizardStep-properties": {
+        "prefix": "!5-wizard-step-properties",
+        "body": [
+            "$1branching=\"false\"",
+            "enabled=\"true\"",
+            "icon=\"\"",
+            "selected=\"false\"",
+            "subtitleText=\"\"",
+            "titleText=\"\"$2"
+        ],
+        "description": "sap.ui.webc.fiori.WizardStep with non-inherited properties"
+    },
+    "sap.ui.webc.fiori.WizardStep-aggregations": {
+        "prefix": "!5-wizard-step-aggregations",
+        "body": [
+            "$1<content>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</content>",
+            "$2"
+        ],
+        "description": "sap.ui.webc.fiori.WizardStep with non-inherited aggregations"
+    },
+    "sap.ui.webc.fiori.WizardStep-events": {
+        "prefix": "!5-wizard-step-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.webc.fiori.WizardStep with non-inherited events"
+    },
+    "sap.ui.webc.fiori.WizardStep-all": {
+        "prefix": "!5-wizard-step-all",
+        "body": [
+            "$1branching=\"false\"",
+            "enabled=\"true\"",
+            "icon=\"\"",
+            "selected=\"false\"",
+            "subtitleText=\"\"",
+            "titleText=\"\"",
+            "<content>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</content>$2"
+        ],
+        "description": "sap.ui.webc.fiori.WizardStep with non-inherited properties, aggregations and events"
+    }
+}

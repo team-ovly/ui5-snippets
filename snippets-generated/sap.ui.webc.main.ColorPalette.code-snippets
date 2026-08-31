@@ -1,0 +1,45 @@
+{
+    "sap.ui.webc.main.ColorPalette": {
+        "prefix": "!5-color-palette",
+        "body": [
+            "<ColorPalette ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.webc.main.ColorPalette"
+    },
+    "sap.ui.webc.main.ColorPalette-properties": {
+        "prefix": "!5-color-palette-properties",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.webc.main.ColorPalette with non-inherited properties"
+    },
+    "sap.ui.webc.main.ColorPalette-aggregations": {
+        "prefix": "!5-color-palette-aggregations",
+        "body": [
+            "$1<colors>",
+            "\t<!-- <sap.ui.webc.main.IColorPaletteItem /> -->",
+            "</colors>",
+            "$2"
+        ],
+        "description": "sap.ui.webc.main.ColorPalette with non-inherited aggregations"
+    },
+    "sap.ui.webc.main.ColorPalette-events": {
+        "prefix": "!5-color-palette-events",
+        "body": [
+            "$1itemClick=\".on${3:ItemClick}\"$2"
+        ],
+        "description": "sap.ui.webc.main.ColorPalette with non-inherited events"
+    },
+    "sap.ui.webc.main.ColorPalette-all": {
+        "prefix": "!5-color-palette-all",
+        "body": [
+            "$1<colors>",
+            "\t<!-- <sap.ui.webc.main.IColorPaletteItem /> -->",
+            "</colors>",
+            "itemClick=\".on${3:ItemClick}\"$2"
+        ],
+        "description": "sap.ui.webc.main.ColorPalette with non-inherited properties, aggregations and events"
+    }
+}

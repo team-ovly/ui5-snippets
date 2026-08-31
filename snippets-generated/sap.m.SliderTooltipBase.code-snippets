@@ -1,0 +1,39 @@
+{
+    "sap.m.SliderTooltipBase": {
+        "prefix": "!5-slider-tooltip-base",
+        "body": [
+            "<SliderTooltipBase ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.SliderTooltipBase"
+    },
+    "sap.m.SliderTooltipBase-properties": {
+        "prefix": "!5-slider-tooltip-base-properties",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.m.SliderTooltipBase with non-inherited properties"
+    },
+    "sap.m.SliderTooltipBase-aggregations": {
+        "prefix": "!5-slider-tooltip-base-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.m.SliderTooltipBase with non-inherited aggregations"
+    },
+    "sap.m.SliderTooltipBase-events": {
+        "prefix": "!5-slider-tooltip-base-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.m.SliderTooltipBase with non-inherited events"
+    },
+    "sap.m.SliderTooltipBase-all": {
+        "prefix": "!5-slider-tooltip-base-all",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.m.SliderTooltipBase with non-inherited properties, aggregations and events"
+    }
+}

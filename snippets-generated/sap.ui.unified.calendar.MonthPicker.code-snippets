@@ -1,0 +1,68 @@
+{
+    "sap.ui.unified.calendar.MonthPicker": {
+        "prefix": "!5-month-picker",
+        "body": [
+            "<MonthPicker ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.unified.calendar.MonthPicker"
+    },
+    "sap.ui.unified.calendar.MonthPicker-properties": {
+        "prefix": "!5-month-picker-properties",
+        "body": [
+            "$1month=\"0\"",
+            "months=\"12\"",
+            "intervalSelection=\"false\"",
+            "_singleSelection=\"true\"",
+            "_showSelectedRange=\"false\"",
+            "columns=\"3\"",
+            "primaryCalendarType=\"\"",
+            "secondaryCalendarType=\"\"",
+            "_firstMonth=\"0\"",
+            "_focusedMonth=\"\"$2"
+        ],
+        "description": "sap.ui.unified.calendar.MonthPicker with non-inherited properties"
+    },
+    "sap.ui.unified.calendar.MonthPicker-aggregations": {
+        "prefix": "!5-month-picker-aggregations",
+        "body": [
+            "$1<selectedDates>",
+            "\t<!-- <sap.ui.unified.DateRange /> -->",
+            "</selectedDates>",
+            "$2"
+        ],
+        "description": "sap.ui.unified.calendar.MonthPicker with non-inherited aggregations"
+    },
+    "sap.ui.unified.calendar.MonthPicker-events": {
+        "prefix": "!5-month-picker-events",
+        "body": [
+            "$1select=\".on${3:Select}\"",
+            "pageChange=\".on${4:PageChange}\"",
+            "ariaLabelledBy=\".on${5:AriaLabelledBy}\"$2"
+        ],
+        "description": "sap.ui.unified.calendar.MonthPicker with non-inherited events"
+    },
+    "sap.ui.unified.calendar.MonthPicker-all": {
+        "prefix": "!5-month-picker-all",
+        "body": [
+            "$1month=\"0\"",
+            "months=\"12\"",
+            "intervalSelection=\"false\"",
+            "_singleSelection=\"true\"",
+            "_showSelectedRange=\"false\"",
+            "columns=\"3\"",
+            "primaryCalendarType=\"\"",
+            "secondaryCalendarType=\"\"",
+            "_firstMonth=\"0\"",
+            "_focusedMonth=\"\"",
+            "<selectedDates>",
+            "\t<!-- <sap.ui.unified.DateRange /> -->",
+            "</selectedDates>",
+            "select=\".on${3:Select}\"",
+            "pageChange=\".on${4:PageChange}\"",
+            "ariaLabelledBy=\".on${5:AriaLabelledBy}\"$2"
+        ],
+        "description": "sap.ui.unified.calendar.MonthPicker with non-inherited properties, aggregations and events"
+    }
+}

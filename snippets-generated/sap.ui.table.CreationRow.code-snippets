@@ -1,0 +1,58 @@
+{
+    "sap.ui.table.CreationRow": {
+        "prefix": "!5-creation-row",
+        "body": [
+            "<CreationRow ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.table.CreationRow"
+    },
+    "sap.ui.table.CreationRow-properties": {
+        "prefix": "!5-creation-row-properties",
+        "body": [
+            "$1applyEnabled=\"true\"$2"
+        ],
+        "description": "sap.ui.table.CreationRow with non-inherited properties"
+    },
+    "sap.ui.table.CreationRow-aggregations": {
+        "prefix": "!5-creation-row-aggregations",
+        "body": [
+            "$1<cells>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</cells>",
+            "<toolbar>",
+            "\t<!-- <sap.ui.core.Toolbar /> -->",
+            "</toolbar>",
+            "<_defaultToolbar>",
+            "\t<!-- <sap.ui.core.Toolbar /> -->",
+            "</_defaultToolbar>",
+            "$2"
+        ],
+        "description": "sap.ui.table.CreationRow with non-inherited aggregations"
+    },
+    "sap.ui.table.CreationRow-events": {
+        "prefix": "!5-creation-row-events",
+        "body": [
+            "$1apply=\".on${3:Apply}\"$2"
+        ],
+        "description": "sap.ui.table.CreationRow with non-inherited events"
+    },
+    "sap.ui.table.CreationRow-all": {
+        "prefix": "!5-creation-row-all",
+        "body": [
+            "$1applyEnabled=\"true\"",
+            "<cells>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</cells>",
+            "<toolbar>",
+            "\t<!-- <sap.ui.core.Toolbar /> -->",
+            "</toolbar>",
+            "<_defaultToolbar>",
+            "\t<!-- <sap.ui.core.Toolbar /> -->",
+            "</_defaultToolbar>",
+            "apply=\".on${3:Apply}\"$2"
+        ],
+        "description": "sap.ui.table.CreationRow with non-inherited properties, aggregations and events"
+    }
+}

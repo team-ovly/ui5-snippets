@@ -1,0 +1,64 @@
+{
+    "sap.m.FacetFilterList": {
+        "prefix": "!5-facet-filter-list",
+        "body": [
+            "<FacetFilterList ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.m.FacetFilterList"
+    },
+    "sap.m.FacetFilterList-properties": {
+        "prefix": "!5-facet-filter-list-properties",
+        "body": [
+            "$1title=\"\"",
+            "wordWrap=\"false\"",
+            "multiSelect=\"true\"",
+            "active=\"true\"",
+            "enableCaseInsensitiveSearch=\"false\"",
+            "allCount=\"\"",
+            "sequence=\"-1\"",
+            "key=\"\"",
+            "showRemoveFacetIcon=\"true\"",
+            "retainListSequence=\"false\"",
+            "dataType=\"String\"$2"
+        ],
+        "description": "sap.m.FacetFilterList with non-inherited properties"
+    },
+    "sap.m.FacetFilterList-aggregations": {
+        "prefix": "!5-facet-filter-list-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.m.FacetFilterList with non-inherited aggregations"
+    },
+    "sap.m.FacetFilterList-events": {
+        "prefix": "!5-facet-filter-list-events",
+        "body": [
+            "$1listOpen=\".on${3:ListOpen}\"",
+            "listClose=\".on${4:ListClose}\"",
+            "search=\".on${5:Search}\"$2"
+        ],
+        "description": "sap.m.FacetFilterList with non-inherited events"
+    },
+    "sap.m.FacetFilterList-all": {
+        "prefix": "!5-facet-filter-list-all",
+        "body": [
+            "$1title=\"\"",
+            "wordWrap=\"false\"",
+            "multiSelect=\"true\"",
+            "active=\"true\"",
+            "enableCaseInsensitiveSearch=\"false\"",
+            "allCount=\"\"",
+            "sequence=\"-1\"",
+            "key=\"\"",
+            "showRemoveFacetIcon=\"true\"",
+            "retainListSequence=\"false\"",
+            "dataType=\"String\"",
+            "listOpen=\".on${3:ListOpen}\"",
+            "listClose=\".on${4:ListClose}\"",
+            "search=\".on${5:Search}\"$2"
+        ],
+        "description": "sap.m.FacetFilterList with non-inherited properties, aggregations and events"
+    }
+}

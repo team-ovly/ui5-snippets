@@ -1,0 +1,61 @@
+{
+    "sap.ui.webc.main.Tab": {
+        "prefix": "!5-tab",
+        "body": [
+            "<Tab ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.webc.main.Tab"
+    },
+    "sap.ui.webc.main.Tab-properties": {
+        "prefix": "!5-tab-properties",
+        "body": [
+            "$1additionalText=\"\"",
+            "design=\"Default\"",
+            "enabled=\"true\"",
+            "icon=\"\"",
+            "selected=\"false\"",
+            "text=\"\"$2"
+        ],
+        "description": "sap.ui.webc.main.Tab with non-inherited properties"
+    },
+    "sap.ui.webc.main.Tab-aggregations": {
+        "prefix": "!5-tab-aggregations",
+        "body": [
+            "$1<content>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</content>",
+            "<subTabs>",
+            "\t<!-- <sap.ui.webc.main.ITab /> -->",
+            "</subTabs>",
+            "$2"
+        ],
+        "description": "sap.ui.webc.main.Tab with non-inherited aggregations"
+    },
+    "sap.ui.webc.main.Tab-events": {
+        "prefix": "!5-tab-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.webc.main.Tab with non-inherited events"
+    },
+    "sap.ui.webc.main.Tab-all": {
+        "prefix": "!5-tab-all",
+        "body": [
+            "$1additionalText=\"\"",
+            "design=\"Default\"",
+            "enabled=\"true\"",
+            "icon=\"\"",
+            "selected=\"false\"",
+            "text=\"\"",
+            "<content>",
+            "\t<!-- <sap.ui.core.Control /> -->",
+            "</content>",
+            "<subTabs>",
+            "\t<!-- <sap.ui.webc.main.ITab /> -->",
+            "</subTabs>$2"
+        ],
+        "description": "sap.ui.webc.main.Tab with non-inherited properties, aggregations and events"
+    }
+}

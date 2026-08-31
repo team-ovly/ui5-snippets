@@ -1,0 +1,46 @@
+{
+    "sap.ui.integration.editor.fields.viz.IconSelect": {
+        "prefix": "!5-icon-select",
+        "body": [
+            "<IconSelect ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.integration.editor.fields.viz.IconSelect"
+    },
+    "sap.ui.integration.editor.fields.viz.IconSelect-properties": {
+        "prefix": "!5-icon-select-properties",
+        "body": [
+            "$1value=\"\"",
+            "allowFile=\"true\"",
+            "allowNone=\"true\"",
+            "allowDefaultIcons=\"true\"$2"
+        ],
+        "description": "sap.ui.integration.editor.fields.viz.IconSelect with non-inherited properties"
+    },
+    "sap.ui.integration.editor.fields.viz.IconSelect-aggregations": {
+        "prefix": "!5-icon-select-aggregations",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.integration.editor.fields.viz.IconSelect with non-inherited aggregations"
+    },
+    "sap.ui.integration.editor.fields.viz.IconSelect-events": {
+        "prefix": "!5-icon-select-events",
+        "body": [
+            "$1change=\".on${3:Change}\"$2"
+        ],
+        "description": "sap.ui.integration.editor.fields.viz.IconSelect with non-inherited events"
+    },
+    "sap.ui.integration.editor.fields.viz.IconSelect-all": {
+        "prefix": "!5-icon-select-all",
+        "body": [
+            "$1value=\"\"",
+            "allowFile=\"true\"",
+            "allowNone=\"true\"",
+            "allowDefaultIcons=\"true\"",
+            "change=\".on${3:Change}\"$2"
+        ],
+        "description": "sap.ui.integration.editor.fields.viz.IconSelect with non-inherited properties, aggregations and events"
+    }
+}

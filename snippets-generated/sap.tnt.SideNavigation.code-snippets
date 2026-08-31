@@ -1,0 +1,70 @@
+{
+    "sap.tnt.SideNavigation": {
+        "prefix": "!5-side-navigation",
+        "body": [
+            "<SideNavigation ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.tnt.SideNavigation"
+    },
+    "sap.tnt.SideNavigation-properties": {
+        "prefix": "!5-side-navigation-properties",
+        "body": [
+            "$1width=\"\"",
+            "expanded=\"true\"",
+            "selectedKey=\"\"",
+            "ariaLabel=\"\"",
+            "design=\"Decorated\"$2"
+        ],
+        "description": "sap.tnt.SideNavigation with non-inherited properties"
+    },
+    "sap.tnt.SideNavigation-aggregations": {
+        "prefix": "!5-side-navigation-aggregations",
+        "body": [
+            "$1<item>",
+            "\t<!-- <sap.tnt.NavigationList /> -->",
+            "</item>",
+            "<fixedItem>",
+            "\t<!-- <sap.tnt.NavigationList /> -->",
+            "</fixedItem>",
+            "<footer>",
+            "\t<!-- <sap.tnt.NavigationList /> -->",
+            "</footer>",
+            "$2"
+        ],
+        "description": "sap.tnt.SideNavigation with non-inherited aggregations"
+    },
+    "sap.tnt.SideNavigation-events": {
+        "prefix": "!5-side-navigation-events",
+        "body": [
+            "$1itemSelect=\".on${3:ItemSelect}\"",
+            "itemPress=\".on${4:ItemPress}\"",
+            "selectedItem=\".on${5:SelectedItem}\"$2"
+        ],
+        "description": "sap.tnt.SideNavigation with non-inherited events"
+    },
+    "sap.tnt.SideNavigation-all": {
+        "prefix": "!5-side-navigation-all",
+        "body": [
+            "$1width=\"\"",
+            "expanded=\"true\"",
+            "selectedKey=\"\"",
+            "ariaLabel=\"\"",
+            "design=\"Decorated\"",
+            "<item>",
+            "\t<!-- <sap.tnt.NavigationList /> -->",
+            "</item>",
+            "<fixedItem>",
+            "\t<!-- <sap.tnt.NavigationList /> -->",
+            "</fixedItem>",
+            "<footer>",
+            "\t<!-- <sap.tnt.NavigationList /> -->",
+            "</footer>",
+            "itemSelect=\".on${3:ItemSelect}\"",
+            "itemPress=\".on${4:ItemPress}\"",
+            "selectedItem=\".on${5:SelectedItem}\"$2"
+        ],
+        "description": "sap.tnt.SideNavigation with non-inherited properties, aggregations and events"
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "sap.ui.webc.main.Breadcrumbs": {
+        "prefix": "!5-breadcrumbs",
+        "body": [
+            "<Breadcrumbs ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.webc.main.Breadcrumbs"
+    },
+    "sap.ui.webc.main.Breadcrumbs-properties": {
+        "prefix": "!5-breadcrumbs-properties",
+        "body": [
+            "$1design=\"Standard\"",
+            "separatorStyle=\"Slash\"$2"
+        ],
+        "description": "sap.ui.webc.main.Breadcrumbs with non-inherited properties"
+    },
+    "sap.ui.webc.main.Breadcrumbs-aggregations": {
+        "prefix": "!5-breadcrumbs-aggregations",
+        "body": [
+            "$1<items>",
+            "\t<!-- <sap.ui.webc.main.IBreadcrumbsItem /> -->",
+            "</items>",
+            "$2"
+        ],
+        "description": "sap.ui.webc.main.Breadcrumbs with non-inherited aggregations"
+    },
+    "sap.ui.webc.main.Breadcrumbs-events": {
+        "prefix": "!5-breadcrumbs-events",
+        "body": [
+            "$1itemClick=\".on${3:ItemClick}\"$2"
+        ],
+        "description": "sap.ui.webc.main.Breadcrumbs with non-inherited events"
+    },
+    "sap.ui.webc.main.Breadcrumbs-all": {
+        "prefix": "!5-breadcrumbs-all",
+        "body": [
+            "$1design=\"Standard\"",
+            "separatorStyle=\"Slash\"",
+            "<items>",
+            "\t<!-- <sap.ui.webc.main.IBreadcrumbsItem /> -->",
+            "</items>",
+            "itemClick=\".on${3:ItemClick}\"$2"
+        ],
+        "description": "sap.ui.webc.main.Breadcrumbs with non-inherited properties, aggregations and events"
+    }
+}

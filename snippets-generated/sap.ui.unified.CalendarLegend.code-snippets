@@ -1,0 +1,53 @@
+{
+    "sap.ui.unified.CalendarLegend": {
+        "prefix": "!5-calendar-legend",
+        "body": [
+            "<CalendarLegend ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.unified.CalendarLegend"
+    },
+    "sap.ui.unified.CalendarLegend-properties": {
+        "prefix": "!5-calendar-legend-properties",
+        "body": [
+            "$1standardItems=\"Today,Selected,WorkingDay,NonWorkingDay\"",
+            "columnWidth=\"120px\"$2"
+        ],
+        "description": "sap.ui.unified.CalendarLegend with non-inherited properties"
+    },
+    "sap.ui.unified.CalendarLegend-aggregations": {
+        "prefix": "!5-calendar-legend-aggregations",
+        "body": [
+            "$1<items>",
+            "\t<!-- <sap.ui.unified.CalendarLegendItem /> -->",
+            "</items>",
+            "<_standardItems>",
+            "\t<!-- <sap.ui.unified.CalendarLegendItem /> -->",
+            "</_standardItems>",
+            "$2"
+        ],
+        "description": "sap.ui.unified.CalendarLegend with non-inherited aggregations"
+    },
+    "sap.ui.unified.CalendarLegend-events": {
+        "prefix": "!5-calendar-legend-events",
+        "body": [
+            "$1$2"
+        ],
+        "description": "sap.ui.unified.CalendarLegend with non-inherited events"
+    },
+    "sap.ui.unified.CalendarLegend-all": {
+        "prefix": "!5-calendar-legend-all",
+        "body": [
+            "$1standardItems=\"Today,Selected,WorkingDay,NonWorkingDay\"",
+            "columnWidth=\"120px\"",
+            "<items>",
+            "\t<!-- <sap.ui.unified.CalendarLegendItem /> -->",
+            "</items>",
+            "<_standardItems>",
+            "\t<!-- <sap.ui.unified.CalendarLegendItem /> -->",
+            "</_standardItems>$2"
+        ],
+        "description": "sap.ui.unified.CalendarLegend with non-inherited properties, aggregations and events"
+    }
+}
