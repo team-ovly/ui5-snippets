@@ -1,49 +1,57 @@
 {
     "sap.m.DateTimePicker": {
-        "prefix": "!5-date-time-picker",
+        "prefix": "!5-sap-m-datetimepicker",
         "body": [
-            "<DateTimePicker ",
+            "<m:DateTimePicker ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.m.DateTimePicker"
     },
     "sap.m.DateTimePicker-properties": {
-        "prefix": "!5-date-time-picker-properties",
+        "prefix": "!5-sap-m-datetimepicker",
         "body": [
-            "$1minutesStep=\"1\"",
-            "secondsStep=\"1\"",
-            "showCurrentTimeButton=\"false\"",
-            "showTimezone=\"\"",
-            "timezone=\"\"",
-            "showFooter=\"false\"$2"
+            "<m:DateTimePicker",
+            "\tminutesStep=\"1\"",
+            "\tsecondsStep=\"1\"",
+            "\tshowCurrentTimeButton=\"false\"",
+            "\tshowTimezone=\"null\"",
+            "\ttimezone=\"null\"",
+            "\tshowFooter=\"false\"",
+            "$1/>"
         ],
-        "description": "sap.m.DateTimePicker with non-inherited properties"
+        "description": "sap.m.DateTimePicker"
     },
     "sap.m.DateTimePicker-aggregations": {
-        "prefix": "!5-date-time-picker-aggregations",
+        "prefix": "!5-sap-m-datetimepicker",
         "body": [
-            "$1$2"
+            "<m:DateTimePicker>",
+            "</m:DateTimePicker>"
         ],
-        "description": "sap.m.DateTimePicker with non-inherited aggregations"
+        "description": "sap.m.DateTimePicker"
     },
     "sap.m.DateTimePicker-events": {
-        "prefix": "!5-date-time-picker-events",
+        "prefix": "!5-sap-m-datetimepicker",
         "body": [
-            "$1$2"
+            "<m:DateTimePicker",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.DateTimePicker with non-inherited events"
+        "description": "sap.m.DateTimePicker"
     },
     "sap.m.DateTimePicker-all": {
-        "prefix": "!5-date-time-picker-all",
+        "prefix": "!5-sap-m-datetimepicker",
         "body": [
-            "$1minutesStep=\"1\"",
-            "secondsStep=\"1\"",
-            "showCurrentTimeButton=\"false\"",
-            "showTimezone=\"\"",
-            "timezone=\"\"",
-            "showFooter=\"false\"$2"
+            "<m:DateTimePicker",
+            "\tminutesStep=\"1\"",
+            "\tsecondsStep=\"1\"",
+            "\tshowCurrentTimeButton=\"false\"",
+            "\tshowTimezone=\"null\"",
+            "\ttimezone=\"null\"",
+            "\tshowFooter=\"false\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.DateTimePicker with non-inherited properties, aggregations and events"
+        "description": "sap.m.DateTimePicker"
     }
 }

@@ -1,69 +1,77 @@
 {
     "sap.ui.layout.form.ResponsiveGridLayout": {
-        "prefix": "!5-responsive-grid-layout",
+        "prefix": "!5-sap-ui-layout-form-responsivegridlayout",
         "body": [
-            "<ResponsiveGridLayout ",
+            "<form:ResponsiveGridLayout ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.ui.layout.form.ResponsiveGridLayout"
     },
     "sap.ui.layout.form.ResponsiveGridLayout-properties": {
-        "prefix": "!5-responsive-grid-layout-properties",
+        "prefix": "!5-sap-ui-layout-form-responsivegridlayout",
         "body": [
-            "$1labelSpanXL=\"-1\"",
-            "labelSpanL=\"4\"",
-            "labelSpanM=\"2\"",
-            "labelSpanS=\"12\"",
-            "adjustLabelSpan=\"true\"",
-            "emptySpanXL=\"-1\"",
-            "emptySpanL=\"0\"",
-            "emptySpanM=\"0\"",
-            "emptySpanS=\"0\"",
-            "columnsXL=\"-1\"",
-            "columnsL=\"2\"",
-            "columnsM=\"1\"",
-            "singleContainerFullSize=\"true\"",
-            "breakpointXL=\"1440\"",
-            "breakpointL=\"1024\"",
-            "breakpointM=\"600\"$2"
+            "<form:ResponsiveGridLayout",
+            "\tlabelSpanXL=\"-1\"",
+            "\tlabelSpanL=\"4\"",
+            "\tlabelSpanM=\"2\"",
+            "\tlabelSpanS=\"12\"",
+            "\tadjustLabelSpan=\"true\"",
+            "\temptySpanXL=\"-1\"",
+            "\temptySpanL=\"0\"",
+            "\temptySpanM=\"0\"",
+            "\temptySpanS=\"0\"",
+            "\tcolumnsXL=\"-1\"",
+            "\tcolumnsL=\"2\"",
+            "\tcolumnsM=\"1\"",
+            "\tsingleContainerFullSize=\"true\"",
+            "\tbreakpointXL=\"1440\"",
+            "\tbreakpointL=\"1024\"",
+            "\tbreakpointM=\"600\"",
+            "$1/>"
         ],
-        "description": "sap.ui.layout.form.ResponsiveGridLayout with non-inherited properties"
+        "description": "sap.ui.layout.form.ResponsiveGridLayout"
     },
     "sap.ui.layout.form.ResponsiveGridLayout-aggregations": {
-        "prefix": "!5-responsive-grid-layout-aggregations",
+        "prefix": "!5-sap-ui-layout-form-responsivegridlayout",
         "body": [
-            "$1$2"
+            "<form:ResponsiveGridLayout>",
+            "</form:ResponsiveGridLayout>"
         ],
-        "description": "sap.ui.layout.form.ResponsiveGridLayout with non-inherited aggregations"
+        "description": "sap.ui.layout.form.ResponsiveGridLayout"
     },
     "sap.ui.layout.form.ResponsiveGridLayout-events": {
-        "prefix": "!5-responsive-grid-layout-events",
+        "prefix": "!5-sap-ui-layout-form-responsivegridlayout",
         "body": [
-            "$1$2"
+            "<form:ResponsiveGridLayout",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.ui.layout.form.ResponsiveGridLayout with non-inherited events"
+        "description": "sap.ui.layout.form.ResponsiveGridLayout"
     },
     "sap.ui.layout.form.ResponsiveGridLayout-all": {
-        "prefix": "!5-responsive-grid-layout-all",
+        "prefix": "!5-sap-ui-layout-form-responsivegridlayout",
         "body": [
-            "$1labelSpanXL=\"-1\"",
-            "labelSpanL=\"4\"",
-            "labelSpanM=\"2\"",
-            "labelSpanS=\"12\"",
-            "adjustLabelSpan=\"true\"",
-            "emptySpanXL=\"-1\"",
-            "emptySpanL=\"0\"",
-            "emptySpanM=\"0\"",
-            "emptySpanS=\"0\"",
-            "columnsXL=\"-1\"",
-            "columnsL=\"2\"",
-            "columnsM=\"1\"",
-            "singleContainerFullSize=\"true\"",
-            "breakpointXL=\"1440\"",
-            "breakpointL=\"1024\"",
-            "breakpointM=\"600\"$2"
+            "<form:ResponsiveGridLayout",
+            "\tlabelSpanXL=\"-1\"",
+            "\tlabelSpanL=\"4\"",
+            "\tlabelSpanM=\"2\"",
+            "\tlabelSpanS=\"12\"",
+            "\tadjustLabelSpan=\"true\"",
+            "\temptySpanXL=\"-1\"",
+            "\temptySpanL=\"0\"",
+            "\temptySpanM=\"0\"",
+            "\temptySpanS=\"0\"",
+            "\tcolumnsXL=\"-1\"",
+            "\tcolumnsL=\"2\"",
+            "\tcolumnsM=\"1\"",
+            "\tsingleContainerFullSize=\"true\"",
+            "\tbreakpointXL=\"1440\"",
+            "\tbreakpointL=\"1024\"",
+            "\tbreakpointM=\"600\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.ui.layout.form.ResponsiveGridLayout with non-inherited properties, aggregations and events"
+        "description": "sap.ui.layout.form.ResponsiveGridLayout"
     }
 }

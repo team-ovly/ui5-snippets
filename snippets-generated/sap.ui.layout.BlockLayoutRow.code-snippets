@@ -1,48 +1,57 @@
 {
     "sap.ui.layout.BlockLayoutRow": {
-        "prefix": "!5-block-layout-row",
+        "prefix": "!5-sap-ui-layout-blocklayoutrow",
         "body": [
-            "<BlockLayoutRow ",
+            "<layout:BlockLayoutRow ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.ui.layout.BlockLayoutRow"
     },
     "sap.ui.layout.BlockLayoutRow-properties": {
-        "prefix": "!5-block-layout-row-properties",
+        "prefix": "!5-sap-ui-layout-blocklayoutrow",
         "body": [
-            "$1scrollable=\"false\"",
-            "rowColorSet=\"\"$2"
+            "<layout:BlockLayoutRow",
+            "\tscrollable=\"false\"",
+            "\trowColorSet=\"null\"",
+            "$1/>"
         ],
-        "description": "sap.ui.layout.BlockLayoutRow with non-inherited properties"
+        "description": "sap.ui.layout.BlockLayoutRow"
     },
     "sap.ui.layout.BlockLayoutRow-aggregations": {
-        "prefix": "!5-block-layout-row-aggregations",
+        "prefix": "!5-sap-ui-layout-blocklayoutrow",
         "body": [
-            "$1<content>",
-            "\t<!-- <sap.ui.layout.BlockLayoutCell /> -->",
-            "</content>",
-            "$2"
+            "<layout:BlockLayoutRow>",
+            "\t<layout:BlockLayoutCell>",
+            "\t\t$1",
+            "\t</layout:BlockLayoutCell>",
+            "</layout:BlockLayoutRow>"
         ],
-        "description": "sap.ui.layout.BlockLayoutRow with non-inherited aggregations"
+        "description": "sap.ui.layout.BlockLayoutRow"
     },
     "sap.ui.layout.BlockLayoutRow-events": {
-        "prefix": "!5-block-layout-row-events",
+        "prefix": "!5-sap-ui-layout-blocklayoutrow",
         "body": [
-            "$1accentCells=\".on${3:AccentCells}\"$2"
+            "<layout:BlockLayoutRow",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.ui.layout.BlockLayoutRow with non-inherited events"
+        "description": "sap.ui.layout.BlockLayoutRow"
     },
     "sap.ui.layout.BlockLayoutRow-all": {
-        "prefix": "!5-block-layout-row-all",
+        "prefix": "!5-sap-ui-layout-blocklayoutrow",
         "body": [
-            "$1scrollable=\"false\"",
-            "rowColorSet=\"\"",
-            "<content>",
-            "\t<!-- <sap.ui.layout.BlockLayoutCell /> -->",
-            "</content>",
-            "accentCells=\".on${3:AccentCells}\"$2"
+            "<layout:BlockLayoutRow",
+            "\tscrollable=\"false\"",
+            "\trowColorSet=\"null\"",
+            ">",
+            "\t<content>",
+            "\t\t<layout:BlockLayoutCell",
+            "\t\t\t$1",
+            "\t\t/>",
+            "\t</content>",
+            "</layout:BlockLayoutRow>"
         ],
-        "description": "sap.ui.layout.BlockLayoutRow with non-inherited properties, aggregations and events"
+        "description": "sap.ui.layout.BlockLayoutRow"
     }
 }

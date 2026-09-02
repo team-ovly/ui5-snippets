@@ -1,66 +1,77 @@
 {
     "sap.m.Shell": {
-        "prefix": "!5-shell",
+        "prefix": "!5-sap-m-shell",
         "body": [
-            "<Shell ",
+            "<m:Shell ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.m.Shell"
     },
     "sap.m.Shell-properties": {
-        "prefix": "!5-shell-properties",
+        "prefix": "!5-sap-m-shell",
         "body": [
-            "$1title=\"\"",
-            "logo=\"\"",
-            "showLogout=\"true\"",
-            "headerRightText=\"\"",
-            "appWidthLimited=\"true\"",
-            "backgroundColor=\"\"",
-            "backgroundImage=\"\"",
-            "backgroundRepeat=\"false\"",
-            "backgroundOpacity=\"1\"",
-            "homeIcon=\"\"",
-            "titleLevel=\"H1\"$2"
+            "<m:Shell",
+            "\ttitle=\"null\"",
+            "\tlogo=\"null\"",
+            "\tshowLogout=\"true\"",
+            "\theaderRightText=\"null\"",
+            "\tappWidthLimited=\"true\"",
+            "\tbackgroundColor=\"null\"",
+            "\tbackgroundImage=\"null\"",
+            "\tbackgroundRepeat=\"false\"",
+            "\tbackgroundOpacity=\"1\"",
+            "\thomeIcon=\"null\"",
+            "\ttitleLevel=\"H1\"",
+            "$1/>"
         ],
-        "description": "sap.m.Shell with non-inherited properties"
+        "description": "sap.m.Shell"
     },
     "sap.m.Shell-aggregations": {
-        "prefix": "!5-shell-aggregations",
+        "prefix": "!5-sap-m-shell",
         "body": [
-            "$1<app>",
-            "\t<!-- <sap.ui.core.Control /> -->",
-            "</app>",
-            "$2"
+            "<m:Shell>",
+            "\t<core:Control>",
+            "\t\t$1",
+            "\t</core:Control>",
+            "</m:Shell>"
         ],
-        "description": "sap.m.Shell with non-inherited aggregations"
+        "description": "sap.m.Shell"
     },
     "sap.m.Shell-events": {
-        "prefix": "!5-shell-events",
+        "prefix": "!5-sap-m-shell",
         "body": [
-            "$1logout=\".on${3:Logout}\"$2"
+            "<m:Shell",
+            "\tlogout=\".onLogout\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.Shell with non-inherited events"
+        "description": "sap.m.Shell"
     },
     "sap.m.Shell-all": {
-        "prefix": "!5-shell-all",
+        "prefix": "!5-sap-m-shell",
         "body": [
-            "$1title=\"\"",
-            "logo=\"\"",
-            "showLogout=\"true\"",
-            "headerRightText=\"\"",
-            "appWidthLimited=\"true\"",
-            "backgroundColor=\"\"",
-            "backgroundImage=\"\"",
-            "backgroundRepeat=\"false\"",
-            "backgroundOpacity=\"1\"",
-            "homeIcon=\"\"",
-            "titleLevel=\"H1\"",
-            "<app>",
-            "\t<!-- <sap.ui.core.Control /> -->",
-            "</app>",
-            "logout=\".on${3:Logout}\"$2"
+            "<m:Shell",
+            "\ttitle=\"null\"",
+            "\tlogo=\"null\"",
+            "\tshowLogout=\"true\"",
+            "\theaderRightText=\"null\"",
+            "\tappWidthLimited=\"true\"",
+            "\tbackgroundColor=\"null\"",
+            "\tbackgroundImage=\"null\"",
+            "\tbackgroundRepeat=\"false\"",
+            "\tbackgroundOpacity=\"1\"",
+            "\thomeIcon=\"null\"",
+            "\ttitleLevel=\"H1\"",
+            "\tlogout=\".onLogout\"",
+            ">",
+            "\t<app>",
+            "\t\t<core:Control",
+            "\t\t\t$1",
+            "\t\t/>",
+            "\t</app>",
+            "</m:Shell>"
         ],
-        "description": "sap.m.Shell with non-inherited properties, aggregations and events"
+        "description": "sap.m.Shell"
     }
 }

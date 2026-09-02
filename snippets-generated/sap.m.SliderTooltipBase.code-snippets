@@ -1,39 +1,45 @@
 {
     "sap.m.SliderTooltipBase": {
-        "prefix": "!5-slider-tooltip-base",
+        "prefix": "!5-sap-m-slidertooltipbase",
         "body": [
-            "<SliderTooltipBase ",
+            "<m:SliderTooltipBase ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.m.SliderTooltipBase"
     },
     "sap.m.SliderTooltipBase-properties": {
-        "prefix": "!5-slider-tooltip-base-properties",
+        "prefix": "!5-sap-m-slidertooltipbase",
         "body": [
-            "$1$2"
+            "<m:SliderTooltipBase",
+            "$1/>"
         ],
-        "description": "sap.m.SliderTooltipBase with non-inherited properties"
+        "description": "sap.m.SliderTooltipBase"
     },
     "sap.m.SliderTooltipBase-aggregations": {
-        "prefix": "!5-slider-tooltip-base-aggregations",
+        "prefix": "!5-sap-m-slidertooltipbase",
         "body": [
-            "$1$2"
+            "<m:SliderTooltipBase>",
+            "</m:SliderTooltipBase>"
         ],
-        "description": "sap.m.SliderTooltipBase with non-inherited aggregations"
+        "description": "sap.m.SliderTooltipBase"
     },
     "sap.m.SliderTooltipBase-events": {
-        "prefix": "!5-slider-tooltip-base-events",
+        "prefix": "!5-sap-m-slidertooltipbase",
         "body": [
-            "$1$2"
+            "<m:SliderTooltipBase",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.SliderTooltipBase with non-inherited events"
+        "description": "sap.m.SliderTooltipBase"
     },
     "sap.m.SliderTooltipBase-all": {
-        "prefix": "!5-slider-tooltip-base-all",
+        "prefix": "!5-sap-m-slidertooltipbase",
         "body": [
-            "$1$2"
+            "<m:SliderTooltipBase",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.SliderTooltipBase with non-inherited properties, aggregations and events"
+        "description": "sap.m.SliderTooltipBase"
     }
 }

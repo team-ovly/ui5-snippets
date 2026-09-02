@@ -1,60 +1,67 @@
 {
     "sap.m.BusyDialog": {
-        "prefix": "!5-busy-dialog",
+        "prefix": "!5-sap-m-busydialog",
         "body": [
-            "<BusyDialog ",
+            "<m:BusyDialog ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.m.BusyDialog"
     },
     "sap.m.BusyDialog-properties": {
-        "prefix": "!5-busy-dialog-properties",
+        "prefix": "!5-sap-m-busydialog",
         "body": [
-            "$1text=\"\"",
-            "title=\"\"",
-            "customIcon=\"\"",
-            "customIconRotationSpeed=\"1000\"",
-            "customIconDensityAware=\"true\"",
-            "customIconWidth=\"44px\"",
-            "customIconHeight=\"44px\"",
-            "cancelButtonText=\"\"",
-            "showCancelButton=\"false\"",
-            "titleAlignment=\"Auto\"$2"
+            "<m:BusyDialog",
+            "\ttext=\"\"",
+            "\ttitle=\"\"",
+            "\tcustomIcon=\"\"",
+            "\tcustomIconRotationSpeed=\"1000\"",
+            "\tcustomIconDensityAware=\"true\"",
+            "\tcustomIconWidth=\"44px\"",
+            "\tcustomIconHeight=\"44px\"",
+            "\tcancelButtonText=\"\"",
+            "\tshowCancelButton=\"false\"",
+            "\ttitleAlignment=\"Auto\"",
+            "$1/>"
         ],
-        "description": "sap.m.BusyDialog with non-inherited properties"
+        "description": "sap.m.BusyDialog"
     },
     "sap.m.BusyDialog-aggregations": {
-        "prefix": "!5-busy-dialog-aggregations",
+        "prefix": "!5-sap-m-busydialog",
         "body": [
-            "$1$2"
+            "<m:BusyDialog>",
+            "</m:BusyDialog>"
         ],
-        "description": "sap.m.BusyDialog with non-inherited aggregations"
+        "description": "sap.m.BusyDialog"
     },
     "sap.m.BusyDialog-events": {
-        "prefix": "!5-busy-dialog-events",
+        "prefix": "!5-sap-m-busydialog",
         "body": [
-            "$1close=\".on${3:Close}\"",
-            "ariaLabelledBy=\".on${4:AriaLabelledBy}\"$2"
+            "<m:BusyDialog",
+            "\tclose=\".onClose\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.BusyDialog with non-inherited events"
+        "description": "sap.m.BusyDialog"
     },
     "sap.m.BusyDialog-all": {
-        "prefix": "!5-busy-dialog-all",
+        "prefix": "!5-sap-m-busydialog",
         "body": [
-            "$1text=\"\"",
-            "title=\"\"",
-            "customIcon=\"\"",
-            "customIconRotationSpeed=\"1000\"",
-            "customIconDensityAware=\"true\"",
-            "customIconWidth=\"44px\"",
-            "customIconHeight=\"44px\"",
-            "cancelButtonText=\"\"",
-            "showCancelButton=\"false\"",
-            "titleAlignment=\"Auto\"",
-            "close=\".on${3:Close}\"",
-            "ariaLabelledBy=\".on${4:AriaLabelledBy}\"$2"
+            "<m:BusyDialog",
+            "\ttext=\"\"",
+            "\ttitle=\"\"",
+            "\tcustomIcon=\"\"",
+            "\tcustomIconRotationSpeed=\"1000\"",
+            "\tcustomIconDensityAware=\"true\"",
+            "\tcustomIconWidth=\"44px\"",
+            "\tcustomIconHeight=\"44px\"",
+            "\tcancelButtonText=\"\"",
+            "\tshowCancelButton=\"false\"",
+            "\ttitleAlignment=\"Auto\"",
+            "\tclose=\".onClose\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.BusyDialog with non-inherited properties, aggregations and events"
+        "description": "sap.m.BusyDialog"
     }
 }

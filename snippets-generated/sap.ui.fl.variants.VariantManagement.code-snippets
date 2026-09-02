@@ -1,76 +1,77 @@
 {
     "sap.ui.fl.variants.VariantManagement": {
-        "prefix": "!5-variant-management",
+        "prefix": "!5-sap-ui-fl-variants-variantmanagement",
         "body": [
-            "<VariantManagement ",
+            "<variants:VariantManagement ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.ui.fl.variants.VariantManagement"
     },
     "sap.ui.fl.variants.VariantManagement-properties": {
-        "prefix": "!5-variant-management-properties",
+        "prefix": "!5-sap-ui-fl-variants-variantmanagement",
         "body": [
-            "$1updateVariantInURL=\"false\"",
-            "resetOnContextChange=\"true\"",
-            "modelName=\"\"",
-            "editable=\"true\"",
-            "showSetAsDefault=\"true\"",
-            "inErrorState=\"false\"",
-            "executeOnSelectionForStandardDefault=\"false\"",
-            "displayTextForExecuteOnSelectionForStandardVariant=\"\"",
-            "headerLevel=\"Auto\"",
-            "titleStyle=\"Auto\"",
-            "maxWidth=\"100%\"$2"
+            "<variants:VariantManagement",
+            "\tupdateVariantInURL=\"false\"",
+            "\tresetOnContextChange=\"true\"",
+            "\tmodelName=\"\"",
+            "\teditable=\"true\"",
+            "\tshowSetAsDefault=\"true\"",
+            "\tinErrorState=\"false\"",
+            "\texecuteOnSelectionForStandardDefault=\"false\"",
+            "\tdisplayTextForExecuteOnSelectionForStandardVariant=\"\"",
+            "\theaderLevel=\"Auto\"",
+            "\ttitleStyle=\"Auto\"",
+            "\tmaxWidth=\"100%\"",
+            "$1/>"
         ],
-        "description": "sap.ui.fl.variants.VariantManagement with non-inherited properties"
+        "description": "sap.ui.fl.variants.VariantManagement"
     },
     "sap.ui.fl.variants.VariantManagement-aggregations": {
-        "prefix": "!5-variant-management-aggregations",
+        "prefix": "!5-sap-ui-fl-variants-variantmanagement",
         "body": [
-            "$1<_embeddedVM>",
-            "\t<!-- <sap.m.VariantManagement /> -->",
-            "</_embeddedVM>",
-            "$2"
+            "<variants:VariantManagement>",
+            "</variants:VariantManagement>"
         ],
-        "description": "sap.ui.fl.variants.VariantManagement with non-inherited aggregations"
+        "description": "sap.ui.fl.variants.VariantManagement"
     },
     "sap.ui.fl.variants.VariantManagement-events": {
-        "prefix": "!5-variant-management-events",
+        "prefix": "!5-sap-ui-fl-variants-variantmanagement",
         "body": [
-            "$1initialized=\".on${3:Initialized}\"",
-            "save=\".on${4:Save}\"",
-            "cancel=\".on${5:Cancel}\"",
-            "manage=\".on${6:Manage}\"",
-            "select=\".on${7:Select}\"",
-            "for=\".on${8:For}\"$2"
+            "<variants:VariantManagement",
+            "\tinitialized=\".onInitialized\"",
+            "\tsave=\".onSave\"",
+            "\tcancel=\".onCancel\"",
+            "\tmanage=\".onManage\"",
+            "\tselect=\".onSelect\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.ui.fl.variants.VariantManagement with non-inherited events"
+        "description": "sap.ui.fl.variants.VariantManagement"
     },
     "sap.ui.fl.variants.VariantManagement-all": {
-        "prefix": "!5-variant-management-all",
+        "prefix": "!5-sap-ui-fl-variants-variantmanagement",
         "body": [
-            "$1updateVariantInURL=\"false\"",
-            "resetOnContextChange=\"true\"",
-            "modelName=\"\"",
-            "editable=\"true\"",
-            "showSetAsDefault=\"true\"",
-            "inErrorState=\"false\"",
-            "executeOnSelectionForStandardDefault=\"false\"",
-            "displayTextForExecuteOnSelectionForStandardVariant=\"\"",
-            "headerLevel=\"Auto\"",
-            "titleStyle=\"Auto\"",
-            "maxWidth=\"100%\"",
-            "<_embeddedVM>",
-            "\t<!-- <sap.m.VariantManagement /> -->",
-            "</_embeddedVM>",
-            "initialized=\".on${3:Initialized}\"",
-            "save=\".on${4:Save}\"",
-            "cancel=\".on${5:Cancel}\"",
-            "manage=\".on${6:Manage}\"",
-            "select=\".on${7:Select}\"",
-            "for=\".on${8:For}\"$2"
+            "<variants:VariantManagement",
+            "\tupdateVariantInURL=\"false\"",
+            "\tresetOnContextChange=\"true\"",
+            "\tmodelName=\"\"",
+            "\teditable=\"true\"",
+            "\tshowSetAsDefault=\"true\"",
+            "\tinErrorState=\"false\"",
+            "\texecuteOnSelectionForStandardDefault=\"false\"",
+            "\tdisplayTextForExecuteOnSelectionForStandardVariant=\"\"",
+            "\theaderLevel=\"Auto\"",
+            "\ttitleStyle=\"Auto\"",
+            "\tmaxWidth=\"100%\"",
+            "\tinitialized=\".onInitialized\"",
+            "\tsave=\".onSave\"",
+            "\tcancel=\".onCancel\"",
+            "\tmanage=\".onManage\"",
+            "\tselect=\".onSelect\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.ui.fl.variants.VariantManagement with non-inherited properties, aggregations and events"
+        "description": "sap.ui.fl.variants.VariantManagement"
     }
 }

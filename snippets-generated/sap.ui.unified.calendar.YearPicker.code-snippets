@@ -1,66 +1,71 @@
 {
     "sap.ui.unified.calendar.YearPicker": {
-        "prefix": "!5-year-picker",
+        "prefix": "!5-sap-ui-unified-calendar-yearpicker",
         "body": [
-            "<YearPicker ",
+            "<calendar:YearPicker ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.ui.unified.calendar.YearPicker"
     },
     "sap.ui.unified.calendar.YearPicker-properties": {
-        "prefix": "!5-year-picker-properties",
+        "prefix": "!5-sap-ui-unified-calendar-yearpicker",
         "body": [
-            "$1year=\"2000\"",
-            "years=\"20\"",
-            "intervalSelection=\"false\"",
-            "_singleSelection=\"true\"",
-            "_showSelectedRange=\"false\"",
-            "columns=\"4\"",
-            "date=\"\"",
-            "primaryCalendarType=\"\"",
-            "secondaryCalendarType=\"\"",
-            "_middleDate=\"\"$2"
+            "<calendar:YearPicker",
+            "\tyear=\"2000\"",
+            "\tyears=\"20\"",
+            "\tintervalSelection=\"false\"",
+            "\tcolumns=\"4\"",
+            "\tdate=\"null\"",
+            "\tprimaryCalendarType=\"null\"",
+            "\tsecondaryCalendarType=\"null\"",
+            "$1/>"
         ],
-        "description": "sap.ui.unified.calendar.YearPicker with non-inherited properties"
+        "description": "sap.ui.unified.calendar.YearPicker"
     },
     "sap.ui.unified.calendar.YearPicker-aggregations": {
-        "prefix": "!5-year-picker-aggregations",
+        "prefix": "!5-sap-ui-unified-calendar-yearpicker",
         "body": [
-            "$1<selectedDates>",
-            "\t<!-- <sap.ui.unified.DateRange /> -->",
-            "</selectedDates>",
-            "$2"
+            "<calendar:YearPicker>",
+            "\t<unified:DateRange>",
+            "\t\t$1",
+            "\t</unified:DateRange>",
+            "</calendar:YearPicker>"
         ],
-        "description": "sap.ui.unified.calendar.YearPicker with non-inherited aggregations"
+        "description": "sap.ui.unified.calendar.YearPicker"
     },
     "sap.ui.unified.calendar.YearPicker-events": {
-        "prefix": "!5-year-picker-events",
+        "prefix": "!5-sap-ui-unified-calendar-yearpicker",
         "body": [
-            "$1select=\".on${3:Select}\"",
-            "pageChange=\".on${4:PageChange}\"$2"
+            "<calendar:YearPicker",
+            "\tselect=\".onSelect\"",
+            "\tpageChange=\".onPageChange\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.ui.unified.calendar.YearPicker with non-inherited events"
+        "description": "sap.ui.unified.calendar.YearPicker"
     },
     "sap.ui.unified.calendar.YearPicker-all": {
-        "prefix": "!5-year-picker-all",
+        "prefix": "!5-sap-ui-unified-calendar-yearpicker",
         "body": [
-            "$1year=\"2000\"",
-            "years=\"20\"",
-            "intervalSelection=\"false\"",
-            "_singleSelection=\"true\"",
-            "_showSelectedRange=\"false\"",
-            "columns=\"4\"",
-            "date=\"\"",
-            "primaryCalendarType=\"\"",
-            "secondaryCalendarType=\"\"",
-            "_middleDate=\"\"",
-            "<selectedDates>",
-            "\t<!-- <sap.ui.unified.DateRange /> -->",
-            "</selectedDates>",
-            "select=\".on${3:Select}\"",
-            "pageChange=\".on${4:PageChange}\"$2"
+            "<calendar:YearPicker",
+            "\tyear=\"2000\"",
+            "\tyears=\"20\"",
+            "\tintervalSelection=\"false\"",
+            "\tcolumns=\"4\"",
+            "\tdate=\"null\"",
+            "\tprimaryCalendarType=\"null\"",
+            "\tsecondaryCalendarType=\"null\"",
+            "\tselect=\".onSelect\"",
+            "\tpageChange=\".onPageChange\"",
+            ">",
+            "\t<selectedDates>",
+            "\t\t<unified:DateRange",
+            "\t\t\t$1",
+            "\t\t/>",
+            "\t</selectedDates>",
+            "</calendar:YearPicker>"
         ],
-        "description": "sap.ui.unified.calendar.YearPicker with non-inherited properties, aggregations and events"
+        "description": "sap.ui.unified.calendar.YearPicker"
     }
 }

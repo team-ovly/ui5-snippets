@@ -1,55 +1,63 @@
 {
     "sap.m.Text": {
-        "prefix": "!5-text",
+        "prefix": "!5-sap-m-text",
         "body": [
-            "<Text ",
+            "<m:Text ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.m.Text"
     },
     "sap.m.Text-properties": {
-        "prefix": "!5-text-properties",
+        "prefix": "!5-sap-m-text",
         "body": [
-            "$1text=\"\"",
-            "textDirection=\"Inherit\"",
-            "wrapping=\"true\"",
-            "wrappingType=\"Normal\"",
-            "textAlign=\"Begin\"",
-            "width=\"\"",
-            "maxLines=\"\"",
-            "renderWhitespace=\"false\"",
-            "emptyIndicatorMode=\"Off\"$2"
+            "<m:Text",
+            "\ttext=\"\"",
+            "\ttextDirection=\"Inherit\"",
+            "\twrapping=\"true\"",
+            "\twrappingType=\"Normal\"",
+            "\ttextAlign=\"Begin\"",
+            "\twidth=\"null\"",
+            "\tmaxLines=\"null\"",
+            "\trenderWhitespace=\"false\"",
+            "\temptyIndicatorMode=\"Off\"",
+            "$1/>"
         ],
-        "description": "sap.m.Text with non-inherited properties"
+        "description": "sap.m.Text"
     },
     "sap.m.Text-aggregations": {
-        "prefix": "!5-text-aggregations",
+        "prefix": "!5-sap-m-text",
         "body": [
-            "$1$2"
+            "<m:Text>",
+            "</m:Text>"
         ],
-        "description": "sap.m.Text with non-inherited aggregations"
+        "description": "sap.m.Text"
     },
     "sap.m.Text-events": {
-        "prefix": "!5-text-events",
+        "prefix": "!5-sap-m-text",
         "body": [
-            "$1$2"
+            "<m:Text",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.Text with non-inherited events"
+        "description": "sap.m.Text"
     },
     "sap.m.Text-all": {
-        "prefix": "!5-text-all",
+        "prefix": "!5-sap-m-text",
         "body": [
-            "$1text=\"\"",
-            "textDirection=\"Inherit\"",
-            "wrapping=\"true\"",
-            "wrappingType=\"Normal\"",
-            "textAlign=\"Begin\"",
-            "width=\"\"",
-            "maxLines=\"\"",
-            "renderWhitespace=\"false\"",
-            "emptyIndicatorMode=\"Off\"$2"
+            "<m:Text",
+            "\ttext=\"\"",
+            "\ttextDirection=\"Inherit\"",
+            "\twrapping=\"true\"",
+            "\twrappingType=\"Normal\"",
+            "\ttextAlign=\"Begin\"",
+            "\twidth=\"null\"",
+            "\tmaxLines=\"null\"",
+            "\trenderWhitespace=\"false\"",
+            "\temptyIndicatorMode=\"Off\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.Text with non-inherited properties, aggregations and events"
+        "description": "sap.m.Text"
     }
 }

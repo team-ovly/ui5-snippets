@@ -1,62 +1,67 @@
 {
     "sap.m.ObjectAttribute": {
-        "prefix": "!5-object-attribute",
+        "prefix": "!5-sap-m-objectattribute",
         "body": [
-            "<ObjectAttribute ",
+            "<m:ObjectAttribute ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.m.ObjectAttribute"
     },
     "sap.m.ObjectAttribute-properties": {
-        "prefix": "!5-object-attribute-properties",
+        "prefix": "!5-sap-m-objectattribute",
         "body": [
-            "$1title=\"\"",
-            "text=\"\"",
-            "active=\"\"",
-            "reactiveAreaMode=\"Inline\"",
-            "textDirection=\"Inherit\"",
-            "ariaHasPopup=\"None\"$2"
+            "<m:ObjectAttribute",
+            "\ttitle=\"null\"",
+            "\ttext=\"null\"",
+            "\tactive=\"null\"",
+            "\treactiveAreaMode=\"Inline\"",
+            "\ttextDirection=\"Inherit\"",
+            "\tariaHasPopup=\"None\"",
+            "$1/>"
         ],
-        "description": "sap.m.ObjectAttribute with non-inherited properties"
+        "description": "sap.m.ObjectAttribute"
     },
     "sap.m.ObjectAttribute-aggregations": {
-        "prefix": "!5-object-attribute-aggregations",
+        "prefix": "!5-sap-m-objectattribute",
         "body": [
-            "$1<customContent>",
-            "\t<!-- <sap.ui.core.Control /> -->",
-            "</customContent>",
-            "<_textControl>",
-            "\t<!-- <sap.ui.core.Control /> -->",
-            "</_textControl>",
-            "$2"
+            "<m:ObjectAttribute>",
+            "\t<core:Control>",
+            "\t\t$1",
+            "\t</core:Control>",
+            "</m:ObjectAttribute>"
         ],
-        "description": "sap.m.ObjectAttribute with non-inherited aggregations"
+        "description": "sap.m.ObjectAttribute"
     },
     "sap.m.ObjectAttribute-events": {
-        "prefix": "!5-object-attribute-events",
+        "prefix": "!5-sap-m-objectattribute",
         "body": [
-            "$1press=\".on${3:Press}\"$2"
+            "<m:ObjectAttribute",
+            "\tpress=\".onPress\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.ObjectAttribute with non-inherited events"
+        "description": "sap.m.ObjectAttribute"
     },
     "sap.m.ObjectAttribute-all": {
-        "prefix": "!5-object-attribute-all",
+        "prefix": "!5-sap-m-objectattribute",
         "body": [
-            "$1title=\"\"",
-            "text=\"\"",
-            "active=\"\"",
-            "reactiveAreaMode=\"Inline\"",
-            "textDirection=\"Inherit\"",
-            "ariaHasPopup=\"None\"",
-            "<customContent>",
-            "\t<!-- <sap.ui.core.Control /> -->",
-            "</customContent>",
-            "<_textControl>",
-            "\t<!-- <sap.ui.core.Control /> -->",
-            "</_textControl>",
-            "press=\".on${3:Press}\"$2"
+            "<m:ObjectAttribute",
+            "\ttitle=\"null\"",
+            "\ttext=\"null\"",
+            "\tactive=\"null\"",
+            "\treactiveAreaMode=\"Inline\"",
+            "\ttextDirection=\"Inherit\"",
+            "\tariaHasPopup=\"None\"",
+            "\tpress=\".onPress\"",
+            ">",
+            "\t<customContent>",
+            "\t\t<core:Control",
+            "\t\t\t$1",
+            "\t\t/>",
+            "\t</customContent>",
+            "</m:ObjectAttribute>"
         ],
-        "description": "sap.m.ObjectAttribute with non-inherited properties, aggregations and events"
+        "description": "sap.m.ObjectAttribute"
     }
 }

@@ -1,61 +1,71 @@
 {
     "sap.m.TileContent": {
-        "prefix": "!5-tile-content",
+        "prefix": "!5-sap-m-tilecontent",
         "body": [
-            "<TileContent ",
+            "<m:TileContent ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.m.TileContent"
     },
     "sap.m.TileContent-properties": {
-        "prefix": "!5-tile-content-properties",
+        "prefix": "!5-sap-m-tilecontent",
         "body": [
-            "$1footer=\"\"",
-            "footerColor=\"Neutral\"",
-            "size=\"Auto\"",
-            "unit=\"\"",
-            "disabled=\"false\"",
-            "frameType=\"Auto\"",
-            "priority=\"None\"",
-            "priorityText=\"\"",
-            "state=\"Loaded\"$2"
+            "<m:TileContent",
+            "\tfooter=\"null\"",
+            "\tfooterColor=\"Neutral\"",
+            "\tsize=\"Auto\"",
+            "\tunit=\"null\"",
+            "\tdisabled=\"false\"",
+            "\tframeType=\"Auto\"",
+            "\tpriority=\"None\"",
+            "\tpriorityText=\"null\"",
+            "\tstate=\"Loaded\"",
+            "$1/>"
         ],
-        "description": "sap.m.TileContent with non-inherited properties"
+        "description": "sap.m.TileContent"
     },
     "sap.m.TileContent-aggregations": {
-        "prefix": "!5-tile-content-aggregations",
+        "prefix": "!5-sap-m-tilecontent",
         "body": [
-            "$1<content>",
-            "\t<!-- <sap.ui.core.Control /> -->",
-            "</content>",
-            "$2"
+            "<m:TileContent>",
+            "\t<core:Control>",
+            "\t\t$1",
+            "\t</core:Control>",
+            "</m:TileContent>"
         ],
-        "description": "sap.m.TileContent with non-inherited aggregations"
+        "description": "sap.m.TileContent"
     },
     "sap.m.TileContent-events": {
-        "prefix": "!5-tile-content-events",
+        "prefix": "!5-sap-m-tilecontent",
         "body": [
-            "$1$2"
+            "<m:TileContent",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.TileContent with non-inherited events"
+        "description": "sap.m.TileContent"
     },
     "sap.m.TileContent-all": {
-        "prefix": "!5-tile-content-all",
+        "prefix": "!5-sap-m-tilecontent",
         "body": [
-            "$1footer=\"\"",
-            "footerColor=\"Neutral\"",
-            "size=\"Auto\"",
-            "unit=\"\"",
-            "disabled=\"false\"",
-            "frameType=\"Auto\"",
-            "priority=\"None\"",
-            "priorityText=\"\"",
-            "state=\"Loaded\"",
-            "<content>",
-            "\t<!-- <sap.ui.core.Control /> -->",
-            "</content>$2"
+            "<m:TileContent",
+            "\tfooter=\"null\"",
+            "\tfooterColor=\"Neutral\"",
+            "\tsize=\"Auto\"",
+            "\tunit=\"null\"",
+            "\tdisabled=\"false\"",
+            "\tframeType=\"Auto\"",
+            "\tpriority=\"None\"",
+            "\tpriorityText=\"null\"",
+            "\tstate=\"Loaded\"",
+            ">",
+            "\t<content>",
+            "\t\t<core:Control",
+            "\t\t\t$1",
+            "\t\t/>",
+            "\t</content>",
+            "</m:TileContent>"
         ],
-        "description": "sap.m.TileContent with non-inherited properties, aggregations and events"
+        "description": "sap.m.TileContent"
     }
 }

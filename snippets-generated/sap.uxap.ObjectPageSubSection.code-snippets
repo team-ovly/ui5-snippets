@@ -1,69 +1,75 @@
 {
     "sap.uxap.ObjectPageSubSection": {
-        "prefix": "!5-object-page-sub-section",
+        "prefix": "!5-sap-uxap-objectpagesubsection",
         "body": [
-            "<ObjectPageSubSection ",
+            "<uxap:ObjectPageSubSection ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.uxap.ObjectPageSubSection"
     },
     "sap.uxap.ObjectPageSubSection-properties": {
-        "prefix": "!5-object-page-sub-section-properties",
+        "prefix": "!5-sap-uxap-objectpagesubsection",
         "body": [
-            "$1showTitle=\"true\"",
-            "_columnSpan=\"all\"",
-            "mode=\"Collapsed\"",
-            "titleUppercase=\"false\"$2"
+            "<uxap:ObjectPageSubSection",
+            "\tshowTitle=\"true\"",
+            "\tmode=\"Collapsed\"",
+            "\ttitleUppercase=\"false\"",
+            "$1/>"
         ],
-        "description": "sap.uxap.ObjectPageSubSection with non-inherited properties"
+        "description": "sap.uxap.ObjectPageSubSection"
     },
     "sap.uxap.ObjectPageSubSection-aggregations": {
-        "prefix": "!5-object-page-sub-section-aggregations",
+        "prefix": "!5-sap-uxap-objectpagesubsection",
         "body": [
-            "$1<blocks>",
-            "\t<!-- <sap.ui.core.Control /> -->",
-            "</blocks>",
-            "<moreBlocks>",
-            "\t<!-- <sap.ui.core.Control /> -->",
-            "</moreBlocks>",
-            "<actions>",
-            "\t<!-- <sap.ui.core.Control /> -->",
-            "</actions>",
-            "<_headerToolbar>",
-            "\t<!-- <sap.m.OverflowToolbar /> -->",
-            "</_headerToolbar>",
-            "$2"
+            "<uxap:ObjectPageSubSection>",
+            "\t<core:Control>",
+            "\t\t$1",
+            "\t</core:Control>",
+            "\t<core:Control>",
+            "\t\t$2",
+            "\t</core:Control>",
+            "\t<core:Control>",
+            "\t\t$3",
+            "\t</core:Control>",
+            "</uxap:ObjectPageSubSection>"
         ],
-        "description": "sap.uxap.ObjectPageSubSection with non-inherited aggregations"
+        "description": "sap.uxap.ObjectPageSubSection"
     },
     "sap.uxap.ObjectPageSubSection-events": {
-        "prefix": "!5-object-page-sub-section-events",
+        "prefix": "!5-sap-uxap-objectpagesubsection",
         "body": [
-            "$1$2"
+            "<uxap:ObjectPageSubSection",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.uxap.ObjectPageSubSection with non-inherited events"
+        "description": "sap.uxap.ObjectPageSubSection"
     },
     "sap.uxap.ObjectPageSubSection-all": {
-        "prefix": "!5-object-page-sub-section-all",
+        "prefix": "!5-sap-uxap-objectpagesubsection",
         "body": [
-            "$1showTitle=\"true\"",
-            "_columnSpan=\"all\"",
-            "mode=\"Collapsed\"",
-            "titleUppercase=\"false\"",
-            "<blocks>",
-            "\t<!-- <sap.ui.core.Control /> -->",
-            "</blocks>",
-            "<moreBlocks>",
-            "\t<!-- <sap.ui.core.Control /> -->",
-            "</moreBlocks>",
-            "<actions>",
-            "\t<!-- <sap.ui.core.Control /> -->",
-            "</actions>",
-            "<_headerToolbar>",
-            "\t<!-- <sap.m.OverflowToolbar /> -->",
-            "</_headerToolbar>$2"
+            "<uxap:ObjectPageSubSection",
+            "\tshowTitle=\"true\"",
+            "\tmode=\"Collapsed\"",
+            "\ttitleUppercase=\"false\"",
+            ">",
+            "\t<blocks>",
+            "\t\t<core:Control",
+            "\t\t\t$1",
+            "\t\t/>",
+            "\t</blocks>",
+            "\t<moreBlocks>",
+            "\t\t<core:Control",
+            "\t\t\t$2",
+            "\t\t/>",
+            "\t</moreBlocks>",
+            "\t<actions>",
+            "\t\t<core:Control",
+            "\t\t\t$3",
+            "\t\t/>",
+            "\t</actions>",
+            "</uxap:ObjectPageSubSection>"
         ],
-        "description": "sap.uxap.ObjectPageSubSection with non-inherited properties, aggregations and events"
+        "description": "sap.uxap.ObjectPageSubSection"
     }
 }

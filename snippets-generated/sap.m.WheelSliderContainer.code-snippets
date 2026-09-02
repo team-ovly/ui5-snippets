@@ -1,49 +1,59 @@
 {
     "sap.m.WheelSliderContainer": {
-        "prefix": "!5-wheel-slider-container",
+        "prefix": "!5-sap-m-wheelslidercontainer",
         "body": [
-            "<WheelSliderContainer ",
+            "<m:WheelSliderContainer ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.m.WheelSliderContainer"
     },
     "sap.m.WheelSliderContainer-properties": {
-        "prefix": "!5-wheel-slider-container-properties",
+        "prefix": "!5-sap-m-wheelslidercontainer",
         "body": [
-            "$1labelText=\"\"",
-            "width=\"\"",
-            "height=\"\"$2"
+            "<m:WheelSliderContainer",
+            "\tlabelText=\"null\"",
+            "\twidth=\"null\"",
+            "\theight=\"null\"",
+            "$1/>"
         ],
-        "description": "sap.m.WheelSliderContainer with non-inherited properties"
+        "description": "sap.m.WheelSliderContainer"
     },
     "sap.m.WheelSliderContainer-aggregations": {
-        "prefix": "!5-wheel-slider-container-aggregations",
+        "prefix": "!5-sap-m-wheelslidercontainer",
         "body": [
-            "$1<sliders>",
-            "\t<!-- <sap.m.WheelSlider /> -->",
-            "</sliders>",
-            "$2"
+            "<m:WheelSliderContainer>",
+            "\t<m:WheelSlider>",
+            "\t\t$1",
+            "\t</m:WheelSlider>",
+            "</m:WheelSliderContainer>"
         ],
-        "description": "sap.m.WheelSliderContainer with non-inherited aggregations"
+        "description": "sap.m.WheelSliderContainer"
     },
     "sap.m.WheelSliderContainer-events": {
-        "prefix": "!5-wheel-slider-container-events",
+        "prefix": "!5-sap-m-wheelslidercontainer",
         "body": [
-            "$1$2"
+            "<m:WheelSliderContainer",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.WheelSliderContainer with non-inherited events"
+        "description": "sap.m.WheelSliderContainer"
     },
     "sap.m.WheelSliderContainer-all": {
-        "prefix": "!5-wheel-slider-container-all",
+        "prefix": "!5-sap-m-wheelslidercontainer",
         "body": [
-            "$1labelText=\"\"",
-            "width=\"\"",
-            "height=\"\"",
-            "<sliders>",
-            "\t<!-- <sap.m.WheelSlider /> -->",
-            "</sliders>$2"
+            "<m:WheelSliderContainer",
+            "\tlabelText=\"null\"",
+            "\twidth=\"null\"",
+            "\theight=\"null\"",
+            ">",
+            "\t<sliders>",
+            "\t\t<m:WheelSlider",
+            "\t\t\t$1",
+            "\t\t/>",
+            "\t</sliders>",
+            "</m:WheelSliderContainer>"
         ],
-        "description": "sap.m.WheelSliderContainer with non-inherited properties, aggregations and events"
+        "description": "sap.m.WheelSliderContainer"
     }
 }

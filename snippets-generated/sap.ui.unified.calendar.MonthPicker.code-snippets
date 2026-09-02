@@ -1,68 +1,69 @@
 {
     "sap.ui.unified.calendar.MonthPicker": {
-        "prefix": "!5-month-picker",
+        "prefix": "!5-sap-ui-unified-calendar-monthpicker",
         "body": [
-            "<MonthPicker ",
+            "<calendar:MonthPicker ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.ui.unified.calendar.MonthPicker"
     },
     "sap.ui.unified.calendar.MonthPicker-properties": {
-        "prefix": "!5-month-picker-properties",
+        "prefix": "!5-sap-ui-unified-calendar-monthpicker",
         "body": [
-            "$1month=\"0\"",
-            "months=\"12\"",
-            "intervalSelection=\"false\"",
-            "_singleSelection=\"true\"",
-            "_showSelectedRange=\"false\"",
-            "columns=\"3\"",
-            "primaryCalendarType=\"\"",
-            "secondaryCalendarType=\"\"",
-            "_firstMonth=\"0\"",
-            "_focusedMonth=\"\"$2"
+            "<calendar:MonthPicker",
+            "\tmonth=\"0\"",
+            "\tmonths=\"12\"",
+            "\tintervalSelection=\"false\"",
+            "\tcolumns=\"3\"",
+            "\tprimaryCalendarType=\"null\"",
+            "\tsecondaryCalendarType=\"null\"",
+            "$1/>"
         ],
-        "description": "sap.ui.unified.calendar.MonthPicker with non-inherited properties"
+        "description": "sap.ui.unified.calendar.MonthPicker"
     },
     "sap.ui.unified.calendar.MonthPicker-aggregations": {
-        "prefix": "!5-month-picker-aggregations",
+        "prefix": "!5-sap-ui-unified-calendar-monthpicker",
         "body": [
-            "$1<selectedDates>",
-            "\t<!-- <sap.ui.unified.DateRange /> -->",
-            "</selectedDates>",
-            "$2"
+            "<calendar:MonthPicker>",
+            "\t<unified:DateRange>",
+            "\t\t$1",
+            "\t</unified:DateRange>",
+            "</calendar:MonthPicker>"
         ],
-        "description": "sap.ui.unified.calendar.MonthPicker with non-inherited aggregations"
+        "description": "sap.ui.unified.calendar.MonthPicker"
     },
     "sap.ui.unified.calendar.MonthPicker-events": {
-        "prefix": "!5-month-picker-events",
+        "prefix": "!5-sap-ui-unified-calendar-monthpicker",
         "body": [
-            "$1select=\".on${3:Select}\"",
-            "pageChange=\".on${4:PageChange}\"",
-            "ariaLabelledBy=\".on${5:AriaLabelledBy}\"$2"
+            "<calendar:MonthPicker",
+            "\tselect=\".onSelect\"",
+            "\tpageChange=\".onPageChange\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.ui.unified.calendar.MonthPicker with non-inherited events"
+        "description": "sap.ui.unified.calendar.MonthPicker"
     },
     "sap.ui.unified.calendar.MonthPicker-all": {
-        "prefix": "!5-month-picker-all",
+        "prefix": "!5-sap-ui-unified-calendar-monthpicker",
         "body": [
-            "$1month=\"0\"",
-            "months=\"12\"",
-            "intervalSelection=\"false\"",
-            "_singleSelection=\"true\"",
-            "_showSelectedRange=\"false\"",
-            "columns=\"3\"",
-            "primaryCalendarType=\"\"",
-            "secondaryCalendarType=\"\"",
-            "_firstMonth=\"0\"",
-            "_focusedMonth=\"\"",
-            "<selectedDates>",
-            "\t<!-- <sap.ui.unified.DateRange /> -->",
-            "</selectedDates>",
-            "select=\".on${3:Select}\"",
-            "pageChange=\".on${4:PageChange}\"",
-            "ariaLabelledBy=\".on${5:AriaLabelledBy}\"$2"
+            "<calendar:MonthPicker",
+            "\tmonth=\"0\"",
+            "\tmonths=\"12\"",
+            "\tintervalSelection=\"false\"",
+            "\tcolumns=\"3\"",
+            "\tprimaryCalendarType=\"null\"",
+            "\tsecondaryCalendarType=\"null\"",
+            "\tselect=\".onSelect\"",
+            "\tpageChange=\".onPageChange\"",
+            ">",
+            "\t<selectedDates>",
+            "\t\t<unified:DateRange",
+            "\t\t\t$1",
+            "\t\t/>",
+            "\t</selectedDates>",
+            "</calendar:MonthPicker>"
         ],
-        "description": "sap.ui.unified.calendar.MonthPicker with non-inherited properties, aggregations and events"
+        "description": "sap.ui.unified.calendar.MonthPicker"
     }
 }

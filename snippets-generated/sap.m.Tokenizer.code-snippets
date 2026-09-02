@@ -1,72 +1,71 @@
 {
     "sap.m.Tokenizer": {
-        "prefix": "!5-tokenizer",
+        "prefix": "!5-sap-m-tokenizer",
         "body": [
-            "<Tokenizer ",
+            "<m:Tokenizer ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.m.Tokenizer"
     },
     "sap.m.Tokenizer-properties": {
-        "prefix": "!5-tokenizer-properties",
+        "prefix": "!5-sap-m-tokenizer",
         "body": [
-            "$1editable=\"true\"",
-            "enabled=\"true\"",
-            "width=\"\"",
-            "maxWidth=\"100%\"",
-            "renderMode=\"sap.m.TokenizerRenderMode.Narrow\"",
-            "hiddenTokensCount=\"0\"$2"
+            "<m:Tokenizer",
+            "\teditable=\"true\"",
+            "\tenabled=\"true\"",
+            "\twidth=\"null\"",
+            "\tmaxWidth=\"100%\"",
+            "\trenderMode=\"sap.m.TokenizerRenderMode.Narrow\"",
+            "$1/>"
         ],
-        "description": "sap.m.Tokenizer with non-inherited properties"
+        "description": "sap.m.Tokenizer"
     },
     "sap.m.Tokenizer-aggregations": {
-        "prefix": "!5-tokenizer-aggregations",
+        "prefix": "!5-sap-m-tokenizer",
         "body": [
-            "$1<tokens>",
-            "\t<!-- <sap.m.Token /> -->",
-            "</tokens>",
-            "<_tokensInfo>",
-            "\t<!-- <sap.ui.core.InvisibleText /> -->",
-            "</_tokensInfo>",
-            "$2"
+            "<m:Tokenizer>",
+            "\t<m:Token>",
+            "\t\t$1",
+            "\t</m:Token>",
+            "</m:Tokenizer>"
         ],
-        "description": "sap.m.Tokenizer with non-inherited aggregations"
+        "description": "sap.m.Tokenizer"
     },
     "sap.m.Tokenizer-events": {
-        "prefix": "!5-tokenizer-events",
+        "prefix": "!5-sap-m-tokenizer",
         "body": [
-            "$1tokenChange=\".on${3:TokenChange}\"",
-            "tokenUpdate=\".on${4:TokenUpdate}\"",
-            "tokenDelete=\".on${5:TokenDelete}\"",
-            "renderModeChange=\".on${6:RenderModeChange}\"",
-            "ariaDescribedBy=\".on${7:AriaDescribedBy}\"",
-            "ariaLabelledBy=\".on${8:AriaLabelledBy}\"$2"
+            "<m:Tokenizer",
+            "\ttokenChange=\".onTokenChange\"",
+            "\ttokenUpdate=\".onTokenUpdate\"",
+            "\ttokenDelete=\".onTokenDelete\"",
+            "\trenderModeChange=\".onRenderModeChange\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.Tokenizer with non-inherited events"
+        "description": "sap.m.Tokenizer"
     },
     "sap.m.Tokenizer-all": {
-        "prefix": "!5-tokenizer-all",
+        "prefix": "!5-sap-m-tokenizer",
         "body": [
-            "$1editable=\"true\"",
-            "enabled=\"true\"",
-            "width=\"\"",
-            "maxWidth=\"100%\"",
-            "renderMode=\"sap.m.TokenizerRenderMode.Narrow\"",
-            "hiddenTokensCount=\"0\"",
-            "<tokens>",
-            "\t<!-- <sap.m.Token /> -->",
-            "</tokens>",
-            "<_tokensInfo>",
-            "\t<!-- <sap.ui.core.InvisibleText /> -->",
-            "</_tokensInfo>",
-            "tokenChange=\".on${3:TokenChange}\"",
-            "tokenUpdate=\".on${4:TokenUpdate}\"",
-            "tokenDelete=\".on${5:TokenDelete}\"",
-            "renderModeChange=\".on${6:RenderModeChange}\"",
-            "ariaDescribedBy=\".on${7:AriaDescribedBy}\"",
-            "ariaLabelledBy=\".on${8:AriaLabelledBy}\"$2"
+            "<m:Tokenizer",
+            "\teditable=\"true\"",
+            "\tenabled=\"true\"",
+            "\twidth=\"null\"",
+            "\tmaxWidth=\"100%\"",
+            "\trenderMode=\"sap.m.TokenizerRenderMode.Narrow\"",
+            "\ttokenChange=\".onTokenChange\"",
+            "\ttokenUpdate=\".onTokenUpdate\"",
+            "\ttokenDelete=\".onTokenDelete\"",
+            "\trenderModeChange=\".onRenderModeChange\"",
+            ">",
+            "\t<tokens>",
+            "\t\t<m:Token",
+            "\t\t\t$1",
+            "\t\t/>",
+            "\t</tokens>",
+            "</m:Tokenizer>"
         ],
-        "description": "sap.m.Tokenizer with non-inherited properties, aggregations and events"
+        "description": "sap.m.Tokenizer"
     }
 }

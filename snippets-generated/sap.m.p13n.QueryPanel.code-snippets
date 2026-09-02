@@ -1,39 +1,47 @@
 {
     "sap.m.p13n.QueryPanel": {
-        "prefix": "!5-query-panel",
+        "prefix": "!5-sap-m-p13n-querypanel",
         "body": [
-            "<QueryPanel ",
+            "<p13n:QueryPanel ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.m.p13n.QueryPanel"
     },
     "sap.m.p13n.QueryPanel-properties": {
-        "prefix": "!5-query-panel-properties",
+        "prefix": "!5-sap-m-p13n-querypanel",
         "body": [
-            "$1queryLimit=\"-1\"$2"
+            "<p13n:QueryPanel",
+            "\tqueryLimit=\"-1\"",
+            "$1/>"
         ],
-        "description": "sap.m.p13n.QueryPanel with non-inherited properties"
+        "description": "sap.m.p13n.QueryPanel"
     },
     "sap.m.p13n.QueryPanel-aggregations": {
-        "prefix": "!5-query-panel-aggregations",
+        "prefix": "!5-sap-m-p13n-querypanel",
         "body": [
-            "$1$2"
+            "<p13n:QueryPanel>",
+            "</p13n:QueryPanel>"
         ],
-        "description": "sap.m.p13n.QueryPanel with non-inherited aggregations"
+        "description": "sap.m.p13n.QueryPanel"
     },
     "sap.m.p13n.QueryPanel-events": {
-        "prefix": "!5-query-panel-events",
+        "prefix": "!5-sap-m-p13n-querypanel",
         "body": [
-            "$1$2"
+            "<p13n:QueryPanel",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.p13n.QueryPanel with non-inherited events"
+        "description": "sap.m.p13n.QueryPanel"
     },
     "sap.m.p13n.QueryPanel-all": {
-        "prefix": "!5-query-panel-all",
+        "prefix": "!5-sap-m-p13n-querypanel",
         "body": [
-            "$1queryLimit=\"-1\"$2"
+            "<p13n:QueryPanel",
+            "\tqueryLimit=\"-1\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.p13n.QueryPanel with non-inherited properties, aggregations and events"
+        "description": "sap.m.p13n.QueryPanel"
     }
 }

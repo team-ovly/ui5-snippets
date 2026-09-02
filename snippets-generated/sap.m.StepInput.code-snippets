@@ -1,86 +1,85 @@
 {
     "sap.m.StepInput": {
-        "prefix": "!5-step-input",
+        "prefix": "!5-sap-m-stepinput",
         "body": [
-            "<StepInput ",
+            "<m:StepInput ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.m.StepInput"
     },
     "sap.m.StepInput-properties": {
-        "prefix": "!5-step-input-properties",
+        "prefix": "!5-sap-m-stepinput",
         "body": [
-            "$1min=\"\"",
-            "max=\"\"",
-            "step=\"1\"",
-            "stepMode=\"AdditionAndSubtraction\"",
-            "largerStep=\"2\"",
-            "value=\"0\"",
-            "name=\"\"",
-            "placeholder=\"\"",
-            "required=\"false\"",
-            "width=\"\"",
-            "valueState=\"None\"",
-            "valueStateText=\"\"",
-            "editable=\"true\"",
-            "enabled=\"true\"",
-            "displayValuePrecision=\"0\"",
-            "description=\"\"",
-            "fieldWidth=\"50%\"",
-            "textAlign=\"End\"",
-            "validationMode=\"FocusOut\"$2"
+            "<m:StepInput",
+            "\tmin=\"null\"",
+            "\tmax=\"null\"",
+            "\tstep=\"1\"",
+            "\tstepMode=\"AdditionAndSubtraction\"",
+            "\tlargerStep=\"2\"",
+            "\tvalue=\"0\"",
+            "\tname=\"null\"",
+            "\tplaceholder=\"null\"",
+            "\trequired=\"false\"",
+            "\twidth=\"null\"",
+            "\tvalueState=\"None\"",
+            "\tvalueStateText=\"null\"",
+            "\teditable=\"true\"",
+            "\tenabled=\"true\"",
+            "\tdisplayValuePrecision=\"0\"",
+            "\tdescription=\"null\"",
+            "\tfieldWidth=\"50%\"",
+            "\ttextAlign=\"End\"",
+            "\tvalidationMode=\"FocusOut\"",
+            "$1/>"
         ],
-        "description": "sap.m.StepInput with non-inherited properties"
+        "description": "sap.m.StepInput"
     },
     "sap.m.StepInput-aggregations": {
-        "prefix": "!5-step-input-aggregations",
+        "prefix": "!5-sap-m-stepinput",
         "body": [
-            "$1<_input>",
-            "\t<!-- <sap.ui.core.Control /> -->",
-            "</_input>",
-            "$2"
+            "<m:StepInput>",
+            "</m:StepInput>"
         ],
-        "description": "sap.m.StepInput with non-inherited aggregations"
+        "description": "sap.m.StepInput"
     },
     "sap.m.StepInput-events": {
-        "prefix": "!5-step-input-events",
+        "prefix": "!5-sap-m-stepinput",
         "body": [
-            "$1change=\".on${3:Change}\"",
-            "ariaLabelledBy=\".on${4:AriaLabelledBy}\"",
-            "ariaDescribedBy=\".on${5:AriaDescribedBy}\"$2"
+            "<m:StepInput",
+            "\tchange=\".onChange\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.StepInput with non-inherited events"
+        "description": "sap.m.StepInput"
     },
     "sap.m.StepInput-all": {
-        "prefix": "!5-step-input-all",
+        "prefix": "!5-sap-m-stepinput",
         "body": [
-            "$1min=\"\"",
-            "max=\"\"",
-            "step=\"1\"",
-            "stepMode=\"AdditionAndSubtraction\"",
-            "largerStep=\"2\"",
-            "value=\"0\"",
-            "name=\"\"",
-            "placeholder=\"\"",
-            "required=\"false\"",
-            "width=\"\"",
-            "valueState=\"None\"",
-            "valueStateText=\"\"",
-            "editable=\"true\"",
-            "enabled=\"true\"",
-            "displayValuePrecision=\"0\"",
-            "description=\"\"",
-            "fieldWidth=\"50%\"",
-            "textAlign=\"End\"",
-            "validationMode=\"FocusOut\"",
-            "<_input>",
-            "\t<!-- <sap.ui.core.Control /> -->",
-            "</_input>",
-            "change=\".on${3:Change}\"",
-            "ariaLabelledBy=\".on${4:AriaLabelledBy}\"",
-            "ariaDescribedBy=\".on${5:AriaDescribedBy}\"$2"
+            "<m:StepInput",
+            "\tmin=\"null\"",
+            "\tmax=\"null\"",
+            "\tstep=\"1\"",
+            "\tstepMode=\"AdditionAndSubtraction\"",
+            "\tlargerStep=\"2\"",
+            "\tvalue=\"0\"",
+            "\tname=\"null\"",
+            "\tplaceholder=\"null\"",
+            "\trequired=\"false\"",
+            "\twidth=\"null\"",
+            "\tvalueState=\"None\"",
+            "\tvalueStateText=\"null\"",
+            "\teditable=\"true\"",
+            "\tenabled=\"true\"",
+            "\tdisplayValuePrecision=\"0\"",
+            "\tdescription=\"null\"",
+            "\tfieldWidth=\"50%\"",
+            "\ttextAlign=\"End\"",
+            "\tvalidationMode=\"FocusOut\"",
+            "\tchange=\".onChange\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.StepInput with non-inherited properties, aggregations and events"
+        "description": "sap.m.StepInput"
     }
 }

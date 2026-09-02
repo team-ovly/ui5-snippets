@@ -1,70 +1,69 @@
 {
     "sap.uxap.ObjectPageSection": {
-        "prefix": "!5-object-page-section",
+        "prefix": "!5-sap-uxap-objectpagesection",
         "body": [
-            "<ObjectPageSection ",
+            "<uxap:ObjectPageSection ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.uxap.ObjectPageSection"
     },
     "sap.uxap.ObjectPageSection-properties": {
-        "prefix": "!5-object-page-section-properties",
+        "prefix": "!5-sap-uxap-objectpagesection",
         "body": [
-            "$1showTitle=\"true\"",
-            "titleUppercase=\"true\"",
-            "wrapTitle=\"false\"",
-            "anchorBarButtonColor=\"Default\"$2"
+            "<uxap:ObjectPageSection",
+            "\tshowTitle=\"true\"",
+            "\ttitleUppercase=\"true\"",
+            "\twrapTitle=\"false\"",
+            "\tanchorBarButtonColor=\"Default\"",
+            "$1/>"
         ],
-        "description": "sap.uxap.ObjectPageSection with non-inherited properties"
+        "description": "sap.uxap.ObjectPageSection"
     },
     "sap.uxap.ObjectPageSection-aggregations": {
-        "prefix": "!5-object-page-section-aggregations",
+        "prefix": "!5-sap-uxap-objectpagesection",
         "body": [
-            "$1<subSections>",
-            "\t<!-- <sap.uxap.ObjectPageSubSection /> -->",
-            "</subSections>",
-            "<heading>",
-            "\t<!-- <sap.ui.core.Control /> -->",
-            "</heading>",
-            "<_title>",
-            "\t<!-- <sap.m.Title /> -->",
-            "</_title>",
-            "<_showHideAllButton>",
-            "\t<!-- <sap.m.Button /> -->",
-            "</_showHideAllButton>",
-            "$2"
+            "<uxap:ObjectPageSection>",
+            "\t<uxap:ObjectPageSubSection>",
+            "\t\t$1",
+            "\t</uxap:ObjectPageSubSection>",
+            "\t<core:Control>",
+            "\t\t$2",
+            "\t</core:Control>",
+            "</uxap:ObjectPageSection>"
         ],
-        "description": "sap.uxap.ObjectPageSection with non-inherited aggregations"
+        "description": "sap.uxap.ObjectPageSection"
     },
     "sap.uxap.ObjectPageSection-events": {
-        "prefix": "!5-object-page-section-events",
+        "prefix": "!5-sap-uxap-objectpagesection",
         "body": [
-            "$1selectedSubSection=\".on${3:SelectedSubSection}\"$2"
+            "<uxap:ObjectPageSection",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.uxap.ObjectPageSection with non-inherited events"
+        "description": "sap.uxap.ObjectPageSection"
     },
     "sap.uxap.ObjectPageSection-all": {
-        "prefix": "!5-object-page-section-all",
+        "prefix": "!5-sap-uxap-objectpagesection",
         "body": [
-            "$1showTitle=\"true\"",
-            "titleUppercase=\"true\"",
-            "wrapTitle=\"false\"",
-            "anchorBarButtonColor=\"Default\"",
-            "<subSections>",
-            "\t<!-- <sap.uxap.ObjectPageSubSection /> -->",
-            "</subSections>",
-            "<heading>",
-            "\t<!-- <sap.ui.core.Control /> -->",
-            "</heading>",
-            "<_title>",
-            "\t<!-- <sap.m.Title /> -->",
-            "</_title>",
-            "<_showHideAllButton>",
-            "\t<!-- <sap.m.Button /> -->",
-            "</_showHideAllButton>",
-            "selectedSubSection=\".on${3:SelectedSubSection}\"$2"
+            "<uxap:ObjectPageSection",
+            "\tshowTitle=\"true\"",
+            "\ttitleUppercase=\"true\"",
+            "\twrapTitle=\"false\"",
+            "\tanchorBarButtonColor=\"Default\"",
+            ">",
+            "\t<subSections>",
+            "\t\t<uxap:ObjectPageSubSection",
+            "\t\t\t$1",
+            "\t\t/>",
+            "\t</subSections>",
+            "\t<heading>",
+            "\t\t<core:Control",
+            "\t\t\t$2",
+            "\t\t/>",
+            "\t</heading>",
+            "</uxap:ObjectPageSection>"
         ],
-        "description": "sap.uxap.ObjectPageSection with non-inherited properties, aggregations and events"
+        "description": "sap.uxap.ObjectPageSection"
     }
 }

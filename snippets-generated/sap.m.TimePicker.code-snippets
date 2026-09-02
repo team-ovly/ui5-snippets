@@ -1,80 +1,79 @@
 {
     "sap.m.TimePicker": {
-        "prefix": "!5-time-picker",
+        "prefix": "!5-sap-m-timepicker",
         "body": [
-            "<TimePicker ",
+            "<m:TimePicker ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.m.TimePicker"
     },
     "sap.m.TimePicker-properties": {
-        "prefix": "!5-time-picker-properties",
+        "prefix": "!5-sap-m-timepicker",
         "body": [
-            "$1localeId=\"\"",
-            "title=\"\"",
-            "minutesStep=\"1\"",
-            "secondsStep=\"1\"",
-            "placeholderSymbol=\"_\"",
-            "mask=\"\"",
-            "maskMode=\"On\"",
-            "support2400=\"false\"",
-            "hideInput=\"false\"",
-            "showCurrentTimeButton=\"false\"$2"
+            "<m:TimePicker",
+            "\tlocaleId=\"null\"",
+            "\ttitle=\"null\"",
+            "\tminutesStep=\"1\"",
+            "\tsecondsStep=\"1\"",
+            "\tplaceholderSymbol=\"_\"",
+            "\tmask=\"null\"",
+            "\tmaskMode=\"On\"",
+            "\tsupport2400=\"false\"",
+            "\thideInput=\"false\"",
+            "\tshowCurrentTimeButton=\"false\"",
+            "$1/>"
         ],
-        "description": "sap.m.TimePicker with non-inherited properties"
+        "description": "sap.m.TimePicker"
     },
     "sap.m.TimePicker-aggregations": {
-        "prefix": "!5-time-picker-aggregations",
+        "prefix": "!5-sap-m-timepicker",
         "body": [
-            "$1<rules>",
-            "\t<!-- <sap.m.MaskInputRule /> -->",
-            "</rules>",
-            "<_picker>",
-            "\t<!-- <sap.m.ResponsivePopover /> -->",
-            "</_picker>",
-            "<_numPicker>",
-            "\t<!-- <sap.m.Popover /> -->",
-            "</_numPicker>",
-            "$2"
+            "<m:TimePicker>",
+            "\t<m:MaskInputRule>",
+            "\t\t$1",
+            "\t</m:MaskInputRule>",
+            "</m:TimePicker>"
         ],
-        "description": "sap.m.TimePicker with non-inherited aggregations"
+        "description": "sap.m.TimePicker"
     },
     "sap.m.TimePicker-events": {
-        "prefix": "!5-time-picker-events",
+        "prefix": "!5-sap-m-timepicker",
         "body": [
-            "$1afterValueHelpOpen=\".on${3:AfterValueHelpOpen}\"",
-            "afterValueHelpClose=\".on${4:AfterValueHelpClose}\"",
-            "liveChange=\".on${5:LiveChange}\"$2"
+            "<m:TimePicker",
+            "\tafterValueHelpOpen=\".onAfterValueHelpOpen\"",
+            "\tafterValueHelpClose=\".onAfterValueHelpClose\"",
+            "\tliveChange=\".onLiveChange\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.TimePicker with non-inherited events"
+        "description": "sap.m.TimePicker"
     },
     "sap.m.TimePicker-all": {
-        "prefix": "!5-time-picker-all",
+        "prefix": "!5-sap-m-timepicker",
         "body": [
-            "$1localeId=\"\"",
-            "title=\"\"",
-            "minutesStep=\"1\"",
-            "secondsStep=\"1\"",
-            "placeholderSymbol=\"_\"",
-            "mask=\"\"",
-            "maskMode=\"On\"",
-            "support2400=\"false\"",
-            "hideInput=\"false\"",
-            "showCurrentTimeButton=\"false\"",
-            "<rules>",
-            "\t<!-- <sap.m.MaskInputRule /> -->",
-            "</rules>",
-            "<_picker>",
-            "\t<!-- <sap.m.ResponsivePopover /> -->",
-            "</_picker>",
-            "<_numPicker>",
-            "\t<!-- <sap.m.Popover /> -->",
-            "</_numPicker>",
-            "afterValueHelpOpen=\".on${3:AfterValueHelpOpen}\"",
-            "afterValueHelpClose=\".on${4:AfterValueHelpClose}\"",
-            "liveChange=\".on${5:LiveChange}\"$2"
+            "<m:TimePicker",
+            "\tlocaleId=\"null\"",
+            "\ttitle=\"null\"",
+            "\tminutesStep=\"1\"",
+            "\tsecondsStep=\"1\"",
+            "\tplaceholderSymbol=\"_\"",
+            "\tmask=\"null\"",
+            "\tmaskMode=\"On\"",
+            "\tsupport2400=\"false\"",
+            "\thideInput=\"false\"",
+            "\tshowCurrentTimeButton=\"false\"",
+            "\tafterValueHelpOpen=\".onAfterValueHelpOpen\"",
+            "\tafterValueHelpClose=\".onAfterValueHelpClose\"",
+            "\tliveChange=\".onLiveChange\"",
+            ">",
+            "\t<rules>",
+            "\t\t<m:MaskInputRule",
+            "\t\t\t$1",
+            "\t\t/>",
+            "\t</rules>",
+            "</m:TimePicker>"
         ],
-        "description": "sap.m.TimePicker with non-inherited properties, aggregations and events"
+        "description": "sap.m.TimePicker"
     }
 }

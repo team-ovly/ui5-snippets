@@ -1,90 +1,97 @@
 {
     "sap.ui.unified.calendar.Month": {
-        "prefix": "!5-month",
+        "prefix": "!5-sap-ui-unified-calendar-month",
         "body": [
-            "<Month ",
+            "<calendar:Month ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.ui.unified.calendar.Month"
     },
     "sap.ui.unified.calendar.Month-properties": {
-        "prefix": "!5-month-properties",
+        "prefix": "!5-sap-ui-unified-calendar-month",
         "body": [
-            "$1date=\"\"",
-            "intervalSelection=\"false\"",
-            "singleSelection=\"true\"",
-            "showHeader=\"false\"",
-            "firstDayOfWeek=\"-1\"",
-            "nonWorkingDays=\"\"",
-            "primaryCalendarType=\"\"",
-            "secondaryCalendarType=\"\"",
-            "width=\"\"",
-            "showWeekNumbers=\"true\"",
-            "_focusedDate=\"\"",
-            "_renderMonthWeeksOnly=\"false\"",
-            "calendarWeekNumbering=\"\"$2"
+            "<calendar:Month",
+            "\tdate=\"null\"",
+            "\tintervalSelection=\"false\"",
+            "\tsingleSelection=\"true\"",
+            "\tshowHeader=\"false\"",
+            "\tfirstDayOfWeek=\"-1\"",
+            "\tnonWorkingDays=\"null\"",
+            "\tprimaryCalendarType=\"null\"",
+            "\tsecondaryCalendarType=\"null\"",
+            "\twidth=\"null\"",
+            "\tshowWeekNumbers=\"true\"",
+            "\tcalendarWeekNumbering=\"null\"",
+            "$1/>"
         ],
-        "description": "sap.ui.unified.calendar.Month with non-inherited properties"
+        "description": "sap.ui.unified.calendar.Month"
     },
     "sap.ui.unified.calendar.Month-aggregations": {
-        "prefix": "!5-month-aggregations",
+        "prefix": "!5-sap-ui-unified-calendar-month",
         "body": [
-            "$1<selectedDates>",
-            "\t<!-- <sap.ui.unified.DateRange /> -->",
-            "</selectedDates>",
-            "<specialDates>",
-            "\t<!-- <sap.ui.unified.DateTypeRange /> -->",
-            "</specialDates>",
-            "<disabledDates>",
-            "\t<!-- <sap.ui.unified.DateRange /> -->",
-            "</disabledDates>",
-            "$2"
+            "<calendar:Month>",
+            "\t<unified:DateRange>",
+            "\t\t$1",
+            "\t</unified:DateRange>",
+            "\t<unified:DateTypeRange>",
+            "\t\t$2",
+            "\t</unified:DateTypeRange>",
+            "\t<unified:DateRange>",
+            "\t\t$3",
+            "\t</unified:DateRange>",
+            "</calendar:Month>"
         ],
-        "description": "sap.ui.unified.calendar.Month with non-inherited aggregations"
+        "description": "sap.ui.unified.calendar.Month"
     },
     "sap.ui.unified.calendar.Month-events": {
-        "prefix": "!5-month-events",
+        "prefix": "!5-sap-ui-unified-calendar-month",
         "body": [
-            "$1select=\".on${3:Select}\"",
-            "focus=\".on${4:Focus}\"",
-            "weekNumberSelect=\".on${5:WeekNumberSelect}\"",
-            "ariaLabelledBy=\".on${6:AriaLabelledBy}\"",
-            "legend=\".on${7:Legend}\"$2"
+            "<calendar:Month",
+            "\tselect=\".onSelect\"",
+            "\tfocus=\".onFocus\"",
+            "\tweekNumberSelect=\".onWeekNumberSelect\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.ui.unified.calendar.Month with non-inherited events"
+        "description": "sap.ui.unified.calendar.Month"
     },
     "sap.ui.unified.calendar.Month-all": {
-        "prefix": "!5-month-all",
+        "prefix": "!5-sap-ui-unified-calendar-month",
         "body": [
-            "$1date=\"\"",
-            "intervalSelection=\"false\"",
-            "singleSelection=\"true\"",
-            "showHeader=\"false\"",
-            "firstDayOfWeek=\"-1\"",
-            "nonWorkingDays=\"\"",
-            "primaryCalendarType=\"\"",
-            "secondaryCalendarType=\"\"",
-            "width=\"\"",
-            "showWeekNumbers=\"true\"",
-            "_focusedDate=\"\"",
-            "_renderMonthWeeksOnly=\"false\"",
-            "calendarWeekNumbering=\"\"",
-            "<selectedDates>",
-            "\t<!-- <sap.ui.unified.DateRange /> -->",
-            "</selectedDates>",
-            "<specialDates>",
-            "\t<!-- <sap.ui.unified.DateTypeRange /> -->",
-            "</specialDates>",
-            "<disabledDates>",
-            "\t<!-- <sap.ui.unified.DateRange /> -->",
-            "</disabledDates>",
-            "select=\".on${3:Select}\"",
-            "focus=\".on${4:Focus}\"",
-            "weekNumberSelect=\".on${5:WeekNumberSelect}\"",
-            "ariaLabelledBy=\".on${6:AriaLabelledBy}\"",
-            "legend=\".on${7:Legend}\"$2"
+            "<calendar:Month",
+            "\tdate=\"null\"",
+            "\tintervalSelection=\"false\"",
+            "\tsingleSelection=\"true\"",
+            "\tshowHeader=\"false\"",
+            "\tfirstDayOfWeek=\"-1\"",
+            "\tnonWorkingDays=\"null\"",
+            "\tprimaryCalendarType=\"null\"",
+            "\tsecondaryCalendarType=\"null\"",
+            "\twidth=\"null\"",
+            "\tshowWeekNumbers=\"true\"",
+            "\tcalendarWeekNumbering=\"null\"",
+            "\tselect=\".onSelect\"",
+            "\tfocus=\".onFocus\"",
+            "\tweekNumberSelect=\".onWeekNumberSelect\"",
+            ">",
+            "\t<selectedDates>",
+            "\t\t<unified:DateRange",
+            "\t\t\t$1",
+            "\t\t/>",
+            "\t</selectedDates>",
+            "\t<specialDates>",
+            "\t\t<unified:DateTypeRange",
+            "\t\t\t$2",
+            "\t\t/>",
+            "\t</specialDates>",
+            "\t<disabledDates>",
+            "\t\t<unified:DateRange",
+            "\t\t\t$3",
+            "\t\t/>",
+            "\t</disabledDates>",
+            "</calendar:Month>"
         ],
-        "description": "sap.ui.unified.calendar.Month with non-inherited properties, aggregations and events"
+        "description": "sap.ui.unified.calendar.Month"
     }
 }

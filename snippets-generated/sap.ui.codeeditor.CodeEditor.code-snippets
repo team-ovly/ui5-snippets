@@ -1,60 +1,69 @@
 {
     "sap.ui.codeeditor.CodeEditor": {
-        "prefix": "!5-code-editor",
+        "prefix": "!5-sap-ui-codeeditor-codeeditor",
         "body": [
-            "<CodeEditor ",
+            "<codeeditor:CodeEditor ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.ui.codeeditor.CodeEditor"
     },
     "sap.ui.codeeditor.CodeEditor-properties": {
-        "prefix": "!5-code-editor-properties",
+        "prefix": "!5-sap-ui-codeeditor-codeeditor",
         "body": [
-            "$1value=\"\"",
-            "type=\"javascript\"",
-            "width=\"100%\"",
-            "height=\"100%\"",
-            "editable=\"true\"",
-            "lineNumbers=\"true\"",
-            "valueSelection=\"false\"",
-            "maxLines=\"0\"",
-            "colorTheme=\"default\"",
-            "syntaxHints=\"true\"$2"
+            "<codeeditor:CodeEditor",
+            "\tvalue=\"\"",
+            "\ttype=\"javascript\"",
+            "\twidth=\"100%\"",
+            "\theight=\"100%\"",
+            "\teditable=\"true\"",
+            "\tlineNumbers=\"true\"",
+            "\tvalueSelection=\"false\"",
+            "\tmaxLines=\"0\"",
+            "\tcolorTheme=\"default\"",
+            "\tsyntaxHints=\"true\"",
+            "$1/>"
         ],
-        "description": "sap.ui.codeeditor.CodeEditor with non-inherited properties"
+        "description": "sap.ui.codeeditor.CodeEditor"
     },
     "sap.ui.codeeditor.CodeEditor-aggregations": {
-        "prefix": "!5-code-editor-aggregations",
+        "prefix": "!5-sap-ui-codeeditor-codeeditor",
         "body": [
-            "$1$2"
+            "<codeeditor:CodeEditor>",
+            "</codeeditor:CodeEditor>"
         ],
-        "description": "sap.ui.codeeditor.CodeEditor with non-inherited aggregations"
+        "description": "sap.ui.codeeditor.CodeEditor"
     },
     "sap.ui.codeeditor.CodeEditor-events": {
-        "prefix": "!5-code-editor-events",
+        "prefix": "!5-sap-ui-codeeditor-codeeditor",
         "body": [
-            "$1liveChange=\".on${3:LiveChange}\"",
-            "change=\".on${4:Change}\"$2"
+            "<codeeditor:CodeEditor",
+            "\tliveChange=\".onLiveChange\"",
+            "\tchange=\".onChange\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.ui.codeeditor.CodeEditor with non-inherited events"
+        "description": "sap.ui.codeeditor.CodeEditor"
     },
     "sap.ui.codeeditor.CodeEditor-all": {
-        "prefix": "!5-code-editor-all",
+        "prefix": "!5-sap-ui-codeeditor-codeeditor",
         "body": [
-            "$1value=\"\"",
-            "type=\"javascript\"",
-            "width=\"100%\"",
-            "height=\"100%\"",
-            "editable=\"true\"",
-            "lineNumbers=\"true\"",
-            "valueSelection=\"false\"",
-            "maxLines=\"0\"",
-            "colorTheme=\"default\"",
-            "syntaxHints=\"true\"",
-            "liveChange=\".on${3:LiveChange}\"",
-            "change=\".on${4:Change}\"$2"
+            "<codeeditor:CodeEditor",
+            "\tvalue=\"\"",
+            "\ttype=\"javascript\"",
+            "\twidth=\"100%\"",
+            "\theight=\"100%\"",
+            "\teditable=\"true\"",
+            "\tlineNumbers=\"true\"",
+            "\tvalueSelection=\"false\"",
+            "\tmaxLines=\"0\"",
+            "\tcolorTheme=\"default\"",
+            "\tsyntaxHints=\"true\"",
+            "\tliveChange=\".onLiveChange\"",
+            "\tchange=\".onChange\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.ui.codeeditor.CodeEditor with non-inherited properties, aggregations and events"
+        "description": "sap.ui.codeeditor.CodeEditor"
     }
 }

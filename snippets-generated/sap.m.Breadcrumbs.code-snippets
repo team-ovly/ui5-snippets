@@ -1,66 +1,65 @@
 {
     "sap.m.Breadcrumbs": {
-        "prefix": "!5-breadcrumbs",
+        "prefix": "!5-sap-m-breadcrumbs",
         "body": [
-            "<Breadcrumbs ",
+            "<m:Breadcrumbs ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.m.Breadcrumbs"
     },
     "sap.m.Breadcrumbs-properties": {
-        "prefix": "!5-breadcrumbs-properties",
+        "prefix": "!5-sap-m-breadcrumbs",
         "body": [
-            "$1currentLocationText=\"\"",
-            "separatorStyle=\"Slash\"$2"
+            "<m:Breadcrumbs",
+            "\tcurrentLocationText=\"null\"",
+            "\tseparatorStyle=\"Slash\"",
+            "$1/>"
         ],
-        "description": "sap.m.Breadcrumbs with non-inherited properties"
+        "description": "sap.m.Breadcrumbs"
     },
     "sap.m.Breadcrumbs-aggregations": {
-        "prefix": "!5-breadcrumbs-aggregations",
+        "prefix": "!5-sap-m-breadcrumbs",
         "body": [
-            "$1<currentLocation>",
-            "\t<!-- <sap.m.Link /> -->",
-            "</currentLocation>",
-            "<links>",
-            "\t<!-- <sap.m.Link /> -->",
-            "</links>",
-            "<_currentLocation>",
-            "\t<!-- <sap.m.Text /> -->",
-            "</_currentLocation>",
-            "<_select>",
-            "\t<!-- <sap.m.Select /> -->",
-            "</_select>",
-            "$2"
+            "<m:Breadcrumbs>",
+            "\t<m:Link>",
+            "\t\t$1",
+            "\t</m:Link>",
+            "\t<m:Link>",
+            "\t\t$2",
+            "\t</m:Link>",
+            "</m:Breadcrumbs>"
         ],
-        "description": "sap.m.Breadcrumbs with non-inherited aggregations"
+        "description": "sap.m.Breadcrumbs"
     },
     "sap.m.Breadcrumbs-events": {
-        "prefix": "!5-breadcrumbs-events",
+        "prefix": "!5-sap-m-breadcrumbs",
         "body": [
-            "$1ariaLabelledBy=\".on${3:AriaLabelledBy}\"$2"
+            "<m:Breadcrumbs",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.Breadcrumbs with non-inherited events"
+        "description": "sap.m.Breadcrumbs"
     },
     "sap.m.Breadcrumbs-all": {
-        "prefix": "!5-breadcrumbs-all",
+        "prefix": "!5-sap-m-breadcrumbs",
         "body": [
-            "$1currentLocationText=\"\"",
-            "separatorStyle=\"Slash\"",
-            "<currentLocation>",
-            "\t<!-- <sap.m.Link /> -->",
-            "</currentLocation>",
-            "<links>",
-            "\t<!-- <sap.m.Link /> -->",
-            "</links>",
-            "<_currentLocation>",
-            "\t<!-- <sap.m.Text /> -->",
-            "</_currentLocation>",
-            "<_select>",
-            "\t<!-- <sap.m.Select /> -->",
-            "</_select>",
-            "ariaLabelledBy=\".on${3:AriaLabelledBy}\"$2"
+            "<m:Breadcrumbs",
+            "\tcurrentLocationText=\"null\"",
+            "\tseparatorStyle=\"Slash\"",
+            ">",
+            "\t<currentLocation>",
+            "\t\t<m:Link",
+            "\t\t\t$1",
+            "\t\t/>",
+            "\t</currentLocation>",
+            "\t<links>",
+            "\t\t<m:Link",
+            "\t\t\t$2",
+            "\t\t/>",
+            "\t</links>",
+            "</m:Breadcrumbs>"
         ],
-        "description": "sap.m.Breadcrumbs with non-inherited properties, aggregations and events"
+        "description": "sap.m.Breadcrumbs"
     }
 }

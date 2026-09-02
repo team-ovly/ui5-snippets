@@ -1,39 +1,45 @@
 {
     "sap.m.OverflowToolbarButton": {
-        "prefix": "!5-overflow-toolbar-button",
+        "prefix": "!5-sap-m-overflowtoolbarbutton",
         "body": [
-            "<OverflowToolbarButton ",
+            "<m:OverflowToolbarButton ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.m.OverflowToolbarButton"
     },
     "sap.m.OverflowToolbarButton-properties": {
-        "prefix": "!5-overflow-toolbar-button-properties",
+        "prefix": "!5-sap-m-overflowtoolbarbutton",
         "body": [
-            "$1$2"
+            "<m:OverflowToolbarButton",
+            "$1/>"
         ],
-        "description": "sap.m.OverflowToolbarButton with non-inherited properties"
+        "description": "sap.m.OverflowToolbarButton"
     },
     "sap.m.OverflowToolbarButton-aggregations": {
-        "prefix": "!5-overflow-toolbar-button-aggregations",
+        "prefix": "!5-sap-m-overflowtoolbarbutton",
         "body": [
-            "$1$2"
+            "<m:OverflowToolbarButton>",
+            "</m:OverflowToolbarButton>"
         ],
-        "description": "sap.m.OverflowToolbarButton with non-inherited aggregations"
+        "description": "sap.m.OverflowToolbarButton"
     },
     "sap.m.OverflowToolbarButton-events": {
-        "prefix": "!5-overflow-toolbar-button-events",
+        "prefix": "!5-sap-m-overflowtoolbarbutton",
         "body": [
-            "$1$2"
+            "<m:OverflowToolbarButton",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.OverflowToolbarButton with non-inherited events"
+        "description": "sap.m.OverflowToolbarButton"
     },
     "sap.m.OverflowToolbarButton-all": {
-        "prefix": "!5-overflow-toolbar-button-all",
+        "prefix": "!5-sap-m-overflowtoolbarbutton",
         "body": [
-            "$1$2"
+            "<m:OverflowToolbarButton",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.OverflowToolbarButton with non-inherited properties, aggregations and events"
+        "description": "sap.m.OverflowToolbarButton"
     }
 }

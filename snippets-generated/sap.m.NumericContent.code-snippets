@@ -1,68 +1,77 @@
 {
     "sap.m.NumericContent": {
-        "prefix": "!5-numeric-content",
+        "prefix": "!5-sap-m-numericcontent",
         "body": [
-            "<NumericContent ",
+            "<m:NumericContent ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.m.NumericContent"
     },
     "sap.m.NumericContent-properties": {
-        "prefix": "!5-numeric-content-properties",
+        "prefix": "!5-sap-m-numericcontent",
         "body": [
-            "$1animateTextChange=\"true\"",
-            "formatterValue=\"false\"",
-            "icon=\"\"",
-            "iconDescription=\"\"",
-            "indicator=\"None\"",
-            "nullifyValue=\"true\"",
-            "scale=\"\"",
-            "size=\"Auto\"",
-            "truncateValueTo=\"\"",
-            "value=\"\"",
-            "valueColor=\"Neutral\"",
-            "width=\"\"",
-            "withMargin=\"true\"",
-            "state=\"Loaded\"",
-            "adaptiveFontSize=\"true\"$2"
+            "<m:NumericContent",
+            "\tanimateTextChange=\"true\"",
+            "\tformatterValue=\"false\"",
+            "\ticon=\"null\"",
+            "\ticonDescription=\"null\"",
+            "\tindicator=\"None\"",
+            "\tnullifyValue=\"true\"",
+            "\tscale=\"null\"",
+            "\tsize=\"Auto\"",
+            "\ttruncateValueTo=\"null\"",
+            "\tvalue=\"null\"",
+            "\tvalueColor=\"Neutral\"",
+            "\twidth=\"null\"",
+            "\twithMargin=\"true\"",
+            "\tstate=\"Loaded\"",
+            "\tadaptiveFontSize=\"true\"",
+            "$1/>"
         ],
-        "description": "sap.m.NumericContent with non-inherited properties"
+        "description": "sap.m.NumericContent"
     },
     "sap.m.NumericContent-aggregations": {
-        "prefix": "!5-numeric-content-aggregations",
+        "prefix": "!5-sap-m-numericcontent",
         "body": [
-            "$1$2"
+            "<m:NumericContent>",
+            "</m:NumericContent>"
         ],
-        "description": "sap.m.NumericContent with non-inherited aggregations"
+        "description": "sap.m.NumericContent"
     },
     "sap.m.NumericContent-events": {
-        "prefix": "!5-numeric-content-events",
+        "prefix": "!5-sap-m-numericcontent",
         "body": [
-            "$1press=\".on${3:Press}\"$2"
+            "<m:NumericContent",
+            "\tpress=\".onPress\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.NumericContent with non-inherited events"
+        "description": "sap.m.NumericContent"
     },
     "sap.m.NumericContent-all": {
-        "prefix": "!5-numeric-content-all",
+        "prefix": "!5-sap-m-numericcontent",
         "body": [
-            "$1animateTextChange=\"true\"",
-            "formatterValue=\"false\"",
-            "icon=\"\"",
-            "iconDescription=\"\"",
-            "indicator=\"None\"",
-            "nullifyValue=\"true\"",
-            "scale=\"\"",
-            "size=\"Auto\"",
-            "truncateValueTo=\"\"",
-            "value=\"\"",
-            "valueColor=\"Neutral\"",
-            "width=\"\"",
-            "withMargin=\"true\"",
-            "state=\"Loaded\"",
-            "adaptiveFontSize=\"true\"",
-            "press=\".on${3:Press}\"$2"
+            "<m:NumericContent",
+            "\tanimateTextChange=\"true\"",
+            "\tformatterValue=\"false\"",
+            "\ticon=\"null\"",
+            "\ticonDescription=\"null\"",
+            "\tindicator=\"None\"",
+            "\tnullifyValue=\"true\"",
+            "\tscale=\"null\"",
+            "\tsize=\"Auto\"",
+            "\ttruncateValueTo=\"null\"",
+            "\tvalue=\"null\"",
+            "\tvalueColor=\"Neutral\"",
+            "\twidth=\"null\"",
+            "\twithMargin=\"true\"",
+            "\tstate=\"Loaded\"",
+            "\tadaptiveFontSize=\"true\"",
+            "\tpress=\".onPress\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.NumericContent with non-inherited properties, aggregations and events"
+        "description": "sap.m.NumericContent"
     }
 }

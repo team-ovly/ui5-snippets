@@ -1,0 +1,59 @@
+{
+    "sap.ui.core.Control": {
+        "prefix": "!5-sap-ui-core-control",
+        "body": [
+            "<core:Control ",
+            "\t$1",
+            "\t/>"
+        ],
+        "description": "sap.ui.core.Control"
+    },
+    "sap.ui.core.Control-properties": {
+        "prefix": "!5-sap-ui-core-control",
+        "body": [
+            "<core:Control",
+            "\tblocked=\"false\"",
+            "\tbusy=\"false\"",
+            "\tbusyIndicatorDelay=\"1000\"",
+            "\tbusyIndicatorSize=\"Medium\"",
+            "\tvisible=\"true\"",
+            "\tfieldGroupIds=\"\"",
+            "$1/>"
+        ],
+        "description": "sap.ui.core.Control"
+    },
+    "sap.ui.core.Control-aggregations": {
+        "prefix": "!5-sap-ui-core-control",
+        "body": [
+            "<core:Control>",
+            "</core:Control>"
+        ],
+        "description": "sap.ui.core.Control"
+    },
+    "sap.ui.core.Control-events": {
+        "prefix": "!5-sap-ui-core-control",
+        "body": [
+            "<core:Control",
+            "\tvalidateFieldGroup=\".onValidateFieldGroup\"",
+            "\t$1",
+            "/>"
+        ],
+        "description": "sap.ui.core.Control"
+    },
+    "sap.ui.core.Control-all": {
+        "prefix": "!5-sap-ui-core-control",
+        "body": [
+            "<core:Control",
+            "\tblocked=\"false\"",
+            "\tbusy=\"false\"",
+            "\tbusyIndicatorDelay=\"1000\"",
+            "\tbusyIndicatorSize=\"Medium\"",
+            "\tvisible=\"true\"",
+            "\tfieldGroupIds=\"\"",
+            "\tvalidateFieldGroup=\".onValidateFieldGroup\"",
+            "\t$1",
+            "/>"
+        ],
+        "description": "sap.ui.core.Control"
+    }
+}

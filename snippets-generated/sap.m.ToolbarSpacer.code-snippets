@@ -1,39 +1,47 @@
 {
     "sap.m.ToolbarSpacer": {
-        "prefix": "!5-toolbar-spacer",
+        "prefix": "!5-sap-m-toolbarspacer",
         "body": [
-            "<ToolbarSpacer ",
+            "<m:ToolbarSpacer ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.m.ToolbarSpacer"
     },
     "sap.m.ToolbarSpacer-properties": {
-        "prefix": "!5-toolbar-spacer-properties",
+        "prefix": "!5-sap-m-toolbarspacer",
         "body": [
-            "$1width=\"\"$2"
+            "<m:ToolbarSpacer",
+            "\twidth=\"\"",
+            "$1/>"
         ],
-        "description": "sap.m.ToolbarSpacer with non-inherited properties"
+        "description": "sap.m.ToolbarSpacer"
     },
     "sap.m.ToolbarSpacer-aggregations": {
-        "prefix": "!5-toolbar-spacer-aggregations",
+        "prefix": "!5-sap-m-toolbarspacer",
         "body": [
-            "$1$2"
+            "<m:ToolbarSpacer>",
+            "</m:ToolbarSpacer>"
         ],
-        "description": "sap.m.ToolbarSpacer with non-inherited aggregations"
+        "description": "sap.m.ToolbarSpacer"
     },
     "sap.m.ToolbarSpacer-events": {
-        "prefix": "!5-toolbar-spacer-events",
+        "prefix": "!5-sap-m-toolbarspacer",
         "body": [
-            "$1$2"
+            "<m:ToolbarSpacer",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.ToolbarSpacer with non-inherited events"
+        "description": "sap.m.ToolbarSpacer"
     },
     "sap.m.ToolbarSpacer-all": {
-        "prefix": "!5-toolbar-spacer-all",
+        "prefix": "!5-sap-m-toolbarspacer",
         "body": [
-            "$1width=\"\"$2"
+            "<m:ToolbarSpacer",
+            "\twidth=\"\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.ToolbarSpacer with non-inherited properties, aggregations and events"
+        "description": "sap.m.ToolbarSpacer"
     }
 }

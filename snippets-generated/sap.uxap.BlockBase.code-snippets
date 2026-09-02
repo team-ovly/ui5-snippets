@@ -1,62 +1,65 @@
 {
     "sap.uxap.BlockBase": {
-        "prefix": "!5-block-base",
+        "prefix": "!5-sap-uxap-blockbase",
         "body": [
-            "<BlockBase ",
+            "<uxap:BlockBase ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.uxap.BlockBase"
     },
     "sap.uxap.BlockBase-properties": {
-        "prefix": "!5-block-base-properties",
+        "prefix": "!5-sap-uxap-blockbase",
         "body": [
-            "$1mode=\"\"",
-            "visible=\"true\"",
-            "columnLayout=\"auto\"",
-            "formAdjustment=\"BlockColumns\"",
-            "showSubSectionMore=\"false\"$2"
+            "<uxap:BlockBase",
+            "\tmode=\"null\"",
+            "\tvisible=\"true\"",
+            "\tcolumnLayout=\"auto\"",
+            "\tformAdjustment=\"BlockColumns\"",
+            "\tshowSubSectionMore=\"false\"",
+            "$1/>"
         ],
-        "description": "sap.uxap.BlockBase with non-inherited properties"
+        "description": "sap.uxap.BlockBase"
     },
     "sap.uxap.BlockBase-aggregations": {
-        "prefix": "!5-block-base-aggregations",
+        "prefix": "!5-sap-uxap-blockbase",
         "body": [
-            "$1<mappings>",
-            "\t<!-- <sap.uxap.ModelMapping /> -->",
-            "</mappings>",
-            "<_views>",
-            "\t<!-- <sap.ui.core.Control /> -->",
-            "</_views>",
-            "$2"
+            "<uxap:BlockBase>",
+            "\t<uxap:ModelMapping>",
+            "\t\t$1",
+            "\t</uxap:ModelMapping>",
+            "</uxap:BlockBase>"
         ],
-        "description": "sap.uxap.BlockBase with non-inherited aggregations"
+        "description": "sap.uxap.BlockBase"
     },
     "sap.uxap.BlockBase-events": {
-        "prefix": "!5-block-base-events",
+        "prefix": "!5-sap-uxap-blockbase",
         "body": [
-            "$1viewInit=\".on${3:ViewInit}\"",
-            "selectedView=\".on${4:SelectedView}\"$2"
+            "<uxap:BlockBase",
+            "\tviewInit=\".onViewInit\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.uxap.BlockBase with non-inherited events"
+        "description": "sap.uxap.BlockBase"
     },
     "sap.uxap.BlockBase-all": {
-        "prefix": "!5-block-base-all",
+        "prefix": "!5-sap-uxap-blockbase",
         "body": [
-            "$1mode=\"\"",
-            "visible=\"true\"",
-            "columnLayout=\"auto\"",
-            "formAdjustment=\"BlockColumns\"",
-            "showSubSectionMore=\"false\"",
-            "<mappings>",
-            "\t<!-- <sap.uxap.ModelMapping /> -->",
-            "</mappings>",
-            "<_views>",
-            "\t<!-- <sap.ui.core.Control /> -->",
-            "</_views>",
-            "viewInit=\".on${3:ViewInit}\"",
-            "selectedView=\".on${4:SelectedView}\"$2"
+            "<uxap:BlockBase",
+            "\tmode=\"null\"",
+            "\tvisible=\"true\"",
+            "\tcolumnLayout=\"auto\"",
+            "\tformAdjustment=\"BlockColumns\"",
+            "\tshowSubSectionMore=\"false\"",
+            "\tviewInit=\".onViewInit\"",
+            ">",
+            "\t<mappings>",
+            "\t\t<uxap:ModelMapping",
+            "\t\t\t$1",
+            "\t\t/>",
+            "\t</mappings>",
+            "</uxap:BlockBase>"
         ],
-        "description": "sap.uxap.BlockBase with non-inherited properties, aggregations and events"
+        "description": "sap.uxap.BlockBase"
     }
 }

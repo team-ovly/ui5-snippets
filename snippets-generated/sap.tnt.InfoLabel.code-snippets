@@ -1,51 +1,59 @@
 {
     "sap.tnt.InfoLabel": {
-        "prefix": "!5-info-label",
+        "prefix": "!5-sap-tnt-infolabel",
         "body": [
-            "<InfoLabel ",
+            "<tnt:InfoLabel ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.tnt.InfoLabel"
     },
     "sap.tnt.InfoLabel-properties": {
-        "prefix": "!5-info-label-properties",
+        "prefix": "!5-sap-tnt-infolabel",
         "body": [
-            "$1text=\"\"",
-            "renderMode=\"Loose\"",
-            "colorScheme=\"7\"",
-            "width=\"\"",
-            "displayOnly=\"false\"",
-            "textDirection=\"Inherit\"",
-            "icon=\"\"$2"
+            "<tnt:InfoLabel",
+            "\ttext=\"\"",
+            "\trenderMode=\"Loose\"",
+            "\tcolorScheme=\"7\"",
+            "\twidth=\"null\"",
+            "\tdisplayOnly=\"false\"",
+            "\ttextDirection=\"Inherit\"",
+            "\ticon=\"\"",
+            "$1/>"
         ],
-        "description": "sap.tnt.InfoLabel with non-inherited properties"
+        "description": "sap.tnt.InfoLabel"
     },
     "sap.tnt.InfoLabel-aggregations": {
-        "prefix": "!5-info-label-aggregations",
+        "prefix": "!5-sap-tnt-infolabel",
         "body": [
-            "$1$2"
+            "<tnt:InfoLabel>",
+            "</tnt:InfoLabel>"
         ],
-        "description": "sap.tnt.InfoLabel with non-inherited aggregations"
+        "description": "sap.tnt.InfoLabel"
     },
     "sap.tnt.InfoLabel-events": {
-        "prefix": "!5-info-label-events",
+        "prefix": "!5-sap-tnt-infolabel",
         "body": [
-            "$1$2"
+            "<tnt:InfoLabel",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.tnt.InfoLabel with non-inherited events"
+        "description": "sap.tnt.InfoLabel"
     },
     "sap.tnt.InfoLabel-all": {
-        "prefix": "!5-info-label-all",
+        "prefix": "!5-sap-tnt-infolabel",
         "body": [
-            "$1text=\"\"",
-            "renderMode=\"Loose\"",
-            "colorScheme=\"7\"",
-            "width=\"\"",
-            "displayOnly=\"false\"",
-            "textDirection=\"Inherit\"",
-            "icon=\"\"$2"
+            "<tnt:InfoLabel",
+            "\ttext=\"\"",
+            "\trenderMode=\"Loose\"",
+            "\tcolorScheme=\"7\"",
+            "\twidth=\"null\"",
+            "\tdisplayOnly=\"false\"",
+            "\ttextDirection=\"Inherit\"",
+            "\ticon=\"\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.tnt.InfoLabel with non-inherited properties, aggregations and events"
+        "description": "sap.tnt.InfoLabel"
     }
 }

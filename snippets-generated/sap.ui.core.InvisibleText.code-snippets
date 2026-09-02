@@ -1,39 +1,47 @@
 {
     "sap.ui.core.InvisibleText": {
-        "prefix": "!5-invisible-text",
+        "prefix": "!5-sap-ui-core-invisibletext",
         "body": [
-            "<InvisibleText ",
+            "<core:InvisibleText ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.ui.core.InvisibleText"
     },
     "sap.ui.core.InvisibleText-properties": {
-        "prefix": "!5-invisible-text-properties",
+        "prefix": "!5-sap-ui-core-invisibletext",
         "body": [
-            "$1text=\"\"$2"
+            "<core:InvisibleText",
+            "\ttext=\"\"",
+            "$1/>"
         ],
-        "description": "sap.ui.core.InvisibleText with non-inherited properties"
+        "description": "sap.ui.core.InvisibleText"
     },
     "sap.ui.core.InvisibleText-aggregations": {
-        "prefix": "!5-invisible-text-aggregations",
+        "prefix": "!5-sap-ui-core-invisibletext",
         "body": [
-            "$1$2"
+            "<core:InvisibleText>",
+            "</core:InvisibleText>"
         ],
-        "description": "sap.ui.core.InvisibleText with non-inherited aggregations"
+        "description": "sap.ui.core.InvisibleText"
     },
     "sap.ui.core.InvisibleText-events": {
-        "prefix": "!5-invisible-text-events",
+        "prefix": "!5-sap-ui-core-invisibletext",
         "body": [
-            "$1$2"
+            "<core:InvisibleText",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.ui.core.InvisibleText with non-inherited events"
+        "description": "sap.ui.core.InvisibleText"
     },
     "sap.ui.core.InvisibleText-all": {
-        "prefix": "!5-invisible-text-all",
+        "prefix": "!5-sap-ui-core-invisibletext",
         "body": [
-            "$1text=\"\"$2"
+            "<core:InvisibleText",
+            "\ttext=\"\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.ui.core.InvisibleText with non-inherited properties, aggregations and events"
+        "description": "sap.ui.core.InvisibleText"
     }
 }

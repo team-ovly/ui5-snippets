@@ -1,65 +1,77 @@
 {
     "sap.m.QuickViewPage": {
-        "prefix": "!5-quick-view-page",
+        "prefix": "!5-sap-m-quickviewpage",
         "body": [
-            "<QuickViewPage ",
+            "<m:QuickViewPage ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.m.QuickViewPage"
     },
     "sap.m.QuickViewPage-properties": {
-        "prefix": "!5-quick-view-page-properties",
+        "prefix": "!5-sap-m-quickviewpage",
         "body": [
-            "$1pageId=\"\"",
-            "header=\"\"",
-            "title=\"\"",
-            "titleUrl=\"\"",
-            "crossAppNavCallback=\"\"",
-            "description=\"\"",
-            "icon=\"\"",
-            "fallbackIcon=\"\"$2"
+            "<m:QuickViewPage",
+            "\tpageId=\"\"",
+            "\theader=\"\"",
+            "\ttitle=\"\"",
+            "\ttitleUrl=\"\"",
+            "\tcrossAppNavCallback=\"null\"",
+            "\tdescription=\"\"",
+            "\ticon=\"\"",
+            "\tfallbackIcon=\"null\"",
+            "$1/>"
         ],
-        "description": "sap.m.QuickViewPage with non-inherited properties"
+        "description": "sap.m.QuickViewPage"
     },
     "sap.m.QuickViewPage-aggregations": {
-        "prefix": "!5-quick-view-page-aggregations",
+        "prefix": "!5-sap-m-quickviewpage",
         "body": [
-            "$1<groups>",
-            "\t<!-- <sap.m.QuickViewGroup /> -->",
-            "</groups>",
-            "<avatar>",
-            "\t<!-- <sap.m.Avatar /> -->",
-            "</avatar>",
-            "$2"
+            "<m:QuickViewPage>",
+            "\t<m:QuickViewGroup>",
+            "\t\t$1",
+            "\t</m:QuickViewGroup>",
+            "\t<m:Avatar>",
+            "\t\t$2",
+            "\t</m:Avatar>",
+            "</m:QuickViewPage>"
         ],
-        "description": "sap.m.QuickViewPage with non-inherited aggregations"
+        "description": "sap.m.QuickViewPage"
     },
     "sap.m.QuickViewPage-events": {
-        "prefix": "!5-quick-view-page-events",
+        "prefix": "!5-sap-m-quickviewpage",
         "body": [
-            "$1$2"
+            "<m:QuickViewPage",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.QuickViewPage with non-inherited events"
+        "description": "sap.m.QuickViewPage"
     },
     "sap.m.QuickViewPage-all": {
-        "prefix": "!5-quick-view-page-all",
+        "prefix": "!5-sap-m-quickviewpage",
         "body": [
-            "$1pageId=\"\"",
-            "header=\"\"",
-            "title=\"\"",
-            "titleUrl=\"\"",
-            "crossAppNavCallback=\"\"",
-            "description=\"\"",
-            "icon=\"\"",
-            "fallbackIcon=\"\"",
-            "<groups>",
-            "\t<!-- <sap.m.QuickViewGroup /> -->",
-            "</groups>",
-            "<avatar>",
-            "\t<!-- <sap.m.Avatar /> -->",
-            "</avatar>$2"
+            "<m:QuickViewPage",
+            "\tpageId=\"\"",
+            "\theader=\"\"",
+            "\ttitle=\"\"",
+            "\ttitleUrl=\"\"",
+            "\tcrossAppNavCallback=\"null\"",
+            "\tdescription=\"\"",
+            "\ticon=\"\"",
+            "\tfallbackIcon=\"null\"",
+            ">",
+            "\t<groups>",
+            "\t\t<m:QuickViewGroup",
+            "\t\t\t$1",
+            "\t\t/>",
+            "\t</groups>",
+            "\t<avatar>",
+            "\t\t<m:Avatar",
+            "\t\t\t$2",
+            "\t\t/>",
+            "\t</avatar>",
+            "</m:QuickViewPage>"
         ],
-        "description": "sap.m.QuickViewPage with non-inherited properties, aggregations and events"
+        "description": "sap.m.QuickViewPage"
     }
 }

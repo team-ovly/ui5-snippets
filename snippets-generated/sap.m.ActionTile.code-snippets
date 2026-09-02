@@ -1,49 +1,57 @@
 {
     "sap.m.ActionTile": {
-        "prefix": "!5-action-tile",
+        "prefix": "!5-sap-m-actiontile",
         "body": [
-            "<ActionTile ",
+            "<m:ActionTile ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.m.ActionTile"
     },
     "sap.m.ActionTile-properties": {
-        "prefix": "!5-action-tile-properties",
+        "prefix": "!5-sap-m-actiontile",
         "body": [
-            "$1enableDynamicHeight=\"false\"",
-            "enableIconFrame=\"false\"",
-            "priority=\"None\"",
-            "priorityText=\"\"",
-            "badgeIcon=\"\"",
-            "badgeValueState=\"None\"$2"
+            "<m:ActionTile",
+            "\tenableDynamicHeight=\"false\"",
+            "\tenableIconFrame=\"false\"",
+            "\tpriority=\"None\"",
+            "\tpriorityText=\"null\"",
+            "\tbadgeIcon=\"\"",
+            "\tbadgeValueState=\"None\"",
+            "$1/>"
         ],
-        "description": "sap.m.ActionTile with non-inherited properties"
+        "description": "sap.m.ActionTile"
     },
     "sap.m.ActionTile-aggregations": {
-        "prefix": "!5-action-tile-aggregations",
+        "prefix": "!5-sap-m-actiontile",
         "body": [
-            "$1$2"
+            "<m:ActionTile>",
+            "</m:ActionTile>"
         ],
-        "description": "sap.m.ActionTile with non-inherited aggregations"
+        "description": "sap.m.ActionTile"
     },
     "sap.m.ActionTile-events": {
-        "prefix": "!5-action-tile-events",
+        "prefix": "!5-sap-m-actiontile",
         "body": [
-            "$1$2"
+            "<m:ActionTile",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.ActionTile with non-inherited events"
+        "description": "sap.m.ActionTile"
     },
     "sap.m.ActionTile-all": {
-        "prefix": "!5-action-tile-all",
+        "prefix": "!5-sap-m-actiontile",
         "body": [
-            "$1enableDynamicHeight=\"false\"",
-            "enableIconFrame=\"false\"",
-            "priority=\"None\"",
-            "priorityText=\"\"",
-            "badgeIcon=\"\"",
-            "badgeValueState=\"None\"$2"
+            "<m:ActionTile",
+            "\tenableDynamicHeight=\"false\"",
+            "\tenableIconFrame=\"false\"",
+            "\tpriority=\"None\"",
+            "\tpriorityText=\"null\"",
+            "\tbadgeIcon=\"\"",
+            "\tbadgeValueState=\"None\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.ActionTile with non-inherited properties, aggregations and events"
+        "description": "sap.m.ActionTile"
     }
 }

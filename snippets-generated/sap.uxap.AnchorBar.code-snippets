@@ -1,62 +1,51 @@
 {
     "sap.uxap.AnchorBar": {
-        "prefix": "!5-anchor-bar",
+        "prefix": "!5-sap-uxap-anchorbar",
         "body": [
-            "<AnchorBar ",
+            "<uxap:AnchorBar ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.uxap.AnchorBar"
     },
     "sap.uxap.AnchorBar-properties": {
-        "prefix": "!5-anchor-bar-properties",
+        "prefix": "!5-sap-uxap-anchorbar",
         "body": [
-            "$1showPopover=\"true\"",
-            "upperCase=\"false\"",
-            "backgroundDesign=\"\"$2"
+            "<uxap:AnchorBar",
+            "\tshowPopover=\"true\"",
+            "\tupperCase=\"false\"",
+            "\tbackgroundDesign=\"null\"",
+            "$1/>"
         ],
-        "description": "sap.uxap.AnchorBar with non-inherited properties"
+        "description": "sap.uxap.AnchorBar"
     },
     "sap.uxap.AnchorBar-aggregations": {
-        "prefix": "!5-anchor-bar-aggregations",
+        "prefix": "!5-sap-uxap-anchorbar",
         "body": [
-            "$1<_select>",
-            "\t<!-- <sap.uxap.HierarchicalSelect /> -->",
-            "</_select>",
-            "<_scrollArrowLeft>",
-            "\t<!-- <sap.ui.core.Control /> -->",
-            "</_scrollArrowLeft>",
-            "<_scrollArrowRight>",
-            "\t<!-- <sap.ui.core.Control /> -->",
-            "</_scrollArrowRight>",
-            "$2"
+            "<uxap:AnchorBar>",
+            "</uxap:AnchorBar>"
         ],
-        "description": "sap.uxap.AnchorBar with non-inherited aggregations"
+        "description": "sap.uxap.AnchorBar"
     },
     "sap.uxap.AnchorBar-events": {
-        "prefix": "!5-anchor-bar-events",
+        "prefix": "!5-sap-uxap-anchorbar",
         "body": [
-            "$1selectedButton=\".on${3:SelectedButton}\"$2"
+            "<uxap:AnchorBar",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.uxap.AnchorBar with non-inherited events"
+        "description": "sap.uxap.AnchorBar"
     },
     "sap.uxap.AnchorBar-all": {
-        "prefix": "!5-anchor-bar-all",
+        "prefix": "!5-sap-uxap-anchorbar",
         "body": [
-            "$1showPopover=\"true\"",
-            "upperCase=\"false\"",
-            "backgroundDesign=\"\"",
-            "<_select>",
-            "\t<!-- <sap.uxap.HierarchicalSelect /> -->",
-            "</_select>",
-            "<_scrollArrowLeft>",
-            "\t<!-- <sap.ui.core.Control /> -->",
-            "</_scrollArrowLeft>",
-            "<_scrollArrowRight>",
-            "\t<!-- <sap.ui.core.Control /> -->",
-            "</_scrollArrowRight>",
-            "selectedButton=\".on${3:SelectedButton}\"$2"
+            "<uxap:AnchorBar",
+            "\tshowPopover=\"true\"",
+            "\tupperCase=\"false\"",
+            "\tbackgroundDesign=\"null\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.uxap.AnchorBar with non-inherited properties, aggregations and events"
+        "description": "sap.uxap.AnchorBar"
     }
 }

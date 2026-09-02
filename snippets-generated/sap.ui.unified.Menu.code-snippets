@@ -1,58 +1,67 @@
 {
     "sap.ui.unified.Menu": {
-        "prefix": "!5-menu",
+        "prefix": "!5-sap-ui-unified-menu",
         "body": [
-            "<Menu ",
+            "<unified:Menu ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.ui.unified.Menu"
     },
     "sap.ui.unified.Menu-properties": {
-        "prefix": "!5-menu-properties",
+        "prefix": "!5-sap-ui-unified-menu",
         "body": [
-            "$1enabled=\"true\"",
-            "ariaDescription=\"\"",
-            "maxVisibleItems=\"0\"",
-            "pageSize=\"5\"$2"
+            "<unified:Menu",
+            "\tenabled=\"true\"",
+            "\tariaDescription=\"null\"",
+            "\tmaxVisibleItems=\"0\"",
+            "\tpageSize=\"5\"",
+            "$1/>"
         ],
-        "description": "sap.ui.unified.Menu with non-inherited properties"
+        "description": "sap.ui.unified.Menu"
     },
     "sap.ui.unified.Menu-aggregations": {
-        "prefix": "!5-menu-aggregations",
+        "prefix": "!5-sap-ui-unified-menu",
         "body": [
-            "$1<items>",
-            "\t<!-- <sap.ui.unified.IMenuItem /> -->",
-            "</items>",
-            "$2"
+            "<unified:Menu>",
+            "\t<unified:IMenuItem>",
+            "\t\t$1",
+            "\t</unified:IMenuItem>",
+            "</unified:Menu>"
         ],
-        "description": "sap.ui.unified.Menu with non-inherited aggregations"
+        "description": "sap.ui.unified.Menu"
     },
     "sap.ui.unified.Menu-events": {
-        "prefix": "!5-menu-events",
+        "prefix": "!5-sap-ui-unified-menu",
         "body": [
-            "$1itemSelect=\".on${3:ItemSelect}\"",
-            "closed=\".on${4:Closed}\"",
-            "beforeClose=\".on${5:BeforeClose}\"",
-            "ariaLabelledBy=\".on${6:AriaLabelledBy}\"$2"
+            "<unified:Menu",
+            "\titemSelect=\".onItemSelect\"",
+            "\tclosed=\".onClosed\"",
+            "\tbeforeClose=\".onBeforeClose\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.ui.unified.Menu with non-inherited events"
+        "description": "sap.ui.unified.Menu"
     },
     "sap.ui.unified.Menu-all": {
-        "prefix": "!5-menu-all",
+        "prefix": "!5-sap-ui-unified-menu",
         "body": [
-            "$1enabled=\"true\"",
-            "ariaDescription=\"\"",
-            "maxVisibleItems=\"0\"",
-            "pageSize=\"5\"",
-            "<items>",
-            "\t<!-- <sap.ui.unified.IMenuItem /> -->",
-            "</items>",
-            "itemSelect=\".on${3:ItemSelect}\"",
-            "closed=\".on${4:Closed}\"",
-            "beforeClose=\".on${5:BeforeClose}\"",
-            "ariaLabelledBy=\".on${6:AriaLabelledBy}\"$2"
+            "<unified:Menu",
+            "\tenabled=\"true\"",
+            "\tariaDescription=\"null\"",
+            "\tmaxVisibleItems=\"0\"",
+            "\tpageSize=\"5\"",
+            "\titemSelect=\".onItemSelect\"",
+            "\tclosed=\".onClosed\"",
+            "\tbeforeClose=\".onBeforeClose\"",
+            ">",
+            "\t<items>",
+            "\t\t<unified:IMenuItem",
+            "\t\t\t$1",
+            "\t\t/>",
+            "\t</items>",
+            "</unified:Menu>"
         ],
-        "description": "sap.ui.unified.Menu with non-inherited properties, aggregations and events"
+        "description": "sap.ui.unified.Menu"
     }
 }

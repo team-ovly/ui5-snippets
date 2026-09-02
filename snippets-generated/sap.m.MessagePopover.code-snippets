@@ -1,76 +1,89 @@
 {
     "sap.m.MessagePopover": {
-        "prefix": "!5-message-popover",
+        "prefix": "!5-sap-m-messagepopover",
         "body": [
-            "<MessagePopover ",
+            "<m:MessagePopover ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.m.MessagePopover"
     },
     "sap.m.MessagePopover-properties": {
-        "prefix": "!5-message-popover-properties",
+        "prefix": "!5-sap-m-messagepopover",
         "body": [
-            "$1asyncDescriptionHandler=\"\"",
-            "asyncURLHandler=\"\"",
-            "placement=\"Vertical\"",
-            "initiallyExpanded=\"true\"",
-            "groupItems=\"false\"$2"
+            "<m:MessagePopover",
+            "\tasyncDescriptionHandler=\"null\"",
+            "\tasyncURLHandler=\"null\"",
+            "\tplacement=\"Vertical\"",
+            "\tinitiallyExpanded=\"true\"",
+            "\tgroupItems=\"false\"",
+            "$1/>"
         ],
-        "description": "sap.m.MessagePopover with non-inherited properties"
+        "description": "sap.m.MessagePopover"
     },
     "sap.m.MessagePopover-aggregations": {
-        "prefix": "!5-message-popover-aggregations",
+        "prefix": "!5-sap-m-messagepopover",
         "body": [
-            "$1<items>",
-            "\t<!-- <sap.m.MessageItem /> -->",
-            "</items>",
-            "<headerButton>",
-            "\t<!-- <sap.m.Button /> -->",
-            "</headerButton>",
-            "$2"
+            "<m:MessagePopover>",
+            "\t<m:MessageItem>",
+            "\t\t$1",
+            "\t</m:MessageItem>",
+            "\t<m:Button>",
+            "\t\t$2",
+            "\t</m:Button>",
+            "</m:MessagePopover>"
         ],
-        "description": "sap.m.MessagePopover with non-inherited aggregations"
+        "description": "sap.m.MessagePopover"
     },
     "sap.m.MessagePopover-events": {
-        "prefix": "!5-message-popover-events",
+        "prefix": "!5-sap-m-messagepopover",
         "body": [
-            "$1afterOpen=\".on${3:AfterOpen}\"",
-            "afterClose=\".on${4:AfterClose}\"",
-            "beforeOpen=\".on${5:BeforeOpen}\"",
-            "beforeClose=\".on${6:BeforeClose}\"",
-            "itemSelect=\".on${7:ItemSelect}\"",
-            "listSelect=\".on${8:ListSelect}\"",
-            "longtextLoaded=\".on${9:LongtextLoaded}\"",
-            "urlValidated=\".on${10:UrlValidated}\"",
-            "activeTitlePress=\".on${11:ActiveTitlePress}\"$2"
+            "<m:MessagePopover",
+            "\tafterOpen=\".onAfterOpen\"",
+            "\tafterClose=\".onAfterClose\"",
+            "\tbeforeOpen=\".onBeforeOpen\"",
+            "\tbeforeClose=\".onBeforeClose\"",
+            "\titemSelect=\".onItemSelect\"",
+            "\tlistSelect=\".onListSelect\"",
+            "\tlongtextLoaded=\".onLongtextLoaded\"",
+            "\turlValidated=\".onUrlValidated\"",
+            "\tactiveTitlePress=\".onActiveTitlePress\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.MessagePopover with non-inherited events"
+        "description": "sap.m.MessagePopover"
     },
     "sap.m.MessagePopover-all": {
-        "prefix": "!5-message-popover-all",
+        "prefix": "!5-sap-m-messagepopover",
         "body": [
-            "$1asyncDescriptionHandler=\"\"",
-            "asyncURLHandler=\"\"",
-            "placement=\"Vertical\"",
-            "initiallyExpanded=\"true\"",
-            "groupItems=\"false\"",
-            "<items>",
-            "\t<!-- <sap.m.MessageItem /> -->",
-            "</items>",
-            "<headerButton>",
-            "\t<!-- <sap.m.Button /> -->",
-            "</headerButton>",
-            "afterOpen=\".on${3:AfterOpen}\"",
-            "afterClose=\".on${4:AfterClose}\"",
-            "beforeOpen=\".on${5:BeforeOpen}\"",
-            "beforeClose=\".on${6:BeforeClose}\"",
-            "itemSelect=\".on${7:ItemSelect}\"",
-            "listSelect=\".on${8:ListSelect}\"",
-            "longtextLoaded=\".on${9:LongtextLoaded}\"",
-            "urlValidated=\".on${10:UrlValidated}\"",
-            "activeTitlePress=\".on${11:ActiveTitlePress}\"$2"
+            "<m:MessagePopover",
+            "\tasyncDescriptionHandler=\"null\"",
+            "\tasyncURLHandler=\"null\"",
+            "\tplacement=\"Vertical\"",
+            "\tinitiallyExpanded=\"true\"",
+            "\tgroupItems=\"false\"",
+            "\tafterOpen=\".onAfterOpen\"",
+            "\tafterClose=\".onAfterClose\"",
+            "\tbeforeOpen=\".onBeforeOpen\"",
+            "\tbeforeClose=\".onBeforeClose\"",
+            "\titemSelect=\".onItemSelect\"",
+            "\tlistSelect=\".onListSelect\"",
+            "\tlongtextLoaded=\".onLongtextLoaded\"",
+            "\turlValidated=\".onUrlValidated\"",
+            "\tactiveTitlePress=\".onActiveTitlePress\"",
+            ">",
+            "\t<items>",
+            "\t\t<m:MessageItem",
+            "\t\t\t$1",
+            "\t\t/>",
+            "\t</items>",
+            "\t<headerButton>",
+            "\t\t<m:Button",
+            "\t\t\t$2",
+            "\t\t/>",
+            "\t</headerButton>",
+            "</m:MessagePopover>"
         ],
-        "description": "sap.m.MessagePopover with non-inherited properties, aggregations and events"
+        "description": "sap.m.MessagePopover"
     }
 }

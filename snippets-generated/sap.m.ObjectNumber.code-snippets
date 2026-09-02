@@ -1,64 +1,69 @@
 {
     "sap.m.ObjectNumber": {
-        "prefix": "!5-object-number",
+        "prefix": "!5-sap-m-objectnumber",
         "body": [
-            "<ObjectNumber ",
+            "<m:ObjectNumber ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.m.ObjectNumber"
     },
     "sap.m.ObjectNumber-properties": {
-        "prefix": "!5-object-number-properties",
+        "prefix": "!5-sap-m-objectnumber",
         "body": [
-            "$1number=\"\"",
-            "numberUnit=\"\"",
-            "emphasized=\"true\"",
-            "state=\"None\"",
-            "unit=\"\"",
-            "textDirection=\"Inherit\"",
-            "textAlign=\"Begin\"",
-            "active=\"false\"",
-            "reactiveAreaMode=\"Inline\"",
-            "inverted=\"false\"",
-            "emptyIndicatorMode=\"Off\"$2"
+            "<m:ObjectNumber",
+            "\tnumber=\"null\"",
+            "\tnumberUnit=\"null\"",
+            "\temphasized=\"true\"",
+            "\tstate=\"None\"",
+            "\tunit=\"null\"",
+            "\ttextDirection=\"Inherit\"",
+            "\ttextAlign=\"Begin\"",
+            "\tactive=\"false\"",
+            "\treactiveAreaMode=\"Inline\"",
+            "\tinverted=\"false\"",
+            "\temptyIndicatorMode=\"Off\"",
+            "$1/>"
         ],
-        "description": "sap.m.ObjectNumber with non-inherited properties"
+        "description": "sap.m.ObjectNumber"
     },
     "sap.m.ObjectNumber-aggregations": {
-        "prefix": "!5-object-number-aggregations",
+        "prefix": "!5-sap-m-objectnumber",
         "body": [
-            "$1$2"
+            "<m:ObjectNumber>",
+            "</m:ObjectNumber>"
         ],
-        "description": "sap.m.ObjectNumber with non-inherited aggregations"
+        "description": "sap.m.ObjectNumber"
     },
     "sap.m.ObjectNumber-events": {
-        "prefix": "!5-object-number-events",
+        "prefix": "!5-sap-m-objectnumber",
         "body": [
-            "$1press=\".on${3:Press}\"",
-            "ariaLabelledBy=\".on${4:AriaLabelledBy}\"",
-            "ariaDescribedBy=\".on${5:AriaDescribedBy}\"$2"
+            "<m:ObjectNumber",
+            "\tpress=\".onPress\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.ObjectNumber with non-inherited events"
+        "description": "sap.m.ObjectNumber"
     },
     "sap.m.ObjectNumber-all": {
-        "prefix": "!5-object-number-all",
+        "prefix": "!5-sap-m-objectnumber",
         "body": [
-            "$1number=\"\"",
-            "numberUnit=\"\"",
-            "emphasized=\"true\"",
-            "state=\"None\"",
-            "unit=\"\"",
-            "textDirection=\"Inherit\"",
-            "textAlign=\"Begin\"",
-            "active=\"false\"",
-            "reactiveAreaMode=\"Inline\"",
-            "inverted=\"false\"",
-            "emptyIndicatorMode=\"Off\"",
-            "press=\".on${3:Press}\"",
-            "ariaLabelledBy=\".on${4:AriaLabelledBy}\"",
-            "ariaDescribedBy=\".on${5:AriaDescribedBy}\"$2"
+            "<m:ObjectNumber",
+            "\tnumber=\"null\"",
+            "\tnumberUnit=\"null\"",
+            "\temphasized=\"true\"",
+            "\tstate=\"None\"",
+            "\tunit=\"null\"",
+            "\ttextDirection=\"Inherit\"",
+            "\ttextAlign=\"Begin\"",
+            "\tactive=\"false\"",
+            "\treactiveAreaMode=\"Inline\"",
+            "\tinverted=\"false\"",
+            "\temptyIndicatorMode=\"Off\"",
+            "\tpress=\".onPress\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.ObjectNumber with non-inherited properties, aggregations and events"
+        "description": "sap.m.ObjectNumber"
     }
 }

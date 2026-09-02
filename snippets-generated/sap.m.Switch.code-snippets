@@ -1,52 +1,59 @@
 {
     "sap.m.Switch": {
-        "prefix": "!5-switch",
+        "prefix": "!5-sap-m-switch",
         "body": [
-            "<Switch ",
+            "<m:Switch ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.m.Switch"
     },
     "sap.m.Switch-properties": {
-        "prefix": "!5-switch-properties",
+        "prefix": "!5-sap-m-switch",
         "body": [
-            "$1state=\"false\"",
-            "customTextOn=\"\"",
-            "customTextOff=\"\"",
-            "enabled=\"true\"",
-            "name=\"\"",
-            "type=\"Default\"$2"
+            "<m:Switch",
+            "\tstate=\"false\"",
+            "\tcustomTextOn=\"\"",
+            "\tcustomTextOff=\"\"",
+            "\tenabled=\"true\"",
+            "\tname=\"\"",
+            "\ttype=\"Default\"",
+            "$1/>"
         ],
-        "description": "sap.m.Switch with non-inherited properties"
+        "description": "sap.m.Switch"
     },
     "sap.m.Switch-aggregations": {
-        "prefix": "!5-switch-aggregations",
+        "prefix": "!5-sap-m-switch",
         "body": [
-            "$1$2"
+            "<m:Switch>",
+            "</m:Switch>"
         ],
-        "description": "sap.m.Switch with non-inherited aggregations"
+        "description": "sap.m.Switch"
     },
     "sap.m.Switch-events": {
-        "prefix": "!5-switch-events",
+        "prefix": "!5-sap-m-switch",
         "body": [
-            "$1change=\".on${3:Change}\"",
-            "ariaLabelledBy=\".on${4:AriaLabelledBy}\"$2"
+            "<m:Switch",
+            "\tchange=\".onChange\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.Switch with non-inherited events"
+        "description": "sap.m.Switch"
     },
     "sap.m.Switch-all": {
-        "prefix": "!5-switch-all",
+        "prefix": "!5-sap-m-switch",
         "body": [
-            "$1state=\"false\"",
-            "customTextOn=\"\"",
-            "customTextOff=\"\"",
-            "enabled=\"true\"",
-            "name=\"\"",
-            "type=\"Default\"",
-            "change=\".on${3:Change}\"",
-            "ariaLabelledBy=\".on${4:AriaLabelledBy}\"$2"
+            "<m:Switch",
+            "\tstate=\"false\"",
+            "\tcustomTextOn=\"\"",
+            "\tcustomTextOff=\"\"",
+            "\tenabled=\"true\"",
+            "\tname=\"\"",
+            "\ttype=\"Default\"",
+            "\tchange=\".onChange\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.Switch with non-inherited properties, aggregations and events"
+        "description": "sap.m.Switch"
     }
 }

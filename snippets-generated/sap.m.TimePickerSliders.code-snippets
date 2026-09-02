@@ -1,64 +1,67 @@
 {
     "sap.m.TimePickerSliders": {
-        "prefix": "!5-time-picker-sliders",
+        "prefix": "!5-sap-m-timepickersliders",
         "body": [
-            "<TimePickerSliders ",
+            "<m:TimePickerSliders ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.m.TimePickerSliders"
     },
     "sap.m.TimePickerSliders-properties": {
-        "prefix": "!5-time-picker-sliders-properties",
+        "prefix": "!5-sap-m-timepickersliders",
         "body": [
-            "$1localeId=\"\"",
-            "displayFormat=\"\"",
-            "labelText=\"\"",
-            "minutesStep=\"1\"",
-            "secondsStep=\"1\"",
-            "width=\"\"",
-            "height=\"\"",
-            "value=\"\"",
-            "valueFormat=\"\"",
-            "support2400=\"false\"$2"
+            "<m:TimePickerSliders",
+            "\tlocaleId=\"null\"",
+            "\tdisplayFormat=\"null\"",
+            "\tlabelText=\"null\"",
+            "\tminutesStep=\"1\"",
+            "\tsecondsStep=\"1\"",
+            "\twidth=\"null\"",
+            "\theight=\"null\"",
+            "\tvalue=\"null\"",
+            "\tvalueFormat=\"null\"",
+            "\tsupport2400=\"false\"",
+            "$1/>"
         ],
-        "description": "sap.m.TimePickerSliders with non-inherited properties"
+        "description": "sap.m.TimePickerSliders"
     },
     "sap.m.TimePickerSliders-aggregations": {
-        "prefix": "!5-time-picker-sliders-aggregations",
+        "prefix": "!5-sap-m-timepickersliders",
         "body": [
-            "$1<_columns>",
-            "\t<!-- <sap.m.TimePickerSlider /> -->",
-            "</_columns>",
-            "$2"
+            "<m:TimePickerSliders>",
+            "</m:TimePickerSliders>"
         ],
-        "description": "sap.m.TimePickerSliders with non-inherited aggregations"
+        "description": "sap.m.TimePickerSliders"
     },
     "sap.m.TimePickerSliders-events": {
-        "prefix": "!5-time-picker-sliders-events",
+        "prefix": "!5-sap-m-timepickersliders",
         "body": [
-            "$1change=\".on${3:Change}\"$2"
+            "<m:TimePickerSliders",
+            "\tchange=\".onChange\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.TimePickerSliders with non-inherited events"
+        "description": "sap.m.TimePickerSliders"
     },
     "sap.m.TimePickerSliders-all": {
-        "prefix": "!5-time-picker-sliders-all",
+        "prefix": "!5-sap-m-timepickersliders",
         "body": [
-            "$1localeId=\"\"",
-            "displayFormat=\"\"",
-            "labelText=\"\"",
-            "minutesStep=\"1\"",
-            "secondsStep=\"1\"",
-            "width=\"\"",
-            "height=\"\"",
-            "value=\"\"",
-            "valueFormat=\"\"",
-            "support2400=\"false\"",
-            "<_columns>",
-            "\t<!-- <sap.m.TimePickerSlider /> -->",
-            "</_columns>",
-            "change=\".on${3:Change}\"$2"
+            "<m:TimePickerSliders",
+            "\tlocaleId=\"null\"",
+            "\tdisplayFormat=\"null\"",
+            "\tlabelText=\"null\"",
+            "\tminutesStep=\"1\"",
+            "\tsecondsStep=\"1\"",
+            "\twidth=\"null\"",
+            "\theight=\"null\"",
+            "\tvalue=\"null\"",
+            "\tvalueFormat=\"null\"",
+            "\tsupport2400=\"false\"",
+            "\tchange=\".onChange\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.TimePickerSliders with non-inherited properties, aggregations and events"
+        "description": "sap.m.TimePickerSliders"
     }
 }

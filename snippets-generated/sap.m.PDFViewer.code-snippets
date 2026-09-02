@@ -1,86 +1,87 @@
 {
     "sap.m.PDFViewer": {
-        "prefix": "!5-pdfviewer",
+        "prefix": "!5-sap-m-pdfviewer",
         "body": [
-            "<PDFViewer ",
+            "<m:PDFViewer ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.m.PDFViewer"
     },
     "sap.m.PDFViewer-properties": {
-        "prefix": "!5-pdfviewer-properties",
+        "prefix": "!5-sap-m-pdfviewer",
         "body": [
-            "$1height=\"100%\"",
-            "width=\"100%\"",
-            "source=\"\"",
-            "errorMessage=\"\"",
-            "errorPlaceholderMessage=\"\"",
-            "popupHeaderTitle=\"\"",
-            "title=\"\"",
-            "showDownloadButton=\"true\"",
-            "displayType=\"Auto\"",
-            "isTrustedSource=\"false\"$2"
+            "<m:PDFViewer",
+            "\theight=\"100%\"",
+            "\twidth=\"100%\"",
+            "\tsource=\"null\"",
+            "\terrorMessage=\"null\"",
+            "\terrorPlaceholderMessage=\"null\"",
+            "\tpopupHeaderTitle=\"null\"",
+            "\ttitle=\"null\"",
+            "\tshowDownloadButton=\"true\"",
+            "\tdisplayType=\"Auto\"",
+            "\tisTrustedSource=\"false\"",
+            "$1/>"
         ],
-        "description": "sap.m.PDFViewer with non-inherited properties"
+        "description": "sap.m.PDFViewer"
     },
     "sap.m.PDFViewer-aggregations": {
-        "prefix": "!5-pdfviewer-aggregations",
+        "prefix": "!5-sap-m-pdfviewer",
         "body": [
-            "$1<errorPlaceholder>",
-            "\t<!-- <sap.ui.core.Control /> -->",
-            "</errorPlaceholder>",
-            "<popupButtons>",
-            "\t<!-- <sap.m.Button /> -->",
-            "</popupButtons>",
-            "<_illustratedMessage>",
-            "\t<!-- <sap.m.IllustratedMessage /> -->",
-            "</_illustratedMessage>",
-            "<_nonTrustedIllustratedMessage>",
-            "\t<!-- <sap.m.IllustratedMessage /> -->",
-            "</_nonTrustedIllustratedMessage>",
-            "$2"
+            "<m:PDFViewer>",
+            "\t<core:Control>",
+            "\t\t$1",
+            "\t</core:Control>",
+            "\t<m:Button>",
+            "\t\t$2",
+            "\t</m:Button>",
+            "</m:PDFViewer>"
         ],
-        "description": "sap.m.PDFViewer with non-inherited aggregations"
+        "description": "sap.m.PDFViewer"
     },
     "sap.m.PDFViewer-events": {
-        "prefix": "!5-pdfviewer-events",
+        "prefix": "!5-sap-m-pdfviewer",
         "body": [
-            "$1loaded=\".on${3:Loaded}\"",
-            "error=\".on${4:Error}\"",
-            "sourceValidationFailed=\".on${5:SourceValidationFailed}\"$2"
+            "<m:PDFViewer",
+            "\tloaded=\".onLoaded\"",
+            "\terror=\".onError\"",
+            "\tsourceValidationFailed=\".onSourceValidationFailed\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.PDFViewer with non-inherited events"
+        "description": "sap.m.PDFViewer"
     },
     "sap.m.PDFViewer-all": {
-        "prefix": "!5-pdfviewer-all",
+        "prefix": "!5-sap-m-pdfviewer",
         "body": [
-            "$1height=\"100%\"",
-            "width=\"100%\"",
-            "source=\"\"",
-            "errorMessage=\"\"",
-            "errorPlaceholderMessage=\"\"",
-            "popupHeaderTitle=\"\"",
-            "title=\"\"",
-            "showDownloadButton=\"true\"",
-            "displayType=\"Auto\"",
-            "isTrustedSource=\"false\"",
-            "<errorPlaceholder>",
-            "\t<!-- <sap.ui.core.Control /> -->",
-            "</errorPlaceholder>",
-            "<popupButtons>",
-            "\t<!-- <sap.m.Button /> -->",
-            "</popupButtons>",
-            "<_illustratedMessage>",
-            "\t<!-- <sap.m.IllustratedMessage /> -->",
-            "</_illustratedMessage>",
-            "<_nonTrustedIllustratedMessage>",
-            "\t<!-- <sap.m.IllustratedMessage /> -->",
-            "</_nonTrustedIllustratedMessage>",
-            "loaded=\".on${3:Loaded}\"",
-            "error=\".on${4:Error}\"",
-            "sourceValidationFailed=\".on${5:SourceValidationFailed}\"$2"
+            "<m:PDFViewer",
+            "\theight=\"100%\"",
+            "\twidth=\"100%\"",
+            "\tsource=\"null\"",
+            "\terrorMessage=\"null\"",
+            "\terrorPlaceholderMessage=\"null\"",
+            "\tpopupHeaderTitle=\"null\"",
+            "\ttitle=\"null\"",
+            "\tshowDownloadButton=\"true\"",
+            "\tdisplayType=\"Auto\"",
+            "\tisTrustedSource=\"false\"",
+            "\tloaded=\".onLoaded\"",
+            "\terror=\".onError\"",
+            "\tsourceValidationFailed=\".onSourceValidationFailed\"",
+            ">",
+            "\t<errorPlaceholder>",
+            "\t\t<core:Control",
+            "\t\t\t$1",
+            "\t\t/>",
+            "\t</errorPlaceholder>",
+            "\t<popupButtons>",
+            "\t\t<m:Button",
+            "\t\t\t$2",
+            "\t\t/>",
+            "\t</popupButtons>",
+            "</m:PDFViewer>"
         ],
-        "description": "sap.m.PDFViewer with non-inherited properties, aggregations and events"
+        "description": "sap.m.PDFViewer"
     }
 }

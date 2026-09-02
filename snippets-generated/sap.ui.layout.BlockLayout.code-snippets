@@ -1,47 +1,57 @@
 {
     "sap.ui.layout.BlockLayout": {
-        "prefix": "!5-block-layout",
+        "prefix": "!5-sap-ui-layout-blocklayout",
         "body": [
-            "<BlockLayout ",
+            "<layout:BlockLayout ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.ui.layout.BlockLayout"
     },
     "sap.ui.layout.BlockLayout-properties": {
-        "prefix": "!5-block-layout-properties",
+        "prefix": "!5-sap-ui-layout-blocklayout",
         "body": [
-            "$1background=\"Default\"",
-            "keepFontSize=\"false\"$2"
+            "<layout:BlockLayout",
+            "\tbackground=\"Default\"",
+            "\tkeepFontSize=\"false\"",
+            "$1/>"
         ],
-        "description": "sap.ui.layout.BlockLayout with non-inherited properties"
+        "description": "sap.ui.layout.BlockLayout"
     },
     "sap.ui.layout.BlockLayout-aggregations": {
-        "prefix": "!5-block-layout-aggregations",
+        "prefix": "!5-sap-ui-layout-blocklayout",
         "body": [
-            "$1<content>",
-            "\t<!-- <sap.ui.layout.BlockLayoutRow /> -->",
-            "</content>",
-            "$2"
+            "<layout:BlockLayout>",
+            "\t<layout:BlockLayoutRow>",
+            "\t\t$1",
+            "\t</layout:BlockLayoutRow>",
+            "</layout:BlockLayout>"
         ],
-        "description": "sap.ui.layout.BlockLayout with non-inherited aggregations"
+        "description": "sap.ui.layout.BlockLayout"
     },
     "sap.ui.layout.BlockLayout-events": {
-        "prefix": "!5-block-layout-events",
+        "prefix": "!5-sap-ui-layout-blocklayout",
         "body": [
-            "$1$2"
+            "<layout:BlockLayout",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.ui.layout.BlockLayout with non-inherited events"
+        "description": "sap.ui.layout.BlockLayout"
     },
     "sap.ui.layout.BlockLayout-all": {
-        "prefix": "!5-block-layout-all",
+        "prefix": "!5-sap-ui-layout-blocklayout",
         "body": [
-            "$1background=\"Default\"",
-            "keepFontSize=\"false\"",
-            "<content>",
-            "\t<!-- <sap.ui.layout.BlockLayoutRow /> -->",
-            "</content>$2"
+            "<layout:BlockLayout",
+            "\tbackground=\"Default\"",
+            "\tkeepFontSize=\"false\"",
+            ">",
+            "\t<content>",
+            "\t\t<layout:BlockLayoutRow",
+            "\t\t\t$1",
+            "\t\t/>",
+            "\t</content>",
+            "</layout:BlockLayout>"
         ],
-        "description": "sap.ui.layout.BlockLayout with non-inherited properties, aggregations and events"
+        "description": "sap.ui.layout.BlockLayout"
     }
 }

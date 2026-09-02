@@ -1,86 +1,89 @@
 {
     "sap.m.Carousel": {
-        "prefix": "!5-carousel",
+        "prefix": "!5-sap-m-carousel",
         "body": [
-            "<Carousel ",
+            "<m:Carousel ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.m.Carousel"
     },
     "sap.m.Carousel-properties": {
-        "prefix": "!5-carousel-properties",
+        "prefix": "!5-sap-m-carousel",
         "body": [
-            "$1height=\"100%\"",
-            "width=\"100%\"",
-            "loop=\"false\"",
-            "showPageIndicator=\"true\"",
-            "pageIndicatorPlacement=\"Bottom\"",
-            "showBusyIndicator=\"true\"",
-            "arrowsPlacement=\"Content\"",
-            "backgroundDesign=\"Translucent\"",
-            "pageIndicatorBackgroundDesign=\"Solid\"",
-            "pageIndicatorBorderDesign=\"Solid\"$2"
+            "<m:Carousel",
+            "\theight=\"100%\"",
+            "\twidth=\"100%\"",
+            "\tloop=\"false\"",
+            "\tshowPageIndicator=\"true\"",
+            "\tpageIndicatorPlacement=\"Bottom\"",
+            "\tshowBusyIndicator=\"true\"",
+            "\tarrowsPlacement=\"Content\"",
+            "\tbackgroundDesign=\"Translucent\"",
+            "\tpageIndicatorBackgroundDesign=\"Solid\"",
+            "\tpageIndicatorBorderDesign=\"Solid\"",
+            "$1/>"
         ],
-        "description": "sap.m.Carousel with non-inherited properties"
+        "description": "sap.m.Carousel"
     },
     "sap.m.Carousel-aggregations": {
-        "prefix": "!5-carousel-aggregations",
+        "prefix": "!5-sap-m-carousel",
         "body": [
-            "$1<pages>",
-            "\t<!-- <sap.ui.core.Control /> -->",
-            "</pages>",
-            "<customLayout>",
-            "\t<!-- <sap.m.CarouselLayout /> -->",
-            "</customLayout>",
-            "<_emptyPage>",
-            "\t<!-- <sap.m.IllustratedMessage /> -->",
-            "</_emptyPage>",
-            "$2"
+            "<m:Carousel>",
+            "\t<core:Control>",
+            "\t\t$1",
+            "\t</core:Control>",
+            "\t<m:CarouselLayout>",
+            "\t\t$2",
+            "\t</m:CarouselLayout>",
+            "</m:Carousel>"
         ],
-        "description": "sap.m.Carousel with non-inherited aggregations"
+        "description": "sap.m.Carousel"
     },
     "sap.m.Carousel-events": {
-        "prefix": "!5-carousel-events",
+        "prefix": "!5-sap-m-carousel",
         "body": [
-            "$1loadPage=\".on${3:LoadPage}\"",
-            "unloadPage=\".on${4:UnloadPage}\"",
-            "pageChanged=\".on${5:PageChanged}\"",
-            "beforePageChanged=\".on${6:BeforePageChanged}\"",
-            "activePage=\".on${7:ActivePage}\"",
-            "ariaLabelledBy=\".on${8:AriaLabelledBy}\"$2"
+            "<m:Carousel",
+            "\tloadPage=\".onLoadPage\"",
+            "\tunloadPage=\".onUnloadPage\"",
+            "\tpageChanged=\".onPageChanged\"",
+            "\tbeforePageChanged=\".onBeforePageChanged\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.Carousel with non-inherited events"
+        "description": "sap.m.Carousel"
     },
     "sap.m.Carousel-all": {
-        "prefix": "!5-carousel-all",
+        "prefix": "!5-sap-m-carousel",
         "body": [
-            "$1height=\"100%\"",
-            "width=\"100%\"",
-            "loop=\"false\"",
-            "showPageIndicator=\"true\"",
-            "pageIndicatorPlacement=\"Bottom\"",
-            "showBusyIndicator=\"true\"",
-            "arrowsPlacement=\"Content\"",
-            "backgroundDesign=\"Translucent\"",
-            "pageIndicatorBackgroundDesign=\"Solid\"",
-            "pageIndicatorBorderDesign=\"Solid\"",
-            "<pages>",
-            "\t<!-- <sap.ui.core.Control /> -->",
-            "</pages>",
-            "<customLayout>",
-            "\t<!-- <sap.m.CarouselLayout /> -->",
-            "</customLayout>",
-            "<_emptyPage>",
-            "\t<!-- <sap.m.IllustratedMessage /> -->",
-            "</_emptyPage>",
-            "loadPage=\".on${3:LoadPage}\"",
-            "unloadPage=\".on${4:UnloadPage}\"",
-            "pageChanged=\".on${5:PageChanged}\"",
-            "beforePageChanged=\".on${6:BeforePageChanged}\"",
-            "activePage=\".on${7:ActivePage}\"",
-            "ariaLabelledBy=\".on${8:AriaLabelledBy}\"$2"
+            "<m:Carousel",
+            "\theight=\"100%\"",
+            "\twidth=\"100%\"",
+            "\tloop=\"false\"",
+            "\tshowPageIndicator=\"true\"",
+            "\tpageIndicatorPlacement=\"Bottom\"",
+            "\tshowBusyIndicator=\"true\"",
+            "\tarrowsPlacement=\"Content\"",
+            "\tbackgroundDesign=\"Translucent\"",
+            "\tpageIndicatorBackgroundDesign=\"Solid\"",
+            "\tpageIndicatorBorderDesign=\"Solid\"",
+            "\tloadPage=\".onLoadPage\"",
+            "\tunloadPage=\".onUnloadPage\"",
+            "\tpageChanged=\".onPageChanged\"",
+            "\tbeforePageChanged=\".onBeforePageChanged\"",
+            ">",
+            "\t<pages>",
+            "\t\t<core:Control",
+            "\t\t\t$1",
+            "\t\t/>",
+            "\t</pages>",
+            "\t<customLayout>",
+            "\t\t<m:CarouselLayout",
+            "\t\t\t$2",
+            "\t\t/>",
+            "\t</customLayout>",
+            "</m:Carousel>"
         ],
-        "description": "sap.m.Carousel with non-inherited properties, aggregations and events"
+        "description": "sap.m.Carousel"
     }
 }

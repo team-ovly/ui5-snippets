@@ -1,64 +1,69 @@
 {
     "sap.m.ObjectStatus": {
-        "prefix": "!5-object-status",
+        "prefix": "!5-sap-m-objectstatus",
         "body": [
-            "<ObjectStatus ",
+            "<m:ObjectStatus ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.m.ObjectStatus"
     },
     "sap.m.ObjectStatus-properties": {
-        "prefix": "!5-object-status-properties",
+        "prefix": "!5-sap-m-objectstatus",
         "body": [
-            "$1title=\"\"",
-            "text=\"\"",
-            "active=\"false\"",
-            "reactiveAreaMode=\"Inline\"",
-            "state=\"sap.ui.core.ValueState.None\"",
-            "inverted=\"false\"",
-            "icon=\"\"",
-            "iconDensityAware=\"true\"",
-            "textDirection=\"Inherit\"",
-            "emptyIndicatorMode=\"Off\"",
-            "stateAnnouncementText=\"\"$2"
+            "<m:ObjectStatus",
+            "\ttitle=\"null\"",
+            "\ttext=\"null\"",
+            "\tactive=\"false\"",
+            "\treactiveAreaMode=\"Inline\"",
+            "\tstate=\"sap.ui.core.ValueState.None\"",
+            "\tinverted=\"false\"",
+            "\ticon=\"null\"",
+            "\ticonDensityAware=\"true\"",
+            "\ttextDirection=\"Inherit\"",
+            "\temptyIndicatorMode=\"Off\"",
+            "\tstateAnnouncementText=\"null\"",
+            "$1/>"
         ],
-        "description": "sap.m.ObjectStatus with non-inherited properties"
+        "description": "sap.m.ObjectStatus"
     },
     "sap.m.ObjectStatus-aggregations": {
-        "prefix": "!5-object-status-aggregations",
+        "prefix": "!5-sap-m-objectstatus",
         "body": [
-            "$1$2"
+            "<m:ObjectStatus>",
+            "</m:ObjectStatus>"
         ],
-        "description": "sap.m.ObjectStatus with non-inherited aggregations"
+        "description": "sap.m.ObjectStatus"
     },
     "sap.m.ObjectStatus-events": {
-        "prefix": "!5-object-status-events",
+        "prefix": "!5-sap-m-objectstatus",
         "body": [
-            "$1press=\".on${3:Press}\"",
-            "ariaDescribedBy=\".on${4:AriaDescribedBy}\"",
-            "ariaLabelledBy=\".on${5:AriaLabelledBy}\"$2"
+            "<m:ObjectStatus",
+            "\tpress=\".onPress\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.ObjectStatus with non-inherited events"
+        "description": "sap.m.ObjectStatus"
     },
     "sap.m.ObjectStatus-all": {
-        "prefix": "!5-object-status-all",
+        "prefix": "!5-sap-m-objectstatus",
         "body": [
-            "$1title=\"\"",
-            "text=\"\"",
-            "active=\"false\"",
-            "reactiveAreaMode=\"Inline\"",
-            "state=\"sap.ui.core.ValueState.None\"",
-            "inverted=\"false\"",
-            "icon=\"\"",
-            "iconDensityAware=\"true\"",
-            "textDirection=\"Inherit\"",
-            "emptyIndicatorMode=\"Off\"",
-            "stateAnnouncementText=\"\"",
-            "press=\".on${3:Press}\"",
-            "ariaDescribedBy=\".on${4:AriaDescribedBy}\"",
-            "ariaLabelledBy=\".on${5:AriaLabelledBy}\"$2"
+            "<m:ObjectStatus",
+            "\ttitle=\"null\"",
+            "\ttext=\"null\"",
+            "\tactive=\"false\"",
+            "\treactiveAreaMode=\"Inline\"",
+            "\tstate=\"sap.ui.core.ValueState.None\"",
+            "\tinverted=\"false\"",
+            "\ticon=\"null\"",
+            "\ticonDensityAware=\"true\"",
+            "\ttextDirection=\"Inherit\"",
+            "\temptyIndicatorMode=\"Off\"",
+            "\tstateAnnouncementText=\"null\"",
+            "\tpress=\".onPress\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.ObjectStatus with non-inherited properties, aggregations and events"
+        "description": "sap.m.ObjectStatus"
     }
 }

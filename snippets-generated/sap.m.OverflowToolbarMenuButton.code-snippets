@@ -1,39 +1,45 @@
 {
     "sap.m.OverflowToolbarMenuButton": {
-        "prefix": "!5-overflow-toolbar-menu-button",
+        "prefix": "!5-sap-m-overflowtoolbarmenubutton",
         "body": [
-            "<OverflowToolbarMenuButton ",
+            "<m:OverflowToolbarMenuButton ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.m.OverflowToolbarMenuButton"
     },
     "sap.m.OverflowToolbarMenuButton-properties": {
-        "prefix": "!5-overflow-toolbar-menu-button-properties",
+        "prefix": "!5-sap-m-overflowtoolbarmenubutton",
         "body": [
-            "$1$2"
+            "<m:OverflowToolbarMenuButton",
+            "$1/>"
         ],
-        "description": "sap.m.OverflowToolbarMenuButton with non-inherited properties"
+        "description": "sap.m.OverflowToolbarMenuButton"
     },
     "sap.m.OverflowToolbarMenuButton-aggregations": {
-        "prefix": "!5-overflow-toolbar-menu-button-aggregations",
+        "prefix": "!5-sap-m-overflowtoolbarmenubutton",
         "body": [
-            "$1$2"
+            "<m:OverflowToolbarMenuButton>",
+            "</m:OverflowToolbarMenuButton>"
         ],
-        "description": "sap.m.OverflowToolbarMenuButton with non-inherited aggregations"
+        "description": "sap.m.OverflowToolbarMenuButton"
     },
     "sap.m.OverflowToolbarMenuButton-events": {
-        "prefix": "!5-overflow-toolbar-menu-button-events",
+        "prefix": "!5-sap-m-overflowtoolbarmenubutton",
         "body": [
-            "$1$2"
+            "<m:OverflowToolbarMenuButton",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.OverflowToolbarMenuButton with non-inherited events"
+        "description": "sap.m.OverflowToolbarMenuButton"
     },
     "sap.m.OverflowToolbarMenuButton-all": {
-        "prefix": "!5-overflow-toolbar-menu-button-all",
+        "prefix": "!5-sap-m-overflowtoolbarmenubutton",
         "body": [
-            "$1$2"
+            "<m:OverflowToolbarMenuButton",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.OverflowToolbarMenuButton with non-inherited properties, aggregations and events"
+        "description": "sap.m.OverflowToolbarMenuButton"
     }
 }

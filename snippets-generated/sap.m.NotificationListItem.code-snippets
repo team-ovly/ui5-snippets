@@ -1,65 +1,69 @@
 {
     "sap.m.NotificationListItem": {
-        "prefix": "!5-notification-list-item",
+        "prefix": "!5-sap-m-notificationlistitem",
         "body": [
-            "<NotificationListItem ",
+            "<m:NotificationListItem ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.m.NotificationListItem"
     },
     "sap.m.NotificationListItem-properties": {
-        "prefix": "!5-notification-list-item-properties",
+        "prefix": "!5-sap-m-notificationlistitem",
         "body": [
-            "$1description=\"\"",
-            "authorInitials=\"\"",
-            "truncate=\"true\"",
-            "hideShowMoreButton=\"false\"",
-            "authorAvatarColor=\"Accent6\"",
-            "authorName=\"\"",
-            "authorPicture=\"\"",
-            "datetime=\"\"$2"
+            "<m:NotificationListItem",
+            "\tdescription=\"\"",
+            "\tauthorInitials=\"null\"",
+            "\ttruncate=\"true\"",
+            "\thideShowMoreButton=\"false\"",
+            "\tauthorAvatarColor=\"Accent6\"",
+            "\tauthorName=\"\"",
+            "\tauthorPicture=\"null\"",
+            "\tdatetime=\"\"",
+            "$1/>"
         ],
-        "description": "sap.m.NotificationListItem with non-inherited properties"
+        "description": "sap.m.NotificationListItem"
     },
     "sap.m.NotificationListItem-aggregations": {
-        "prefix": "!5-notification-list-item-aggregations",
+        "prefix": "!5-sap-m-notificationlistitem",
         "body": [
-            "$1<processingMessage>",
-            "\t<!-- <sap.m.MessageStrip /> -->",
-            "</processingMessage>",
-            "<_showMoreButton>",
-            "\t<!-- <sap.m.Link /> -->",
-            "</_showMoreButton>",
-            "$2"
+            "<m:NotificationListItem>",
+            "\t<m:MessageStrip>",
+            "\t\t$1",
+            "\t</m:MessageStrip>",
+            "</m:NotificationListItem>"
         ],
-        "description": "sap.m.NotificationListItem with non-inherited aggregations"
+        "description": "sap.m.NotificationListItem"
     },
     "sap.m.NotificationListItem-events": {
-        "prefix": "!5-notification-list-item-events",
+        "prefix": "!5-sap-m-notificationlistitem",
         "body": [
-            "$1$2"
+            "<m:NotificationListItem",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.NotificationListItem with non-inherited events"
+        "description": "sap.m.NotificationListItem"
     },
     "sap.m.NotificationListItem-all": {
-        "prefix": "!5-notification-list-item-all",
+        "prefix": "!5-sap-m-notificationlistitem",
         "body": [
-            "$1description=\"\"",
-            "authorInitials=\"\"",
-            "truncate=\"true\"",
-            "hideShowMoreButton=\"false\"",
-            "authorAvatarColor=\"Accent6\"",
-            "authorName=\"\"",
-            "authorPicture=\"\"",
-            "datetime=\"\"",
-            "<processingMessage>",
-            "\t<!-- <sap.m.MessageStrip /> -->",
-            "</processingMessage>",
-            "<_showMoreButton>",
-            "\t<!-- <sap.m.Link /> -->",
-            "</_showMoreButton>$2"
+            "<m:NotificationListItem",
+            "\tdescription=\"\"",
+            "\tauthorInitials=\"null\"",
+            "\ttruncate=\"true\"",
+            "\thideShowMoreButton=\"false\"",
+            "\tauthorAvatarColor=\"Accent6\"",
+            "\tauthorName=\"\"",
+            "\tauthorPicture=\"null\"",
+            "\tdatetime=\"\"",
+            ">",
+            "\t<processingMessage>",
+            "\t\t<m:MessageStrip",
+            "\t\t\t$1",
+            "\t\t/>",
+            "\t</processingMessage>",
+            "</m:NotificationListItem>"
         ],
-        "description": "sap.m.NotificationListItem with non-inherited properties, aggregations and events"
+        "description": "sap.m.NotificationListItem"
     }
 }

@@ -1,62 +1,67 @@
 {
     "sap.m.Label": {
-        "prefix": "!5-label",
+        "prefix": "!5-sap-m-label",
         "body": [
-            "<Label ",
+            "<m:Label ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.m.Label"
     },
     "sap.m.Label-properties": {
-        "prefix": "!5-label-properties",
+        "prefix": "!5-sap-m-label",
         "body": [
-            "$1design=\"Standard\"",
-            "text=\"\"",
-            "textAlign=\"Begin\"",
-            "textDirection=\"Inherit\"",
-            "width=\"\"",
-            "required=\"false\"",
-            "displayOnly=\"false\"",
-            "wrapping=\"false\"",
-            "wrappingType=\"Normal\"",
-            "vAlign=\"Inherit\"",
-            "showColon=\"false\"",
-            "highlightAccKeysRef=\"false\"$2"
+            "<m:Label",
+            "\tdesign=\"Standard\"",
+            "\ttext=\"null\"",
+            "\ttextAlign=\"Begin\"",
+            "\ttextDirection=\"Inherit\"",
+            "\twidth=\"\"",
+            "\trequired=\"false\"",
+            "\tdisplayOnly=\"false\"",
+            "\twrapping=\"false\"",
+            "\twrappingType=\"Normal\"",
+            "\tvAlign=\"Inherit\"",
+            "\tshowColon=\"false\"",
+            "$1/>"
         ],
-        "description": "sap.m.Label with non-inherited properties"
+        "description": "sap.m.Label"
     },
     "sap.m.Label-aggregations": {
-        "prefix": "!5-label-aggregations",
+        "prefix": "!5-sap-m-label",
         "body": [
-            "$1$2"
+            "<m:Label>",
+            "</m:Label>"
         ],
-        "description": "sap.m.Label with non-inherited aggregations"
+        "description": "sap.m.Label"
     },
     "sap.m.Label-events": {
-        "prefix": "!5-label-events",
+        "prefix": "!5-sap-m-label",
         "body": [
-            "$1labelFor=\".on${3:LabelFor}\"$2"
+            "<m:Label",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.Label with non-inherited events"
+        "description": "sap.m.Label"
     },
     "sap.m.Label-all": {
-        "prefix": "!5-label-all",
+        "prefix": "!5-sap-m-label",
         "body": [
-            "$1design=\"Standard\"",
-            "text=\"\"",
-            "textAlign=\"Begin\"",
-            "textDirection=\"Inherit\"",
-            "width=\"\"",
-            "required=\"false\"",
-            "displayOnly=\"false\"",
-            "wrapping=\"false\"",
-            "wrappingType=\"Normal\"",
-            "vAlign=\"Inherit\"",
-            "showColon=\"false\"",
-            "highlightAccKeysRef=\"false\"",
-            "labelFor=\".on${3:LabelFor}\"$2"
+            "<m:Label",
+            "\tdesign=\"Standard\"",
+            "\ttext=\"null\"",
+            "\ttextAlign=\"Begin\"",
+            "\ttextDirection=\"Inherit\"",
+            "\twidth=\"\"",
+            "\trequired=\"false\"",
+            "\tdisplayOnly=\"false\"",
+            "\twrapping=\"false\"",
+            "\twrappingType=\"Normal\"",
+            "\tvAlign=\"Inherit\"",
+            "\tshowColon=\"false\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.Label with non-inherited properties, aggregations and events"
+        "description": "sap.m.Label"
     }
 }

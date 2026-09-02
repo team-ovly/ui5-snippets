@@ -1,76 +1,69 @@
 {
     "sap.m.NotificationListBase": {
-        "prefix": "!5-notification-list-base",
+        "prefix": "!5-sap-m-notificationlistbase",
         "body": [
-            "<NotificationListBase ",
+            "<m:NotificationListBase ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.m.NotificationListBase"
     },
     "sap.m.NotificationListBase-properties": {
-        "prefix": "!5-notification-list-base-properties",
+        "prefix": "!5-sap-m-notificationlistbase",
         "body": [
-            "$1priority=\"None\"",
-            "title=\"\"",
-            "datetime=\"\"",
-            "showButtons=\"true\"",
-            "showCloseButton=\"true\"",
-            "authorName=\"\"",
-            "authorPicture=\"\"$2"
+            "<m:NotificationListBase",
+            "\tpriority=\"None\"",
+            "\ttitle=\"\"",
+            "\tdatetime=\"\"",
+            "\tshowButtons=\"true\"",
+            "\tshowCloseButton=\"true\"",
+            "\tauthorName=\"\"",
+            "\tauthorPicture=\"null\"",
+            "$1/>"
         ],
-        "description": "sap.m.NotificationListBase with non-inherited properties"
+        "description": "sap.m.NotificationListBase"
     },
     "sap.m.NotificationListBase-aggregations": {
-        "prefix": "!5-notification-list-base-aggregations",
+        "prefix": "!5-sap-m-notificationlistbase",
         "body": [
-            "$1<buttons>",
-            "\t<!-- <sap.m.Button /> -->",
-            "</buttons>",
-            "<_closeButton>",
-            "\t<!-- <sap.m.Button /> -->",
-            "</_closeButton>",
-            "<_overflowToolbar>",
-            "\t<!-- <sap.m.OverflowToolbar /> -->",
-            "</_overflowToolbar>",
-            "<_priorityIcon>",
-            "\t<!-- <sap.ui.core.Icon /> -->",
-            "</_priorityIcon>",
-            "$2"
+            "<m:NotificationListBase>",
+            "\t<m:Button>",
+            "\t\t$1",
+            "\t</m:Button>",
+            "</m:NotificationListBase>"
         ],
-        "description": "sap.m.NotificationListBase with non-inherited aggregations"
+        "description": "sap.m.NotificationListBase"
     },
     "sap.m.NotificationListBase-events": {
-        "prefix": "!5-notification-list-base-events",
+        "prefix": "!5-sap-m-notificationlistbase",
         "body": [
-            "$1close=\".on${3:Close}\"$2"
+            "<m:NotificationListBase",
+            "\tclose=\".onClose\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.NotificationListBase with non-inherited events"
+        "description": "sap.m.NotificationListBase"
     },
     "sap.m.NotificationListBase-all": {
-        "prefix": "!5-notification-list-base-all",
+        "prefix": "!5-sap-m-notificationlistbase",
         "body": [
-            "$1priority=\"None\"",
-            "title=\"\"",
-            "datetime=\"\"",
-            "showButtons=\"true\"",
-            "showCloseButton=\"true\"",
-            "authorName=\"\"",
-            "authorPicture=\"\"",
-            "<buttons>",
-            "\t<!-- <sap.m.Button /> -->",
-            "</buttons>",
-            "<_closeButton>",
-            "\t<!-- <sap.m.Button /> -->",
-            "</_closeButton>",
-            "<_overflowToolbar>",
-            "\t<!-- <sap.m.OverflowToolbar /> -->",
-            "</_overflowToolbar>",
-            "<_priorityIcon>",
-            "\t<!-- <sap.ui.core.Icon /> -->",
-            "</_priorityIcon>",
-            "close=\".on${3:Close}\"$2"
+            "<m:NotificationListBase",
+            "\tpriority=\"None\"",
+            "\ttitle=\"\"",
+            "\tdatetime=\"\"",
+            "\tshowButtons=\"true\"",
+            "\tshowCloseButton=\"true\"",
+            "\tauthorName=\"\"",
+            "\tauthorPicture=\"null\"",
+            "\tclose=\".onClose\"",
+            ">",
+            "\t<buttons>",
+            "\t\t<m:Button",
+            "\t\t\t$1",
+            "\t\t/>",
+            "\t</buttons>",
+            "</m:NotificationListBase>"
         ],
-        "description": "sap.m.NotificationListBase with non-inherited properties, aggregations and events"
+        "description": "sap.m.NotificationListBase"
     }
 }

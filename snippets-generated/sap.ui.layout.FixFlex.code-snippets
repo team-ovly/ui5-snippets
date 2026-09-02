@@ -1,57 +1,69 @@
 {
     "sap.ui.layout.FixFlex": {
-        "prefix": "!5-fix-flex",
+        "prefix": "!5-sap-ui-layout-fixflex",
         "body": [
-            "<FixFlex ",
+            "<layout:FixFlex ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.ui.layout.FixFlex"
     },
     "sap.ui.layout.FixFlex-properties": {
-        "prefix": "!5-fix-flex-properties",
+        "prefix": "!5-sap-ui-layout-fixflex",
         "body": [
-            "$1vertical=\"true\"",
-            "fixFirst=\"true\"",
-            "fixContentSize=\"auto\"",
-            "minFlexSize=\"0\"$2"
+            "<layout:FixFlex",
+            "\tvertical=\"true\"",
+            "\tfixFirst=\"true\"",
+            "\tfixContentSize=\"auto\"",
+            "\tminFlexSize=\"0\"",
+            "$1/>"
         ],
-        "description": "sap.ui.layout.FixFlex with non-inherited properties"
+        "description": "sap.ui.layout.FixFlex"
     },
     "sap.ui.layout.FixFlex-aggregations": {
-        "prefix": "!5-fix-flex-aggregations",
+        "prefix": "!5-sap-ui-layout-fixflex",
         "body": [
-            "$1<fixContent>",
-            "\t<!-- <sap.ui.core.Control /> -->",
-            "</fixContent>",
-            "<flexContent>",
-            "\t<!-- <sap.ui.core.Control /> -->",
-            "</flexContent>",
-            "$2"
+            "<layout:FixFlex>",
+            "\t<core:Control>",
+            "\t\t$1",
+            "\t</core:Control>",
+            "\t<core:Control>",
+            "\t\t$2",
+            "\t</core:Control>",
+            "</layout:FixFlex>"
         ],
-        "description": "sap.ui.layout.FixFlex with non-inherited aggregations"
+        "description": "sap.ui.layout.FixFlex"
     },
     "sap.ui.layout.FixFlex-events": {
-        "prefix": "!5-fix-flex-events",
+        "prefix": "!5-sap-ui-layout-fixflex",
         "body": [
-            "$1$2"
+            "<layout:FixFlex",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.ui.layout.FixFlex with non-inherited events"
+        "description": "sap.ui.layout.FixFlex"
     },
     "sap.ui.layout.FixFlex-all": {
-        "prefix": "!5-fix-flex-all",
+        "prefix": "!5-sap-ui-layout-fixflex",
         "body": [
-            "$1vertical=\"true\"",
-            "fixFirst=\"true\"",
-            "fixContentSize=\"auto\"",
-            "minFlexSize=\"0\"",
-            "<fixContent>",
-            "\t<!-- <sap.ui.core.Control /> -->",
-            "</fixContent>",
-            "<flexContent>",
-            "\t<!-- <sap.ui.core.Control /> -->",
-            "</flexContent>$2"
+            "<layout:FixFlex",
+            "\tvertical=\"true\"",
+            "\tfixFirst=\"true\"",
+            "\tfixContentSize=\"auto\"",
+            "\tminFlexSize=\"0\"",
+            ">",
+            "\t<fixContent>",
+            "\t\t<core:Control",
+            "\t\t\t$1",
+            "\t\t/>",
+            "\t</fixContent>",
+            "\t<flexContent>",
+            "\t\t<core:Control",
+            "\t\t\t$2",
+            "\t\t/>",
+            "\t</flexContent>",
+            "</layout:FixFlex>"
         ],
-        "description": "sap.ui.layout.FixFlex with non-inherited properties, aggregations and events"
+        "description": "sap.ui.layout.FixFlex"
     }
 }

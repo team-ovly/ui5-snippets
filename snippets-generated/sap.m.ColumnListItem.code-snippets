@@ -1,45 +1,55 @@
 {
     "sap.m.ColumnListItem": {
-        "prefix": "!5-column-list-item",
+        "prefix": "!5-sap-m-columnlistitem",
         "body": [
-            "<ColumnListItem ",
+            "<m:ColumnListItem ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.m.ColumnListItem"
     },
     "sap.m.ColumnListItem-properties": {
-        "prefix": "!5-column-list-item-properties",
+        "prefix": "!5-sap-m-columnlistitem",
         "body": [
-            "$1vAlign=\"Inherit\"$2"
+            "<m:ColumnListItem",
+            "\tvAlign=\"Inherit\"",
+            "$1/>"
         ],
-        "description": "sap.m.ColumnListItem with non-inherited properties"
+        "description": "sap.m.ColumnListItem"
     },
     "sap.m.ColumnListItem-aggregations": {
-        "prefix": "!5-column-list-item-aggregations",
+        "prefix": "!5-sap-m-columnlistitem",
         "body": [
-            "$1<cells>",
-            "\t<!-- <sap.ui.core.Control /> -->",
-            "</cells>",
-            "$2"
+            "<m:ColumnListItem>",
+            "\t<core:Control>",
+            "\t\t$1",
+            "\t</core:Control>",
+            "</m:ColumnListItem>"
         ],
-        "description": "sap.m.ColumnListItem with non-inherited aggregations"
+        "description": "sap.m.ColumnListItem"
     },
     "sap.m.ColumnListItem-events": {
-        "prefix": "!5-column-list-item-events",
+        "prefix": "!5-sap-m-columnlistitem",
         "body": [
-            "$1$2"
+            "<m:ColumnListItem",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.ColumnListItem with non-inherited events"
+        "description": "sap.m.ColumnListItem"
     },
     "sap.m.ColumnListItem-all": {
-        "prefix": "!5-column-list-item-all",
+        "prefix": "!5-sap-m-columnlistitem",
         "body": [
-            "$1vAlign=\"Inherit\"",
-            "<cells>",
-            "\t<!-- <sap.ui.core.Control /> -->",
-            "</cells>$2"
+            "<m:ColumnListItem",
+            "\tvAlign=\"Inherit\"",
+            ">",
+            "\t<cells>",
+            "\t\t<core:Control",
+            "\t\t\t$1",
+            "\t\t/>",
+            "\t</cells>",
+            "</m:ColumnListItem>"
         ],
-        "description": "sap.m.ColumnListItem with non-inherited properties, aggregations and events"
+        "description": "sap.m.ColumnListItem"
     }
 }

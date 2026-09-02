@@ -1,78 +1,87 @@
 {
     "sap.ui.unified.calendar.Header": {
-        "prefix": "!5-header",
+        "prefix": "!5-sap-ui-unified-calendar-header",
         "body": [
-            "<Header ",
+            "<calendar:Header ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.ui.unified.calendar.Header"
     },
     "sap.ui.unified.calendar.Header-properties": {
-        "prefix": "!5-header-properties",
+        "prefix": "!5-sap-ui-unified-calendar-header",
         "body": [
-            "$1textButton0=\"\"",
-            "additionalTextButton0=\"\"",
-            "ariaLabelButton0=\"\"",
-            "visibleButton0=\"false\"",
-            "textButton1=\"\"",
-            "additionalTextButton1=\"\"",
-            "ariaLabelButton1=\"\"",
-            "visibleButton1=\"true\"",
-            "textButton2=\"\"",
-            "additionalTextButton2=\"\"",
-            "ariaLabelButton2=\"\"",
-            "visibleButton2=\"true\"",
-            "enabledPrevious=\"true\"",
-            "enabledNext=\"true\"",
-            "visibleCurrentDateButton=\"false\"$2"
+            "<calendar:Header",
+            "\ttextButton0=\"null\"",
+            "\tadditionalTextButton0=\"null\"",
+            "\tariaLabelButton0=\"null\"",
+            "\tvisibleButton0=\"false\"",
+            "\ttextButton1=\"null\"",
+            "\tadditionalTextButton1=\"null\"",
+            "\tariaLabelButton1=\"null\"",
+            "\tvisibleButton1=\"true\"",
+            "\ttextButton2=\"null\"",
+            "\tadditionalTextButton2=\"null\"",
+            "\tariaLabelButton2=\"null\"",
+            "\tvisibleButton2=\"true\"",
+            "\tenabledPrevious=\"true\"",
+            "\tenabledNext=\"true\"",
+            "\tvisibleCurrentDateButton=\"false\"",
+            "$1/>"
         ],
-        "description": "sap.ui.unified.calendar.Header with non-inherited properties"
+        "description": "sap.ui.unified.calendar.Header"
     },
     "sap.ui.unified.calendar.Header-aggregations": {
-        "prefix": "!5-header-aggregations",
+        "prefix": "!5-sap-ui-unified-calendar-header",
         "body": [
-            "$1$2"
+            "<calendar:Header>",
+            "</calendar:Header>"
         ],
-        "description": "sap.ui.unified.calendar.Header with non-inherited aggregations"
+        "description": "sap.ui.unified.calendar.Header"
     },
     "sap.ui.unified.calendar.Header-events": {
-        "prefix": "!5-header-events",
+        "prefix": "!5-sap-ui-unified-calendar-header",
         "body": [
-            "$1pressPrevious=\".on${3:PressPrevious}\"",
-            "pressNext=\".on${4:PressNext}\"",
-            "pressCurrentDate=\".on${5:PressCurrentDate}\"",
-            "pressButton0=\".on${6:PressButton0}\"",
-            "pressButton1=\".on${7:PressButton1}\"",
-            "pressButton2=\".on${8:PressButton2}\"$2"
+            "<calendar:Header",
+            "\tpressPrevious=\".onPressPrevious\"",
+            "\tpressNext=\".onPressNext\"",
+            "\tpressCurrentDate=\".onPressCurrentDate\"",
+            "\tpressButton0=\".onPressButton0\"",
+            "\tpressButton1=\".onPressButton1\"",
+            "\tpressButton2=\".onPressButton2\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.ui.unified.calendar.Header with non-inherited events"
+        "description": "sap.ui.unified.calendar.Header"
     },
     "sap.ui.unified.calendar.Header-all": {
-        "prefix": "!5-header-all",
+        "prefix": "!5-sap-ui-unified-calendar-header",
         "body": [
-            "$1textButton0=\"\"",
-            "additionalTextButton0=\"\"",
-            "ariaLabelButton0=\"\"",
-            "visibleButton0=\"false\"",
-            "textButton1=\"\"",
-            "additionalTextButton1=\"\"",
-            "ariaLabelButton1=\"\"",
-            "visibleButton1=\"true\"",
-            "textButton2=\"\"",
-            "additionalTextButton2=\"\"",
-            "ariaLabelButton2=\"\"",
-            "visibleButton2=\"true\"",
-            "enabledPrevious=\"true\"",
-            "enabledNext=\"true\"",
-            "visibleCurrentDateButton=\"false\"",
-            "pressPrevious=\".on${3:PressPrevious}\"",
-            "pressNext=\".on${4:PressNext}\"",
-            "pressCurrentDate=\".on${5:PressCurrentDate}\"",
-            "pressButton0=\".on${6:PressButton0}\"",
-            "pressButton1=\".on${7:PressButton1}\"",
-            "pressButton2=\".on${8:PressButton2}\"$2"
+            "<calendar:Header",
+            "\ttextButton0=\"null\"",
+            "\tadditionalTextButton0=\"null\"",
+            "\tariaLabelButton0=\"null\"",
+            "\tvisibleButton0=\"false\"",
+            "\ttextButton1=\"null\"",
+            "\tadditionalTextButton1=\"null\"",
+            "\tariaLabelButton1=\"null\"",
+            "\tvisibleButton1=\"true\"",
+            "\ttextButton2=\"null\"",
+            "\tadditionalTextButton2=\"null\"",
+            "\tariaLabelButton2=\"null\"",
+            "\tvisibleButton2=\"true\"",
+            "\tenabledPrevious=\"true\"",
+            "\tenabledNext=\"true\"",
+            "\tvisibleCurrentDateButton=\"false\"",
+            "\tpressPrevious=\".onPressPrevious\"",
+            "\tpressNext=\".onPressNext\"",
+            "\tpressCurrentDate=\".onPressCurrentDate\"",
+            "\tpressButton0=\".onPressButton0\"",
+            "\tpressButton1=\".onPressButton1\"",
+            "\tpressButton2=\".onPressButton2\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.ui.unified.calendar.Header with non-inherited properties, aggregations and events"
+        "description": "sap.ui.unified.calendar.Header"
     }
 }

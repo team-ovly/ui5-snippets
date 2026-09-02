@@ -1,39 +1,47 @@
 {
     "sap.m.QuickViewCard": {
-        "prefix": "!5-quick-view-card",
+        "prefix": "!5-sap-m-quickviewcard",
         "body": [
-            "<QuickViewCard ",
+            "<m:QuickViewCard ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.m.QuickViewCard"
     },
     "sap.m.QuickViewCard-properties": {
-        "prefix": "!5-quick-view-card-properties",
+        "prefix": "!5-sap-m-quickviewcard",
         "body": [
-            "$1showVerticalScrollBar=\"true\"$2"
+            "<m:QuickViewCard",
+            "\tshowVerticalScrollBar=\"true\"",
+            "$1/>"
         ],
-        "description": "sap.m.QuickViewCard with non-inherited properties"
+        "description": "sap.m.QuickViewCard"
     },
     "sap.m.QuickViewCard-aggregations": {
-        "prefix": "!5-quick-view-card-aggregations",
+        "prefix": "!5-sap-m-quickviewcard",
         "body": [
-            "$1$2"
+            "<m:QuickViewCard>",
+            "</m:QuickViewCard>"
         ],
-        "description": "sap.m.QuickViewCard with non-inherited aggregations"
+        "description": "sap.m.QuickViewCard"
     },
     "sap.m.QuickViewCard-events": {
-        "prefix": "!5-quick-view-card-events",
+        "prefix": "!5-sap-m-quickviewcard",
         "body": [
-            "$1$2"
+            "<m:QuickViewCard",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.QuickViewCard with non-inherited events"
+        "description": "sap.m.QuickViewCard"
     },
     "sap.m.QuickViewCard-all": {
-        "prefix": "!5-quick-view-card-all",
+        "prefix": "!5-sap-m-quickviewcard",
         "body": [
-            "$1showVerticalScrollBar=\"true\"$2"
+            "<m:QuickViewCard",
+            "\tshowVerticalScrollBar=\"true\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.QuickViewCard with non-inherited properties, aggregations and events"
+        "description": "sap.m.QuickViewCard"
     }
 }

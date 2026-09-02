@@ -1,50 +1,53 @@
 {
     "sap.m.semantic.ShareMenuPage": {
-        "prefix": "!5-share-menu-page",
+        "prefix": "!5-sap-m-semantic-sharemenupage",
         "body": [
-            "<ShareMenuPage ",
+            "<semantic:ShareMenuPage ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.m.semantic.ShareMenuPage"
     },
     "sap.m.semantic.ShareMenuPage-properties": {
-        "prefix": "!5-share-menu-page-properties",
+        "prefix": "!5-sap-m-semantic-sharemenupage",
         "body": [
-            "$1$2"
+            "<semantic:ShareMenuPage",
+            "$1/>"
         ],
-        "description": "sap.m.semantic.ShareMenuPage with non-inherited properties"
+        "description": "sap.m.semantic.ShareMenuPage"
     },
     "sap.m.semantic.ShareMenuPage-aggregations": {
-        "prefix": "!5-share-menu-page-aggregations",
+        "prefix": "!5-sap-m-semantic-sharemenupage",
         "body": [
-            "$1<customShareMenuContent>",
-            "\t<!-- <sap.m.Button /> -->",
-            "</customShareMenuContent>",
-            "<_actionSheet>",
-            "\t<!-- <sap.m.ActionSheet /> -->",
-            "</_actionSheet>",
-            "$2"
+            "<semantic:ShareMenuPage>",
+            "\t<m:Button>",
+            "\t\t$1",
+            "\t</m:Button>",
+            "</semantic:ShareMenuPage>"
         ],
-        "description": "sap.m.semantic.ShareMenuPage with non-inherited aggregations"
+        "description": "sap.m.semantic.ShareMenuPage"
     },
     "sap.m.semantic.ShareMenuPage-events": {
-        "prefix": "!5-share-menu-page-events",
+        "prefix": "!5-sap-m-semantic-sharemenupage",
         "body": [
-            "$1$2"
+            "<semantic:ShareMenuPage",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.semantic.ShareMenuPage with non-inherited events"
+        "description": "sap.m.semantic.ShareMenuPage"
     },
     "sap.m.semantic.ShareMenuPage-all": {
-        "prefix": "!5-share-menu-page-all",
+        "prefix": "!5-sap-m-semantic-sharemenupage",
         "body": [
-            "$1<customShareMenuContent>",
-            "\t<!-- <sap.m.Button /> -->",
-            "</customShareMenuContent>",
-            "<_actionSheet>",
-            "\t<!-- <sap.m.ActionSheet /> -->",
-            "</_actionSheet>$2"
+            "<semantic:ShareMenuPage",
+            ">",
+            "\t<customShareMenuContent>",
+            "\t\t<m:Button",
+            "\t\t\t$1",
+            "\t\t/>",
+            "\t</customShareMenuContent>",
+            "</semantic:ShareMenuPage>"
         ],
-        "description": "sap.m.semantic.ShareMenuPage with non-inherited properties, aggregations and events"
+        "description": "sap.m.semantic.ShareMenuPage"
     }
 }

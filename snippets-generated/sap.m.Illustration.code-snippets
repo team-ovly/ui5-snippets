@@ -1,46 +1,51 @@
 {
     "sap.m.Illustration": {
-        "prefix": "!5-illustration",
+        "prefix": "!5-sap-m-illustration",
         "body": [
-            "<Illustration ",
+            "<m:Illustration ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.m.Illustration"
     },
     "sap.m.Illustration-properties": {
-        "prefix": "!5-illustration-properties",
+        "prefix": "!5-sap-m-illustration",
         "body": [
-            "$1set=\"\"",
-            "media=\"\"",
-            "type=\"\"$2"
+            "<m:Illustration",
+            "\tset=\"null\"",
+            "\tmedia=\"null\"",
+            "\ttype=\"null\"",
+            "$1/>"
         ],
-        "description": "sap.m.Illustration with non-inherited properties"
+        "description": "sap.m.Illustration"
     },
     "sap.m.Illustration-aggregations": {
-        "prefix": "!5-illustration-aggregations",
+        "prefix": "!5-sap-m-illustration",
         "body": [
-            "$1$2"
+            "<m:Illustration>",
+            "</m:Illustration>"
         ],
-        "description": "sap.m.Illustration with non-inherited aggregations"
+        "description": "sap.m.Illustration"
     },
     "sap.m.Illustration-events": {
-        "prefix": "!5-illustration-events",
+        "prefix": "!5-sap-m-illustration",
         "body": [
-            "$1ariaLabelledBy=\".on${3:AriaLabelledBy}\"",
-            "ariaDescribedBy=\".on${4:AriaDescribedBy}\"$2"
+            "<m:Illustration",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.Illustration with non-inherited events"
+        "description": "sap.m.Illustration"
     },
     "sap.m.Illustration-all": {
-        "prefix": "!5-illustration-all",
+        "prefix": "!5-sap-m-illustration",
         "body": [
-            "$1set=\"\"",
-            "media=\"\"",
-            "type=\"\"",
-            "ariaLabelledBy=\".on${3:AriaLabelledBy}\"",
-            "ariaDescribedBy=\".on${4:AriaDescribedBy}\"$2"
+            "<m:Illustration",
+            "\tset=\"null\"",
+            "\tmedia=\"null\"",
+            "\ttype=\"null\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.Illustration with non-inherited properties, aggregations and events"
+        "description": "sap.m.Illustration"
     }
 }

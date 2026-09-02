@@ -1,54 +1,63 @@
 {
     "sap.m.ColorPalettePopover": {
-        "prefix": "!5-color-palette-popover",
+        "prefix": "!5-sap-m-colorpalettepopover",
         "body": [
-            "<ColorPalettePopover ",
+            "<m:ColorPalettePopover ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.m.ColorPalettePopover"
     },
     "sap.m.ColorPalettePopover-properties": {
-        "prefix": "!5-color-palette-popover-properties",
+        "prefix": "!5-sap-m-colorpalettepopover",
         "body": [
-            "$1defaultColor=\"\"",
-            "colors=\"gold,darkorange,indianred,darkmagenta,cornflowerblue,deepskyblue,darkcyan,olivedrab,darkslategray,azure,white,lightgray,darkgray,dimgray,black\"",
-            "selectedColor=\"\"",
-            "showDefaultColorButton=\"true\"",
-            "showMoreColorsButton=\"true\"",
-            "showRecentColorsSection=\"true\"",
-            "displayMode=\"Default\"$2"
+            "<m:ColorPalettePopover",
+            "\tdefaultColor=\"null\"",
+            "\tcolors=\"gold,darkorange,indianred,darkmagenta,cornflowerblue,deepskyblue,darkcyan,olivedrab,darkslategray,azure,white,lightgray,darkgray,dimgray,black\"",
+            "\tselectedColor=\"null\"",
+            "\tshowDefaultColorButton=\"true\"",
+            "\tshowMoreColorsButton=\"true\"",
+            "\tshowRecentColorsSection=\"true\"",
+            "\tdisplayMode=\"Default\"",
+            "$1/>"
         ],
-        "description": "sap.m.ColorPalettePopover with non-inherited properties"
+        "description": "sap.m.ColorPalettePopover"
     },
     "sap.m.ColorPalettePopover-aggregations": {
-        "prefix": "!5-color-palette-popover-aggregations",
+        "prefix": "!5-sap-m-colorpalettepopover",
         "body": [
-            "$1$2"
+            "<m:ColorPalettePopover>",
+            "</m:ColorPalettePopover>"
         ],
-        "description": "sap.m.ColorPalettePopover with non-inherited aggregations"
+        "description": "sap.m.ColorPalettePopover"
     },
     "sap.m.ColorPalettePopover-events": {
-        "prefix": "!5-color-palette-popover-events",
+        "prefix": "!5-sap-m-colorpalettepopover",
         "body": [
-            "$1colorSelect=\".on${3:ColorSelect}\"",
-            "liveChange=\".on${4:LiveChange}\"$2"
+            "<m:ColorPalettePopover",
+            "\tcolorSelect=\".onColorSelect\"",
+            "\tliveChange=\".onLiveChange\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.ColorPalettePopover with non-inherited events"
+        "description": "sap.m.ColorPalettePopover"
     },
     "sap.m.ColorPalettePopover-all": {
-        "prefix": "!5-color-palette-popover-all",
+        "prefix": "!5-sap-m-colorpalettepopover",
         "body": [
-            "$1defaultColor=\"\"",
-            "colors=\"gold,darkorange,indianred,darkmagenta,cornflowerblue,deepskyblue,darkcyan,olivedrab,darkslategray,azure,white,lightgray,darkgray,dimgray,black\"",
-            "selectedColor=\"\"",
-            "showDefaultColorButton=\"true\"",
-            "showMoreColorsButton=\"true\"",
-            "showRecentColorsSection=\"true\"",
-            "displayMode=\"Default\"",
-            "colorSelect=\".on${3:ColorSelect}\"",
-            "liveChange=\".on${4:LiveChange}\"$2"
+            "<m:ColorPalettePopover",
+            "\tdefaultColor=\"null\"",
+            "\tcolors=\"gold,darkorange,indianred,darkmagenta,cornflowerblue,deepskyblue,darkcyan,olivedrab,darkslategray,azure,white,lightgray,darkgray,dimgray,black\"",
+            "\tselectedColor=\"null\"",
+            "\tshowDefaultColorButton=\"true\"",
+            "\tshowMoreColorsButton=\"true\"",
+            "\tshowRecentColorsSection=\"true\"",
+            "\tdisplayMode=\"Default\"",
+            "\tcolorSelect=\".onColorSelect\"",
+            "\tliveChange=\".onLiveChange\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.ColorPalettePopover with non-inherited properties, aggregations and events"
+        "description": "sap.m.ColorPalettePopover"
     }
 }

@@ -1,41 +1,49 @@
 {
     "sap.ui.mdc.chart.ChartSelectionDetails": {
-        "prefix": "!5-chart-selection-details",
+        "prefix": "!5-sap-ui-mdc-chart-chartselectiondetails",
         "body": [
-            "<ChartSelectionDetails ",
+            "<chart:ChartSelectionDetails ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.ui.mdc.chart.ChartSelectionDetails"
     },
     "sap.ui.mdc.chart.ChartSelectionDetails-properties": {
-        "prefix": "!5-chart-selection-details-properties",
+        "prefix": "!5-sap-ui-mdc-chart-chartselectiondetails",
         "body": [
-            "$1enableNavCallback=\"\"",
-            "fetchFieldInfosCallback=\"\"$2"
+            "<chart:ChartSelectionDetails",
+            "\tenableNavCallback=\"null\"",
+            "\tfetchFieldInfosCallback=\"null\"",
+            "$1/>"
         ],
-        "description": "sap.ui.mdc.chart.ChartSelectionDetails with non-inherited properties"
+        "description": "sap.ui.mdc.chart.ChartSelectionDetails"
     },
     "sap.ui.mdc.chart.ChartSelectionDetails-aggregations": {
-        "prefix": "!5-chart-selection-details-aggregations",
+        "prefix": "!5-sap-ui-mdc-chart-chartselectiondetails",
         "body": [
-            "$1$2"
+            "<chart:ChartSelectionDetails>",
+            "</chart:ChartSelectionDetails>"
         ],
-        "description": "sap.ui.mdc.chart.ChartSelectionDetails with non-inherited aggregations"
+        "description": "sap.ui.mdc.chart.ChartSelectionDetails"
     },
     "sap.ui.mdc.chart.ChartSelectionDetails-events": {
-        "prefix": "!5-chart-selection-details-events",
+        "prefix": "!5-sap-ui-mdc-chart-chartselectiondetails",
         "body": [
-            "$1$2"
+            "<chart:ChartSelectionDetails",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.ui.mdc.chart.ChartSelectionDetails with non-inherited events"
+        "description": "sap.ui.mdc.chart.ChartSelectionDetails"
     },
     "sap.ui.mdc.chart.ChartSelectionDetails-all": {
-        "prefix": "!5-chart-selection-details-all",
+        "prefix": "!5-sap-ui-mdc-chart-chartselectiondetails",
         "body": [
-            "$1enableNavCallback=\"\"",
-            "fetchFieldInfosCallback=\"\"$2"
+            "<chart:ChartSelectionDetails",
+            "\tenableNavCallback=\"null\"",
+            "\tfetchFieldInfosCallback=\"null\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.ui.mdc.chart.ChartSelectionDetails with non-inherited properties, aggregations and events"
+        "description": "sap.ui.mdc.chart.ChartSelectionDetails"
     }
 }

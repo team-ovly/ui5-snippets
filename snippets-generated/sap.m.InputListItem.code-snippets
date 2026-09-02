@@ -1,49 +1,59 @@
 {
     "sap.m.InputListItem": {
-        "prefix": "!5-input-list-item",
+        "prefix": "!5-sap-m-inputlistitem",
         "body": [
-            "<InputListItem ",
+            "<m:InputListItem ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.m.InputListItem"
     },
     "sap.m.InputListItem-properties": {
-        "prefix": "!5-input-list-item-properties",
+        "prefix": "!5-sap-m-inputlistitem",
         "body": [
-            "$1label=\"\"",
-            "labelTextDirection=\"Inherit\"",
-            "contentSize=\"L\"$2"
+            "<m:InputListItem",
+            "\tlabel=\"null\"",
+            "\tlabelTextDirection=\"Inherit\"",
+            "\tcontentSize=\"L\"",
+            "$1/>"
         ],
-        "description": "sap.m.InputListItem with non-inherited properties"
+        "description": "sap.m.InputListItem"
     },
     "sap.m.InputListItem-aggregations": {
-        "prefix": "!5-input-list-item-aggregations",
+        "prefix": "!5-sap-m-inputlistitem",
         "body": [
-            "$1<content>",
-            "\t<!-- <sap.ui.core.Control /> -->",
-            "</content>",
-            "$2"
+            "<m:InputListItem>",
+            "\t<core:Control>",
+            "\t\t$1",
+            "\t</core:Control>",
+            "</m:InputListItem>"
         ],
-        "description": "sap.m.InputListItem with non-inherited aggregations"
+        "description": "sap.m.InputListItem"
     },
     "sap.m.InputListItem-events": {
-        "prefix": "!5-input-list-item-events",
+        "prefix": "!5-sap-m-inputlistitem",
         "body": [
-            "$1$2"
+            "<m:InputListItem",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.InputListItem with non-inherited events"
+        "description": "sap.m.InputListItem"
     },
     "sap.m.InputListItem-all": {
-        "prefix": "!5-input-list-item-all",
+        "prefix": "!5-sap-m-inputlistitem",
         "body": [
-            "$1label=\"\"",
-            "labelTextDirection=\"Inherit\"",
-            "contentSize=\"L\"",
-            "<content>",
-            "\t<!-- <sap.ui.core.Control /> -->",
-            "</content>$2"
+            "<m:InputListItem",
+            "\tlabel=\"null\"",
+            "\tlabelTextDirection=\"Inherit\"",
+            "\tcontentSize=\"L\"",
+            ">",
+            "\t<content>",
+            "\t\t<core:Control",
+            "\t\t\t$1",
+            "\t\t/>",
+            "\t</content>",
+            "</m:InputListItem>"
         ],
-        "description": "sap.m.InputListItem with non-inherited properties, aggregations and events"
+        "description": "sap.m.InputListItem"
     }
 }

@@ -1,45 +1,53 @@
 {
     "sap.ui.unified.CalendarDateInterval": {
-        "prefix": "!5-calendar-date-interval",
+        "prefix": "!5-sap-ui-unified-calendardateinterval",
         "body": [
-            "<CalendarDateInterval ",
+            "<unified:CalendarDateInterval ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.ui.unified.CalendarDateInterval"
     },
     "sap.ui.unified.CalendarDateInterval-properties": {
-        "prefix": "!5-calendar-date-interval-properties",
+        "prefix": "!5-sap-ui-unified-calendardateinterval",
         "body": [
-            "$1startDate=\"\"",
-            "days=\"7\"",
-            "showDayNamesLine=\"true\"",
-            "pickerPopup=\"false\"$2"
+            "<unified:CalendarDateInterval",
+            "\tstartDate=\"null\"",
+            "\tdays=\"7\"",
+            "\tshowDayNamesLine=\"true\"",
+            "\tpickerPopup=\"false\"",
+            "$1/>"
         ],
-        "description": "sap.ui.unified.CalendarDateInterval with non-inherited properties"
+        "description": "sap.ui.unified.CalendarDateInterval"
     },
     "sap.ui.unified.CalendarDateInterval-aggregations": {
-        "prefix": "!5-calendar-date-interval-aggregations",
+        "prefix": "!5-sap-ui-unified-calendardateinterval",
         "body": [
-            "$1$2"
+            "<unified:CalendarDateInterval>",
+            "</unified:CalendarDateInterval>"
         ],
-        "description": "sap.ui.unified.CalendarDateInterval with non-inherited aggregations"
+        "description": "sap.ui.unified.CalendarDateInterval"
     },
     "sap.ui.unified.CalendarDateInterval-events": {
-        "prefix": "!5-calendar-date-interval-events",
+        "prefix": "!5-sap-ui-unified-calendardateinterval",
         "body": [
-            "$1$2"
+            "<unified:CalendarDateInterval",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.ui.unified.CalendarDateInterval with non-inherited events"
+        "description": "sap.ui.unified.CalendarDateInterval"
     },
     "sap.ui.unified.CalendarDateInterval-all": {
-        "prefix": "!5-calendar-date-interval-all",
+        "prefix": "!5-sap-ui-unified-calendardateinterval",
         "body": [
-            "$1startDate=\"\"",
-            "days=\"7\"",
-            "showDayNamesLine=\"true\"",
-            "pickerPopup=\"false\"$2"
+            "<unified:CalendarDateInterval",
+            "\tstartDate=\"null\"",
+            "\tdays=\"7\"",
+            "\tshowDayNamesLine=\"true\"",
+            "\tpickerPopup=\"false\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.ui.unified.CalendarDateInterval with non-inherited properties, aggregations and events"
+        "description": "sap.ui.unified.CalendarDateInterval"
     }
 }

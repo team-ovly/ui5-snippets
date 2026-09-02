@@ -1,56 +1,65 @@
 {
     "sap.ui.core.TooltipBase": {
-        "prefix": "!5-tooltip-base",
+        "prefix": "!5-sap-ui-core-tooltipbase",
         "body": [
-            "<TooltipBase ",
+            "<core:TooltipBase ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.ui.core.TooltipBase"
     },
     "sap.ui.core.TooltipBase-properties": {
-        "prefix": "!5-tooltip-base-properties",
+        "prefix": "!5-sap-ui-core-tooltipbase",
         "body": [
-            "$1text=\"\"",
-            "openDuration=\"200\"",
-            "closeDuration=\"200\"",
-            "myPosition=\"begin top\"",
-            "atPosition=\"begin bottom\"",
-            "offset=\"10 3\"",
-            "collision=\"flip\"",
-            "openDelay=\"500\"",
-            "closeDelay=\"100\"$2"
+            "<core:TooltipBase",
+            "\ttext=\"\"",
+            "\topenDuration=\"200\"",
+            "\tcloseDuration=\"200\"",
+            "\tmyPosition=\"begin top\"",
+            "\tatPosition=\"begin bottom\"",
+            "\toffset=\"10 3\"",
+            "\tcollision=\"flip\"",
+            "\topenDelay=\"500\"",
+            "\tcloseDelay=\"100\"",
+            "$1/>"
         ],
-        "description": "sap.ui.core.TooltipBase with non-inherited properties"
+        "description": "sap.ui.core.TooltipBase"
     },
     "sap.ui.core.TooltipBase-aggregations": {
-        "prefix": "!5-tooltip-base-aggregations",
+        "prefix": "!5-sap-ui-core-tooltipbase",
         "body": [
-            "$1$2"
+            "<core:TooltipBase>",
+            "</core:TooltipBase>"
         ],
-        "description": "sap.ui.core.TooltipBase with non-inherited aggregations"
+        "description": "sap.ui.core.TooltipBase"
     },
     "sap.ui.core.TooltipBase-events": {
-        "prefix": "!5-tooltip-base-events",
+        "prefix": "!5-sap-ui-core-tooltipbase",
         "body": [
-            "$1closed=\".on${3:Closed}\"$2"
+            "<core:TooltipBase",
+            "\tclosed=\".onClosed\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.ui.core.TooltipBase with non-inherited events"
+        "description": "sap.ui.core.TooltipBase"
     },
     "sap.ui.core.TooltipBase-all": {
-        "prefix": "!5-tooltip-base-all",
+        "prefix": "!5-sap-ui-core-tooltipbase",
         "body": [
-            "$1text=\"\"",
-            "openDuration=\"200\"",
-            "closeDuration=\"200\"",
-            "myPosition=\"begin top\"",
-            "atPosition=\"begin bottom\"",
-            "offset=\"10 3\"",
-            "collision=\"flip\"",
-            "openDelay=\"500\"",
-            "closeDelay=\"100\"",
-            "closed=\".on${3:Closed}\"$2"
+            "<core:TooltipBase",
+            "\ttext=\"\"",
+            "\topenDuration=\"200\"",
+            "\tcloseDuration=\"200\"",
+            "\tmyPosition=\"begin top\"",
+            "\tatPosition=\"begin bottom\"",
+            "\toffset=\"10 3\"",
+            "\tcollision=\"flip\"",
+            "\topenDelay=\"500\"",
+            "\tcloseDelay=\"100\"",
+            "\tclosed=\".onClosed\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.ui.core.TooltipBase with non-inherited properties, aggregations and events"
+        "description": "sap.ui.core.TooltipBase"
     }
 }

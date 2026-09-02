@@ -1,39 +1,45 @@
 {
     "sap.m.TreeItemBase": {
-        "prefix": "!5-tree-item-base",
+        "prefix": "!5-sap-m-treeitembase",
         "body": [
-            "<TreeItemBase ",
+            "<m:TreeItemBase ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.m.TreeItemBase"
     },
     "sap.m.TreeItemBase-properties": {
-        "prefix": "!5-tree-item-base-properties",
+        "prefix": "!5-sap-m-treeitembase",
         "body": [
-            "$1$2"
+            "<m:TreeItemBase",
+            "$1/>"
         ],
-        "description": "sap.m.TreeItemBase with non-inherited properties"
+        "description": "sap.m.TreeItemBase"
     },
     "sap.m.TreeItemBase-aggregations": {
-        "prefix": "!5-tree-item-base-aggregations",
+        "prefix": "!5-sap-m-treeitembase",
         "body": [
-            "$1$2"
+            "<m:TreeItemBase>",
+            "</m:TreeItemBase>"
         ],
-        "description": "sap.m.TreeItemBase with non-inherited aggregations"
+        "description": "sap.m.TreeItemBase"
     },
     "sap.m.TreeItemBase-events": {
-        "prefix": "!5-tree-item-base-events",
+        "prefix": "!5-sap-m-treeitembase",
         "body": [
-            "$1$2"
+            "<m:TreeItemBase",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.TreeItemBase with non-inherited events"
+        "description": "sap.m.TreeItemBase"
     },
     "sap.m.TreeItemBase-all": {
-        "prefix": "!5-tree-item-base-all",
+        "prefix": "!5-sap-m-treeitembase",
         "body": [
-            "$1$2"
+            "<m:TreeItemBase",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.TreeItemBase with non-inherited properties, aggregations and events"
+        "description": "sap.m.TreeItemBase"
     }
 }

@@ -1,76 +1,79 @@
 {
     "sap.ui.mdc.filterbar.FilterBarBase": {
-        "prefix": "!5-filter-bar-base",
+        "prefix": "!5-sap-ui-mdc-filterbar-filterbarbase",
         "body": [
-            "<FilterBarBase ",
+            "<filterbar:FilterBarBase ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.ui.mdc.filterbar.FilterBarBase"
     },
     "sap.ui.mdc.filterbar.FilterBarBase-properties": {
-        "prefix": "!5-filter-bar-base-properties",
+        "prefix": "!5-sap-ui-mdc-filterbar-filterbarbase",
         "body": [
-            "$1delegate=\"...see text or source\"",
-            "liveMode=\"false\"",
-            "showMessages=\"true\"",
-            "showGoButton=\"true\"",
-            "filterConditions=\"[object Object]\"",
-            "propertyInfo=\"\"",
-            "suspendSelection=\"false\"",
-            "_filterCount=\"\"$2"
+            "<filterbar:FilterBarBase",
+            "\tdelegate=\"...see text or source\"",
+            "\tliveMode=\"false\"",
+            "\tshowMessages=\"true\"",
+            "\tshowGoButton=\"true\"",
+            "\tfilterConditions=\"[object Object]\"",
+            "\tpropertyInfo=\"\"",
+            "\tsuspendSelection=\"false\"",
+            "$1/>"
         ],
-        "description": "sap.ui.mdc.filterbar.FilterBarBase with non-inherited properties"
+        "description": "sap.ui.mdc.filterbar.FilterBarBase"
     },
     "sap.ui.mdc.filterbar.FilterBarBase-aggregations": {
-        "prefix": "!5-filter-bar-base-aggregations",
+        "prefix": "!5-sap-ui-mdc-filterbar-filterbarbase",
         "body": [
-            "$1<filterItems>",
-            "\t<!-- <sap.ui.mdc.FilterField /> -->",
-            "</filterItems>",
-            "<basicSearchField>",
-            "\t<!-- <sap.ui.mdc.FilterField /> -->",
-            "</basicSearchField>",
-            "<layout>",
-            "\t<!-- <sap.ui.mdc.filterbar.IFilterContainer /> -->",
-            "</layout>",
-            "$2"
+            "<filterbar:FilterBarBase>",
+            "\t<mdc:FilterField>",
+            "\t\t$1",
+            "\t</mdc:FilterField>",
+            "\t<mdc:FilterField>",
+            "\t\t$2",
+            "\t</mdc:FilterField>",
+            "</filterbar:FilterBarBase>"
         ],
-        "description": "sap.ui.mdc.filterbar.FilterBarBase with non-inherited aggregations"
+        "description": "sap.ui.mdc.filterbar.FilterBarBase"
     },
     "sap.ui.mdc.filterbar.FilterBarBase-events": {
-        "prefix": "!5-filter-bar-base-events",
+        "prefix": "!5-sap-ui-mdc-filterbar-filterbarbase",
         "body": [
-            "$1search=\".on${3:Search}\"",
-            "filtersChanged=\".on${4:FiltersChanged}\"",
-            "variantBackreference=\".on${5:VariantBackreference}\"$2"
+            "<filterbar:FilterBarBase",
+            "\tsearch=\".onSearch\"",
+            "\tfiltersChanged=\".onFiltersChanged\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.ui.mdc.filterbar.FilterBarBase with non-inherited events"
+        "description": "sap.ui.mdc.filterbar.FilterBarBase"
     },
     "sap.ui.mdc.filterbar.FilterBarBase-all": {
-        "prefix": "!5-filter-bar-base-all",
+        "prefix": "!5-sap-ui-mdc-filterbar-filterbarbase",
         "body": [
-            "$1delegate=\"...see text or source\"",
-            "liveMode=\"false\"",
-            "showMessages=\"true\"",
-            "showGoButton=\"true\"",
-            "filterConditions=\"[object Object]\"",
-            "propertyInfo=\"\"",
-            "suspendSelection=\"false\"",
-            "_filterCount=\"\"",
-            "<filterItems>",
-            "\t<!-- <sap.ui.mdc.FilterField /> -->",
-            "</filterItems>",
-            "<basicSearchField>",
-            "\t<!-- <sap.ui.mdc.FilterField /> -->",
-            "</basicSearchField>",
-            "<layout>",
-            "\t<!-- <sap.ui.mdc.filterbar.IFilterContainer /> -->",
-            "</layout>",
-            "search=\".on${3:Search}\"",
-            "filtersChanged=\".on${4:FiltersChanged}\"",
-            "variantBackreference=\".on${5:VariantBackreference}\"$2"
+            "<filterbar:FilterBarBase",
+            "\tdelegate=\"...see text or source\"",
+            "\tliveMode=\"false\"",
+            "\tshowMessages=\"true\"",
+            "\tshowGoButton=\"true\"",
+            "\tfilterConditions=\"[object Object]\"",
+            "\tpropertyInfo=\"\"",
+            "\tsuspendSelection=\"false\"",
+            "\tsearch=\".onSearch\"",
+            "\tfiltersChanged=\".onFiltersChanged\"",
+            ">",
+            "\t<filterItems>",
+            "\t\t<mdc:FilterField",
+            "\t\t\t$1",
+            "\t\t/>",
+            "\t</filterItems>",
+            "\t<basicSearchField>",
+            "\t\t<mdc:FilterField",
+            "\t\t\t$2",
+            "\t\t/>",
+            "\t</basicSearchField>",
+            "</filterbar:FilterBarBase>"
         ],
-        "description": "sap.ui.mdc.filterbar.FilterBarBase with non-inherited properties, aggregations and events"
+        "description": "sap.ui.mdc.filterbar.FilterBarBase"
     }
 }

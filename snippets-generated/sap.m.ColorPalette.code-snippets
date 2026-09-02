@@ -1,56 +1,53 @@
 {
     "sap.m.ColorPalette": {
-        "prefix": "!5-color-palette",
+        "prefix": "!5-sap-m-colorpalette",
         "body": [
-            "<ColorPalette ",
+            "<m:ColorPalette ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.m.ColorPalette"
     },
     "sap.m.ColorPalette-properties": {
-        "prefix": "!5-color-palette-properties",
+        "prefix": "!5-sap-m-colorpalette",
         "body": [
-            "$1colors=\"gold,darkorange,indianred,darkmagenta,cornflowerblue,deepskyblue,darkcyan,olivedrab,darkslategray,azure,white,lightgray,darkgray,dimgray,black\"",
-            "selectedColor=\"\"$2"
+            "<m:ColorPalette",
+            "\tcolors=\"gold,darkorange,indianred,darkmagenta,cornflowerblue,deepskyblue,darkcyan,olivedrab,darkslategray,azure,white,lightgray,darkgray,dimgray,black\"",
+            "\tselectedColor=\"null\"",
+            "$1/>"
         ],
-        "description": "sap.m.ColorPalette with non-inherited properties"
+        "description": "sap.m.ColorPalette"
     },
     "sap.m.ColorPalette-aggregations": {
-        "prefix": "!5-color-palette-aggregations",
+        "prefix": "!5-sap-m-colorpalette",
         "body": [
-            "$1<_defaultColorButton>",
-            "\t<!-- <sap.m.Button /> -->",
-            "</_defaultColorButton>",
-            "<_moreColorsButton>",
-            "\t<!-- <sap.m.Button /> -->",
-            "</_moreColorsButton>",
-            "$2"
+            "<m:ColorPalette>",
+            "</m:ColorPalette>"
         ],
-        "description": "sap.m.ColorPalette with non-inherited aggregations"
+        "description": "sap.m.ColorPalette"
     },
     "sap.m.ColorPalette-events": {
-        "prefix": "!5-color-palette-events",
+        "prefix": "!5-sap-m-colorpalette",
         "body": [
-            "$1colorSelect=\".on${3:ColorSelect}\"",
-            "liveChange=\".on${4:LiveChange}\"$2"
+            "<m:ColorPalette",
+            "\tcolorSelect=\".onColorSelect\"",
+            "\tliveChange=\".onLiveChange\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.ColorPalette with non-inherited events"
+        "description": "sap.m.ColorPalette"
     },
     "sap.m.ColorPalette-all": {
-        "prefix": "!5-color-palette-all",
+        "prefix": "!5-sap-m-colorpalette",
         "body": [
-            "$1colors=\"gold,darkorange,indianred,darkmagenta,cornflowerblue,deepskyblue,darkcyan,olivedrab,darkslategray,azure,white,lightgray,darkgray,dimgray,black\"",
-            "selectedColor=\"\"",
-            "<_defaultColorButton>",
-            "\t<!-- <sap.m.Button /> -->",
-            "</_defaultColorButton>",
-            "<_moreColorsButton>",
-            "\t<!-- <sap.m.Button /> -->",
-            "</_moreColorsButton>",
-            "colorSelect=\".on${3:ColorSelect}\"",
-            "liveChange=\".on${4:LiveChange}\"$2"
+            "<m:ColorPalette",
+            "\tcolors=\"gold,darkorange,indianred,darkmagenta,cornflowerblue,deepskyblue,darkcyan,olivedrab,darkslategray,azure,white,lightgray,darkgray,dimgray,black\"",
+            "\tselectedColor=\"null\"",
+            "\tcolorSelect=\".onColorSelect\"",
+            "\tliveChange=\".onLiveChange\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.ColorPalette with non-inherited properties, aggregations and events"
+        "description": "sap.m.ColorPalette"
     }
 }

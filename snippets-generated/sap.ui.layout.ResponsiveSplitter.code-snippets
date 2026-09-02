@@ -1,54 +1,57 @@
 {
     "sap.ui.layout.ResponsiveSplitter": {
-        "prefix": "!5-responsive-splitter",
+        "prefix": "!5-sap-ui-layout-responsivesplitter",
         "body": [
-            "<ResponsiveSplitter ",
+            "<layout:ResponsiveSplitter ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.ui.layout.ResponsiveSplitter"
     },
     "sap.ui.layout.ResponsiveSplitter-properties": {
-        "prefix": "!5-responsive-splitter-properties",
+        "prefix": "!5-sap-ui-layout-responsivesplitter",
         "body": [
-            "$1width=\"100%\"",
-            "height=\"100%\"$2"
+            "<layout:ResponsiveSplitter",
+            "\twidth=\"100%\"",
+            "\theight=\"100%\"",
+            "$1/>"
         ],
-        "description": "sap.ui.layout.ResponsiveSplitter with non-inherited properties"
+        "description": "sap.ui.layout.ResponsiveSplitter"
     },
     "sap.ui.layout.ResponsiveSplitter-aggregations": {
-        "prefix": "!5-responsive-splitter-aggregations",
+        "prefix": "!5-sap-ui-layout-responsivesplitter",
         "body": [
-            "$1<rootPaneContainer>",
-            "\t<!-- <sap.ui.layout.PaneContainer /> -->",
-            "</rootPaneContainer>",
-            "<_pages>",
-            "\t<!-- <sap.ui.layout.ResponsiveSplitterPage /> -->",
-            "</_pages>",
-            "$2"
+            "<layout:ResponsiveSplitter>",
+            "\t<layout:PaneContainer>",
+            "\t\t$1",
+            "\t</layout:PaneContainer>",
+            "</layout:ResponsiveSplitter>"
         ],
-        "description": "sap.ui.layout.ResponsiveSplitter with non-inherited aggregations"
+        "description": "sap.ui.layout.ResponsiveSplitter"
     },
     "sap.ui.layout.ResponsiveSplitter-events": {
-        "prefix": "!5-responsive-splitter-events",
+        "prefix": "!5-sap-ui-layout-responsivesplitter",
         "body": [
-            "$1defaultPane=\".on${3:DefaultPane}\"$2"
+            "<layout:ResponsiveSplitter",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.ui.layout.ResponsiveSplitter with non-inherited events"
+        "description": "sap.ui.layout.ResponsiveSplitter"
     },
     "sap.ui.layout.ResponsiveSplitter-all": {
-        "prefix": "!5-responsive-splitter-all",
+        "prefix": "!5-sap-ui-layout-responsivesplitter",
         "body": [
-            "$1width=\"100%\"",
-            "height=\"100%\"",
-            "<rootPaneContainer>",
-            "\t<!-- <sap.ui.layout.PaneContainer /> -->",
-            "</rootPaneContainer>",
-            "<_pages>",
-            "\t<!-- <sap.ui.layout.ResponsiveSplitterPage /> -->",
-            "</_pages>",
-            "defaultPane=\".on${3:DefaultPane}\"$2"
+            "<layout:ResponsiveSplitter",
+            "\twidth=\"100%\"",
+            "\theight=\"100%\"",
+            ">",
+            "\t<rootPaneContainer>",
+            "\t\t<layout:PaneContainer",
+            "\t\t\t$1",
+            "\t\t/>",
+            "\t</rootPaneContainer>",
+            "</layout:ResponsiveSplitter>"
         ],
-        "description": "sap.ui.layout.ResponsiveSplitter with non-inherited properties, aggregations and events"
+        "description": "sap.ui.layout.ResponsiveSplitter"
     }
 }

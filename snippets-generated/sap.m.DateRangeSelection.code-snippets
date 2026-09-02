@@ -1,45 +1,53 @@
 {
     "sap.m.DateRangeSelection": {
-        "prefix": "!5-date-range-selection",
+        "prefix": "!5-sap-m-daterangeselection",
         "body": [
-            "<DateRangeSelection ",
+            "<m:DateRangeSelection ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.m.DateRangeSelection"
     },
     "sap.m.DateRangeSelection-properties": {
-        "prefix": "!5-date-range-selection-properties",
+        "prefix": "!5-sap-m-daterangeselection",
         "body": [
-            "$1delimiter=\"-\"",
-            "secondDateValue=\"\"",
-            "from=\"\"",
-            "to=\"\"$2"
+            "<m:DateRangeSelection",
+            "\tdelimiter=\"-\"",
+            "\tsecondDateValue=\"null\"",
+            "\tfrom=\"null\"",
+            "\tto=\"null\"",
+            "$1/>"
         ],
-        "description": "sap.m.DateRangeSelection with non-inherited properties"
+        "description": "sap.m.DateRangeSelection"
     },
     "sap.m.DateRangeSelection-aggregations": {
-        "prefix": "!5-date-range-selection-aggregations",
+        "prefix": "!5-sap-m-daterangeselection",
         "body": [
-            "$1$2"
+            "<m:DateRangeSelection>",
+            "</m:DateRangeSelection>"
         ],
-        "description": "sap.m.DateRangeSelection with non-inherited aggregations"
+        "description": "sap.m.DateRangeSelection"
     },
     "sap.m.DateRangeSelection-events": {
-        "prefix": "!5-date-range-selection-events",
+        "prefix": "!5-sap-m-daterangeselection",
         "body": [
-            "$1$2"
+            "<m:DateRangeSelection",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.DateRangeSelection with non-inherited events"
+        "description": "sap.m.DateRangeSelection"
     },
     "sap.m.DateRangeSelection-all": {
-        "prefix": "!5-date-range-selection-all",
+        "prefix": "!5-sap-m-daterangeselection",
         "body": [
-            "$1delimiter=\"-\"",
-            "secondDateValue=\"\"",
-            "from=\"\"",
-            "to=\"\"$2"
+            "<m:DateRangeSelection",
+            "\tdelimiter=\"-\"",
+            "\tsecondDateValue=\"null\"",
+            "\tfrom=\"null\"",
+            "\tto=\"null\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.DateRangeSelection with non-inherited properties, aggregations and events"
+        "description": "sap.m.DateRangeSelection"
     }
 }

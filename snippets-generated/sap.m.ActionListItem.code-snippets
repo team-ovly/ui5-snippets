@@ -1,39 +1,47 @@
 {
     "sap.m.ActionListItem": {
-        "prefix": "!5-action-list-item",
+        "prefix": "!5-sap-m-actionlistitem",
         "body": [
-            "<ActionListItem ",
+            "<m:ActionListItem ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.m.ActionListItem"
     },
     "sap.m.ActionListItem-properties": {
-        "prefix": "!5-action-list-item-properties",
+        "prefix": "!5-sap-m-actionlistitem",
         "body": [
-            "$1text=\"\"$2"
+            "<m:ActionListItem",
+            "\ttext=\"null\"",
+            "$1/>"
         ],
-        "description": "sap.m.ActionListItem with non-inherited properties"
+        "description": "sap.m.ActionListItem"
     },
     "sap.m.ActionListItem-aggregations": {
-        "prefix": "!5-action-list-item-aggregations",
+        "prefix": "!5-sap-m-actionlistitem",
         "body": [
-            "$1$2"
+            "<m:ActionListItem>",
+            "</m:ActionListItem>"
         ],
-        "description": "sap.m.ActionListItem with non-inherited aggregations"
+        "description": "sap.m.ActionListItem"
     },
     "sap.m.ActionListItem-events": {
-        "prefix": "!5-action-list-item-events",
+        "prefix": "!5-sap-m-actionlistitem",
         "body": [
-            "$1$2"
+            "<m:ActionListItem",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.ActionListItem with non-inherited events"
+        "description": "sap.m.ActionListItem"
     },
     "sap.m.ActionListItem-all": {
-        "prefix": "!5-action-list-item-all",
+        "prefix": "!5-sap-m-actionlistitem",
         "body": [
-            "$1text=\"\"$2"
+            "<m:ActionListItem",
+            "\ttext=\"null\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.ActionListItem with non-inherited properties, aggregations and events"
+        "description": "sap.m.ActionListItem"
     }
 }

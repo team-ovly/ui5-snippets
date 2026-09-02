@@ -1,94 +1,83 @@
 {
     "sap.ui.unified.CalendarMonthInterval": {
-        "prefix": "!5-calendar-month-interval",
+        "prefix": "!5-sap-ui-unified-calendarmonthinterval",
         "body": [
-            "<CalendarMonthInterval ",
+            "<unified:CalendarMonthInterval ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.ui.unified.CalendarMonthInterval"
     },
     "sap.ui.unified.CalendarMonthInterval-properties": {
-        "prefix": "!5-calendar-month-interval-properties",
+        "prefix": "!5-sap-ui-unified-calendarmonthinterval",
         "body": [
-            "$1width=\"\"",
-            "startDate=\"\"",
-            "intervalSelection=\"false\"",
-            "singleSelection=\"true\"",
-            "months=\"12\"",
-            "pickerPopup=\"false\"",
-            "minDate=\"\"",
-            "maxDate=\"\"",
-            "_currentPicker=\"monthsRow\"$2"
+            "<unified:CalendarMonthInterval",
+            "\twidth=\"null\"",
+            "\tstartDate=\"null\"",
+            "\tintervalSelection=\"false\"",
+            "\tsingleSelection=\"true\"",
+            "\tmonths=\"12\"",
+            "\tpickerPopup=\"false\"",
+            "\tminDate=\"null\"",
+            "\tmaxDate=\"null\"",
+            "$1/>"
         ],
-        "description": "sap.ui.unified.CalendarMonthInterval with non-inherited properties"
+        "description": "sap.ui.unified.CalendarMonthInterval"
     },
     "sap.ui.unified.CalendarMonthInterval-aggregations": {
-        "prefix": "!5-calendar-month-interval-aggregations",
+        "prefix": "!5-sap-ui-unified-calendarmonthinterval",
         "body": [
-            "$1<selectedDates>",
-            "\t<!-- <sap.ui.unified.DateRange /> -->",
-            "</selectedDates>",
-            "<specialDates>",
-            "\t<!-- <sap.ui.unified.DateTypeRange /> -->",
-            "</specialDates>",
-            "<header>",
-            "\t<!-- <sap.ui.unified.calendar.Header /> -->",
-            "</header>",
-            "<monthsRow>",
-            "\t<!-- <sap.ui.unified.calendar.MonthsRow /> -->",
-            "</monthsRow>",
-            "<yearPicker>",
-            "\t<!-- <sap.ui.unified.calendar.YearPicker /> -->",
-            "</yearPicker>",
-            "$2"
+            "<unified:CalendarMonthInterval>",
+            "\t<unified:DateRange>",
+            "\t\t$1",
+            "\t</unified:DateRange>",
+            "\t<unified:DateTypeRange>",
+            "\t\t$2",
+            "\t</unified:DateTypeRange>",
+            "</unified:CalendarMonthInterval>"
         ],
-        "description": "sap.ui.unified.CalendarMonthInterval with non-inherited aggregations"
+        "description": "sap.ui.unified.CalendarMonthInterval"
     },
     "sap.ui.unified.CalendarMonthInterval-events": {
-        "prefix": "!5-calendar-month-interval-events",
+        "prefix": "!5-sap-ui-unified-calendarmonthinterval",
         "body": [
-            "$1select=\".on${3:Select}\"",
-            "cancel=\".on${4:Cancel}\"",
-            "startDateChange=\".on${5:StartDateChange}\"",
-            "ariaLabelledBy=\".on${6:AriaLabelledBy}\"",
-            "legend=\".on${7:Legend}\"$2"
+            "<unified:CalendarMonthInterval",
+            "\tselect=\".onSelect\"",
+            "\tcancel=\".onCancel\"",
+            "\tstartDateChange=\".onStartDateChange\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.ui.unified.CalendarMonthInterval with non-inherited events"
+        "description": "sap.ui.unified.CalendarMonthInterval"
     },
     "sap.ui.unified.CalendarMonthInterval-all": {
-        "prefix": "!5-calendar-month-interval-all",
+        "prefix": "!5-sap-ui-unified-calendarmonthinterval",
         "body": [
-            "$1width=\"\"",
-            "startDate=\"\"",
-            "intervalSelection=\"false\"",
-            "singleSelection=\"true\"",
-            "months=\"12\"",
-            "pickerPopup=\"false\"",
-            "minDate=\"\"",
-            "maxDate=\"\"",
-            "_currentPicker=\"monthsRow\"",
-            "<selectedDates>",
-            "\t<!-- <sap.ui.unified.DateRange /> -->",
-            "</selectedDates>",
-            "<specialDates>",
-            "\t<!-- <sap.ui.unified.DateTypeRange /> -->",
-            "</specialDates>",
-            "<header>",
-            "\t<!-- <sap.ui.unified.calendar.Header /> -->",
-            "</header>",
-            "<monthsRow>",
-            "\t<!-- <sap.ui.unified.calendar.MonthsRow /> -->",
-            "</monthsRow>",
-            "<yearPicker>",
-            "\t<!-- <sap.ui.unified.calendar.YearPicker /> -->",
-            "</yearPicker>",
-            "select=\".on${3:Select}\"",
-            "cancel=\".on${4:Cancel}\"",
-            "startDateChange=\".on${5:StartDateChange}\"",
-            "ariaLabelledBy=\".on${6:AriaLabelledBy}\"",
-            "legend=\".on${7:Legend}\"$2"
+            "<unified:CalendarMonthInterval",
+            "\twidth=\"null\"",
+            "\tstartDate=\"null\"",
+            "\tintervalSelection=\"false\"",
+            "\tsingleSelection=\"true\"",
+            "\tmonths=\"12\"",
+            "\tpickerPopup=\"false\"",
+            "\tminDate=\"null\"",
+            "\tmaxDate=\"null\"",
+            "\tselect=\".onSelect\"",
+            "\tcancel=\".onCancel\"",
+            "\tstartDateChange=\".onStartDateChange\"",
+            ">",
+            "\t<selectedDates>",
+            "\t\t<unified:DateRange",
+            "\t\t\t$1",
+            "\t\t/>",
+            "\t</selectedDates>",
+            "\t<specialDates>",
+            "\t\t<unified:DateTypeRange",
+            "\t\t\t$2",
+            "\t\t/>",
+            "\t</specialDates>",
+            "</unified:CalendarMonthInterval>"
         ],
-        "description": "sap.ui.unified.CalendarMonthInterval with non-inherited properties, aggregations and events"
+        "description": "sap.ui.unified.CalendarMonthInterval"
     }
 }

@@ -1,46 +1,55 @@
 {
     "sap.ui.mdc.FilterField": {
-        "prefix": "!5-filter-field",
+        "prefix": "!5-sap-ui-mdc-filterfield",
         "body": [
-            "<FilterField ",
+            "<mdc:FilterField ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.ui.mdc.FilterField"
     },
     "sap.ui.mdc.FilterField-properties": {
-        "prefix": "!5-filter-field-properties",
+        "prefix": "!5-sap-ui-mdc-filterfield",
         "body": [
-            "$1operators=\"\"",
-            "defaultOperator=\"\"",
-            "propertyKey=\"\"",
-            "additionalDataType=\"\"$2"
+            "<mdc:FilterField",
+            "\toperators=\"\"",
+            "\tdefaultOperator=\"null\"",
+            "\tpropertyKey=\"\"",
+            "\tadditionalDataType=\"null\"",
+            "$1/>"
         ],
-        "description": "sap.ui.mdc.FilterField with non-inherited properties"
+        "description": "sap.ui.mdc.FilterField"
     },
     "sap.ui.mdc.FilterField-aggregations": {
-        "prefix": "!5-filter-field-aggregations",
+        "prefix": "!5-sap-ui-mdc-filterfield",
         "body": [
-            "$1$2"
+            "<mdc:FilterField>",
+            "</mdc:FilterField>"
         ],
-        "description": "sap.ui.mdc.FilterField with non-inherited aggregations"
+        "description": "sap.ui.mdc.FilterField"
     },
     "sap.ui.mdc.FilterField-events": {
-        "prefix": "!5-filter-field-events",
+        "prefix": "!5-sap-ui-mdc-filterfield",
         "body": [
-            "$1change=\".on${3:Change}\"$2"
+            "<mdc:FilterField",
+            "\tchange=\".onChange\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.ui.mdc.FilterField with non-inherited events"
+        "description": "sap.ui.mdc.FilterField"
     },
     "sap.ui.mdc.FilterField-all": {
-        "prefix": "!5-filter-field-all",
+        "prefix": "!5-sap-ui-mdc-filterfield",
         "body": [
-            "$1operators=\"\"",
-            "defaultOperator=\"\"",
-            "propertyKey=\"\"",
-            "additionalDataType=\"\"",
-            "change=\".on${3:Change}\"$2"
+            "<mdc:FilterField",
+            "\toperators=\"\"",
+            "\tdefaultOperator=\"null\"",
+            "\tpropertyKey=\"\"",
+            "\tadditionalDataType=\"null\"",
+            "\tchange=\".onChange\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.ui.mdc.FilterField with non-inherited properties, aggregations and events"
+        "description": "sap.ui.mdc.FilterField"
     }
 }

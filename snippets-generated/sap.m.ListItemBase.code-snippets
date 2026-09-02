@@ -1,62 +1,69 @@
 {
     "sap.m.ListItemBase": {
-        "prefix": "!5-list-item-base",
+        "prefix": "!5-sap-m-listitembase",
         "body": [
-            "<ListItemBase ",
+            "<m:ListItemBase ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.m.ListItemBase"
     },
     "sap.m.ListItemBase-properties": {
-        "prefix": "!5-list-item-base-properties",
+        "prefix": "!5-sap-m-listitembase",
         "body": [
-            "$1type=\"Inactive\"",
-            "visible=\"true\"",
-            "unread=\"false\"",
-            "selected=\"false\"",
-            "counter=\"\"",
-            "highlight=\"None\"",
-            "highlightText=\"\"",
-            "navigated=\"false\"$2"
+            "<m:ListItemBase",
+            "\ttype=\"Inactive\"",
+            "\tvisible=\"true\"",
+            "\tunread=\"false\"",
+            "\tselected=\"false\"",
+            "\tcounter=\"null\"",
+            "\thighlight=\"None\"",
+            "\thighlightText=\"\"",
+            "\tnavigated=\"false\"",
+            "$1/>"
         ],
-        "description": "sap.m.ListItemBase with non-inherited properties"
+        "description": "sap.m.ListItemBase"
     },
     "sap.m.ListItemBase-aggregations": {
-        "prefix": "!5-list-item-base-aggregations",
+        "prefix": "!5-sap-m-listitembase",
         "body": [
-            "$1$2"
+            "<m:ListItemBase>",
+            "</m:ListItemBase>"
         ],
-        "description": "sap.m.ListItemBase with non-inherited aggregations"
+        "description": "sap.m.ListItemBase"
     },
     "sap.m.ListItemBase-events": {
-        "prefix": "!5-list-item-base-events",
+        "prefix": "!5-sap-m-listitembase",
         "body": [
-            "$1tap=\".on${3:Tap}\"",
-            "detailTap=\".on${4:DetailTap}\"",
-            "press=\".on${5:Press}\"",
-            "detailPress=\".on${6:DetailPress}\"",
-            "ariaLabelledBy=\".on${7:AriaLabelledBy}\"$2"
+            "<m:ListItemBase",
+            "\ttap=\".onTap\"",
+            "\tdetailTap=\".onDetailTap\"",
+            "\tpress=\".onPress\"",
+            "\tdetailPress=\".onDetailPress\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.ListItemBase with non-inherited events"
+        "description": "sap.m.ListItemBase"
     },
     "sap.m.ListItemBase-all": {
-        "prefix": "!5-list-item-base-all",
+        "prefix": "!5-sap-m-listitembase",
         "body": [
-            "$1type=\"Inactive\"",
-            "visible=\"true\"",
-            "unread=\"false\"",
-            "selected=\"false\"",
-            "counter=\"\"",
-            "highlight=\"None\"",
-            "highlightText=\"\"",
-            "navigated=\"false\"",
-            "tap=\".on${3:Tap}\"",
-            "detailTap=\".on${4:DetailTap}\"",
-            "press=\".on${5:Press}\"",
-            "detailPress=\".on${6:DetailPress}\"",
-            "ariaLabelledBy=\".on${7:AriaLabelledBy}\"$2"
+            "<m:ListItemBase",
+            "\ttype=\"Inactive\"",
+            "\tvisible=\"true\"",
+            "\tunread=\"false\"",
+            "\tselected=\"false\"",
+            "\tcounter=\"null\"",
+            "\thighlight=\"None\"",
+            "\thighlightText=\"\"",
+            "\tnavigated=\"false\"",
+            "\ttap=\".onTap\"",
+            "\tdetailTap=\".onDetailTap\"",
+            "\tpress=\".onPress\"",
+            "\tdetailPress=\".onDetailPress\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.ListItemBase with non-inherited properties, aggregations and events"
+        "description": "sap.m.ListItemBase"
     }
 }

@@ -1,60 +1,69 @@
 {
     "sap.m.NavContainer": {
-        "prefix": "!5-nav-container",
+        "prefix": "!5-sap-m-navcontainer",
         "body": [
-            "<NavContainer ",
+            "<m:NavContainer ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.m.NavContainer"
     },
     "sap.m.NavContainer-properties": {
-        "prefix": "!5-nav-container-properties",
+        "prefix": "!5-sap-m-navcontainer",
         "body": [
-            "$1autoFocus=\"true\"",
-            "height=\"100%\"",
-            "width=\"100%\"",
-            "visible=\"true\"",
-            "defaultTransitionName=\"slide\"$2"
+            "<m:NavContainer",
+            "\tautoFocus=\"true\"",
+            "\theight=\"100%\"",
+            "\twidth=\"100%\"",
+            "\tvisible=\"true\"",
+            "\tdefaultTransitionName=\"slide\"",
+            "$1/>"
         ],
-        "description": "sap.m.NavContainer with non-inherited properties"
+        "description": "sap.m.NavContainer"
     },
     "sap.m.NavContainer-aggregations": {
-        "prefix": "!5-nav-container-aggregations",
+        "prefix": "!5-sap-m-navcontainer",
         "body": [
-            "$1<pages>",
-            "\t<!-- <sap.ui.core.Control /> -->",
-            "</pages>",
-            "$2"
+            "<m:NavContainer>",
+            "\t<core:Control>",
+            "\t\t$1",
+            "\t</core:Control>",
+            "</m:NavContainer>"
         ],
-        "description": "sap.m.NavContainer with non-inherited aggregations"
+        "description": "sap.m.NavContainer"
     },
     "sap.m.NavContainer-events": {
-        "prefix": "!5-nav-container-events",
+        "prefix": "!5-sap-m-navcontainer",
         "body": [
-            "$1navigate=\".on${3:Navigate}\"",
-            "afterNavigate=\".on${4:AfterNavigate}\"",
-            "navigationFinished=\".on${5:NavigationFinished}\"",
-            "initialPage=\".on${6:InitialPage}\"$2"
+            "<m:NavContainer",
+            "\tnavigate=\".onNavigate\"",
+            "\tafterNavigate=\".onAfterNavigate\"",
+            "\tnavigationFinished=\".onNavigationFinished\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.NavContainer with non-inherited events"
+        "description": "sap.m.NavContainer"
     },
     "sap.m.NavContainer-all": {
-        "prefix": "!5-nav-container-all",
+        "prefix": "!5-sap-m-navcontainer",
         "body": [
-            "$1autoFocus=\"true\"",
-            "height=\"100%\"",
-            "width=\"100%\"",
-            "visible=\"true\"",
-            "defaultTransitionName=\"slide\"",
-            "<pages>",
-            "\t<!-- <sap.ui.core.Control /> -->",
-            "</pages>",
-            "navigate=\".on${3:Navigate}\"",
-            "afterNavigate=\".on${4:AfterNavigate}\"",
-            "navigationFinished=\".on${5:NavigationFinished}\"",
-            "initialPage=\".on${6:InitialPage}\"$2"
+            "<m:NavContainer",
+            "\tautoFocus=\"true\"",
+            "\theight=\"100%\"",
+            "\twidth=\"100%\"",
+            "\tvisible=\"true\"",
+            "\tdefaultTransitionName=\"slide\"",
+            "\tnavigate=\".onNavigate\"",
+            "\tafterNavigate=\".onAfterNavigate\"",
+            "\tnavigationFinished=\".onNavigationFinished\"",
+            ">",
+            "\t<pages>",
+            "\t\t<core:Control",
+            "\t\t\t$1",
+            "\t\t/>",
+            "\t</pages>",
+            "</m:NavContainer>"
         ],
-        "description": "sap.m.NavContainer with non-inherited properties, aggregations and events"
+        "description": "sap.m.NavContainer"
     }
 }

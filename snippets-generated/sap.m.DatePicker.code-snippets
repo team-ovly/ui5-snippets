@@ -1,72 +1,75 @@
 {
     "sap.m.DatePicker": {
-        "prefix": "!5-date-picker",
+        "prefix": "!5-sap-m-datepicker",
         "body": [
-            "<DatePicker ",
+            "<m:DatePicker ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.m.DatePicker"
     },
     "sap.m.DatePicker-properties": {
-        "prefix": "!5-date-picker-properties",
+        "prefix": "!5-sap-m-datepicker",
         "body": [
-            "$1displayFormatType=\"\"",
-            "secondaryCalendarType=\"\"",
-            "minDate=\"\"",
-            "maxDate=\"\"",
-            "showFooter=\"false\"",
-            "showCurrentDateButton=\"false\"",
-            "hideInput=\"false\"",
-            "calendarWeekNumbering=\"\"$2"
+            "<m:DatePicker",
+            "\tdisplayFormatType=\"\"",
+            "\tsecondaryCalendarType=\"null\"",
+            "\tminDate=\"null\"",
+            "\tmaxDate=\"null\"",
+            "\tshowFooter=\"false\"",
+            "\tshowCurrentDateButton=\"false\"",
+            "\thideInput=\"false\"",
+            "\tcalendarWeekNumbering=\"null\"",
+            "$1/>"
         ],
-        "description": "sap.m.DatePicker with non-inherited properties"
+        "description": "sap.m.DatePicker"
     },
     "sap.m.DatePicker-aggregations": {
-        "prefix": "!5-date-picker-aggregations",
+        "prefix": "!5-sap-m-datepicker",
         "body": [
-            "$1<specialDates>",
-            "\t<!-- <sap.ui.core.Element /> -->",
-            "</specialDates>",
-            "<_popup>",
-            "\t<!-- <sap.m.ResponsivePopover /> -->",
-            "</_popup>",
-            "$2"
+            "<m:DatePicker>",
+            "\t<core:Element>",
+            "\t\t$1",
+            "\t</core:Element>",
+            "</m:DatePicker>"
         ],
-        "description": "sap.m.DatePicker with non-inherited aggregations"
+        "description": "sap.m.DatePicker"
     },
     "sap.m.DatePicker-events": {
-        "prefix": "!5-date-picker-events",
+        "prefix": "!5-sap-m-datepicker",
         "body": [
-            "$1navigate=\".on${3:Navigate}\"",
-            "afterValueHelpOpen=\".on${4:AfterValueHelpOpen}\"",
-            "afterValueHelpClose=\".on${5:AfterValueHelpClose}\"",
-            "legend=\".on${6:Legend}\"$2"
+            "<m:DatePicker",
+            "\tnavigate=\".onNavigate\"",
+            "\tafterValueHelpOpen=\".onAfterValueHelpOpen\"",
+            "\tafterValueHelpClose=\".onAfterValueHelpClose\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.DatePicker with non-inherited events"
+        "description": "sap.m.DatePicker"
     },
     "sap.m.DatePicker-all": {
-        "prefix": "!5-date-picker-all",
+        "prefix": "!5-sap-m-datepicker",
         "body": [
-            "$1displayFormatType=\"\"",
-            "secondaryCalendarType=\"\"",
-            "minDate=\"\"",
-            "maxDate=\"\"",
-            "showFooter=\"false\"",
-            "showCurrentDateButton=\"false\"",
-            "hideInput=\"false\"",
-            "calendarWeekNumbering=\"\"",
-            "<specialDates>",
-            "\t<!-- <sap.ui.core.Element /> -->",
-            "</specialDates>",
-            "<_popup>",
-            "\t<!-- <sap.m.ResponsivePopover /> -->",
-            "</_popup>",
-            "navigate=\".on${3:Navigate}\"",
-            "afterValueHelpOpen=\".on${4:AfterValueHelpOpen}\"",
-            "afterValueHelpClose=\".on${5:AfterValueHelpClose}\"",
-            "legend=\".on${6:Legend}\"$2"
+            "<m:DatePicker",
+            "\tdisplayFormatType=\"\"",
+            "\tsecondaryCalendarType=\"null\"",
+            "\tminDate=\"null\"",
+            "\tmaxDate=\"null\"",
+            "\tshowFooter=\"false\"",
+            "\tshowCurrentDateButton=\"false\"",
+            "\thideInput=\"false\"",
+            "\tcalendarWeekNumbering=\"null\"",
+            "\tnavigate=\".onNavigate\"",
+            "\tafterValueHelpOpen=\".onAfterValueHelpOpen\"",
+            "\tafterValueHelpClose=\".onAfterValueHelpClose\"",
+            ">",
+            "\t<specialDates>",
+            "\t\t<core:Element",
+            "\t\t\t$1",
+            "\t\t/>",
+            "\t</specialDates>",
+            "</m:DatePicker>"
         ],
-        "description": "sap.m.DatePicker with non-inherited properties, aggregations and events"
+        "description": "sap.m.DatePicker"
     }
 }

@@ -1,47 +1,49 @@
 {
     "sap.m.RangeSlider": {
-        "prefix": "!5-range-slider",
+        "prefix": "!5-sap-m-rangeslider",
         "body": [
-            "<RangeSlider ",
+            "<m:RangeSlider ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.m.RangeSlider"
     },
     "sap.m.RangeSlider-properties": {
-        "prefix": "!5-range-slider-properties",
+        "prefix": "!5-sap-m-rangeslider",
         "body": [
-            "$1value2=\"100\"",
-            "range=\"0,100\"",
-            "progressBarSize=\"\"",
-            "startHandlePressed=\"\"",
-            "endHandlePressed=\"\"$2"
+            "<m:RangeSlider",
+            "\tvalue2=\"100\"",
+            "\trange=\"0,100\"",
+            "$1/>"
         ],
-        "description": "sap.m.RangeSlider with non-inherited properties"
+        "description": "sap.m.RangeSlider"
     },
     "sap.m.RangeSlider-aggregations": {
-        "prefix": "!5-range-slider-aggregations",
+        "prefix": "!5-sap-m-rangeslider",
         "body": [
-            "$1$2"
+            "<m:RangeSlider>",
+            "</m:RangeSlider>"
         ],
-        "description": "sap.m.RangeSlider with non-inherited aggregations"
+        "description": "sap.m.RangeSlider"
     },
     "sap.m.RangeSlider-events": {
-        "prefix": "!5-range-slider-events",
+        "prefix": "!5-sap-m-rangeslider",
         "body": [
-            "$1$2"
+            "<m:RangeSlider",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.RangeSlider with non-inherited events"
+        "description": "sap.m.RangeSlider"
     },
     "sap.m.RangeSlider-all": {
-        "prefix": "!5-range-slider-all",
+        "prefix": "!5-sap-m-rangeslider",
         "body": [
-            "$1value2=\"100\"",
-            "range=\"0,100\"",
-            "progressBarSize=\"\"",
-            "startHandlePressed=\"\"",
-            "endHandlePressed=\"\"$2"
+            "<m:RangeSlider",
+            "\tvalue2=\"100\"",
+            "\trange=\"0,100\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.RangeSlider with non-inherited properties, aggregations and events"
+        "description": "sap.m.RangeSlider"
     }
 }

@@ -1,39 +1,47 @@
 {
     "sap.m.List": {
-        "prefix": "!5-list",
+        "prefix": "!5-sap-m-list",
         "body": [
-            "<List ",
+            "<m:List ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.m.List"
     },
     "sap.m.List-properties": {
-        "prefix": "!5-list-properties",
+        "prefix": "!5-sap-m-list",
         "body": [
-            "$1backgroundDesign=\"Solid\"$2"
+            "<m:List",
+            "\tbackgroundDesign=\"Solid\"",
+            "$1/>"
         ],
-        "description": "sap.m.List with non-inherited properties"
+        "description": "sap.m.List"
     },
     "sap.m.List-aggregations": {
-        "prefix": "!5-list-aggregations",
+        "prefix": "!5-sap-m-list",
         "body": [
-            "$1$2"
+            "<m:List>",
+            "</m:List>"
         ],
-        "description": "sap.m.List with non-inherited aggregations"
+        "description": "sap.m.List"
     },
     "sap.m.List-events": {
-        "prefix": "!5-list-events",
+        "prefix": "!5-sap-m-list",
         "body": [
-            "$1$2"
+            "<m:List",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.List with non-inherited events"
+        "description": "sap.m.List"
     },
     "sap.m.List-all": {
-        "prefix": "!5-list-all",
+        "prefix": "!5-sap-m-list",
         "body": [
-            "$1backgroundDesign=\"Solid\"$2"
+            "<m:List",
+            "\tbackgroundDesign=\"Solid\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.List with non-inherited properties, aggregations and events"
+        "description": "sap.m.List"
     }
 }

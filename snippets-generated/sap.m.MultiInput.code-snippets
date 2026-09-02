@@ -1,60 +1,63 @@
 {
     "sap.m.MultiInput": {
-        "prefix": "!5-multi-input",
+        "prefix": "!5-sap-m-multiinput",
         "body": [
-            "<MultiInput ",
+            "<m:MultiInput ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.m.MultiInput"
     },
     "sap.m.MultiInput-properties": {
-        "prefix": "!5-multi-input-properties",
+        "prefix": "!5-sap-m-multiinput",
         "body": [
-            "$1enableMultiLineMode=\"false\"",
-            "maxTokens=\"\"",
-            "showSuggestion=\"true\"",
-            "_semanticFormValue=\"\"$2"
+            "<m:MultiInput",
+            "\tenableMultiLineMode=\"false\"",
+            "\tmaxTokens=\"null\"",
+            "\tshowSuggestion=\"true\"",
+            "$1/>"
         ],
-        "description": "sap.m.MultiInput with non-inherited properties"
+        "description": "sap.m.MultiInput"
     },
     "sap.m.MultiInput-aggregations": {
-        "prefix": "!5-multi-input-aggregations",
+        "prefix": "!5-sap-m-multiinput",
         "body": [
-            "$1<tokens>",
-            "\t<!-- <sap.m.Token /> -->",
-            "</tokens>",
-            "<tokenizer>",
-            "\t<!-- <sap.m.Tokenizer /> -->",
-            "</tokenizer>",
-            "$2"
+            "<m:MultiInput>",
+            "\t<m:Token>",
+            "\t\t$1",
+            "\t</m:Token>",
+            "</m:MultiInput>"
         ],
-        "description": "sap.m.MultiInput with non-inherited aggregations"
+        "description": "sap.m.MultiInput"
     },
     "sap.m.MultiInput-events": {
-        "prefix": "!5-multi-input-events",
+        "prefix": "!5-sap-m-multiinput",
         "body": [
-            "$1tokenChange=\".on${3:TokenChange}\"",
-            "tokenUpdate=\".on${4:TokenUpdate}\"$2"
+            "<m:MultiInput",
+            "\ttokenChange=\".onTokenChange\"",
+            "\ttokenUpdate=\".onTokenUpdate\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.MultiInput with non-inherited events"
+        "description": "sap.m.MultiInput"
     },
     "sap.m.MultiInput-all": {
-        "prefix": "!5-multi-input-all",
+        "prefix": "!5-sap-m-multiinput",
         "body": [
-            "$1enableMultiLineMode=\"false\"",
-            "maxTokens=\"\"",
-            "showSuggestion=\"true\"",
-            "_semanticFormValue=\"\"",
-            "<tokens>",
-            "\t<!-- <sap.m.Token /> -->",
-            "</tokens>",
-            "<tokenizer>",
-            "\t<!-- <sap.m.Tokenizer /> -->",
-            "</tokenizer>",
-            "tokenChange=\".on${3:TokenChange}\"",
-            "tokenUpdate=\".on${4:TokenUpdate}\"$2"
+            "<m:MultiInput",
+            "\tenableMultiLineMode=\"false\"",
+            "\tmaxTokens=\"null\"",
+            "\tshowSuggestion=\"true\"",
+            "\ttokenChange=\".onTokenChange\"",
+            "\ttokenUpdate=\".onTokenUpdate\"",
+            ">",
+            "\t<tokens>",
+            "\t\t<m:Token",
+            "\t\t\t$1",
+            "\t\t/>",
+            "\t</tokens>",
+            "</m:MultiInput>"
         ],
-        "description": "sap.m.MultiInput with non-inherited properties, aggregations and events"
+        "description": "sap.m.MultiInput"
     }
 }

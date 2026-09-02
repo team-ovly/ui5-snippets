@@ -1,46 +1,57 @@
 {
     "sap.ui.mdc.MultiValueField": {
-        "prefix": "!5-multi-value-field",
+        "prefix": "!5-sap-ui-mdc-multivaluefield",
         "body": [
-            "<MultiValueField ",
+            "<mdc:MultiValueField ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.ui.mdc.MultiValueField"
     },
     "sap.ui.mdc.MultiValueField-properties": {
-        "prefix": "!5-multi-value-field-properties",
+        "prefix": "!5-sap-ui-mdc-multivaluefield",
         "body": [
-            "$1delegate=\"...see text or source\"$2"
+            "<mdc:MultiValueField",
+            "\tdelegate=\"...see text or source\"",
+            "$1/>"
         ],
-        "description": "sap.ui.mdc.MultiValueField with non-inherited properties"
+        "description": "sap.ui.mdc.MultiValueField"
     },
     "sap.ui.mdc.MultiValueField-aggregations": {
-        "prefix": "!5-multi-value-field-aggregations",
+        "prefix": "!5-sap-ui-mdc-multivaluefield",
         "body": [
-            "$1<items>",
-            "\t<!-- <sap.ui.mdc.field.MultiValueFieldItem /> -->",
-            "</items>",
-            "$2"
+            "<mdc:MultiValueField>",
+            "\t<field:MultiValueFieldItem>",
+            "\t\t$1",
+            "\t</field:MultiValueFieldItem>",
+            "</mdc:MultiValueField>"
         ],
-        "description": "sap.ui.mdc.MultiValueField with non-inherited aggregations"
+        "description": "sap.ui.mdc.MultiValueField"
     },
     "sap.ui.mdc.MultiValueField-events": {
-        "prefix": "!5-multi-value-field-events",
+        "prefix": "!5-sap-ui-mdc-multivaluefield",
         "body": [
-            "$1change=\".on${3:Change}\"$2"
+            "<mdc:MultiValueField",
+            "\tchange=\".onChange\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.ui.mdc.MultiValueField with non-inherited events"
+        "description": "sap.ui.mdc.MultiValueField"
     },
     "sap.ui.mdc.MultiValueField-all": {
-        "prefix": "!5-multi-value-field-all",
+        "prefix": "!5-sap-ui-mdc-multivaluefield",
         "body": [
-            "$1delegate=\"...see text or source\"",
-            "<items>",
-            "\t<!-- <sap.ui.mdc.field.MultiValueFieldItem /> -->",
-            "</items>",
-            "change=\".on${3:Change}\"$2"
+            "<mdc:MultiValueField",
+            "\tdelegate=\"...see text or source\"",
+            "\tchange=\".onChange\"",
+            ">",
+            "\t<items>",
+            "\t\t<field:MultiValueFieldItem",
+            "\t\t\t$1",
+            "\t\t/>",
+            "\t</items>",
+            "</mdc:MultiValueField>"
         ],
-        "description": "sap.ui.mdc.MultiValueField with non-inherited properties, aggregations and events"
+        "description": "sap.ui.mdc.MultiValueField"
     }
 }

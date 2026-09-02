@@ -1,44 +1,53 @@
 {
     "sap.f.GridListItem": {
-        "prefix": "!5-grid-list-item",
+        "prefix": "!5-sap-f-gridlistitem",
         "body": [
-            "<GridListItem ",
+            "<f:GridListItem ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.f.GridListItem"
     },
     "sap.f.GridListItem-properties": {
-        "prefix": "!5-grid-list-item-properties",
+        "prefix": "!5-sap-f-gridlistitem",
         "body": [
-            "$1$2"
+            "<f:GridListItem",
+            "$1/>"
         ],
-        "description": "sap.f.GridListItem with non-inherited properties"
+        "description": "sap.f.GridListItem"
     },
     "sap.f.GridListItem-aggregations": {
-        "prefix": "!5-grid-list-item-aggregations",
+        "prefix": "!5-sap-f-gridlistitem",
         "body": [
-            "$1<content>",
-            "\t<!-- <sap.ui.core.Control /> -->",
-            "</content>",
-            "$2"
+            "<f:GridListItem>",
+            "\t<core:Control>",
+            "\t\t$1",
+            "\t</core:Control>",
+            "</f:GridListItem>"
         ],
-        "description": "sap.f.GridListItem with non-inherited aggregations"
+        "description": "sap.f.GridListItem"
     },
     "sap.f.GridListItem-events": {
-        "prefix": "!5-grid-list-item-events",
+        "prefix": "!5-sap-f-gridlistitem",
         "body": [
-            "$1$2"
+            "<f:GridListItem",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.f.GridListItem with non-inherited events"
+        "description": "sap.f.GridListItem"
     },
     "sap.f.GridListItem-all": {
-        "prefix": "!5-grid-list-item-all",
+        "prefix": "!5-sap-f-gridlistitem",
         "body": [
-            "$1<content>",
-            "\t<!-- <sap.ui.core.Control /> -->",
-            "</content>$2"
+            "<f:GridListItem",
+            ">",
+            "\t<content>",
+            "\t\t<core:Control",
+            "\t\t\t$1",
+            "\t\t/>",
+            "\t</content>",
+            "</f:GridListItem>"
         ],
-        "description": "sap.f.GridListItem with non-inherited properties, aggregations and events"
+        "description": "sap.f.GridListItem"
     }
 }

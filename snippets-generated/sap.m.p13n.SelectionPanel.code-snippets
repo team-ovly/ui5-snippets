@@ -1,51 +1,59 @@
 {
     "sap.m.p13n.SelectionPanel": {
-        "prefix": "!5-selection-panel",
+        "prefix": "!5-sap-m-p13n-selectionpanel",
         "body": [
-            "<SelectionPanel ",
+            "<p13n:SelectionPanel ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.m.p13n.SelectionPanel"
     },
     "sap.m.p13n.SelectionPanel-properties": {
-        "prefix": "!5-selection-panel-properties",
+        "prefix": "!5-sap-m-p13n-selectionpanel",
         "body": [
-            "$1title=\"...see text or source\"",
-            "showHeader=\"false\"",
-            "enableCount=\"false\"",
-            "fieldColumn=\"\"",
-            "activeColumn=\"\"",
-            "itemFactory=\"\"",
-            "multiSelectMode=\"ClearAll\"$2"
+            "<p13n:SelectionPanel",
+            "\ttitle=\"...see text or source\"",
+            "\tshowHeader=\"false\"",
+            "\tenableCount=\"false\"",
+            "\tfieldColumn=\"\"",
+            "\tactiveColumn=\"\"",
+            "\titemFactory=\"null\"",
+            "\tmultiSelectMode=\"ClearAll\"",
+            "$1/>"
         ],
-        "description": "sap.m.p13n.SelectionPanel with non-inherited properties"
+        "description": "sap.m.p13n.SelectionPanel"
     },
     "sap.m.p13n.SelectionPanel-aggregations": {
-        "prefix": "!5-selection-panel-aggregations",
+        "prefix": "!5-sap-m-p13n-selectionpanel",
         "body": [
-            "$1$2"
+            "<p13n:SelectionPanel>",
+            "</p13n:SelectionPanel>"
         ],
-        "description": "sap.m.p13n.SelectionPanel with non-inherited aggregations"
+        "description": "sap.m.p13n.SelectionPanel"
     },
     "sap.m.p13n.SelectionPanel-events": {
-        "prefix": "!5-selection-panel-events",
+        "prefix": "!5-sap-m-p13n-selectionpanel",
         "body": [
-            "$1$2"
+            "<p13n:SelectionPanel",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.p13n.SelectionPanel with non-inherited events"
+        "description": "sap.m.p13n.SelectionPanel"
     },
     "sap.m.p13n.SelectionPanel-all": {
-        "prefix": "!5-selection-panel-all",
+        "prefix": "!5-sap-m-p13n-selectionpanel",
         "body": [
-            "$1title=\"...see text or source\"",
-            "showHeader=\"false\"",
-            "enableCount=\"false\"",
-            "fieldColumn=\"\"",
-            "activeColumn=\"\"",
-            "itemFactory=\"\"",
-            "multiSelectMode=\"ClearAll\"$2"
+            "<p13n:SelectionPanel",
+            "\ttitle=\"...see text or source\"",
+            "\tshowHeader=\"false\"",
+            "\tenableCount=\"false\"",
+            "\tfieldColumn=\"\"",
+            "\tactiveColumn=\"\"",
+            "\titemFactory=\"null\"",
+            "\tmultiSelectMode=\"ClearAll\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.p13n.SelectionPanel with non-inherited properties, aggregations and events"
+        "description": "sap.m.p13n.SelectionPanel"
     }
 }

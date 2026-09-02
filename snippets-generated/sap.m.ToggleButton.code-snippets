@@ -1,40 +1,49 @@
 {
     "sap.m.ToggleButton": {
-        "prefix": "!5-toggle-button",
+        "prefix": "!5-sap-m-togglebutton",
         "body": [
-            "<ToggleButton ",
+            "<m:ToggleButton ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.m.ToggleButton"
     },
     "sap.m.ToggleButton-properties": {
-        "prefix": "!5-toggle-button-properties",
+        "prefix": "!5-sap-m-togglebutton",
         "body": [
-            "$1pressed=\"false\"$2"
+            "<m:ToggleButton",
+            "\tpressed=\"false\"",
+            "$1/>"
         ],
-        "description": "sap.m.ToggleButton with non-inherited properties"
+        "description": "sap.m.ToggleButton"
     },
     "sap.m.ToggleButton-aggregations": {
-        "prefix": "!5-toggle-button-aggregations",
+        "prefix": "!5-sap-m-togglebutton",
         "body": [
-            "$1$2"
+            "<m:ToggleButton>",
+            "</m:ToggleButton>"
         ],
-        "description": "sap.m.ToggleButton with non-inherited aggregations"
+        "description": "sap.m.ToggleButton"
     },
     "sap.m.ToggleButton-events": {
-        "prefix": "!5-toggle-button-events",
+        "prefix": "!5-sap-m-togglebutton",
         "body": [
-            "$1press=\".on${3:Press}\"$2"
+            "<m:ToggleButton",
+            "\tpress=\".onPress\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.ToggleButton with non-inherited events"
+        "description": "sap.m.ToggleButton"
     },
     "sap.m.ToggleButton-all": {
-        "prefix": "!5-toggle-button-all",
+        "prefix": "!5-sap-m-togglebutton",
         "body": [
-            "$1pressed=\"false\"",
-            "press=\".on${3:Press}\"$2"
+            "<m:ToggleButton",
+            "\tpressed=\"false\"",
+            "\tpress=\".onPress\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.ToggleButton with non-inherited properties, aggregations and events"
+        "description": "sap.m.ToggleButton"
     }
 }

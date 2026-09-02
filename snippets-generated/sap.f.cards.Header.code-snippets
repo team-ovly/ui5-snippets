@@ -1,81 +1,71 @@
 {
     "sap.f.cards.Header": {
-        "prefix": "!5-header",
+        "prefix": "!5-sap-f-cards-header",
         "body": [
-            "<Header ",
+            "<cards:Header ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.f.cards.Header"
     },
     "sap.f.cards.Header-properties": {
-        "prefix": "!5-header-properties",
+        "prefix": "!5-sap-f-cards-header",
         "body": [
-            "$1title=\"\"",
-            "titleMaxLines=\"3\"",
-            "subtitle=\"\"",
-            "subtitleMaxLines=\"2\"",
-            "statusText=\"\"",
-            "iconDisplayShape=\"Circle\"",
-            "iconSrc=\"\"",
-            "iconInitials=\"\"",
-            "iconAlt=\"\"",
-            "iconBackgroundColor=\"Transparent\"",
-            "iconVisible=\"true\"",
-            "iconSize=\"S\"",
-            "iconFitType=\"Cover\"$2"
+            "<cards:Header",
+            "\ttitle=\"\"",
+            "\ttitleMaxLines=\"3\"",
+            "\tsubtitle=\"\"",
+            "\tsubtitleMaxLines=\"2\"",
+            "\tstatusText=\"\"",
+            "\ticonDisplayShape=\"Circle\"",
+            "\ticonSrc=\"\"",
+            "\ticonInitials=\"\"",
+            "\ticonAlt=\"\"",
+            "\ticonBackgroundColor=\"Transparent\"",
+            "\ticonVisible=\"true\"",
+            "\ticonSize=\"S\"",
+            "\ticonFitType=\"Cover\"",
+            "$1/>"
         ],
-        "description": "sap.f.cards.Header with non-inherited properties"
+        "description": "sap.f.cards.Header"
     },
     "sap.f.cards.Header-aggregations": {
-        "prefix": "!5-header-aggregations",
+        "prefix": "!5-sap-f-cards-header",
         "body": [
-            "$1<_title>",
-            "\t<!-- <sap.m.Text /> -->",
-            "</_title>",
-            "<_subtitle>",
-            "\t<!-- <sap.m.Text /> -->",
-            "</_subtitle>",
-            "<_avatar>",
-            "\t<!-- <sap.m.Avatar /> -->",
-            "</_avatar>",
-            "$2"
+            "<cards:Header>",
+            "</cards:Header>"
         ],
-        "description": "sap.f.cards.Header with non-inherited aggregations"
+        "description": "sap.f.cards.Header"
     },
     "sap.f.cards.Header-events": {
-        "prefix": "!5-header-events",
+        "prefix": "!5-sap-f-cards-header",
         "body": [
-            "$1$2"
+            "<cards:Header",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.f.cards.Header with non-inherited events"
+        "description": "sap.f.cards.Header"
     },
     "sap.f.cards.Header-all": {
-        "prefix": "!5-header-all",
+        "prefix": "!5-sap-f-cards-header",
         "body": [
-            "$1title=\"\"",
-            "titleMaxLines=\"3\"",
-            "subtitle=\"\"",
-            "subtitleMaxLines=\"2\"",
-            "statusText=\"\"",
-            "iconDisplayShape=\"Circle\"",
-            "iconSrc=\"\"",
-            "iconInitials=\"\"",
-            "iconAlt=\"\"",
-            "iconBackgroundColor=\"Transparent\"",
-            "iconVisible=\"true\"",
-            "iconSize=\"S\"",
-            "iconFitType=\"Cover\"",
-            "<_title>",
-            "\t<!-- <sap.m.Text /> -->",
-            "</_title>",
-            "<_subtitle>",
-            "\t<!-- <sap.m.Text /> -->",
-            "</_subtitle>",
-            "<_avatar>",
-            "\t<!-- <sap.m.Avatar /> -->",
-            "</_avatar>$2"
+            "<cards:Header",
+            "\ttitle=\"\"",
+            "\ttitleMaxLines=\"3\"",
+            "\tsubtitle=\"\"",
+            "\tsubtitleMaxLines=\"2\"",
+            "\tstatusText=\"\"",
+            "\ticonDisplayShape=\"Circle\"",
+            "\ticonSrc=\"\"",
+            "\ticonInitials=\"\"",
+            "\ticonAlt=\"\"",
+            "\ticonBackgroundColor=\"Transparent\"",
+            "\ticonVisible=\"true\"",
+            "\ticonSize=\"S\"",
+            "\ticonFitType=\"Cover\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.f.cards.Header with non-inherited properties, aggregations and events"
+        "description": "sap.f.cards.Header"
     }
 }

@@ -1,47 +1,49 @@
 {
     "sap.m.DraftIndicator": {
-        "prefix": "!5-draft-indicator",
+        "prefix": "!5-sap-m-draftindicator",
         "body": [
-            "<DraftIndicator ",
+            "<m:DraftIndicator ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.m.DraftIndicator"
     },
     "sap.m.DraftIndicator-properties": {
-        "prefix": "!5-draft-indicator-properties",
+        "prefix": "!5-sap-m-draftindicator",
         "body": [
-            "$1state=\"Clear\"",
-            "minDisplayTime=\"1500\"$2"
+            "<m:DraftIndicator",
+            "\tstate=\"Clear\"",
+            "\tminDisplayTime=\"1500\"",
+            "$1/>"
         ],
-        "description": "sap.m.DraftIndicator with non-inherited properties"
+        "description": "sap.m.DraftIndicator"
     },
     "sap.m.DraftIndicator-aggregations": {
-        "prefix": "!5-draft-indicator-aggregations",
+        "prefix": "!5-sap-m-draftindicator",
         "body": [
-            "$1<_label>",
-            "\t<!-- <sap.m.Label /> -->",
-            "</_label>",
-            "$2"
+            "<m:DraftIndicator>",
+            "</m:DraftIndicator>"
         ],
-        "description": "sap.m.DraftIndicator with non-inherited aggregations"
+        "description": "sap.m.DraftIndicator"
     },
     "sap.m.DraftIndicator-events": {
-        "prefix": "!5-draft-indicator-events",
+        "prefix": "!5-sap-m-draftindicator",
         "body": [
-            "$1$2"
+            "<m:DraftIndicator",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.DraftIndicator with non-inherited events"
+        "description": "sap.m.DraftIndicator"
     },
     "sap.m.DraftIndicator-all": {
-        "prefix": "!5-draft-indicator-all",
+        "prefix": "!5-sap-m-draftindicator",
         "body": [
-            "$1state=\"Clear\"",
-            "minDisplayTime=\"1500\"",
-            "<_label>",
-            "\t<!-- <sap.m.Label /> -->",
-            "</_label>$2"
+            "<m:DraftIndicator",
+            "\tstate=\"Clear\"",
+            "\tminDisplayTime=\"1500\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.DraftIndicator with non-inherited properties, aggregations and events"
+        "description": "sap.m.DraftIndicator"
     }
 }

@@ -1,65 +1,53 @@
 {
     "sap.f.cards.NumericSideIndicator": {
-        "prefix": "!5-numeric-side-indicator",
+        "prefix": "!5-sap-f-cards-numericsideindicator",
         "body": [
-            "<NumericSideIndicator ",
+            "<cards:NumericSideIndicator ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.f.cards.NumericSideIndicator"
     },
     "sap.f.cards.NumericSideIndicator-properties": {
-        "prefix": "!5-numeric-side-indicator-properties",
+        "prefix": "!5-sap-f-cards-numericsideindicator",
         "body": [
-            "$1title=\"\"",
-            "number=\"\"",
-            "unit=\"\"",
-            "state=\"None\"",
-            "useTooltips=\"false\"$2"
+            "<cards:NumericSideIndicator",
+            "\ttitle=\"null\"",
+            "\tnumber=\"null\"",
+            "\tunit=\"null\"",
+            "\tstate=\"None\"",
+            "$1/>"
         ],
-        "description": "sap.f.cards.NumericSideIndicator with non-inherited properties"
+        "description": "sap.f.cards.NumericSideIndicator"
     },
     "sap.f.cards.NumericSideIndicator-aggregations": {
-        "prefix": "!5-numeric-side-indicator-aggregations",
+        "prefix": "!5-sap-f-cards-numericsideindicator",
         "body": [
-            "$1<_title>",
-            "\t<!-- <sap.m.Text /> -->",
-            "</_title>",
-            "<_number>",
-            "\t<!-- <sap.m.Text /> -->",
-            "</_number>",
-            "<_unit>",
-            "\t<!-- <sap.m.Text /> -->",
-            "</_unit>",
-            "$2"
+            "<cards:NumericSideIndicator>",
+            "</cards:NumericSideIndicator>"
         ],
-        "description": "sap.f.cards.NumericSideIndicator with non-inherited aggregations"
+        "description": "sap.f.cards.NumericSideIndicator"
     },
     "sap.f.cards.NumericSideIndicator-events": {
-        "prefix": "!5-numeric-side-indicator-events",
+        "prefix": "!5-sap-f-cards-numericsideindicator",
         "body": [
-            "$1$2"
+            "<cards:NumericSideIndicator",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.f.cards.NumericSideIndicator with non-inherited events"
+        "description": "sap.f.cards.NumericSideIndicator"
     },
     "sap.f.cards.NumericSideIndicator-all": {
-        "prefix": "!5-numeric-side-indicator-all",
+        "prefix": "!5-sap-f-cards-numericsideindicator",
         "body": [
-            "$1title=\"\"",
-            "number=\"\"",
-            "unit=\"\"",
-            "state=\"None\"",
-            "useTooltips=\"false\"",
-            "<_title>",
-            "\t<!-- <sap.m.Text /> -->",
-            "</_title>",
-            "<_number>",
-            "\t<!-- <sap.m.Text /> -->",
-            "</_number>",
-            "<_unit>",
-            "\t<!-- <sap.m.Text /> -->",
-            "</_unit>$2"
+            "<cards:NumericSideIndicator",
+            "\ttitle=\"null\"",
+            "\tnumber=\"null\"",
+            "\tunit=\"null\"",
+            "\tstate=\"None\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.f.cards.NumericSideIndicator with non-inherited properties, aggregations and events"
+        "description": "sap.f.cards.NumericSideIndicator"
     }
 }

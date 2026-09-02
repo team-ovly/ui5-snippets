@@ -1,70 +1,83 @@
 {
     "sap.tnt.SideNavigation": {
-        "prefix": "!5-side-navigation",
+        "prefix": "!5-sap-tnt-sidenavigation",
         "body": [
-            "<SideNavigation ",
+            "<tnt:SideNavigation ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.tnt.SideNavigation"
     },
     "sap.tnt.SideNavigation-properties": {
-        "prefix": "!5-side-navigation-properties",
+        "prefix": "!5-sap-tnt-sidenavigation",
         "body": [
-            "$1width=\"\"",
-            "expanded=\"true\"",
-            "selectedKey=\"\"",
-            "ariaLabel=\"\"",
-            "design=\"Decorated\"$2"
+            "<tnt:SideNavigation",
+            "\twidth=\"null\"",
+            "\texpanded=\"true\"",
+            "\tselectedKey=\"null\"",
+            "\tariaLabel=\"null\"",
+            "\tdesign=\"Decorated\"",
+            "$1/>"
         ],
-        "description": "sap.tnt.SideNavigation with non-inherited properties"
+        "description": "sap.tnt.SideNavigation"
     },
     "sap.tnt.SideNavigation-aggregations": {
-        "prefix": "!5-side-navigation-aggregations",
+        "prefix": "!5-sap-tnt-sidenavigation",
         "body": [
-            "$1<item>",
-            "\t<!-- <sap.tnt.NavigationList /> -->",
-            "</item>",
-            "<fixedItem>",
-            "\t<!-- <sap.tnt.NavigationList /> -->",
-            "</fixedItem>",
-            "<footer>",
-            "\t<!-- <sap.tnt.NavigationList /> -->",
-            "</footer>",
-            "$2"
+            "<tnt:SideNavigation>",
+            "\t<tnt:NavigationList>",
+            "\t\t$1",
+            "\t</tnt:NavigationList>",
+            "\t<tnt:NavigationList>",
+            "\t\t$2",
+            "\t</tnt:NavigationList>",
+            "\t<tnt:NavigationList>",
+            "\t\t$3",
+            "\t</tnt:NavigationList>",
+            "</tnt:SideNavigation>"
         ],
-        "description": "sap.tnt.SideNavigation with non-inherited aggregations"
+        "description": "sap.tnt.SideNavigation"
     },
     "sap.tnt.SideNavigation-events": {
-        "prefix": "!5-side-navigation-events",
+        "prefix": "!5-sap-tnt-sidenavigation",
         "body": [
-            "$1itemSelect=\".on${3:ItemSelect}\"",
-            "itemPress=\".on${4:ItemPress}\"",
-            "selectedItem=\".on${5:SelectedItem}\"$2"
+            "<tnt:SideNavigation",
+            "\titemSelect=\".onItemSelect\"",
+            "\titemPress=\".onItemPress\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.tnt.SideNavigation with non-inherited events"
+        "description": "sap.tnt.SideNavigation"
     },
     "sap.tnt.SideNavigation-all": {
-        "prefix": "!5-side-navigation-all",
+        "prefix": "!5-sap-tnt-sidenavigation",
         "body": [
-            "$1width=\"\"",
-            "expanded=\"true\"",
-            "selectedKey=\"\"",
-            "ariaLabel=\"\"",
-            "design=\"Decorated\"",
-            "<item>",
-            "\t<!-- <sap.tnt.NavigationList /> -->",
-            "</item>",
-            "<fixedItem>",
-            "\t<!-- <sap.tnt.NavigationList /> -->",
-            "</fixedItem>",
-            "<footer>",
-            "\t<!-- <sap.tnt.NavigationList /> -->",
-            "</footer>",
-            "itemSelect=\".on${3:ItemSelect}\"",
-            "itemPress=\".on${4:ItemPress}\"",
-            "selectedItem=\".on${5:SelectedItem}\"$2"
+            "<tnt:SideNavigation",
+            "\twidth=\"null\"",
+            "\texpanded=\"true\"",
+            "\tselectedKey=\"null\"",
+            "\tariaLabel=\"null\"",
+            "\tdesign=\"Decorated\"",
+            "\titemSelect=\".onItemSelect\"",
+            "\titemPress=\".onItemPress\"",
+            ">",
+            "\t<item>",
+            "\t\t<tnt:NavigationList",
+            "\t\t\t$1",
+            "\t\t/>",
+            "\t</item>",
+            "\t<fixedItem>",
+            "\t\t<tnt:NavigationList",
+            "\t\t\t$2",
+            "\t\t/>",
+            "\t</fixedItem>",
+            "\t<footer>",
+            "\t\t<tnt:NavigationList",
+            "\t\t\t$3",
+            "\t\t/>",
+            "\t</footer>",
+            "</tnt:SideNavigation>"
         ],
-        "description": "sap.tnt.SideNavigation with non-inherited properties, aggregations and events"
+        "description": "sap.tnt.SideNavigation"
     }
 }

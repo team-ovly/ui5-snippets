@@ -1,65 +1,81 @@
 {
     "sap.tnt.ToolPage": {
-        "prefix": "!5-tool-page",
+        "prefix": "!5-sap-tnt-toolpage",
         "body": [
-            "<ToolPage ",
+            "<tnt:ToolPage ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.tnt.ToolPage"
     },
     "sap.tnt.ToolPage-properties": {
-        "prefix": "!5-tool-page-properties",
+        "prefix": "!5-sap-tnt-toolpage",
         "body": [
-            "$1sideExpanded=\"true\"",
-            "contentBackgroundDesign=\"Standard\"$2"
+            "<tnt:ToolPage",
+            "\tsideExpanded=\"true\"",
+            "\tcontentBackgroundDesign=\"Standard\"",
+            "$1/>"
         ],
-        "description": "sap.tnt.ToolPage with non-inherited properties"
+        "description": "sap.tnt.ToolPage"
     },
     "sap.tnt.ToolPage-aggregations": {
-        "prefix": "!5-tool-page-aggregations",
+        "prefix": "!5-sap-tnt-toolpage",
         "body": [
-            "$1<header>",
-            "\t<!-- <sap.ui.core.Control /> -->",
-            "</header>",
-            "<subHeader>",
-            "\t<!-- <sap.ui.core.Control /> -->",
-            "</subHeader>",
-            "<sideContent>",
-            "\t<!-- <sap.tnt.SideNavigation /> -->",
-            "</sideContent>",
-            "<mainContents>",
-            "\t<!-- <sap.ui.core.Control /> -->",
-            "</mainContents>",
-            "$2"
+            "<tnt:ToolPage>",
+            "\t<core:Control>",
+            "\t\t$1",
+            "\t</core:Control>",
+            "\t<core:Control>",
+            "\t\t$2",
+            "\t</core:Control>",
+            "\t<tnt:SideNavigation>",
+            "\t\t$3",
+            "\t</tnt:SideNavigation>",
+            "\t<core:Control>",
+            "\t\t$4",
+            "\t</core:Control>",
+            "</tnt:ToolPage>"
         ],
-        "description": "sap.tnt.ToolPage with non-inherited aggregations"
+        "description": "sap.tnt.ToolPage"
     },
     "sap.tnt.ToolPage-events": {
-        "prefix": "!5-tool-page-events",
+        "prefix": "!5-sap-tnt-toolpage",
         "body": [
-            "$1$2"
+            "<tnt:ToolPage",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.tnt.ToolPage with non-inherited events"
+        "description": "sap.tnt.ToolPage"
     },
     "sap.tnt.ToolPage-all": {
-        "prefix": "!5-tool-page-all",
+        "prefix": "!5-sap-tnt-toolpage",
         "body": [
-            "$1sideExpanded=\"true\"",
-            "contentBackgroundDesign=\"Standard\"",
-            "<header>",
-            "\t<!-- <sap.ui.core.Control /> -->",
-            "</header>",
-            "<subHeader>",
-            "\t<!-- <sap.ui.core.Control /> -->",
-            "</subHeader>",
-            "<sideContent>",
-            "\t<!-- <sap.tnt.SideNavigation /> -->",
-            "</sideContent>",
-            "<mainContents>",
-            "\t<!-- <sap.ui.core.Control /> -->",
-            "</mainContents>$2"
+            "<tnt:ToolPage",
+            "\tsideExpanded=\"true\"",
+            "\tcontentBackgroundDesign=\"Standard\"",
+            ">",
+            "\t<header>",
+            "\t\t<core:Control",
+            "\t\t\t$1",
+            "\t\t/>",
+            "\t</header>",
+            "\t<subHeader>",
+            "\t\t<core:Control",
+            "\t\t\t$2",
+            "\t\t/>",
+            "\t</subHeader>",
+            "\t<sideContent>",
+            "\t\t<tnt:SideNavigation",
+            "\t\t\t$3",
+            "\t\t/>",
+            "\t</sideContent>",
+            "\t<mainContents>",
+            "\t\t<core:Control",
+            "\t\t\t$4",
+            "\t\t/>",
+            "\t</mainContents>",
+            "</tnt:ToolPage>"
         ],
-        "description": "sap.tnt.ToolPage with non-inherited properties, aggregations and events"
+        "description": "sap.tnt.ToolPage"
     }
 }

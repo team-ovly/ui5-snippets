@@ -1,60 +1,69 @@
 {
     "sap.m.Title": {
-        "prefix": "!5-title",
+        "prefix": "!5-sap-m-title",
         "body": [
-            "<Title ",
+            "<m:Title ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.m.Title"
     },
     "sap.m.Title-properties": {
-        "prefix": "!5-title-properties",
+        "prefix": "!5-sap-m-title",
         "body": [
-            "$1text=\"\"",
-            "level=\"Auto\"",
-            "titleStyle=\"Auto\"",
-            "width=\"\"",
-            "textAlign=\"Initial\"",
-            "textDirection=\"Inherit\"",
-            "wrapping=\"false\"",
-            "wrappingType=\"Normal\"$2"
+            "<m:Title",
+            "\ttext=\"null\"",
+            "\tlevel=\"Auto\"",
+            "\ttitleStyle=\"Auto\"",
+            "\twidth=\"null\"",
+            "\ttextAlign=\"Initial\"",
+            "\ttextDirection=\"Inherit\"",
+            "\twrapping=\"false\"",
+            "\twrappingType=\"Normal\"",
+            "$1/>"
         ],
-        "description": "sap.m.Title with non-inherited properties"
+        "description": "sap.m.Title"
     },
     "sap.m.Title-aggregations": {
-        "prefix": "!5-title-aggregations",
+        "prefix": "!5-sap-m-title",
         "body": [
-            "$1<content>",
-            "\t<!-- <sap.ui.core.ITitleContent /> -->",
-            "</content>",
-            "$2"
+            "<m:Title>",
+            "\t<core:ITitleContent>",
+            "\t\t$1",
+            "\t</core:ITitleContent>",
+            "</m:Title>"
         ],
-        "description": "sap.m.Title with non-inherited aggregations"
+        "description": "sap.m.Title"
     },
     "sap.m.Title-events": {
-        "prefix": "!5-title-events",
+        "prefix": "!5-sap-m-title",
         "body": [
-            "$1title=\".on${3:Title}\"$2"
+            "<m:Title",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.Title with non-inherited events"
+        "description": "sap.m.Title"
     },
     "sap.m.Title-all": {
-        "prefix": "!5-title-all",
+        "prefix": "!5-sap-m-title",
         "body": [
-            "$1text=\"\"",
-            "level=\"Auto\"",
-            "titleStyle=\"Auto\"",
-            "width=\"\"",
-            "textAlign=\"Initial\"",
-            "textDirection=\"Inherit\"",
-            "wrapping=\"false\"",
-            "wrappingType=\"Normal\"",
-            "<content>",
-            "\t<!-- <sap.ui.core.ITitleContent /> -->",
-            "</content>",
-            "title=\".on${3:Title}\"$2"
+            "<m:Title",
+            "\ttext=\"null\"",
+            "\tlevel=\"Auto\"",
+            "\ttitleStyle=\"Auto\"",
+            "\twidth=\"null\"",
+            "\ttextAlign=\"Initial\"",
+            "\ttextDirection=\"Inherit\"",
+            "\twrapping=\"false\"",
+            "\twrappingType=\"Normal\"",
+            ">",
+            "\t<content>",
+            "\t\t<core:ITitleContent",
+            "\t\t\t$1",
+            "\t\t/>",
+            "\t</content>",
+            "</m:Title>"
         ],
-        "description": "sap.m.Title with non-inherited properties, aggregations and events"
+        "description": "sap.m.Title"
     }
 }

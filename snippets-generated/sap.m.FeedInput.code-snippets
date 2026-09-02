@@ -1,76 +1,79 @@
 {
     "sap.m.FeedInput": {
-        "prefix": "!5-feed-input",
+        "prefix": "!5-sap-m-feedinput",
         "body": [
-            "<FeedInput ",
+            "<m:FeedInput ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.m.FeedInput"
     },
     "sap.m.FeedInput-properties": {
-        "prefix": "!5-feed-input-properties",
+        "prefix": "!5-sap-m-feedinput",
         "body": [
-            "$1enabled=\"true\"",
-            "rows=\"2\"",
-            "showExceededText=\"false\"",
-            "maxLength=\"0\"",
-            "growing=\"false\"",
-            "growingMaxLines=\"0\"",
-            "placeholder=\"Post something here\"",
-            "value=\"\"",
-            "icon=\"\"",
-            "iconDisplayShape=\"Circle\"",
-            "iconInitials=\"\"",
-            "iconSize=\"M\"",
-            "showIcon=\"true\"",
-            "iconDensityAware=\"true\"",
-            "buttonTooltip=\"Submit\"",
-            "ariaLabelForPicture=\"\"$2"
+            "<m:FeedInput",
+            "\tenabled=\"true\"",
+            "\trows=\"2\"",
+            "\tshowExceededText=\"false\"",
+            "\tmaxLength=\"0\"",
+            "\tgrowing=\"false\"",
+            "\tgrowingMaxLines=\"0\"",
+            "\tplaceholder=\"Post something here\"",
+            "\tvalue=\"null\"",
+            "\ticon=\"null\"",
+            "\ticonDisplayShape=\"Circle\"",
+            "\ticonInitials=\"\"",
+            "\ticonSize=\"M\"",
+            "\tshowIcon=\"true\"",
+            "\ticonDensityAware=\"true\"",
+            "\tbuttonTooltip=\"Submit\"",
+            "\tariaLabelForPicture=\"null\"",
+            "$1/>"
         ],
-        "description": "sap.m.FeedInput with non-inherited properties"
+        "description": "sap.m.FeedInput"
     },
     "sap.m.FeedInput-aggregations": {
-        "prefix": "!5-feed-input-aggregations",
+        "prefix": "!5-sap-m-feedinput",
         "body": [
-            "$1<_avatar>",
-            "\t<!-- <sap.m.Avatar /> -->",
-            "</_avatar>",
-            "$2"
+            "<m:FeedInput>",
+            "</m:FeedInput>"
         ],
-        "description": "sap.m.FeedInput with non-inherited aggregations"
+        "description": "sap.m.FeedInput"
     },
     "sap.m.FeedInput-events": {
-        "prefix": "!5-feed-input-events",
+        "prefix": "!5-sap-m-feedinput",
         "body": [
-            "$1post=\".on${3:Post}\"$2"
+            "<m:FeedInput",
+            "\tpost=\".onPost\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.FeedInput with non-inherited events"
+        "description": "sap.m.FeedInput"
     },
     "sap.m.FeedInput-all": {
-        "prefix": "!5-feed-input-all",
+        "prefix": "!5-sap-m-feedinput",
         "body": [
-            "$1enabled=\"true\"",
-            "rows=\"2\"",
-            "showExceededText=\"false\"",
-            "maxLength=\"0\"",
-            "growing=\"false\"",
-            "growingMaxLines=\"0\"",
-            "placeholder=\"Post something here\"",
-            "value=\"\"",
-            "icon=\"\"",
-            "iconDisplayShape=\"Circle\"",
-            "iconInitials=\"\"",
-            "iconSize=\"M\"",
-            "showIcon=\"true\"",
-            "iconDensityAware=\"true\"",
-            "buttonTooltip=\"Submit\"",
-            "ariaLabelForPicture=\"\"",
-            "<_avatar>",
-            "\t<!-- <sap.m.Avatar /> -->",
-            "</_avatar>",
-            "post=\".on${3:Post}\"$2"
+            "<m:FeedInput",
+            "\tenabled=\"true\"",
+            "\trows=\"2\"",
+            "\tshowExceededText=\"false\"",
+            "\tmaxLength=\"0\"",
+            "\tgrowing=\"false\"",
+            "\tgrowingMaxLines=\"0\"",
+            "\tplaceholder=\"Post something here\"",
+            "\tvalue=\"null\"",
+            "\ticon=\"null\"",
+            "\ticonDisplayShape=\"Circle\"",
+            "\ticonInitials=\"\"",
+            "\ticonSize=\"M\"",
+            "\tshowIcon=\"true\"",
+            "\ticonDensityAware=\"true\"",
+            "\tbuttonTooltip=\"Submit\"",
+            "\tariaLabelForPicture=\"null\"",
+            "\tpost=\".onPost\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.FeedInput with non-inherited properties, aggregations and events"
+        "description": "sap.m.FeedInput"
     }
 }

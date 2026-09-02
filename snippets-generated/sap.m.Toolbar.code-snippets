@@ -1,66 +1,69 @@
 {
     "sap.m.Toolbar": {
-        "prefix": "!5-toolbar",
+        "prefix": "!5-sap-m-toolbar",
         "body": [
-            "<Toolbar ",
+            "<m:Toolbar ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.m.Toolbar"
     },
     "sap.m.Toolbar-properties": {
-        "prefix": "!5-toolbar-properties",
+        "prefix": "!5-sap-m-toolbar",
         "body": [
-            "$1width=\"\"",
-            "active=\"false\"",
-            "enabled=\"true\"",
-            "height=\"\"",
-            "design=\"Auto\"",
-            "style=\"Standard\"",
-            "ariaHasPopup=\"\"$2"
+            "<m:Toolbar",
+            "\twidth=\"null\"",
+            "\tactive=\"false\"",
+            "\tenabled=\"true\"",
+            "\theight=\"\"",
+            "\tdesign=\"Auto\"",
+            "\tstyle=\"Standard\"",
+            "\tariaHasPopup=\"null\"",
+            "$1/>"
         ],
-        "description": "sap.m.Toolbar with non-inherited properties"
+        "description": "sap.m.Toolbar"
     },
     "sap.m.Toolbar-aggregations": {
-        "prefix": "!5-toolbar-aggregations",
+        "prefix": "!5-sap-m-toolbar",
         "body": [
-            "$1<content>",
-            "\t<!-- <sap.ui.core.Control /> -->",
-            "</content>",
-            "<_activeButton>",
-            "\t<!-- <sap.m.Button /> -->",
-            "</_activeButton>",
-            "$2"
+            "<m:Toolbar>",
+            "\t<core:Control>",
+            "\t\t$1",
+            "\t</core:Control>",
+            "</m:Toolbar>"
         ],
-        "description": "sap.m.Toolbar with non-inherited aggregations"
+        "description": "sap.m.Toolbar"
     },
     "sap.m.Toolbar-events": {
-        "prefix": "!5-toolbar-events",
+        "prefix": "!5-sap-m-toolbar",
         "body": [
-            "$1press=\".on${3:Press}\"",
-            "ariaLabelledBy=\".on${4:AriaLabelledBy}\"$2"
+            "<m:Toolbar",
+            "\tpress=\".onPress\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.Toolbar with non-inherited events"
+        "description": "sap.m.Toolbar"
     },
     "sap.m.Toolbar-all": {
-        "prefix": "!5-toolbar-all",
+        "prefix": "!5-sap-m-toolbar",
         "body": [
-            "$1width=\"\"",
-            "active=\"false\"",
-            "enabled=\"true\"",
-            "height=\"\"",
-            "design=\"Auto\"",
-            "style=\"Standard\"",
-            "ariaHasPopup=\"\"",
-            "<content>",
-            "\t<!-- <sap.ui.core.Control /> -->",
-            "</content>",
-            "<_activeButton>",
-            "\t<!-- <sap.m.Button /> -->",
-            "</_activeButton>",
-            "press=\".on${3:Press}\"",
-            "ariaLabelledBy=\".on${4:AriaLabelledBy}\"$2"
+            "<m:Toolbar",
+            "\twidth=\"null\"",
+            "\tactive=\"false\"",
+            "\tenabled=\"true\"",
+            "\theight=\"\"",
+            "\tdesign=\"Auto\"",
+            "\tstyle=\"Standard\"",
+            "\tariaHasPopup=\"null\"",
+            "\tpress=\".onPress\"",
+            ">",
+            "\t<content>",
+            "\t\t<core:Control",
+            "\t\t\t$1",
+            "\t\t/>",
+            "\t</content>",
+            "</m:Toolbar>"
         ],
-        "description": "sap.m.Toolbar with non-inherited properties, aggregations and events"
+        "description": "sap.m.Toolbar"
     }
 }

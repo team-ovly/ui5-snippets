@@ -1,54 +1,63 @@
 {
     "sap.m.MaskInput": {
-        "prefix": "!5-mask-input",
+        "prefix": "!5-sap-m-maskinput",
         "body": [
-            "<MaskInput ",
+            "<m:MaskInput ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.m.MaskInput"
     },
     "sap.m.MaskInput-properties": {
-        "prefix": "!5-mask-input-properties",
+        "prefix": "!5-sap-m-maskinput",
         "body": [
-            "$1placeholderSymbol=\"_\"",
-            "mask=\"\"",
-            "showClearIcon=\"false\"",
-            "effectiveShowClearIcon=\"false\"$2"
+            "<m:MaskInput",
+            "\tplaceholderSymbol=\"_\"",
+            "\tmask=\"null\"",
+            "\tshowClearIcon=\"false\"",
+            "$1/>"
         ],
-        "description": "sap.m.MaskInput with non-inherited properties"
+        "description": "sap.m.MaskInput"
     },
     "sap.m.MaskInput-aggregations": {
-        "prefix": "!5-mask-input-aggregations",
+        "prefix": "!5-sap-m-maskinput",
         "body": [
-            "$1<rules>",
-            "\t<!-- <sap.m.MaskInputRule /> -->",
-            "</rules>",
-            "$2"
+            "<m:MaskInput>",
+            "\t<m:MaskInputRule>",
+            "\t\t$1",
+            "\t</m:MaskInputRule>",
+            "</m:MaskInput>"
         ],
-        "description": "sap.m.MaskInput with non-inherited aggregations"
+        "description": "sap.m.MaskInput"
     },
     "sap.m.MaskInput-events": {
-        "prefix": "!5-mask-input-events",
+        "prefix": "!5-sap-m-maskinput",
         "body": [
-            "$1liveChange=\".on${3:LiveChange}\"",
-            "submit=\".on${4:Submit}\"$2"
+            "<m:MaskInput",
+            "\tliveChange=\".onLiveChange\"",
+            "\tsubmit=\".onSubmit\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.MaskInput with non-inherited events"
+        "description": "sap.m.MaskInput"
     },
     "sap.m.MaskInput-all": {
-        "prefix": "!5-mask-input-all",
+        "prefix": "!5-sap-m-maskinput",
         "body": [
-            "$1placeholderSymbol=\"_\"",
-            "mask=\"\"",
-            "showClearIcon=\"false\"",
-            "effectiveShowClearIcon=\"false\"",
-            "<rules>",
-            "\t<!-- <sap.m.MaskInputRule /> -->",
-            "</rules>",
-            "liveChange=\".on${3:LiveChange}\"",
-            "submit=\".on${4:Submit}\"$2"
+            "<m:MaskInput",
+            "\tplaceholderSymbol=\"_\"",
+            "\tmask=\"null\"",
+            "\tshowClearIcon=\"false\"",
+            "\tliveChange=\".onLiveChange\"",
+            "\tsubmit=\".onSubmit\"",
+            ">",
+            "\t<rules>",
+            "\t\t<m:MaskInputRule",
+            "\t\t\t$1",
+            "\t\t/>",
+            "\t</rules>",
+            "</m:MaskInput>"
         ],
-        "description": "sap.m.MaskInput with non-inherited properties, aggregations and events"
+        "description": "sap.m.MaskInput"
     }
 }

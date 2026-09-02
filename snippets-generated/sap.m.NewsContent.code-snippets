@@ -1,56 +1,53 @@
 {
     "sap.m.NewsContent": {
-        "prefix": "!5-news-content",
+        "prefix": "!5-sap-m-newscontent",
         "body": [
-            "<NewsContent ",
+            "<m:NewsContent ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.m.NewsContent"
     },
     "sap.m.NewsContent-properties": {
-        "prefix": "!5-news-content-properties",
+        "prefix": "!5-sap-m-newscontent",
         "body": [
-            "$1size=\"Auto\"",
-            "contentText=\"\"",
-            "subheader=\"\"$2"
+            "<m:NewsContent",
+            "\tsize=\"Auto\"",
+            "\tcontentText=\"null\"",
+            "\tsubheader=\"null\"",
+            "$1/>"
         ],
-        "description": "sap.m.NewsContent with non-inherited properties"
+        "description": "sap.m.NewsContent"
     },
     "sap.m.NewsContent-aggregations": {
-        "prefix": "!5-news-content-aggregations",
+        "prefix": "!5-sap-m-newscontent",
         "body": [
-            "$1<_contentText>",
-            "\t<!-- <sap.m.FormattedText /> -->",
-            "</_contentText>",
-            "<_subHeaderText>",
-            "\t<!-- <sap.m.FormattedText /> -->",
-            "</_subHeaderText>",
-            "$2"
+            "<m:NewsContent>",
+            "</m:NewsContent>"
         ],
-        "description": "sap.m.NewsContent with non-inherited aggregations"
+        "description": "sap.m.NewsContent"
     },
     "sap.m.NewsContent-events": {
-        "prefix": "!5-news-content-events",
+        "prefix": "!5-sap-m-newscontent",
         "body": [
-            "$1press=\".on${3:Press}\"$2"
+            "<m:NewsContent",
+            "\tpress=\".onPress\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.NewsContent with non-inherited events"
+        "description": "sap.m.NewsContent"
     },
     "sap.m.NewsContent-all": {
-        "prefix": "!5-news-content-all",
+        "prefix": "!5-sap-m-newscontent",
         "body": [
-            "$1size=\"Auto\"",
-            "contentText=\"\"",
-            "subheader=\"\"",
-            "<_contentText>",
-            "\t<!-- <sap.m.FormattedText /> -->",
-            "</_contentText>",
-            "<_subHeaderText>",
-            "\t<!-- <sap.m.FormattedText /> -->",
-            "</_subHeaderText>",
-            "press=\".on${3:Press}\"$2"
+            "<m:NewsContent",
+            "\tsize=\"Auto\"",
+            "\tcontentText=\"null\"",
+            "\tsubheader=\"null\"",
+            "\tpress=\".onPress\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.NewsContent with non-inherited properties, aggregations and events"
+        "description": "sap.m.NewsContent"
     }
 }

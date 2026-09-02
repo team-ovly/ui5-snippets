@@ -1,56 +1,63 @@
 {
     "sap.m.BusyIndicator": {
-        "prefix": "!5-busy-indicator",
+        "prefix": "!5-sap-m-busyindicator",
         "body": [
-            "<BusyIndicator ",
+            "<m:BusyIndicator ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.m.BusyIndicator"
     },
     "sap.m.BusyIndicator-properties": {
-        "prefix": "!5-busy-indicator-properties",
+        "prefix": "!5-sap-m-busyindicator",
         "body": [
-            "$1text=\"\"",
-            "textDirection=\"Inherit\"",
-            "customIcon=\"\"",
-            "customIconRotationSpeed=\"1000\"",
-            "customIconDensityAware=\"true\"",
-            "customIconWidth=\"44px\"",
-            "customIconHeight=\"44px\"",
-            "size=\"1rem\"",
-            "design=\"auto\"$2"
+            "<m:BusyIndicator",
+            "\ttext=\"\"",
+            "\ttextDirection=\"Inherit\"",
+            "\tcustomIcon=\"\"",
+            "\tcustomIconRotationSpeed=\"1000\"",
+            "\tcustomIconDensityAware=\"true\"",
+            "\tcustomIconWidth=\"44px\"",
+            "\tcustomIconHeight=\"44px\"",
+            "\tsize=\"1rem\"",
+            "\tdesign=\"auto\"",
+            "$1/>"
         ],
-        "description": "sap.m.BusyIndicator with non-inherited properties"
+        "description": "sap.m.BusyIndicator"
     },
     "sap.m.BusyIndicator-aggregations": {
-        "prefix": "!5-busy-indicator-aggregations",
+        "prefix": "!5-sap-m-busyindicator",
         "body": [
-            "$1$2"
+            "<m:BusyIndicator>",
+            "</m:BusyIndicator>"
         ],
-        "description": "sap.m.BusyIndicator with non-inherited aggregations"
+        "description": "sap.m.BusyIndicator"
     },
     "sap.m.BusyIndicator-events": {
-        "prefix": "!5-busy-indicator-events",
+        "prefix": "!5-sap-m-busyindicator",
         "body": [
-            "$1ariaLabelledBy=\".on${3:AriaLabelledBy}\"$2"
+            "<m:BusyIndicator",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.BusyIndicator with non-inherited events"
+        "description": "sap.m.BusyIndicator"
     },
     "sap.m.BusyIndicator-all": {
-        "prefix": "!5-busy-indicator-all",
+        "prefix": "!5-sap-m-busyindicator",
         "body": [
-            "$1text=\"\"",
-            "textDirection=\"Inherit\"",
-            "customIcon=\"\"",
-            "customIconRotationSpeed=\"1000\"",
-            "customIconDensityAware=\"true\"",
-            "customIconWidth=\"44px\"",
-            "customIconHeight=\"44px\"",
-            "size=\"1rem\"",
-            "design=\"auto\"",
-            "ariaLabelledBy=\".on${3:AriaLabelledBy}\"$2"
+            "<m:BusyIndicator",
+            "\ttext=\"\"",
+            "\ttextDirection=\"Inherit\"",
+            "\tcustomIcon=\"\"",
+            "\tcustomIconRotationSpeed=\"1000\"",
+            "\tcustomIconDensityAware=\"true\"",
+            "\tcustomIconWidth=\"44px\"",
+            "\tcustomIconHeight=\"44px\"",
+            "\tsize=\"1rem\"",
+            "\tdesign=\"auto\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.BusyIndicator with non-inherited properties, aggregations and events"
+        "description": "sap.m.BusyIndicator"
     }
 }

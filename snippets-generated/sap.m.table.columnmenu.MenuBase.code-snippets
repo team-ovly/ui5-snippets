@@ -1,41 +1,49 @@
 {
     "sap.m.table.columnmenu.MenuBase": {
-        "prefix": "!5-menu-base",
+        "prefix": "!5-sap-m-table-columnmenu-menubase",
         "body": [
-            "<MenuBase ",
+            "<columnmenu:MenuBase ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.m.table.columnmenu.MenuBase"
     },
     "sap.m.table.columnmenu.MenuBase-properties": {
-        "prefix": "!5-menu-base-properties",
+        "prefix": "!5-sap-m-table-columnmenu-menubase",
         "body": [
-            "$1$2"
+            "<columnmenu:MenuBase",
+            "$1/>"
         ],
-        "description": "sap.m.table.columnmenu.MenuBase with non-inherited properties"
+        "description": "sap.m.table.columnmenu.MenuBase"
     },
     "sap.m.table.columnmenu.MenuBase-aggregations": {
-        "prefix": "!5-menu-base-aggregations",
+        "prefix": "!5-sap-m-table-columnmenu-menubase",
         "body": [
-            "$1$2"
+            "<columnmenu:MenuBase>",
+            "</columnmenu:MenuBase>"
         ],
-        "description": "sap.m.table.columnmenu.MenuBase with non-inherited aggregations"
+        "description": "sap.m.table.columnmenu.MenuBase"
     },
     "sap.m.table.columnmenu.MenuBase-events": {
-        "prefix": "!5-menu-base-events",
+        "prefix": "!5-sap-m-table-columnmenu-menubase",
         "body": [
-            "$1beforeOpen=\".on${3:BeforeOpen}\"",
-            "afterClose=\".on${4:AfterClose}\"$2"
+            "<columnmenu:MenuBase",
+            "\tbeforeOpen=\".onBeforeOpen\"",
+            "\tafterClose=\".onAfterClose\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.table.columnmenu.MenuBase with non-inherited events"
+        "description": "sap.m.table.columnmenu.MenuBase"
     },
     "sap.m.table.columnmenu.MenuBase-all": {
-        "prefix": "!5-menu-base-all",
+        "prefix": "!5-sap-m-table-columnmenu-menubase",
         "body": [
-            "$1beforeOpen=\".on${3:BeforeOpen}\"",
-            "afterClose=\".on${4:AfterClose}\"$2"
+            "<columnmenu:MenuBase",
+            "\tbeforeOpen=\".onBeforeOpen\"",
+            "\tafterClose=\".onAfterClose\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.table.columnmenu.MenuBase with non-inherited properties, aggregations and events"
+        "description": "sap.m.table.columnmenu.MenuBase"
     }
 }

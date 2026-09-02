@@ -1,56 +1,55 @@
 {
     "sap.m.ObjectMarker": {
-        "prefix": "!5-object-marker",
+        "prefix": "!5-sap-m-objectmarker",
         "body": [
-            "<ObjectMarker ",
+            "<m:ObjectMarker ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.m.ObjectMarker"
     },
     "sap.m.ObjectMarker-properties": {
-        "prefix": "!5-object-marker-properties",
+        "prefix": "!5-sap-m-objectmarker",
         "body": [
-            "$1type=\"\"",
-            "reactiveAreaMode=\"Inline\"",
-            "visibility=\"\"",
-            "additionalInfo=\"\"$2"
+            "<m:ObjectMarker",
+            "\ttype=\"null\"",
+            "\treactiveAreaMode=\"Inline\"",
+            "\tvisibility=\"null\"",
+            "\tadditionalInfo=\"\"",
+            "$1/>"
         ],
-        "description": "sap.m.ObjectMarker with non-inherited properties"
+        "description": "sap.m.ObjectMarker"
     },
     "sap.m.ObjectMarker-aggregations": {
-        "prefix": "!5-object-marker-aggregations",
+        "prefix": "!5-sap-m-objectmarker",
         "body": [
-            "$1<_innerControl>",
-            "\t<!-- <sap.ui.core.Control /> -->",
-            "</_innerControl>",
-            "$2"
+            "<m:ObjectMarker>",
+            "</m:ObjectMarker>"
         ],
-        "description": "sap.m.ObjectMarker with non-inherited aggregations"
+        "description": "sap.m.ObjectMarker"
     },
     "sap.m.ObjectMarker-events": {
-        "prefix": "!5-object-marker-events",
+        "prefix": "!5-sap-m-objectmarker",
         "body": [
-            "$1press=\".on${3:Press}\"",
-            "ariaDescribedBy=\".on${4:AriaDescribedBy}\"",
-            "ariaLabelledBy=\".on${5:AriaLabelledBy}\"$2"
+            "<m:ObjectMarker",
+            "\tpress=\".onPress\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.ObjectMarker with non-inherited events"
+        "description": "sap.m.ObjectMarker"
     },
     "sap.m.ObjectMarker-all": {
-        "prefix": "!5-object-marker-all",
+        "prefix": "!5-sap-m-objectmarker",
         "body": [
-            "$1type=\"\"",
-            "reactiveAreaMode=\"Inline\"",
-            "visibility=\"\"",
-            "additionalInfo=\"\"",
-            "<_innerControl>",
-            "\t<!-- <sap.ui.core.Control /> -->",
-            "</_innerControl>",
-            "press=\".on${3:Press}\"",
-            "ariaDescribedBy=\".on${4:AriaDescribedBy}\"",
-            "ariaLabelledBy=\".on${5:AriaLabelledBy}\"$2"
+            "<m:ObjectMarker",
+            "\ttype=\"null\"",
+            "\treactiveAreaMode=\"Inline\"",
+            "\tvisibility=\"null\"",
+            "\tadditionalInfo=\"\"",
+            "\tpress=\".onPress\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.ObjectMarker with non-inherited properties, aggregations and events"
+        "description": "sap.m.ObjectMarker"
     }
 }

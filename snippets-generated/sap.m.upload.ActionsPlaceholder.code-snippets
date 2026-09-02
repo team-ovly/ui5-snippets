@@ -1,45 +1,47 @@
 {
     "sap.m.upload.ActionsPlaceholder": {
-        "prefix": "!5-actions-placeholder",
+        "prefix": "!5-sap-m-upload-actionsplaceholder",
         "body": [
-            "<ActionsPlaceholder ",
+            "<upload:ActionsPlaceholder ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.m.upload.ActionsPlaceholder"
     },
     "sap.m.upload.ActionsPlaceholder-properties": {
-        "prefix": "!5-actions-placeholder-properties",
+        "prefix": "!5-sap-m-upload-actionsplaceholder",
         "body": [
-            "$1placeholderFor=\"\"$2"
+            "<upload:ActionsPlaceholder",
+            "\tplaceholderFor=\"null\"",
+            "$1/>"
         ],
-        "description": "sap.m.upload.ActionsPlaceholder with non-inherited properties"
+        "description": "sap.m.upload.ActionsPlaceholder"
     },
     "sap.m.upload.ActionsPlaceholder-aggregations": {
-        "prefix": "!5-actions-placeholder-aggregations",
+        "prefix": "!5-sap-m-upload-actionsplaceholder",
         "body": [
-            "$1<_actionButton>",
-            "\t<!-- <sap.ui.core.Control /> -->",
-            "</_actionButton>",
-            "$2"
+            "<upload:ActionsPlaceholder>",
+            "</upload:ActionsPlaceholder>"
         ],
-        "description": "sap.m.upload.ActionsPlaceholder with non-inherited aggregations"
+        "description": "sap.m.upload.ActionsPlaceholder"
     },
     "sap.m.upload.ActionsPlaceholder-events": {
-        "prefix": "!5-actions-placeholder-events",
+        "prefix": "!5-sap-m-upload-actionsplaceholder",
         "body": [
-            "$1$2"
+            "<upload:ActionsPlaceholder",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.upload.ActionsPlaceholder with non-inherited events"
+        "description": "sap.m.upload.ActionsPlaceholder"
     },
     "sap.m.upload.ActionsPlaceholder-all": {
-        "prefix": "!5-actions-placeholder-all",
+        "prefix": "!5-sap-m-upload-actionsplaceholder",
         "body": [
-            "$1placeholderFor=\"\"",
-            "<_actionButton>",
-            "\t<!-- <sap.ui.core.Control /> -->",
-            "</_actionButton>$2"
+            "<upload:ActionsPlaceholder",
+            "\tplaceholderFor=\"null\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.upload.ActionsPlaceholder with non-inherited properties, aggregations and events"
+        "description": "sap.m.upload.ActionsPlaceholder"
     }
 }

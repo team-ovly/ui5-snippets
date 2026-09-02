@@ -1,47 +1,57 @@
 {
     "sap.ui.layout.VerticalLayout": {
-        "prefix": "!5-vertical-layout",
+        "prefix": "!5-sap-ui-layout-verticallayout",
         "body": [
-            "<VerticalLayout ",
+            "<layout:VerticalLayout ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.ui.layout.VerticalLayout"
     },
     "sap.ui.layout.VerticalLayout-properties": {
-        "prefix": "!5-vertical-layout-properties",
+        "prefix": "!5-sap-ui-layout-verticallayout",
         "body": [
-            "$1width=\"\"",
-            "enabled=\"true\"$2"
+            "<layout:VerticalLayout",
+            "\twidth=\"null\"",
+            "\tenabled=\"true\"",
+            "$1/>"
         ],
-        "description": "sap.ui.layout.VerticalLayout with non-inherited properties"
+        "description": "sap.ui.layout.VerticalLayout"
     },
     "sap.ui.layout.VerticalLayout-aggregations": {
-        "prefix": "!5-vertical-layout-aggregations",
+        "prefix": "!5-sap-ui-layout-verticallayout",
         "body": [
-            "$1<content>",
-            "\t<!-- <sap.ui.core.Control /> -->",
-            "</content>",
-            "$2"
+            "<layout:VerticalLayout>",
+            "\t<core:Control>",
+            "\t\t$1",
+            "\t</core:Control>",
+            "</layout:VerticalLayout>"
         ],
-        "description": "sap.ui.layout.VerticalLayout with non-inherited aggregations"
+        "description": "sap.ui.layout.VerticalLayout"
     },
     "sap.ui.layout.VerticalLayout-events": {
-        "prefix": "!5-vertical-layout-events",
+        "prefix": "!5-sap-ui-layout-verticallayout",
         "body": [
-            "$1$2"
+            "<layout:VerticalLayout",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.ui.layout.VerticalLayout with non-inherited events"
+        "description": "sap.ui.layout.VerticalLayout"
     },
     "sap.ui.layout.VerticalLayout-all": {
-        "prefix": "!5-vertical-layout-all",
+        "prefix": "!5-sap-ui-layout-verticallayout",
         "body": [
-            "$1width=\"\"",
-            "enabled=\"true\"",
-            "<content>",
-            "\t<!-- <sap.ui.core.Control /> -->",
-            "</content>$2"
+            "<layout:VerticalLayout",
+            "\twidth=\"null\"",
+            "\tenabled=\"true\"",
+            ">",
+            "\t<content>",
+            "\t\t<core:Control",
+            "\t\t\t$1",
+            "\t\t/>",
+            "\t</content>",
+            "</layout:VerticalLayout>"
         ],
-        "description": "sap.ui.layout.VerticalLayout with non-inherited properties, aggregations and events"
+        "description": "sap.ui.layout.VerticalLayout"
     }
 }

@@ -1,39 +1,45 @@
 {
     "sap.m.ToolbarSeparator": {
-        "prefix": "!5-toolbar-separator",
+        "prefix": "!5-sap-m-toolbarseparator",
         "body": [
-            "<ToolbarSeparator ",
+            "<m:ToolbarSeparator ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.m.ToolbarSeparator"
     },
     "sap.m.ToolbarSeparator-properties": {
-        "prefix": "!5-toolbar-separator-properties",
+        "prefix": "!5-sap-m-toolbarseparator",
         "body": [
-            "$1$2"
+            "<m:ToolbarSeparator",
+            "$1/>"
         ],
-        "description": "sap.m.ToolbarSeparator with non-inherited properties"
+        "description": "sap.m.ToolbarSeparator"
     },
     "sap.m.ToolbarSeparator-aggregations": {
-        "prefix": "!5-toolbar-separator-aggregations",
+        "prefix": "!5-sap-m-toolbarseparator",
         "body": [
-            "$1$2"
+            "<m:ToolbarSeparator>",
+            "</m:ToolbarSeparator>"
         ],
-        "description": "sap.m.ToolbarSeparator with non-inherited aggregations"
+        "description": "sap.m.ToolbarSeparator"
     },
     "sap.m.ToolbarSeparator-events": {
-        "prefix": "!5-toolbar-separator-events",
+        "prefix": "!5-sap-m-toolbarseparator",
         "body": [
-            "$1$2"
+            "<m:ToolbarSeparator",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.ToolbarSeparator with non-inherited events"
+        "description": "sap.m.ToolbarSeparator"
     },
     "sap.m.ToolbarSeparator-all": {
-        "prefix": "!5-toolbar-separator-all",
+        "prefix": "!5-sap-m-toolbarseparator",
         "body": [
-            "$1$2"
+            "<m:ToolbarSeparator",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.ToolbarSeparator with non-inherited properties, aggregations and events"
+        "description": "sap.m.ToolbarSeparator"
     }
 }

@@ -1,43 +1,51 @@
 {
     "sap.m.DisplayListItem": {
-        "prefix": "!5-display-list-item",
+        "prefix": "!5-sap-m-displaylistitem",
         "body": [
-            "<DisplayListItem ",
+            "<m:DisplayListItem ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.m.DisplayListItem"
     },
     "sap.m.DisplayListItem-properties": {
-        "prefix": "!5-display-list-item-properties",
+        "prefix": "!5-sap-m-displaylistitem",
         "body": [
-            "$1label=\"\"",
-            "value=\"\"",
-            "valueTextDirection=\"Inherit\"$2"
+            "<m:DisplayListItem",
+            "\tlabel=\"null\"",
+            "\tvalue=\"null\"",
+            "\tvalueTextDirection=\"Inherit\"",
+            "$1/>"
         ],
-        "description": "sap.m.DisplayListItem with non-inherited properties"
+        "description": "sap.m.DisplayListItem"
     },
     "sap.m.DisplayListItem-aggregations": {
-        "prefix": "!5-display-list-item-aggregations",
+        "prefix": "!5-sap-m-displaylistitem",
         "body": [
-            "$1$2"
+            "<m:DisplayListItem>",
+            "</m:DisplayListItem>"
         ],
-        "description": "sap.m.DisplayListItem with non-inherited aggregations"
+        "description": "sap.m.DisplayListItem"
     },
     "sap.m.DisplayListItem-events": {
-        "prefix": "!5-display-list-item-events",
+        "prefix": "!5-sap-m-displaylistitem",
         "body": [
-            "$1$2"
+            "<m:DisplayListItem",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.DisplayListItem with non-inherited events"
+        "description": "sap.m.DisplayListItem"
     },
     "sap.m.DisplayListItem-all": {
-        "prefix": "!5-display-list-item-all",
+        "prefix": "!5-sap-m-displaylistitem",
         "body": [
-            "$1label=\"\"",
-            "value=\"\"",
-            "valueTextDirection=\"Inherit\"$2"
+            "<m:DisplayListItem",
+            "\tlabel=\"null\"",
+            "\tvalue=\"null\"",
+            "\tvalueTextDirection=\"Inherit\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.DisplayListItem with non-inherited properties, aggregations and events"
+        "description": "sap.m.DisplayListItem"
     }
 }

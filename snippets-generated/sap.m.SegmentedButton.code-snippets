@@ -1,72 +1,71 @@
 {
     "sap.m.SegmentedButton": {
-        "prefix": "!5-segmented-button",
+        "prefix": "!5-sap-m-segmentedbutton",
         "body": [
-            "<SegmentedButton ",
+            "<m:SegmentedButton ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.m.SegmentedButton"
     },
     "sap.m.SegmentedButton-properties": {
-        "prefix": "!5-segmented-button-properties",
+        "prefix": "!5-sap-m-segmentedbutton",
         "body": [
-            "$1width=\"\"",
-            "enabled=\"true\"",
-            "selectedKey=\"\"$2"
+            "<m:SegmentedButton",
+            "\twidth=\"null\"",
+            "\tenabled=\"true\"",
+            "\tselectedKey=\"\"",
+            "$1/>"
         ],
-        "description": "sap.m.SegmentedButton with non-inherited properties"
+        "description": "sap.m.SegmentedButton"
     },
     "sap.m.SegmentedButton-aggregations": {
-        "prefix": "!5-segmented-button-aggregations",
+        "prefix": "!5-sap-m-segmentedbutton",
         "body": [
-            "$1<buttons>",
-            "\t<!-- <sap.m.Button /> -->",
-            "</buttons>",
-            "<items>",
-            "\t<!-- <sap.m.SegmentedButtonItem /> -->",
-            "</items>",
-            "<_select>",
-            "\t<!-- <sap.m.Select /> -->",
-            "</_select>",
-            "$2"
+            "<m:SegmentedButton>",
+            "\t<m:Button>",
+            "\t\t$1",
+            "\t</m:Button>",
+            "\t<m:SegmentedButtonItem>",
+            "\t\t$2",
+            "\t</m:SegmentedButtonItem>",
+            "</m:SegmentedButton>"
         ],
-        "description": "sap.m.SegmentedButton with non-inherited aggregations"
+        "description": "sap.m.SegmentedButton"
     },
     "sap.m.SegmentedButton-events": {
-        "prefix": "!5-segmented-button-events",
+        "prefix": "!5-sap-m-segmentedbutton",
         "body": [
-            "$1select=\".on${3:Select}\"",
-            "selectionChange=\".on${4:SelectionChange}\"",
-            "selectedButton=\".on${5:SelectedButton}\"",
-            "selectedItem=\".on${6:SelectedItem}\"",
-            "ariaDescribedBy=\".on${7:AriaDescribedBy}\"",
-            "ariaLabelledBy=\".on${8:AriaLabelledBy}\"$2"
+            "<m:SegmentedButton",
+            "\tselect=\".onSelect\"",
+            "\tselectionChange=\".onSelectionChange\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.SegmentedButton with non-inherited events"
+        "description": "sap.m.SegmentedButton"
     },
     "sap.m.SegmentedButton-all": {
-        "prefix": "!5-segmented-button-all",
+        "prefix": "!5-sap-m-segmentedbutton",
         "body": [
-            "$1width=\"\"",
-            "enabled=\"true\"",
-            "selectedKey=\"\"",
-            "<buttons>",
-            "\t<!-- <sap.m.Button /> -->",
-            "</buttons>",
-            "<items>",
-            "\t<!-- <sap.m.SegmentedButtonItem /> -->",
-            "</items>",
-            "<_select>",
-            "\t<!-- <sap.m.Select /> -->",
-            "</_select>",
-            "select=\".on${3:Select}\"",
-            "selectionChange=\".on${4:SelectionChange}\"",
-            "selectedButton=\".on${5:SelectedButton}\"",
-            "selectedItem=\".on${6:SelectedItem}\"",
-            "ariaDescribedBy=\".on${7:AriaDescribedBy}\"",
-            "ariaLabelledBy=\".on${8:AriaLabelledBy}\"$2"
+            "<m:SegmentedButton",
+            "\twidth=\"null\"",
+            "\tenabled=\"true\"",
+            "\tselectedKey=\"\"",
+            "\tselect=\".onSelect\"",
+            "\tselectionChange=\".onSelectionChange\"",
+            ">",
+            "\t<buttons>",
+            "\t\t<m:Button",
+            "\t\t\t$1",
+            "\t\t/>",
+            "\t</buttons>",
+            "\t<items>",
+            "\t\t<m:SegmentedButtonItem",
+            "\t\t\t$2",
+            "\t\t/>",
+            "\t</items>",
+            "</m:SegmentedButton>"
         ],
-        "description": "sap.m.SegmentedButton with non-inherited properties, aggregations and events"
+        "description": "sap.m.SegmentedButton"
     }
 }

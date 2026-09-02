@@ -1,72 +1,73 @@
 {
     "sap.m.RadioButton": {
-        "prefix": "!5-radio-button",
+        "prefix": "!5-sap-m-radiobutton",
         "body": [
-            "<RadioButton ",
+            "<m:RadioButton ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.m.RadioButton"
     },
     "sap.m.RadioButton-properties": {
-        "prefix": "!5-radio-button-properties",
+        "prefix": "!5-sap-m-radiobutton",
         "body": [
-            "$1enabled=\"true\"",
-            "selected=\"false\"",
-            "groupName=\"sapMRbDefaultGroup\"",
-            "text=\"\"",
-            "textDirection=\"Inherit\"",
-            "width=\"\"",
-            "useEntireWidth=\"false\"",
-            "activeHandling=\"true\"",
-            "editable=\"true\"",
-            "valueState=\"None\"",
-            "textAlign=\"Begin\"",
-            "editableParent=\"true\"",
-            "valueStateText=\"\"",
-            "wrapping=\"false\"",
-            "wrappingType=\"Normal\"$2"
+            "<m:RadioButton",
+            "\tenabled=\"true\"",
+            "\tselected=\"false\"",
+            "\tgroupName=\"sapMRbDefaultGroup\"",
+            "\ttext=\"null\"",
+            "\ttextDirection=\"Inherit\"",
+            "\twidth=\"\"",
+            "\tuseEntireWidth=\"false\"",
+            "\tactiveHandling=\"true\"",
+            "\teditable=\"true\"",
+            "\tvalueState=\"None\"",
+            "\ttextAlign=\"Begin\"",
+            "\twrapping=\"false\"",
+            "\twrappingType=\"Normal\"",
+            "$1/>"
         ],
-        "description": "sap.m.RadioButton with non-inherited properties"
+        "description": "sap.m.RadioButton"
     },
     "sap.m.RadioButton-aggregations": {
-        "prefix": "!5-radio-button-aggregations",
+        "prefix": "!5-sap-m-radiobutton",
         "body": [
-            "$1$2"
+            "<m:RadioButton>",
+            "</m:RadioButton>"
         ],
-        "description": "sap.m.RadioButton with non-inherited aggregations"
+        "description": "sap.m.RadioButton"
     },
     "sap.m.RadioButton-events": {
-        "prefix": "!5-radio-button-events",
+        "prefix": "!5-sap-m-radiobutton",
         "body": [
-            "$1select=\".on${3:Select}\"",
-            "ariaDescribedBy=\".on${4:AriaDescribedBy}\"",
-            "ariaLabelledBy=\".on${5:AriaLabelledBy}\"$2"
+            "<m:RadioButton",
+            "\tselect=\".onSelect\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.RadioButton with non-inherited events"
+        "description": "sap.m.RadioButton"
     },
     "sap.m.RadioButton-all": {
-        "prefix": "!5-radio-button-all",
+        "prefix": "!5-sap-m-radiobutton",
         "body": [
-            "$1enabled=\"true\"",
-            "selected=\"false\"",
-            "groupName=\"sapMRbDefaultGroup\"",
-            "text=\"\"",
-            "textDirection=\"Inherit\"",
-            "width=\"\"",
-            "useEntireWidth=\"false\"",
-            "activeHandling=\"true\"",
-            "editable=\"true\"",
-            "valueState=\"None\"",
-            "textAlign=\"Begin\"",
-            "editableParent=\"true\"",
-            "valueStateText=\"\"",
-            "wrapping=\"false\"",
-            "wrappingType=\"Normal\"",
-            "select=\".on${3:Select}\"",
-            "ariaDescribedBy=\".on${4:AriaDescribedBy}\"",
-            "ariaLabelledBy=\".on${5:AriaLabelledBy}\"$2"
+            "<m:RadioButton",
+            "\tenabled=\"true\"",
+            "\tselected=\"false\"",
+            "\tgroupName=\"sapMRbDefaultGroup\"",
+            "\ttext=\"null\"",
+            "\ttextDirection=\"Inherit\"",
+            "\twidth=\"\"",
+            "\tuseEntireWidth=\"false\"",
+            "\tactiveHandling=\"true\"",
+            "\teditable=\"true\"",
+            "\tvalueState=\"None\"",
+            "\ttextAlign=\"Begin\"",
+            "\twrapping=\"false\"",
+            "\twrappingType=\"Normal\"",
+            "\tselect=\".onSelect\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.RadioButton with non-inherited properties, aggregations and events"
+        "description": "sap.m.RadioButton"
     }
 }

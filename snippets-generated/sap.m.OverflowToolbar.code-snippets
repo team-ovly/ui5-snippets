@@ -1,51 +1,47 @@
 {
     "sap.m.OverflowToolbar": {
-        "prefix": "!5-overflow-toolbar",
+        "prefix": "!5-sap-m-overflowtoolbar",
         "body": [
-            "<OverflowToolbar ",
+            "<m:OverflowToolbar ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.m.OverflowToolbar"
     },
     "sap.m.OverflowToolbar-properties": {
-        "prefix": "!5-overflow-toolbar-properties",
+        "prefix": "!5-sap-m-overflowtoolbar",
         "body": [
-            "$1asyncMode=\"false\"$2"
+            "<m:OverflowToolbar",
+            "\tasyncMode=\"false\"",
+            "$1/>"
         ],
-        "description": "sap.m.OverflowToolbar with non-inherited properties"
+        "description": "sap.m.OverflowToolbar"
     },
     "sap.m.OverflowToolbar-aggregations": {
-        "prefix": "!5-overflow-toolbar-aggregations",
+        "prefix": "!5-sap-m-overflowtoolbar",
         "body": [
-            "$1<_overflowButton>",
-            "\t<!-- <sap.m.ToggleButton /> -->",
-            "</_overflowButton>",
-            "<_popover>",
-            "\t<!-- <sap.m.Popover /> -->",
-            "</_popover>",
-            "$2"
+            "<m:OverflowToolbar>",
+            "</m:OverflowToolbar>"
         ],
-        "description": "sap.m.OverflowToolbar with non-inherited aggregations"
+        "description": "sap.m.OverflowToolbar"
     },
     "sap.m.OverflowToolbar-events": {
-        "prefix": "!5-overflow-toolbar-events",
+        "prefix": "!5-sap-m-overflowtoolbar",
         "body": [
-            "$1$2"
+            "<m:OverflowToolbar",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.OverflowToolbar with non-inherited events"
+        "description": "sap.m.OverflowToolbar"
     },
     "sap.m.OverflowToolbar-all": {
-        "prefix": "!5-overflow-toolbar-all",
+        "prefix": "!5-sap-m-overflowtoolbar",
         "body": [
-            "$1asyncMode=\"false\"",
-            "<_overflowButton>",
-            "\t<!-- <sap.m.ToggleButton /> -->",
-            "</_overflowButton>",
-            "<_popover>",
-            "\t<!-- <sap.m.Popover /> -->",
-            "</_popover>$2"
+            "<m:OverflowToolbar",
+            "\tasyncMode=\"false\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.OverflowToolbar with non-inherited properties, aggregations and events"
+        "description": "sap.m.OverflowToolbar"
     }
 }

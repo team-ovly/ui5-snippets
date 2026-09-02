@@ -1,84 +1,101 @@
 {
     "sap.f.DynamicPage": {
-        "prefix": "!5-dynamic-page",
+        "prefix": "!5-sap-f-dynamicpage",
         "body": [
-            "<DynamicPage ",
+            "<f:DynamicPage ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.f.DynamicPage"
     },
     "sap.f.DynamicPage-properties": {
-        "prefix": "!5-dynamic-page-properties",
+        "prefix": "!5-sap-f-dynamicpage",
         "body": [
-            "$1preserveHeaderStateOnScroll=\"false\"",
-            "headerExpanded=\"true\"",
-            "headerPinned=\"false\"",
-            "toggleHeaderOnTitleClick=\"true\"",
-            "showFooter=\"false\"",
-            "backgroundDesign=\"Standard\"",
-            "fitContent=\"false\"$2"
+            "<f:DynamicPage",
+            "\tpreserveHeaderStateOnScroll=\"false\"",
+            "\theaderExpanded=\"true\"",
+            "\theaderPinned=\"false\"",
+            "\ttoggleHeaderOnTitleClick=\"true\"",
+            "\tshowFooter=\"false\"",
+            "\tbackgroundDesign=\"Standard\"",
+            "\tfitContent=\"false\"",
+            "$1/>"
         ],
-        "description": "sap.f.DynamicPage with non-inherited properties"
+        "description": "sap.f.DynamicPage"
     },
     "sap.f.DynamicPage-aggregations": {
-        "prefix": "!5-dynamic-page-aggregations",
+        "prefix": "!5-sap-f-dynamicpage",
         "body": [
-            "$1<title>",
-            "\t<!-- <sap.f.DynamicPageTitle /> -->",
-            "</title>",
-            "<header>",
-            "\t<!-- <sap.f.DynamicPageHeader /> -->",
-            "</header>",
-            "<content>",
-            "\t<!-- <sap.ui.core.Control /> -->",
-            "</content>",
-            "<footer>",
-            "\t<!-- <sap.m.IBar /> -->",
-            "</footer>",
-            "<landmarkInfo>",
-            "\t<!-- <sap.f.DynamicPageAccessibleLandmarkInfo /> -->",
-            "</landmarkInfo>",
-            "$2"
+            "<f:DynamicPage>",
+            "\t<f:DynamicPageTitle>",
+            "\t\t$1",
+            "\t</f:DynamicPageTitle>",
+            "\t<f:DynamicPageHeader>",
+            "\t\t$2",
+            "\t</f:DynamicPageHeader>",
+            "\t<core:Control>",
+            "\t\t$3",
+            "\t</core:Control>",
+            "\t<m:IBar>",
+            "\t\t$4",
+            "\t</m:IBar>",
+            "\t<f:DynamicPageAccessibleLandmarkInfo>",
+            "\t\t$5",
+            "\t</f:DynamicPageAccessibleLandmarkInfo>",
+            "</f:DynamicPage>"
         ],
-        "description": "sap.f.DynamicPage with non-inherited aggregations"
+        "description": "sap.f.DynamicPage"
     },
     "sap.f.DynamicPage-events": {
-        "prefix": "!5-dynamic-page-events",
+        "prefix": "!5-sap-f-dynamicpage",
         "body": [
-            "$1pinnedStateChange=\".on${3:PinnedStateChange}\"",
-            "stickySubheaderProvider=\".on${4:StickySubheaderProvider}\"$2"
+            "<f:DynamicPage",
+            "\tpinnedStateChange=\".onPinnedStateChange\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.f.DynamicPage with non-inherited events"
+        "description": "sap.f.DynamicPage"
     },
     "sap.f.DynamicPage-all": {
-        "prefix": "!5-dynamic-page-all",
+        "prefix": "!5-sap-f-dynamicpage",
         "body": [
-            "$1preserveHeaderStateOnScroll=\"false\"",
-            "headerExpanded=\"true\"",
-            "headerPinned=\"false\"",
-            "toggleHeaderOnTitleClick=\"true\"",
-            "showFooter=\"false\"",
-            "backgroundDesign=\"Standard\"",
-            "fitContent=\"false\"",
-            "<title>",
-            "\t<!-- <sap.f.DynamicPageTitle /> -->",
-            "</title>",
-            "<header>",
-            "\t<!-- <sap.f.DynamicPageHeader /> -->",
-            "</header>",
-            "<content>",
-            "\t<!-- <sap.ui.core.Control /> -->",
-            "</content>",
-            "<footer>",
-            "\t<!-- <sap.m.IBar /> -->",
-            "</footer>",
-            "<landmarkInfo>",
-            "\t<!-- <sap.f.DynamicPageAccessibleLandmarkInfo /> -->",
-            "</landmarkInfo>",
-            "pinnedStateChange=\".on${3:PinnedStateChange}\"",
-            "stickySubheaderProvider=\".on${4:StickySubheaderProvider}\"$2"
+            "<f:DynamicPage",
+            "\tpreserveHeaderStateOnScroll=\"false\"",
+            "\theaderExpanded=\"true\"",
+            "\theaderPinned=\"false\"",
+            "\ttoggleHeaderOnTitleClick=\"true\"",
+            "\tshowFooter=\"false\"",
+            "\tbackgroundDesign=\"Standard\"",
+            "\tfitContent=\"false\"",
+            "\tpinnedStateChange=\".onPinnedStateChange\"",
+            ">",
+            "\t<title>",
+            "\t\t<f:DynamicPageTitle",
+            "\t\t\t$1",
+            "\t\t/>",
+            "\t</title>",
+            "\t<header>",
+            "\t\t<f:DynamicPageHeader",
+            "\t\t\t$2",
+            "\t\t/>",
+            "\t</header>",
+            "\t<content>",
+            "\t\t<core:Control",
+            "\t\t\t$3",
+            "\t\t/>",
+            "\t</content>",
+            "\t<footer>",
+            "\t\t<m:IBar",
+            "\t\t\t$4",
+            "\t\t/>",
+            "\t</footer>",
+            "\t<landmarkInfo>",
+            "\t\t<f:DynamicPageAccessibleLandmarkInfo",
+            "\t\t\t$5",
+            "\t\t/>",
+            "\t</landmarkInfo>",
+            "</f:DynamicPage>"
         ],
-        "description": "sap.f.DynamicPage with non-inherited properties, aggregations and events"
+        "description": "sap.f.DynamicPage"
     }
 }

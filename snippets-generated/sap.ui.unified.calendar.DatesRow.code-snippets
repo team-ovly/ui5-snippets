@@ -1,45 +1,53 @@
 {
     "sap.ui.unified.calendar.DatesRow": {
-        "prefix": "!5-dates-row",
+        "prefix": "!5-sap-ui-unified-calendar-datesrow",
         "body": [
-            "<DatesRow ",
+            "<calendar:DatesRow ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.ui.unified.calendar.DatesRow"
     },
     "sap.ui.unified.calendar.DatesRow-properties": {
-        "prefix": "!5-dates-row-properties",
+        "prefix": "!5-sap-ui-unified-calendar-datesrow",
         "body": [
-            "$1startDate=\"\"",
-            "days=\"7\"",
-            "showDayNamesLine=\"true\"",
-            "calendarWeekNumbering=\"\"$2"
+            "<calendar:DatesRow",
+            "\tstartDate=\"null\"",
+            "\tdays=\"7\"",
+            "\tshowDayNamesLine=\"true\"",
+            "\tcalendarWeekNumbering=\"null\"",
+            "$1/>"
         ],
-        "description": "sap.ui.unified.calendar.DatesRow with non-inherited properties"
+        "description": "sap.ui.unified.calendar.DatesRow"
     },
     "sap.ui.unified.calendar.DatesRow-aggregations": {
-        "prefix": "!5-dates-row-aggregations",
+        "prefix": "!5-sap-ui-unified-calendar-datesrow",
         "body": [
-            "$1$2"
+            "<calendar:DatesRow>",
+            "</calendar:DatesRow>"
         ],
-        "description": "sap.ui.unified.calendar.DatesRow with non-inherited aggregations"
+        "description": "sap.ui.unified.calendar.DatesRow"
     },
     "sap.ui.unified.calendar.DatesRow-events": {
-        "prefix": "!5-dates-row-events",
+        "prefix": "!5-sap-ui-unified-calendar-datesrow",
         "body": [
-            "$1$2"
+            "<calendar:DatesRow",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.ui.unified.calendar.DatesRow with non-inherited events"
+        "description": "sap.ui.unified.calendar.DatesRow"
     },
     "sap.ui.unified.calendar.DatesRow-all": {
-        "prefix": "!5-dates-row-all",
+        "prefix": "!5-sap-ui-unified-calendar-datesrow",
         "body": [
-            "$1startDate=\"\"",
-            "days=\"7\"",
-            "showDayNamesLine=\"true\"",
-            "calendarWeekNumbering=\"\"$2"
+            "<calendar:DatesRow",
+            "\tstartDate=\"null\"",
+            "\tdays=\"7\"",
+            "\tshowDayNamesLine=\"true\"",
+            "\tcalendarWeekNumbering=\"null\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.ui.unified.calendar.DatesRow with non-inherited properties, aggregations and events"
+        "description": "sap.ui.unified.calendar.DatesRow"
     }
 }

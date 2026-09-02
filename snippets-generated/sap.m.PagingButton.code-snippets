@@ -1,58 +1,55 @@
 {
     "sap.m.PagingButton": {
-        "prefix": "!5-paging-button",
+        "prefix": "!5-sap-m-pagingbutton",
         "body": [
-            "<PagingButton ",
+            "<m:PagingButton ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.m.PagingButton"
     },
     "sap.m.PagingButton-properties": {
-        "prefix": "!5-paging-button-properties",
+        "prefix": "!5-sap-m-pagingbutton",
         "body": [
-            "$1count=\"1\"",
-            "position=\"1\"",
-            "nextButtonTooltip=\"\"",
-            "previousButtonTooltip=\"\"$2"
+            "<m:PagingButton",
+            "\tcount=\"1\"",
+            "\tposition=\"1\"",
+            "\tnextButtonTooltip=\"\"",
+            "\tpreviousButtonTooltip=\"\"",
+            "$1/>"
         ],
-        "description": "sap.m.PagingButton with non-inherited properties"
+        "description": "sap.m.PagingButton"
     },
     "sap.m.PagingButton-aggregations": {
-        "prefix": "!5-paging-button-aggregations",
+        "prefix": "!5-sap-m-pagingbutton",
         "body": [
-            "$1<previousButton>",
-            "\t<!-- <sap.m.Button /> -->",
-            "</previousButton>",
-            "<nextButton>",
-            "\t<!-- <sap.m.Button /> -->",
-            "</nextButton>",
-            "$2"
+            "<m:PagingButton>",
+            "</m:PagingButton>"
         ],
-        "description": "sap.m.PagingButton with non-inherited aggregations"
+        "description": "sap.m.PagingButton"
     },
     "sap.m.PagingButton-events": {
-        "prefix": "!5-paging-button-events",
+        "prefix": "!5-sap-m-pagingbutton",
         "body": [
-            "$1positionChange=\".on${3:PositionChange}\"$2"
+            "<m:PagingButton",
+            "\tpositionChange=\".onPositionChange\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.PagingButton with non-inherited events"
+        "description": "sap.m.PagingButton"
     },
     "sap.m.PagingButton-all": {
-        "prefix": "!5-paging-button-all",
+        "prefix": "!5-sap-m-pagingbutton",
         "body": [
-            "$1count=\"1\"",
-            "position=\"1\"",
-            "nextButtonTooltip=\"\"",
-            "previousButtonTooltip=\"\"",
-            "<previousButton>",
-            "\t<!-- <sap.m.Button /> -->",
-            "</previousButton>",
-            "<nextButton>",
-            "\t<!-- <sap.m.Button /> -->",
-            "</nextButton>",
-            "positionChange=\".on${3:PositionChange}\"$2"
+            "<m:PagingButton",
+            "\tcount=\"1\"",
+            "\tposition=\"1\"",
+            "\tnextButtonTooltip=\"\"",
+            "\tpreviousButtonTooltip=\"\"",
+            "\tpositionChange=\".onPositionChange\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.PagingButton with non-inherited properties, aggregations and events"
+        "description": "sap.m.PagingButton"
     }
 }

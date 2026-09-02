@@ -1,72 +1,63 @@
 {
     "sap.m.Token": {
-        "prefix": "!5-token",
+        "prefix": "!5-sap-m-token",
         "body": [
-            "<Token ",
+            "<m:Token ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.m.Token"
     },
     "sap.m.Token-properties": {
-        "prefix": "!5-token-properties",
+        "prefix": "!5-sap-m-token",
         "body": [
-            "$1selected=\"false\"",
-            "key=\"\"",
-            "text=\"\"",
-            "editable=\"true\"",
-            "textDirection=\"Inherit\"",
-            "editableParent=\"true\"",
-            "truncated=\"false\"",
-            "posinset=\"\"",
-            "setsize=\"\"$2"
+            "<m:Token",
+            "\tselected=\"false\"",
+            "\tkey=\"\"",
+            "\ttext=\"\"",
+            "\teditable=\"true\"",
+            "\ttextDirection=\"Inherit\"",
+            "$1/>"
         ],
-        "description": "sap.m.Token with non-inherited properties"
+        "description": "sap.m.Token"
     },
     "sap.m.Token-aggregations": {
-        "prefix": "!5-token-aggregations",
+        "prefix": "!5-sap-m-token",
         "body": [
-            "$1<deleteIcon>",
-            "\t<!-- <sap.ui.core.Icon /> -->",
-            "</deleteIcon>",
-            "$2"
+            "<m:Token>",
+            "</m:Token>"
         ],
-        "description": "sap.m.Token with non-inherited aggregations"
+        "description": "sap.m.Token"
     },
     "sap.m.Token-events": {
-        "prefix": "!5-token-events",
+        "prefix": "!5-sap-m-token",
         "body": [
-            "$1delete=\".on${3:Delete}\"",
-            "press=\".on${4:Press}\"",
-            "select=\".on${5:Select}\"",
-            "deselect=\".on${6:Deselect}\"",
-            "ariaDescribedBy=\".on${7:AriaDescribedBy}\"",
-            "ariaLabelledBy=\".on${8:AriaLabelledBy}\"$2"
+            "<m:Token",
+            "\tdelete=\".onDelete\"",
+            "\tpress=\".onPress\"",
+            "\tselect=\".onSelect\"",
+            "\tdeselect=\".onDeselect\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.Token with non-inherited events"
+        "description": "sap.m.Token"
     },
     "sap.m.Token-all": {
-        "prefix": "!5-token-all",
+        "prefix": "!5-sap-m-token",
         "body": [
-            "$1selected=\"false\"",
-            "key=\"\"",
-            "text=\"\"",
-            "editable=\"true\"",
-            "textDirection=\"Inherit\"",
-            "editableParent=\"true\"",
-            "truncated=\"false\"",
-            "posinset=\"\"",
-            "setsize=\"\"",
-            "<deleteIcon>",
-            "\t<!-- <sap.ui.core.Icon /> -->",
-            "</deleteIcon>",
-            "delete=\".on${3:Delete}\"",
-            "press=\".on${4:Press}\"",
-            "select=\".on${5:Select}\"",
-            "deselect=\".on${6:Deselect}\"",
-            "ariaDescribedBy=\".on${7:AriaDescribedBy}\"",
-            "ariaLabelledBy=\".on${8:AriaLabelledBy}\"$2"
+            "<m:Token",
+            "\tselected=\"false\"",
+            "\tkey=\"\"",
+            "\ttext=\"\"",
+            "\teditable=\"true\"",
+            "\ttextDirection=\"Inherit\"",
+            "\tdelete=\".onDelete\"",
+            "\tpress=\".onPress\"",
+            "\tselect=\".onSelect\"",
+            "\tdeselect=\".onDeselect\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.Token with non-inherited properties, aggregations and events"
+        "description": "sap.m.Token"
     }
 }

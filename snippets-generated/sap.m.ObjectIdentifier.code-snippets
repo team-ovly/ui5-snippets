@@ -1,72 +1,67 @@
 {
     "sap.m.ObjectIdentifier": {
-        "prefix": "!5-object-identifier",
+        "prefix": "!5-sap-m-objectidentifier",
         "body": [
-            "<ObjectIdentifier ",
+            "<m:ObjectIdentifier ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.m.ObjectIdentifier"
     },
     "sap.m.ObjectIdentifier-properties": {
-        "prefix": "!5-object-identifier-properties",
+        "prefix": "!5-sap-m-objectidentifier",
         "body": [
-            "$1title=\"\"",
-            "text=\"\"",
-            "badgeNotes=\"\"",
-            "badgePeople=\"\"",
-            "badgeAttachments=\"\"",
-            "visible=\"true\"",
-            "titleActive=\"false\"",
-            "reactiveAreaMode=\"Inline\"",
-            "textDirection=\"Inherit\"",
-            "emptyIndicatorMode=\"Off\"$2"
+            "<m:ObjectIdentifier",
+            "\ttitle=\"null\"",
+            "\ttext=\"null\"",
+            "\tbadgeNotes=\"null\"",
+            "\tbadgePeople=\"null\"",
+            "\tbadgeAttachments=\"null\"",
+            "\tvisible=\"true\"",
+            "\ttitleActive=\"false\"",
+            "\treactiveAreaMode=\"Inline\"",
+            "\ttextDirection=\"Inherit\"",
+            "\temptyIndicatorMode=\"Off\"",
+            "$1/>"
         ],
-        "description": "sap.m.ObjectIdentifier with non-inherited properties"
+        "description": "sap.m.ObjectIdentifier"
     },
     "sap.m.ObjectIdentifier-aggregations": {
-        "prefix": "!5-object-identifier-aggregations",
+        "prefix": "!5-sap-m-objectidentifier",
         "body": [
-            "$1<_titleControl>",
-            "\t<!-- <sap.ui.core.Control /> -->",
-            "</_titleControl>",
-            "<_textControl>",
-            "\t<!-- <sap.ui.core.Control /> -->",
-            "</_textControl>",
-            "$2"
+            "<m:ObjectIdentifier>",
+            "</m:ObjectIdentifier>"
         ],
-        "description": "sap.m.ObjectIdentifier with non-inherited aggregations"
+        "description": "sap.m.ObjectIdentifier"
     },
     "sap.m.ObjectIdentifier-events": {
-        "prefix": "!5-object-identifier-events",
+        "prefix": "!5-sap-m-objectidentifier",
         "body": [
-            "$1titlePress=\".on${3:TitlePress}\"",
-            "ariaLabelledBy=\".on${4:AriaLabelledBy}\"$2"
+            "<m:ObjectIdentifier",
+            "\ttitlePress=\".onTitlePress\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.ObjectIdentifier with non-inherited events"
+        "description": "sap.m.ObjectIdentifier"
     },
     "sap.m.ObjectIdentifier-all": {
-        "prefix": "!5-object-identifier-all",
+        "prefix": "!5-sap-m-objectidentifier",
         "body": [
-            "$1title=\"\"",
-            "text=\"\"",
-            "badgeNotes=\"\"",
-            "badgePeople=\"\"",
-            "badgeAttachments=\"\"",
-            "visible=\"true\"",
-            "titleActive=\"false\"",
-            "reactiveAreaMode=\"Inline\"",
-            "textDirection=\"Inherit\"",
-            "emptyIndicatorMode=\"Off\"",
-            "<_titleControl>",
-            "\t<!-- <sap.ui.core.Control /> -->",
-            "</_titleControl>",
-            "<_textControl>",
-            "\t<!-- <sap.ui.core.Control /> -->",
-            "</_textControl>",
-            "titlePress=\".on${3:TitlePress}\"",
-            "ariaLabelledBy=\".on${4:AriaLabelledBy}\"$2"
+            "<m:ObjectIdentifier",
+            "\ttitle=\"null\"",
+            "\ttext=\"null\"",
+            "\tbadgeNotes=\"null\"",
+            "\tbadgePeople=\"null\"",
+            "\tbadgeAttachments=\"null\"",
+            "\tvisible=\"true\"",
+            "\ttitleActive=\"false\"",
+            "\treactiveAreaMode=\"Inline\"",
+            "\ttextDirection=\"Inherit\"",
+            "\temptyIndicatorMode=\"Off\"",
+            "\ttitlePress=\".onTitlePress\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.ObjectIdentifier with non-inherited properties, aggregations and events"
+        "description": "sap.m.ObjectIdentifier"
     }
 }

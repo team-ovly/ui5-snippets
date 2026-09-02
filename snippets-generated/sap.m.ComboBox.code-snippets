@@ -1,50 +1,55 @@
 {
     "sap.m.ComboBox": {
-        "prefix": "!5-combo-box",
+        "prefix": "!5-sap-m-combobox",
         "body": [
-            "<ComboBox ",
+            "<m:ComboBox ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.m.ComboBox"
     },
     "sap.m.ComboBox-properties": {
-        "prefix": "!5-combo-box-properties",
+        "prefix": "!5-sap-m-combobox",
         "body": [
-            "$1selectedKey=\"\"",
-            "selectedItemId=\"\"",
-            "filterSecondaryValues=\"false\"",
-            "_open=\"false\"$2"
+            "<m:ComboBox",
+            "\tselectedKey=\"\"",
+            "\tselectedItemId=\"\"",
+            "\tfilterSecondaryValues=\"false\"",
+            "$1/>"
         ],
-        "description": "sap.m.ComboBox with non-inherited properties"
+        "description": "sap.m.ComboBox"
     },
     "sap.m.ComboBox-aggregations": {
-        "prefix": "!5-combo-box-aggregations",
+        "prefix": "!5-sap-m-combobox",
         "body": [
-            "$1$2"
+            "<m:ComboBox>",
+            "</m:ComboBox>"
         ],
-        "description": "sap.m.ComboBox with non-inherited aggregations"
+        "description": "sap.m.ComboBox"
     },
     "sap.m.ComboBox-events": {
-        "prefix": "!5-combo-box-events",
+        "prefix": "!5-sap-m-combobox",
         "body": [
-            "$1change=\".on${3:Change}\"",
-            "selectionChange=\".on${4:SelectionChange}\"",
-            "selectedItem=\".on${5:SelectedItem}\"$2"
+            "<m:ComboBox",
+            "\tchange=\".onChange\"",
+            "\tselectionChange=\".onSelectionChange\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.ComboBox with non-inherited events"
+        "description": "sap.m.ComboBox"
     },
     "sap.m.ComboBox-all": {
-        "prefix": "!5-combo-box-all",
+        "prefix": "!5-sap-m-combobox",
         "body": [
-            "$1selectedKey=\"\"",
-            "selectedItemId=\"\"",
-            "filterSecondaryValues=\"false\"",
-            "_open=\"false\"",
-            "change=\".on${3:Change}\"",
-            "selectionChange=\".on${4:SelectionChange}\"",
-            "selectedItem=\".on${5:SelectedItem}\"$2"
+            "<m:ComboBox",
+            "\tselectedKey=\"\"",
+            "\tselectedItemId=\"\"",
+            "\tfilterSecondaryValues=\"false\"",
+            "\tchange=\".onChange\"",
+            "\tselectionChange=\".onSelectionChange\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.ComboBox with non-inherited properties, aggregations and events"
+        "description": "sap.m.ComboBox"
     }
 }

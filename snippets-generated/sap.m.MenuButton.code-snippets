@@ -1,78 +1,79 @@
 {
     "sap.m.MenuButton": {
-        "prefix": "!5-menu-button",
+        "prefix": "!5-sap-m-menubutton",
         "body": [
-            "<MenuButton ",
+            "<m:MenuButton ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.m.MenuButton"
     },
     "sap.m.MenuButton-properties": {
-        "prefix": "!5-menu-button-properties",
+        "prefix": "!5-sap-m-menubutton",
         "body": [
-            "$1text=\"\"",
-            "type=\"Default\"",
-            "width=\"\"",
-            "enabled=\"true\"",
-            "icon=\"\"",
-            "activeIcon=\"\"",
-            "iconDensityAware=\"true\"",
-            "textDirection=\"Inherit\"",
-            "buttonMode=\"Regular\"",
-            "menuPosition=\"BeginBottom\"",
-            "useDefaultActionOnly=\"false\"$2"
+            "<m:MenuButton",
+            "\ttext=\"null\"",
+            "\ttype=\"Default\"",
+            "\twidth=\"null\"",
+            "\tenabled=\"true\"",
+            "\ticon=\"null\"",
+            "\tactiveIcon=\"null\"",
+            "\ticonDensityAware=\"true\"",
+            "\ttextDirection=\"Inherit\"",
+            "\tbuttonMode=\"Regular\"",
+            "\tmenuPosition=\"BeginBottom\"",
+            "\tuseDefaultActionOnly=\"false\"",
+            "$1/>"
         ],
-        "description": "sap.m.MenuButton with non-inherited properties"
+        "description": "sap.m.MenuButton"
     },
     "sap.m.MenuButton-aggregations": {
-        "prefix": "!5-menu-button-aggregations",
+        "prefix": "!5-sap-m-menubutton",
         "body": [
-            "$1<menu>",
-            "\t<!-- <sap.m.Menu /> -->",
-            "</menu>",
-            "<_button>",
-            "\t<!-- <sap.ui.core.Control /> -->",
-            "</_button>",
-            "$2"
+            "<m:MenuButton>",
+            "\t<m:Menu>",
+            "\t\t$1",
+            "\t</m:Menu>",
+            "</m:MenuButton>"
         ],
-        "description": "sap.m.MenuButton with non-inherited aggregations"
+        "description": "sap.m.MenuButton"
     },
     "sap.m.MenuButton-events": {
-        "prefix": "!5-menu-button-events",
+        "prefix": "!5-sap-m-menubutton",
         "body": [
-            "$1defaultAction=\".on${3:DefaultAction}\"",
-            "beforeMenuOpen=\".on${4:BeforeMenuOpen}\"",
-            "ariaDescribedBy=\".on${5:AriaDescribedBy}\"",
-            "ariaLabelledBy=\".on${6:AriaLabelledBy}\"$2"
+            "<m:MenuButton",
+            "\tdefaultAction=\".onDefaultAction\"",
+            "\tbeforeMenuOpen=\".onBeforeMenuOpen\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.MenuButton with non-inherited events"
+        "description": "sap.m.MenuButton"
     },
     "sap.m.MenuButton-all": {
-        "prefix": "!5-menu-button-all",
+        "prefix": "!5-sap-m-menubutton",
         "body": [
-            "$1text=\"\"",
-            "type=\"Default\"",
-            "width=\"\"",
-            "enabled=\"true\"",
-            "icon=\"\"",
-            "activeIcon=\"\"",
-            "iconDensityAware=\"true\"",
-            "textDirection=\"Inherit\"",
-            "buttonMode=\"Regular\"",
-            "menuPosition=\"BeginBottom\"",
-            "useDefaultActionOnly=\"false\"",
-            "<menu>",
-            "\t<!-- <sap.m.Menu /> -->",
-            "</menu>",
-            "<_button>",
-            "\t<!-- <sap.ui.core.Control /> -->",
-            "</_button>",
-            "defaultAction=\".on${3:DefaultAction}\"",
-            "beforeMenuOpen=\".on${4:BeforeMenuOpen}\"",
-            "ariaDescribedBy=\".on${5:AriaDescribedBy}\"",
-            "ariaLabelledBy=\".on${6:AriaLabelledBy}\"$2"
+            "<m:MenuButton",
+            "\ttext=\"null\"",
+            "\ttype=\"Default\"",
+            "\twidth=\"null\"",
+            "\tenabled=\"true\"",
+            "\ticon=\"null\"",
+            "\tactiveIcon=\"null\"",
+            "\ticonDensityAware=\"true\"",
+            "\ttextDirection=\"Inherit\"",
+            "\tbuttonMode=\"Regular\"",
+            "\tmenuPosition=\"BeginBottom\"",
+            "\tuseDefaultActionOnly=\"false\"",
+            "\tdefaultAction=\".onDefaultAction\"",
+            "\tbeforeMenuOpen=\".onBeforeMenuOpen\"",
+            ">",
+            "\t<menu>",
+            "\t\t<m:Menu",
+            "\t\t\t$1",
+            "\t\t/>",
+            "\t</menu>",
+            "</m:MenuButton>"
         ],
-        "description": "sap.m.MenuButton with non-inherited properties, aggregations and events"
+        "description": "sap.m.MenuButton"
     }
 }

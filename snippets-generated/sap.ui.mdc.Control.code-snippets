@@ -1,39 +1,47 @@
 {
     "sap.ui.mdc.Control": {
-        "prefix": "!5-control",
+        "prefix": "!5-sap-ui-mdc-control",
         "body": [
-            "<Control ",
+            "<mdc:Control ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.ui.mdc.Control"
     },
     "sap.ui.mdc.Control-properties": {
-        "prefix": "!5-control-properties",
+        "prefix": "!5-sap-ui-mdc-control",
         "body": [
-            "$1delegate=\"\"$2"
+            "<mdc:Control",
+            "\tdelegate=\"null\"",
+            "$1/>"
         ],
-        "description": "sap.ui.mdc.Control with non-inherited properties"
+        "description": "sap.ui.mdc.Control"
     },
     "sap.ui.mdc.Control-aggregations": {
-        "prefix": "!5-control-aggregations",
+        "prefix": "!5-sap-ui-mdc-control",
         "body": [
-            "$1$2"
+            "<mdc:Control>",
+            "</mdc:Control>"
         ],
-        "description": "sap.ui.mdc.Control with non-inherited aggregations"
+        "description": "sap.ui.mdc.Control"
     },
     "sap.ui.mdc.Control-events": {
-        "prefix": "!5-control-events",
+        "prefix": "!5-sap-ui-mdc-control",
         "body": [
-            "$1$2"
+            "<mdc:Control",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.ui.mdc.Control with non-inherited events"
+        "description": "sap.ui.mdc.Control"
     },
     "sap.ui.mdc.Control-all": {
-        "prefix": "!5-control-all",
+        "prefix": "!5-sap-ui-mdc-control",
         "body": [
-            "$1delegate=\"\"$2"
+            "<mdc:Control",
+            "\tdelegate=\"null\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.ui.mdc.Control with non-inherited properties, aggregations and events"
+        "description": "sap.ui.mdc.Control"
     }
 }

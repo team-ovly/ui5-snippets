@@ -1,66 +1,71 @@
 {
     "sap.m.RatingIndicator": {
-        "prefix": "!5-rating-indicator",
+        "prefix": "!5-sap-m-ratingindicator",
         "body": [
-            "<RatingIndicator ",
+            "<m:RatingIndicator ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.m.RatingIndicator"
     },
     "sap.m.RatingIndicator-properties": {
-        "prefix": "!5-rating-indicator-properties",
+        "prefix": "!5-sap-m-ratingindicator",
         "body": [
-            "$1enabled=\"true\"",
-            "maxValue=\"5\"",
-            "value=\"0\"",
-            "iconSize=\"\"",
-            "iconSelected=\"\"",
-            "iconUnselected=\"\"",
-            "iconHovered=\"\"",
-            "visualMode=\"Half\"",
-            "displayOnly=\"false\"",
-            "editable=\"true\"",
-            "required=\"false\"$2"
+            "<m:RatingIndicator",
+            "\tenabled=\"true\"",
+            "\tmaxValue=\"5\"",
+            "\tvalue=\"0\"",
+            "\ticonSize=\"null\"",
+            "\ticonSelected=\"null\"",
+            "\ticonUnselected=\"null\"",
+            "\ticonHovered=\"null\"",
+            "\tvisualMode=\"Half\"",
+            "\tdisplayOnly=\"false\"",
+            "\teditable=\"true\"",
+            "\trequired=\"false\"",
+            "$1/>"
         ],
-        "description": "sap.m.RatingIndicator with non-inherited properties"
+        "description": "sap.m.RatingIndicator"
     },
     "sap.m.RatingIndicator-aggregations": {
-        "prefix": "!5-rating-indicator-aggregations",
+        "prefix": "!5-sap-m-ratingindicator",
         "body": [
-            "$1$2"
+            "<m:RatingIndicator>",
+            "</m:RatingIndicator>"
         ],
-        "description": "sap.m.RatingIndicator with non-inherited aggregations"
+        "description": "sap.m.RatingIndicator"
     },
     "sap.m.RatingIndicator-events": {
-        "prefix": "!5-rating-indicator-events",
+        "prefix": "!5-sap-m-ratingindicator",
         "body": [
-            "$1change=\".on${3:Change}\"",
-            "liveChange=\".on${4:LiveChange}\"",
-            "ariaDescribedBy=\".on${5:AriaDescribedBy}\"",
-            "ariaLabelledBy=\".on${6:AriaLabelledBy}\"$2"
+            "<m:RatingIndicator",
+            "\tchange=\".onChange\"",
+            "\tliveChange=\".onLiveChange\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.RatingIndicator with non-inherited events"
+        "description": "sap.m.RatingIndicator"
     },
     "sap.m.RatingIndicator-all": {
-        "prefix": "!5-rating-indicator-all",
+        "prefix": "!5-sap-m-ratingindicator",
         "body": [
-            "$1enabled=\"true\"",
-            "maxValue=\"5\"",
-            "value=\"0\"",
-            "iconSize=\"\"",
-            "iconSelected=\"\"",
-            "iconUnselected=\"\"",
-            "iconHovered=\"\"",
-            "visualMode=\"Half\"",
-            "displayOnly=\"false\"",
-            "editable=\"true\"",
-            "required=\"false\"",
-            "change=\".on${3:Change}\"",
-            "liveChange=\".on${4:LiveChange}\"",
-            "ariaDescribedBy=\".on${5:AriaDescribedBy}\"",
-            "ariaLabelledBy=\".on${6:AriaLabelledBy}\"$2"
+            "<m:RatingIndicator",
+            "\tenabled=\"true\"",
+            "\tmaxValue=\"5\"",
+            "\tvalue=\"0\"",
+            "\ticonSize=\"null\"",
+            "\ticonSelected=\"null\"",
+            "\ticonUnselected=\"null\"",
+            "\ticonHovered=\"null\"",
+            "\tvisualMode=\"Half\"",
+            "\tdisplayOnly=\"false\"",
+            "\teditable=\"true\"",
+            "\trequired=\"false\"",
+            "\tchange=\".onChange\"",
+            "\tliveChange=\".onLiveChange\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.RatingIndicator with non-inherited properties, aggregations and events"
+        "description": "sap.m.RatingIndicator"
     }
 }

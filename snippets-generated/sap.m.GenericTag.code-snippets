@@ -1,66 +1,63 @@
 {
     "sap.m.GenericTag": {
-        "prefix": "!5-generic-tag",
+        "prefix": "!5-sap-m-generictag",
         "body": [
-            "<GenericTag ",
+            "<m:GenericTag ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.m.GenericTag"
     },
     "sap.m.GenericTag-properties": {
-        "prefix": "!5-generic-tag-properties",
+        "prefix": "!5-sap-m-generictag",
         "body": [
-            "$1text=\"\"",
-            "status=\"None\"",
-            "design=\"Full\"",
-            "valueState=\"None\"$2"
+            "<m:GenericTag",
+            "\ttext=\"\"",
+            "\tstatus=\"None\"",
+            "\tdesign=\"Full\"",
+            "\tvalueState=\"None\"",
+            "$1/>"
         ],
-        "description": "sap.m.GenericTag with non-inherited properties"
+        "description": "sap.m.GenericTag"
     },
     "sap.m.GenericTag-aggregations": {
-        "prefix": "!5-generic-tag-aggregations",
+        "prefix": "!5-sap-m-generictag",
         "body": [
-            "$1<value>",
-            "\t<!-- <sap.m.ObjectNumber /> -->",
-            "</value>",
-            "<_statusIcon>",
-            "\t<!-- <sap.ui.core.Icon /> -->",
-            "</_statusIcon>",
-            "<_errorIcon>",
-            "\t<!-- <sap.ui.core.Icon /> -->",
-            "</_errorIcon>",
-            "$2"
+            "<m:GenericTag>",
+            "\t<m:ObjectNumber>",
+            "\t\t$1",
+            "\t</m:ObjectNumber>",
+            "</m:GenericTag>"
         ],
-        "description": "sap.m.GenericTag with non-inherited aggregations"
+        "description": "sap.m.GenericTag"
     },
     "sap.m.GenericTag-events": {
-        "prefix": "!5-generic-tag-events",
+        "prefix": "!5-sap-m-generictag",
         "body": [
-            "$1press=\".on${3:Press}\"",
-            "ariaLabelledBy=\".on${4:AriaLabelledBy}\"$2"
+            "<m:GenericTag",
+            "\tpress=\".onPress\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.GenericTag with non-inherited events"
+        "description": "sap.m.GenericTag"
     },
     "sap.m.GenericTag-all": {
-        "prefix": "!5-generic-tag-all",
+        "prefix": "!5-sap-m-generictag",
         "body": [
-            "$1text=\"\"",
-            "status=\"None\"",
-            "design=\"Full\"",
-            "valueState=\"None\"",
-            "<value>",
-            "\t<!-- <sap.m.ObjectNumber /> -->",
-            "</value>",
-            "<_statusIcon>",
-            "\t<!-- <sap.ui.core.Icon /> -->",
-            "</_statusIcon>",
-            "<_errorIcon>",
-            "\t<!-- <sap.ui.core.Icon /> -->",
-            "</_errorIcon>",
-            "press=\".on${3:Press}\"",
-            "ariaLabelledBy=\".on${4:AriaLabelledBy}\"$2"
+            "<m:GenericTag",
+            "\ttext=\"\"",
+            "\tstatus=\"None\"",
+            "\tdesign=\"Full\"",
+            "\tvalueState=\"None\"",
+            "\tpress=\".onPress\"",
+            ">",
+            "\t<value>",
+            "\t\t<m:ObjectNumber",
+            "\t\t\t$1",
+            "\t\t/>",
+            "\t</value>",
+            "</m:GenericTag>"
         ],
-        "description": "sap.m.GenericTag with non-inherited properties, aggregations and events"
+        "description": "sap.m.GenericTag"
     }
 }

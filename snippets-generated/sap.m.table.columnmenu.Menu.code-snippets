@@ -1,64 +1,65 @@
 {
     "sap.m.table.columnmenu.Menu": {
-        "prefix": "!5-menu",
+        "prefix": "!5-sap-m-table-columnmenu-menu",
         "body": [
-            "<Menu ",
+            "<columnmenu:Menu ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.m.table.columnmenu.Menu"
     },
     "sap.m.table.columnmenu.Menu-properties": {
-        "prefix": "!5-menu-properties",
+        "prefix": "!5-sap-m-table-columnmenu-menu",
         "body": [
-            "$1showTableSettingsButton=\"false\"$2"
+            "<columnmenu:Menu",
+            "\tshowTableSettingsButton=\"false\"",
+            "$1/>"
         ],
-        "description": "sap.m.table.columnmenu.Menu with non-inherited properties"
+        "description": "sap.m.table.columnmenu.Menu"
     },
     "sap.m.table.columnmenu.Menu-aggregations": {
-        "prefix": "!5-menu-aggregations",
+        "prefix": "!5-sap-m-table-columnmenu-menu",
         "body": [
-            "$1<quickActions>",
-            "\t<!-- <sap.m.table.columnmenu.QuickActionBase /> -->",
-            "</quickActions>",
-            "<items>",
-            "\t<!-- <sap.m.table.columnmenu.ItemBase /> -->",
-            "</items>",
-            "<_quickActions>",
-            "\t<!-- <sap.m.table.columnmenu.QuickActionBase /> -->",
-            "</_quickActions>",
-            "<_items>",
-            "\t<!-- <sap.m.table.columnmenu.ItemBase /> -->",
-            "</_items>",
-            "$2"
+            "<columnmenu:Menu>",
+            "\t<columnmenu:QuickActionBase>",
+            "\t\t$1",
+            "\t</columnmenu:QuickActionBase>",
+            "\t<columnmenu:ItemBase>",
+            "\t\t$2",
+            "\t</columnmenu:ItemBase>",
+            "</columnmenu:Menu>"
         ],
-        "description": "sap.m.table.columnmenu.Menu with non-inherited aggregations"
+        "description": "sap.m.table.columnmenu.Menu"
     },
     "sap.m.table.columnmenu.Menu-events": {
-        "prefix": "!5-menu-events",
+        "prefix": "!5-sap-m-table-columnmenu-menu",
         "body": [
-            "$1tableSettingsPressed=\".on${3:TableSettingsPressed}\"$2"
+            "<columnmenu:Menu",
+            "\ttableSettingsPressed=\".onTableSettingsPressed\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.table.columnmenu.Menu with non-inherited events"
+        "description": "sap.m.table.columnmenu.Menu"
     },
     "sap.m.table.columnmenu.Menu-all": {
-        "prefix": "!5-menu-all",
+        "prefix": "!5-sap-m-table-columnmenu-menu",
         "body": [
-            "$1showTableSettingsButton=\"false\"",
-            "<quickActions>",
-            "\t<!-- <sap.m.table.columnmenu.QuickActionBase /> -->",
-            "</quickActions>",
-            "<items>",
-            "\t<!-- <sap.m.table.columnmenu.ItemBase /> -->",
-            "</items>",
-            "<_quickActions>",
-            "\t<!-- <sap.m.table.columnmenu.QuickActionBase /> -->",
-            "</_quickActions>",
-            "<_items>",
-            "\t<!-- <sap.m.table.columnmenu.ItemBase /> -->",
-            "</_items>",
-            "tableSettingsPressed=\".on${3:TableSettingsPressed}\"$2"
+            "<columnmenu:Menu",
+            "\tshowTableSettingsButton=\"false\"",
+            "\ttableSettingsPressed=\".onTableSettingsPressed\"",
+            ">",
+            "\t<quickActions>",
+            "\t\t<columnmenu:QuickActionBase",
+            "\t\t\t$1",
+            "\t\t/>",
+            "\t</quickActions>",
+            "\t<items>",
+            "\t\t<columnmenu:ItemBase",
+            "\t\t\t$2",
+            "\t\t/>",
+            "\t</items>",
+            "</columnmenu:Menu>"
         ],
-        "description": "sap.m.table.columnmenu.Menu with non-inherited properties, aggregations and events"
+        "description": "sap.m.table.columnmenu.Menu"
     }
 }

@@ -1,39 +1,47 @@
 {
     "sap.m.Tree": {
-        "prefix": "!5-tree",
+        "prefix": "!5-sap-m-tree",
         "body": [
-            "<Tree ",
+            "<m:Tree ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.m.Tree"
     },
     "sap.m.Tree-properties": {
-        "prefix": "!5-tree-properties",
+        "prefix": "!5-sap-m-tree",
         "body": [
-            "$1$2"
+            "<m:Tree",
+            "$1/>"
         ],
-        "description": "sap.m.Tree with non-inherited properties"
+        "description": "sap.m.Tree"
     },
     "sap.m.Tree-aggregations": {
-        "prefix": "!5-tree-aggregations",
+        "prefix": "!5-sap-m-tree",
         "body": [
-            "$1$2"
+            "<m:Tree>",
+            "</m:Tree>"
         ],
-        "description": "sap.m.Tree with non-inherited aggregations"
+        "description": "sap.m.Tree"
     },
     "sap.m.Tree-events": {
-        "prefix": "!5-tree-events",
+        "prefix": "!5-sap-m-tree",
         "body": [
-            "$1toggleOpenState=\".on${3:ToggleOpenState}\"$2"
+            "<m:Tree",
+            "\ttoggleOpenState=\".onToggleOpenState\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.Tree with non-inherited events"
+        "description": "sap.m.Tree"
     },
     "sap.m.Tree-all": {
-        "prefix": "!5-tree-all",
+        "prefix": "!5-sap-m-tree",
         "body": [
-            "$1toggleOpenState=\".on${3:ToggleOpenState}\"$2"
+            "<m:Tree",
+            "\ttoggleOpenState=\".onToggleOpenState\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.Tree with non-inherited properties, aggregations and events"
+        "description": "sap.m.Tree"
     }
 }

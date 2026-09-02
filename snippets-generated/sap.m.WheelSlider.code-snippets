@@ -1,68 +1,67 @@
 {
     "sap.m.WheelSlider": {
-        "prefix": "!5-wheel-slider",
+        "prefix": "!5-sap-m-wheelslider",
         "body": [
-            "<WheelSlider ",
+            "<m:WheelSlider ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.m.WheelSlider"
     },
     "sap.m.WheelSlider-properties": {
-        "prefix": "!5-wheel-slider-properties",
+        "prefix": "!5-sap-m-wheelslider",
         "body": [
-            "$1selectedKey=\"\"",
-            "isCyclic=\"true\"",
-            "label=\"\"",
-            "isExpanded=\"false\"$2"
+            "<m:WheelSlider",
+            "\tselectedKey=\"null\"",
+            "\tisCyclic=\"true\"",
+            "\tlabel=\"null\"",
+            "\tisExpanded=\"false\"",
+            "$1/>"
         ],
-        "description": "sap.m.WheelSlider with non-inherited properties"
+        "description": "sap.m.WheelSlider"
     },
     "sap.m.WheelSlider-aggregations": {
-        "prefix": "!5-wheel-slider-aggregations",
+        "prefix": "!5-sap-m-wheelslider",
         "body": [
-            "$1<items>",
-            "\t<!-- <sap.ui.core.Item /> -->",
-            "</items>",
-            "<_arrowUp>",
-            "\t<!-- <sap.m.Button /> -->",
-            "</_arrowUp>",
-            "<_arrowDown>",
-            "\t<!-- <sap.m.Button /> -->",
-            "</_arrowDown>",
-            "$2"
+            "<m:WheelSlider>",
+            "\t<core:Item>",
+            "\t\t$1",
+            "\t</core:Item>",
+            "</m:WheelSlider>"
         ],
-        "description": "sap.m.WheelSlider with non-inherited aggregations"
+        "description": "sap.m.WheelSlider"
     },
     "sap.m.WheelSlider-events": {
-        "prefix": "!5-wheel-slider-events",
+        "prefix": "!5-sap-m-wheelslider",
         "body": [
-            "$1expanded=\".on${3:Expanded}\"",
-            "collapsed=\".on${4:Collapsed}\"",
-            "selectedKeyChange=\".on${5:SelectedKeyChange}\"$2"
+            "<m:WheelSlider",
+            "\texpanded=\".onExpanded\"",
+            "\tcollapsed=\".onCollapsed\"",
+            "\tselectedKeyChange=\".onSelectedKeyChange\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.WheelSlider with non-inherited events"
+        "description": "sap.m.WheelSlider"
     },
     "sap.m.WheelSlider-all": {
-        "prefix": "!5-wheel-slider-all",
+        "prefix": "!5-sap-m-wheelslider",
         "body": [
-            "$1selectedKey=\"\"",
-            "isCyclic=\"true\"",
-            "label=\"\"",
-            "isExpanded=\"false\"",
-            "<items>",
-            "\t<!-- <sap.ui.core.Item /> -->",
-            "</items>",
-            "<_arrowUp>",
-            "\t<!-- <sap.m.Button /> -->",
-            "</_arrowUp>",
-            "<_arrowDown>",
-            "\t<!-- <sap.m.Button /> -->",
-            "</_arrowDown>",
-            "expanded=\".on${3:Expanded}\"",
-            "collapsed=\".on${4:Collapsed}\"",
-            "selectedKeyChange=\".on${5:SelectedKeyChange}\"$2"
+            "<m:WheelSlider",
+            "\tselectedKey=\"null\"",
+            "\tisCyclic=\"true\"",
+            "\tlabel=\"null\"",
+            "\tisExpanded=\"false\"",
+            "\texpanded=\".onExpanded\"",
+            "\tcollapsed=\".onCollapsed\"",
+            "\tselectedKeyChange=\".onSelectedKeyChange\"",
+            ">",
+            "\t<items>",
+            "\t\t<core:Item",
+            "\t\t\t$1",
+            "\t\t/>",
+            "\t</items>",
+            "</m:WheelSlider>"
         ],
-        "description": "sap.m.WheelSlider with non-inherited properties, aggregations and events"
+        "description": "sap.m.WheelSlider"
     }
 }

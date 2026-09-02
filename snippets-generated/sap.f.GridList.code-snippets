@@ -1,45 +1,55 @@
 {
     "sap.f.GridList": {
-        "prefix": "!5-grid-list",
+        "prefix": "!5-sap-f-gridlist",
         "body": [
-            "<GridList ",
+            "<f:GridList ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.f.GridList"
     },
     "sap.f.GridList-properties": {
-        "prefix": "!5-grid-list-properties",
+        "prefix": "!5-sap-f-gridlist",
         "body": [
-            "$1$2"
+            "<f:GridList",
+            "$1/>"
         ],
-        "description": "sap.f.GridList with non-inherited properties"
+        "description": "sap.f.GridList"
     },
     "sap.f.GridList-aggregations": {
-        "prefix": "!5-grid-list-aggregations",
+        "prefix": "!5-sap-f-gridlist",
         "body": [
-            "$1<customLayout>",
-            "\t<!-- <sap.ui.layout.cssgrid.GridLayoutBase /> -->",
-            "</customLayout>",
-            "$2"
+            "<f:GridList>",
+            "\t<cssgrid:GridLayoutBase>",
+            "\t\t$1",
+            "\t</cssgrid:GridLayoutBase>",
+            "</f:GridList>"
         ],
-        "description": "sap.f.GridList with non-inherited aggregations"
+        "description": "sap.f.GridList"
     },
     "sap.f.GridList-events": {
-        "prefix": "!5-grid-list-events",
+        "prefix": "!5-sap-f-gridlist",
         "body": [
-            "$1borderReached=\".on${3:BorderReached}\"$2"
+            "<f:GridList",
+            "\tborderReached=\".onBorderReached\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.f.GridList with non-inherited events"
+        "description": "sap.f.GridList"
     },
     "sap.f.GridList-all": {
-        "prefix": "!5-grid-list-all",
+        "prefix": "!5-sap-f-gridlist",
         "body": [
-            "$1<customLayout>",
-            "\t<!-- <sap.ui.layout.cssgrid.GridLayoutBase /> -->",
-            "</customLayout>",
-            "borderReached=\".on${3:BorderReached}\"$2"
+            "<f:GridList",
+            "\tborderReached=\".onBorderReached\"",
+            ">",
+            "\t<customLayout>",
+            "\t\t<cssgrid:GridLayoutBase",
+            "\t\t\t$1",
+            "\t\t/>",
+            "\t</customLayout>",
+            "</f:GridList>"
         ],
-        "description": "sap.f.GridList with non-inherited properties, aggregations and events"
+        "description": "sap.f.GridList"
     }
 }

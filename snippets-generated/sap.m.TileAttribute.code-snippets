@@ -1,47 +1,57 @@
 {
     "sap.m.TileAttribute": {
-        "prefix": "!5-tile-attribute",
+        "prefix": "!5-sap-m-tileattribute",
         "body": [
-            "<TileAttribute ",
+            "<m:TileAttribute ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.m.TileAttribute"
     },
     "sap.m.TileAttribute-properties": {
-        "prefix": "!5-tile-attribute-properties",
+        "prefix": "!5-sap-m-tileattribute",
         "body": [
-            "$1key=\"0\"",
-            "label=\"\"$2"
+            "<m:TileAttribute",
+            "\tkey=\"0\"",
+            "\tlabel=\"null\"",
+            "$1/>"
         ],
-        "description": "sap.m.TileAttribute with non-inherited properties"
+        "description": "sap.m.TileAttribute"
     },
     "sap.m.TileAttribute-aggregations": {
-        "prefix": "!5-tile-attribute-aggregations",
+        "prefix": "!5-sap-m-tileattribute",
         "body": [
-            "$1<contentConfig>",
-            "\t<!-- <sap.m.ContentConfig /> -->",
-            "</contentConfig>",
-            "$2"
+            "<m:TileAttribute>",
+            "\t<m:ContentConfig>",
+            "\t\t$1",
+            "\t</m:ContentConfig>",
+            "</m:TileAttribute>"
         ],
-        "description": "sap.m.TileAttribute with non-inherited aggregations"
+        "description": "sap.m.TileAttribute"
     },
     "sap.m.TileAttribute-events": {
-        "prefix": "!5-tile-attribute-events",
+        "prefix": "!5-sap-m-tileattribute",
         "body": [
-            "$1$2"
+            "<m:TileAttribute",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.TileAttribute with non-inherited events"
+        "description": "sap.m.TileAttribute"
     },
     "sap.m.TileAttribute-all": {
-        "prefix": "!5-tile-attribute-all",
+        "prefix": "!5-sap-m-tileattribute",
         "body": [
-            "$1key=\"0\"",
-            "label=\"\"",
-            "<contentConfig>",
-            "\t<!-- <sap.m.ContentConfig /> -->",
-            "</contentConfig>$2"
+            "<m:TileAttribute",
+            "\tkey=\"0\"",
+            "\tlabel=\"null\"",
+            ">",
+            "\t<contentConfig>",
+            "\t\t<m:ContentConfig",
+            "\t\t\t$1",
+            "\t\t/>",
+            "\t</contentConfig>",
+            "</m:TileAttribute>"
         ],
-        "description": "sap.m.TileAttribute with non-inherited properties, aggregations and events"
+        "description": "sap.m.TileAttribute"
     }
 }

@@ -1,43 +1,51 @@
 {
     "sap.f.AvatarGroupItem": {
-        "prefix": "!5-avatar-group-item",
+        "prefix": "!5-sap-f-avatargroupitem",
         "body": [
-            "<AvatarGroupItem ",
+            "<f:AvatarGroupItem ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.f.AvatarGroupItem"
     },
     "sap.f.AvatarGroupItem-properties": {
-        "prefix": "!5-avatar-group-item-properties",
+        "prefix": "!5-sap-f-avatargroupitem",
         "body": [
-            "$1src=\"\"",
-            "initials=\"\"",
-            "fallbackIcon=\"\"$2"
+            "<f:AvatarGroupItem",
+            "\tsrc=\"null\"",
+            "\tinitials=\"null\"",
+            "\tfallbackIcon=\"null\"",
+            "$1/>"
         ],
-        "description": "sap.f.AvatarGroupItem with non-inherited properties"
+        "description": "sap.f.AvatarGroupItem"
     },
     "sap.f.AvatarGroupItem-aggregations": {
-        "prefix": "!5-avatar-group-item-aggregations",
+        "prefix": "!5-sap-f-avatargroupitem",
         "body": [
-            "$1$2"
+            "<f:AvatarGroupItem>",
+            "</f:AvatarGroupItem>"
         ],
-        "description": "sap.f.AvatarGroupItem with non-inherited aggregations"
+        "description": "sap.f.AvatarGroupItem"
     },
     "sap.f.AvatarGroupItem-events": {
-        "prefix": "!5-avatar-group-item-events",
+        "prefix": "!5-sap-f-avatargroupitem",
         "body": [
-            "$1$2"
+            "<f:AvatarGroupItem",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.f.AvatarGroupItem with non-inherited events"
+        "description": "sap.f.AvatarGroupItem"
     },
     "sap.f.AvatarGroupItem-all": {
-        "prefix": "!5-avatar-group-item-all",
+        "prefix": "!5-sap-f-avatargroupitem",
         "body": [
-            "$1src=\"\"",
-            "initials=\"\"",
-            "fallbackIcon=\"\"$2"
+            "<f:AvatarGroupItem",
+            "\tsrc=\"null\"",
+            "\tinitials=\"null\"",
+            "\tfallbackIcon=\"null\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.f.AvatarGroupItem with non-inherited properties, aggregations and events"
+        "description": "sap.f.AvatarGroupItem"
     }
 }

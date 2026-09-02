@@ -1,63 +1,63 @@
 {
     "sap.uxap.BreadCrumbs": {
-        "prefix": "!5-bread-crumbs",
+        "prefix": "!5-sap-uxap-breadcrumbs",
         "body": [
-            "<BreadCrumbs ",
+            "<uxap:BreadCrumbs ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.uxap.BreadCrumbs"
     },
     "sap.uxap.BreadCrumbs-properties": {
-        "prefix": "!5-bread-crumbs-properties",
+        "prefix": "!5-sap-uxap-breadcrumbs",
         "body": [
-            "$1showCurrentLocation=\"true\"$2"
+            "<uxap:BreadCrumbs",
+            "\tshowCurrentLocation=\"true\"",
+            "$1/>"
         ],
-        "description": "sap.uxap.BreadCrumbs with non-inherited properties"
+        "description": "sap.uxap.BreadCrumbs"
     },
     "sap.uxap.BreadCrumbs-aggregations": {
-        "prefix": "!5-bread-crumbs-aggregations",
+        "prefix": "!5-sap-uxap-breadcrumbs",
         "body": [
-            "$1<links>",
-            "\t<!-- <sap.m.Link /> -->",
-            "</links>",
-            "<currentLocation>",
-            "\t<!-- <sap.m.Text /> -->",
-            "</currentLocation>",
-            "<_tubeIcon>",
-            "\t<!-- <sap.ui.core.Icon /> -->",
-            "</_tubeIcon>",
-            "<_overflowSelect>",
-            "\t<!-- <sap.m.Select /> -->",
-            "</_overflowSelect>",
-            "$2"
+            "<uxap:BreadCrumbs>",
+            "\t<m:Link>",
+            "\t\t$1",
+            "\t</m:Link>",
+            "\t<m:Text>",
+            "\t\t$2",
+            "\t</m:Text>",
+            "</uxap:BreadCrumbs>"
         ],
-        "description": "sap.uxap.BreadCrumbs with non-inherited aggregations"
+        "description": "sap.uxap.BreadCrumbs"
     },
     "sap.uxap.BreadCrumbs-events": {
-        "prefix": "!5-bread-crumbs-events",
+        "prefix": "!5-sap-uxap-breadcrumbs",
         "body": [
-            "$1$2"
+            "<uxap:BreadCrumbs",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.uxap.BreadCrumbs with non-inherited events"
+        "description": "sap.uxap.BreadCrumbs"
     },
     "sap.uxap.BreadCrumbs-all": {
-        "prefix": "!5-bread-crumbs-all",
+        "prefix": "!5-sap-uxap-breadcrumbs",
         "body": [
-            "$1showCurrentLocation=\"true\"",
-            "<links>",
-            "\t<!-- <sap.m.Link /> -->",
-            "</links>",
-            "<currentLocation>",
-            "\t<!-- <sap.m.Text /> -->",
-            "</currentLocation>",
-            "<_tubeIcon>",
-            "\t<!-- <sap.ui.core.Icon /> -->",
-            "</_tubeIcon>",
-            "<_overflowSelect>",
-            "\t<!-- <sap.m.Select /> -->",
-            "</_overflowSelect>$2"
+            "<uxap:BreadCrumbs",
+            "\tshowCurrentLocation=\"true\"",
+            ">",
+            "\t<links>",
+            "\t\t<m:Link",
+            "\t\t\t$1",
+            "\t\t/>",
+            "\t</links>",
+            "\t<currentLocation>",
+            "\t\t<m:Text",
+            "\t\t\t$2",
+            "\t\t/>",
+            "\t</currentLocation>",
+            "</uxap:BreadCrumbs>"
         ],
-        "description": "sap.uxap.BreadCrumbs with non-inherited properties, aggregations and events"
+        "description": "sap.uxap.BreadCrumbs"
     }
 }

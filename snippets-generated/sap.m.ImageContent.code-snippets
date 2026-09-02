@@ -1,48 +1,51 @@
 {
     "sap.m.ImageContent": {
-        "prefix": "!5-image-content",
+        "prefix": "!5-sap-m-imagecontent",
         "body": [
-            "<ImageContent ",
+            "<m:ImageContent ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.m.ImageContent"
     },
     "sap.m.ImageContent-properties": {
-        "prefix": "!5-image-content-properties",
+        "prefix": "!5-sap-m-imagecontent",
         "body": [
-            "$1src=\"\"",
-            "description=\"\"$2"
+            "<m:ImageContent",
+            "\tsrc=\"null\"",
+            "\tdescription=\"null\"",
+            "$1/>"
         ],
-        "description": "sap.m.ImageContent with non-inherited properties"
+        "description": "sap.m.ImageContent"
     },
     "sap.m.ImageContent-aggregations": {
-        "prefix": "!5-image-content-aggregations",
+        "prefix": "!5-sap-m-imagecontent",
         "body": [
-            "$1<_content>",
-            "\t<!-- <sap.ui.core.Control /> -->",
-            "</_content>",
-            "$2"
+            "<m:ImageContent>",
+            "</m:ImageContent>"
         ],
-        "description": "sap.m.ImageContent with non-inherited aggregations"
+        "description": "sap.m.ImageContent"
     },
     "sap.m.ImageContent-events": {
-        "prefix": "!5-image-content-events",
+        "prefix": "!5-sap-m-imagecontent",
         "body": [
-            "$1press=\".on${3:Press}\"$2"
+            "<m:ImageContent",
+            "\tpress=\".onPress\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.ImageContent with non-inherited events"
+        "description": "sap.m.ImageContent"
     },
     "sap.m.ImageContent-all": {
-        "prefix": "!5-image-content-all",
+        "prefix": "!5-sap-m-imagecontent",
         "body": [
-            "$1src=\"\"",
-            "description=\"\"",
-            "<_content>",
-            "\t<!-- <sap.ui.core.Control /> -->",
-            "</_content>",
-            "press=\".on${3:Press}\"$2"
+            "<m:ImageContent",
+            "\tsrc=\"null\"",
+            "\tdescription=\"null\"",
+            "\tpress=\".onPress\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.ImageContent with non-inherited properties, aggregations and events"
+        "description": "sap.m.ImageContent"
     }
 }

@@ -1,53 +1,63 @@
 {
     "sap.m.ScrollContainer": {
-        "prefix": "!5-scroll-container",
+        "prefix": "!5-sap-m-scrollcontainer",
         "body": [
-            "<ScrollContainer ",
+            "<m:ScrollContainer ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.m.ScrollContainer"
     },
     "sap.m.ScrollContainer-properties": {
-        "prefix": "!5-scroll-container-properties",
+        "prefix": "!5-sap-m-scrollcontainer",
         "body": [
-            "$1width=\"auto\"",
-            "height=\"auto\"",
-            "horizontal=\"true\"",
-            "vertical=\"false\"",
-            "focusable=\"false\"$2"
+            "<m:ScrollContainer",
+            "\twidth=\"auto\"",
+            "\theight=\"auto\"",
+            "\thorizontal=\"true\"",
+            "\tvertical=\"false\"",
+            "\tfocusable=\"false\"",
+            "$1/>"
         ],
-        "description": "sap.m.ScrollContainer with non-inherited properties"
+        "description": "sap.m.ScrollContainer"
     },
     "sap.m.ScrollContainer-aggregations": {
-        "prefix": "!5-scroll-container-aggregations",
+        "prefix": "!5-sap-m-scrollcontainer",
         "body": [
-            "$1<content>",
-            "\t<!-- <sap.ui.core.Control /> -->",
-            "</content>",
-            "$2"
+            "<m:ScrollContainer>",
+            "\t<core:Control>",
+            "\t\t$1",
+            "\t</core:Control>",
+            "</m:ScrollContainer>"
         ],
-        "description": "sap.m.ScrollContainer with non-inherited aggregations"
+        "description": "sap.m.ScrollContainer"
     },
     "sap.m.ScrollContainer-events": {
-        "prefix": "!5-scroll-container-events",
+        "prefix": "!5-sap-m-scrollcontainer",
         "body": [
-            "$1$2"
+            "<m:ScrollContainer",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.ScrollContainer with non-inherited events"
+        "description": "sap.m.ScrollContainer"
     },
     "sap.m.ScrollContainer-all": {
-        "prefix": "!5-scroll-container-all",
+        "prefix": "!5-sap-m-scrollcontainer",
         "body": [
-            "$1width=\"auto\"",
-            "height=\"auto\"",
-            "horizontal=\"true\"",
-            "vertical=\"false\"",
-            "focusable=\"false\"",
-            "<content>",
-            "\t<!-- <sap.ui.core.Control /> -->",
-            "</content>$2"
+            "<m:ScrollContainer",
+            "\twidth=\"auto\"",
+            "\theight=\"auto\"",
+            "\thorizontal=\"true\"",
+            "\tvertical=\"false\"",
+            "\tfocusable=\"false\"",
+            ">",
+            "\t<content>",
+            "\t\t<core:Control",
+            "\t\t\t$1",
+            "\t\t/>",
+            "\t</content>",
+            "</m:ScrollContainer>"
         ],
-        "description": "sap.m.ScrollContainer with non-inherited properties, aggregations and events"
+        "description": "sap.m.ScrollContainer"
     }
 }

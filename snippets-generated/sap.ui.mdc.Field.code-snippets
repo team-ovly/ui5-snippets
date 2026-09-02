@@ -1,42 +1,51 @@
 {
     "sap.ui.mdc.Field": {
-        "prefix": "!5-field",
+        "prefix": "!5-sap-ui-mdc-field",
         "body": [
-            "<Field ",
+            "<mdc:Field ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.ui.mdc.Field"
     },
     "sap.ui.mdc.Field-properties": {
-        "prefix": "!5-field-properties",
+        "prefix": "!5-sap-ui-mdc-field",
         "body": [
-            "$1value=\"\"",
-            "additionalValue=\"\"$2"
+            "<mdc:Field",
+            "\tvalue=\"null\"",
+            "\tadditionalValue=\"null\"",
+            "$1/>"
         ],
-        "description": "sap.ui.mdc.Field with non-inherited properties"
+        "description": "sap.ui.mdc.Field"
     },
     "sap.ui.mdc.Field-aggregations": {
-        "prefix": "!5-field-aggregations",
+        "prefix": "!5-sap-ui-mdc-field",
         "body": [
-            "$1$2"
+            "<mdc:Field>",
+            "</mdc:Field>"
         ],
-        "description": "sap.ui.mdc.Field with non-inherited aggregations"
+        "description": "sap.ui.mdc.Field"
     },
     "sap.ui.mdc.Field-events": {
-        "prefix": "!5-field-events",
+        "prefix": "!5-sap-ui-mdc-field",
         "body": [
-            "$1change=\".on${3:Change}\"$2"
+            "<mdc:Field",
+            "\tchange=\".onChange\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.ui.mdc.Field with non-inherited events"
+        "description": "sap.ui.mdc.Field"
     },
     "sap.ui.mdc.Field-all": {
-        "prefix": "!5-field-all",
+        "prefix": "!5-sap-ui-mdc-field",
         "body": [
-            "$1value=\"\"",
-            "additionalValue=\"\"",
-            "change=\".on${3:Change}\"$2"
+            "<mdc:Field",
+            "\tvalue=\"null\"",
+            "\tadditionalValue=\"null\"",
+            "\tchange=\".onChange\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.ui.mdc.Field with non-inherited properties, aggregations and events"
+        "description": "sap.ui.mdc.Field"
     }
 }

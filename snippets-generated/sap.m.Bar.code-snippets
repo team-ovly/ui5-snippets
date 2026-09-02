@@ -1,64 +1,77 @@
 {
     "sap.m.Bar": {
-        "prefix": "!5-bar",
+        "prefix": "!5-sap-m-bar",
         "body": [
-            "<Bar ",
+            "<m:Bar ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.m.Bar"
     },
     "sap.m.Bar-properties": {
-        "prefix": "!5-bar-properties",
+        "prefix": "!5-sap-m-bar",
         "body": [
-            "$1enableFlexBox=\"false\"",
-            "translucent=\"false\"",
-            "design=\"Auto\"",
-            "titleAlignment=\"None\"$2"
+            "<m:Bar",
+            "\tenableFlexBox=\"false\"",
+            "\ttranslucent=\"false\"",
+            "\tdesign=\"Auto\"",
+            "\ttitleAlignment=\"None\"",
+            "$1/>"
         ],
-        "description": "sap.m.Bar with non-inherited properties"
+        "description": "sap.m.Bar"
     },
     "sap.m.Bar-aggregations": {
-        "prefix": "!5-bar-aggregations",
+        "prefix": "!5-sap-m-bar",
         "body": [
-            "$1<contentLeft>",
-            "\t<!-- <sap.ui.core.Control /> -->",
-            "</contentLeft>",
-            "<contentMiddle>",
-            "\t<!-- <sap.ui.core.Control /> -->",
-            "</contentMiddle>",
-            "<contentRight>",
-            "\t<!-- <sap.ui.core.Control /> -->",
-            "</contentRight>",
-            "$2"
+            "<m:Bar>",
+            "\t<core:Control>",
+            "\t\t$1",
+            "\t</core:Control>",
+            "\t<core:Control>",
+            "\t\t$2",
+            "\t</core:Control>",
+            "\t<core:Control>",
+            "\t\t$3",
+            "\t</core:Control>",
+            "</m:Bar>"
         ],
-        "description": "sap.m.Bar with non-inherited aggregations"
+        "description": "sap.m.Bar"
     },
     "sap.m.Bar-events": {
-        "prefix": "!5-bar-events",
+        "prefix": "!5-sap-m-bar",
         "body": [
-            "$1ariaLabelledBy=\".on${3:AriaLabelledBy}\"$2"
+            "<m:Bar",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.Bar with non-inherited events"
+        "description": "sap.m.Bar"
     },
     "sap.m.Bar-all": {
-        "prefix": "!5-bar-all",
+        "prefix": "!5-sap-m-bar",
         "body": [
-            "$1enableFlexBox=\"false\"",
-            "translucent=\"false\"",
-            "design=\"Auto\"",
-            "titleAlignment=\"None\"",
-            "<contentLeft>",
-            "\t<!-- <sap.ui.core.Control /> -->",
-            "</contentLeft>",
-            "<contentMiddle>",
-            "\t<!-- <sap.ui.core.Control /> -->",
-            "</contentMiddle>",
-            "<contentRight>",
-            "\t<!-- <sap.ui.core.Control /> -->",
-            "</contentRight>",
-            "ariaLabelledBy=\".on${3:AriaLabelledBy}\"$2"
+            "<m:Bar",
+            "\tenableFlexBox=\"false\"",
+            "\ttranslucent=\"false\"",
+            "\tdesign=\"Auto\"",
+            "\ttitleAlignment=\"None\"",
+            ">",
+            "\t<contentLeft>",
+            "\t\t<core:Control",
+            "\t\t\t$1",
+            "\t\t/>",
+            "\t</contentLeft>",
+            "\t<contentMiddle>",
+            "\t\t<core:Control",
+            "\t\t\t$2",
+            "\t\t/>",
+            "\t</contentMiddle>",
+            "\t<contentRight>",
+            "\t\t<core:Control",
+            "\t\t\t$3",
+            "\t\t/>",
+            "\t</contentRight>",
+            "</m:Bar>"
         ],
-        "description": "sap.m.Bar with non-inherited properties, aggregations and events"
+        "description": "sap.m.Bar"
     }
 }

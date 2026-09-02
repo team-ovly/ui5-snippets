@@ -1,59 +1,55 @@
 {
     "sap.f.ProductSwitchItem": {
-        "prefix": "!5-product-switch-item",
+        "prefix": "!5-sap-f-productswitchitem",
         "body": [
-            "<ProductSwitchItem ",
+            "<f:ProductSwitchItem ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.f.ProductSwitchItem"
     },
     "sap.f.ProductSwitchItem-properties": {
-        "prefix": "!5-product-switch-item-properties",
+        "prefix": "!5-sap-f-productswitchitem",
         "body": [
-            "$1src=\"\"",
-            "title=\"\"",
-            "subTitle=\"\"",
-            "targetSrc=\"\"",
-            "target=\"\"$2"
+            "<f:ProductSwitchItem",
+            "\tsrc=\"null\"",
+            "\ttitle=\"null\"",
+            "\tsubTitle=\"null\"",
+            "\ttargetSrc=\"null\"",
+            "\ttarget=\"null\"",
+            "$1/>"
         ],
-        "description": "sap.f.ProductSwitchItem with non-inherited properties"
+        "description": "sap.f.ProductSwitchItem"
     },
     "sap.f.ProductSwitchItem-aggregations": {
-        "prefix": "!5-product-switch-item-aggregations",
+        "prefix": "!5-sap-f-productswitchitem",
         "body": [
-            "$1<_icon>",
-            "\t<!-- <sap.ui.core.Icon /> -->",
-            "</_icon>",
-            "<_title>",
-            "\t<!-- <sap.m.Text /> -->",
-            "</_title>",
-            "$2"
+            "<f:ProductSwitchItem>",
+            "</f:ProductSwitchItem>"
         ],
-        "description": "sap.f.ProductSwitchItem with non-inherited aggregations"
+        "description": "sap.f.ProductSwitchItem"
     },
     "sap.f.ProductSwitchItem-events": {
-        "prefix": "!5-product-switch-item-events",
+        "prefix": "!5-sap-f-productswitchitem",
         "body": [
-            "$1$2"
+            "<f:ProductSwitchItem",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.f.ProductSwitchItem with non-inherited events"
+        "description": "sap.f.ProductSwitchItem"
     },
     "sap.f.ProductSwitchItem-all": {
-        "prefix": "!5-product-switch-item-all",
+        "prefix": "!5-sap-f-productswitchitem",
         "body": [
-            "$1src=\"\"",
-            "title=\"\"",
-            "subTitle=\"\"",
-            "targetSrc=\"\"",
-            "target=\"\"",
-            "<_icon>",
-            "\t<!-- <sap.ui.core.Icon /> -->",
-            "</_icon>",
-            "<_title>",
-            "\t<!-- <sap.m.Text /> -->",
-            "</_title>$2"
+            "<f:ProductSwitchItem",
+            "\tsrc=\"null\"",
+            "\ttitle=\"null\"",
+            "\tsubTitle=\"null\"",
+            "\ttargetSrc=\"null\"",
+            "\ttarget=\"null\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.f.ProductSwitchItem with non-inherited properties, aggregations and events"
+        "description": "sap.f.ProductSwitchItem"
     }
 }

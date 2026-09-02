@@ -1,54 +1,53 @@
 {
     "sap.m.MultiComboBox": {
-        "prefix": "!5-multi-combo-box",
+        "prefix": "!5-sap-m-multicombobox",
         "body": [
-            "<MultiComboBox ",
+            "<m:MultiComboBox ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.m.MultiComboBox"
     },
     "sap.m.MultiComboBox-properties": {
-        "prefix": "!5-multi-combo-box-properties",
+        "prefix": "!5-sap-m-multicombobox",
         "body": [
-            "$1selectedKeys=\"\"",
-            "hasSelection=\"false\"",
-            "showSelectAll=\"false\"$2"
+            "<m:MultiComboBox",
+            "\tselectedKeys=\"\"",
+            "\tshowSelectAll=\"false\"",
+            "$1/>"
         ],
-        "description": "sap.m.MultiComboBox with non-inherited properties"
+        "description": "sap.m.MultiComboBox"
     },
     "sap.m.MultiComboBox-aggregations": {
-        "prefix": "!5-multi-combo-box-aggregations",
+        "prefix": "!5-sap-m-multicombobox",
         "body": [
-            "$1<tokenizer>",
-            "\t<!-- <sap.m.Tokenizer /> -->",
-            "</tokenizer>",
-            "$2"
+            "<m:MultiComboBox>",
+            "</m:MultiComboBox>"
         ],
-        "description": "sap.m.MultiComboBox with non-inherited aggregations"
+        "description": "sap.m.MultiComboBox"
     },
     "sap.m.MultiComboBox-events": {
-        "prefix": "!5-multi-combo-box-events",
+        "prefix": "!5-sap-m-multicombobox",
         "body": [
-            "$1selectionChange=\".on${3:SelectionChange}\"",
-            "selectionFinish=\".on${4:SelectionFinish}\"",
-            "selectedItems=\".on${5:SelectedItems}\"$2"
+            "<m:MultiComboBox",
+            "\tselectionChange=\".onSelectionChange\"",
+            "\tselectionFinish=\".onSelectionFinish\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.MultiComboBox with non-inherited events"
+        "description": "sap.m.MultiComboBox"
     },
     "sap.m.MultiComboBox-all": {
-        "prefix": "!5-multi-combo-box-all",
+        "prefix": "!5-sap-m-multicombobox",
         "body": [
-            "$1selectedKeys=\"\"",
-            "hasSelection=\"false\"",
-            "showSelectAll=\"false\"",
-            "<tokenizer>",
-            "\t<!-- <sap.m.Tokenizer /> -->",
-            "</tokenizer>",
-            "selectionChange=\".on${3:SelectionChange}\"",
-            "selectionFinish=\".on${4:SelectionFinish}\"",
-            "selectedItems=\".on${5:SelectedItems}\"$2"
+            "<m:MultiComboBox",
+            "\tselectedKeys=\"\"",
+            "\tshowSelectAll=\"false\"",
+            "\tselectionChange=\".onSelectionChange\"",
+            "\tselectionFinish=\".onSelectionFinish\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.MultiComboBox with non-inherited properties, aggregations and events"
+        "description": "sap.m.MultiComboBox"
     }
 }

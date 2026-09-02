@@ -1,78 +1,85 @@
 {
     "sap.m.SearchField": {
-        "prefix": "!5-search-field",
+        "prefix": "!5-sap-m-searchfield",
         "body": [
-            "<SearchField ",
+            "<m:SearchField ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.m.SearchField"
     },
     "sap.m.SearchField-properties": {
-        "prefix": "!5-search-field-properties",
+        "prefix": "!5-sap-m-searchfield",
         "body": [
-            "$1value=\"\"",
-            "width=\"\"",
-            "enabled=\"true\"",
-            "visible=\"true\"",
-            "maxLength=\"0\"",
-            "placeholder=\"\"",
-            "showMagnifier=\"true\"",
-            "showRefreshButton=\"false\"",
-            "refreshButtonTooltip=\"\"",
-            "showSearchButton=\"true\"",
-            "enableSuggestions=\"false\"",
-            "selectOnFocus=\"true\"$2"
+            "<m:SearchField",
+            "\tvalue=\"null\"",
+            "\twidth=\"null\"",
+            "\tenabled=\"true\"",
+            "\tvisible=\"true\"",
+            "\tmaxLength=\"0\"",
+            "\tplaceholder=\"null\"",
+            "\tshowMagnifier=\"true\"",
+            "\tshowRefreshButton=\"false\"",
+            "\trefreshButtonTooltip=\"null\"",
+            "\tshowSearchButton=\"true\"",
+            "\tenableSuggestions=\"false\"",
+            "\tselectOnFocus=\"true\"",
+            "$1/>"
         ],
-        "description": "sap.m.SearchField with non-inherited properties"
+        "description": "sap.m.SearchField"
     },
     "sap.m.SearchField-aggregations": {
-        "prefix": "!5-search-field-aggregations",
+        "prefix": "!5-sap-m-searchfield",
         "body": [
-            "$1<suggestionItems>",
-            "\t<!-- <sap.m.SuggestionItem /> -->",
-            "</suggestionItems>",
-            "$2"
+            "<m:SearchField>",
+            "\t<m:SuggestionItem>",
+            "\t\t$1",
+            "\t</m:SuggestionItem>",
+            "</m:SearchField>"
         ],
-        "description": "sap.m.SearchField with non-inherited aggregations"
+        "description": "sap.m.SearchField"
     },
     "sap.m.SearchField-events": {
-        "prefix": "!5-search-field-events",
+        "prefix": "!5-sap-m-searchfield",
         "body": [
-            "$1search=\".on${3:Search}\"",
-            "change=\".on${4:Change}\"",
-            "liveChange=\".on${5:LiveChange}\"",
-            "suggest=\".on${6:Suggest}\"",
-            "ariaDescribedBy=\".on${7:AriaDescribedBy}\"",
-            "ariaLabelledBy=\".on${8:AriaLabelledBy}\"$2"
+            "<m:SearchField",
+            "\tsearch=\".onSearch\"",
+            "\tchange=\".onChange\"",
+            "\tliveChange=\".onLiveChange\"",
+            "\tsuggest=\".onSuggest\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.SearchField with non-inherited events"
+        "description": "sap.m.SearchField"
     },
     "sap.m.SearchField-all": {
-        "prefix": "!5-search-field-all",
+        "prefix": "!5-sap-m-searchfield",
         "body": [
-            "$1value=\"\"",
-            "width=\"\"",
-            "enabled=\"true\"",
-            "visible=\"true\"",
-            "maxLength=\"0\"",
-            "placeholder=\"\"",
-            "showMagnifier=\"true\"",
-            "showRefreshButton=\"false\"",
-            "refreshButtonTooltip=\"\"",
-            "showSearchButton=\"true\"",
-            "enableSuggestions=\"false\"",
-            "selectOnFocus=\"true\"",
-            "<suggestionItems>",
-            "\t<!-- <sap.m.SuggestionItem /> -->",
-            "</suggestionItems>",
-            "search=\".on${3:Search}\"",
-            "change=\".on${4:Change}\"",
-            "liveChange=\".on${5:LiveChange}\"",
-            "suggest=\".on${6:Suggest}\"",
-            "ariaDescribedBy=\".on${7:AriaDescribedBy}\"",
-            "ariaLabelledBy=\".on${8:AriaLabelledBy}\"$2"
+            "<m:SearchField",
+            "\tvalue=\"null\"",
+            "\twidth=\"null\"",
+            "\tenabled=\"true\"",
+            "\tvisible=\"true\"",
+            "\tmaxLength=\"0\"",
+            "\tplaceholder=\"null\"",
+            "\tshowMagnifier=\"true\"",
+            "\tshowRefreshButton=\"false\"",
+            "\trefreshButtonTooltip=\"null\"",
+            "\tshowSearchButton=\"true\"",
+            "\tenableSuggestions=\"false\"",
+            "\tselectOnFocus=\"true\"",
+            "\tsearch=\".onSearch\"",
+            "\tchange=\".onChange\"",
+            "\tliveChange=\".onLiveChange\"",
+            "\tsuggest=\".onSuggest\"",
+            ">",
+            "\t<suggestionItems>",
+            "\t\t<m:SuggestionItem",
+            "\t\t\t$1",
+            "\t\t/>",
+            "\t</suggestionItems>",
+            "</m:SearchField>"
         ],
-        "description": "sap.m.SearchField with non-inherited properties, aggregations and events"
+        "description": "sap.m.SearchField"
     }
 }

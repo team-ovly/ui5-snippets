@@ -1,67 +1,61 @@
 {
     "sap.m.ExpandableText": {
-        "prefix": "!5-expandable-text",
+        "prefix": "!5-sap-m-expandabletext",
         "body": [
-            "<ExpandableText ",
+            "<m:ExpandableText ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.m.ExpandableText"
     },
     "sap.m.ExpandableText-properties": {
-        "prefix": "!5-expandable-text-properties",
+        "prefix": "!5-sap-m-expandabletext",
         "body": [
-            "$1text=\"\"",
-            "textDirection=\"Inherit\"",
-            "wrappingType=\"Normal\"",
-            "textAlign=\"Begin\"",
-            "renderWhitespace=\"false\"",
-            "overflowMode=\"InPlace\"",
-            "maxCharacters=\"100\"",
-            "expanded=\"false\"",
-            "emptyIndicatorMode=\"Off\"$2"
+            "<m:ExpandableText",
+            "\ttext=\"\"",
+            "\ttextDirection=\"Inherit\"",
+            "\twrappingType=\"Normal\"",
+            "\ttextAlign=\"Begin\"",
+            "\trenderWhitespace=\"false\"",
+            "\toverflowMode=\"InPlace\"",
+            "\tmaxCharacters=\"100\"",
+            "\temptyIndicatorMode=\"Off\"",
+            "$1/>"
         ],
-        "description": "sap.m.ExpandableText with non-inherited properties"
+        "description": "sap.m.ExpandableText"
     },
     "sap.m.ExpandableText-aggregations": {
-        "prefix": "!5-expandable-text-aggregations",
+        "prefix": "!5-sap-m-expandabletext",
         "body": [
-            "$1<_showMoreLink>",
-            "\t<!-- <sap.m.Link /> -->",
-            "</_showMoreLink>",
-            "<_ariaLabelledBy>",
-            "\t<!-- <sap.ui.core.InvisibleText /> -->",
-            "</_ariaLabelledBy>",
-            "$2"
+            "<m:ExpandableText>",
+            "</m:ExpandableText>"
         ],
-        "description": "sap.m.ExpandableText with non-inherited aggregations"
+        "description": "sap.m.ExpandableText"
     },
     "sap.m.ExpandableText-events": {
-        "prefix": "!5-expandable-text-events",
+        "prefix": "!5-sap-m-expandabletext",
         "body": [
-            "$1$2"
+            "<m:ExpandableText",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.ExpandableText with non-inherited events"
+        "description": "sap.m.ExpandableText"
     },
     "sap.m.ExpandableText-all": {
-        "prefix": "!5-expandable-text-all",
+        "prefix": "!5-sap-m-expandabletext",
         "body": [
-            "$1text=\"\"",
-            "textDirection=\"Inherit\"",
-            "wrappingType=\"Normal\"",
-            "textAlign=\"Begin\"",
-            "renderWhitespace=\"false\"",
-            "overflowMode=\"InPlace\"",
-            "maxCharacters=\"100\"",
-            "expanded=\"false\"",
-            "emptyIndicatorMode=\"Off\"",
-            "<_showMoreLink>",
-            "\t<!-- <sap.m.Link /> -->",
-            "</_showMoreLink>",
-            "<_ariaLabelledBy>",
-            "\t<!-- <sap.ui.core.InvisibleText /> -->",
-            "</_ariaLabelledBy>$2"
+            "<m:ExpandableText",
+            "\ttext=\"\"",
+            "\ttextDirection=\"Inherit\"",
+            "\twrappingType=\"Normal\"",
+            "\ttextAlign=\"Begin\"",
+            "\trenderWhitespace=\"false\"",
+            "\toverflowMode=\"InPlace\"",
+            "\tmaxCharacters=\"100\"",
+            "\temptyIndicatorMode=\"Off\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.ExpandableText with non-inherited properties, aggregations and events"
+        "description": "sap.m.ExpandableText"
     }
 }

@@ -1,39 +1,45 @@
 {
     "sap.uxap.ObjectPageDynamicHeaderContent": {
-        "prefix": "!5-object-page-dynamic-header-content",
+        "prefix": "!5-sap-uxap-objectpagedynamicheadercontent",
         "body": [
-            "<ObjectPageDynamicHeaderContent ",
+            "<uxap:ObjectPageDynamicHeaderContent ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.uxap.ObjectPageDynamicHeaderContent"
     },
     "sap.uxap.ObjectPageDynamicHeaderContent-properties": {
-        "prefix": "!5-object-page-dynamic-header-content-properties",
+        "prefix": "!5-sap-uxap-objectpagedynamicheadercontent",
         "body": [
-            "$1$2"
+            "<uxap:ObjectPageDynamicHeaderContent",
+            "$1/>"
         ],
-        "description": "sap.uxap.ObjectPageDynamicHeaderContent with non-inherited properties"
+        "description": "sap.uxap.ObjectPageDynamicHeaderContent"
     },
     "sap.uxap.ObjectPageDynamicHeaderContent-aggregations": {
-        "prefix": "!5-object-page-dynamic-header-content-aggregations",
+        "prefix": "!5-sap-uxap-objectpagedynamicheadercontent",
         "body": [
-            "$1$2"
+            "<uxap:ObjectPageDynamicHeaderContent>",
+            "</uxap:ObjectPageDynamicHeaderContent>"
         ],
-        "description": "sap.uxap.ObjectPageDynamicHeaderContent with non-inherited aggregations"
+        "description": "sap.uxap.ObjectPageDynamicHeaderContent"
     },
     "sap.uxap.ObjectPageDynamicHeaderContent-events": {
-        "prefix": "!5-object-page-dynamic-header-content-events",
+        "prefix": "!5-sap-uxap-objectpagedynamicheadercontent",
         "body": [
-            "$1$2"
+            "<uxap:ObjectPageDynamicHeaderContent",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.uxap.ObjectPageDynamicHeaderContent with non-inherited events"
+        "description": "sap.uxap.ObjectPageDynamicHeaderContent"
     },
     "sap.uxap.ObjectPageDynamicHeaderContent-all": {
-        "prefix": "!5-object-page-dynamic-header-content-all",
+        "prefix": "!5-sap-uxap-objectpagedynamicheadercontent",
         "body": [
-            "$1$2"
+            "<uxap:ObjectPageDynamicHeaderContent",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.uxap.ObjectPageDynamicHeaderContent with non-inherited properties, aggregations and events"
+        "description": "sap.uxap.ObjectPageDynamicHeaderContent"
     }
 }

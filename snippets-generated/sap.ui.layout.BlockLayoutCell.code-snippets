@@ -1,61 +1,73 @@
 {
     "sap.ui.layout.BlockLayoutCell": {
-        "prefix": "!5-block-layout-cell",
+        "prefix": "!5-sap-ui-layout-blocklayoutcell",
         "body": [
-            "<BlockLayoutCell ",
+            "<layout:BlockLayoutCell ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.ui.layout.BlockLayoutCell"
     },
     "sap.ui.layout.BlockLayoutCell-properties": {
-        "prefix": "!5-block-layout-cell-properties",
+        "prefix": "!5-sap-ui-layout-blocklayoutcell",
         "body": [
-            "$1title=\"\"",
-            "titleAlignment=\"Begin\"",
-            "titleLevel=\"Auto\"",
-            "width=\"0\"",
-            "backgroundColorSet=\"\"",
-            "backgroundColorShade=\"\"$2"
+            "<layout:BlockLayoutCell",
+            "\ttitle=\"null\"",
+            "\ttitleAlignment=\"Begin\"",
+            "\ttitleLevel=\"Auto\"",
+            "\twidth=\"0\"",
+            "\tbackgroundColorSet=\"null\"",
+            "\tbackgroundColorShade=\"null\"",
+            "$1/>"
         ],
-        "description": "sap.ui.layout.BlockLayoutCell with non-inherited properties"
+        "description": "sap.ui.layout.BlockLayoutCell"
     },
     "sap.ui.layout.BlockLayoutCell-aggregations": {
-        "prefix": "!5-block-layout-cell-aggregations",
+        "prefix": "!5-sap-ui-layout-blocklayoutcell",
         "body": [
-            "$1<content>",
-            "\t<!-- <sap.ui.core.Control /> -->",
-            "</content>",
-            "<titleLink>",
-            "\t<!-- <sap.ui.core.Control /> -->",
-            "</titleLink>",
-            "$2"
+            "<layout:BlockLayoutCell>",
+            "\t<core:Control>",
+            "\t\t$1",
+            "\t</core:Control>",
+            "\t<core:Control>",
+            "\t\t$2",
+            "\t</core:Control>",
+            "</layout:BlockLayoutCell>"
         ],
-        "description": "sap.ui.layout.BlockLayoutCell with non-inherited aggregations"
+        "description": "sap.ui.layout.BlockLayoutCell"
     },
     "sap.ui.layout.BlockLayoutCell-events": {
-        "prefix": "!5-block-layout-cell-events",
+        "prefix": "!5-sap-ui-layout-blocklayoutcell",
         "body": [
-            "$1$2"
+            "<layout:BlockLayoutCell",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.ui.layout.BlockLayoutCell with non-inherited events"
+        "description": "sap.ui.layout.BlockLayoutCell"
     },
     "sap.ui.layout.BlockLayoutCell-all": {
-        "prefix": "!5-block-layout-cell-all",
+        "prefix": "!5-sap-ui-layout-blocklayoutcell",
         "body": [
-            "$1title=\"\"",
-            "titleAlignment=\"Begin\"",
-            "titleLevel=\"Auto\"",
-            "width=\"0\"",
-            "backgroundColorSet=\"\"",
-            "backgroundColorShade=\"\"",
-            "<content>",
-            "\t<!-- <sap.ui.core.Control /> -->",
-            "</content>",
-            "<titleLink>",
-            "\t<!-- <sap.ui.core.Control /> -->",
-            "</titleLink>$2"
+            "<layout:BlockLayoutCell",
+            "\ttitle=\"null\"",
+            "\ttitleAlignment=\"Begin\"",
+            "\ttitleLevel=\"Auto\"",
+            "\twidth=\"0\"",
+            "\tbackgroundColorSet=\"null\"",
+            "\tbackgroundColorShade=\"null\"",
+            ">",
+            "\t<content>",
+            "\t\t<core:Control",
+            "\t\t\t$1",
+            "\t\t/>",
+            "\t</content>",
+            "\t<titleLink>",
+            "\t\t<core:Control",
+            "\t\t\t$2",
+            "\t\t/>",
+            "\t</titleLink>",
+            "</layout:BlockLayoutCell>"
         ],
-        "description": "sap.ui.layout.BlockLayoutCell with non-inherited properties, aggregations and events"
+        "description": "sap.ui.layout.BlockLayoutCell"
     }
 }

@@ -1,112 +1,69 @@
 {
     "sap.m.FacetFilter": {
-        "prefix": "!5-facet-filter",
+        "prefix": "!5-sap-m-facetfilter",
         "body": [
-            "<FacetFilter ",
+            "<m:FacetFilter ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.m.FacetFilter"
     },
     "sap.m.FacetFilter-properties": {
-        "prefix": "!5-facet-filter-properties",
+        "prefix": "!5-sap-m-facetfilter",
         "body": [
-            "$1showPersonalization=\"false\"",
-            "type=\"Simple\"",
-            "liveSearch=\"true\"",
-            "showSummaryBar=\"false\"",
-            "showReset=\"true\"",
-            "showPopoverOKButton=\"false\"$2"
+            "<m:FacetFilter",
+            "\tshowPersonalization=\"false\"",
+            "\ttype=\"Simple\"",
+            "\tliveSearch=\"true\"",
+            "\tshowSummaryBar=\"false\"",
+            "\tshowReset=\"true\"",
+            "\tshowPopoverOKButton=\"false\"",
+            "$1/>"
         ],
-        "description": "sap.m.FacetFilter with non-inherited properties"
+        "description": "sap.m.FacetFilter"
     },
     "sap.m.FacetFilter-aggregations": {
-        "prefix": "!5-facet-filter-aggregations",
+        "prefix": "!5-sap-m-facetfilter",
         "body": [
-            "$1<lists>",
-            "\t<!-- <sap.m.FacetFilterList /> -->",
-            "</lists>",
-            "<buttons>",
-            "\t<!-- <sap.m.Button /> -->",
-            "</buttons>",
-            "<removeFacetIcons>",
-            "\t<!-- <sap.ui.core.Icon /> -->",
-            "</removeFacetIcons>",
-            "<popover>",
-            "\t<!-- <sap.m.Popover /> -->",
-            "</popover>",
-            "<addFacetButton>",
-            "\t<!-- <sap.m.Button /> -->",
-            "</addFacetButton>",
-            "<dialog>",
-            "\t<!-- <sap.m.Dialog /> -->",
-            "</dialog>",
-            "<summaryBar>",
-            "\t<!-- <sap.m.Toolbar /> -->",
-            "</summaryBar>",
-            "<resetButton>",
-            "\t<!-- <sap.m.Button /> -->",
-            "</resetButton>",
-            "<arrowLeft>",
-            "\t<!-- <sap.ui.core.Icon /> -->",
-            "</arrowLeft>",
-            "<arrowRight>",
-            "\t<!-- <sap.ui.core.Icon /> -->",
-            "</arrowRight>",
-            "$2"
+            "<m:FacetFilter>",
+            "\t<m:FacetFilterList>",
+            "\t\t$1",
+            "\t</m:FacetFilterList>",
+            "</m:FacetFilter>"
         ],
-        "description": "sap.m.FacetFilter with non-inherited aggregations"
+        "description": "sap.m.FacetFilter"
     },
     "sap.m.FacetFilter-events": {
-        "prefix": "!5-facet-filter-events",
+        "prefix": "!5-sap-m-facetfilter",
         "body": [
-            "$1reset=\".on${3:Reset}\"",
-            "confirm=\".on${4:Confirm}\"$2"
+            "<m:FacetFilter",
+            "\treset=\".onReset\"",
+            "\tconfirm=\".onConfirm\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.FacetFilter with non-inherited events"
+        "description": "sap.m.FacetFilter"
     },
     "sap.m.FacetFilter-all": {
-        "prefix": "!5-facet-filter-all",
+        "prefix": "!5-sap-m-facetfilter",
         "body": [
-            "$1showPersonalization=\"false\"",
-            "type=\"Simple\"",
-            "liveSearch=\"true\"",
-            "showSummaryBar=\"false\"",
-            "showReset=\"true\"",
-            "showPopoverOKButton=\"false\"",
-            "<lists>",
-            "\t<!-- <sap.m.FacetFilterList /> -->",
-            "</lists>",
-            "<buttons>",
-            "\t<!-- <sap.m.Button /> -->",
-            "</buttons>",
-            "<removeFacetIcons>",
-            "\t<!-- <sap.ui.core.Icon /> -->",
-            "</removeFacetIcons>",
-            "<popover>",
-            "\t<!-- <sap.m.Popover /> -->",
-            "</popover>",
-            "<addFacetButton>",
-            "\t<!-- <sap.m.Button /> -->",
-            "</addFacetButton>",
-            "<dialog>",
-            "\t<!-- <sap.m.Dialog /> -->",
-            "</dialog>",
-            "<summaryBar>",
-            "\t<!-- <sap.m.Toolbar /> -->",
-            "</summaryBar>",
-            "<resetButton>",
-            "\t<!-- <sap.m.Button /> -->",
-            "</resetButton>",
-            "<arrowLeft>",
-            "\t<!-- <sap.ui.core.Icon /> -->",
-            "</arrowLeft>",
-            "<arrowRight>",
-            "\t<!-- <sap.ui.core.Icon /> -->",
-            "</arrowRight>",
-            "reset=\".on${3:Reset}\"",
-            "confirm=\".on${4:Confirm}\"$2"
+            "<m:FacetFilter",
+            "\tshowPersonalization=\"false\"",
+            "\ttype=\"Simple\"",
+            "\tliveSearch=\"true\"",
+            "\tshowSummaryBar=\"false\"",
+            "\tshowReset=\"true\"",
+            "\tshowPopoverOKButton=\"false\"",
+            "\treset=\".onReset\"",
+            "\tconfirm=\".onConfirm\"",
+            ">",
+            "\t<lists>",
+            "\t\t<m:FacetFilterList",
+            "\t\t\t$1",
+            "\t\t/>",
+            "\t</lists>",
+            "</m:FacetFilter>"
         ],
-        "description": "sap.m.FacetFilter with non-inherited properties, aggregations and events"
+        "description": "sap.m.FacetFilter"
     }
 }

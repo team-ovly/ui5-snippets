@@ -1,45 +1,53 @@
 {
     "sap.m.GroupHeaderListItem": {
-        "prefix": "!5-group-header-list-item",
+        "prefix": "!5-sap-m-groupheaderlistitem",
         "body": [
-            "<GroupHeaderListItem ",
+            "<m:GroupHeaderListItem ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.m.GroupHeaderListItem"
     },
     "sap.m.GroupHeaderListItem-properties": {
-        "prefix": "!5-group-header-list-item-properties",
+        "prefix": "!5-sap-m-groupheaderlistitem",
         "body": [
-            "$1title=\"\"",
-            "count=\"\"",
-            "upperCase=\"false\"",
-            "titleTextDirection=\"Inherit\"$2"
+            "<m:GroupHeaderListItem",
+            "\ttitle=\"null\"",
+            "\tcount=\"null\"",
+            "\tupperCase=\"false\"",
+            "\ttitleTextDirection=\"Inherit\"",
+            "$1/>"
         ],
-        "description": "sap.m.GroupHeaderListItem with non-inherited properties"
+        "description": "sap.m.GroupHeaderListItem"
     },
     "sap.m.GroupHeaderListItem-aggregations": {
-        "prefix": "!5-group-header-list-item-aggregations",
+        "prefix": "!5-sap-m-groupheaderlistitem",
         "body": [
-            "$1$2"
+            "<m:GroupHeaderListItem>",
+            "</m:GroupHeaderListItem>"
         ],
-        "description": "sap.m.GroupHeaderListItem with non-inherited aggregations"
+        "description": "sap.m.GroupHeaderListItem"
     },
     "sap.m.GroupHeaderListItem-events": {
-        "prefix": "!5-group-header-list-item-events",
+        "prefix": "!5-sap-m-groupheaderlistitem",
         "body": [
-            "$1$2"
+            "<m:GroupHeaderListItem",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.GroupHeaderListItem with non-inherited events"
+        "description": "sap.m.GroupHeaderListItem"
     },
     "sap.m.GroupHeaderListItem-all": {
-        "prefix": "!5-group-header-list-item-all",
+        "prefix": "!5-sap-m-groupheaderlistitem",
         "body": [
-            "$1title=\"\"",
-            "count=\"\"",
-            "upperCase=\"false\"",
-            "titleTextDirection=\"Inherit\"$2"
+            "<m:GroupHeaderListItem",
+            "\ttitle=\"null\"",
+            "\tcount=\"null\"",
+            "\tupperCase=\"false\"",
+            "\ttitleTextDirection=\"Inherit\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.GroupHeaderListItem with non-inherited properties, aggregations and events"
+        "description": "sap.m.GroupHeaderListItem"
     }
 }

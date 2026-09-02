@@ -1,62 +1,59 @@
 {
     "sap.m.p13n.BasePanel": {
-        "prefix": "!5-base-panel",
+        "prefix": "!5-sap-m-p13n-basepanel",
         "body": [
-            "<BasePanel ",
+            "<p13n:BasePanel ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.m.p13n.BasePanel"
     },
     "sap.m.p13n.BasePanel-properties": {
-        "prefix": "!5-base-panel-properties",
+        "prefix": "!5-sap-m-p13n-basepanel",
         "body": [
-            "$1title=\"\"",
-            "enableReorder=\"true\"",
-            "_useFixedWidth=\"false\"$2"
+            "<p13n:BasePanel",
+            "\ttitle=\"null\"",
+            "\tenableReorder=\"true\"",
+            "$1/>"
         ],
-        "description": "sap.m.p13n.BasePanel with non-inherited properties"
+        "description": "sap.m.p13n.BasePanel"
     },
     "sap.m.p13n.BasePanel-aggregations": {
-        "prefix": "!5-base-panel-aggregations",
+        "prefix": "!5-sap-m-p13n-basepanel",
         "body": [
-            "$1<messageStrip>",
-            "\t<!-- <sap.m.MessageStrip /> -->",
-            "</messageStrip>",
-            "<_content>",
-            "\t<!-- <sap.ui.core.Control /> -->",
-            "</_content>",
-            "<_template>",
-            "\t<!-- <sap.ui.core.Control /> -->",
-            "</_template>",
-            "$2"
+            "<p13n:BasePanel>",
+            "\t<m:MessageStrip>",
+            "\t\t$1",
+            "\t</m:MessageStrip>",
+            "</p13n:BasePanel>"
         ],
-        "description": "sap.m.p13n.BasePanel with non-inherited aggregations"
+        "description": "sap.m.p13n.BasePanel"
     },
     "sap.m.p13n.BasePanel-events": {
-        "prefix": "!5-base-panel-events",
+        "prefix": "!5-sap-m-p13n-basepanel",
         "body": [
-            "$1change=\".on${3:Change}\"$2"
+            "<p13n:BasePanel",
+            "\tchange=\".onChange\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.p13n.BasePanel with non-inherited events"
+        "description": "sap.m.p13n.BasePanel"
     },
     "sap.m.p13n.BasePanel-all": {
-        "prefix": "!5-base-panel-all",
+        "prefix": "!5-sap-m-p13n-basepanel",
         "body": [
-            "$1title=\"\"",
-            "enableReorder=\"true\"",
-            "_useFixedWidth=\"false\"",
-            "<messageStrip>",
-            "\t<!-- <sap.m.MessageStrip /> -->",
-            "</messageStrip>",
-            "<_content>",
-            "\t<!-- <sap.ui.core.Control /> -->",
-            "</_content>",
-            "<_template>",
-            "\t<!-- <sap.ui.core.Control /> -->",
-            "</_template>",
-            "change=\".on${3:Change}\"$2"
+            "<p13n:BasePanel",
+            "\ttitle=\"null\"",
+            "\tenableReorder=\"true\"",
+            "\tchange=\".onChange\"",
+            ">",
+            "\t<messageStrip>",
+            "\t\t<m:MessageStrip",
+            "\t\t\t$1",
+            "\t\t/>",
+            "\t</messageStrip>",
+            "</p13n:BasePanel>"
         ],
-        "description": "sap.m.p13n.BasePanel with non-inherited properties, aggregations and events"
+        "description": "sap.m.p13n.BasePanel"
     }
 }

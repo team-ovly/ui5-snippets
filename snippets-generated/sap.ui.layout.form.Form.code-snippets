@@ -1,66 +1,81 @@
 {
     "sap.ui.layout.form.Form": {
-        "prefix": "!5-form",
+        "prefix": "!5-sap-ui-layout-form-form",
         "body": [
-            "<Form ",
+            "<form:Form ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.ui.layout.form.Form"
     },
     "sap.ui.layout.form.Form-properties": {
-        "prefix": "!5-form-properties",
+        "prefix": "!5-sap-ui-layout-form-form",
         "body": [
-            "$1width=\"\"",
-            "editable=\"false\"$2"
+            "<form:Form",
+            "\twidth=\"null\"",
+            "\teditable=\"false\"",
+            "$1/>"
         ],
-        "description": "sap.ui.layout.form.Form with non-inherited properties"
+        "description": "sap.ui.layout.form.Form"
     },
     "sap.ui.layout.form.Form-aggregations": {
-        "prefix": "!5-form-aggregations",
+        "prefix": "!5-sap-ui-layout-form-form",
         "body": [
-            "$1<formContainers>",
-            "\t<!-- <sap.ui.layout.form.FormContainer /> -->",
-            "</formContainers>",
-            "<title>",
-            "\t<!-- <sap.ui.core.Title /> -->",
-            "</title>",
-            "<toolbar>",
-            "\t<!-- <sap.ui.core.Toolbar /> -->",
-            "</toolbar>",
-            "<layout>",
-            "\t<!-- <sap.ui.layout.form.FormLayout /> -->",
-            "</layout>",
-            "$2"
+            "<form:Form>",
+            "\t<form:FormContainer>",
+            "\t\t$1",
+            "\t</form:FormContainer>",
+            "\t<core:Title>",
+            "\t\t$2",
+            "\t</core:Title>",
+            "\t<core:Toolbar>",
+            "\t\t$3",
+            "\t</core:Toolbar>",
+            "\t<form:FormLayout>",
+            "\t\t$4",
+            "\t</form:FormLayout>",
+            "</form:Form>"
         ],
-        "description": "sap.ui.layout.form.Form with non-inherited aggregations"
+        "description": "sap.ui.layout.form.Form"
     },
     "sap.ui.layout.form.Form-events": {
-        "prefix": "!5-form-events",
+        "prefix": "!5-sap-ui-layout-form-form",
         "body": [
-            "$1ariaLabelledBy=\".on${3:AriaLabelledBy}\"$2"
+            "<form:Form",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.ui.layout.form.Form with non-inherited events"
+        "description": "sap.ui.layout.form.Form"
     },
     "sap.ui.layout.form.Form-all": {
-        "prefix": "!5-form-all",
+        "prefix": "!5-sap-ui-layout-form-form",
         "body": [
-            "$1width=\"\"",
-            "editable=\"false\"",
-            "<formContainers>",
-            "\t<!-- <sap.ui.layout.form.FormContainer /> -->",
-            "</formContainers>",
-            "<title>",
-            "\t<!-- <sap.ui.core.Title /> -->",
-            "</title>",
-            "<toolbar>",
-            "\t<!-- <sap.ui.core.Toolbar /> -->",
-            "</toolbar>",
-            "<layout>",
-            "\t<!-- <sap.ui.layout.form.FormLayout /> -->",
-            "</layout>",
-            "ariaLabelledBy=\".on${3:AriaLabelledBy}\"$2"
+            "<form:Form",
+            "\twidth=\"null\"",
+            "\teditable=\"false\"",
+            ">",
+            "\t<formContainers>",
+            "\t\t<form:FormContainer",
+            "\t\t\t$1",
+            "\t\t/>",
+            "\t</formContainers>",
+            "\t<title>",
+            "\t\t<core:Title",
+            "\t\t\t$2",
+            "\t\t/>",
+            "\t</title>",
+            "\t<toolbar>",
+            "\t\t<core:Toolbar",
+            "\t\t\t$3",
+            "\t\t/>",
+            "\t</toolbar>",
+            "\t<layout>",
+            "\t\t<form:FormLayout",
+            "\t\t\t$4",
+            "\t\t/>",
+            "\t</layout>",
+            "</form:Form>"
         ],
-        "description": "sap.ui.layout.form.Form with non-inherited properties, aggregations and events"
+        "description": "sap.ui.layout.form.Form"
     }
 }

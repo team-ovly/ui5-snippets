@@ -1,62 +1,61 @@
 {
     "sap.m.Menu": {
-        "prefix": "!5-menu",
+        "prefix": "!5-sap-m-menu",
         "body": [
-            "<Menu ",
+            "<m:Menu ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.m.Menu"
     },
     "sap.m.Menu-properties": {
-        "prefix": "!5-menu-properties",
+        "prefix": "!5-sap-m-menu",
         "body": [
-            "$1title=\"\"$2"
+            "<m:Menu",
+            "\ttitle=\"null\"",
+            "$1/>"
         ],
-        "description": "sap.m.Menu with non-inherited properties"
+        "description": "sap.m.Menu"
     },
     "sap.m.Menu-aggregations": {
-        "prefix": "!5-menu-aggregations",
+        "prefix": "!5-sap-m-menu",
         "body": [
-            "$1<items>",
-            "\t<!-- <sap.m.IMenuItem /> -->",
-            "</items>",
-            "<_dialog>",
-            "\t<!-- <sap.m.Dialog /> -->",
-            "</_dialog>",
-            "<_menu>",
-            "\t<!-- <sap.ui.unified.Menu /> -->",
-            "</_menu>",
-            "$2"
+            "<m:Menu>",
+            "\t<m:IMenuItem>",
+            "\t\t$1",
+            "\t</m:IMenuItem>",
+            "</m:Menu>"
         ],
-        "description": "sap.m.Menu with non-inherited aggregations"
+        "description": "sap.m.Menu"
     },
     "sap.m.Menu-events": {
-        "prefix": "!5-menu-events",
+        "prefix": "!5-sap-m-menu",
         "body": [
-            "$1itemSelected=\".on${3:ItemSelected}\"",
-            "closed=\".on${4:Closed}\"",
-            "beforeClose=\".on${5:BeforeClose}\"$2"
+            "<m:Menu",
+            "\titemSelected=\".onItemSelected\"",
+            "\tclosed=\".onClosed\"",
+            "\tbeforeClose=\".onBeforeClose\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.Menu with non-inherited events"
+        "description": "sap.m.Menu"
     },
     "sap.m.Menu-all": {
-        "prefix": "!5-menu-all",
+        "prefix": "!5-sap-m-menu",
         "body": [
-            "$1title=\"\"",
-            "<items>",
-            "\t<!-- <sap.m.IMenuItem /> -->",
-            "</items>",
-            "<_dialog>",
-            "\t<!-- <sap.m.Dialog /> -->",
-            "</_dialog>",
-            "<_menu>",
-            "\t<!-- <sap.ui.unified.Menu /> -->",
-            "</_menu>",
-            "itemSelected=\".on${3:ItemSelected}\"",
-            "closed=\".on${4:Closed}\"",
-            "beforeClose=\".on${5:BeforeClose}\"$2"
+            "<m:Menu",
+            "\ttitle=\"null\"",
+            "\titemSelected=\".onItemSelected\"",
+            "\tclosed=\".onClosed\"",
+            "\tbeforeClose=\".onBeforeClose\"",
+            ">",
+            "\t<items>",
+            "\t\t<m:IMenuItem",
+            "\t\t\t$1",
+            "\t\t/>",
+            "\t</items>",
+            "</m:Menu>"
         ],
-        "description": "sap.m.Menu with non-inherited properties, aggregations and events"
+        "description": "sap.m.Menu"
     }
 }

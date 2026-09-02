@@ -1,41 +1,49 @@
 {
     "sap.m.StandardTreeItem": {
-        "prefix": "!5-standard-tree-item",
+        "prefix": "!5-sap-m-standardtreeitem",
         "body": [
-            "<StandardTreeItem ",
+            "<m:StandardTreeItem ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.m.StandardTreeItem"
     },
     "sap.m.StandardTreeItem-properties": {
-        "prefix": "!5-standard-tree-item-properties",
+        "prefix": "!5-sap-m-standardtreeitem",
         "body": [
-            "$1title=\"\"",
-            "icon=\"\"$2"
+            "<m:StandardTreeItem",
+            "\ttitle=\"\"",
+            "\ticon=\"null\"",
+            "$1/>"
         ],
-        "description": "sap.m.StandardTreeItem with non-inherited properties"
+        "description": "sap.m.StandardTreeItem"
     },
     "sap.m.StandardTreeItem-aggregations": {
-        "prefix": "!5-standard-tree-item-aggregations",
+        "prefix": "!5-sap-m-standardtreeitem",
         "body": [
-            "$1$2"
+            "<m:StandardTreeItem>",
+            "</m:StandardTreeItem>"
         ],
-        "description": "sap.m.StandardTreeItem with non-inherited aggregations"
+        "description": "sap.m.StandardTreeItem"
     },
     "sap.m.StandardTreeItem-events": {
-        "prefix": "!5-standard-tree-item-events",
+        "prefix": "!5-sap-m-standardtreeitem",
         "body": [
-            "$1$2"
+            "<m:StandardTreeItem",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.StandardTreeItem with non-inherited events"
+        "description": "sap.m.StandardTreeItem"
     },
     "sap.m.StandardTreeItem-all": {
-        "prefix": "!5-standard-tree-item-all",
+        "prefix": "!5-sap-m-standardtreeitem",
         "body": [
-            "$1title=\"\"",
-            "icon=\"\"$2"
+            "<m:StandardTreeItem",
+            "\ttitle=\"\"",
+            "\ticon=\"null\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.StandardTreeItem with non-inherited properties, aggregations and events"
+        "description": "sap.m.StandardTreeItem"
     }
 }

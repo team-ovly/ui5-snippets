@@ -1,63 +1,55 @@
 {
     "sap.uxap.ObjectPageHeaderContent": {
-        "prefix": "!5-object-page-header-content",
+        "prefix": "!5-sap-uxap-objectpageheadercontent",
         "body": [
-            "<ObjectPageHeaderContent ",
+            "<uxap:ObjectPageHeaderContent ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.uxap.ObjectPageHeaderContent"
     },
     "sap.uxap.ObjectPageHeaderContent-properties": {
-        "prefix": "!5-object-page-header-content-properties",
+        "prefix": "!5-sap-uxap-objectpageheadercontent",
         "body": [
-            "$1contentDesign=\"Light\"$2"
+            "<uxap:ObjectPageHeaderContent",
+            "\tcontentDesign=\"Light\"",
+            "$1/>"
         ],
-        "description": "sap.uxap.ObjectPageHeaderContent with non-inherited properties"
+        "description": "sap.uxap.ObjectPageHeaderContent"
     },
     "sap.uxap.ObjectPageHeaderContent-aggregations": {
-        "prefix": "!5-object-page-header-content-aggregations",
+        "prefix": "!5-sap-uxap-objectpageheadercontent",
         "body": [
-            "$1<content>",
-            "\t<!-- <sap.ui.core.Control /> -->",
-            "</content>",
-            "<_editHeaderButton>",
-            "\t<!-- <sap.m.Button /> -->",
-            "</_editHeaderButton>",
-            "<_objectImage>",
-            "\t<!-- <sap.ui.core.Control /> -->",
-            "</_objectImage>",
-            "<_placeholder>",
-            "\t<!-- <sap.m.Avatar /> -->",
-            "</_placeholder>",
-            "$2"
+            "<uxap:ObjectPageHeaderContent>",
+            "\t<core:Control>",
+            "\t\t$1",
+            "\t</core:Control>",
+            "</uxap:ObjectPageHeaderContent>"
         ],
-        "description": "sap.uxap.ObjectPageHeaderContent with non-inherited aggregations"
+        "description": "sap.uxap.ObjectPageHeaderContent"
     },
     "sap.uxap.ObjectPageHeaderContent-events": {
-        "prefix": "!5-object-page-header-content-events",
+        "prefix": "!5-sap-uxap-objectpageheadercontent",
         "body": [
-            "$1$2"
+            "<uxap:ObjectPageHeaderContent",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.uxap.ObjectPageHeaderContent with non-inherited events"
+        "description": "sap.uxap.ObjectPageHeaderContent"
     },
     "sap.uxap.ObjectPageHeaderContent-all": {
-        "prefix": "!5-object-page-header-content-all",
+        "prefix": "!5-sap-uxap-objectpageheadercontent",
         "body": [
-            "$1contentDesign=\"Light\"",
-            "<content>",
-            "\t<!-- <sap.ui.core.Control /> -->",
-            "</content>",
-            "<_editHeaderButton>",
-            "\t<!-- <sap.m.Button /> -->",
-            "</_editHeaderButton>",
-            "<_objectImage>",
-            "\t<!-- <sap.ui.core.Control /> -->",
-            "</_objectImage>",
-            "<_placeholder>",
-            "\t<!-- <sap.m.Avatar /> -->",
-            "</_placeholder>$2"
+            "<uxap:ObjectPageHeaderContent",
+            "\tcontentDesign=\"Light\"",
+            ">",
+            "\t<content>",
+            "\t\t<core:Control",
+            "\t\t\t$1",
+            "\t\t/>",
+            "\t</content>",
+            "</uxap:ObjectPageHeaderContent>"
         ],
-        "description": "sap.uxap.ObjectPageHeaderContent with non-inherited properties, aggregations and events"
+        "description": "sap.uxap.ObjectPageHeaderContent"
     }
 }

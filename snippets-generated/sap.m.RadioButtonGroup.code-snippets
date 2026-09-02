@@ -1,62 +1,69 @@
 {
     "sap.m.RadioButtonGroup": {
-        "prefix": "!5-radio-button-group",
+        "prefix": "!5-sap-m-radiobuttongroup",
         "body": [
-            "<RadioButtonGroup ",
+            "<m:RadioButtonGroup ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.m.RadioButtonGroup"
     },
     "sap.m.RadioButtonGroup-properties": {
-        "prefix": "!5-radio-button-group-properties",
+        "prefix": "!5-sap-m-radiobuttongroup",
         "body": [
-            "$1width=\"\"",
-            "columns=\"1\"",
-            "editable=\"true\"",
-            "valueState=\"None\"",
-            "selectedIndex=\"0\"",
-            "enabled=\"true\"",
-            "textDirection=\"Inherit\"$2"
+            "<m:RadioButtonGroup",
+            "\twidth=\"null\"",
+            "\tcolumns=\"1\"",
+            "\teditable=\"true\"",
+            "\tvalueState=\"None\"",
+            "\tselectedIndex=\"0\"",
+            "\tenabled=\"true\"",
+            "\ttextDirection=\"Inherit\"",
+            "$1/>"
         ],
-        "description": "sap.m.RadioButtonGroup with non-inherited properties"
+        "description": "sap.m.RadioButtonGroup"
     },
     "sap.m.RadioButtonGroup-aggregations": {
-        "prefix": "!5-radio-button-group-aggregations",
+        "prefix": "!5-sap-m-radiobuttongroup",
         "body": [
-            "$1<buttons>",
-            "\t<!-- <sap.m.RadioButton /> -->",
-            "</buttons>",
-            "$2"
+            "<m:RadioButtonGroup>",
+            "\t<m:RadioButton>",
+            "\t\t$1",
+            "\t</m:RadioButton>",
+            "</m:RadioButtonGroup>"
         ],
-        "description": "sap.m.RadioButtonGroup with non-inherited aggregations"
+        "description": "sap.m.RadioButtonGroup"
     },
     "sap.m.RadioButtonGroup-events": {
-        "prefix": "!5-radio-button-group-events",
+        "prefix": "!5-sap-m-radiobuttongroup",
         "body": [
-            "$1select=\".on${3:Select}\"",
-            "ariaDescribedBy=\".on${4:AriaDescribedBy}\"",
-            "ariaLabelledBy=\".on${5:AriaLabelledBy}\"$2"
+            "<m:RadioButtonGroup",
+            "\tselect=\".onSelect\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.RadioButtonGroup with non-inherited events"
+        "description": "sap.m.RadioButtonGroup"
     },
     "sap.m.RadioButtonGroup-all": {
-        "prefix": "!5-radio-button-group-all",
+        "prefix": "!5-sap-m-radiobuttongroup",
         "body": [
-            "$1width=\"\"",
-            "columns=\"1\"",
-            "editable=\"true\"",
-            "valueState=\"None\"",
-            "selectedIndex=\"0\"",
-            "enabled=\"true\"",
-            "textDirection=\"Inherit\"",
-            "<buttons>",
-            "\t<!-- <sap.m.RadioButton /> -->",
-            "</buttons>",
-            "select=\".on${3:Select}\"",
-            "ariaDescribedBy=\".on${4:AriaDescribedBy}\"",
-            "ariaLabelledBy=\".on${5:AriaLabelledBy}\"$2"
+            "<m:RadioButtonGroup",
+            "\twidth=\"null\"",
+            "\tcolumns=\"1\"",
+            "\teditable=\"true\"",
+            "\tvalueState=\"None\"",
+            "\tselectedIndex=\"0\"",
+            "\tenabled=\"true\"",
+            "\ttextDirection=\"Inherit\"",
+            "\tselect=\".onSelect\"",
+            ">",
+            "\t<buttons>",
+            "\t\t<m:RadioButton",
+            "\t\t\t$1",
+            "\t\t/>",
+            "\t</buttons>",
+            "</m:RadioButtonGroup>"
         ],
-        "description": "sap.m.RadioButtonGroup with non-inherited properties, aggregations and events"
+        "description": "sap.m.RadioButtonGroup"
     }
 }

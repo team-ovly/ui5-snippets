@@ -1,46 +1,55 @@
 {
     "sap.ui.core.HTML": {
-        "prefix": "!5-html",
+        "prefix": "!5-sap-ui-core-html",
         "body": [
-            "<HTML ",
+            "<core:HTML ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.ui.core.HTML"
     },
     "sap.ui.core.HTML-properties": {
-        "prefix": "!5-html-properties",
+        "prefix": "!5-sap-ui-core-html",
         "body": [
-            "$1content=\"\"",
-            "preferDOM=\"true\"",
-            "sanitizeContent=\"false\"",
-            "visible=\"true\"$2"
+            "<core:HTML",
+            "\tcontent=\"null\"",
+            "\tpreferDOM=\"true\"",
+            "\tsanitizeContent=\"false\"",
+            "\tvisible=\"true\"",
+            "$1/>"
         ],
-        "description": "sap.ui.core.HTML with non-inherited properties"
+        "description": "sap.ui.core.HTML"
     },
     "sap.ui.core.HTML-aggregations": {
-        "prefix": "!5-html-aggregations",
+        "prefix": "!5-sap-ui-core-html",
         "body": [
-            "$1$2"
+            "<core:HTML>",
+            "</core:HTML>"
         ],
-        "description": "sap.ui.core.HTML with non-inherited aggregations"
+        "description": "sap.ui.core.HTML"
     },
     "sap.ui.core.HTML-events": {
-        "prefix": "!5-html-events",
+        "prefix": "!5-sap-ui-core-html",
         "body": [
-            "$1afterRendering=\".on${3:AfterRendering}\"$2"
+            "<core:HTML",
+            "\tafterRendering=\".onAfterRendering\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.ui.core.HTML with non-inherited events"
+        "description": "sap.ui.core.HTML"
     },
     "sap.ui.core.HTML-all": {
-        "prefix": "!5-html-all",
+        "prefix": "!5-sap-ui-core-html",
         "body": [
-            "$1content=\"\"",
-            "preferDOM=\"true\"",
-            "sanitizeContent=\"false\"",
-            "visible=\"true\"",
-            "afterRendering=\".on${3:AfterRendering}\"$2"
+            "<core:HTML",
+            "\tcontent=\"null\"",
+            "\tpreferDOM=\"true\"",
+            "\tsanitizeContent=\"false\"",
+            "\tvisible=\"true\"",
+            "\tafterRendering=\".onAfterRendering\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.ui.core.HTML with non-inherited properties, aggregations and events"
+        "description": "sap.ui.core.HTML"
     }
 }

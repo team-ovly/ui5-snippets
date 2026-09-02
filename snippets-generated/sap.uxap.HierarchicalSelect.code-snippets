@@ -1,39 +1,47 @@
 {
     "sap.uxap.HierarchicalSelect": {
-        "prefix": "!5-hierarchical-select",
+        "prefix": "!5-sap-uxap-hierarchicalselect",
         "body": [
-            "<HierarchicalSelect ",
+            "<uxap:HierarchicalSelect ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.uxap.HierarchicalSelect"
     },
     "sap.uxap.HierarchicalSelect-properties": {
-        "prefix": "!5-hierarchical-select-properties",
+        "prefix": "!5-sap-uxap-hierarchicalselect",
         "body": [
-            "$1upperCase=\"false\"$2"
+            "<uxap:HierarchicalSelect",
+            "\tupperCase=\"false\"",
+            "$1/>"
         ],
-        "description": "sap.uxap.HierarchicalSelect with non-inherited properties"
+        "description": "sap.uxap.HierarchicalSelect"
     },
     "sap.uxap.HierarchicalSelect-aggregations": {
-        "prefix": "!5-hierarchical-select-aggregations",
+        "prefix": "!5-sap-uxap-hierarchicalselect",
         "body": [
-            "$1$2"
+            "<uxap:HierarchicalSelect>",
+            "</uxap:HierarchicalSelect>"
         ],
-        "description": "sap.uxap.HierarchicalSelect with non-inherited aggregations"
+        "description": "sap.uxap.HierarchicalSelect"
     },
     "sap.uxap.HierarchicalSelect-events": {
-        "prefix": "!5-hierarchical-select-events",
+        "prefix": "!5-sap-uxap-hierarchicalselect",
         "body": [
-            "$1$2"
+            "<uxap:HierarchicalSelect",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.uxap.HierarchicalSelect with non-inherited events"
+        "description": "sap.uxap.HierarchicalSelect"
     },
     "sap.uxap.HierarchicalSelect-all": {
-        "prefix": "!5-hierarchical-select-all",
+        "prefix": "!5-sap-uxap-hierarchicalselect",
         "body": [
-            "$1upperCase=\"false\"$2"
+            "<uxap:HierarchicalSelect",
+            "\tupperCase=\"false\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.uxap.HierarchicalSelect with non-inherited properties, aggregations and events"
+        "description": "sap.uxap.HierarchicalSelect"
     }
 }

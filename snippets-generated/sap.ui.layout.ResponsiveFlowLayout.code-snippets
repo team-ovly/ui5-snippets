@@ -1,46 +1,55 @@
 {
     "sap.ui.layout.ResponsiveFlowLayout": {
-        "prefix": "!5-responsive-flow-layout",
+        "prefix": "!5-sap-ui-layout-responsiveflowlayout",
         "body": [
-            "<ResponsiveFlowLayout ",
+            "<layout:ResponsiveFlowLayout ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.ui.layout.ResponsiveFlowLayout"
     },
     "sap.ui.layout.ResponsiveFlowLayout-properties": {
-        "prefix": "!5-responsive-flow-layout-properties",
+        "prefix": "!5-sap-ui-layout-responsiveflowlayout",
         "body": [
-            "$1responsive=\"true\"$2"
+            "<layout:ResponsiveFlowLayout",
+            "\tresponsive=\"true\"",
+            "$1/>"
         ],
-        "description": "sap.ui.layout.ResponsiveFlowLayout with non-inherited properties"
+        "description": "sap.ui.layout.ResponsiveFlowLayout"
     },
     "sap.ui.layout.ResponsiveFlowLayout-aggregations": {
-        "prefix": "!5-responsive-flow-layout-aggregations",
+        "prefix": "!5-sap-ui-layout-responsiveflowlayout",
         "body": [
-            "$1<content>",
-            "\t<!-- <sap.ui.core.Control /> -->",
-            "</content>",
-            "$2"
+            "<layout:ResponsiveFlowLayout>",
+            "\t<core:Control>",
+            "\t\t$1",
+            "\t</core:Control>",
+            "</layout:ResponsiveFlowLayout>"
         ],
-        "description": "sap.ui.layout.ResponsiveFlowLayout with non-inherited aggregations"
+        "description": "sap.ui.layout.ResponsiveFlowLayout"
     },
     "sap.ui.layout.ResponsiveFlowLayout-events": {
-        "prefix": "!5-responsive-flow-layout-events",
+        "prefix": "!5-sap-ui-layout-responsiveflowlayout",
         "body": [
-            "$1ariaLabelledBy=\".on${3:AriaLabelledBy}\"$2"
+            "<layout:ResponsiveFlowLayout",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.ui.layout.ResponsiveFlowLayout with non-inherited events"
+        "description": "sap.ui.layout.ResponsiveFlowLayout"
     },
     "sap.ui.layout.ResponsiveFlowLayout-all": {
-        "prefix": "!5-responsive-flow-layout-all",
+        "prefix": "!5-sap-ui-layout-responsiveflowlayout",
         "body": [
-            "$1responsive=\"true\"",
-            "<content>",
-            "\t<!-- <sap.ui.core.Control /> -->",
-            "</content>",
-            "ariaLabelledBy=\".on${3:AriaLabelledBy}\"$2"
+            "<layout:ResponsiveFlowLayout",
+            "\tresponsive=\"true\"",
+            ">",
+            "\t<content>",
+            "\t\t<core:Control",
+            "\t\t\t$1",
+            "\t\t/>",
+            "\t</content>",
+            "</layout:ResponsiveFlowLayout>"
         ],
-        "description": "sap.ui.layout.ResponsiveFlowLayout with non-inherited properties, aggregations and events"
+        "description": "sap.ui.layout.ResponsiveFlowLayout"
     }
 }

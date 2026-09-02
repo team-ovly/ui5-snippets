@@ -1,74 +1,89 @@
 {
     "sap.m.Panel": {
-        "prefix": "!5-panel",
+        "prefix": "!5-sap-m-panel",
         "body": [
-            "<Panel ",
+            "<m:Panel ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.m.Panel"
     },
     "sap.m.Panel-properties": {
-        "prefix": "!5-panel-properties",
+        "prefix": "!5-sap-m-panel",
         "body": [
-            "$1headerText=\"\"",
-            "width=\"100%\"",
-            "height=\"auto\"",
-            "expandable=\"false\"",
-            "expanded=\"false\"",
-            "expandAnimation=\"true\"",
-            "backgroundDesign=\"Translucent\"",
-            "accessibleRole=\"Form\"",
-            "stickyHeader=\"false\"$2"
+            "<m:Panel",
+            "\theaderText=\"\"",
+            "\twidth=\"100%\"",
+            "\theight=\"auto\"",
+            "\texpandable=\"false\"",
+            "\texpanded=\"false\"",
+            "\texpandAnimation=\"true\"",
+            "\tbackgroundDesign=\"Translucent\"",
+            "\taccessibleRole=\"Form\"",
+            "\tstickyHeader=\"false\"",
+            "$1/>"
         ],
-        "description": "sap.m.Panel with non-inherited properties"
+        "description": "sap.m.Panel"
     },
     "sap.m.Panel-aggregations": {
-        "prefix": "!5-panel-aggregations",
+        "prefix": "!5-sap-m-panel",
         "body": [
-            "$1<content>",
-            "\t<!-- <sap.ui.core.Control /> -->",
-            "</content>",
-            "<headerToolbar>",
-            "\t<!-- <sap.m.Toolbar /> -->",
-            "</headerToolbar>",
-            "<infoToolbar>",
-            "\t<!-- <sap.m.Toolbar /> -->",
-            "</infoToolbar>",
-            "$2"
+            "<m:Panel>",
+            "\t<core:Control>",
+            "\t\t$1",
+            "\t</core:Control>",
+            "\t<m:Toolbar>",
+            "\t\t$2",
+            "\t</m:Toolbar>",
+            "\t<m:Toolbar>",
+            "\t\t$3",
+            "\t</m:Toolbar>",
+            "</m:Panel>"
         ],
-        "description": "sap.m.Panel with non-inherited aggregations"
+        "description": "sap.m.Panel"
     },
     "sap.m.Panel-events": {
-        "prefix": "!5-panel-events",
+        "prefix": "!5-sap-m-panel",
         "body": [
-            "$1expand=\".on${3:Expand}\"$2"
+            "<m:Panel",
+            "\texpand=\".onExpand\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.Panel with non-inherited events"
+        "description": "sap.m.Panel"
     },
     "sap.m.Panel-all": {
-        "prefix": "!5-panel-all",
+        "prefix": "!5-sap-m-panel",
         "body": [
-            "$1headerText=\"\"",
-            "width=\"100%\"",
-            "height=\"auto\"",
-            "expandable=\"false\"",
-            "expanded=\"false\"",
-            "expandAnimation=\"true\"",
-            "backgroundDesign=\"Translucent\"",
-            "accessibleRole=\"Form\"",
-            "stickyHeader=\"false\"",
-            "<content>",
-            "\t<!-- <sap.ui.core.Control /> -->",
-            "</content>",
-            "<headerToolbar>",
-            "\t<!-- <sap.m.Toolbar /> -->",
-            "</headerToolbar>",
-            "<infoToolbar>",
-            "\t<!-- <sap.m.Toolbar /> -->",
-            "</infoToolbar>",
-            "expand=\".on${3:Expand}\"$2"
+            "<m:Panel",
+            "\theaderText=\"\"",
+            "\twidth=\"100%\"",
+            "\theight=\"auto\"",
+            "\texpandable=\"false\"",
+            "\texpanded=\"false\"",
+            "\texpandAnimation=\"true\"",
+            "\tbackgroundDesign=\"Translucent\"",
+            "\taccessibleRole=\"Form\"",
+            "\tstickyHeader=\"false\"",
+            "\texpand=\".onExpand\"",
+            ">",
+            "\t<content>",
+            "\t\t<core:Control",
+            "\t\t\t$1",
+            "\t\t/>",
+            "\t</content>",
+            "\t<headerToolbar>",
+            "\t\t<m:Toolbar",
+            "\t\t\t$2",
+            "\t\t/>",
+            "\t</headerToolbar>",
+            "\t<infoToolbar>",
+            "\t\t<m:Toolbar",
+            "\t\t\t$3",
+            "\t\t/>",
+            "\t</infoToolbar>",
+            "</m:Panel>"
         ],
-        "description": "sap.m.Panel with non-inherited properties, aggregations and events"
+        "description": "sap.m.Panel"
     }
 }

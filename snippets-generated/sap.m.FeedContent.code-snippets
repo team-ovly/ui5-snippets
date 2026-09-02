@@ -1,56 +1,59 @@
 {
     "sap.m.FeedContent": {
-        "prefix": "!5-feed-content",
+        "prefix": "!5-sap-m-feedcontent",
         "body": [
-            "<FeedContent ",
+            "<m:FeedContent ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.m.FeedContent"
     },
     "sap.m.FeedContent-properties": {
-        "prefix": "!5-feed-content-properties",
+        "prefix": "!5-sap-m-feedcontent",
         "body": [
-            "$1size=\"Auto\"",
-            "contentText=\"\"",
-            "subheader=\"\"",
-            "value=\"\"",
-            "valueColor=\"\"",
-            "truncateValueTo=\"4\"$2"
+            "<m:FeedContent",
+            "\tsize=\"Auto\"",
+            "\tcontentText=\"null\"",
+            "\tsubheader=\"null\"",
+            "\tvalue=\"null\"",
+            "\tvalueColor=\"null\"",
+            "\ttruncateValueTo=\"4\"",
+            "$1/>"
         ],
-        "description": "sap.m.FeedContent with non-inherited properties"
+        "description": "sap.m.FeedContent"
     },
     "sap.m.FeedContent-aggregations": {
-        "prefix": "!5-feed-content-aggregations",
+        "prefix": "!5-sap-m-feedcontent",
         "body": [
-            "$1<_contentTextAgr>",
-            "\t<!-- <sap.m.Text /> -->",
-            "</_contentTextAgr>",
-            "$2"
+            "<m:FeedContent>",
+            "</m:FeedContent>"
         ],
-        "description": "sap.m.FeedContent with non-inherited aggregations"
+        "description": "sap.m.FeedContent"
     },
     "sap.m.FeedContent-events": {
-        "prefix": "!5-feed-content-events",
+        "prefix": "!5-sap-m-feedcontent",
         "body": [
-            "$1press=\".on${3:Press}\"$2"
+            "<m:FeedContent",
+            "\tpress=\".onPress\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.FeedContent with non-inherited events"
+        "description": "sap.m.FeedContent"
     },
     "sap.m.FeedContent-all": {
-        "prefix": "!5-feed-content-all",
+        "prefix": "!5-sap-m-feedcontent",
         "body": [
-            "$1size=\"Auto\"",
-            "contentText=\"\"",
-            "subheader=\"\"",
-            "value=\"\"",
-            "valueColor=\"\"",
-            "truncateValueTo=\"4\"",
-            "<_contentTextAgr>",
-            "\t<!-- <sap.m.Text /> -->",
-            "</_contentTextAgr>",
-            "press=\".on${3:Press}\"$2"
+            "<m:FeedContent",
+            "\tsize=\"Auto\"",
+            "\tcontentText=\"null\"",
+            "\tsubheader=\"null\"",
+            "\tvalue=\"null\"",
+            "\tvalueColor=\"null\"",
+            "\ttruncateValueTo=\"4\"",
+            "\tpress=\".onPress\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.FeedContent with non-inherited properties, aggregations and events"
+        "description": "sap.m.FeedContent"
     }
 }

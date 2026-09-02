@@ -1,39 +1,45 @@
 {
     "sap.tnt.ToolHeaderUtilitySeparator": {
-        "prefix": "!5-tool-header-utility-separator",
+        "prefix": "!5-sap-tnt-toolheaderutilityseparator",
         "body": [
-            "<ToolHeaderUtilitySeparator ",
+            "<tnt:ToolHeaderUtilitySeparator ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.tnt.ToolHeaderUtilitySeparator"
     },
     "sap.tnt.ToolHeaderUtilitySeparator-properties": {
-        "prefix": "!5-tool-header-utility-separator-properties",
+        "prefix": "!5-sap-tnt-toolheaderutilityseparator",
         "body": [
-            "$1$2"
+            "<tnt:ToolHeaderUtilitySeparator",
+            "$1/>"
         ],
-        "description": "sap.tnt.ToolHeaderUtilitySeparator with non-inherited properties"
+        "description": "sap.tnt.ToolHeaderUtilitySeparator"
     },
     "sap.tnt.ToolHeaderUtilitySeparator-aggregations": {
-        "prefix": "!5-tool-header-utility-separator-aggregations",
+        "prefix": "!5-sap-tnt-toolheaderutilityseparator",
         "body": [
-            "$1$2"
+            "<tnt:ToolHeaderUtilitySeparator>",
+            "</tnt:ToolHeaderUtilitySeparator>"
         ],
-        "description": "sap.tnt.ToolHeaderUtilitySeparator with non-inherited aggregations"
+        "description": "sap.tnt.ToolHeaderUtilitySeparator"
     },
     "sap.tnt.ToolHeaderUtilitySeparator-events": {
-        "prefix": "!5-tool-header-utility-separator-events",
+        "prefix": "!5-sap-tnt-toolheaderutilityseparator",
         "body": [
-            "$1$2"
+            "<tnt:ToolHeaderUtilitySeparator",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.tnt.ToolHeaderUtilitySeparator with non-inherited events"
+        "description": "sap.tnt.ToolHeaderUtilitySeparator"
     },
     "sap.tnt.ToolHeaderUtilitySeparator-all": {
-        "prefix": "!5-tool-header-utility-separator-all",
+        "prefix": "!5-sap-tnt-toolheaderutilityseparator",
         "body": [
-            "$1$2"
+            "<tnt:ToolHeaderUtilitySeparator",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.tnt.ToolHeaderUtilitySeparator with non-inherited properties, aggregations and events"
+        "description": "sap.tnt.ToolHeaderUtilitySeparator"
     }
 }

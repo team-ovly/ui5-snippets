@@ -1,66 +1,73 @@
 {
     "sap.ui.core.ComponentContainer": {
-        "prefix": "!5-component-container",
+        "prefix": "!5-sap-ui-core-componentcontainer",
         "body": [
-            "<ComponentContainer ",
+            "<core:ComponentContainer ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.ui.core.ComponentContainer"
     },
     "sap.ui.core.ComponentContainer-properties": {
-        "prefix": "!5-component-container-properties",
+        "prefix": "!5-sap-ui-core-componentcontainer",
         "body": [
-            "$1name=\"\"",
-            "url=\"\"",
-            "async=\"false\"",
-            "handleValidation=\"false\"",
-            "settings=\"\"",
-            "propagateModel=\"false\"",
-            "width=\"\"",
-            "height=\"\"",
-            "lifecycle=\"Legacy\"",
-            "autoPrefixId=\"false\"",
-            "usage=\"\"",
-            "manifest=\"\"$2"
+            "<core:ComponentContainer",
+            "\tname=\"null\"",
+            "\turl=\"null\"",
+            "\tasync=\"false\"",
+            "\thandleValidation=\"false\"",
+            "\tsettings=\"null\"",
+            "\tpropagateModel=\"false\"",
+            "\twidth=\"null\"",
+            "\theight=\"null\"",
+            "\tlifecycle=\"Legacy\"",
+            "\tautoPrefixId=\"false\"",
+            "\tusage=\"null\"",
+            "\tmanifest=\"null\"",
+            "$1/>"
         ],
-        "description": "sap.ui.core.ComponentContainer with non-inherited properties"
+        "description": "sap.ui.core.ComponentContainer"
     },
     "sap.ui.core.ComponentContainer-aggregations": {
-        "prefix": "!5-component-container-aggregations",
+        "prefix": "!5-sap-ui-core-componentcontainer",
         "body": [
-            "$1$2"
+            "<core:ComponentContainer>",
+            "</core:ComponentContainer>"
         ],
-        "description": "sap.ui.core.ComponentContainer with non-inherited aggregations"
+        "description": "sap.ui.core.ComponentContainer"
     },
     "sap.ui.core.ComponentContainer-events": {
-        "prefix": "!5-component-container-events",
+        "prefix": "!5-sap-ui-core-componentcontainer",
         "body": [
-            "$1componentCreated=\".on${3:ComponentCreated}\"",
-            "componentFailed=\".on${4:ComponentFailed}\"",
-            "component=\".on${5:Component}\"$2"
+            "<core:ComponentContainer",
+            "\tcomponentCreated=\".onComponentCreated\"",
+            "\tcomponentFailed=\".onComponentFailed\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.ui.core.ComponentContainer with non-inherited events"
+        "description": "sap.ui.core.ComponentContainer"
     },
     "sap.ui.core.ComponentContainer-all": {
-        "prefix": "!5-component-container-all",
+        "prefix": "!5-sap-ui-core-componentcontainer",
         "body": [
-            "$1name=\"\"",
-            "url=\"\"",
-            "async=\"false\"",
-            "handleValidation=\"false\"",
-            "settings=\"\"",
-            "propagateModel=\"false\"",
-            "width=\"\"",
-            "height=\"\"",
-            "lifecycle=\"Legacy\"",
-            "autoPrefixId=\"false\"",
-            "usage=\"\"",
-            "manifest=\"\"",
-            "componentCreated=\".on${3:ComponentCreated}\"",
-            "componentFailed=\".on${4:ComponentFailed}\"",
-            "component=\".on${5:Component}\"$2"
+            "<core:ComponentContainer",
+            "\tname=\"null\"",
+            "\turl=\"null\"",
+            "\tasync=\"false\"",
+            "\thandleValidation=\"false\"",
+            "\tsettings=\"null\"",
+            "\tpropagateModel=\"false\"",
+            "\twidth=\"null\"",
+            "\theight=\"null\"",
+            "\tlifecycle=\"Legacy\"",
+            "\tautoPrefixId=\"false\"",
+            "\tusage=\"null\"",
+            "\tmanifest=\"null\"",
+            "\tcomponentCreated=\".onComponentCreated\"",
+            "\tcomponentFailed=\".onComponentFailed\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.ui.core.ComponentContainer with non-inherited properties, aggregations and events"
+        "description": "sap.ui.core.ComponentContainer"
     }
 }

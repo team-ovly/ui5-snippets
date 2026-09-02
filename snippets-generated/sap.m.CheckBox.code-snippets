@@ -1,84 +1,77 @@
 {
     "sap.m.CheckBox": {
-        "prefix": "!5-check-box",
+        "prefix": "!5-sap-m-checkbox",
         "body": [
-            "<CheckBox ",
+            "<m:CheckBox ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.m.CheckBox"
     },
     "sap.m.CheckBox-properties": {
-        "prefix": "!5-check-box-properties",
+        "prefix": "!5-sap-m-checkbox",
         "body": [
-            "$1selected=\"false\"",
-            "partiallySelected=\"false\"",
-            "enabled=\"true\"",
-            "required=\"false\"",
-            "name=\"\"",
-            "text=\"\"",
-            "textDirection=\"Inherit\"",
-            "textAlign=\"Begin\"",
-            "width=\"\"",
-            "useEntireWidth=\"false\"",
-            "activeHandling=\"true\"",
-            "editable=\"true\"",
-            "valueState=\"None\"",
-            "valueStateText=\"\"",
-            "displayOnly=\"false\"",
-            "wrapping=\"false\"",
-            "highlightAccKeysRef=\"false\"",
-            "accesskey=\"\"$2"
+            "<m:CheckBox",
+            "\tselected=\"false\"",
+            "\tpartiallySelected=\"false\"",
+            "\tenabled=\"true\"",
+            "\trequired=\"false\"",
+            "\tname=\"null\"",
+            "\ttext=\"null\"",
+            "\ttextDirection=\"Inherit\"",
+            "\ttextAlign=\"Begin\"",
+            "\twidth=\"\"",
+            "\tuseEntireWidth=\"false\"",
+            "\tactiveHandling=\"true\"",
+            "\teditable=\"true\"",
+            "\tvalueState=\"None\"",
+            "\tdisplayOnly=\"false\"",
+            "\twrapping=\"false\"",
+            "$1/>"
         ],
-        "description": "sap.m.CheckBox with non-inherited properties"
+        "description": "sap.m.CheckBox"
     },
     "sap.m.CheckBox-aggregations": {
-        "prefix": "!5-check-box-aggregations",
+        "prefix": "!5-sap-m-checkbox",
         "body": [
-            "$1<_label>",
-            "\t<!-- <sap.m.Label /> -->",
-            "</_label>",
-            "$2"
+            "<m:CheckBox>",
+            "</m:CheckBox>"
         ],
-        "description": "sap.m.CheckBox with non-inherited aggregations"
+        "description": "sap.m.CheckBox"
     },
     "sap.m.CheckBox-events": {
-        "prefix": "!5-check-box-events",
+        "prefix": "!5-sap-m-checkbox",
         "body": [
-            "$1select=\".on${3:Select}\"",
-            "ariaDescribedBy=\".on${4:AriaDescribedBy}\"",
-            "ariaLabelledBy=\".on${5:AriaLabelledBy}\"$2"
+            "<m:CheckBox",
+            "\tselect=\".onSelect\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.CheckBox with non-inherited events"
+        "description": "sap.m.CheckBox"
     },
     "sap.m.CheckBox-all": {
-        "prefix": "!5-check-box-all",
+        "prefix": "!5-sap-m-checkbox",
         "body": [
-            "$1selected=\"false\"",
-            "partiallySelected=\"false\"",
-            "enabled=\"true\"",
-            "required=\"false\"",
-            "name=\"\"",
-            "text=\"\"",
-            "textDirection=\"Inherit\"",
-            "textAlign=\"Begin\"",
-            "width=\"\"",
-            "useEntireWidth=\"false\"",
-            "activeHandling=\"true\"",
-            "editable=\"true\"",
-            "valueState=\"None\"",
-            "valueStateText=\"\"",
-            "displayOnly=\"false\"",
-            "wrapping=\"false\"",
-            "highlightAccKeysRef=\"false\"",
-            "accesskey=\"\"",
-            "<_label>",
-            "\t<!-- <sap.m.Label /> -->",
-            "</_label>",
-            "select=\".on${3:Select}\"",
-            "ariaDescribedBy=\".on${4:AriaDescribedBy}\"",
-            "ariaLabelledBy=\".on${5:AriaLabelledBy}\"$2"
+            "<m:CheckBox",
+            "\tselected=\"false\"",
+            "\tpartiallySelected=\"false\"",
+            "\tenabled=\"true\"",
+            "\trequired=\"false\"",
+            "\tname=\"null\"",
+            "\ttext=\"null\"",
+            "\ttextDirection=\"Inherit\"",
+            "\ttextAlign=\"Begin\"",
+            "\twidth=\"\"",
+            "\tuseEntireWidth=\"false\"",
+            "\tactiveHandling=\"true\"",
+            "\teditable=\"true\"",
+            "\tvalueState=\"None\"",
+            "\tdisplayOnly=\"false\"",
+            "\twrapping=\"false\"",
+            "\tselect=\".onSelect\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.CheckBox with non-inherited properties, aggregations and events"
+        "description": "sap.m.CheckBox"
     }
 }

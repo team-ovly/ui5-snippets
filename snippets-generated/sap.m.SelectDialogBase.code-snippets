@@ -1,44 +1,53 @@
 {
     "sap.m.SelectDialogBase": {
-        "prefix": "!5-select-dialog-base",
+        "prefix": "!5-sap-m-selectdialogbase",
         "body": [
-            "<SelectDialogBase ",
+            "<m:SelectDialogBase ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.m.SelectDialogBase"
     },
     "sap.m.SelectDialogBase-properties": {
-        "prefix": "!5-select-dialog-base-properties",
+        "prefix": "!5-sap-m-selectdialogbase",
         "body": [
-            "$1initialFocus=\"List\"$2"
+            "<m:SelectDialogBase",
+            "\tinitialFocus=\"List\"",
+            "$1/>"
         ],
-        "description": "sap.m.SelectDialogBase with non-inherited properties"
+        "description": "sap.m.SelectDialogBase"
     },
     "sap.m.SelectDialogBase-aggregations": {
-        "prefix": "!5-select-dialog-base-aggregations",
+        "prefix": "!5-sap-m-selectdialogbase",
         "body": [
-            "$1$2"
+            "<m:SelectDialogBase>",
+            "</m:SelectDialogBase>"
         ],
-        "description": "sap.m.SelectDialogBase with non-inherited aggregations"
+        "description": "sap.m.SelectDialogBase"
     },
     "sap.m.SelectDialogBase-events": {
-        "prefix": "!5-select-dialog-base-events",
+        "prefix": "!5-sap-m-selectdialogbase",
         "body": [
-            "$1updateStarted=\".on${3:UpdateStarted}\"",
-            "updateFinished=\".on${4:UpdateFinished}\"",
-            "selectionChange=\".on${5:SelectionChange}\"$2"
+            "<m:SelectDialogBase",
+            "\tupdateStarted=\".onUpdateStarted\"",
+            "\tupdateFinished=\".onUpdateFinished\"",
+            "\tselectionChange=\".onSelectionChange\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.SelectDialogBase with non-inherited events"
+        "description": "sap.m.SelectDialogBase"
     },
     "sap.m.SelectDialogBase-all": {
-        "prefix": "!5-select-dialog-base-all",
+        "prefix": "!5-sap-m-selectdialogbase",
         "body": [
-            "$1initialFocus=\"List\"",
-            "updateStarted=\".on${3:UpdateStarted}\"",
-            "updateFinished=\".on${4:UpdateFinished}\"",
-            "selectionChange=\".on${5:SelectionChange}\"$2"
+            "<m:SelectDialogBase",
+            "\tinitialFocus=\"List\"",
+            "\tupdateStarted=\".onUpdateStarted\"",
+            "\tupdateFinished=\".onUpdateFinished\"",
+            "\tselectionChange=\".onSelectionChange\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.SelectDialogBase with non-inherited properties, aggregations and events"
+        "description": "sap.m.SelectDialogBase"
     }
 }

@@ -1,39 +1,47 @@
 {
     "sap.m.VBox": {
-        "prefix": "!5-vbox",
+        "prefix": "!5-sap-m-vbox",
         "body": [
-            "<VBox ",
+            "<m:VBox ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.m.VBox"
     },
     "sap.m.VBox-properties": {
-        "prefix": "!5-vbox-properties",
+        "prefix": "!5-sap-m-vbox",
         "body": [
-            "$1direction=\"Column\"$2"
+            "<m:VBox",
+            "\tdirection=\"Column\"",
+            "$1/>"
         ],
-        "description": "sap.m.VBox with non-inherited properties"
+        "description": "sap.m.VBox"
     },
     "sap.m.VBox-aggregations": {
-        "prefix": "!5-vbox-aggregations",
+        "prefix": "!5-sap-m-vbox",
         "body": [
-            "$1$2"
+            "<m:VBox>",
+            "</m:VBox>"
         ],
-        "description": "sap.m.VBox with non-inherited aggregations"
+        "description": "sap.m.VBox"
     },
     "sap.m.VBox-events": {
-        "prefix": "!5-vbox-events",
+        "prefix": "!5-sap-m-vbox",
         "body": [
-            "$1$2"
+            "<m:VBox",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.VBox with non-inherited events"
+        "description": "sap.m.VBox"
     },
     "sap.m.VBox-all": {
-        "prefix": "!5-vbox-all",
+        "prefix": "!5-sap-m-vbox",
         "body": [
-            "$1direction=\"Column\"$2"
+            "<m:VBox",
+            "\tdirection=\"Column\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.VBox with non-inherited properties, aggregations and events"
+        "description": "sap.m.VBox"
     }
 }

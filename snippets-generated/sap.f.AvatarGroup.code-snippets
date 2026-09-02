@@ -1,54 +1,63 @@
 {
     "sap.f.AvatarGroup": {
-        "prefix": "!5-avatar-group",
+        "prefix": "!5-sap-f-avatargroup",
         "body": [
-            "<AvatarGroup ",
+            "<f:AvatarGroup ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.f.AvatarGroup"
     },
     "sap.f.AvatarGroup-properties": {
-        "prefix": "!5-avatar-group-properties",
+        "prefix": "!5-sap-f-avatargroup",
         "body": [
-            "$1groupType=\"Group\"",
-            "avatarDisplaySize=\"S\"",
-            "avatarCustomDisplaySize=\"3rem\"",
-            "avatarCustomFontSize=\"1.125rem\"",
-            "_interactive=\"true\"$2"
+            "<f:AvatarGroup",
+            "\tgroupType=\"Group\"",
+            "\tavatarDisplaySize=\"S\"",
+            "\tavatarCustomDisplaySize=\"3rem\"",
+            "\tavatarCustomFontSize=\"1.125rem\"",
+            "$1/>"
         ],
-        "description": "sap.f.AvatarGroup with non-inherited properties"
+        "description": "sap.f.AvatarGroup"
     },
     "sap.f.AvatarGroup-aggregations": {
-        "prefix": "!5-avatar-group-aggregations",
+        "prefix": "!5-sap-f-avatargroup",
         "body": [
-            "$1<items>",
-            "\t<!-- <sap.f.AvatarGroupItem /> -->",
-            "</items>",
-            "$2"
+            "<f:AvatarGroup>",
+            "\t<f:AvatarGroupItem>",
+            "\t\t$1",
+            "\t</f:AvatarGroupItem>",
+            "</f:AvatarGroup>"
         ],
-        "description": "sap.f.AvatarGroup with non-inherited aggregations"
+        "description": "sap.f.AvatarGroup"
     },
     "sap.f.AvatarGroup-events": {
-        "prefix": "!5-avatar-group-events",
+        "prefix": "!5-sap-f-avatargroup",
         "body": [
-            "$1press=\".on${3:Press}\"$2"
+            "<f:AvatarGroup",
+            "\tpress=\".onPress\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.f.AvatarGroup with non-inherited events"
+        "description": "sap.f.AvatarGroup"
     },
     "sap.f.AvatarGroup-all": {
-        "prefix": "!5-avatar-group-all",
+        "prefix": "!5-sap-f-avatargroup",
         "body": [
-            "$1groupType=\"Group\"",
-            "avatarDisplaySize=\"S\"",
-            "avatarCustomDisplaySize=\"3rem\"",
-            "avatarCustomFontSize=\"1.125rem\"",
-            "_interactive=\"true\"",
-            "<items>",
-            "\t<!-- <sap.f.AvatarGroupItem /> -->",
-            "</items>",
-            "press=\".on${3:Press}\"$2"
+            "<f:AvatarGroup",
+            "\tgroupType=\"Group\"",
+            "\tavatarDisplaySize=\"S\"",
+            "\tavatarCustomDisplaySize=\"3rem\"",
+            "\tavatarCustomFontSize=\"1.125rem\"",
+            "\tpress=\".onPress\"",
+            ">",
+            "\t<items>",
+            "\t\t<f:AvatarGroupItem",
+            "\t\t\t$1",
+            "\t\t/>",
+            "\t</items>",
+            "</f:AvatarGroup>"
         ],
-        "description": "sap.f.AvatarGroup with non-inherited properties, aggregations and events"
+        "description": "sap.f.AvatarGroup"
     }
 }

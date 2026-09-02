@@ -1,39 +1,47 @@
 {
     "sap.ui.layout.form.FormLayout": {
-        "prefix": "!5-form-layout",
+        "prefix": "!5-sap-ui-layout-form-formlayout",
         "body": [
-            "<FormLayout ",
+            "<form:FormLayout ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.ui.layout.form.FormLayout"
     },
     "sap.ui.layout.form.FormLayout-properties": {
-        "prefix": "!5-form-layout-properties",
+        "prefix": "!5-sap-ui-layout-form-formlayout",
         "body": [
-            "$1backgroundDesign=\"Translucent\"$2"
+            "<form:FormLayout",
+            "\tbackgroundDesign=\"Translucent\"",
+            "$1/>"
         ],
-        "description": "sap.ui.layout.form.FormLayout with non-inherited properties"
+        "description": "sap.ui.layout.form.FormLayout"
     },
     "sap.ui.layout.form.FormLayout-aggregations": {
-        "prefix": "!5-form-layout-aggregations",
+        "prefix": "!5-sap-ui-layout-form-formlayout",
         "body": [
-            "$1$2"
+            "<form:FormLayout>",
+            "</form:FormLayout>"
         ],
-        "description": "sap.ui.layout.form.FormLayout with non-inherited aggregations"
+        "description": "sap.ui.layout.form.FormLayout"
     },
     "sap.ui.layout.form.FormLayout-events": {
-        "prefix": "!5-form-layout-events",
+        "prefix": "!5-sap-ui-layout-form-formlayout",
         "body": [
-            "$1$2"
+            "<form:FormLayout",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.ui.layout.form.FormLayout with non-inherited events"
+        "description": "sap.ui.layout.form.FormLayout"
     },
     "sap.ui.layout.form.FormLayout-all": {
-        "prefix": "!5-form-layout-all",
+        "prefix": "!5-sap-ui-layout-form-formlayout",
         "body": [
-            "$1backgroundDesign=\"Translucent\"$2"
+            "<form:FormLayout",
+            "\tbackgroundDesign=\"Translucent\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.ui.layout.form.FormLayout with non-inherited properties, aggregations and events"
+        "description": "sap.ui.layout.form.FormLayout"
     }
 }

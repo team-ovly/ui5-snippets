@@ -17,13 +17,16 @@
         "@ui5/dts-generator": "^4.0.5"
     },
     "devDependencies": {
+        "@vscode/test-cli": "^0.0.15",
+        "@vscode/test-electron": "^3.1.0",
         "nodemon": "^3.1.14"
     },
     "scripts": {
         "generate": "node ./generator/index.js",
         "download": "node ./generator/download.js",
         "watch:generate": "nodemon --watch ./generator --exec \"npm run generate\"",
-        "watch:download": "nodemon --watch ./generator --exec \"npm run download\""
+        "watch:download": "nodemon --watch ./generator --exec \"npm run download\"",
+        "test": "vscode-test"
     },
     "contributes": {
         "snippets": [

@@ -1,43 +1,51 @@
 {
     "sap.m.FacetFilterItem": {
-        "prefix": "!5-facet-filter-item",
+        "prefix": "!5-sap-m-facetfilteritem",
         "body": [
-            "<FacetFilterItem ",
+            "<m:FacetFilterItem ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.m.FacetFilterItem"
     },
     "sap.m.FacetFilterItem-properties": {
-        "prefix": "!5-facet-filter-item-properties",
+        "prefix": "!5-sap-m-facetfilteritem",
         "body": [
-            "$1key=\"\"",
-            "text=\"\"",
-            "count=\"\"$2"
+            "<m:FacetFilterItem",
+            "\tkey=\"null\"",
+            "\ttext=\"null\"",
+            "\tcount=\"null\"",
+            "$1/>"
         ],
-        "description": "sap.m.FacetFilterItem with non-inherited properties"
+        "description": "sap.m.FacetFilterItem"
     },
     "sap.m.FacetFilterItem-aggregations": {
-        "prefix": "!5-facet-filter-item-aggregations",
+        "prefix": "!5-sap-m-facetfilteritem",
         "body": [
-            "$1$2"
+            "<m:FacetFilterItem>",
+            "</m:FacetFilterItem>"
         ],
-        "description": "sap.m.FacetFilterItem with non-inherited aggregations"
+        "description": "sap.m.FacetFilterItem"
     },
     "sap.m.FacetFilterItem-events": {
-        "prefix": "!5-facet-filter-item-events",
+        "prefix": "!5-sap-m-facetfilteritem",
         "body": [
-            "$1$2"
+            "<m:FacetFilterItem",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.FacetFilterItem with non-inherited events"
+        "description": "sap.m.FacetFilterItem"
     },
     "sap.m.FacetFilterItem-all": {
-        "prefix": "!5-facet-filter-item-all",
+        "prefix": "!5-sap-m-facetfilteritem",
         "body": [
-            "$1key=\"\"",
-            "text=\"\"",
-            "count=\"\"$2"
+            "<m:FacetFilterItem",
+            "\tkey=\"null\"",
+            "\ttext=\"null\"",
+            "\tcount=\"null\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.FacetFilterItem with non-inherited properties, aggregations and events"
+        "description": "sap.m.FacetFilterItem"
     }
 }

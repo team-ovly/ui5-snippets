@@ -1,39 +1,45 @@
 {
     "sap.m.HBox": {
-        "prefix": "!5-hbox",
+        "prefix": "!5-sap-m-hbox",
         "body": [
-            "<HBox ",
+            "<m:HBox ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.m.HBox"
     },
     "sap.m.HBox-properties": {
-        "prefix": "!5-hbox-properties",
+        "prefix": "!5-sap-m-hbox",
         "body": [
-            "$1$2"
+            "<m:HBox",
+            "$1/>"
         ],
-        "description": "sap.m.HBox with non-inherited properties"
+        "description": "sap.m.HBox"
     },
     "sap.m.HBox-aggregations": {
-        "prefix": "!5-hbox-aggregations",
+        "prefix": "!5-sap-m-hbox",
         "body": [
-            "$1$2"
+            "<m:HBox>",
+            "</m:HBox>"
         ],
-        "description": "sap.m.HBox with non-inherited aggregations"
+        "description": "sap.m.HBox"
     },
     "sap.m.HBox-events": {
-        "prefix": "!5-hbox-events",
+        "prefix": "!5-sap-m-hbox",
         "body": [
-            "$1$2"
+            "<m:HBox",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.HBox with non-inherited events"
+        "description": "sap.m.HBox"
     },
     "sap.m.HBox-all": {
-        "prefix": "!5-hbox-all",
+        "prefix": "!5-sap-m-hbox",
         "body": [
-            "$1$2"
+            "<m:HBox",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.HBox with non-inherited properties, aggregations and events"
+        "description": "sap.m.HBox"
     }
 }

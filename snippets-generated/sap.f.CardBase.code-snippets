@@ -1,56 +1,53 @@
 {
     "sap.f.CardBase": {
-        "prefix": "!5-card-base",
+        "prefix": "!5-sap-f-cardbase",
         "body": [
-            "<CardBase ",
+            "<f:CardBase ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.f.CardBase"
     },
     "sap.f.CardBase-properties": {
-        "prefix": "!5-card-base-properties",
+        "prefix": "!5-sap-f-cardbase",
         "body": [
-            "$1width=\"100%\"",
-            "height=\"auto\"",
-            "semanticRole=\"Region\"$2"
+            "<f:CardBase",
+            "\twidth=\"100%\"",
+            "\theight=\"auto\"",
+            "\tsemanticRole=\"Region\"",
+            "$1/>"
         ],
-        "description": "sap.f.CardBase with non-inherited properties"
+        "description": "sap.f.CardBase"
     },
     "sap.f.CardBase-aggregations": {
-        "prefix": "!5-card-base-aggregations",
+        "prefix": "!5-sap-f-cardbase",
         "body": [
-            "$1<_cardBadges>",
-            "\t<!-- <sap.m.ObjectStatus /> -->",
-            "</_cardBadges>",
-            "<_oInvisibleCardBadgeText>",
-            "\t<!-- <sap.ui.core.InvisibleText /> -->",
-            "</_oInvisibleCardBadgeText>",
-            "$2"
+            "<f:CardBase>",
+            "</f:CardBase>"
         ],
-        "description": "sap.f.CardBase with non-inherited aggregations"
+        "description": "sap.f.CardBase"
     },
     "sap.f.CardBase-events": {
-        "prefix": "!5-card-base-events",
+        "prefix": "!5-sap-f-cardbase",
         "body": [
-            "$1press=\".on${3:Press}\"$2"
+            "<f:CardBase",
+            "\tpress=\".onPress\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.f.CardBase with non-inherited events"
+        "description": "sap.f.CardBase"
     },
     "sap.f.CardBase-all": {
-        "prefix": "!5-card-base-all",
+        "prefix": "!5-sap-f-cardbase",
         "body": [
-            "$1width=\"100%\"",
-            "height=\"auto\"",
-            "semanticRole=\"Region\"",
-            "<_cardBadges>",
-            "\t<!-- <sap.m.ObjectStatus /> -->",
-            "</_cardBadges>",
-            "<_oInvisibleCardBadgeText>",
-            "\t<!-- <sap.ui.core.InvisibleText /> -->",
-            "</_oInvisibleCardBadgeText>",
-            "press=\".on${3:Press}\"$2"
+            "<f:CardBase",
+            "\twidth=\"100%\"",
+            "\theight=\"auto\"",
+            "\tsemanticRole=\"Region\"",
+            "\tpress=\".onPress\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.f.CardBase with non-inherited properties, aggregations and events"
+        "description": "sap.f.CardBase"
     }
 }

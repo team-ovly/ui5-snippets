@@ -1,66 +1,65 @@
 {
     "sap.m.ProgressIndicator": {
-        "prefix": "!5-progress-indicator",
+        "prefix": "!5-sap-m-progressindicator",
         "body": [
-            "<ProgressIndicator ",
+            "<m:ProgressIndicator ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.m.ProgressIndicator"
     },
     "sap.m.ProgressIndicator-properties": {
-        "prefix": "!5-progress-indicator-properties",
+        "prefix": "!5-sap-m-progressindicator",
         "body": [
-            "$1enabled=\"true\"",
-            "state=\"None\"",
-            "displayValue=\"\"",
-            "percentValue=\"0\"",
-            "showValue=\"true\"",
-            "width=\"100%\"",
-            "height=\"\"",
-            "textDirection=\"Inherit\"",
-            "displayOnly=\"false\"",
-            "displayAnimation=\"true\"$2"
+            "<m:ProgressIndicator",
+            "\tenabled=\"true\"",
+            "\tstate=\"None\"",
+            "\tdisplayValue=\"null\"",
+            "\tpercentValue=\"0\"",
+            "\tshowValue=\"true\"",
+            "\twidth=\"100%\"",
+            "\theight=\"null\"",
+            "\ttextDirection=\"Inherit\"",
+            "\tdisplayOnly=\"false\"",
+            "\tdisplayAnimation=\"true\"",
+            "$1/>"
         ],
-        "description": "sap.m.ProgressIndicator with non-inherited properties"
+        "description": "sap.m.ProgressIndicator"
     },
     "sap.m.ProgressIndicator-aggregations": {
-        "prefix": "!5-progress-indicator-aggregations",
+        "prefix": "!5-sap-m-progressindicator",
         "body": [
-            "$1<_popover>",
-            "\t<!-- <sap.m.Popover /> -->",
-            "</_popover>",
-            "$2"
+            "<m:ProgressIndicator>",
+            "</m:ProgressIndicator>"
         ],
-        "description": "sap.m.ProgressIndicator with non-inherited aggregations"
+        "description": "sap.m.ProgressIndicator"
     },
     "sap.m.ProgressIndicator-events": {
-        "prefix": "!5-progress-indicator-events",
+        "prefix": "!5-sap-m-progressindicator",
         "body": [
-            "$1ariaDescribedBy=\".on${3:AriaDescribedBy}\"",
-            "ariaLabelledBy=\".on${4:AriaLabelledBy}\"$2"
+            "<m:ProgressIndicator",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.ProgressIndicator with non-inherited events"
+        "description": "sap.m.ProgressIndicator"
     },
     "sap.m.ProgressIndicator-all": {
-        "prefix": "!5-progress-indicator-all",
+        "prefix": "!5-sap-m-progressindicator",
         "body": [
-            "$1enabled=\"true\"",
-            "state=\"None\"",
-            "displayValue=\"\"",
-            "percentValue=\"0\"",
-            "showValue=\"true\"",
-            "width=\"100%\"",
-            "height=\"\"",
-            "textDirection=\"Inherit\"",
-            "displayOnly=\"false\"",
-            "displayAnimation=\"true\"",
-            "<_popover>",
-            "\t<!-- <sap.m.Popover /> -->",
-            "</_popover>",
-            "ariaDescribedBy=\".on${3:AriaDescribedBy}\"",
-            "ariaLabelledBy=\".on${4:AriaLabelledBy}\"$2"
+            "<m:ProgressIndicator",
+            "\tenabled=\"true\"",
+            "\tstate=\"None\"",
+            "\tdisplayValue=\"null\"",
+            "\tpercentValue=\"0\"",
+            "\tshowValue=\"true\"",
+            "\twidth=\"100%\"",
+            "\theight=\"null\"",
+            "\ttextDirection=\"Inherit\"",
+            "\tdisplayOnly=\"false\"",
+            "\tdisplayAnimation=\"true\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.ProgressIndicator with non-inherited properties, aggregations and events"
+        "description": "sap.m.ProgressIndicator"
     }
 }

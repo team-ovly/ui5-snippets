@@ -1,46 +1,55 @@
 {
     "sap.m.DateTimeField": {
-        "prefix": "!5-date-time-field",
+        "prefix": "!5-sap-m-datetimefield",
         "body": [
-            "<DateTimeField ",
+            "<m:DateTimeField ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.m.DateTimeField"
     },
     "sap.m.DateTimeField-properties": {
-        "prefix": "!5-date-time-field-properties",
+        "prefix": "!5-sap-m-datetimefield",
         "body": [
-            "$1displayFormat=\"\"",
-            "valueFormat=\"\"",
-            "dateValue=\"\"",
-            "initialFocusedDateValue=\"\"$2"
+            "<m:DateTimeField",
+            "\tdisplayFormat=\"null\"",
+            "\tvalueFormat=\"null\"",
+            "\tdateValue=\"null\"",
+            "\tinitialFocusedDateValue=\"null\"",
+            "$1/>"
         ],
-        "description": "sap.m.DateTimeField with non-inherited properties"
+        "description": "sap.m.DateTimeField"
     },
     "sap.m.DateTimeField-aggregations": {
-        "prefix": "!5-date-time-field-aggregations",
+        "prefix": "!5-sap-m-datetimefield",
         "body": [
-            "$1$2"
+            "<m:DateTimeField>",
+            "</m:DateTimeField>"
         ],
-        "description": "sap.m.DateTimeField with non-inherited aggregations"
+        "description": "sap.m.DateTimeField"
     },
     "sap.m.DateTimeField-events": {
-        "prefix": "!5-date-time-field-events",
+        "prefix": "!5-sap-m-datetimefield",
         "body": [
-            "$1liveChange=\".on${3:LiveChange}\"$2"
+            "<m:DateTimeField",
+            "\tliveChange=\".onLiveChange\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.DateTimeField with non-inherited events"
+        "description": "sap.m.DateTimeField"
     },
     "sap.m.DateTimeField-all": {
-        "prefix": "!5-date-time-field-all",
+        "prefix": "!5-sap-m-datetimefield",
         "body": [
-            "$1displayFormat=\"\"",
-            "valueFormat=\"\"",
-            "dateValue=\"\"",
-            "initialFocusedDateValue=\"\"",
-            "liveChange=\".on${3:LiveChange}\"$2"
+            "<m:DateTimeField",
+            "\tdisplayFormat=\"null\"",
+            "\tvalueFormat=\"null\"",
+            "\tdateValue=\"null\"",
+            "\tinitialFocusedDateValue=\"null\"",
+            "\tliveChange=\".onLiveChange\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.DateTimeField with non-inherited properties, aggregations and events"
+        "description": "sap.m.DateTimeField"
     }
 }

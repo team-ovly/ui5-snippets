@@ -1,52 +1,59 @@
 {
     "sap.ui.table.AnalyticalTable": {
-        "prefix": "!5-analytical-table",
+        "prefix": "!5-sap-ui-table-analyticaltable",
         "body": [
-            "<AnalyticalTable ",
+            "<table:AnalyticalTable ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.ui.table.AnalyticalTable"
     },
     "sap.ui.table.AnalyticalTable-properties": {
-        "prefix": "!5-analytical-table-properties",
+        "prefix": "!5-sap-ui-table-analyticaltable",
         "body": [
-            "$1sumOnTop=\"false\"",
-            "numberOfExpandedLevels=\"0\"",
-            "autoExpandMode=\"Bundled\"",
-            "columnVisibilityMenuSorter=\"\"",
-            "collapseRecursive=\"true\"",
-            "dirty=\"\"",
-            "extendedGroupHeaderMenu=\"true\"$2"
+            "<table:AnalyticalTable",
+            "\tsumOnTop=\"false\"",
+            "\tnumberOfExpandedLevels=\"0\"",
+            "\tautoExpandMode=\"Bundled\"",
+            "\tcolumnVisibilityMenuSorter=\"null\"",
+            "\tcollapseRecursive=\"true\"",
+            "\tdirty=\"null\"",
+            "$1/>"
         ],
-        "description": "sap.ui.table.AnalyticalTable with non-inherited properties"
+        "description": "sap.ui.table.AnalyticalTable"
     },
     "sap.ui.table.AnalyticalTable-aggregations": {
-        "prefix": "!5-analytical-table-aggregations",
+        "prefix": "!5-sap-ui-table-analyticaltable",
         "body": [
-            "$1$2"
+            "<table:AnalyticalTable>",
+            "</table:AnalyticalTable>"
         ],
-        "description": "sap.ui.table.AnalyticalTable with non-inherited aggregations"
+        "description": "sap.ui.table.AnalyticalTable"
     },
     "sap.ui.table.AnalyticalTable-events": {
-        "prefix": "!5-analytical-table-events",
+        "prefix": "!5-sap-ui-table-analyticaltable",
         "body": [
-            "$1group=\".on${3:Group}\"$2"
+            "<table:AnalyticalTable",
+            "\tgroup=\".onGroup\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.ui.table.AnalyticalTable with non-inherited events"
+        "description": "sap.ui.table.AnalyticalTable"
     },
     "sap.ui.table.AnalyticalTable-all": {
-        "prefix": "!5-analytical-table-all",
+        "prefix": "!5-sap-ui-table-analyticaltable",
         "body": [
-            "$1sumOnTop=\"false\"",
-            "numberOfExpandedLevels=\"0\"",
-            "autoExpandMode=\"Bundled\"",
-            "columnVisibilityMenuSorter=\"\"",
-            "collapseRecursive=\"true\"",
-            "dirty=\"\"",
-            "extendedGroupHeaderMenu=\"true\"",
-            "group=\".on${3:Group}\"$2"
+            "<table:AnalyticalTable",
+            "\tsumOnTop=\"false\"",
+            "\tnumberOfExpandedLevels=\"0\"",
+            "\tautoExpandMode=\"Bundled\"",
+            "\tcolumnVisibilityMenuSorter=\"null\"",
+            "\tcollapseRecursive=\"true\"",
+            "\tdirty=\"null\"",
+            "\tgroup=\".onGroup\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.ui.table.AnalyticalTable with non-inherited properties, aggregations and events"
+        "description": "sap.ui.table.AnalyticalTable"
     }
 }

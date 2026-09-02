@@ -1,90 +1,97 @@
 {
     "sap.m.IconTabBar": {
-        "prefix": "!5-icon-tab-bar",
+        "prefix": "!5-sap-m-icontabbar",
         "body": [
-            "<IconTabBar ",
+            "<m:IconTabBar ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.m.IconTabBar"
     },
     "sap.m.IconTabBar-properties": {
-        "prefix": "!5-icon-tab-bar-properties",
+        "prefix": "!5-sap-m-icontabbar",
         "body": [
-            "$1showSelection=\"true\"",
-            "expandable=\"true\"",
-            "expanded=\"true\"",
-            "selectedKey=\"\"",
-            "upperCase=\"false\"",
-            "stretchContentHeight=\"false\"",
-            "applyContentPadding=\"true\"",
-            "backgroundDesign=\"Solid\"",
-            "headerMode=\"Standard\"",
-            "showOverflowSelectList=\"false\"",
-            "headerBackgroundDesign=\"Solid\"",
-            "enableTabReordering=\"false\"",
-            "maxNestingLevel=\"0\"",
-            "tabDensityMode=\"Cozy\"",
-            "ariaTexts=\"\"",
-            "tabsOverflowMode=\"End\"$2"
+            "<m:IconTabBar",
+            "\tshowSelection=\"true\"",
+            "\texpandable=\"true\"",
+            "\texpanded=\"true\"",
+            "\tselectedKey=\"null\"",
+            "\tupperCase=\"false\"",
+            "\tstretchContentHeight=\"false\"",
+            "\tapplyContentPadding=\"true\"",
+            "\tbackgroundDesign=\"Solid\"",
+            "\theaderMode=\"Standard\"",
+            "\tshowOverflowSelectList=\"false\"",
+            "\theaderBackgroundDesign=\"Solid\"",
+            "\tenableTabReordering=\"false\"",
+            "\tmaxNestingLevel=\"0\"",
+            "\ttabDensityMode=\"Cozy\"",
+            "\tariaTexts=\"null\"",
+            "\ttabsOverflowMode=\"End\"",
+            "$1/>"
         ],
-        "description": "sap.m.IconTabBar with non-inherited properties"
+        "description": "sap.m.IconTabBar"
     },
     "sap.m.IconTabBar-aggregations": {
-        "prefix": "!5-icon-tab-bar-aggregations",
+        "prefix": "!5-sap-m-icontabbar",
         "body": [
-            "$1<items>",
-            "\t<!-- <sap.m.IconTab /> -->",
-            "</items>",
-            "<content>",
-            "\t<!-- <sap.ui.core.Control /> -->",
-            "</content>",
-            "<_header>",
-            "\t<!-- <sap.m.IconTabHeader /> -->",
-            "</_header>",
-            "$2"
+            "<m:IconTabBar>",
+            "\t<m:IconTab>",
+            "\t\t$1",
+            "\t</m:IconTab>",
+            "\t<core:Control>",
+            "\t\t$2",
+            "\t</core:Control>",
+            "</m:IconTabBar>"
         ],
-        "description": "sap.m.IconTabBar with non-inherited aggregations"
+        "description": "sap.m.IconTabBar"
     },
     "sap.m.IconTabBar-events": {
-        "prefix": "!5-icon-tab-bar-events",
+        "prefix": "!5-sap-m-icontabbar",
         "body": [
-            "$1select=\".on${3:Select}\"",
-            "expand=\".on${4:Expand}\"$2"
+            "<m:IconTabBar",
+            "\tselect=\".onSelect\"",
+            "\texpand=\".onExpand\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.IconTabBar with non-inherited events"
+        "description": "sap.m.IconTabBar"
     },
     "sap.m.IconTabBar-all": {
-        "prefix": "!5-icon-tab-bar-all",
+        "prefix": "!5-sap-m-icontabbar",
         "body": [
-            "$1showSelection=\"true\"",
-            "expandable=\"true\"",
-            "expanded=\"true\"",
-            "selectedKey=\"\"",
-            "upperCase=\"false\"",
-            "stretchContentHeight=\"false\"",
-            "applyContentPadding=\"true\"",
-            "backgroundDesign=\"Solid\"",
-            "headerMode=\"Standard\"",
-            "showOverflowSelectList=\"false\"",
-            "headerBackgroundDesign=\"Solid\"",
-            "enableTabReordering=\"false\"",
-            "maxNestingLevel=\"0\"",
-            "tabDensityMode=\"Cozy\"",
-            "ariaTexts=\"\"",
-            "tabsOverflowMode=\"End\"",
-            "<items>",
-            "\t<!-- <sap.m.IconTab /> -->",
-            "</items>",
-            "<content>",
-            "\t<!-- <sap.ui.core.Control /> -->",
-            "</content>",
-            "<_header>",
-            "\t<!-- <sap.m.IconTabHeader /> -->",
-            "</_header>",
-            "select=\".on${3:Select}\"",
-            "expand=\".on${4:Expand}\"$2"
+            "<m:IconTabBar",
+            "\tshowSelection=\"true\"",
+            "\texpandable=\"true\"",
+            "\texpanded=\"true\"",
+            "\tselectedKey=\"null\"",
+            "\tupperCase=\"false\"",
+            "\tstretchContentHeight=\"false\"",
+            "\tapplyContentPadding=\"true\"",
+            "\tbackgroundDesign=\"Solid\"",
+            "\theaderMode=\"Standard\"",
+            "\tshowOverflowSelectList=\"false\"",
+            "\theaderBackgroundDesign=\"Solid\"",
+            "\tenableTabReordering=\"false\"",
+            "\tmaxNestingLevel=\"0\"",
+            "\ttabDensityMode=\"Cozy\"",
+            "\tariaTexts=\"null\"",
+            "\ttabsOverflowMode=\"End\"",
+            "\tselect=\".onSelect\"",
+            "\texpand=\".onExpand\"",
+            ">",
+            "\t<items>",
+            "\t\t<m:IconTab",
+            "\t\t\t$1",
+            "\t\t/>",
+            "\t</items>",
+            "\t<content>",
+            "\t\t<core:Control",
+            "\t\t\t$2",
+            "\t\t/>",
+            "\t</content>",
+            "</m:IconTabBar>"
         ],
-        "description": "sap.m.IconTabBar with non-inherited properties, aggregations and events"
+        "description": "sap.m.IconTabBar"
     }
 }

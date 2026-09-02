@@ -1,48 +1,57 @@
 {
     "sap.m.QuickView": {
-        "prefix": "!5-quick-view",
+        "prefix": "!5-sap-m-quickview",
         "body": [
-            "<QuickView ",
+            "<m:QuickView ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.m.QuickView"
     },
     "sap.m.QuickView-properties": {
-        "prefix": "!5-quick-view-properties",
+        "prefix": "!5-sap-m-quickview",
         "body": [
-            "$1placement=\"Right\"",
-            "width=\"320px\"$2"
+            "<m:QuickView",
+            "\tplacement=\"Right\"",
+            "\twidth=\"320px\"",
+            "$1/>"
         ],
-        "description": "sap.m.QuickView with non-inherited properties"
+        "description": "sap.m.QuickView"
     },
     "sap.m.QuickView-aggregations": {
-        "prefix": "!5-quick-view-aggregations",
+        "prefix": "!5-sap-m-quickview",
         "body": [
-            "$1$2"
+            "<m:QuickView>",
+            "</m:QuickView>"
         ],
-        "description": "sap.m.QuickView with non-inherited aggregations"
+        "description": "sap.m.QuickView"
     },
     "sap.m.QuickView-events": {
-        "prefix": "!5-quick-view-events",
+        "prefix": "!5-sap-m-quickview",
         "body": [
-            "$1afterOpen=\".on${3:AfterOpen}\"",
-            "afterClose=\".on${4:AfterClose}\"",
-            "beforeOpen=\".on${5:BeforeOpen}\"",
-            "beforeClose=\".on${6:BeforeClose}\"$2"
+            "<m:QuickView",
+            "\tafterOpen=\".onAfterOpen\"",
+            "\tafterClose=\".onAfterClose\"",
+            "\tbeforeOpen=\".onBeforeOpen\"",
+            "\tbeforeClose=\".onBeforeClose\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.QuickView with non-inherited events"
+        "description": "sap.m.QuickView"
     },
     "sap.m.QuickView-all": {
-        "prefix": "!5-quick-view-all",
+        "prefix": "!5-sap-m-quickview",
         "body": [
-            "$1placement=\"Right\"",
-            "width=\"320px\"",
-            "afterOpen=\".on${3:AfterOpen}\"",
-            "afterClose=\".on${4:AfterClose}\"",
-            "beforeOpen=\".on${5:BeforeOpen}\"",
-            "beforeClose=\".on${6:BeforeClose}\"$2"
+            "<m:QuickView",
+            "\tplacement=\"Right\"",
+            "\twidth=\"320px\"",
+            "\tafterOpen=\".onAfterOpen\"",
+            "\tafterClose=\".onAfterClose\"",
+            "\tbeforeOpen=\".onBeforeOpen\"",
+            "\tbeforeClose=\".onBeforeClose\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.QuickView with non-inherited properties, aggregations and events"
+        "description": "sap.m.QuickView"
     }
 }

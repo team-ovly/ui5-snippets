@@ -1,71 +1,81 @@
 {
     "sap.m.FlexBox": {
-        "prefix": "!5-flex-box",
+        "prefix": "!5-sap-m-flexbox",
         "body": [
-            "<FlexBox ",
+            "<m:FlexBox ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.m.FlexBox"
     },
     "sap.m.FlexBox-properties": {
-        "prefix": "!5-flex-box-properties",
+        "prefix": "!5-sap-m-flexbox",
         "body": [
-            "$1height=\"\"",
-            "width=\"\"",
-            "displayInline=\"false\"",
-            "direction=\"Row\"",
-            "fitContainer=\"false\"",
-            "renderType=\"Div\"",
-            "justifyContent=\"Start\"",
-            "alignItems=\"Stretch\"",
-            "wrap=\"NoWrap\"",
-            "alignContent=\"Stretch\"",
-            "backgroundDesign=\"Transparent\"",
-            "gap=\"\"",
-            "rowGap=\"\"",
-            "columnGap=\"\"$2"
+            "<m:FlexBox",
+            "\theight=\"\"",
+            "\twidth=\"\"",
+            "\tdisplayInline=\"false\"",
+            "\tdirection=\"Row\"",
+            "\tfitContainer=\"false\"",
+            "\trenderType=\"Div\"",
+            "\tjustifyContent=\"Start\"",
+            "\talignItems=\"Stretch\"",
+            "\twrap=\"NoWrap\"",
+            "\talignContent=\"Stretch\"",
+            "\tbackgroundDesign=\"Transparent\"",
+            "\tgap=\"\"",
+            "\trowGap=\"\"",
+            "\tcolumnGap=\"\"",
+            "$1/>"
         ],
-        "description": "sap.m.FlexBox with non-inherited properties"
+        "description": "sap.m.FlexBox"
     },
     "sap.m.FlexBox-aggregations": {
-        "prefix": "!5-flex-box-aggregations",
+        "prefix": "!5-sap-m-flexbox",
         "body": [
-            "$1<items>",
-            "\t<!-- <sap.ui.core.Control /> -->",
-            "</items>",
-            "$2"
+            "<m:FlexBox>",
+            "\t<core:Control>",
+            "\t\t$1",
+            "\t</core:Control>",
+            "</m:FlexBox>"
         ],
-        "description": "sap.m.FlexBox with non-inherited aggregations"
+        "description": "sap.m.FlexBox"
     },
     "sap.m.FlexBox-events": {
-        "prefix": "!5-flex-box-events",
+        "prefix": "!5-sap-m-flexbox",
         "body": [
-            "$1$2"
+            "<m:FlexBox",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.FlexBox with non-inherited events"
+        "description": "sap.m.FlexBox"
     },
     "sap.m.FlexBox-all": {
-        "prefix": "!5-flex-box-all",
+        "prefix": "!5-sap-m-flexbox",
         "body": [
-            "$1height=\"\"",
-            "width=\"\"",
-            "displayInline=\"false\"",
-            "direction=\"Row\"",
-            "fitContainer=\"false\"",
-            "renderType=\"Div\"",
-            "justifyContent=\"Start\"",
-            "alignItems=\"Stretch\"",
-            "wrap=\"NoWrap\"",
-            "alignContent=\"Stretch\"",
-            "backgroundDesign=\"Transparent\"",
-            "gap=\"\"",
-            "rowGap=\"\"",
-            "columnGap=\"\"",
-            "<items>",
-            "\t<!-- <sap.ui.core.Control /> -->",
-            "</items>$2"
+            "<m:FlexBox",
+            "\theight=\"\"",
+            "\twidth=\"\"",
+            "\tdisplayInline=\"false\"",
+            "\tdirection=\"Row\"",
+            "\tfitContainer=\"false\"",
+            "\trenderType=\"Div\"",
+            "\tjustifyContent=\"Start\"",
+            "\talignItems=\"Stretch\"",
+            "\twrap=\"NoWrap\"",
+            "\talignContent=\"Stretch\"",
+            "\tbackgroundDesign=\"Transparent\"",
+            "\tgap=\"\"",
+            "\trowGap=\"\"",
+            "\tcolumnGap=\"\"",
+            ">",
+            "\t<items>",
+            "\t\t<core:Control",
+            "\t\t\t$1",
+            "\t\t/>",
+            "\t</items>",
+            "</m:FlexBox>"
         ],
-        "description": "sap.m.FlexBox with non-inherited properties, aggregations and events"
+        "description": "sap.m.FlexBox"
     }
 }

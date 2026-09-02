@@ -1,102 +1,81 @@
 {
     "sap.f.SidePanel": {
-        "prefix": "!5-side-panel",
+        "prefix": "!5-sap-f-sidepanel",
         "body": [
-            "<SidePanel ",
+            "<f:SidePanel ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.f.SidePanel"
     },
     "sap.f.SidePanel-properties": {
-        "prefix": "!5-side-panel-properties",
+        "prefix": "!5-sap-f-sidepanel",
         "body": [
-            "$1actionBarExpanded=\"false\"",
-            "ariaLabel=\"Side Panel\"",
-            "sidePanelResizable=\"false\"",
-            "sidePanelWidth=\"20rem\"",
-            "sidePanelMinWidth=\"15rem\"",
-            "sidePanelMaxWidth=\"90%\"",
-            "sidePanelResizeStep=\"10\"",
-            "sidePanelResizeLargerStep=\"100\"",
-            "sideContentExpanded=\"false\"",
-            "sidePanelPosition=\"Right\"$2"
+            "<f:SidePanel",
+            "\tactionBarExpanded=\"false\"",
+            "\tariaLabel=\"Side Panel\"",
+            "\tsidePanelResizable=\"false\"",
+            "\tsidePanelWidth=\"20rem\"",
+            "\tsidePanelMinWidth=\"15rem\"",
+            "\tsidePanelMaxWidth=\"90%\"",
+            "\tsidePanelResizeStep=\"10\"",
+            "\tsidePanelResizeLargerStep=\"100\"",
+            "\tsidePanelPosition=\"Right\"",
+            "$1/>"
         ],
-        "description": "sap.f.SidePanel with non-inherited properties"
+        "description": "sap.f.SidePanel"
     },
     "sap.f.SidePanel-aggregations": {
-        "prefix": "!5-side-panel-aggregations",
+        "prefix": "!5-sap-f-sidepanel",
         "body": [
-            "$1<mainContent>",
-            "\t<!-- <sap.ui.core.Control /> -->",
-            "</mainContent>",
-            "<items>",
-            "\t<!-- <sap.f.SidePanelItem /> -->",
-            "</items>",
-            "<_arrowButton>",
-            "\t<!-- <sap.m.Button /> -->",
-            "</_arrowButton>",
-            "<_closeButton>",
-            "\t<!-- <sap.m.Button /> -->",
-            "</_closeButton>",
-            "<_overflowItem>",
-            "\t<!-- <sap.f.SidePanelItem /> -->",
-            "</_overflowItem>",
-            "<_overflowMenu>",
-            "\t<!-- <sap.m.Menu /> -->",
-            "</_overflowMenu>",
-            "<_contextMenu>",
-            "\t<!-- <sap.m.Menu /> -->",
-            "</_contextMenu>",
-            "$2"
+            "<f:SidePanel>",
+            "\t<core:Control>",
+            "\t\t$1",
+            "\t</core:Control>",
+            "\t<f:SidePanelItem>",
+            "\t\t$2",
+            "\t</f:SidePanelItem>",
+            "</f:SidePanel>"
         ],
-        "description": "sap.f.SidePanel with non-inherited aggregations"
+        "description": "sap.f.SidePanel"
     },
     "sap.f.SidePanel-events": {
-        "prefix": "!5-side-panel-events",
+        "prefix": "!5-sap-f-sidepanel",
         "body": [
-            "$1toggle=\".on${3:Toggle}\"",
-            "selectedItem=\".on${4:SelectedItem}\"$2"
+            "<f:SidePanel",
+            "\ttoggle=\".onToggle\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.f.SidePanel with non-inherited events"
+        "description": "sap.f.SidePanel"
     },
     "sap.f.SidePanel-all": {
-        "prefix": "!5-side-panel-all",
+        "prefix": "!5-sap-f-sidepanel",
         "body": [
-            "$1actionBarExpanded=\"false\"",
-            "ariaLabel=\"Side Panel\"",
-            "sidePanelResizable=\"false\"",
-            "sidePanelWidth=\"20rem\"",
-            "sidePanelMinWidth=\"15rem\"",
-            "sidePanelMaxWidth=\"90%\"",
-            "sidePanelResizeStep=\"10\"",
-            "sidePanelResizeLargerStep=\"100\"",
-            "sideContentExpanded=\"false\"",
-            "sidePanelPosition=\"Right\"",
-            "<mainContent>",
-            "\t<!-- <sap.ui.core.Control /> -->",
-            "</mainContent>",
-            "<items>",
-            "\t<!-- <sap.f.SidePanelItem /> -->",
-            "</items>",
-            "<_arrowButton>",
-            "\t<!-- <sap.m.Button /> -->",
-            "</_arrowButton>",
-            "<_closeButton>",
-            "\t<!-- <sap.m.Button /> -->",
-            "</_closeButton>",
-            "<_overflowItem>",
-            "\t<!-- <sap.f.SidePanelItem /> -->",
-            "</_overflowItem>",
-            "<_overflowMenu>",
-            "\t<!-- <sap.m.Menu /> -->",
-            "</_overflowMenu>",
-            "<_contextMenu>",
-            "\t<!-- <sap.m.Menu /> -->",
-            "</_contextMenu>",
-            "toggle=\".on${3:Toggle}\"",
-            "selectedItem=\".on${4:SelectedItem}\"$2"
+            "<f:SidePanel",
+            "\tactionBarExpanded=\"false\"",
+            "\tariaLabel=\"Side Panel\"",
+            "\tsidePanelResizable=\"false\"",
+            "\tsidePanelWidth=\"20rem\"",
+            "\tsidePanelMinWidth=\"15rem\"",
+            "\tsidePanelMaxWidth=\"90%\"",
+            "\tsidePanelResizeStep=\"10\"",
+            "\tsidePanelResizeLargerStep=\"100\"",
+            "\tsidePanelPosition=\"Right\"",
+            "\ttoggle=\".onToggle\"",
+            ">",
+            "\t<mainContent>",
+            "\t\t<core:Control",
+            "\t\t\t$1",
+            "\t\t/>",
+            "\t</mainContent>",
+            "\t<items>",
+            "\t\t<f:SidePanelItem",
+            "\t\t\t$2",
+            "\t\t/>",
+            "\t</items>",
+            "</f:SidePanel>"
         ],
-        "description": "sap.f.SidePanel with non-inherited properties, aggregations and events"
+        "description": "sap.f.SidePanel"
     }
 }

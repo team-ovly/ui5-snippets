@@ -1,74 +1,79 @@
 {
     "sap.ui.unified.calendar.TimesRow": {
-        "prefix": "!5-times-row",
+        "prefix": "!5-sap-ui-unified-calendar-timesrow",
         "body": [
-            "<TimesRow ",
+            "<calendar:TimesRow ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.ui.unified.calendar.TimesRow"
     },
     "sap.ui.unified.calendar.TimesRow-properties": {
-        "prefix": "!5-times-row-properties",
+        "prefix": "!5-sap-ui-unified-calendar-timesrow",
         "body": [
-            "$1date=\"\"",
-            "startDate=\"\"",
-            "items=\"12\"",
-            "intervalMinutes=\"60\"",
-            "intervalSelection=\"false\"",
-            "singleSelection=\"true\"",
-            "showHeader=\"false\"",
-            "primaryCalendarType=\"\"",
-            "secondaryCalendarType=\"\"$2"
+            "<calendar:TimesRow",
+            "\tdate=\"null\"",
+            "\tstartDate=\"null\"",
+            "\titems=\"12\"",
+            "\tintervalMinutes=\"60\"",
+            "\tintervalSelection=\"false\"",
+            "\tsingleSelection=\"true\"",
+            "\tshowHeader=\"false\"",
+            "$1/>"
         ],
-        "description": "sap.ui.unified.calendar.TimesRow with non-inherited properties"
+        "description": "sap.ui.unified.calendar.TimesRow"
     },
     "sap.ui.unified.calendar.TimesRow-aggregations": {
-        "prefix": "!5-times-row-aggregations",
+        "prefix": "!5-sap-ui-unified-calendar-timesrow",
         "body": [
-            "$1<selectedDates>",
-            "\t<!-- <sap.ui.unified.DateRange /> -->",
-            "</selectedDates>",
-            "<specialDates>",
-            "\t<!-- <sap.ui.unified.DateTypeRange /> -->",
-            "</specialDates>",
-            "$2"
+            "<calendar:TimesRow>",
+            "\t<unified:DateRange>",
+            "\t\t$1",
+            "\t</unified:DateRange>",
+            "\t<unified:DateTypeRange>",
+            "\t\t$2",
+            "\t</unified:DateTypeRange>",
+            "</calendar:TimesRow>"
         ],
-        "description": "sap.ui.unified.calendar.TimesRow with non-inherited aggregations"
+        "description": "sap.ui.unified.calendar.TimesRow"
     },
     "sap.ui.unified.calendar.TimesRow-events": {
-        "prefix": "!5-times-row-events",
+        "prefix": "!5-sap-ui-unified-calendar-timesrow",
         "body": [
-            "$1select=\".on${3:Select}\"",
-            "focus=\".on${4:Focus}\"",
-            "ariaLabelledBy=\".on${5:AriaLabelledBy}\"",
-            "legend=\".on${6:Legend}\"$2"
+            "<calendar:TimesRow",
+            "\tselect=\".onSelect\"",
+            "\tfocus=\".onFocus\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.ui.unified.calendar.TimesRow with non-inherited events"
+        "description": "sap.ui.unified.calendar.TimesRow"
     },
     "sap.ui.unified.calendar.TimesRow-all": {
-        "prefix": "!5-times-row-all",
+        "prefix": "!5-sap-ui-unified-calendar-timesrow",
         "body": [
-            "$1date=\"\"",
-            "startDate=\"\"",
-            "items=\"12\"",
-            "intervalMinutes=\"60\"",
-            "intervalSelection=\"false\"",
-            "singleSelection=\"true\"",
-            "showHeader=\"false\"",
-            "primaryCalendarType=\"\"",
-            "secondaryCalendarType=\"\"",
-            "<selectedDates>",
-            "\t<!-- <sap.ui.unified.DateRange /> -->",
-            "</selectedDates>",
-            "<specialDates>",
-            "\t<!-- <sap.ui.unified.DateTypeRange /> -->",
-            "</specialDates>",
-            "select=\".on${3:Select}\"",
-            "focus=\".on${4:Focus}\"",
-            "ariaLabelledBy=\".on${5:AriaLabelledBy}\"",
-            "legend=\".on${6:Legend}\"$2"
+            "<calendar:TimesRow",
+            "\tdate=\"null\"",
+            "\tstartDate=\"null\"",
+            "\titems=\"12\"",
+            "\tintervalMinutes=\"60\"",
+            "\tintervalSelection=\"false\"",
+            "\tsingleSelection=\"true\"",
+            "\tshowHeader=\"false\"",
+            "\tselect=\".onSelect\"",
+            "\tfocus=\".onFocus\"",
+            ">",
+            "\t<selectedDates>",
+            "\t\t<unified:DateRange",
+            "\t\t\t$1",
+            "\t\t/>",
+            "\t</selectedDates>",
+            "\t<specialDates>",
+            "\t\t<unified:DateTypeRange",
+            "\t\t\t$2",
+            "\t\t/>",
+            "\t</specialDates>",
+            "</calendar:TimesRow>"
         ],
-        "description": "sap.ui.unified.calendar.TimesRow with non-inherited properties, aggregations and events"
+        "description": "sap.ui.unified.calendar.TimesRow"
     }
 }

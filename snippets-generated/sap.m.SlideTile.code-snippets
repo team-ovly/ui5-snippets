@@ -1,68 +1,67 @@
 {
     "sap.m.SlideTile": {
-        "prefix": "!5-slide-tile",
+        "prefix": "!5-sap-m-slidetile",
         "body": [
-            "<SlideTile ",
+            "<m:SlideTile ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.m.SlideTile"
     },
     "sap.m.SlideTile-properties": {
-        "prefix": "!5-slide-tile-properties",
+        "prefix": "!5-sap-m-slidetile",
         "body": [
-            "$1displayTime=\"5000\"",
-            "transitionTime=\"500\"",
-            "scope=\"Display\"",
-            "sizeBehavior=\"Responsive\"",
-            "width=\"\"",
-            "height=\"\"$2"
+            "<m:SlideTile",
+            "\tdisplayTime=\"5000\"",
+            "\ttransitionTime=\"500\"",
+            "\tscope=\"Display\"",
+            "\tsizeBehavior=\"Responsive\"",
+            "\twidth=\"null\"",
+            "\theight=\"null\"",
+            "$1/>"
         ],
-        "description": "sap.m.SlideTile with non-inherited properties"
+        "description": "sap.m.SlideTile"
     },
     "sap.m.SlideTile-aggregations": {
-        "prefix": "!5-slide-tile-aggregations",
+        "prefix": "!5-sap-m-slidetile",
         "body": [
-            "$1<tiles>",
-            "\t<!-- <sap.m.GenericTile /> -->",
-            "</tiles>",
-            "<_pausePlayIcon>",
-            "\t<!-- <sap.ui.core.Icon /> -->",
-            "</_pausePlayIcon>",
-            "<_invisibleText>",
-            "\t<!-- <sap.ui.core.InvisibleText /> -->",
-            "</_invisibleText>",
-            "$2"
+            "<m:SlideTile>",
+            "\t<m:GenericTile>",
+            "\t\t$1",
+            "\t</m:GenericTile>",
+            "</m:SlideTile>"
         ],
-        "description": "sap.m.SlideTile with non-inherited aggregations"
+        "description": "sap.m.SlideTile"
     },
     "sap.m.SlideTile-events": {
-        "prefix": "!5-slide-tile-events",
+        "prefix": "!5-sap-m-slidetile",
         "body": [
-            "$1press=\".on${3:Press}\"$2"
+            "<m:SlideTile",
+            "\tpress=\".onPress\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.SlideTile with non-inherited events"
+        "description": "sap.m.SlideTile"
     },
     "sap.m.SlideTile-all": {
-        "prefix": "!5-slide-tile-all",
+        "prefix": "!5-sap-m-slidetile",
         "body": [
-            "$1displayTime=\"5000\"",
-            "transitionTime=\"500\"",
-            "scope=\"Display\"",
-            "sizeBehavior=\"Responsive\"",
-            "width=\"\"",
-            "height=\"\"",
-            "<tiles>",
-            "\t<!-- <sap.m.GenericTile /> -->",
-            "</tiles>",
-            "<_pausePlayIcon>",
-            "\t<!-- <sap.ui.core.Icon /> -->",
-            "</_pausePlayIcon>",
-            "<_invisibleText>",
-            "\t<!-- <sap.ui.core.InvisibleText /> -->",
-            "</_invisibleText>",
-            "press=\".on${3:Press}\"$2"
+            "<m:SlideTile",
+            "\tdisplayTime=\"5000\"",
+            "\ttransitionTime=\"500\"",
+            "\tscope=\"Display\"",
+            "\tsizeBehavior=\"Responsive\"",
+            "\twidth=\"null\"",
+            "\theight=\"null\"",
+            "\tpress=\".onPress\"",
+            ">",
+            "\t<tiles>",
+            "\t\t<m:GenericTile",
+            "\t\t\t$1",
+            "\t\t/>",
+            "\t</tiles>",
+            "</m:SlideTile>"
         ],
-        "description": "sap.m.SlideTile with non-inherited properties, aggregations and events"
+        "description": "sap.m.SlideTile"
     }
 }

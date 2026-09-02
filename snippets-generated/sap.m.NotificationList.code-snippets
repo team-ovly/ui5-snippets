@@ -1,39 +1,45 @@
 {
     "sap.m.NotificationList": {
-        "prefix": "!5-notification-list",
+        "prefix": "!5-sap-m-notificationlist",
         "body": [
-            "<NotificationList ",
+            "<m:NotificationList ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.m.NotificationList"
     },
     "sap.m.NotificationList-properties": {
-        "prefix": "!5-notification-list-properties",
+        "prefix": "!5-sap-m-notificationlist",
         "body": [
-            "$1$2"
+            "<m:NotificationList",
+            "$1/>"
         ],
-        "description": "sap.m.NotificationList with non-inherited properties"
+        "description": "sap.m.NotificationList"
     },
     "sap.m.NotificationList-aggregations": {
-        "prefix": "!5-notification-list-aggregations",
+        "prefix": "!5-sap-m-notificationlist",
         "body": [
-            "$1$2"
+            "<m:NotificationList>",
+            "</m:NotificationList>"
         ],
-        "description": "sap.m.NotificationList with non-inherited aggregations"
+        "description": "sap.m.NotificationList"
     },
     "sap.m.NotificationList-events": {
-        "prefix": "!5-notification-list-events",
+        "prefix": "!5-sap-m-notificationlist",
         "body": [
-            "$1$2"
+            "<m:NotificationList",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.NotificationList with non-inherited events"
+        "description": "sap.m.NotificationList"
     },
     "sap.m.NotificationList-all": {
-        "prefix": "!5-notification-list-all",
+        "prefix": "!5-sap-m-notificationlist",
         "body": [
-            "$1$2"
+            "<m:NotificationList",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.NotificationList with non-inherited properties, aggregations and events"
+        "description": "sap.m.NotificationList"
     }
 }

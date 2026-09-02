@@ -1,78 +1,75 @@
 {
     "sap.m.Wizard": {
-        "prefix": "!5-wizard",
+        "prefix": "!5-sap-m-wizard",
         "body": [
-            "<Wizard ",
+            "<m:Wizard ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.m.Wizard"
     },
     "sap.m.Wizard-properties": {
-        "prefix": "!5-wizard-properties",
+        "prefix": "!5-sap-m-wizard",
         "body": [
-            "$1width=\"auto\"",
-            "height=\"100%\"",
-            "showNextButton=\"true\"",
-            "finishButtonText=\"Review\"",
-            "enableBranching=\"false\"",
-            "backgroundDesign=\"Standard\"",
-            "renderMode=\"Scroll\"",
-            "stepTitleLevel=\"H3\"$2"
+            "<m:Wizard",
+            "\twidth=\"auto\"",
+            "\theight=\"100%\"",
+            "\tshowNextButton=\"true\"",
+            "\tfinishButtonText=\"Review\"",
+            "\tenableBranching=\"false\"",
+            "\tbackgroundDesign=\"Standard\"",
+            "\trenderMode=\"Scroll\"",
+            "\tstepTitleLevel=\"H3\"",
+            "$1/>"
         ],
-        "description": "sap.m.Wizard with non-inherited properties"
+        "description": "sap.m.Wizard"
     },
     "sap.m.Wizard-aggregations": {
-        "prefix": "!5-wizard-aggregations",
+        "prefix": "!5-sap-m-wizard",
         "body": [
-            "$1<steps>",
-            "\t<!-- <sap.m.WizardStep /> -->",
-            "</steps>",
-            "<_progressNavigator>",
-            "\t<!-- <sap.ui.core.Control /> -->",
-            "</_progressNavigator>",
-            "<_nextButton>",
-            "\t<!-- <sap.m.Button /> -->",
-            "</_nextButton>",
-            "$2"
+            "<m:Wizard>",
+            "\t<m:WizardStep>",
+            "\t\t$1",
+            "\t</m:WizardStep>",
+            "</m:Wizard>"
         ],
-        "description": "sap.m.Wizard with non-inherited aggregations"
+        "description": "sap.m.Wizard"
     },
     "sap.m.Wizard-events": {
-        "prefix": "!5-wizard-events",
+        "prefix": "!5-sap-m-wizard",
         "body": [
-            "$1stepActivate=\".on${3:StepActivate}\"",
-            "navigationChange=\".on${4:NavigationChange}\"",
-            "complete=\".on${5:Complete}\"",
-            "currentStep=\".on${6:CurrentStep}\"$2"
+            "<m:Wizard",
+            "\tstepActivate=\".onStepActivate\"",
+            "\tnavigationChange=\".onNavigationChange\"",
+            "\tcomplete=\".onComplete\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.Wizard with non-inherited events"
+        "description": "sap.m.Wizard"
     },
     "sap.m.Wizard-all": {
-        "prefix": "!5-wizard-all",
+        "prefix": "!5-sap-m-wizard",
         "body": [
-            "$1width=\"auto\"",
-            "height=\"100%\"",
-            "showNextButton=\"true\"",
-            "finishButtonText=\"Review\"",
-            "enableBranching=\"false\"",
-            "backgroundDesign=\"Standard\"",
-            "renderMode=\"Scroll\"",
-            "stepTitleLevel=\"H3\"",
-            "<steps>",
-            "\t<!-- <sap.m.WizardStep /> -->",
-            "</steps>",
-            "<_progressNavigator>",
-            "\t<!-- <sap.ui.core.Control /> -->",
-            "</_progressNavigator>",
-            "<_nextButton>",
-            "\t<!-- <sap.m.Button /> -->",
-            "</_nextButton>",
-            "stepActivate=\".on${3:StepActivate}\"",
-            "navigationChange=\".on${4:NavigationChange}\"",
-            "complete=\".on${5:Complete}\"",
-            "currentStep=\".on${6:CurrentStep}\"$2"
+            "<m:Wizard",
+            "\twidth=\"auto\"",
+            "\theight=\"100%\"",
+            "\tshowNextButton=\"true\"",
+            "\tfinishButtonText=\"Review\"",
+            "\tenableBranching=\"false\"",
+            "\tbackgroundDesign=\"Standard\"",
+            "\trenderMode=\"Scroll\"",
+            "\tstepTitleLevel=\"H3\"",
+            "\tstepActivate=\".onStepActivate\"",
+            "\tnavigationChange=\".onNavigationChange\"",
+            "\tcomplete=\".onComplete\"",
+            ">",
+            "\t<steps>",
+            "\t\t<m:WizardStep",
+            "\t\t\t$1",
+            "\t\t/>",
+            "\t</steps>",
+            "</m:Wizard>"
         ],
-        "description": "sap.m.Wizard with non-inherited properties, aggregations and events"
+        "description": "sap.m.Wizard"
     }
 }

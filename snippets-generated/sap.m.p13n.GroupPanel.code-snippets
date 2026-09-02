@@ -1,41 +1,49 @@
 {
     "sap.m.p13n.GroupPanel": {
-        "prefix": "!5-group-panel",
+        "prefix": "!5-sap-m-p13n-grouppanel",
         "body": [
-            "<GroupPanel ",
+            "<p13n:GroupPanel ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.m.p13n.GroupPanel"
     },
     "sap.m.p13n.GroupPanel-properties": {
-        "prefix": "!5-group-panel-properties",
+        "prefix": "!5-sap-m-p13n-grouppanel",
         "body": [
-            "$1title=\"...see text or source\"",
-            "enableShowField=\"false\"$2"
+            "<p13n:GroupPanel",
+            "\ttitle=\"...see text or source\"",
+            "\tenableShowField=\"false\"",
+            "$1/>"
         ],
-        "description": "sap.m.p13n.GroupPanel with non-inherited properties"
+        "description": "sap.m.p13n.GroupPanel"
     },
     "sap.m.p13n.GroupPanel-aggregations": {
-        "prefix": "!5-group-panel-aggregations",
+        "prefix": "!5-sap-m-p13n-grouppanel",
         "body": [
-            "$1$2"
+            "<p13n:GroupPanel>",
+            "</p13n:GroupPanel>"
         ],
-        "description": "sap.m.p13n.GroupPanel with non-inherited aggregations"
+        "description": "sap.m.p13n.GroupPanel"
     },
     "sap.m.p13n.GroupPanel-events": {
-        "prefix": "!5-group-panel-events",
+        "prefix": "!5-sap-m-p13n-grouppanel",
         "body": [
-            "$1$2"
+            "<p13n:GroupPanel",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.p13n.GroupPanel with non-inherited events"
+        "description": "sap.m.p13n.GroupPanel"
     },
     "sap.m.p13n.GroupPanel-all": {
-        "prefix": "!5-group-panel-all",
+        "prefix": "!5-sap-m-p13n-grouppanel",
         "body": [
-            "$1title=\"...see text or source\"",
-            "enableShowField=\"false\"$2"
+            "<p13n:GroupPanel",
+            "\ttitle=\"...see text or source\"",
+            "\tenableShowField=\"false\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.p13n.GroupPanel with non-inherited properties, aggregations and events"
+        "description": "sap.m.p13n.GroupPanel"
     }
 }

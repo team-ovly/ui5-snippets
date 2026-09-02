@@ -1,51 +1,63 @@
 {
     "sap.f.Card": {
-        "prefix": "!5-card",
+        "prefix": "!5-sap-f-card",
         "body": [
-            "<Card ",
+            "<f:Card ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.f.Card"
     },
     "sap.f.Card-properties": {
-        "prefix": "!5-card-properties",
+        "prefix": "!5-sap-f-card",
         "body": [
-            "$1headerPosition=\"Top\"$2"
+            "<f:Card",
+            "\theaderPosition=\"Top\"",
+            "$1/>"
         ],
-        "description": "sap.f.Card with non-inherited properties"
+        "description": "sap.f.Card"
     },
     "sap.f.Card-aggregations": {
-        "prefix": "!5-card-aggregations",
+        "prefix": "!5-sap-f-card",
         "body": [
-            "$1<header>",
-            "\t<!-- <sap.f.cards.IHeader /> -->",
-            "</header>",
-            "<content>",
-            "\t<!-- <sap.ui.core.Control /> -->",
-            "</content>",
-            "$2"
+            "<f:Card>",
+            "\t<cards:IHeader>",
+            "\t\t$1",
+            "\t</cards:IHeader>",
+            "\t<core:Control>",
+            "\t\t$2",
+            "\t</core:Control>",
+            "</f:Card>"
         ],
-        "description": "sap.f.Card with non-inherited aggregations"
+        "description": "sap.f.Card"
     },
     "sap.f.Card-events": {
-        "prefix": "!5-card-events",
+        "prefix": "!5-sap-f-card",
         "body": [
-            "$1$2"
+            "<f:Card",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.f.Card with non-inherited events"
+        "description": "sap.f.Card"
     },
     "sap.f.Card-all": {
-        "prefix": "!5-card-all",
+        "prefix": "!5-sap-f-card",
         "body": [
-            "$1headerPosition=\"Top\"",
-            "<header>",
-            "\t<!-- <sap.f.cards.IHeader /> -->",
-            "</header>",
-            "<content>",
-            "\t<!-- <sap.ui.core.Control /> -->",
-            "</content>$2"
+            "<f:Card",
+            "\theaderPosition=\"Top\"",
+            ">",
+            "\t<header>",
+            "\t\t<cards:IHeader",
+            "\t\t\t$1",
+            "\t\t/>",
+            "\t</header>",
+            "\t<content>",
+            "\t\t<core:Control",
+            "\t\t\t$2",
+            "\t\t/>",
+            "\t</content>",
+            "</f:Card>"
         ],
-        "description": "sap.f.Card with non-inherited properties, aggregations and events"
+        "description": "sap.f.Card"
     }
 }

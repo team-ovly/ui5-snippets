@@ -1,44 +1,53 @@
 {
     "sap.m.CustomTreeItem": {
-        "prefix": "!5-custom-tree-item",
+        "prefix": "!5-sap-m-customtreeitem",
         "body": [
-            "<CustomTreeItem ",
+            "<m:CustomTreeItem ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.m.CustomTreeItem"
     },
     "sap.m.CustomTreeItem-properties": {
-        "prefix": "!5-custom-tree-item-properties",
+        "prefix": "!5-sap-m-customtreeitem",
         "body": [
-            "$1$2"
+            "<m:CustomTreeItem",
+            "$1/>"
         ],
-        "description": "sap.m.CustomTreeItem with non-inherited properties"
+        "description": "sap.m.CustomTreeItem"
     },
     "sap.m.CustomTreeItem-aggregations": {
-        "prefix": "!5-custom-tree-item-aggregations",
+        "prefix": "!5-sap-m-customtreeitem",
         "body": [
-            "$1<content>",
-            "\t<!-- <sap.ui.core.Control /> -->",
-            "</content>",
-            "$2"
+            "<m:CustomTreeItem>",
+            "\t<core:Control>",
+            "\t\t$1",
+            "\t</core:Control>",
+            "</m:CustomTreeItem>"
         ],
-        "description": "sap.m.CustomTreeItem with non-inherited aggregations"
+        "description": "sap.m.CustomTreeItem"
     },
     "sap.m.CustomTreeItem-events": {
-        "prefix": "!5-custom-tree-item-events",
+        "prefix": "!5-sap-m-customtreeitem",
         "body": [
-            "$1$2"
+            "<m:CustomTreeItem",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.CustomTreeItem with non-inherited events"
+        "description": "sap.m.CustomTreeItem"
     },
     "sap.m.CustomTreeItem-all": {
-        "prefix": "!5-custom-tree-item-all",
+        "prefix": "!5-sap-m-customtreeitem",
         "body": [
-            "$1<content>",
-            "\t<!-- <sap.ui.core.Control /> -->",
-            "</content>$2"
+            "<m:CustomTreeItem",
+            ">",
+            "\t<content>",
+            "\t\t<core:Control",
+            "\t\t\t$1",
+            "\t\t/>",
+            "\t</content>",
+            "</m:CustomTreeItem>"
         ],
-        "description": "sap.m.CustomTreeItem with non-inherited properties, aggregations and events"
+        "description": "sap.m.CustomTreeItem"
     }
 }

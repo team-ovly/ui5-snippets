@@ -1,96 +1,91 @@
 {
     "sap.m.Avatar": {
-        "prefix": "!5-avatar",
+        "prefix": "!5-sap-m-avatar",
         "body": [
-            "<Avatar ",
+            "<m:Avatar ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.m.Avatar"
     },
     "sap.m.Avatar-properties": {
-        "prefix": "!5-avatar-properties",
+        "prefix": "!5-sap-m-avatar",
         "body": [
-            "$1src=\"\"",
-            "initials=\"\"",
-            "displayShape=\"Circle\"",
-            "displaySize=\"S\"",
-            "customDisplaySize=\"3rem\"",
-            "customFontSize=\"1.125rem\"",
-            "imageFitType=\"Cover\"",
-            "fallbackIcon=\"\"",
-            "backgroundColor=\"Accent6\"",
-            "showBorder=\"false\"",
-            "badgeIcon=\"\"",
-            "badgeTooltip=\"\"",
-            "decorative=\"false\"",
-            "ariaHasPopup=\"None\"",
-            "badgeValueState=\"None\"",
-            "badgeIconColor=\"Accent6\"",
-            "enabled=\"true\"",
-            "active=\"false\"$2"
+            "<m:Avatar",
+            "\tsrc=\"null\"",
+            "\tinitials=\"null\"",
+            "\tdisplayShape=\"Circle\"",
+            "\tdisplaySize=\"S\"",
+            "\tcustomDisplaySize=\"3rem\"",
+            "\tcustomFontSize=\"1.125rem\"",
+            "\timageFitType=\"Cover\"",
+            "\tfallbackIcon=\"null\"",
+            "\tbackgroundColor=\"Accent6\"",
+            "\tshowBorder=\"false\"",
+            "\tbadgeIcon=\"\"",
+            "\tbadgeTooltip=\"null\"",
+            "\tdecorative=\"false\"",
+            "\tariaHasPopup=\"None\"",
+            "\tbadgeValueState=\"None\"",
+            "\tbadgeIconColor=\"Accent6\"",
+            "\tenabled=\"true\"",
+            "\tactive=\"false\"",
+            "$1/>"
         ],
-        "description": "sap.m.Avatar with non-inherited properties"
+        "description": "sap.m.Avatar"
     },
     "sap.m.Avatar-aggregations": {
-        "prefix": "!5-avatar-aggregations",
+        "prefix": "!5-sap-m-avatar",
         "body": [
-            "$1<detailBox>",
-            "\t<!-- <sap.m.LightBox /> -->",
-            "</detailBox>",
-            "<_badge>",
-            "\t<!-- <sap.ui.core.Icon /> -->",
-            "</_badge>",
-            "<_icon>",
-            "\t<!-- <sap.ui.core.Icon /> -->",
-            "</_icon>",
-            "$2"
+            "<m:Avatar>",
+            "\t<m:LightBox>",
+            "\t\t$1",
+            "\t</m:LightBox>",
+            "</m:Avatar>"
         ],
-        "description": "sap.m.Avatar with non-inherited aggregations"
+        "description": "sap.m.Avatar"
     },
     "sap.m.Avatar-events": {
-        "prefix": "!5-avatar-events",
+        "prefix": "!5-sap-m-avatar",
         "body": [
-            "$1press=\".on${3:Press}\"",
-            "ariaDescribedBy=\".on${4:AriaDescribedBy}\"",
-            "ariaLabelledBy=\".on${5:AriaLabelledBy}\"$2"
+            "<m:Avatar",
+            "\tpress=\".onPress\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.Avatar with non-inherited events"
+        "description": "sap.m.Avatar"
     },
     "sap.m.Avatar-all": {
-        "prefix": "!5-avatar-all",
+        "prefix": "!5-sap-m-avatar",
         "body": [
-            "$1src=\"\"",
-            "initials=\"\"",
-            "displayShape=\"Circle\"",
-            "displaySize=\"S\"",
-            "customDisplaySize=\"3rem\"",
-            "customFontSize=\"1.125rem\"",
-            "imageFitType=\"Cover\"",
-            "fallbackIcon=\"\"",
-            "backgroundColor=\"Accent6\"",
-            "showBorder=\"false\"",
-            "badgeIcon=\"\"",
-            "badgeTooltip=\"\"",
-            "decorative=\"false\"",
-            "ariaHasPopup=\"None\"",
-            "badgeValueState=\"None\"",
-            "badgeIconColor=\"Accent6\"",
-            "enabled=\"true\"",
-            "active=\"false\"",
-            "<detailBox>",
-            "\t<!-- <sap.m.LightBox /> -->",
-            "</detailBox>",
-            "<_badge>",
-            "\t<!-- <sap.ui.core.Icon /> -->",
-            "</_badge>",
-            "<_icon>",
-            "\t<!-- <sap.ui.core.Icon /> -->",
-            "</_icon>",
-            "press=\".on${3:Press}\"",
-            "ariaDescribedBy=\".on${4:AriaDescribedBy}\"",
-            "ariaLabelledBy=\".on${5:AriaLabelledBy}\"$2"
+            "<m:Avatar",
+            "\tsrc=\"null\"",
+            "\tinitials=\"null\"",
+            "\tdisplayShape=\"Circle\"",
+            "\tdisplaySize=\"S\"",
+            "\tcustomDisplaySize=\"3rem\"",
+            "\tcustomFontSize=\"1.125rem\"",
+            "\timageFitType=\"Cover\"",
+            "\tfallbackIcon=\"null\"",
+            "\tbackgroundColor=\"Accent6\"",
+            "\tshowBorder=\"false\"",
+            "\tbadgeIcon=\"\"",
+            "\tbadgeTooltip=\"null\"",
+            "\tdecorative=\"false\"",
+            "\tariaHasPopup=\"None\"",
+            "\tbadgeValueState=\"None\"",
+            "\tbadgeIconColor=\"Accent6\"",
+            "\tenabled=\"true\"",
+            "\tactive=\"false\"",
+            "\tpress=\".onPress\"",
+            ">",
+            "\t<detailBox>",
+            "\t\t<m:LightBox",
+            "\t\t\t$1",
+            "\t\t/>",
+            "\t</detailBox>",
+            "</m:Avatar>"
         ],
-        "description": "sap.m.Avatar with non-inherited properties, aggregations and events"
+        "description": "sap.m.Avatar"
     }
 }

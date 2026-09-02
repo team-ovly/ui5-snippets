@@ -1,74 +1,75 @@
 {
     "sap.ui.core.Icon": {
-        "prefix": "!5-icon",
+        "prefix": "!5-sap-ui-core-icon",
         "body": [
-            "<Icon ",
+            "<core:Icon ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.ui.core.Icon"
     },
     "sap.ui.core.Icon-properties": {
-        "prefix": "!5-icon-properties",
+        "prefix": "!5-sap-ui-core-icon",
         "body": [
-            "$1src=\"\"",
-            "size=\"\"",
-            "color=\"\"",
-            "hoverColor=\"\"",
-            "activeColor=\"\"",
-            "width=\"\"",
-            "height=\"\"",
-            "backgroundColor=\"\"",
-            "hoverBackgroundColor=\"\"",
-            "activeBackgroundColor=\"\"",
-            "decorative=\"true\"",
-            "useIconTooltip=\"true\"",
-            "alt=\"\"",
-            "noTabStop=\"false\"$2"
+            "<core:Icon",
+            "\tsrc=\"null\"",
+            "\tsize=\"null\"",
+            "\tcolor=\"null\"",
+            "\thoverColor=\"null\"",
+            "\tactiveColor=\"null\"",
+            "\twidth=\"null\"",
+            "\theight=\"null\"",
+            "\tbackgroundColor=\"null\"",
+            "\thoverBackgroundColor=\"null\"",
+            "\tactiveBackgroundColor=\"null\"",
+            "\tdecorative=\"true\"",
+            "\tuseIconTooltip=\"true\"",
+            "\talt=\"null\"",
+            "\tnoTabStop=\"false\"",
+            "$1/>"
         ],
-        "description": "sap.ui.core.Icon with non-inherited properties"
+        "description": "sap.ui.core.Icon"
     },
     "sap.ui.core.Icon-aggregations": {
-        "prefix": "!5-icon-aggregations",
+        "prefix": "!5-sap-ui-core-icon",
         "body": [
-            "$1<_invisibleText>",
-            "\t<!-- <sap.ui.core.InvisibleText /> -->",
-            "</_invisibleText>",
-            "$2"
+            "<core:Icon>",
+            "</core:Icon>"
         ],
-        "description": "sap.ui.core.Icon with non-inherited aggregations"
+        "description": "sap.ui.core.Icon"
     },
     "sap.ui.core.Icon-events": {
-        "prefix": "!5-icon-events",
+        "prefix": "!5-sap-ui-core-icon",
         "body": [
-            "$1press=\".on${3:Press}\"",
-            "ariaLabelledBy=\".on${4:AriaLabelledBy}\"$2"
+            "<core:Icon",
+            "\tpress=\".onPress\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.ui.core.Icon with non-inherited events"
+        "description": "sap.ui.core.Icon"
     },
     "sap.ui.core.Icon-all": {
-        "prefix": "!5-icon-all",
+        "prefix": "!5-sap-ui-core-icon",
         "body": [
-            "$1src=\"\"",
-            "size=\"\"",
-            "color=\"\"",
-            "hoverColor=\"\"",
-            "activeColor=\"\"",
-            "width=\"\"",
-            "height=\"\"",
-            "backgroundColor=\"\"",
-            "hoverBackgroundColor=\"\"",
-            "activeBackgroundColor=\"\"",
-            "decorative=\"true\"",
-            "useIconTooltip=\"true\"",
-            "alt=\"\"",
-            "noTabStop=\"false\"",
-            "<_invisibleText>",
-            "\t<!-- <sap.ui.core.InvisibleText /> -->",
-            "</_invisibleText>",
-            "press=\".on${3:Press}\"",
-            "ariaLabelledBy=\".on${4:AriaLabelledBy}\"$2"
+            "<core:Icon",
+            "\tsrc=\"null\"",
+            "\tsize=\"null\"",
+            "\tcolor=\"null\"",
+            "\thoverColor=\"null\"",
+            "\tactiveColor=\"null\"",
+            "\twidth=\"null\"",
+            "\theight=\"null\"",
+            "\tbackgroundColor=\"null\"",
+            "\thoverBackgroundColor=\"null\"",
+            "\tactiveBackgroundColor=\"null\"",
+            "\tdecorative=\"true\"",
+            "\tuseIconTooltip=\"true\"",
+            "\talt=\"null\"",
+            "\tnoTabStop=\"false\"",
+            "\tpress=\".onPress\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.ui.core.Icon with non-inherited properties, aggregations and events"
+        "description": "sap.ui.core.Icon"
     }
 }

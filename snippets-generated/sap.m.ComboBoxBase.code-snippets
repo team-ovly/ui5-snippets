@@ -1,58 +1,59 @@
 {
     "sap.m.ComboBoxBase": {
-        "prefix": "!5-combo-box-base",
+        "prefix": "!5-sap-m-comboboxbase",
         "body": [
-            "<ComboBoxBase ",
+            "<m:ComboBoxBase ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.m.ComboBoxBase"
     },
     "sap.m.ComboBoxBase-properties": {
-        "prefix": "!5-combo-box-base-properties",
+        "prefix": "!5-sap-m-comboboxbase",
         "body": [
-            "$1showSecondaryValues=\"false\"",
-            "open=\"false\"",
-            "showClearIcon=\"false\"",
-            "effectiveShowClearIcon=\"false\"$2"
+            "<m:ComboBoxBase",
+            "\tshowSecondaryValues=\"false\"",
+            "\tshowClearIcon=\"false\"",
+            "$1/>"
         ],
-        "description": "sap.m.ComboBoxBase with non-inherited properties"
+        "description": "sap.m.ComboBoxBase"
     },
     "sap.m.ComboBoxBase-aggregations": {
-        "prefix": "!5-combo-box-base-aggregations",
+        "prefix": "!5-sap-m-comboboxbase",
         "body": [
-            "$1<items>",
-            "\t<!-- <sap.ui.core.Item /> -->",
-            "</items>",
-            "<picker>",
-            "\t<!-- <sap.ui.core.PopupInterface /> -->",
-            "</picker>",
-            "$2"
+            "<m:ComboBoxBase>",
+            "\t<core:Item>",
+            "\t\t$1",
+            "\t</core:Item>",
+            "</m:ComboBoxBase>"
         ],
-        "description": "sap.m.ComboBoxBase with non-inherited aggregations"
+        "description": "sap.m.ComboBoxBase"
     },
     "sap.m.ComboBoxBase-events": {
-        "prefix": "!5-combo-box-base-events",
+        "prefix": "!5-sap-m-comboboxbase",
         "body": [
-            "$1loadItems=\".on${3:LoadItems}\"$2"
+            "<m:ComboBoxBase",
+            "\tloadItems=\".onLoadItems\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.ComboBoxBase with non-inherited events"
+        "description": "sap.m.ComboBoxBase"
     },
     "sap.m.ComboBoxBase-all": {
-        "prefix": "!5-combo-box-base-all",
+        "prefix": "!5-sap-m-comboboxbase",
         "body": [
-            "$1showSecondaryValues=\"false\"",
-            "open=\"false\"",
-            "showClearIcon=\"false\"",
-            "effectiveShowClearIcon=\"false\"",
-            "<items>",
-            "\t<!-- <sap.ui.core.Item /> -->",
-            "</items>",
-            "<picker>",
-            "\t<!-- <sap.ui.core.PopupInterface /> -->",
-            "</picker>",
-            "loadItems=\".on${3:LoadItems}\"$2"
+            "<m:ComboBoxBase",
+            "\tshowSecondaryValues=\"false\"",
+            "\tshowClearIcon=\"false\"",
+            "\tloadItems=\".onLoadItems\"",
+            ">",
+            "\t<items>",
+            "\t\t<core:Item",
+            "\t\t\t$1",
+            "\t\t/>",
+            "\t</items>",
+            "</m:ComboBoxBase>"
         ],
-        "description": "sap.m.ComboBoxBase with non-inherited properties, aggregations and events"
+        "description": "sap.m.ComboBoxBase"
     }
 }

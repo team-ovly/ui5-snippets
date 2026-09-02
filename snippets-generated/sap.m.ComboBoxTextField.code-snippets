@@ -1,41 +1,49 @@
 {
     "sap.m.ComboBoxTextField": {
-        "prefix": "!5-combo-box-text-field",
+        "prefix": "!5-sap-m-comboboxtextfield",
         "body": [
-            "<ComboBoxTextField ",
+            "<m:ComboBoxTextField ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.m.ComboBoxTextField"
     },
     "sap.m.ComboBoxTextField-properties": {
-        "prefix": "!5-combo-box-text-field-properties",
+        "prefix": "!5-sap-m-comboboxtextfield",
         "body": [
-            "$1maxWidth=\"100%\"",
-            "showButton=\"true\"$2"
+            "<m:ComboBoxTextField",
+            "\tmaxWidth=\"100%\"",
+            "\tshowButton=\"true\"",
+            "$1/>"
         ],
-        "description": "sap.m.ComboBoxTextField with non-inherited properties"
+        "description": "sap.m.ComboBoxTextField"
     },
     "sap.m.ComboBoxTextField-aggregations": {
-        "prefix": "!5-combo-box-text-field-aggregations",
+        "prefix": "!5-sap-m-comboboxtextfield",
         "body": [
-            "$1$2"
+            "<m:ComboBoxTextField>",
+            "</m:ComboBoxTextField>"
         ],
-        "description": "sap.m.ComboBoxTextField with non-inherited aggregations"
+        "description": "sap.m.ComboBoxTextField"
     },
     "sap.m.ComboBoxTextField-events": {
-        "prefix": "!5-combo-box-text-field-events",
+        "prefix": "!5-sap-m-comboboxtextfield",
         "body": [
-            "$1$2"
+            "<m:ComboBoxTextField",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.ComboBoxTextField with non-inherited events"
+        "description": "sap.m.ComboBoxTextField"
     },
     "sap.m.ComboBoxTextField-all": {
-        "prefix": "!5-combo-box-text-field-all",
+        "prefix": "!5-sap-m-comboboxtextfield",
         "body": [
-            "$1maxWidth=\"100%\"",
-            "showButton=\"true\"$2"
+            "<m:ComboBoxTextField",
+            "\tmaxWidth=\"100%\"",
+            "\tshowButton=\"true\"",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.ComboBoxTextField with non-inherited properties, aggregations and events"
+        "description": "sap.m.ComboBoxTextField"
     }
 }

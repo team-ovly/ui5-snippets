@@ -1,39 +1,45 @@
 {
     "sap.m.OverflowToolbarToggleButton": {
-        "prefix": "!5-overflow-toolbar-toggle-button",
+        "prefix": "!5-sap-m-overflowtoolbartogglebutton",
         "body": [
-            "<OverflowToolbarToggleButton ",
+            "<m:OverflowToolbarToggleButton ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.m.OverflowToolbarToggleButton"
     },
     "sap.m.OverflowToolbarToggleButton-properties": {
-        "prefix": "!5-overflow-toolbar-toggle-button-properties",
+        "prefix": "!5-sap-m-overflowtoolbartogglebutton",
         "body": [
-            "$1$2"
+            "<m:OverflowToolbarToggleButton",
+            "$1/>"
         ],
-        "description": "sap.m.OverflowToolbarToggleButton with non-inherited properties"
+        "description": "sap.m.OverflowToolbarToggleButton"
     },
     "sap.m.OverflowToolbarToggleButton-aggregations": {
-        "prefix": "!5-overflow-toolbar-toggle-button-aggregations",
+        "prefix": "!5-sap-m-overflowtoolbartogglebutton",
         "body": [
-            "$1$2"
+            "<m:OverflowToolbarToggleButton>",
+            "</m:OverflowToolbarToggleButton>"
         ],
-        "description": "sap.m.OverflowToolbarToggleButton with non-inherited aggregations"
+        "description": "sap.m.OverflowToolbarToggleButton"
     },
     "sap.m.OverflowToolbarToggleButton-events": {
-        "prefix": "!5-overflow-toolbar-toggle-button-events",
+        "prefix": "!5-sap-m-overflowtoolbartogglebutton",
         "body": [
-            "$1$2"
+            "<m:OverflowToolbarToggleButton",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.OverflowToolbarToggleButton with non-inherited events"
+        "description": "sap.m.OverflowToolbarToggleButton"
     },
     "sap.m.OverflowToolbarToggleButton-all": {
-        "prefix": "!5-overflow-toolbar-toggle-button-all",
+        "prefix": "!5-sap-m-overflowtoolbartogglebutton",
         "body": [
-            "$1$2"
+            "<m:OverflowToolbarToggleButton",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.OverflowToolbarToggleButton with non-inherited properties, aggregations and events"
+        "description": "sap.m.OverflowToolbarToggleButton"
     }
 }

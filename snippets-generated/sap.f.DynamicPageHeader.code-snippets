@@ -1,59 +1,57 @@
 {
     "sap.f.DynamicPageHeader": {
-        "prefix": "!5-dynamic-page-header",
+        "prefix": "!5-sap-f-dynamicpageheader",
         "body": [
-            "<DynamicPageHeader ",
+            "<f:DynamicPageHeader ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.f.DynamicPageHeader"
     },
     "sap.f.DynamicPageHeader-properties": {
-        "prefix": "!5-dynamic-page-header-properties",
+        "prefix": "!5-sap-f-dynamicpageheader",
         "body": [
-            "$1pinnable=\"true\"",
-            "backgroundDesign=\"\"$2"
+            "<f:DynamicPageHeader",
+            "\tpinnable=\"true\"",
+            "\tbackgroundDesign=\"null\"",
+            "$1/>"
         ],
-        "description": "sap.f.DynamicPageHeader with non-inherited properties"
+        "description": "sap.f.DynamicPageHeader"
     },
     "sap.f.DynamicPageHeader-aggregations": {
-        "prefix": "!5-dynamic-page-header-aggregations",
+        "prefix": "!5-sap-f-dynamicpageheader",
         "body": [
-            "$1<content>",
-            "\t<!-- <sap.ui.core.Control /> -->",
-            "</content>",
-            "<_pinButton>",
-            "\t<!-- <sap.m.Button /> -->",
-            "</_pinButton>",
-            "<_collapseButton>",
-            "\t<!-- <sap.m.Button /> -->",
-            "</_collapseButton>",
-            "$2"
+            "<f:DynamicPageHeader>",
+            "\t<core:Control>",
+            "\t\t$1",
+            "\t</core:Control>",
+            "</f:DynamicPageHeader>"
         ],
-        "description": "sap.f.DynamicPageHeader with non-inherited aggregations"
+        "description": "sap.f.DynamicPageHeader"
     },
     "sap.f.DynamicPageHeader-events": {
-        "prefix": "!5-dynamic-page-header-events",
+        "prefix": "!5-sap-f-dynamicpageheader",
         "body": [
-            "$1$2"
+            "<f:DynamicPageHeader",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.f.DynamicPageHeader with non-inherited events"
+        "description": "sap.f.DynamicPageHeader"
     },
     "sap.f.DynamicPageHeader-all": {
-        "prefix": "!5-dynamic-page-header-all",
+        "prefix": "!5-sap-f-dynamicpageheader",
         "body": [
-            "$1pinnable=\"true\"",
-            "backgroundDesign=\"\"",
-            "<content>",
-            "\t<!-- <sap.ui.core.Control /> -->",
-            "</content>",
-            "<_pinButton>",
-            "\t<!-- <sap.m.Button /> -->",
-            "</_pinButton>",
-            "<_collapseButton>",
-            "\t<!-- <sap.m.Button /> -->",
-            "</_collapseButton>$2"
+            "<f:DynamicPageHeader",
+            "\tpinnable=\"true\"",
+            "\tbackgroundDesign=\"null\"",
+            ">",
+            "\t<content>",
+            "\t\t<core:Control",
+            "\t\t\t$1",
+            "\t\t/>",
+            "\t</content>",
+            "</f:DynamicPageHeader>"
         ],
-        "description": "sap.f.DynamicPageHeader with non-inherited properties, aggregations and events"
+        "description": "sap.f.DynamicPageHeader"
     }
 }

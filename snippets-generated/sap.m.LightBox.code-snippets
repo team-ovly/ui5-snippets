@@ -1,68 +1,53 @@
 {
     "sap.m.LightBox": {
-        "prefix": "!5-light-box",
+        "prefix": "!5-sap-m-lightbox",
         "body": [
-            "<LightBox ",
+            "<m:LightBox ",
             "\t$1",
             "\t/>"
         ],
         "description": "sap.m.LightBox"
     },
     "sap.m.LightBox-properties": {
-        "prefix": "!5-light-box-properties",
+        "prefix": "!5-sap-m-lightbox",
         "body": [
-            "$1$2"
+            "<m:LightBox",
+            "$1/>"
         ],
-        "description": "sap.m.LightBox with non-inherited properties"
+        "description": "sap.m.LightBox"
     },
     "sap.m.LightBox-aggregations": {
-        "prefix": "!5-light-box-aggregations",
+        "prefix": "!5-sap-m-lightbox",
         "body": [
-            "$1<imageContent>",
-            "\t<!-- <sap.m.LightBoxItem /> -->",
-            "</imageContent>",
-            "<_closeButton>",
-            "\t<!-- <sap.m.Button /> -->",
-            "</_closeButton>",
-            "<_errorMessage>",
-            "\t<!-- <sap.m.IllustratedMessage /> -->",
-            "</_errorMessage>",
-            "<_invisiblePopupText>",
-            "\t<!-- <sap.ui.core.InvisibleText /> -->",
-            "</_invisiblePopupText>",
-            "<_busy>",
-            "\t<!-- <sap.m.BusyIndicator /> -->",
-            "</_busy>",
-            "$2"
+            "<m:LightBox>",
+            "\t<m:LightBoxItem>",
+            "\t\t$1",
+            "\t</m:LightBoxItem>",
+            "</m:LightBox>"
         ],
-        "description": "sap.m.LightBox with non-inherited aggregations"
+        "description": "sap.m.LightBox"
     },
     "sap.m.LightBox-events": {
-        "prefix": "!5-light-box-events",
+        "prefix": "!5-sap-m-lightbox",
         "body": [
-            "$1$2"
+            "<m:LightBox",
+            "\t$1",
+            "/>"
         ],
-        "description": "sap.m.LightBox with non-inherited events"
+        "description": "sap.m.LightBox"
     },
     "sap.m.LightBox-all": {
-        "prefix": "!5-light-box-all",
+        "prefix": "!5-sap-m-lightbox",
         "body": [
-            "$1<imageContent>",
-            "\t<!-- <sap.m.LightBoxItem /> -->",
-            "</imageContent>",
-            "<_closeButton>",
-            "\t<!-- <sap.m.Button /> -->",
-            "</_closeButton>",
-            "<_errorMessage>",
-            "\t<!-- <sap.m.IllustratedMessage /> -->",
-            "</_errorMessage>",
-            "<_invisiblePopupText>",
-            "\t<!-- <sap.ui.core.InvisibleText /> -->",
-            "</_invisiblePopupText>",
-            "<_busy>",
-            "\t<!-- <sap.m.BusyIndicator /> -->",
-            "</_busy>$2"
+            "<m:LightBox",
+            ">",
+            "\t<imageContent>",
+            "\t\t<m:LightBoxItem",
+            "\t\t\t$1",
+            "\t\t/>",
+            "\t</imageContent>",
+            "</m:LightBox>"
         ],
-        "description": "sap.m.LightBox with non-inherited properties, aggregations and events"
+        "description": "sap.m.LightBox"
     }
 }
